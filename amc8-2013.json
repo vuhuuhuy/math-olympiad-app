@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "question": "Danica wants to arrange her model cars in rows with exactly 6 cars in each row. She now has 23 model cars. What is the smallest number of additional cars she must buy in order to be able to arrange her cars in this way?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "answer": "(A) 1",
+    "explanation": "The smallest multiple of 6 that is at least 23 is 24, so Danica must buy 1 additional car[cite: 29]."
+  },
+  {
+    "id": 2,
+    "question": "A sign at the fish market says, \"50% off, today only: half-pound packages for just $3 per package.\" What is the regular price for a full pound of fish, in dollars?",
+    "options": ["(A) 6", "(B) 9", "(C) 10", "(D) 12", "(E) 15"],
+    "answer": "(D) 12",
+    "explanation": "A half-pound package costs $3 at the sale price, so it would cost $6 at the regular price. A whole pound would cost $12 at the regular price[cite: 29]."
+  },
+  {
+    "id": 3,
+    "question": "What is the value of $4 \\cdot (-1 + 2 - 3 + 4 - 5 + 6 - 7 + \\dots + 1000)$?",
+    "options": ["(A) -10", "(B) 0", "(C) 1", "(D) 500", "(E) 2000"],
+    "answer": "(E) 2000",
+    "explanation": "Inside the parentheses are 500 pairs of numbers, each with a sum of 1. Therefore the expression equals $4 \\cdot 500 = 2000$[cite: 29]."
+  },
+  {
+    "id": 4,
+    "question": "Eight friends ate at a restaurant and agreed to share the bill equally. Because Judi forgot her money, each of her seven friends paid an extra $2.50 to cover her portion of the total bill. What was the total bill?",
+    "options": ["(A) $120", "(B) $128", "(C) $140", "(D) $144", "(E) $160"],
+    "answer": "(C) $140",
+    "explanation": "Judi's share of the bill was $7(\\$2.50) = \\$17.50$, so the total bill was $8(\\$17.50) = \\$140$[cite: 29]."
+  },
+  {
+    "id": 5,
+    "question": "Hammie is in the $6^{th}$ grade and weighs 106 pounds. His quadruplet sisters are tiny babies and weigh 5, 5, 6, and 8 pounds. Which is greater, the average (mean) weight of these five children or the median weight, and by how many pounds?",
+    "options": ["(A) median, by 60", "(B) median, by 20", "(C) average, by 5", "(D) average, by 15", "(E) average, by 20"],
+    "answer": "(E) average, by 20",
+    "explanation": "The total weight is 130 pounds, so the average is 26 pounds[cite: 29]. The median is 6 pounds, so the average is greater by 20 pounds[cite: 29]."
+  },
+  {
+    "id": 6,
+    "question": "The number in each box below is the product of the numbers in the two boxes that touch it in the row above. For example, $30 = 6 \\times 5$. What is the missing number in the top row?",
+    "options": ["(A) 2", "(B) 3", "(C) 4", "(D) 5", "(E) 6"],
+    "answer": "(C) 4",
+    "explanation": "The product of the two numbers in the second row is 600, so the missing number in that row is $600 / 30 = 20$[cite: 29]. The missing number in the top row is $20 / 5 = 4$[cite: 29]."
+  },
+  {
+    "id": 7,
+    "question": "Trey and his mom stopped at a railroad crossing to let a train pass. As the train began to pass, Trey counted 6 cars in the first 10 seconds. It took the train 2 minutes and 45 seconds to clear the crossing at a constant speed. Which of the following was the most likely number of cars in the train?",
+    "options": ["(A) 60", "(B) 80", "(C) 100", "(D) 120", "(E) 140"],
+    "answer": "(C) 100",
+    "explanation": "Using proportion, in 165 seconds the number of cars is $N = (6/10) \\times 165 = 99$, which is approximately 100 cars[cite: 29]."
+  },
+  {
+    "id": 8,
+    "question": "A fair coin is tossed 3 times. What is the probability of at least two consecutive heads?",
+    "options": ["(A) $\\frac{1}{8}$", "(B) $\\frac{1}{4}$", "(C) $\\frac{3}{8}$", "(D) $\\frac{1}{2}$", "(E) $\\frac{3}{4}$"],
+    "answer": "(C) $\\frac{3}{8}$",
+    "explanation": "Out of 8 possible outcomes, HHH, HHT, and THH have at least 2 consecutive heads, giving a probability of $3/8$[cite: 29]."
+  },
+  {
+    "id": 9,
+    "question": "The Incredible Hulk can double the distance he jumps with each succeeding jump. If his first jump is 1 meter, the second jump is 2 meters, the third jump is 4 meters, and so on, then on which jump will he first be able to jump more than 1 kilometer?",
+    "options": ["(A) $9^{th}$", "(B) $10^{th}$", "(C) $11^{th}$", "(D) $12^{th}$", "(E) $13^{th}$"],
+    "answer": "(C) $11^{th}$",
+    "explanation": "On the $11^{th}$ jump, the distance is $2^{10} = 1024$ meters, which exceeds 1 kilometer[cite: 30]."
+  },
+  {
+    "id": 10,
+    "question": "What is the ratio of the least common multiple of 180 and 594 to the greatest common factor of 180 and 594?",
+    "options": ["(A) 110", "(B) 165", "(C) 330", "(D) 625", "(E) 660"],
+    "answer": "(C) 330",
+    "explanation": "The ratio simplifies to $(2^2 \\cdot 3^3 \\cdot 5 \\cdot 11) / (2 \\cdot 3^2) = 2 \\cdot 3 \\cdot 5 \\cdot 11 = 330$[cite: 30]."
+  },
+  {
+    "id": 11,
+    "question": "Ted's grandfather used his treadmill on 3 days this week. He went 2 miles each day at varying speeds on Monday (5 mph), Wednesday (3 mph), and Friday (4 mph). If Grandfather had always walked at 4 miles per hour, how many minutes less would he have spent on the treadmill?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "answer": "(D) 4",
+    "explanation": "Actual time spent was $24 + 40 + 30 = 94$ minutes[cite: 30]. At a constant 4 mph, it would take 90 minutes, saving 4 minutes[cite: 30]."
+  },
+  {
+    "id": 12,
+    "question": "At the 2013 Winnebago County Fair a vendor is offering a 'fair special' on sandals. If you buy one pair of sandals at the regular price of &#36;50, you get a second pair at a 40% discount, and a third pair at half the regular price. Javier took advantage of the 'fair special' to buy three pairs of sandals. What percentage of the &#36;150 regular price did he save?",
+    "options": ["(A) 25", "(B) 30", "(C) 33", "(D) 40", "(E) 45"],
+    "answer": "(B) 30",
+    "explanation": "Javier spent &#36;50 on the first pair, &#36;30 on the second pair, and &#36;25 on the third pair, for a total of &#36;105. This is a savings of &#36;45 off the &#36;150 list price, which is 30% off."
+  },
+  {
+    "id": 13,
+    "question": "When Clara totaled her scores, she inadvertently reversed the units digit and the tens digit of one score. By which of the following might her incorrect sum have differed from the correct one?",
+    "options": ["(A) 45", "(B) 46", "(C) 47", "(D) 48", "(E) 49"],
+    "answer": "(A) 45",
+    "explanation": "Reversing two digits changes the sum by a multiple of 9. Among the choices, 45 is a possible difference[cite: 30]."
+  },
+  {
+    "id": 14,
+    "question": "Abe holds 1 green and 1 red jelly bean. Bea holds 1 green, 1 yellow, and 2 red jelly beans. Each randomly picks a jelly bean to show the other. What is the probability that the colors match?",
+    "options": ["(A) $\\frac{1}{4}$", "(B) $\\frac{1}{3}$", "(C) $\\frac{3}{8}$", "(D) $\\frac{1}{2}$", "(E) $\\frac{2}{3}$"],
+    "answer": "(C) $\\frac{3}{8}$",
+    "explanation": "Out of 8 equally likely pairings, only 3 result in matching colors, giving a probability of $3/8$[cite: 30]."
+  },
+  {
+    "id": 15,
+    "question": "If $3^p + 3^4 = 90$, $2^r + 44 = 76$, and $5^3 + 6^s = 1421$, what is the product of p, r, and s?",
+    "options": ["(A) 27", "(B) 40", "(C) 50", "(D) 70", "(E) 90"],
+    "answer": "(B) 40",
+    "explanation": "Solving the equations gives $p = 2$, $r = 5$, and $s = 4$. Their product is $2 \\times 5 \\times 4 = 40$[cite: 31]."
+  },
+  {
+    "id": 16,
+    "question": "A number of students from Fibonacci Middle School are taking part in a community service project. The ratio of $8^{th}$-graders to $6^{th}$-graders is 5:3, and the ratio of $8^{th}$-graders to $7^{th}$-graders is 8:5. What is the smallest number of students that could be participating in the project?",
+    "options": ["(A) 16", "(B) 40", "(C) 55", "(D) 79", "(E) 89"],
+    "answer": "(E) 89",
+    "explanation": "Using 40 as the number of $8^{th}$-graders, there are $24$ sixth-graders and $25$ seventh-graders, totaling $40 + 24 + 25 = 89$ students[cite: 31]."
+  },
+  {
+    "id": 17,
+    "question": "The sum of six consecutive positive integers is 2013. What is the largest of these six integers?",
+    "options": ["(A) 335", "(B) 338", "(C) 340", "(D) 345", "(E) 350"],
+    "answer": "(B) 338",
+    "explanation": "The average of the six integers is $2013 / 6 = 335.5$, making the numbers $333$ through $338$[cite: 31]."
+  },
+  {
+    "id": 18,
+    "question": "Isabella uses one-foot cubical blocks to build a rectangular fort that is 12 feet long, 10 feet wide, and 5 feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain?",
+    "options": ["(A) 204", "(B) 280", "(C) 320", "(D) 340", "(E) 600"],
+    "answer": "(B) 280",
+    "explanation": "Total outer volume is 600 cubic feet and inner empty volume is 320 cubic feet, leaving $600 - 320 = 280$ blocks[cite: 31]."
+  },
+  {
+    "id": 19,
+    "question": "Bridget, Cassie, and Hannah discuss their test scores. Cassie says, 'I didn't get the lowest score,' and Bridget adds, 'I didn't get the highest score.' What is the ranking of the three girls from highest to lowest?",
+    "options": [
+      "(A) Hannah, Cassie, Bridget",
+      "(B) Hannah, Bridget, Cassie",
+      "(C) Cassie, Bridget, Hannah",
+      "(D) Cassie, Hannah, Bridget",
+      "(E) Bridget, Cassie, Hannah"
+    ],
+    "answer": "(D) Cassie, Hannah, Bridget",
+    "explanation": "Cassie's score is higher than Hannah's, and Bridget's score is lower than Hannah's, yielding the order: Cassie, Hannah, Bridget[cite: 31]."
+  },
+  {
+    "id": 20,
+    "question": "A $1 \\times 2$ rectangle is inscribed in a semicircle with the longer side on the diameter. What is the area of the semicircle?",
+    "options": ["(A) $\\frac{\\pi}{2}$", "(B) $\\frac{2\\pi}{3}$", "(C) $\\pi$", "(D) $\\frac{4\\pi}{3}$", "(E) $\\frac{5\\pi}{3}$"],
+    "answer": "(C) $\\pi$",
+    "explanation": "By the Pythagorean Theorem, the radius of the semicircle is $\\sqrt{2}$, so its area is $\\pi(\\sqrt{2})^2 / 2 = \\pi$[cite: 31]."
+  },
+  {
+    "id": 21,
+    "question": "Samantha's travel route involves navigating a grid and taking a diagonal path through City Park. If her route is as short as possible, how many different routes can she take?",
+    "options": ["(A) 3", "(B) 6", "(C) 9", "(D) 12", "(E) 18"],
+    "answer": "(E) 18",
+    "explanation": "There are 3 ways to the park entry and 6 ways from the park exit to school, giving $3 \\times 6 = 18$ routes[cite: 32]."
+  },
+  {
+    "id": 22,
+    "question": "Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks high. How many toothpicks are used altogether?",
+    "options": ["(A) 1920", "(B) 1952", "(C) 1980", "(D) 2013", "(E) 3932"],
+    "answer": "(E) 3932",
+    "explanation": "The grid requires $(61 \\times 32) + (33 \\times 60) = 3932$ toothpicks[cite: 32]."
+  },
+  {
+    "id": 23,
+    "question": "Angle ABC of $\\triangle ABC$ is a right angle. The sides of $\\triangle ABC$ are diameters of semicircles. The semicircle area on $AB$ is $8\\pi$ and arc length on $AC$ is $8.5\\pi$. What is the radius of the semicircle on $BC$?",
+    "options": ["(A) 7", "(B) 7.5", "(C) 8", "(D) 8.5", "(E) 9"],
+    "answer": "(B) 7.5",
+    "explanation": "Sides are $AB = 8$ and $AC = 17$. By Pythagorean theorem, $BC = 15$, making its radius $7.5$[cite: 33]."
+  },
+  {
+    "id": 24,
+    "question": "Squares ABCD, EFGH, and GHIJ are equal in area. Points C and D are midpoints of IH and HE. What is the ratio of the area of the shaded pentagon AJICB to the sum of the areas of the three squares?",
+    "options": ["(A) $\\frac{1}{4}$", "(B) $\\frac{7}{24}$", "(C) $\\frac{1}{3}$", "(D) $\\frac{3}{8}$", "(E) $\\frac{5}{12}$"],
+    "answer": "(C) $\\frac{1}{3}$",
+    "explanation": "The total area of the three squares is 3 and the shaded area is 1, giving a ratio of $1/3$[cite: 33]."
+  },
+  {
+    "id": 25,
+    "question": "A ball with diameter 4 inches starts at point A to roll along the track comprised of 3 semicircular arcs with radii $R_1 = 100$, $R_2 = 60$, and $R_3 = 80$ inches. What is the distance the center of the ball travels from A to B?",
+    "options": ["(A) $238\\pi$", "(B) $240\\pi$", "(C) $260\\pi$", "(D) $280\\pi$", "(E) $500\\pi$"],
+    "answer": "(A) $238\\pi$",
+    "explanation": "The center of the ball rolls through semicircles of radii $98$, $62$, and $78$ inches, yielding a total path length of $\\pi(98 + 62 + 78) = 238\\pi$[cite: 34]."
+  }
+]

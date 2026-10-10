@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "The longest professional tennis match ever played lasted a total of 11 hours and 5 minutes. How many minutes was this?",
+    "options": ["(A) 605", "(B) 655", "(C) 665", "(D) 1005", "(E) 1105"],
+    "answer": "(C) 665",
+    "explanation": "There are 60 minutes in 1 hour, so 11 hours plus 5 minutes is equal to 11 * 60 + 5 = 665 minutes."
+  },
+  {
+    "id": 2,
+    "question": "In rectangle ABCD, AB = 6 and AD = 8. Point M is the midpoint of segment AD. What is the area of triangle AMC?",
+    "options": ["(A) 12", "(B) 15", "(C) 18", "(D) 20", "(E) 24"],
+    "answer": "(A) 12",
+    "explanation": "The altitude from C to the base segment AM is CD. Thus the area of the shaded triangle AMC is (1/2) * AM * CD = (1/2) * 4 * 6 = 12."
+  },
+  {
+    "id": 3,
+    "question": "Four students take an exam. Three of their scores are 70, 80, and 90. If the average of their four scores is 70, then what is the remaining score?",
+    "options": ["(A) 40", "(B) 50", "(C) 55", "(D) 60", "(E) 70"],
+    "answer": "(A) 40",
+    "explanation": "The given scores 70, 80, and 90 are a total of 30 above the stated average. Thus the remaining score is 30 points below the average, so 70 - 30 = 40."
+  },
+  {
+    "id": 4,
+    "question": "When Cheenu was a boy he could run 15 miles in 3 hours and 30 minutes. As an old man he can now walk 10 miles in 4 hours. How many minutes longer does it take for him to walk a mile now compared to when he was a boy?",
+    "options": ["(A) 6", "(B) 10", "(C) 15", "(D) 18", "(E) 30"],
+    "answer": "(B) 10",
+    "explanation": "As a boy it took 210 minutes for 15 miles (14 minutes per mile). As an old man it takes 240 minutes for 10 miles (24 minutes per mile). Difference is 24 - 14 = 10 minutes."
+  },
+  {
+    "id": 5,
+    "question": "The number N is a two-digit number. When N is divided by 9, the remainder is 1. When N is divided by 10, the remainder is 3. What is the remainder when N is divided by 11?",
+    "options": ["(A) 0", "(B) 2", "(C) 4", "(D) 5", "(E) 7"],
+    "answer": "(E) 7",
+    "explanation": "The two-digit numbers leaving remainder 3 when divided by 10 and remainder 1 when divided by 9 intersect only at 73. When 73 is divided by 11 the remainder is 7."
+  },
+  {
+    "id": 6,
+    "question": "The following bar graph represents the length (in letters) of the names of 19 people. What is the median length of these names?",
+    "options": ["(A) 3", "(B) 4", "(C) 5", "(D) 6", "(E) 7"],
+    "answer": "(B) 4",
+    "explanation": "The 19 name lengths are ordered, and the tenth value, 4, is the median."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following numbers is not a perfect square?",
+    "options": ["(A) 1^2016", "(B) 2^2017", "(C) 3^2018", "(D) 4^2019", "(E) 5^2020"],
+    "answer": "(B) 2^2017",
+    "explanation": "The number 2^2017 is not a perfect square because it is twice a square 2(2^1008)^2."
+  },
+  {
+    "id": 8,
+    "question": "Find the value of the expression 100 - 98 + 96 - 94 + 92 - 90 + ... + 8 - 6 + 4 - 2.",
+    "options": ["(A) 20", "(B) 40", "(C) 50", "(D) 80", "(E) 100"],
+    "answer": "(C) 50",
+    "explanation": "Evaluate by grouping pairs: (100-98) + (96-94) + ... + (4-2) = 2 * 25 = 50."
+  },
+  {
+    "id": 9,
+    "question": "What is the sum of the distinct prime integer divisors of 2016?",
+    "options": ["(A) 9", "(B) 12", "(C) 16", "(D) 49", "(E) 63"],
+    "answer": "(B) 12",
+    "explanation": "The prime factorization of 2016 is (2^5)(3^2)(7), so the distinct prime divisors are 2, 3, and 7, and their sum is 2 + 3 + 7 = 12."
+  },
+  {
+    "id": 10,
+    "question": "Suppose that a \\* b means 3a - b. What is the value of x if<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 \\* (5 \\* x) = 1?",
+    "options": ["(A) 1/10", "(B) 2", "(C) 10/3", "(D) 10", "(E) 14"],
+    "answer": "(D) 10",
+    "explanation": "Since 2*(5*x) = 1, 6 - (5*x) = 1, so 5*x = 5. Applying the formula again, 15 - x = 5, therefore x = 10."
+  },
+  {
+    "id": 11,
+    "question": "Determine how many two-digit numbers satisfy the following property: When the number is added to the number obtained by reversing its digits, the sum is 132.",
+    "options": ["(A) 5", "(B) 7", "(C) 9", "(D) 11", "(E) 12"],
+    "answer": "(B) 7",
+    "explanation": "Let ab be the two-digit number. Then (10a+b) + (10b+a) = 11(a+b) = 132, so a+b = 12. There are 7 two-digit numbers meeting this criterion."
+  },
+  {
+    "id": 12,
+    "question": "Jefferson Middle School has the same number of boys and girls. Three-fourths of the girls and two-thirds of the boys went on a field trip. What fraction of the students on the field trip were girls?",
+    "options": ["(A) 1/2", "(B) 9/17", "(C) 7/13", "(D) 2/3", "(E) 14/15"],
+    "answer": "(B) 9/17",
+    "explanation": "Suppose there are 12 boys and 12 girls. Then 9 girls and 8 boys went, total 17 students. The fraction of girls is 9/17."
+  },
+  {
+    "id": 13,
+    "question": "Two different numbers are randomly selected from the set {-2, -1, 0, 3, 4, 5} and multiplied together. What is the probability that the product is 0?",
+    "options": ["(A) 1/6", "(B) 1/5", "(C) 1/4", "(D) 1/3", "(E) 1/2"],
+    "answer": "(D) 1/3",
+    "explanation": "There are 6 * 5 = 30 possible pairs. For a product to be 0, 0 must be paired with one of the other 5 numbers, giving 10 such products. Probability = 10/30 = 1/3."
+  },
+  {
+    "id": 14,
+    "question": "Karl's car uses a gallon of gas every 35 miles, and his gas tank holds 14 gallons when it is full. One day Karl started with a full tank of gas, drove 350 miles, bought 8 gallons of gas, and continued driving to his destination. When he arrived, his gas tank was half full. How many miles did Karl drive that day?",
+    "options": ["(A) 525", "(B) 560", "(C) 595", "(D) 665", "(E) 735"],
+    "answer": "(A) 525",
+    "explanation": "Karl used 14 + 8 - 7 = 15 gallons of gas on his trip, so he drove 15 * 35 = 525 miles."
+  },
+  {
+    "id": 15,
+    "question": "What is the largest power of 2 that is a divisor of 13^4 - 11^4?",
+    "options": ["(A) 8", "(B) 16", "(C) 32", "(D) 64", "(E) 128"],
+    "answer": "(C) 32",
+    "explanation": "Factor using difference of two squares: 13^4 - 11^4 = (13^2 + 11^2)(13+11)(13-11) = 290 * 24 * 2 = 32 * 435."
+  },
+  {
+    "id": 16,
+    "question": "Annie and Bonnie are running laps around a 400-meter oval track. They started together, but Annie has pulled ahead, because she runs 25% faster than Bonnie. How many laps will Annie have run when she first passes Bonnie?",
+    "options": ["(A) 1 1/4", "(B) 3 1/3", "(C) 4", "(D) 5", "(E) 25"],
+    "answer": "(D) 5",
+    "explanation": "For each lap Bonnie completes, Annie runs 5/4 laps, gaining 1/4 of a lap. Annie passes Bonnie when Bonnie has run 4 laps, meaning Annie has run 5 laps."
+  },
+  {
+    "id": 17,
+    "question": "An ATM password at Fred's Bank is composed of four digits from 0 to 9, with repeated digits allowable. If no password may begin with the sequence 9, 1, 1, then how many passwords are possible?",
+    "options": ["(A) 30", "(B) 7290", "(C) 9000", "(D) 9990", "(E) 9999"],
+    "answer": "(D) 9990",
+    "explanation": "Total passwords = 10^4 = 10000. Passwords beginning with 9, 1, 1: there are 10 such passwords. Thus 10000 - 10 = 9990."
+  },
+  {
+    "id": 18,
+    "question": "In an All-Area track meet, 216 sprinters enter a 100-meter dash competition. The track has 6 lanes, so only 6 sprinters can compete at a time. At the end of each race the five non-winners are eliminated, and the winner will compete again in a later race. How many races are needed to determine the champion sprinter?",
+    "options": ["(A) 36", "(B) 42", "(C) 43", "(D) 60", "(E) 72"],
+    "answer": "(C) 43",
+    "explanation": "Since 215 sprinters must be eliminated and 5 are eliminated per race, 215 / 5 = 43 races are needed."
+  },
+  {
+    "id": 19,
+    "question": "The sum of 25 consecutive even integers is 10,000. What is the largest of these 25 consecutive even integers?",
+    "options": ["(A) 360", "(B) 388", "(C) 412", "(D) 416", "(E) 424"],
+    "answer": "(E) 424",
+    "explanation": "The average is 10000 / 25 = 400. Since 12 consecutive even integers are larger than 400, the largest is 400 + 12 * 2 = 424."
+  },
+  {
+    "id": 20,
+    "question": "The least common multiple of a and b is 12, and the least common multiple of b and c is 15. What is the least possible value of the least common multiple of a and c?",
+    "options": ["(A) 20", "(B) 30", "(C) 60", "(D) 120", "(E) 180"],
+    "answer": "(A) 20",
+    "explanation": "Testing values: when a = 4, b = 3, c = 5, lcm(a,b)=12, lcm(b,c)=15, and the lcm of a and c is 20."
+  },
+  {
+    "id": 21,
+    "question": "A box contains 3 red chips and 2 green chips. Chips are drawn randomly, one at a time without replacement, until all 3 of the reds are drawn or until both green chips are drawn. What is the probability that the 3 reds are drawn?",
+    "options": ["(A) 3/10", "(B) 2/5", "(C) 1/2", "(D) 3/5", "(E) 2/3"],
+    "answer": "(B) 2/5",
+    "explanation": "There are 10 equally likely outcomes. The outcomes where 3 reds are drawn before both greens give 4 out of 10 outcomes, which is 2/5."
+  },
+  {
+    "id": 22,
+    "question": "Rectangle DEFA is a 3x4 rectangle with DC = CB = BA = 1. The area of the 'bat wings' (the shaded area) is",
+    "options": ["(A) 2", "(B) 2 1/2", "(C) 3", "(D) 3 1/2", "(E) 4"],
+    "answer": "(C) 3",
+    "explanation": "Using similar triangles and subtracting areas, the bat wing's area is 3."
+  },
+  {
+    "id": 23,
+    "question": "Two congruent circles centered at points A and B each pass through the other's center. The line containing both A and B is extended to intersect the circles at points C and D. The two circles intersect at two points, one of which is E. What is the degree measure of angle CED?",
+    "options": ["(A) 90", "(B) 105", "(C) 120", "(D) 135", "(E) 150"],
+    "answer": "(C) 120",
+    "explanation": "Triangle AEB is equilateral, so angle AEB = 60 degrees. Since DB and AC are diameters, angle DEB and angle AEC are right angles. Thus angle DEC = 90 + 90 - 60 = 120 degrees."
+  },
+  {
+    "id": 24,
+    "question": "The digits 1, 2, 3, 4, and 5 are each used once to write a five-digit number PQRST. The three-digit number PQR is divisible by 4, the three-digit number QRS is divisible by 5, and the three-digit number RST is divisible by 3. What is P?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "answer": "(A) 1",
+    "explanation": "Since QRS is divisible by 5, S = 5. Testing divisibility rules for PQR and RST yields P = 1, R = 4, T = 3."
+  },
+  {
+    "id": 25,
+    "question": "A semicircle is inscribed in an isosceles triangle with base 16 and height 15 so that the diameter of the semicircle is contained in the base of the triangle as shown. What is the radius of the semicircle?",
+    "options": ["(A) 4\\sqrt{3}", "(B) 120/17", "(C) 10", "(D) 17\\sqrt{2}/2", "(E) 17\\sqrt{3}/2"],
+    "answer": "(B) 120/17",
+    "explanation": "Let O be the midpoint of base AB. OBC is a right triangle with OB = 8 and OC = 15, so BC = 17. Using similar triangles, the radius OE is (8 * 15) / 17 = 120/17."
+  }
+]

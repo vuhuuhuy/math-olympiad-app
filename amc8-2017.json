@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following values is largest?",
+    "options": ["(A) 2 + 0 + 1 + 7", "(B) 2 * 0 + 1 + 7", "(C) 2 + 0 * 1 + 7", "(D) 2 + 0 + 1 * 7", "(E) 2 * 0 * 1 * 7"],
+    "answer": "(A) 2 + 0 + 1 + 7",
+    "explanation": "The values of the expressions are, in order, 10, 8, 9, 9, and 0[cite: 18]."
+  },
+  {
+    "id": 2,
+    "question": "Alicia, Brenda, and Colby were the candidates in a recent election for student president. The pie chart shows how the votes were distributed among the three candidates. If Brenda received 36 votes, then how many votes were cast all together?",
+    "options": ["(A) 70", "(B) 84", "(C) 100", "(D) 106", "(E) 120"],
+    "answer": "(E) 120",
+    "explanation": "Observe that 36 votes made up 30% of the total number of votes. Thus 12 votes made up 10% of the total number of votes and therefore there were 120 total votes[cite: 18]."
+  },
+  {
+    "id": 3,
+    "question": "What is the value of the expression $\\sqrt{16\\sqrt{8\\sqrt{4}}}$?",
+    "options": ["(A) 4", "(B) $4\\sqrt{2}$", "(C) 8", "(D) $8\\sqrt{2}$", "(E) 16"],
+    "answer": "(C) 8",
+    "explanation": "Simplifying yields $\\sqrt{16\\sqrt{8\\sqrt{4}}} = \\sqrt{16\\sqrt{16}} = \\sqrt{64} = 8$[cite: 18]."
+  },
+  {
+    "id": 4,
+    "question": "When 0.000315 is multiplied by 7,928,564 the product is closest to which of the following?",
+    "options": ["(A) 210", "(B) 240", "(C) 2,100", "(D) 2,400", "(E) 24,000"],
+    "answer": "(D) 2,400",
+    "explanation": "The product may be estimated as $(3 \\times 10^{-4})(8 \\times 10^6) = 24 \\times 10^2 = 2400$[cite: 18]."
+  },
+  {
+    "id": 5,
+    "question": "What is the value of the expression $\\frac{1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8}{1 + 2 + 3 + 4 + 5 + 6 + 7 + 8}$?",
+    "options": ["(A) 1020", "(B) 1120", "(C) 1220", "(D) 2240", "(E) 3360"],
+    "answer": "(B) 1120",
+    "explanation": "The sum $1 + 2 + 3 + \\dots + 8 = 36$, so the desired quotient is $\\frac{1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8}{36} = 4 \\cdot 5 \\cdot 7 \\cdot 8 = 1120$[cite: 18]."
+  },
+  {
+    "id": 6,
+    "question": "If the degree measures of the angles of a triangle are in the ratio 3 : 3 : 4, what is the degree measure of the largest angle of the triangle?",
+    "options": ["(A) 18", "(B) 36", "(C) 60", "(D) 72", "(E) 90"],
+    "answer": "(D) 72",
+    "explanation": "Let the degree measures of the angles be 3x, 3x, and 4x. Then $3x + 3x + 4x = 10x = 180$, so $x = 18$. The largest angle has measure $4 \\times 18 = 72$ degrees[cite: 18]."
+  },
+  {
+    "id": 7,
+    "question": "Let Z be a 6-digit positive integer, such as 247247, whose first three digits are the same as its last three digits taken in the same order. Which of the following numbers must be a factor of Z?",
+    "options": ["(A) 11", "(B) 19", "(C) 101", "(D) 111", "(E) 1111"],
+    "answer": "(A) 11",
+    "explanation": "Assume Z has the form abcabc. Then $Z = 1001 \\times abc = 7 \\times 11 \\times 13 \\times abc$. So 11 must be a factor of Z[cite: 18]."
+  },
+  {
+    "id": 8,
+    "question": "Malcolm wants to visit Isabella after school today and knows the street where she lives but doesn't know her house number. She tells him:<br><br>\"My house number has two digits, and exactly three of the following four statements about it are true.\"<br><br>&nbsp;&nbsp;&nbsp;&nbsp;(1) It is prime.<br>&nbsp;&nbsp;&nbsp;&nbsp;(2) It is even.<br>&nbsp;&nbsp;&nbsp;&nbsp;(3) It is divisible by 7.<br>&nbsp;&nbsp;&nbsp;&nbsp;(4) One of its digits is 9.<br><br>This information allows Malcolm to determine Isabella's house number. What is its units digit?",
+    "options": ["(A) 4", "(B) 6", "(C) 7", "(D) 8", "(E) 9"],
+    "answer": "(D) 8",
+    "explanation": "Statement 1 must be false because there are no two-digit even primes and no two-digit prime divisible by 7. Thus statements 2, 3, and 4 are true, making the number 98, so its units digit is 8[cite: 19]."
+  },
+  {
+    "id": 9,
+    "question": "All of Marcy's marbles are blue, red, green, or yellow. One third of her marbles are blue, one fourth of them are red, and six of them are green. What is the smallest number of yellow marbles that Marcy could have?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "answer": "(D) 4",
+    "explanation": "The total number of Marcy's marbles must be a multiple of 12. If she has 24 marbles, 8 are blue, 6 are red, and 6 are green, leaving 4 yellow marbles[cite: 19]."
+  },
+  {
+    "id": 10,
+    "question": "A box contains five cards, numbered 1, 2, 3, 4, and 5. Three cards are selected randomly without replacement from the box. What is the probability that 4 is the largest value selected?",
+    "options": ["(A) 1/10", "(B) 1/5", "(C) 3/10", "(D) 2/5", "(E) 1/2"],
+    "answer": "(C) 3/10",
+    "explanation": "There are 10 ways to select 3 cards. If 4 is the largest, the remaining 2 cards are chosen from 1, 2, and 3 in 3 ways, giving probability 3/10[cite: 19]."
+  },
+  {
+    "id": 11,
+    "question": "A square-shaped floor is covered with congruent square tiles. If the total number of tiles that lie on the two diagonals is 37, how many tiles cover the floor?",
+    "options": ["(A) 148", "(B) 324", "(C) 361", "(D) 1296", "(E) 1369"],
+    "answer": "(C) 361",
+    "explanation": "If the total number of tiles in the two diagonals is 37, there are 19 tiles on each side. Therefore, the floor is covered by $19 \\times 19 = 361$ tiles[cite: 19]."
+  },
+  {
+    "id": 12,
+    "question": "The smallest positive integer greater than 1 that leaves a remainder of 1 when divided by 4, 5, and 6 lies between which of the following pairs of numbers?",
+    "options": ["(A) 2 and 19", "(B) 20 and 39", "(C) 40 and 59", "(D) 60 and 79", "(E) 80 and 124"],
+    "answer": "(D) 60 and 79",
+    "explanation": "The least common multiple of 4, 5, and 6 is 60. The number is $60 + 1 = 61$, which lies between 60 and 79[cite: 20]."
+  },
+  {
+    "id": 13,
+    "question": "Peter, Emma, and Kyler played chess with each other. Peter won 4 games and lost 2 games. Emma won 3 games and lost 3 games. If Kyler lost 3 games, how many games did he win?",
+    "options": ["(A) 0", "(B) 1", "(C) 2", "(D) 3", "(E) 4"],
+    "answer": "(B) 1",
+    "explanation": "Total wins equal total losses. Total losses = $2 + 3 + 3 = 8$. Peter and Emma won $4 + 3 = 7$ games, so Kyler won 1 game[cite: 20]."
+  },
+  {
+    "id": 14,
+    "question": "Chloe and Zoe are both students in Ms. Demeanor's math class. Last night they each solved half of the problems in their homework assignment alone and then solved the other half together. Chloe had correct answers to only 80% of the problems she solved alone, but overall 88% of her answers were correct. Zoe had correct answers to 90% of the problems she solved alone. What was Zoe's overall percentage of correct answers?",
+    "options": ["(A) 89", "(B) 92", "(C) 93", "(D) 96", "(E) 98"],
+    "answer": "(C) 93",
+    "explanation": "Chloe's success rate on the joint half was 96%. Zoe's success rate was 90% alone and 96% together, giving an overall average of 93%[cite: 20]."
+  },
+  {
+    "id": 15,
+    "question": "In the arrangement of letters and numerals below, by how many different paths can one spell AMC8? Beginning at the A in the middle, a path allows only moves from one letter to an adjacent (above, below, left, or right, but not diagonal) letter. One example of such a path is traced in picture",
+    "options": ["(A) 8", "(B) 9", "(C) 12", "(D) 24", "(E) 36"],
+    "answer": "(D) 24",
+    "explanation": "Starting at A, there are 4 choices for M, 3 for C, and 2 for 8, yielding $4 \\times 3 \\times 2 = 24$ paths[cite: 20]."
+  },
+  {
+    "id": 16,
+    "question": "In right triangle ABC with legs AC = 3 and AB = 4 (hypotenuse BC = 5), choose point D on side BC so that triangle ACD and triangle ABD have equal perimeters. What is the area of triangle ABD?",
+    "options": ["(A) 3/4", "(B) 3/2", "(C) 2", "(D) 12/5", "(E) 5/2"],
+    "answer": "(D) 12/5",
+    "explanation": "Equal perimeters imply $CD = 3$ and $BD = 2$. The area of triangle ABD is (2/5) of the total area of triangle ABC, which is $(2/5) \\times 6 = 12/5$[cite: 20]."
+  },
+  {
+    "id": 17,
+    "question": "Starting with some gold coins and some empty treasure chests, I tried to put 9 gold coins in each treasure chest, but that left 2 treasure chests empty. So instead I put 6 gold coins in each treasure chest, but then I had 3 gold coins left over. How many gold coins did I have?",
+    "options": ["(A) 9", "(B) 27", "(C) 45", "(D) 63", "(E) 81"],
+    "answer": "(C) 45",
+    "explanation": "Let c be the number of chests. $9(c - 2) = 6c + 3$, yielding $c = 7$ chests and 45 coins[cite: 21]."
+  },
+  {
+    "id": 18,
+    "question": "In the non-convex quadrilateral ABCD, angle BCD is a right angle, AB = 12, BC = 4, CD = 3, and AD = 13. What is the area of quadrilateral ABCD?",
+    "options": ["(A) 12", "(B) 24", "(C) 26", "(D) 30", "(E) 36"],
+    "answer": "(B) 24",
+    "explanation": "Using Pythagorean theorem, $BD = 5$. Triangle ABD has area 30 and triangle BCD has area 6, so the quadrilateral area is $30 - 6 = 24$[cite: 21]."
+  },
+  {
+    "id": 19,
+    "question": "For any positive integer M, M! denotes the product of integers 1 through M. What is the largest integer n for which $5^n$ is a factor of the sum $98! + 99! + 100!$?",
+    "options": ["(A) 23", "(B) 24", "(C) 25", "(D) 26", "(E) 27"],
+    "answer": "(D) 26",
+    "explanation": "Factoring gives $98! \\times 100^2$. The exponent of 5 in 98! is 22, and in $100^2$ is 4, totaling $22 + 4 = 26$[cite: 21]."
+  },
+  {
+    "id": 20,
+    "question": "An integer between 1000 and 9999, inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?",
+    "options": ["(A) 14/75", "(B) 56/225", "(C) 107/400", "(D) 7/25", "(E) 9/25"],
+    "answer": "(B) 56/225",
+    "explanation": "There are 2240 such integers out of 9000 total integers, giving a probability of 56/225[cite: 21]."
+  },
+  {
+    "id": 21,
+    "question": "Suppose a, b, and c are nonzero real numbers, and $a + b + c = 0$. What are the possible value(s) for $\\frac{a}{|a|} + \\frac{b}{|b|} + \\frac{c}{|c|} + \\frac{abc}{|abc|}$?",
+    "options": ["(A) 0", "(B) 1 and -1", "(C) 2 and -2", "(D) 0, 2, and -2", "(E) 0, 1, and -1"],
+    "answer": "(A) 0",
+    "explanation": "Checking cases where numbers are positive or negative due to $a + b + c = 0$ always results in a sum of 0[cite: 21, 22]."
+  },
+  {
+    "id": 22,
+    "question": "In right triangle ABC, AC = 12, BC = 5, and angle C is a right angle. A semicircle is inscribed in the triangle as shown. What is the radius of the semicircle?",
+    "options": ["(A) 7/6", "(B) 13/5", "(C) 59/18", "(D) 10/3", "(E) 60/13"],
+    "answer": "(D) 10/3",
+    "explanation": "Using area partitioning: $Area(ABC) = 30 = \\frac{5}{2}r + \\frac{13}{2}r = 9r$, which gives $r = 10/3$[cite: 23]."
+  },
+  {
+    "id": 23,
+    "question": "Each day for four days, Linda traveled for one hour at a speed that resulted in her traveling one mile in an integer number of minutes. Each day after the first, her speed decreased so that the number of minutes to travel one mile increased by 5 minutes. Each of the four days, her distance traveled was an integer number of miles. What was the total number of miles for the four trips?",
+    "options": ["(A) 10", "(B) 15", "(C) 25", "(D) 50", "(E) 82"],
+    "answer": "(C) 25",
+    "explanation": "The only sequence of factors of 60 with common difference 5 is 5, 10, 15, 20. Total distance is $12 + 6 + 4 + 3 = 25$ miles[cite: 24]."
+  },
+  {
+    "id": 24,
+    "question": "Mrs. Sanders has three grandchildren who call her every 3, 4, and 5 days respectively. All three called her on December 31, 2016. On how many days during the next year did she not receive a phone call from any of her grandchildren?",
+    "options": ["(A) 78", "(B) 80", "(C) 144", "(D) 146", "(E) 152"],
+    "answer": "(D) 146",
+    "explanation": "Using inclusion-exclusion over 60-day cycles for the year 2017 (365 days), the total number of days without any call is 146[cite: 24]."
+  },
+  {
+    "id": 25,
+    "question": "In the figure shown, US and UT are line segments each of length 2, and measure of angle TUS = 60 degrees. Arcs TR and SR are each one-sixth of a circle with radius 2. What is the area of the region shown?",
+    "options": ["(A) $3\\sqrt{3} - \\pi$", "(B) $4\\sqrt{3} - \\frac{4\\pi}{3}$", "(C) $2\\sqrt{3}$", "(D) $4\\sqrt{3} - \\frac{2\\pi}{3}$", "(E) $4 + \\frac{4\\pi}{3}$"],
+    "answer": "(B) $4\\sqrt{3} - \\frac{4\\pi}{3}$",
+    "explanation": "The area is the equilateral triangle area minus two 60-degree circular sectors: $(\\frac{\\sqrt{3}}{4} \\times 4^2) - 2(\\frac{1}{6} \\times \\pi \\times 2^2) = 4\\sqrt{3} - \\frac{4\\pi}{3}$[cite: 25]."
+  }
+]

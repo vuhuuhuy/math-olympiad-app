@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "How many square yards of carpet are required to cover a rectangular floor that is 12 feet long and 9 feet wide? (There are 3 feet in a yard.)",
+    "options": ["(A) 12", "(B) 36", "(C) 108", "(D) 324", "(E) 972"],
+    "answer": "(A) 12",
+    "explanation": "The floor is 12 / 3 = 4 yards long and 9 / 3 = 3 yards wide. Thus, it requires 4 x 3 = 12 square yards of carpet."
+  },
+  {
+    "id": 2,
+    "question": "Point O is the center of the regular octagon ABCDEFGH, and X is the midpoint of side AB. What fraction of the area of the octagon is shaded?",
+    "options": ["(A) 11/32", "(B) 3/8", "(C) 13/32", "(D) 7/16", "(E) 15/32"],
+    "answer": "(D) 7/16",
+    "explanation": "The regular octagon can be divided into 8 congruent triangles around center O. The shaded region covers 3 full triangles and half of one triangle corresponding to side AB, which equals 3 x (1/8) + (1/2) x (1/8) = 7/16."
+  },
+  {
+    "id": 3,
+    "question": "Jack and Jill are going swimming at a pool that is one mile from their house. They leave home simultaneously. Jill rides her bicycle to the pool at a constant speed of 10 miles per hour. Jack walks to the pool at a constant speed of 4 miles per hour. How many minutes before Jack does Jill arrive?",
+    "options": ["(A) 5", "(B) 6", "(C) 8", "(D) 9", "(E) 10"],
+    "answer": "(D) 9",
+    "explanation": "Jill takes 1/10 of an hour (6 minutes) to get to the pool, and Jack takes 1/4 of an hour (15 minutes). Jill arrives 15 - 6 = 9 minutes before Jack."
+  },
+  {
+    "id": 4,
+    "question": "The Centerville Middle School chess team consists of two boys and three girls. A photographer wants to take a picture of the team to appear in the local newspaper. She decides to have them sit in a row with a boy at each end and the three girls in the middle. How many such arrangements are possible?",
+    "options": ["(A) 2", "(B) 4", "(C) 5", "(D) 6", "(E) 12"],
+    "answer": "(E) 12",
+    "explanation": "There are 2 ways to seat the boys at the two ends (Boy 1 on left/Boy 2 on right or vice versa), and 3 x 2 x 1 = 6 ways to seat the three girls in the middle. Total arrangements = 2 x 6 = 12."
+  },
+  {
+    "id": 5,
+    "question": "Billy's basketball team scored the following points over the course of the first 11 games of the season: 42, 47, 53, 53, 58, 58, 58, 61, 64, 65, 73. If his team scores 40 in the 12th game, which of the following statistics will show an increase?",
+    "options": ["(A) range", "(B) median", "(C) mean", "(D) mode", "(E) mid-range"],
+    "answer": "(A) range",
+    "explanation": "The original range is 73 - 42 = 31. With the new score of 40, the range becomes 73 - 40 = 33, which increases. All other options (mean, median, mode, mid-range) either decrease or stay the same."
+  },
+  {
+    "id": 6,
+    "question": "In triangle ABC, AB = BC = 29, and AC = 42. What is the area of triangle ABC?",
+    "options": ["(A) 100", "(B) 420", "(C) 500", "(D) 609", "(E) 701"],
+    "answer": "(B) 420",
+    "explanation": "Let D be the midpoint of side AC. Then BD is the altitude to AC and triangle BDC is a right triangle with BC = 29 and DC = 21. So BD = sqrt(29^2 - 21^2) = 20. The area of triangle ABC = (1/2) * 20 * 42 = 420."
+  },
+  {
+    "id": 7,
+    "question": "Each of two boxes contains three chips numbered 1, 2, 3. A chip is drawn randomly from each box and the numbers on the two chips are multiplied. What is the probability that their product is even?",
+    "options": ["(A) 1/9", "(B) 2/9", "(C) 4/9", "(D) 1/2", "(E) 5/9"],
+    "answer": "(E) 5/9",
+    "explanation": "The only way the product of the two values could be odd is if an odd number is drawn from each box. The probability that this occurs is (2/3) * (2/3) = 4/9. So the probability that the product is even is 1 - 4/9 = 5/9."
+  },
+  {
+    "id": 8,
+    "question": "What is the smallest whole number larger than the perimeter of any triangle with a side of length 5 and a side of length 19?",
+    "options": ["(A) 24", "(B) 29", "(C) 43", "(D) 48", "(E) 57"],
+    "answer": "(D) 48",
+    "explanation": "Let t be the length of the third side of the triangle. By the Triangle Inequality, t < 5 + 19 = 24. So the perimeter 5 + 19 + t < 5 + 19 + (5 + 19) = 48."
+  },
+  {
+    "id": 9,
+    "question": "On her first day of work, Janabel sold one widget. On day two, she sold three widgets. On day three, she sold five widgets, and on each succeeding day, she sold two more widgets than she had sold on the previous day. How many widgets in total had Janabel sold after working 20 days?",
+    "options": ["(A) 39", "(B) 40", "(C) 210", "(D) 400", "(E) 401"],
+    "answer": "(D) 400",
+    "explanation": "The sum of the first 20 odd numbers is equal to 20^2 = 400."
+  },
+  {
+    "id": 10,
+    "question": "How many integers between 1000 and 9999 have four distinct digits?",
+    "options": ["(A) 3024", "(B) 4536", "(C) 5040", "(D) 6480", "(E) 6561"],
+    "answer": "(B) 4536",
+    "explanation": "The thousands position can be filled by 9 digits (1-9). The hundreds position by 9 remaining digits (including 0), tens position by 8, and ones position by 7. Total integers = 9 * 9 * 8 * 7 = 4536."
+  },
+  {
+    "id": 11,
+    "question": "In the small country of Mathland, all automobile license plates have four symbols. The first must be a vowel (A, E, I, O, or U), the second and third must be two different letters among the 21 non-vowels, and the fourth must be a digit (0 through 9). If the symbols are chosen at random subject to these conditions, what is the probability that the plate will read 'AMC8'?",
+    "options": ["(A) 1/22050", "(B) 1/21000", "(C) 1/10500", "(D) 1/2100", "(E) 1/1050"],
+    "answer": "(B) 1/21000",
+    "explanation": "Total possible plates = 5 (vowels) * 21 (first consonant) * 20 (second consonant) * 10 (digits) = 21,000. Only one plate reads 'AMC8', so the probability is 1/21,000."
+  },
+  {
+    "id": 12,
+    "question": "How many pairs of parallel edges does a cube have?",
+    "options": ["(A) 6", "(B) 12", "(C) 18", "(D) 24", "(E) 36"],
+    "answer": "(C) 18",
+    "explanation": "Each of the 12 edges of a cube is parallel to 3 other edges, giving 36 pairs. Dividing by 2 because each pair is counted twice, we get 18 pairs of parallel edges."
+  },
+  {
+    "id": 13,
+    "question": "How many subsets of two elements can be removed from the set {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11} so that the mean (average) of the nine remaining numbers is 6?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 5", "(E) 6"],
+    "answer": "(D) 5",
+    "explanation": "Sum of remaining 9 numbers must be 9 * 6 = 54. Original sum is 66, so the sum of the two removed numbers must be 66 - 54 = 12. The pairs summing to 12 are: {1,11}, {2,10}, {3,9}, {4,8}, and {5,7} (total 5 subsets)."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following integers cannot be written as the sum of four consecutive odd integers?",
+    "options": ["(A) 16", "(B) 40", "(C) 72", "(D) 100", "(E) 200"],
+    "answer": "(D) 100",
+    "explanation": "The sum of 4 consecutive odd integers is always a multiple of 8: (2n-3) + (2n-1) + (2n+1) + (2n+3) = 8n. Among the choices, only 100 is not divisible by 8."
+  },
+  {
+    "id": 15,
+    "question": "At Euler Middle School, 198 students voted on two issues in a school referendum with the following results: 149 voted in favor of the first issue and 119 voted in favor of the second issue. If there were exactly 29 students who voted against both issues, how many students voted in favor of both issues?",
+    "options": ["(A) 49", "(B) 70", "(C) 79", "(D) 99", "(E) 149"],
+    "answer": "(D) 99",
+    "explanation": "Total students voting or against both = 198 - 29 = 169 students voted for at least one issue. By Principle of Inclusion-Exclusion: 149 + 119 - both = 169 => both = 268 - 169 = 99."
+  },
+  {
+    "id": 16,
+    "question": "In a middle-school mentoring program, a number of the sixth graders are paired with a ninth-grade student as a buddy. No ninth grader is assigned more than one sixth-grade buddy. If 2/5 of all the ninth graders are paired with 2/6 of all the sixth graders... What fraction of the total number of sixth and ninth graders have a buddy?",
+    "options": ["(A) 2/15", "(B) 4/11", "(C) 1/3", "(D) 3/8", "(E) 11/15"],
+    "answer": "(B) 4/11",
+    "explanation": "Let n students be paired. Total sixth graders = (5/2)n, total ninth graders = 3n. Total students = 11/2 n. Paired students = 2n. Ratio = 2n / (11/2 n) = 4/11."
+  },
+  {
+    "id": 17,
+    "question": "Jeremy's father drives him to school in rush hour traffic in 20 minutes. One day there is no traffic, so his father can drive him 18 miles per hour faster and gets him to school in 12 minutes. How far in miles is it to school?",
+    "options": ["(A) 4", "(B) 6", "(C) 8", "(D) 9", "(E) 12"],
+    "answer": "(D) 9",
+    "explanation": "New time is 12/20 = 3/5 of original time, so speed is 5/3 of original. The increase of 18 mph equals 2/3 of original speed, meaning original speed is 27 mph. Distance = 27 * (20/60) = 9 miles."
+  },
+  {
+    "id": 18,
+    "question": "An arithmetic sequence is a sequence in which each term after the first is obtained by adding a constant to the previous term. Each row and each column in this 5 x 5 array is an arithmetic sequence with five terms. What is the value of X in the center?",
+    "options": ["(A) 21", "(B) 31", "(C) 36", "(D) 40", "(E) 42"],
+    "answer": "(B) 31",
+    "explanation": "The center entry of a 5x5 arithmetic array is the average of opposite corners or midpoints. X is the average of 13 and 49 (or 9 and 53), which equals 31."
+  },
+  {
+    "id": 19,
+    "question": "A triangle with vertices at A=(1,3), B=(5,1), and C=(4,4) is plotted on a 6x5 grid. What fraction of the grid is covered by the triangle?",
+    "options": ["(A) 1/6", "(B) 1/5", "(C) 1/4", "(D) 1/3", "(E) 1/2"],
+    "answer": "(A) 1/6",
+    "explanation": "Using a bounding 4x3 rectangle (area 12) and subtracting surrounding right triangles, the area of triangle ABC is 5. Total grid area is 6 x 5 = 30. Fraction = 5/30 = 1/6."
+  },
+  {
+    "id": 20,
+    "question": "Ralph went to the store and bought 12 pairs of socks for a total of $24. Some cost $1, some cost $3, and some cost $4 a pair. If he bought at least one pair of each type, how many pairs of $1 socks did Ralph buy?",
+    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) 7", "(E) 8"],
+    "answer": "(D) 7",
+    "explanation": "Let a, b, c be pairs of $1, $3, $4 socks. a + b + c = 12 and a + 3b + 4c = 24. Subtracting gives 2b + 3c = 12. Since b, c >= 1, the solution is b=3, c=2, and a=7."
+  },
+  {
+    "id": 21,
+    "question": "In the given figure hexagon ABCDEF is equiangular, ABJI and FEHG are squares with areas 18 and 32 respectively, triangle JBK is equilateral and FE=BC. What is the area of triangle KBC?",
+    "options": ["(A) 6*sqrt(2)", "(B) 9", "(C) 12", "(D) 9*sqrt(2)", "(E) 32"],
+    "answer": "(C) 12",
+    "explanation": "KB = sqrt(18) = 3*sqrt(2) and BC = sqrt(32) = 4*sqrt(2). Angle KBC = 90 degrees. Area = (1/2) * 3*sqrt(2) * 4*sqrt(2) = 12."
+  },
+  {
+    "id": 22,
+    "question": "On June 1, a group of students is standing in rows with 15 students in each row. On June 2, all in one long row. On June 3, one student in each row, etc. This continues through June 12, but on June 13 they cannot find a new way of organizing. What is the smallest possible number of students?",
+    "options": ["(A) 21", "(B) 30", "(C) 60", "(D) 90", "(E) 1080"],
+    "answer": "(C) 60",
+    "explanation": "The number of students must have exactly 12 divisors (since it can be arranged 12 different ways up to June 12, but fails on June 13 meaning it has only 12 divisors). The smallest number with 12 divisors is 60."
+  },
+  {
+    "id": 23,
+    "question": "Tom has twelve slips of paper which he wants to put into five cups labeled A, B, C, D, E. The sums must be consecutive integers. Numbers are 2, 2, 2, 2.5, 2.5, 3, 3, 3, 3, 3.5, 4, 4.5. If 2 goes to E and 3 goes to B, what cup must 3.5 go to?",
+    "options": ["(A) A", "(B) B", "(C) C", "(D) D", "(E) E"],
+    "answer": "(D) D",
+    "explanation": "Total sum is 35, so cup sums are 5, 6, 7, 8, 9. Testing constraints, 3.5 must go into Cup D."
+  },
+  {
+    "id": 24,
+    "question": "A baseball league consists of two four-team divisions. Each team plays every other team in its division N games, and every team in the other division M games (N > 2M, M > 4). Each team plays a 76-game schedule. How many games does a team play within its division?",
+    "options": ["(A) 36", "(B) 48", "(C) 54", "(D) 60", "(E) 72"],
+    "answer": "(B) 48",
+    "explanation": "Total games = 3N + 4M = 76. Testing constraints with M > 4 and N > 2M yields N = 16, M = 7. Games within division = 3 * 16 = 48."
+  },
+  {
+    "id": 25,
+    "question": "One-inch squares are cut from the corners of a 5-inch square. What is the area in square inches of the largest square that can be fitted into the remaining space?",
+    "options": ["(A) 9", "(B) 12 1/2", "(C) 15", "(D) 15 1/2", "(E) 17"],
+    "answer": "(C) 15",
+    "explanation": "Using similar triangles and Pythagorean relations in the corners, the side length squared (area) of the largest inscribed square is 15."
+  }
+]

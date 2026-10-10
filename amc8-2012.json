@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "question": "Rachelle uses 3 pounds of meat to make 8 hamburgers for her family. How many pounds of meat does she need to make 24 hamburgers for a neighborhood picnic?",
+    "options": ["(A) 6", "(B) $6\\frac{2}{3}$", "(C) $7\\frac{1}{2}$", "(D) 8", "(E) 9"],
+    "answer": "(E) 9",
+    "explanation": "Rachelle needs $24 / 8 = 3$ times the amount of meat, so she needs $3 \\times 3 = 9$ pounds of meat[cite: 44]."
+  },
+  {
+    "id": 2,
+    "question": "In the county of East Westmore, statisticians estimate there is a baby born every 8 hours and a death every day. To the nearest hundred, how many people are added to the population of East Westmore each year?",
+    "options": ["(A) 600", "(B) 700", "(C) 800", "(D) 900", "(E) 1000"],
+    "answer": "(B) 700",
+    "explanation": "The net growth per day is 3 births - 1 death = 2 people. Over 365 days, the population grows by about $2 \\times 365 = 730$, which rounds to 700[cite: 44]."
+  },
+  {
+    "id": 3,
+    "question": "On February 13 The Oshkosh Northwester listed the length of daylight as 10 hours and 24 minutes, the sunrise as 6:57 AM, and the sunset as 8:15 PM. The length of daylight and sunrise were correct, but the sunset was wrong. When did the sun really set?",
+    "options": ["(A) 5:10 PM", "(B) 5:21 PM", "(C) 5:41 PM", "(D) 5:57 PM", "(E) 6:03 PM"],
+    "answer": "(B) 5:21 PM",
+    "explanation": "From 6:57 AM to 12:00 PM is 5 hours and 3 minutes. With 10 hours and 24 minutes of daylight total, there are another 5 hours and 21 minutes after noon, making the sunset 5:21 PM[cite: 44]."
+  },
+  {
+    "id": 4,
+    "question": "Peter's family ordered a 12-slice pizza for dinner. Peter ate one slice and shared another slice equally with his brother Paul. What fraction of the pizza did Peter eat?",
+    "options": ["(A) $\\frac{1}{24}$", "(B) $\\frac{1}{12}$", "(C) $\\frac{1}{8}$", "(D) $\\frac{1}{6}$", "(E) $\\frac{1}{4}$"],
+    "answer": "(C) $\\frac{1}{8}$",
+    "explanation": "Peter ate one full slice ($\\frac{1}{12}$) plus half of another ($\\frac{1}{24}$), totaling $\\frac{2}{24} + \\frac{1}{24} = \\frac{3}{24} = \\frac{1}{8}$[cite: 44]."
+  },
+  {
+    "id": 5,
+    "question": "In the diagram, all angles are right angles and the lengths of the sides are given in centimeters. What is X, in centimeters?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "answer": "(E) 5",
+    "explanation": "The vertical sides on the left add up to $5 + X$ while the vertical sides on the right add up to 10, giving $X = 5$[cite: 44]."
+  },
+  {
+    "id": 6,
+    "question": "A rectangular photograph is placed in a frame that forms a border two inches wide on all sides of the photograph. The photograph measures 8 inches high and 10 inches wide. What is the area of the border, in square inches?",
+    "options": ["(A) 36", "(B) 40", "(C) 64", "(D) 72", "(E) 88"],
+    "answer": "(E) 88",
+    "explanation": "The total frame dimensions are $14 \\times 12 = 168$ square inches. Subtracting the photograph area ($80$ sq in) leaves $88$ square inches[cite: 44]."
+  },
+  {
+    "id": 7,
+    "question": "Isabella must take four 100-point tests in her math class. Her goal is to achieve an average grade of at least 95 on the tests. Her first two test scores were 97 and 91. After seeing her score on the third test, she realized that she could still reach her goal. What is the lowest possible score she could have made on the third test?",
+    "options": ["(A) 90", "(B) 92", "(C) 95", "(D) 96", "(E) 97"],
+    "answer": "(B) 92",
+    "explanation": "To average 95 across 4 tests, she needs 380 total points. With 188 points from the first two tests, she needs 192 points from the last two. Since the maximum score on the fourth test is 100, the third test must be at least 92[cite: 44]."
+  },
+  {
+    "id": 8,
+    "question": "A shop advertises that everything is 'half price in today\\'s sale.' In addition, a coupon gives a 20% discount on sale prices. Using the coupon, the price today represents what percentage discount off the original price?",
+    "options": ["(A) 10", "(B) 33", "(C) 40", "(D) 60", "(E) 70"],
+    "answer": "(D) 60",
+    "explanation": "The final price is $0.80 \\times 0.50d = 0.40d$, which represents a 60% discount off the original price[cite: 45]."
+  },
+  {
+    "id": 9,
+    "question": "The Fort Worth Zoo has a number of two-legged birds and a number of four-legged mammals. On one visit to the zoo, Margie counted 200 heads and 522 legs. How many of the animals that Margie counted were two-legged birds?",
+    "options": ["(A) 61", "(B) 122", "(C) 139", "(D) 150", "(E) 161"],
+    "answer": "(C) 139",
+    "explanation": "Assuming all 200 animals have 2 legs, that accounts for 400 legs. The remaining 122 legs belong to the four-legged mammals (2 extra legs each), meaning there are 61 mammals and $200 - 61 = 139$ birds[cite: 45]."
+  },
+  {
+    "id": 10,
+    "question": "How many 4-digit numbers greater than 1000 are there that use the four digits of 2012?",
+    "options": ["(A) 6", "(B) 7", "(C) 8", "(D) 9", "(E) 12"],
+    "answer": "(D) 9",
+    "explanation": "Starting with 1 gives 3 numbers (022, 202, 220). Starting with 2 gives 6 numbers (012, 021, 102, 120, 201, 210), totaling 9 numbers[cite: 45]."
+  },
+  {
+    "id": 11,
+    "question": "The mean, median, and unique mode of the positive integers 3, 4, 5, 6, 6, 7, x are all equal. What is the value of x?",
+    "options": ["(A) 5", "(B) 6", "(C) 7", "(D) 11", "(E) 9"],
+    "answer": "(D) 11",
+    "explanation": "Since the mode is unique, it must be 6, making the mean and median 6 as well. The sum of 7 numbers with a mean of 6 is 42. Since $3 + 4 + 5 + 6 + 6 + 7 = 31$, $x$ must be $42 - 31 = 11$[cite: 45]."
+  },
+  {
+    "id": 12,
+    "question": "What is the units digit of $13^{2012}$?",
+    "options": ["(A) 1", "(B) 3", "(C) 5", "(D) 7", "(E) 12"],
+    "answer": "(A) 1",
+    "explanation": "The units digits of powers of 13 follow a cycle of four: 3, 9, 7, 1. Since $2012$ is a multiple of 4 ($2012 = 4 \\times 503$), the units digit is 1[cite: 45]."
+  },
+  {
+    "id": 13,
+    "question": "Jamar bought some pencils costing more than a penny each at the school bookstore and paid &#36;1.43. Sharona bought some of the same pencils and paid &#36;1.87. How many more pencils did Sharona buy than Jamar?",
+    "options": ["(A) 2", "(B) 3", "(C) 4", "(D) 5", "(E) 6"],
+    "answer": "(C) 4",
+    "explanation": "The greatest common divisor of 143 and 187 is 11 cents per pencil. Jamar bought $143 / 11 = 13$ pencils and Sharona bought $187 / 11 = 17$ pencils, a difference of 4 pencils[cite: 45]."
+  },
+  {
+    "id": 14,
+    "question": "In the BIG N, a middle school football conference, each team plays every other team exactly once. If a total of 21 conference games were played during the 2012 season, how many teams were members of the BIG N conference?",
+    "options": ["(A) 6", "(B) 7", "(C) 8", "(D) 9", "(E) 10"],
+    "answer": "(B) 7",
+    "explanation": "If $n$ teams play each other once, the number of games is $\\frac{n(n-1)}{2} = 21$, which yields $n = 7$ teams[cite: 45, 46]."
+  },
+  {
+    "id": 15,
+    "question": "The smallest number greater than 2 that leaves a remainder of 2 when divided by 3, 4, 5, or 6 lies between what numbers?",
+    "options": ["(A) 40 and 50", "(B) 51 and 55", "(C) 56 and 60", "(D) 61 and 65", "(E) 66 and 99"],
+    "answer": "(D) 61 and 65",
+    "explanation": "The least common multiple of 3, 4, 5, and 6 is 60. Adding the remainder of 2 gives 62, which lies between 61 and 65[cite: 46]."
+  },
+  {
+    "id": 16,
+    "question": "Each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 is used only once to make two five-digit numbers so that they have the largest possible sum. Which of the following could be one of the numbers?",
+    "options": ["(A) 76531", "(B) 86724", "(C) 87431", "(D) 96240", "(E) 97403"],
+    "answer": "(C) 87431",
+    "explanation": "To maximize the sum, place the largest available digits in the highest place values (9 and 8 in ten-thousands, 7 and 6 in thousands, etc.), resulting in numbers like 96520 and 87431[cite: 46]."
+  },
+  {
+    "id": 17,
+    "question": "A square with an integer side length is cut into 10 squares, all of which have integer side length and at least 8 of which have area 1. What is the smallest possible value of the length of the side of the original square?",
+    "options": ["(A) 3", "(B) 4", "(C) 5", "(D) 6", "(E) 7"],
+    "answer": "(B) 4",
+    "explanation": "Since at least 8 squares have area 1, and the total area must accommodate them plus at least 2 other squares, the minimum possible total area is 16, giving an original side length of 4[cite: 46]."
+  },
+  {
+    "id": 18,
+    "question": "What is the smallest positive integer that is neither prime nor square and that has no prime factor less than 50?",
+    "options": ["(A) 3127", "(B) 3133", "(C) 3137", "(D) 3139", "(E) 3149"],
+    "answer": "(A) 3127",
+    "explanation": "The smallest primes not less than 50 are 53 and 59. Their product is $53 \\times 59 = 3127$, which is neither prime nor a square and has no prime factor below 50[cite: 46]."
+  },
+  {
+    "id": 19,
+    "question": "In a jar of red, green, and blue marbles, all but 6 are red marbles, all but 8 are green, and all but 4 are blue. How many marbles are in the jar?",
+    "options": ["(A) 6", "(B) 8", "(C) 9", "(D) 10", "(E) 18"],
+    "answer": "(C) 9",
+    "explanation": "Summing the non-red (6), non-green (8), and non-blue (4) marbles gives $2(r+g+b) = 18$, meaning the total number of marbles is 9[cite: 46, 47]."
+  },
+  {
+    "id": 20,
+    "question": "What is the correct ordering of the three numbers $\\frac{5}{19}$, $\\frac{7}{21}$, and $\\frac{9}{23}$ in increasing order?",
+    "options": [
+      "(A) $\\frac{9}{23} < \\frac{7}{21} < \\frac{5}{19}$",
+      "(B) $\\frac{5}{19} < \\frac{7}{21} < \\frac{9}{23}$",
+      "(C) $\\frac{9}{23} < \\frac{5}{19} < \\frac{7}{21}$",
+      "(D) $\\frac{5}{19} < \\frac{9}{23} < \\frac{7}{21}$",
+      "(E) $\\frac{7}{21} < \\frac{5}{19} < \\frac{9}{23}$"
+    ],
+    "answer": "(B) $\\frac{5}{19} < \\frac{7}{21} < \\frac{9}{23}$",
+    "explanation": "Converting to decimals or comparing with $\\frac{1}{3}$ shows that $\\frac{5}{19} \\approx 0.263$, $\\frac{7}{21} \\approx 0.333$, and $\\frac{9}{23} \\approx 0.391$[cite: 47]."
+  },
+  {
+    "id": 21,
+    "question": "Marla has a large white cube that has an edge of 10 feet. She also has enough green paint to cover 300 square feet. Marla uses all the paint to create a white square centered on each face, surrounded by a green border. What is the area of one of the white squares, in square feet?",
+    "options": ["(A) $5\\sqrt{2}$", "(B) 10", "(C) $10\\sqrt{2}$", "(D) 50", "(E) $50\\sqrt{2}$"],
+    "answer": "(D) 50",
+    "explanation": "The total surface area of the cube is $600$ sq ft. Since green paint covers 300 sq ft, the remaining white area is 300 sq ft across 6 faces, giving $300 / 6 = 50$ sq ft per face[cite: 47]."
+  },
+  {
+    "id": 22,
+    "question": "Let R be a set of nine distinct integers. Six of the elements of the set are 2, 3, 4, 6, 9, and 14. What is the number of possible values of the median of R?",
+    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) 7", "(E) 8"],
+    "answer": "(D) 7",
+    "explanation": "The median is the 5th element in sorted order. By choosing the remaining 3 elements appropriately, the median can take any integer value from 3 to 9, giving 7 possible values[cite: 47]."
+  },
+  {
+    "id": 23,
+    "question": "An equilateral triangle and a regular hexagon have equal perimeters. If the area of the triangle is 4, what is the area of the hexagon?",
+    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) $4\\sqrt{3}$", "(E) $6\\sqrt{3}$"],
+    "answer": "(C) 6",
+    "explanation": "An equilateral triangle of area 4 can be split into 4 small triangles of area 1. A hexagon with the same perimeter can be divided into 6 such small triangles, yielding an area of 6[cite: 47]."
+  },
+  {
+    "id": 24,
+    "question": "A circle of radius 2 is cut into four congruent arcs. The four arcs are joined to form the star figure shown. What is the ratio of the area of the star figure to the area of the original circle?",
+    "options": [
+      "(A) $\\frac{4-\\pi}{\\pi}$",
+      "(B) $\\frac{1}{\\pi}$",
+      "(C) $\\frac{\\sqrt{2}}{\\pi}$",
+      "(D) $\\frac{\\pi-1}{\\pi}$",
+      "(E) $\\frac{3}{\\pi}$"
+    ],
+    "answer": "(A) $\\frac{4-\\pi}{\\pi}$",
+    "explanation": "Calculating the areas of the inscribed square and circular sectors yields a star area of $16 - 4\\pi$, which divided by the circle area $4\\pi$ gives $\\frac{4-\\pi}{\\pi}$[cite: 48]."
+  },
+  {
+    "id": 25,
+    "question": "A square with area 4 is inscribed in a square with area 5, with one vertex of the smaller square on each side of the larger square. A vertex of the smaller square divides a side of the larger square into two segments, one of length a and the other of length b. What is the value of ab?",
+    "options": ["(A) $\\frac{1}{5}$", "(B) $\\frac{2}{5}$", "(C) $\\frac{1}{2}$", "(D) 1", "(E) 4"],
+    "answer": "(C) $\\frac{1}{2}$",
+    "explanation": "The difference in area between the two squares is $5 - 4 = 1$, which is equal to the sum of four right triangles of area $\\frac{1}{4}$ each. Since the area of each triangle is $\\frac{1}{2}ab = \\frac{1}{4}$, we get $ab = \\frac{1}{2}$[cite: 48]."
+  }
+]

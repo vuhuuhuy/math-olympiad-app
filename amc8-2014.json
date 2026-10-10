@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "Harry and Terry are each told to calculate $8-(2+5)$. Harry gets the correct answer. Terry ignores the parentheses and calculates $8-2+5$. If Harry's answer is H and Terry's answer is T, what is $H-T$?",
+    "options": ["(A) -10", "(B) -6", "(C) 0", "(D) 6", "(E) 10"],
+    "answer": "(A) -10",
+    "explanation": "Harry's answer is $H = 8 - 7 = 1$. Terry's answer is $T = 8 - 2 + 5 = 11$. The difference $H - T$ is $1 - 11 = -10$."
+  },
+  {
+    "id": 2,
+    "question": "Paul owes Paula 35 cents and has a pocket full of 5-cent coins, 10-cent coins, and 25-cent coins that he can use to pay her. What is the difference between the largest and the smallest number of coins he can use to pay her?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "answer": "(E) 5",
+    "explanation": "To use the largest number of coins, Paul uses only 5-cent coins ($35 = 5 \\times 7$, so 7 coins). To use the smallest number, he uses one 25-cent and one 10-cent coin (2 coins). The difference is $7 - 2 = 5$."
+  },
+  {
+    "id": 3,
+    "question": "Isabella had a week to read a book for a school assignment. She read an average of 36 pages per day for the first three days and an average of 44 pages per day for the next three days. She then finished the book by reading 10 pages on the last day. How many pages were in the book?",
+    "options": ["(A) 240", "(B) 250", "(C) 260", "(D) 270", "(E) 280"],
+    "answer": "(B) 250",
+    "explanation": "The total number of pages is $3 \\times 36 + 3 \\times 44 + 10 = 3(80) + 10 = 250$."
+  },
+  {
+    "id": 4,
+    "question": "The sum of two prime numbers is 85. What is the product of these two prime numbers?",
+    "options": ["(A) 85", "(B) 91", "(C) 115", "(D) 133", "(E) 166"],
+    "answer": "(E) 166",
+    "explanation": "Since the sum 85 is odd, one of the primes must be the only even prime, which is 2. The other prime is 83, and their product is $2 \\times 83 = 166$."
+  },
+  {
+    "id": 5,
+    "question": "Margie's car can go 32 miles on a gallon of gas, and gas currently costs 4 dollars per gallon. How many miles can Margie drive on 20 dollars worth of gas?",
+    "options": ["(A) 64", "(B) 128", "(C) 160", "(D) 320", "(E) 640"],
+    "answer": "(C) 160",
+    "explanation": "With 20 dollars, Margie can buy $20 / 4 = 5$ gallons of gas. Driving 32 miles per gallon gives $32 \\times 5 = 160$ miles."
+  },
+  {
+    "id": 6,
+    "question": "Six rectangles each with a common base width of 2 have lengths of 1, 4, 9, 16, 25, and 36. What is the sum of the areas of the six rectangles?",
+    "options": ["(A) 91", "(B) 93", "(C) 162", "(D) 182", "(E) 202"],
+    "answer": "(D) 182",
+    "explanation": "The sum of areas is $2(1 + 4 + 9 + 16 + 25 + 36) = 2 \\times 91 = 182$."
+  },
+  {
+    "id": 7,
+    "question": "There are four more girls than boys in Ms. Raub's class of 28 students. What is the ratio of the number of girls to the number of boys in her class?",
+    "options": ["(A) 3 : 4", "(B) 4 : 3", "(C) 3 : 2", "(D) 7 : 4", "(E) 2 : 1"],
+    "answer": "(B) 4 : 3",
+    "explanation": "There are 16 girls and 12 boys in the class. The ratio is $16:12$, which simplifies to $4:3$."
+  },
+  {
+    "id": 8,
+    "question": "Eleven members of the Middle School Math Club each paid the same amount for a guest speaker to talk about problem solving at their math club meeting. They paid their guest speaker 1A2 dollars. What is the missing digit A of this 3-digit number?",
+    "options": ["(A) 0", "(B) 1", "(C) 2", "(D) 3", "(E) 4"],
+    "answer": "(D) 3",
+    "explanation": "Multiples of 11 between 102 and 192 include 132, where the middle digit is 3."
+  },
+  {
+    "id": 9,
+    "question": "In $\\triangle ABC$, D is a point on side $\\overline{AC}$ such that $BD=DC$ and $\\angle BCD$ measures $70^{\\circ}$. What is the degree measure of $\\angle ADB$?",
+    "options": ["(A) 100", "(B) 120", "(C) 135", "(D) 140", "(E) 150"],
+    "answer": "(D) 140",
+    "explanation": "Triangle BCD is isosceles, so $\\angle CBD = 70^{\\circ}$ and $\\angle BDC = 40^{\\circ}$. Thus, $\\angle ADB = 180^{\\circ} - 40^{\\circ} = 140^{\\circ}$."
+  },
+  {
+    "id": 10,
+    "question": "The first AMC 8 was given in 1985 and it has been given annually since that time. Samantha turned 12 years old the year that she took the seventh AMC 8. In what year was Samantha born?",
+    "options": ["(A) 1979", "(B) 1980", "(C) 1981", "(D) 1982", "(E) 1983"],
+    "answer": "(A) 1979",
+    "explanation": "The seventh AMC 8 was given in $1985 + 6 = 1991$. Samantha was born in $1991 - 12 = 1979$."
+  },
+  {
+    "id": 11,
+    "question": "Jack wants to bike from his house to Jill's house, which is located three blocks east and two blocks north of Jack's house. After biking each block, Jack can continue either east or north, but he needs to avoid a dangerous intersection one block east and one block north of his house. In how many ways can he reach Jill's house by biking a total of five blocks?",
+    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) 8", "(E) 10"],
+    "answer": "(A) 4",
+    "explanation": "To avoid the dangerous intersection, the first two moves must be EE or NN, leaving 4 valid paths."
+  },
+  {
+    "id": 12,
+    "question": "A magazine printed photos of three celebrities along with three photos of the celebrities as babies. The baby pictures did not identify the celebrities. Readers were asked to match each celebrity with the correct baby picture. What is the probability that a reader guessing at random will match all three correctly?",
+    "options": ["(A) 1/9", "(B) 1/6", "(C) 1/4", "(D) 1/3", "(E) 1/2"],
+    "answer": "(B) 1/6",
+    "explanation": "There are $3! = 6$ possible orderings, and only one is correct, giving a probability of $1/6$."
+  },
+  {
+    "id": 13,
+    "question": "If n and m are integers and $n^2 + m^2$ is even, which of the following is impossible?",
+    "options": ["(A) n and m are even", "(B) n and m are odd", "(C) $n+m$ is even", "(D) $n+m$ is odd", "(E) none of these is impossible"],
+    "answer": "(D) n+m is odd",
+    "explanation": "If $n^2 + m^2$ is even, both n and m must have the same parity, meaning their sum $n+m$ is always even. Thus, $n+m$ being odd is impossible."
+  },
+  {
+    "id": 14,
+    "question": "Rectangle ABCD and right triangle DCE have the same area. They are joined to form a trapezoid, with AB = 5, AD = 6, and rectangle area = 30. What is DE?",
+    "options": ["(A) 12", "(B) 13", "(C) 14", "(D) 15", "(E) 16"],
+    "answer": "(B) 13",
+    "explanation": "The area of triangle DCE is 30, so $CE = 60 / 5 = 12$. By the Pythagorean Theorem on triangle DCE with legs 5 and 12, the hypotenuse $DE = \\sqrt{5^2 + 12^2} = 13$."
+  },
+  {
+    "id": 15,
+    "question": "The circumference of the circle with center O is divided into 12 equal arcs, marked with letters A through L. What is the number of degrees in the sum of angles x and y?",
+    "options": ["(A) 75", "(B) 80", "(C) 90", "(D) 120", "(E) 150"],
+    "answer": "(C) 90",
+    "explanation": "Both triangles are isosceles, and the sum of angles is $(60^{\\circ} + 120^{\\circ}) / 2 = 90^{\\circ}$."
+  },
+  {
+    "id": 16,
+    "question": "The Middle School Eight basketball conference has 8 teams. Every season, each team plays every other conference team twice (home and away), and each team also plays 4 games against non-conference opponents. What is the total number of games in a season involving Middle School Eight teams?",
+    "options": ["(A) 60", "(B) 88", "(C) 96", "(D) 144", "(E) 160"],
+    "answer": "(B) 88",
+    "explanation": "There are 32 non-conference games and 56 conference games, totaling $32 + 56 = 88$ games."
+  },
+  {
+    "id": 17,
+    "question": "George walks 1 mile to school at 3 miles per hour. Today he walked the first half-mile at 2 miles per hour. At how many miles per hour must George run the last half-mile in order to arrive on time?",
+    "options": ["(A) 4", "(B) 6", "(C) 8", "(D) 10", "(E) 12"],
+    "answer": "(B) 6",
+    "explanation": "George normally takes 20 minutes. The first half-mile takes 15 minutes, leaving 5 minutes (1/12 hour) to cover the remaining half-mile at 6 miles per hour."
+  },
+  {
+    "id": 18,
+    "question": "Four children were born at City Hospital yesterday. Assume each child is equally likely to be a boy or a girl. Which of the following outcomes is most likely?",
+    "options": ["(A) all 4 are boys", "(B) all 4 are girls", "(C) 2 are girls and 2 are boys", "(D) 3 are of one gender and 1 is of the other gender", "(E) all of these outcomes are equally likely"],
+    "answer": "(D) 3 are of one gender and 1 is of the other gender",
+    "explanation": "There are 8 outcomes out of 16 that produce 3 of one gender and 1 of the other, making it the most likely outcome."
+  },
+  {
+    "id": 19,
+    "question": "A cube with 3-inch edges is to be constructed from 27 smaller cubes with 1-inch edges. Twenty-one are red and 6 are white. If the 3-inch cube is constructed to have the smallest possible white surface area showing, what fraction of the surface area is white?",
+    "options": ["(A) 5/54", "(B) 1/9", "(C) 5/27", "(D) 2/9", "(E) 1/3"],
+    "answer": "(A) 5/54",
+    "explanation": "Placing 5 white cubes inside/on faces appropriately yields 5 visible white square units out of 54 total surface units, resulting in $5/54$."
+  },
+  {
+    "id": 20,
+    "question": "Rectangle ABCD has sides CD = 3 and DA = 5. A circle of radius 1 is centered at A, a circle of radius 2 at B, and a circle of radius 3 at C. Which of the following is closest to the area of the rectangle outside all three circles?",
+    "options": ["(A) 3.5", "(B) 4.0", "(C) 4.5", "(D) 5.0", "(E) 5.5"],
+    "answer": "(B) 4.0",
+    "explanation": "Total rectangle area is 15. The sum of the areas of the quarter/sector circles inside the rectangle is approximately 11, leaving $15 - 11 = 4.0$."
+  },
+  {
+    "id": 21,
+    "question": "The 7-digit numbers 74A52B1 and 326AB4C are each multiples of 3. Which of the following could be the value of C?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 5", "(E) 8"],
+    "answer": "(A) 1",
+    "explanation": "Analyzing the sum of digits modulo 3 for both numbers shows that C must be 1."
+  },
+  {
+    "id": 22,
+    "question": "A 2-digit number is such that the product of the digits plus the sum of the digits is equal to the number. What is the units digit of the number?",
+    "options": ["(A) 1", "(B) 3", "(C) 5", "(D) 7", "(E) 9"],
+    "answer": "(E) 9",
+    "explanation": "Let the number be $10a + b$. Then $a + b + ab = 10a + b \\implies ab = 9a \\implies b = 9$."
+  },
+  {
+    "id": 23,
+    "question": "Three members of the Euclid Middle School girls' softball team discussed their uniform numbers (all 2-digit primes) and their birthday dates. What number does Caitlin wear?",
+    "options": ["(A) 11", "(B) 13", "(C) 17", "(D) 19", "(E) 23"],
+    "answer": "(A) 11",
+    "explanation": "The primes are 11, 13, and 17. Caitlin's uniform number is 11."
+  },
+  {
+    "id": 24,
+    "question": "One day the Beverage Barn sold 252 cans of soda to 100 customers, and every customer bought at least one can of soda. What is the maximum possible median number of cans of soda bought per customer on that day?",
+    "options": ["(A) 2.5", "(B) 3.0", "(C) 3.5", "(D) 4.0", "(E) 4.5"],
+    "answer": "(C) 3.5",
+    "explanation": "To maximize the median, minimize the lower 49 customers to 1 can each. Testing values yields a median of $(3 + 4) / 2 = 3.5$."
+  },
+  {
+    "id": 25,
+    "question": "A straight one-mile stretch of highway, 40 feet wide, is closed. Robert rides his bike on a path composed of semicircles. If he rides at 5 miles per hour, how many hours will it take to cover the one-mile stretch?",
+    "options": ["(A) $\\frac{\\pi}{11}$", "(B) $\\frac{\\pi}{10}$", "(C) $\\frac{\\pi}{5}$", "(D) $\\frac{2\\pi}{5}$", "(E) $\\frac{2\\pi}{3}$"],
+    "answer": "(B) $\\frac{\\pi}{10}$",
+    "explanation": "The total distance is $\\pi / 2$ miles. At 5 mph, the time required is $(\\pi / 2) \\div 5 = \\pi / 10$ hours."
+  }
+]
