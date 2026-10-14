@@ -1,0 +1,328 @@
+[
+  {
+    "id": 1,
+    "question": "Margie bought 3 apples at a cost of 50 cents per apple. She paid with a 5-dollar bill. How much change did Margie receive?",
+    "options": [
+      "(A) \\$1.50",
+      "(B) \\$2.00",
+      "(C) \\$2.50",
+      "(D) \\$3.00",
+      "(E) \\$3.50"
+    ],
+    "answer": "(E) \\$3.50",
+    "explanation": "The cost of the apples was $3 \\times \\$0.50 = \\$1.50$. Her change was $\\$5.00 - \\$1.50 = \\$3.50$."
+  },
+  {
+    "id": 2,
+    "question": "Karl's rectangular vegetable garden is 20 feet by 45 feet, and Makenna's is 25 feet by 40 feet. Whose garden is larger in area?",
+    "options": [
+      "(A) Karl's garden is larger by 100 square feet.",
+      "(B) Karl's garden is larger by 25 square feet.",
+      "(C) The gardens are the same size.",
+      "(D) Makenna's garden is larger by 25 square feet.",
+      "(E) Makenna's garden is larger by 100 square feet."
+    ],
+    "answer": "(E) Makenna's garden is larger by 100 square feet.",
+    "explanation": "Karl's garden is $20 \\times 45 = 900$ square feet. Makenna's garden is $25 \\times 40 = 1000$ square feet. Makenna's garden is larger by $1000 - 900 = 100$ square feet."
+  },
+  {
+    "id": 3,
+    "question": "Extend the square pattern of 8 black and 17 white square tiles by attaching a border of black tiles around the square. What is the ratio of black tiles to white tiles in the extended pattern?",
+    "options": [
+      "(A) 8:17",
+      "(B) 25:49",
+      "(C) 36:25",
+      "(D) 32:17",
+      "(E) 36:17"
+    ],
+    "answer": "(D) 32:17",
+    "explanation": "There are 32 black tiles and 17 white tiles in the extended pattern. So the ratio of black tiles to white tiles is 32:17."
+  },
+  {
+    "id": 4,
+    "question": "Here is a list of the numbers of fish that Tyler caught in nine outings last summer: 2, 0, 1, 3, 0, 3, 3, 1, 2. Which statement about the mean, mode, and median of these numbers is true?",
+    "options": [
+      "(A) median < mean < mode",
+      "(B) mean < mode < median",
+      "(C) mean < median < mode",
+      "(D) median < mode < mean",
+      "(E) mode < median < mean"
+    ],
+    "answer": "(C) mean < median < mode",
+    "explanation": "The ordered list is 0, 0, 1, 1, 2, 2, 3, 3, 3. The mean is $\\frac{15}{9} = \\frac{5}{3}$, the median is 2, and the mode is 3. Because $\\frac{5}{3} < 2 < 3$, the correct order is $\\text{mean} < \\text{median} < \\text{mode}$."
+  },
+  {
+    "id": 5,
+    "question": "What time was it 2011 minutes after the beginning of January 1, 2011?",
+    "options": [
+      "(A) January 1 at 9:31PM",
+      "(B) January 1 at 11:51PM",
+      "(C) January 2 at 3:11AM",
+      "(D) January 2 at 9:31AM",
+      "(E) January 2 at 6:01PM"
+    ],
+    "answer": "(D) January 2 at 9:31AM",
+    "explanation": "Convert 2011 minutes to 33 hours and 31 minutes. January 1 uses 24 hours. January 2 gets the remainder of 9 hours and 31 minutes. The time at the end of 2011 minutes was 9:31 AM on January 2."
+  },
+  {
+    "id": 6,
+    "question": "In a town of 351 adults, every adult owns a car, a motorcycle, or both. If 331 adults own cars, and 45 adults own motorcycles, how many of the car owners do not own a motorcycle?",
+    "options": [
+      "(A) 20",
+      "(B) 25",
+      "(C) 45",
+      "(D) 306",
+      "(E) 351"
+    ],
+    "answer": "(D) 306",
+    "explanation": "In a population of 351 people, 45 people own a motorcycle. Therefore, there are $351 - 45 = 306$ car owners who do not own a motorcycle."
+  },
+  {
+    "id": 7,
+    "question": "Each of the following four large congruent squares is subdivided into combinations of congruent triangles or rectangles and is partially shaded. What percent of the total area is partially shaded?",
+    "options": [
+      "(A) 12.5%",
+      "(B) 20%",
+      "(C) 25%",
+      "(D) 33.33%",
+      "(E) 37.5%"
+    ],
+    "answer": "(C) 25%",
+    "explanation": "The upper left and lower right squares are each one-fourth shaded, for a total of one-half square. The shaded portions of the upper right and lower left squares make up one-half square. So the total shaded area is one full square out of four, which is 25% of the total area."
+  },
+  {
+    "id": 8,
+    "question": "Bag A contains three chips labeled 1, 3, and 5. Bag B contains three chips labeled 2, 4, and 6. If one chip is drawn from each bag, how many different values are possible for the sum of the two numbers on the chips?",
+    "options": [
+      "(A) 4",
+      "(B) 5",
+      "(C) 6",
+      "(D) 7",
+      "(E) 9"
+    ],
+    "answer": "(B) 5",
+    "explanation": "The possible sums are 3, 5, 7, 9, and 11, for a total of 5 distinct possibilities."
+  },
+  {
+    "id": 9,
+    "question": "Carmen takes a long bike ride on a hilly highway. The graph indicates the miles traveled during the time of her ride. What is Carmen's average speed for her entire ride in miles per hour?",
+    "options": [
+      "(A) 2",
+      "(B) 2.5",
+      "(C) 4",
+      "(D) 4.5",
+      "(E) 5"
+    ],
+    "answer": "(E) 5",
+    "explanation": "Carmen covers 35 miles in 7 hours, making her average speed $\\frac{35}{7} = 5$ mph."
+  },
+  {
+    "id": 10,
+    "question": "The taxi fare in Gotham City is \\$2.40 for the first mile and additional mileage charged at the rate \\$0.20 for each additional 0.1 mile. You plan to give the driver a \\$2 tip. How many miles can you ride for \\$10?",
+    "options": [
+      "(A) 3.0",
+      "(B) 3.25",
+      "(C) 3.3",
+      "(D) 3.5",
+      "(E) 3.75"
+    ],
+    "answer": "(C) 3.3",
+    "explanation": "Including a \\$2 tip, a 0.5 mile ride would cost \\$4.40. The remaining \\$5.60 would take you an additional $0.1 \\times \\frac{5.60}{0.20} = 2.80$ miles, so the total distance is $0.5 + 2.8 = 3.3$ miles."
+  },
+  {
+    "id": 11,
+    "question": "The graph shows the number of minutes studied by both Asha (black bar) and Sasha (grey bar) in one week. On average, how many more minutes per day did Sasha study than Asha?",
+    "image_width": 390,
+    "options": [
+      "(A) 6",
+      "(B) 8",
+      "(C) 9",
+      "(D) 10",
+      "(E) 12"
+    ],
+    "answer": "(A) 6",
+    "explanation": "Asha's study time totals $60 + 90 + 100 + 80 + 70 = 400$ minutes (average 80 min/day). Sasha's total is $70 + 80 + 120 + 110 + 50 = 430$ minutes (average 86 min/day). Sasha averages $86 - 80 = 6$ minutes more per day than Asha."
+  },
+  {
+    "id": 12,
+    "question": "Angie, Bridget, Carlos, and Diego are seated at random around a square table, one person to a side. What is the probability that Angie and Carlos are seated opposite each other?",
+    "options": [
+      "(A) 1/4",
+      "(B) 1/3",
+      "(C) 1/2",
+      "(D) 2/3",
+      "(E) 3/4"
+    ],
+    "answer": "(B) 1/3",
+    "explanation": "If Angie sits down first, there are three equally likely seats remaining for Carlos. Only one of these is directly opposite Angie. Thus, the probability is $\\frac{1}{3}$."
+  },
+  {
+    "id": 13,
+    "question": "Two congruent squares, ABCD and PQRS, have side length 15. They overlap to form the 15 by 25 rectangle AQRD. What percent of the area of rectangle AQRD is shaded?",
+    "options": [
+      "(A) 15",
+      "(B) 18",
+      "(C) 20",
+      "(D) 24",
+      "(E) 25"
+    ],
+    "answer": "(C) 20",
+    "explanation": "The shaded rectangle PBCS has height 15 and length $SC = DC + SR - DR = 15 + 15 - 25 = 5$. The area of PBCS is $15 \\times 5 = 75$, and AQRD is $15 \\times 25 = 375$. The portion shaded is $\\frac{75}{375} = 20\\%$."
+  },
+  {
+    "id": 14,
+    "question": "There are 270 students at Colfax Middle School, where the ratio of boys to girls is 5:4. There are 180 students at Winthrop Middle School, where the ratio of boys to girls is 4:5. The two schools hold a dance and all students from both schools attend. What fraction of the students at the dance are girls?",
+    "options": [
+      "(A) 7/18",
+      "(B) 7/15",
+      "(C) 22/45",
+      "(D) 1/2",
+      "(E) 23/45"
+    ],
+    "answer": "(C) 22/45",
+    "explanation": "The number of girls at the dance is $\\frac{4}{9}(270) + \\frac{5}{9}(180) = 120 + 100 = 220$. The fraction of total students that are girls is $\\frac{220}{450} = \\frac{22}{45}$."
+  },
+  {
+    "id": 15,
+    "question": "How many digits are in the product $4^5 \\cdot 5^{10}$?",
+    "options": [
+      "(A) 8",
+      "(B) 9",
+      "(C) 10",
+      "(D) 11",
+      "(E) 15"
+    ],
+    "answer": "(D) 11",
+    "explanation": "The product $4^5 \\cdot 5^{10} = (2^2)^5 \\cdot 5^{10} = 2^{10} \\cdot 5^{10} = 10^{10}$ is a number with a 1 followed by 10 zeros, for a total of 11 digits."
+  },
+  {
+    "id": 16,
+    "question": "Let A be the area of a triangle with sides of length 25, 25, and 30. Let B be the area of a triangle with sides of length 25, 25, and 40. What is the relationship between A and B?",
+    "options": [
+      "(A) $A = \\frac{9}{16}B$",
+      "(B) $A = \\frac{3}{4}B$",
+      "(C) $A = B$",
+      "(D) $A = \\frac{4}{3}B$",
+      "(E) $A = \\frac{16}{9}B$"
+    ],
+    "answer": "(C) $A = B$",
+    "explanation": "The altitude of triangle A is $\\sqrt{25^2 - 15^2} = 20$, giving area $A = \\frac{1}{2}(30)(20) = 300$. The altitude of triangle B is $\\sqrt{25^2 - 20^2} = 15$, giving area $B = \\frac{1}{2}(40)(15) = 300$. Therefore, $A = B$."
+  },
+  {
+    "id": 17,
+    "question": "Let w, x, y, and z be whole numbers. If $2^w \\cdot 3^x \\cdot 5^y \\cdot 7^z = 588$, then what does $2w + 3x + 5y + 7z$ equal?",
+    "options": [
+      "(A) 21",
+      "(B) 25",
+      "(C) 27",
+      "(D) 35",
+      "(E) 56"
+    ],
+    "answer": "(A) 21",
+    "explanation": "Factor 588 into $2^2 \\cdot 3^1 \\cdot 5^0 \\cdot 7^2$. Thus $w=2, x=1, y=0, z=2$, and $2(2) + 3(1) + 5(0) + 7(2) = 21$."
+  },
+  {
+    "id": 18,
+    "question": "A fair six-sided die is rolled twice. What is the probability that the first number that comes up is greater than or equal to the second number?",
+    "options": [
+      "(A) 1/6",
+      "(B) 5/12",
+      "(C) 1/2",
+      "(D) 7/12",
+      "(E) 5/6"
+    ],
+    "answer": "(D) 7/12",
+    "explanation": "In 6 of the 36 outcomes, the numbers are equal. The first number is greater than the second in half of the remaining 30 outcomes (15 cases). So $6 + 15 = 21$ outcomes satisfy the condition. The probability is $\\frac{21}{36} = \\frac{7}{12}$."
+  },
+  {
+    "id": 19,
+    "question": "How many rectangles are in this figure?",
+    "options": [
+      "(A) 8",
+      "(B) 9",
+      "(C) 10",
+      "(D) 11",
+      "(E) 12"
+    ],
+    "answer": "(D) 11",
+    "explanation": "Partitioning the figure into non-overlapping regions gives single rectangles $b, c, d$ (3), two-region combinations $ab, bc, cd, cf, de$ (5), and multi-region combinations $abcd, bcfg, cdef$ (3). Total = $3 + 5 + 3 = 11$ rectangles."
+  },
+  {
+    "id": 20,
+    "question": "Quadrilateral ABCD is a trapezoid, $AD=15$, $AB=50$, $BC=20$, and the altitude is 12. What is the area of the trapezoid?",
+    "options": [
+      "(A) 600",
+      "(B) 650",
+      "(C) 700",
+      "(D) 750",
+      "(E) 800"
+    ],
+    "answer": "(D) 750",
+    "explanation": "Dropping perpendiculars to DC gives base segments of length $9$ and $16$. The bottom base $DC = 9 + 50 + 16 = 75$. Area = $\\frac{1}{2}(AB + DC) \\times \\text{height} = \\frac{1}{2}(50 + 75)(12) = 750$."
+  },
+  {
+    "id": 21,
+    "question": "Students guess that Norb's age is 24, 28, 30, 32, 36, 38, 41, 44, 47, and 49. Norb says, 'At least half of you guessed too low, two of you are off by one and my age is a prime number.' How old is Norb?",
+    "options": [
+      "(A) 29",
+      "(B) 31",
+      "(C) 37",
+      "(D) 43",
+      "(E) 48"
+    ],
+    "answer": "(C) 37",
+    "explanation": "Because at least half guessed too low, Norb is at least 37. Because two are off by one, he must be between 36 and 38, or 47 and 49. Because 37 is prime and 48 is not, Norb is 37."
+  },
+  {
+    "id": 22,
+    "question": "What is the tens digit of $7^{2011}$?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 3",
+      "(D) 4",
+      "(E) 7"
+    ],
+    "answer": "(D) 4",
+    "explanation": "The pattern for the last two digits of successive powers of 7 is 01, 07, 49, 43, 01, ... repeating every 4 powers. Since $2011 = 4 \\times 502 + 3$, the last two digits of $7^{2011}$ are 43, so the tens digit is 4."
+  },
+  {
+    "id": 23,
+    "question": "How many 4-digit positive integers have four different digits, where the leading digit is not zero, the integer is a multiple of 5, and 5 is the largest digit?",
+    "options": [
+      "(A) 24",
+      "(B) 48",
+      "(C) 60",
+      "(D) 84",
+      "(E) 108"
+    ],
+    "answer": "(D) 84",
+    "explanation": "If the units digit is 0, there are 36 possible numbers using 5 and two digits from {1, 2, 3, 4}. If the units digit is 5, there are $4 \\times 12 = 48$ possible numbers. In total, $36 + 48 = 84$ numbers."
+  },
+  {
+    "id": 24,
+    "question": "In how many ways can 10,001 be written as the sum of two primes?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 3",
+      "(E) 4"
+    ],
+    "answer": "(A) 0",
+    "explanation": "Because 10,001 is odd, one summand must be even. The only even prime is 2, but $10,001 - 2 = 9999$, which is divisible by 9 and not prime. Therefore, there are 0 ways."
+  },
+  {
+    "id": 25,
+    "question": "A circle with radius 1 is inscribed in a square and circumscribed about another square as shown. Which fraction is closest to the ratio of the circle's shaded area to the shaded area between the two squares?",
+    "options": [
+      "(A) 1/2",
+      "(B) 1",
+      "(C) 3/2",
+      "(D) 2",
+      "(E) 5/2"
+    ],
+    "answer": "(A) 1/2",
+    "explanation": "The circle area is $\\pi$. The large square area is 4, and the inner square area is 2. The requested ratio of the two shaded regions is $\\frac{\\pi - 2}{2} \\approx \\frac{3.14 - 2}{2} \\approx 0.57$, which is closest to 1/2."
+  }
+]
