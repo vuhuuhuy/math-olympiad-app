@@ -7,6 +7,8 @@ import os
 import re
 import random
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 from datetime import datetime, timedelta, timezone
 
 st.set_page_config(page_title="Math Olympiad App", layout="wide")
@@ -14,7 +16,7 @@ st.set_page_config(page_title="Math Olympiad App", layout="wide")
 # --- ANCHOR AT THE VERY TOP FOR AUTO-SCROLLING ---
 st.markdown("<div id='top'></div>", unsafe_allow_html=True)
 
-# --- GOOGLE APPS SCRIPT WEB APP URL CONFIGURATION ---
+# --- GOOGLE APPS SCRIPT WEB APP URL (Optional: kept only for score logging history) ---
 GOOGLE_SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxNQxi8rjasBOS3bt0MRG6JwblKKaPGM9pmIKW_k9LBaCyIipakxBxC9uss2KOXNlkWeg/exec"
 
 # --- CUSTOM CSS FOR COMPACT & CLEAN LAYOUT ---
@@ -93,34 +95,36 @@ def scroll_to_top():
         height=0
     )
 
-# --- HELPER FUNCTIONS FOR BACKEND API (ROBUST & UNCACHED FOR RELIABILITY) ---
+# --- ROBUST API SESSION FOR SCORE LOGGING ONLY ---
+def get_api_session():
+    session = requests.Session()
+    retry_strategy = Retry(
+        total=3,
+        backoff_factor=1,
+        status_forcelist=[500, 502, 503, 504],
+        raise_on_status=False
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+# --- AUTHENTICATION: READS USERS LOCALLY FROM GITHUB (100% STABLE & INSTANT) ---
 def get_registered_emails():
-    if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
-        return []
-    try:
-        response = requests.get(f"{GOOGLE_SHEET_WEB_APP_URL}?type=users", timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            if isinstance(data, list):
-                # Normalize all emails to lowercase and strip whitespace
-                return [str(email).strip().lower() for email in data if email]
-            elif isinstance(data, dict):
-                users = data.get("users") or data.get("data") or []
-                return [str(email).strip().lower() for email in users if email]
-    except Exception as e:
-        print("Error fetching users:", e)
+    users_file = os.path.join(BASE_DIR, "users.json")
+    if os.path.exists(users_file):
+        try:
+            with open(users_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    return [str(email).strip().lower() for email in data if email]
+        except Exception as e:
+            print("Error reading users.json:", e)
     return []
 
-def register_new_email(email):
-    payload = {"action": "register", "email": email}
-    try:
-        res = requests.post(GOOGLE_SHEET_WEB_APP_URL, json=payload, timeout=15)
-        return res.json().get("status")
-    except Exception as e:
-        print("Error registering email:", e)
-        return "error"
-
 def log_result_to_sheets(test_type, score_str, user_email):
+    if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
+        return
     now_local = datetime.now().astimezone()
     payload = {
         "action": "log_score",
@@ -129,14 +133,18 @@ def log_result_to_sheets(test_type, score_str, user_email):
         "type": test_type,
         "results": score_str
     }
+    session = get_api_session()
     try:
-        requests.post(GOOGLE_SHEET_WEB_APP_URL, json=payload, timeout=15)
+        session.post(GOOGLE_SHEET_WEB_APP_URL, json=payload, timeout=30)
     except Exception as e:
         print("Error logging score:", e)
 
 def fetch_user_history(user_email):
+    if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
+        return []
+    session = get_api_session()
     try:
-        response = requests.get(f"{GOOGLE_SHEET_WEB_APP_URL}?type=history", timeout=15)
+        response = session.get(f"{GOOGLE_SHEET_WEB_APP_URL}?type=history", timeout=30)
         if response.status_code == 200:
             all_data = response.json()
             
@@ -178,9 +186,14 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-user_email = st.sidebar.text_input("📧 Enter your Gmail:", value="").strip().lower()
+# Auto-load saved email from browser query parameters if available
+saved_email = st.query_params.get("email", "").strip().lower()
+user_email = st.sidebar.text_input("📧 Enter your Gmail:", value=saved_email).strip().lower()
 
-# --- STRICT EMAIL VALIDATION & REGISTRATION FLOW ---
+if user_email and user_email.endswith("@gmail.com"):
+    st.query_params["email"] = user_email
+
+# --- STRICT EMAIL VALIDATION (LOCAL FILE CHECK) ---
 valid_access = False
 
 if user_email:
@@ -193,18 +206,8 @@ if user_email:
             valid_access = True
             st.sidebar.success("✅ Verified User")
         else:
-            st.sidebar.error("❌ Access Denied: Email not registered!")
-            st.sidebar.info("If this is your first time, click below to register:")
-            if st.sidebar.button("📝 Register This Email Now"):
-                status = register_new_email(user_email)
-                if status == "success":
-                    st.sidebar.success("🎉 Registered successfully! Please refresh the page.")
-                    time.sleep(1)
-                    st.rerun()
-                elif status == "exists":
-                    st.sidebar.info("ℹ️ Email already exists. Try refreshing.")
-                else:
-                    st.sidebar.error("❌ Registration failed. Try again.")
+            st.sidebar.error("❌ Access Denied: Email not registered in users.json!")
+            st.sidebar.info("Please ask the administrator to add your email to users.json on GitHub.")
 
 # Sidebar navigation options
 app_mode = st.sidebar.radio("Select Mode:", ["🎲 Practice Mode", "📝 Mock Test", "📊 My History"])
@@ -247,7 +250,7 @@ if app_mode == "🎲 Practice Mode":
     st.title("🎲 Random Practice Session")
     st.write("Practice random questions collected across all available past test papers.")
 
-    all_json_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".json")]
+    all_json_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".json") and f != "users.json"]
 
     if not all_json_files:
         st.warning("No test data files found in directory.")
@@ -411,7 +414,7 @@ elif app_mode == "📝 Mock Test":
 
     test_files = [
         f for f in os.listdir(BASE_DIR) 
-        if f.endswith(".json") and (keyword in f.lower().replace("-", "") or keyword_alt in f.lower())
+        if f.endswith(".json") and f != "users.json" and (keyword in f.lower().replace("-", "") or keyword_alt in f.lower())
     ]
 
     selected_file = st.sidebar.selectbox("Select Test Paper:", test_files) if test_files else None
