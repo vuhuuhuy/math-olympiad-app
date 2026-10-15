@@ -20,6 +20,9 @@ st.markdown("<div id='top'></div>", unsafe_allow_html=True)
 # --- GOOGLE APPS SCRIPT WEB APP URL (Optional: kept only for score logging history) ---
 GOOGLE_SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxNQxi8rjasBOS3bt0MRG6JwblKKaPGM9pmIKW_k9LBaCyIipakxBxC9uss2KOXNlkWeg/exec"
 
+# --- LOCAL TIMEZONE (Kuala Lumpur, UTC+8) ---
+LOCAL_TZ = timezone(timedelta(hours=8))
+
 # --- CUSTOM CSS FOR COMPACT & CLEAN LAYOUT ---
 st.markdown(
     """
@@ -132,7 +135,7 @@ def get_registered_emails():
 def log_result_to_sheets(test_type, score_str, user_email):
     if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
         return
-    now_local = datetime.now().astimezone()
+    now_local = datetime.now(LOCAL_TZ)
     payload = {
         "action": "log_score",
         "date": now_local.strftime("%Y-%m-%d %H:%M:%S"),
@@ -608,15 +611,19 @@ elif app_mode == "📊 My History":
             formatted_date = raw_date
             if raw_date:
                 try:
-                    if "T" in raw_date or "Z" in raw_date:
-                        clean_ts = raw_date.replace("Z", "+00:00")
-                        dt = datetime.fromisoformat(clean_ts)
-                        local_dt = dt.astimezone()
-                        formatted_date = local_dt.strftime("%d-%m-%y %H:%M")
+                    clean_str = raw_date.split(".")[0].replace("Z", "")
+                    if "T" in clean_str:
+                        dt = datetime.fromisoformat(clean_str)
                     else:
-                        clean_str = raw_date.split(".")[0]
                         dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S")
-                        formatted_date = dt.strftime("%d-%m-%y %H:%M")
+                    
+                    # If timestamp is naive (logged previously in server UTC), shift by +8 hours to local Kuala Lumpur time
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc).astimezone(LOCAL_TZ)
+                    else:
+                        dt = dt.astimezone(LOCAL_TZ)
+                        
+                    formatted_date = dt.strftime("%d-%m-%y %H:%M")
                 except Exception:
                     formatted_date = raw_date
 
