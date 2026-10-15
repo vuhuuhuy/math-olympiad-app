@@ -44,6 +44,12 @@ st.markdown(
         padding-top: 0px !important;
     }
 
+    /* Standardize subheaders (h3) to have exact same size */
+    h3 {
+        font-size: 20px !important;
+        font-weight: 700 !important;
+    }
+
     /* Make text input box ~15% taller */
     div[data-testid="stTextInput"] input {
         padding-top: 10px !important;
@@ -602,15 +608,15 @@ elif app_mode == "📊 My History":
             formatted_date = raw_date
             if raw_date:
                 try:
-                    clean_ts = raw_date.replace("Z", "+00:00")
-                    if "T" in clean_ts:
+                    if "T" in raw_date or "Z" in raw_date:
+                        clean_ts = raw_date.replace("Z", "+00:00")
                         dt = datetime.fromisoformat(clean_ts)
+                        local_dt = dt.astimezone()
+                        formatted_date = local_dt.strftime("%d-%m-%y %H:%M")
                     else:
                         clean_str = raw_date.split(".")[0]
-                        dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
-                    
-                    local_dt = dt.astimezone()
-                    formatted_date = local_dt.strftime("%d-%m-%y %H:%M")
+                        dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S")
+                        formatted_date = dt.strftime("%d-%m-%y %H:%M")
                 except Exception:
                     formatted_date = raw_date
 
@@ -641,14 +647,16 @@ elif app_mode == "📊 My History":
                     "Accuracy (%)": round(pct_number, 1)
                 })
 
-        # --- RENDER PROGRESS CHART (FIXED 0-100% SCALE WITH POINT MARKERS) ---
+        # --- RENDER PROGRESS CHART (FIXED 0-100% SCALE, POINTS & LARGER FONT) ---
         if chart_data:
             st.subheader("📈 Progress Trend Over Time")
             df_chart = pd.DataFrame(chart_data)
             
-            chart = alt.Chart(df_chart).mark_line(point=True).encode(
-                x=alt.X('Date & Time:N', sort=None, title='Date & Time'),
-                y=alt.Y('Accuracy (%):Q', scale=alt.Scale(domain=[0, 100]), title='Accuracy (%)'),
+            chart = alt.Chart(df_chart).mark_line(point=alt.OverlayMarkDef(size=60, filled=True, color='blue')).encode(
+                x=alt.X('Date & Time:N', sort=None, title='Date & Time',
+                        axis=alt.Axis(labelAngle=-30, labelFontSize=13, titleFontSize=14)),
+                y=alt.Y('Accuracy (%):Q', scale=alt.Scale(domain=[0, 100]), title='Accuracy (%)',
+                        axis=alt.Axis(labelFontSize=13, titleFontSize=14)),
                 tooltip=['Date & Time', 'Accuracy (%)']
             ).properties(height=350)
             
