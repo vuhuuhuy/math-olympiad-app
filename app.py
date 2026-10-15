@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
+import altair as alt
 import json
 import time
 import os
@@ -109,7 +110,7 @@ def get_api_session():
     session.mount("http://", adapter)
     return session
 
-# --- AUTHENTICATION: READS USERS LOCALLY FROM GITHUB (100% STABLE & INSTANT) ---
+# --- AUTHENTICATION: READS USERS LOCALLY FROM GITHUB ---
 def get_registered_emails():
     users_file = os.path.join(BASE_DIR, "users.json")
     if os.path.exists(users_file):
@@ -640,11 +641,18 @@ elif app_mode == "📊 My History":
                     "Accuracy (%)": round(pct_number, 1)
                 })
 
-        # --- RENDER PROGRESS CHART ---
+        # --- RENDER PROGRESS CHART (FIXED 0-100% SCALE WITH POINT MARKERS) ---
         if chart_data:
             st.subheader("📈 Progress Trend Over Time")
             df_chart = pd.DataFrame(chart_data)
-            st.line_chart(df_chart, x="Date & Time", y="Accuracy (%)")
+            
+            chart = alt.Chart(df_chart).mark_line(point=True).encode(
+                x=alt.X('Date & Time:N', sort=None, title='Date & Time'),
+                y=alt.Y('Accuracy (%):Q', scale=alt.Scale(domain=[0, 100]), title='Accuracy (%)'),
+                tooltip=['Date & Time', 'Accuracy (%)']
+            ).properties(height=350)
+            
+            st.altair_chart(chart, use_container_width=True)
 
         # --- RENDER DETAILED TABLE ---
         st.subheader("📋 Session Records")
