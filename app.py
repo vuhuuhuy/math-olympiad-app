@@ -422,10 +422,11 @@ elif app_mode == "📝 Mock Test":
     keyword = exam_type.lower().replace(" ", "")
     keyword_alt = exam_type.lower().split()[0]
 
-    test_files = [
+    # Sorted in reverse order (newest to oldest years)
+    test_files = sorted([
         f for f in os.listdir(BASE_DIR) 
         if f.endswith(".json") and f != "users.json" and (keyword in f.lower().replace("-", "") or keyword_alt in f.lower())
-    ]
+    ], reverse=True)
 
     selected_file = st.sidebar.selectbox("Select Test Paper:", test_files) if test_files else None
 
@@ -617,7 +618,6 @@ elif app_mode == "📊 My History":
                     else:
                         dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S")
                     
-                    # If timestamp is naive (logged previously in server UTC), shift by +8 hours to local Kuala Lumpur time
                     if dt.tzinfo is None:
                         dt = dt.replace(tzinfo=timezone.utc).astimezone(LOCAL_TZ)
                     else:
