@@ -93,15 +93,20 @@ def scroll_to_top():
         height=0
     )
 
-# --- HELPER FUNCTIONS FOR BACKEND API ---
-@st.cache_data(ttl=60)
+# --- HELPER FUNCTIONS FOR BACKEND API (ROBUST & UNCACHED FOR RELIABILITY) ---
 def get_registered_emails():
     if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
         return []
     try:
         response = requests.get(f"{GOOGLE_SHEET_WEB_APP_URL}?type=users", timeout=15)
         if response.status_code == 200:
-            return response.json()
+            data = response.json()
+            if isinstance(data, list):
+                # Normalize all emails to lowercase and strip whitespace
+                return [str(email).strip().lower() for email in data if email]
+            elif isinstance(data, dict):
+                users = data.get("users") or data.get("data") or []
+                return [str(email).strip().lower() for email in users if email]
     except Exception as e:
         print("Error fetching users:", e)
     return []
@@ -110,7 +115,6 @@ def register_new_email(email):
     payload = {"action": "register", "email": email}
     try:
         res = requests.post(GOOGLE_SHEET_WEB_APP_URL, json=payload, timeout=15)
-        st.cache_data.clear()
         return res.json().get("status")
     except Exception as e:
         print("Error registering email:", e)
