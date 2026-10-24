@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Theresa's parents have agreed to buy her tickets to see her favorite band if she spends an average of 10 hours per week helping around the house for 6 weeks. For the first 5 weeks she helps around the house for 8, 11, 7, 12 and 10 hours. How many hours must she work during the final week to earn the tickets?",
+    "options": ["(A) 9", "(B) 10", "(C) 11", "(D) 12", "(E) 13"],
+    "answer": "(D) 12",
+    "explanation": "For the first 5 weeks Theresa works a total of 8 + 11 + 7 + 12 + 10 = 48 hours. She has promised to work 6 * 10 = 60 hours in total. Therefore, she must work 60 - 48 = 12 hours during the final week.",
+    "image_width": 300
+  },
+  {
+    "id": 2,
+    "question": "Six-hundred fifty students were surveyed about their pasta preferences. The choices were lasagna, manicotti, ravioli and spaghetti. The results of the survey are displayed in the bar graph. What is the ratio of the number of students who preferred spaghetti to the number of students who preferred manicotti?",
+    "options": ["(A) 2/5", "(B) 1/2", "(C) 5/4", "(D) 5/3", "(E) 5/2"],
+    "answer": "(E) 5/2",
+    "explanation": "The number of students who preferred spaghetti is 250, and the number who preferred manicotti is 100. The ratio is 250 / 100 = 5/2.",
+    "image_width": 300
+  },
+  {
+    "id": 3,
+    "question": "What is the sum of the two smallest prime factors of 250?",
+    "options": ["(A) 2", "(B) 5", "(C) 7", "(D) 10", "(E) 12"],
+    "answer": "(C) 7",
+    "explanation": "The prime factorization of 250 is 2 * 5 * 5 * 5. The two smallest prime factors are 2 and 5. Their sum is 2 + 5 = 7.",
+    "image_width": 300
+  },
+  {
+    "id": 4,
+    "question": "A haunted house has six windows. In how many ways can Georgie the Ghost enter the house by one window and leave by a different window?",
+    "options": ["(A) 12", "(B) 15", "(C) 18", "(D) 30", "(E) 36"],
+    "answer": "(D) 30",
+    "explanation": "Georgie has 6 choices for the window to enter. After entering, Georgie has 5 remaining choices for the window to exit. Altogether, there are 6 * 5 = 30 different ways.",
+    "image_width": 300
+  },
+  {
+    "id": 5,
+    "question": "Chandler wants to buy a \\$500 mountain bike. For his birthday, his grandparents send him \\$50, his aunt sends him \\$35 and his cousin gives him \\$15. He earns \\$16 per week for his paper route. He will use all of his birthday money and all of the money he earns from his paper route. In how many weeks will he be able to buy the mountain bike?",
+    "options": ["(A) 24", "(B) 25", "(C) 26", "(D) 27", "(E) 28"],
+    "answer": "(B) 25",
+    "explanation": "Chandler receives 50 + 35 + 15 = \\$100 for his birthday. He needs 500 - 100 = \\$400 more. At \\$16 per week, it will take 400 / 16 = 25 weeks to save enough money.",
+    "image_width": 300
+  },
+  {
+    "id": 6,
+    "question": "The average cost of a long-distance call in the USA in 1985 was 41 cents per minute, and the average cost of a long-distance call in the USA in 2005 was 7 cents per minute. Find the approximate percent decrease in the cost per minute of a long-distance call.",
+    "options": ["(A) 7", "(B) 17", "(C) 34", "(D) 41", "(E) 80"],
+    "answer": "(E) 80",
+    "explanation": "The difference in cost per minute from 1985 to 2005 was 41 - 7 = 34 cents. The percent decrease is 100 * (34 / 41) ≈ 100 * (32 / 40) = 80%.",
+    "image_width": 300
+  },
+  {
+    "id": 7,
+    "question": "The average age of 5 people in a room is 30 years. An 18-year-old person leaves the room. What is the average age of the four remaining people?",
+    "options": ["(A) 25", "(B) 26", "(C) 29", "(D) 33", "(E) 36"],
+    "answer": "(D) 33",
+    "explanation": "The sum of ages of all 5 people is 5 * 30 = 150. After the 18-year-old leaves, the sum of the remaining 4 people's ages is 150 - 18 = 132. The average age is 132 / 4 = 33 years.",
+    "image_width": 300
+  },
+  {
+    "id": 8,
+    "question": "In trapezoid ABCD, AD is perpendicular to DC, AD = AB = 3, and DC = 6. In addition, E is on DC, and BE is parallel to AD. Find the area of triangle BEC.",
+    "options": ["(A) 3", "(B) 4.5", "(C) 6", "(D) 9", "(E) 18"],
+    "answer": "(B) 4.5",
+    "explanation": "ABED forms a square with side length 3. Subtracting DE = 3 from DC = 6 leaves EC = 3 for the base of triangle BEC. The area of triangle BEC is (1/2) * 3 * 3 = 4.5.",
+    "image_width": 300
+  },
+  {
+    "id": 9,
+    "question": "To complete the grid below, each of the digits 1 through 4 must occur once in each row and once in each column. What number will occupy the lower right-hand square?",
+    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) cannot be determined"],
+    "answer": "(B) 2",
+    "explanation": "The number in row 2, column 4 must be 1 because row 2 contains 2 and 3, and column 4 contains 4. Similarly, above 1 must be 3. The lower right-hand square must therefore be 2.",
+    "image_width": 300
+  },
+  {
+    "id": 10,
+    "question": "For any positive integer n, define [n] to be the sum of the positive factors of n. For example, [6] = 1 + 2 + 3 + 6 = 12. Find [[11]].",
+    "options": ["(A) 13", "(B) 20", "(C) 24", "(D) 28", "(E) 30"],
+    "answer": "(D) 28",
+    "explanation": "First, calculate [11] = 1 + 11 = 12. Next, calculate [[11]] = [12] = 1 + 2 + 3 + 4 + 6 + 12 = 28.",
+    "image_width": 300
+  },
+  {
+    "id": 11,
+    "question": "Tiles I, II, III and IV are translated so one tile coincides with each of the rectangles A, B, C and D. In the final arrangement, the two numbers on any side common to two adjacent tiles must be the same. Which of the tiles is translated to Rectangle C?",
+    "options": ["(A) I", "(B) II", "(C) III", "(D) IV", "(E) cannot be determined"],
+    "answer": "(D) IV",
+    "explanation": "Tile III has 0 on its bottom edge and 5 on its right edge, so it must be placed on D. Tile III has 1 on its left edge, and only Tile IV has 1 on its right edge. Therefore, Tile IV must be placed on C.",
+    "image_width": 300
+  },
+  {
+    "id": 12,
+    "question": "A unit hexagram is composed of a regular hexagon of side length 1 and its 6 equilateral triangular extensions, as shown in the diagram. What is the ratio of the area of the extensions to the area of the original hexagon?",
+    "options": ["(A) 1:1", "(B) 6:5", "(C) 3:2", "(D) 2:1", "(E) 3:1"],
+    "answer": "(A) 1:1",
+    "explanation": "Cutting the central hexagon into 6 congruent equilateral triangles shows that each exterior extension triangle is congruent to an interior triangle. Thus, the ratio of the area of the extensions to the area of the hexagon is 6:6 = 1:1.",
+    "image_width": 300
+  },
+  {
+    "id": 13,
+    "question": "Sets A and B, shown in the Venn diagram, have the same number of elements. Their union has 2007 elements and their intersection has 1001 elements. Find the number of elements in A.",
+    "options": ["(A) 503", "(B) 1006", "(C) 1504", "(D) 1507", "(E) 1510"],
+    "answer": "(C) 1504",
+    "explanation": "Let x be the number of elements in each set. By the inclusion-exclusion principle, |A U B| = 2x - |A ∩ B|. Thus, 2007 = 2x - 1001 -> 2x = 3008 -> x = 1504.",
+    "image_width": 300
+  },
+  {
+    "id": 14,
+    "question": "The base of isosceles triangle ABC is 24 and its area is 60. What is the length of one of the congruent sides?",
+    "options": ["(A) 5", "(B) 8", "(C) 13", "(D) 14", "(E) 18"],
+    "answer": "(C) 13",
+    "explanation": "Area = (1/2) * base * height -> 60 = (1/2) * 24 * h -> h = 5. The altitude splits the base into two equal segments of 12. Using the Pythagorean theorem, the side length is sqrt(5^2 + 12^2) = 13.",
+    "image_width": 300
+  },
+  {
+    "id": 15,
+    "question": "Let a, b and c be numbers with 0 < a < b < c. Which of the following is impossible?",
+    "options": ["(A) a + c < b", "(B) a * b < c", "(C) a + b < c", "(D) a * c < b", "(E) b / c = a"],
+    "answer": "(A) a + c < b",
+    "explanation": "Since 0 < a and b < c, adding the inequalities gives b < a + c. Therefore, a + c < b is impossible.",
+    "image_width": 300
+  },
+  {
+    "id": 16,
+    "question": "Amanda Reckonwith draws five circles with radii 1, 2, 3, 4 and 5. Then for each circle she plots the point (C, A), where C is its circumference and A is its area. Which of the following could be her graph?",
+    "options": ["(A) Graph A", "(B) Graph B", "(C) Graph C", "(D) Graph D", "(E) Graph E"],
+    "answer": "(A) Graph A",
+    "explanation": "Circumference C = 2*pi*r and Area A = pi*r^2 = C^2 / (4*pi). This defines an increasing quadratic parabola passing through the origin, which is shown in Graph A.",
+    "image_width": 600
+  },
+  {
+    "id": 17,
+    "question": "A mixture of 30 liters of paint is 25% red tint, 30% yellow tint and 45% water. Five liters of yellow tint are added to the original mixture. What is the percent of yellow tint in the new mixture?",
+    "options": ["(A) 25", "(B) 35", "(C) 40", "(D) 45", "(E) 50"],
+    "answer": "(C) 40",
+    "explanation": "Original yellow tint = 0.30 * 30 = 9 liters. After adding 5 liters, yellow tint = 14 liters and total mixture = 35 liters. Percentage = 14 / 35 = 2/5 = 40%.",
+    "image_width": 300
+  },
+  {
+    "id": 18,
+    "question": "The product of the two 99-digit numbers 303,030,303,...,030,303 and 505,050,505,...,050,505 has thousands digit A and units digit B. What is the sum of A and B?",
+    "options": ["(A) 3", "(B) 5", "(C) 6", "(D) 8", "(E) 10"],
+    "answer": "(D) 8",
+    "explanation": "To find A and B, consider the trailing digits: 303 * 505 = 153015. The thousands digit A is 3, and the units digit B is 5. Sum A + B = 3 + 5 = 8.",
+    "image_width": 300
+  },
+  {
+    "id": 19,
+    "question": "Pick two consecutive positive integers whose sum is less than 100. Square both of those integers and then find the difference of the squares. Which of the following could be the difference?",
+    "options": ["(A) 2", "(B) 64", "(C) 79", "(D) 96", "(E) 131"],
+    "answer": "(C) 79",
+    "explanation": "The difference of the squares of consecutive integers is (n+1)^2 - n^2 = 2n + 1 = n + (n+1), which equals their sum. The sum must be an odd number less than 100. Choice 79 is the only odd number less than 100.",
+    "image_width": 300
+  },
+  {
+    "id": 20,
+    "question": "Before district play, the Unicorns had won 45% of their basketball games. During district play, they won six more games and lost two, to finish the season having won half their games. How many games did the Unicorns play in all?",
+    "options": ["(A) 48", "(B) 50", "(C) 52", "(D) 54", "(E) 60"],
+    "answer": "(A) 48",
+    "explanation": "Let n be the number of games played before district play. 0.45n + 6 = 0.5(n + 8) -> 0.45n + 6 = 0.5n + 4 -> 0.05n = 2 -> n = 40. Total games played = 40 + 8 = 48.",
+    "image_width": 300
+  },
+  {
+    "id": 21,
+    "question": "Two cards are dealt from a deck of four red cards labeled A, B, C, D and four green cards labeled A, B, C, D. A winning pair is two of the same color or two of the same letter. What is the probability of drawing a winning pair?",
+    "options": ["(A) 2/7", "(B) 3/8", "(C) 1/2", "(D) 4/7", "(E) 5/8"],
+    "answer": "(D) 4/7",
+    "explanation": "After the first card is drawn, 7 cards remain. Exactly 3 cards have the same color, and 1 card has the same letter but a different color. Thus, 4 of the 7 remaining cards form a winning pair. Probability = 4/7.",
+    "image_width": 300
+  },
+  {
+    "id": 22,
+    "question": "A lemming sits at a corner of a square with side length 10 meters. The lemming runs 6.2 meters along a diagonal toward the opposite corner. It stops, makes a 90° right turn and runs 2 more meters. A scientist measures the shortest distance between the lemming and each side of the square. What is the average of these four distances in meters?",
+    "options": ["(A) 2", "(B) 4.5", "(C) 5", "(D) 6.2", "(E) 7"],
+    "answer": "(C) 5",
+    "explanation": "For any point inside a square of side 10, the sum of the horizontal distances to opposite sides is 10 and the sum of the vertical distances is 10. Total sum of all 4 distances = 20 meters. Average = 20 / 4 = 5 meters.",
+    "image_width": 300
+  },
+  {
+    "id": 23,
+    "question": "What is the area of the shaded pinwheel shown in the 5x5 grid?",
+    "options": ["(A) 4", "(B) 6", "(C) 8", "(D) 10", "(E) 12"],
+    "answer": "(B) 6",
+    "explanation": "Total grid area = 25. The four unshaded triangles each have a base of 3 and altitude of 2.5, giving a total area of 4 * (1/2 * 3 * 2.5) = 15. The 4 corner squares have area 4. Shaded pinwheel area = 25 - 15 - 4 = 6.",
+    "image_width": 300
+  },
+  {
+    "id": 24,
+    "question": "A bag contains four pieces of paper, each labeled with one of the digits 1, 2, 3 or 4, with no repeats. Three of these pieces are drawn, one at a time without replacement, to construct a three-digit number. What is the probability that the three-digit number is a multiple of 3?",
+    "options": ["(A) 1/4", "(B) 1/3", "(C) 1/2", "(D) 2/3", "(E) 3/4"],
+    "answer": "(C) 1/2",
+    "explanation": "A number is a multiple of 3 if its digit sum is a multiple of 3. For three drawn digits from {1,2,3,4}, the digit sum is a multiple of 3 when the remaining digit in the bag is 1 or 4. Probability = 2/4 = 1/2.",
+    "image_width": 300
+  },
+  {
+    "id": 25,
+    "question": "On the dart board shown in the figure, the outer circle has radius 6 and the inner circle has radius 3. Three radii divide each circle into three congruent regions, with point values shown. The probability that a dart will hit a given region is proportional to the area of the region. When two darts hit this board, the score is the sum of the point values in the regions. What is the probability that the score is odd?",
+    "options": ["(A) 17/36", "(B) 35/72", "(C) 1/2", "(D) 37/72", "(E) 19/36"],
+    "answer": "(B) 35/72",
+    "explanation": "Total area = 36*pi. Each inner region has area 3*pi (probability 1/12) and each outer region has area 9*pi (probability 1/4). P(1) = 1/4 + 1/4 + 1/12 = 7/12 and P(2) = 5/12. Probability of an odd sum = P(1)*P(2) + P(2)*P(1) = (7/12)*(5/12) + (5/12)*(7/12) = 70/144 = 35/72.",
+    "image_width": 300
+  }
+]

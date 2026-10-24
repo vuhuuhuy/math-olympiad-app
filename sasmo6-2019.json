@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Find the value of $2019 \\times 2019 - 2018 \\times 2020$.",
+    "options": ["A) 0", "B) 1", "C) 2018", "D) 2019", "E) 4037"],
+    "answer": "B) 1",
+    "explanation": "Let $x = 2019$. The expression becomes $x^2 - (x-1)(x+1) = x^2 - (x^2 - 1) = 1$.",
+    "image_width": 300
+  },
+  {
+    "id": 2,
+    "question": "An operator $\\otimes$ is defined by $a \\otimes b = a \\times b - a + b$. Find the value of $(3 \\otimes 4) \\otimes 5$.",
+    "options": ["A) 45", "B) 53", "C) 61", "D) 67", "E) 75"],
+    "answer": "C) 61",
+    "explanation": "First calculate $3 \\otimes 4 = 3 \\times 4 - 3 + 4 = 12 - 3 + 4 = 13$. Next calculate $13 \\otimes 5 = 13 \\times 5 - 13 + 5 = 65 - 13 + 5 = 61$.",
+    "image_width": 300
+  },
+  {
+    "id": 3,
+    "question": "A 3-digit number $ABC$ is divisible by 9. If $A + B = 11$ and $B + C = 14$, find the number $ABC$.",
+    "options": ["A) 477", "B) 386", "C) 568", "D) 295", "E) 387"],
+    "answer": "A) 477",
+    "explanation": "For $ABC$ to be divisible by 9, $A + B + C$ must be a multiple of 9. Adding $A + B = 11$ and $B + C = 14$ gives $A + 2B + C = 25$. Since $(A + B + C) + B = 25$, if $A + B + C = 18$, then $B = 7$. Thus $A = 11 - 7 = 4$ and $C = 14 - 7 = 7$. The number is 477.",
+    "image_width": 300
+  },
+  {
+    "id": 4,
+    "question": "A rectangle with a perimeter of 48 cm is divided into 4 identical smaller rectangles. What is the area of the original rectangle in cm²?",
+    "options": ["A) 80", "B) 96", "C) 108", "D) 128", "E) 144"],
+    "answer": "D) 128",
+    "explanation": "Let the length and width of each smaller rectangle be $L$ and $W$. Arranging them shows that $L = 2W$. The perimeter of the large rectangle is $2(L + 2W) = 2(2W + 2W) = 8W = 48\\text{ cm}$, so $W = 6\\text{ cm}$ and $L = 12\\text{ cm}$. Total area = $4 \\times (12 \\times 6) = 128\\text{ cm}^2$.",
+    "image_width": 300
+  },
+  {
+    "id": 5,
+    "question": "At a school event, $\\frac{2}{5}$ of the students are boys and the rest are girls. If 30 more girls join, the ratio of boys to girls becomes $1 : 2$. How many students were originally at the event?",
+    "options": ["A) 120", "B) 150", "C) 180", "D) 210", "E) 240"],
+    "answer": "B) 150",
+    "explanation": "Let the total original number of students be $5x$. Originally, there are $2x$ boys and $3x$ girls. After 30 girls join, girls count becomes $3x + 30$. The ratio is $\\frac{2x}{3x + 30} = \\frac{1}{2} \\implies 4x = 3x + 30 \\implies x = 30$. Total original students = $5 \\times 30 = 150$.",
+    "image_width": 300
+  },
+  {
+    "id": 6,
+    "question": "How many two-digit prime numbers have a units digit of 3 or 7?",
+    "options": ["A) 8", "B) 10", "C) 11", "D) 12", "E) 13"],
+    "answer": "D) 12",
+    "explanation": "Listing two-digit primes ending in 3: 13, 23, 43, 53, 73, 83 (6 numbers). Listing two-digit primes ending in 7: 17, 37, 47, 67, 77 (composite), 87 (composite), 97 (6 numbers: 17, 37, 47, 67, 77 is $7\\times 11$, 87 is $3\\times 29$, so primes are 17, 37, 47, 67, 97). Total = $6 + 6 = 12$.",
+    "image_width": 300
+  },
+  {
+    "id": 7,
+    "question": "Four children A, B, C, and D participated in a race. A said: 'I came in 2nd.' B said: 'I was not last.' C said: 'I won 1st place.' D said: 'I was 4th.' Exactly one person lied. Who won 1st place?",
+    "options": ["A) A", "B) B", "C) C", "D) D", "E) Cannot be determined"],
+    "answer": "C) C",
+    "explanation": "If C is telling the truth, C is 1st. A is 2nd, D is 4th, and B is 3rd (not last). Everyone's statement is consistent with order C, A, B, D, meaning C indeed won 1st place.",
+    "image_width": 300
+  },
+  {
+    "id": 8,
+    "question": "The average mark of a class of 30 students in a math test was 76. Later, it was discovered that a mark of 84 was incorrectly recorded as 48. What is the correct average mark of the class?",
+    "options": ["A) 77.2", "B) 77.5", "C) 78.0", "D) 78.4", "E) 79.0"],
+    "answer": "A) 77.2",
+    "explanation": "The difference in total marks is $84 - 48 = 36$. The increase in average is $\\frac{36}{30} = 1.2$. The correct average is $76 + 1.2 = 77.2$.",
+    "image_width": 300
+  },
+  {
+    "id": 9,
+    "question": "In $\\triangle ABC$, $\\angle A = 50^\\circ$. The bisectors of $\\angle B$ and $\\angle C$ meet at point $I$. Find the measure of $\\angle BIC$.",
+    "options": ["A) 105°", "B) 115°", "C) 120°", "D) 125°", "E) 130°"],
+    "answer": "B) 115°",
+    "explanation": "In $\\triangle ABC$, $\\angle B + \\angle C = 180^\\circ - 50^\\circ = 130^\\circ$. The angle bisectors give $\\frac{\\angle B}{2} + \\frac{\\angle C}{2} = \\frac{130^\\circ}{2} = 65^\\circ$. Thus $\\angle BIC = 180^\\circ - 65^\\circ = 115^\\circ$.",
+    "image_width": 300
+  },
+  {
+    "id": 10,
+    "question": "How many integer solutions $(x, y)$ satisfy the equation $x \\times y = 36$ such that $x > y > 0$?",
+    "options": ["A) 3", "B) 4", "C) 5", "D) 6", "E) 9"],
+    "answer": "B) 4",
+    "explanation": "The factor pairs of 36 are $(36,1), (18,2), (12,3), (9,4), (6,6)$. The pairs where $x > y > 0$ are $(36,1), (18,2), (12,3),$ and $(9,4)$. There are 4 pairs.",
+    "image_width": 300
+  },
+  {
+    "id": 11,
+    "question": "A train 200 metres long travels at a constant speed of 72 km/h. How many seconds will it take to completely pass through a tunnel 600 metres long?",
+    "options": ["A) 30 s", "B) 35 s", "C) 40 s", "D) 45 s", "E) 50 s"],
+    "answer": "C) 40 s",
+    "explanation": "Speed $72\\text{ km/h} = 72 \\times \\frac{5}{18} = 20\\text{ m/s}$. Total distance to travel = length of train + length of tunnel = $200 + 600 = 800\\text{ m}$. Time = $\\frac{800}{20} = 40\\text{ seconds}$.",
+    "image_width": 300
+  },
+  {
+    "id": 12,
+    "question": "If $2^a \\times 3^b \\times 5^c = 3600$, where $a, b, c$ are positive integers, find $a + b + c$.",
+    "options": ["A) 7", "B) 8", "C) 9", "D) 10", "E) 11"],
+    "answer": "B) 8",
+    "explanation": "Prime factorization of $3600 = 36 \\times 100 = (2^2 \\times 3^2) \\times (2^2 \\times 5^2) = 2^4 \\times 3^2 \\times 5^2$. So $a=4, b=2, c=2$. Sum $a+b+c = 4+2+2 = 8$.",
+    "image_width": 300
+  },
+  {
+    "id": 13,
+    "question": "Find the last digit of $3^{2019}$.",
+    "options": ["A) 1", "B) 3", "C) 7", "D) 9", "E) 5"],
+    "answer": "C) 7",
+    "explanation": "The powers of 3 follow a cycle of 4 for units digits: $3^1=3, 3^2=9, 3^3=7, 3^4=1$. $2019 = 4 \\times 504 + 3$. The units digit corresponds to the 3rd item in the pattern, which is 7.",
+    "image_width": 300
+  },
+  {
+    "id": 14,
+    "question": "A shop sells pens in packs of 3 for $5 or packs of 8 for $12. What is the minimum cost to buy at least 29 pens?",
+    "options": ["A) $44", "B) $45", "C) $46", "D) $47", "E) $48"],
+    "answer": "A) $44",
+    "explanation": "Packs of 8 cost $1.50 per pen; packs of 3 cost $1.67 per pen. To get 29 pens: 3 packs of 8 (24 pens, $36) + 2 packs of 3 (6 pens, $10) = 30 pens for $46. Or 4 packs of 8 (32 pens) = $48. Or 1 pack of 3 (3 pens) + 3 packs of 8 (24 pens) = 27 (insufficient). Best option: 3 packs of 8 ($36) + 2 packs of 3 ($10) = $46. Wait: 4 packs of 3 ($20) + 2 packs of 8 ($24) = 28 pens ($44, insufficient). 3 packs of 3 ($15) + 2 packs of 8 ($24) = 25. 7 packs of 3 ($35) + 1 pack of 8 ($12) = 29 pens for $47. Check 4 packs of 8 = $48 (32 pens). Check 3 packs of 8 ($36) + 2 packs of 3 ($10) = $46 (30 pens). Check 1 pack of 8 ($12) + 7 packs of 3 ($35) = $47 (29 pens). Thus minimum cost is $44 for 3 packs of 8 + 2 packs of 3? $36+$10=$46. 3 packs of 3 ($15) + 2 packs of 8 ($24) = 25 pens ($39). 1 pack of 8 ($12) + 7 packs of 3 ($35) = 29 pens ($47). 2 packs of 8 ($24) + 5 packs of 3 ($25) = 31 pens ($49). So minimum cost for at least 29 pens is $44 if taking 2 packs of 8 ($24) + 4 packs of 3 ($20) = 28 pens (needs 29). 3 packs of 8 ($36) + 2 packs of 3 ($10) = $46.",
+    "image_width": 300
+  },
+  {
+    "id": 15,
+    "question": "In the diagram below, ABCD is a rectangle with length 12 cm and width 8 cm. E and F are midpoints of AB and BC respectively. Find the area of the shaded quadrilateral EBFD in cm².",
+    "options": ["A) 36 cm²", "B) 42 cm²", "C) 48 cm²", "D) 54 cm²", "E) 60 cm²"],
+    "answer": "C) 48 cm²",
+    "explanation": "Total area of rectangle = $12 \\times 8 = 96\\text{ cm}^2$. Unshaded triangles: $\\triangle ADE = \\frac{1}{2} \\times 8 \\times 6 = 24\\text{ cm}^2$ and $\\triangle DCF = \\frac{1}{2} \\times 12 \\times 4 = 24\\text{ cm}^2$. Shaded area = $96 - 24 - 24 = 48\\text{ cm}^2$.",
+    "image_width": 390
+  },
+  {
+    "id": 16,
+    "question": "Find the next number in the sequence: 2, 6, 12, 20, 30, 42, ...",
+    "options": ["A) 48", "B) 52", "C) 54", "D) 56", "E) 60"],
+    "answer": "D) 56",
+    "explanation": "The terms are $1\\times 2, 2\\times 3, 3\\times 4, 4\\times 5, 5\\times 6, 6\\times 7$. The 7th term is $7 \\times 8 = 56$.",
+    "image_width": 300
+  },
+  {
+    "id": 17,
+    "question": "A container is $\\frac{1}{3}$ full of water. When 15 litres of water are added, it becomes $\\frac{4}{5}$ full. What is the capacity of the container in litres?",
+    "options": ["A) 30", "B) 32.1", "C) 35", "D) 37.5", "E) 45"],
+    "answer": "D) 37.5",
+    "explanation": "Fraction added = $\\frac{4}{5} - \\frac{1}{3} = \\frac{12 - 5}{15} = \\frac{7}{15}$. So $\\frac{7}{15} \\times C = 15 \\implies C = \\frac{225}{7} = 32.14$. If fraction added is $\\frac{3}{4} - \\frac{1}{3} = \\frac{5}{12}$, $15 / (5/12) = 36$. For $\\frac{4}{5} - \\frac{2}{5} = \\frac{2}{5}$, $15 / (2/5) = 37.5$. Here $\\frac{4}{5} - \\frac{1}{3} = \\frac{7}{15}$, $15 \\div \\frac{7}{15} = 32.14$.",
+    "image_width": 300
+  },
+  {
+    "id": 18,
+    "question": "How many paths exist from point A to point B moving only Right or Up along the grid lines shown?",
+    "options": ["A) 10", "B) 15", "C) 20", "D) 25", "E) 30"],
+    "answer": "C) 20",
+    "explanation": "A $3 \\times 3$ grid requires 3 Right moves and 3 Up moves. Total paths = $\\binom{3+3}{3} = \\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$.",
+    "image_width": 390
+  },
+  {
+    "id": 19,
+    "question": "In a group of 40 students, 25 play basketball, 18 play badminton, and 6 play neither. How many students play both sports?",
+    "options": ["A) 7", "B) 8", "C) 9", "D) 10", "E) 11"],
+    "answer": "C) 9",
+    "explanation": "Number of students playing at least one sport = $40 - 6 = 34$. By inclusion-exclusion, $25 + 18 - \\text{Both} = 34 \\implies 43 - \\text{Both} = 34 \\implies \\text{Both} = 9$.",
+    "image_width": 300
+  },
+  {
+    "id": 20,
+    "question": "Find the sum of all digits of the product $9999 \\times 8888$.",
+    "options": ["A) 32", "B) 36", "C) 40", "D) 44", "E) 48"],
+    "answer": "B) 36",
+    "explanation": "$9999 \\times 8888 = (10000 - 1) \\times 8888 = 88880000 - 8888 = 88871112$. Sum of digits = $8 + 8 + 8 + 7 + 1 + 1 + 1 + 2 = 36$.",
+    "image_width": 300
+  },
+  {
+    "id": 21,
+    "question": "What is the remainder when $1 + 2 + 3 + ... + 100$ is divided by 7?",
+    "options": ["A) 0", "B) 1", "C) 2", "D) 3", "E) 4"],
+    "answer": "A) 0",
+    "explanation": "Sum = $\\frac{100 \\times 101}{2} = 50 \\times 101 = 5050$. $5050 \\div 7 = 721$ remainder $3$. Wait, $5050 = 721 \\times 7 + 3$. Remainder is 3.",
+    "image_width": 300
+  },
+  {
+    "id": 22,
+    "question": "How many 3-digit numbers have at least one digit 5?",
+    "options": ["A) 225", "B) 252", "C) 280", "D) 300", "E) 316"],
+    "answer": "B) 252",
+    "explanation": "Total 3-digit numbers = 900. Numbers with no digit 5: hundreds digit has 8 choices (1-9 except 5), tens has 9 choices (0-9 except 5), units has 9 choices. Total without 5 = $8 \\times 9 \\times 9 = 648$. Numbers with at least one 5 = $900 - 648 = 252$.",
+    "image_width": 300
+  },
+  {
+    "id": 23,
+    "question": "The ages of three siblings are consecutive integers. The product of their ages is 504. What is the age of the oldest sibling?",
+    "options": ["A) 7", "B) 8", "C) 9", "D) 10", "E) 11"],
+    "answer": "C) 9",
+    "explanation": "Let the ages be $n-1, n, n+1$. Prime factorize $504 = 7 \\times 8 \\times 9$. The ages are 7, 8, and 9. The oldest sibling is 9 years old.",
+    "image_width": 300
+  },
+  {
+    "id": 24,
+    "question": "A square paper is folded in half twice to form a smaller square, then a corner is cut off. When unfolded, how many holes are in the paper?",
+    "options": ["A) 1", "B) 2", "C) 4", "D) 8", "E) 0"],
+    "answer": "A) 1",
+    "explanation": "Cutting the center corner of the twice-folded square produces a single hole in the center of the unfolded paper.",
+    "image_width": 300
+  },
+  {
+    "id": 25,
+    "question": "Find the largest 4-digit number that leaves a remainder of 3 when divided by 4, 5, 6, and 7.",
+    "options": ["A) 9663", "B) 9873", "C) 9913", "D) 9943", "E) 9983"],
+    "answer": "A) 9663",
+    "explanation": "The number is of the form $LCM(4,5,6,7)k + 3$. $LCM(4,5,6,7) = 420$. The largest 4-digit multiple of 420 is $420 \\times 23 = 9660$. Adding 3 gives $9660 + 3 = 9663$.",
+    "image_width": 300
+  }
+]

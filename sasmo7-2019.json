@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "question": "The number 2019 can be written as $x^2 + x^2 + 41^2 = 2019$, where $x$ is a prime number. What is the value of $x$?",
+    "options": [
+      "A) 19",
+      "B) 17",
+      "C) 13",
+      "D) 23",
+      "E) None of the above"
+    ],
+    "answer": "C) 13",
+    "explanation": "$2x^2 + 41^2 = 2019 \\implies 2x^2 + 1681 = 2019 \\implies 2x^2 = 338 \\implies x^2 = 169 \\implies x = 13$."
+  },
+  {
+    "id": 2,
+    "question": "Kinetic energy is given by $E = \\frac{p^2}{2m}$. What happens to $E$ if mass $m$ is reduced to half and momentum $p$ is doubled?",
+    "options": [
+      "A) Unchanged",
+      "B) Double",
+      "C) Four times the original",
+      "D) Eight times the original",
+      "E) None of the above"
+    ],
+    "answer": "D) Eight times the original",
+    "explanation": "$E_{\\text{new}} = \\frac{(2p)^2}{2(m/2)} = \\frac{4p^2}{m} = 8 \\times \\frac{p^2}{2m} = 8E$."
+  },
+  {
+    "id": 3,
+    "question": "Find the sum of the prime factors of $2^8 - 1$.",
+    "options": [
+      "A) 25",
+      "B) 60",
+      "C) 17",
+      "D) 9",
+      "E) None of the above"
+    ],
+    "answer": "A) 25",
+    "explanation": "$2^8 - 1 = (2^4-1)(2^4+1) = 15 \\times 17 = 3 \\times 5 \\times 17$. Prime factors are 3, 5, 17. Sum = $3 + 5 + 17 = 25$."
+  },
+  {
+    "id": 4,
+    "question": "Consider integers from 1 to 100. Which of the following is NOT true?",
+    "options": [
+      "A) Number of even numbers equals number of odd numbers.",
+      "B) Digit '0' is the least occurring digit.",
+      "C) There are more even numbers than prime numbers.",
+      "D) Number of multiples of 8 is the same as multiples of 9.",
+      "E) Average of the 100 numbers is not an integer."
+    ],
+    "answer": "D) Number of multiples of 8 is the same as multiples of 9.",
+    "explanation": "There are 12 multiples of 8 ($8 \\times 12 = 96$) and 11 multiples of 9 ($9 \\times 11 = 99$). Thus statement D is NOT true."
+  },
+  {
+    "id": 5,
+    "question": "What is the smallest 4-digit number divisible by all integers from 1 to 10?",
+    "options": [
+      "A) 1260",
+      "B) 2520",
+      "C) 840",
+      "D) 5040",
+      "E) None of the above"
+    ],
+    "answer": "B) 2520",
+    "explanation": "$\\text{LCM}(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2520$, which is the smallest 4-digit number satisfying the condition."
+  },
+  {
+    "id": 6,
+    "question": "Followers changed: +10% (Sept-Oct), -20% (Oct-Nov), +50% (Nov-Dec). What was the total percentage increase from September to December?",
+    "options": [
+      "A) 80%",
+      "B) 62%",
+      "C) 56%",
+      "D) 32%",
+      "E) None of the above"
+    ],
+    "answer": "D) 32%",
+    "explanation": "Overall factor = $1.10 \\times 0.80 \\times 1.50 = 1.32$, which represents a 32% increase."
+  },
+  {
+    "id": 7,
+    "question": "A fully connected network has 10 nodes where every pair is connected by a line segment. How many connections are there?",
+    "options": [
+      "A) 45",
+      "B) 55",
+      "C) 20",
+      "D) 66",
+      "E) None of the above"
+    ],
+    "answer": "A) 45",
+    "explanation": "Connections = $\\binom{10}{2} = \\frac{10 \\times 9}{2} = 45$."
+  },
+  {
+    "id": 8,
+    "question": "The product of 46 integers is 1. Which of the following CANNOT be the sum of these 46 integers?",
+    "options": [
+      "A) 38",
+      "B) 6",
+      "C) 0",
+      "D) -14",
+      "E) -46"
+    ],
+    "answer": "C) 0",
+    "explanation": "To get sum 0, exactly 23 integers must be 1 and 23 must be -1. But $(-1)^{23} = -1 \\ne 1$, so the sum cannot be 0."
+  },
+  {
+    "id": 9,
+    "question": "In $\\triangle ABC$, $AB=BD=DE=EC$. Given $\\angle ABE = 120^\\circ$, what is $\\angle BDA$?",
+    "options": [
+      "A) 65°",
+      "B) 60°",
+      "C) 45°",
+      "D) 15°",
+      "E) None of the above"
+    ],
+    "answer": "C) 45°",
+    "explanation": "Setting up angle relations in isosceles triangles $\\triangle ABD$, $\\triangle BDE$, and $\\triangle DEC$ yields $\\angle BDA = 45^\\circ$."
+  },
+  {
+    "id": 10,
+    "question": "The operator $\\otimes$ gives: $2\\otimes6=44$, $1\\otimes10=87$, $8\\otimes18=1613$, $16\\otimes22=2019$. What is $32\\otimes34$?",
+    "options": [
+      "A) 3266",
+      "B) 6440",
+      "C) 3225",
+      "D) 3233",
+      "E) None of the above"
+    ],
+    "answer": "D) 3233",
+    "explanation": "Pattern: $a \\otimes b = [b-2][(a+b)/2]$ concatenated. For $32 \\otimes 34$: $34-2 = 32$ and $(32+34)/2 = 33$, giving $3233$."
+  },
+  {
+    "id": 11,
+    "question": "In a camp, 12 played all 3 games, 33 played Scavenger Hunt, 29 played Animal Charades, 36 played Musical Chairs. Everyone played $\\ge 2$ games. Total students?",
+    "options": [
+      "A) 62",
+      "B) 31",
+      "C) 43",
+      "D) 110",
+      "E) None of the above"
+    ],
+    "answer": "C) 43",
+    "explanation": "Using Venn diagram equations with single-game regions $= 0$: Total students $= 43$."
+  },
+  {
+    "id": 12,
+    "question": "Which cube is formed when folding the given net?",
+    "options": [
+      "A) Cube A",
+      "B) Cube B",
+      "C) Cube C",
+      "D) Cube D",
+      "E) Cube E"
+    ],
+    "answer": "C) Cube C",
+    "explanation": "Analyzing adjacent face orientations shows Cube C is the uniquely valid folding."
+  },
+  {
+    "id": 13,
+    "question": "Find the numerator of the sum $\\frac{1}{2} + \\frac{3}{4} + \\frac{7}{8} + \\dots + \\frac{511}{512}$ in simplest form.",
+    "options": [
+      "A) 512",
+      "B) 522",
+      "C) 3586",
+      "D) 4097",
+      "E) None of the above"
+    ],
+    "answer": "D) 4097",
+    "explanation": "Sum $S = 9 - \\frac{511}{512} = \\frac{4097}{512}$. The numerator is 4097."
+  },
+  {
+    "id": 14,
+    "question": "6 followers sit at a round table (2 adjacent truth-tellers, 2 adjacent liars, 2 alternating). Based on their claims, what is in the box?",
+    "options": [
+      "A) Mobile Phone",
+      "B) Watch",
+      "C) Wallet",
+      "D) Bag",
+      "E) Insufficient data"
+    ],
+    "answer": "A) Mobile Phone",
+    "explanation": "Logical seating assignment forces the two adjacent truth-tellers to point to 'Mobile Phone'."
+  },
+  {
+    "id": 15,
+    "question": "The calendar for the year 2019 is identical to the calendar for which year?",
+    "options": [
+      "A) 2003",
+      "B) 2005",
+      "C) 2012",
+      "D) 2013",
+      "E) 2014"
+    ],
+    "answer": "D) 2013",
+    "explanation": "Accounting for leap year shifts, Jan 1 shifts back by 7 total days from 2019 to 2013."
+  },
+  {
+    "id": 16,
+    "question": "How many total triangles are in the given symmetric nested geometric diagram?",
+    "options": [
+      "A) 36",
+      "B) 32",
+      "C) 40",
+      "D) 28",
+      "E) 34"
+    ],
+    "answer": "A) 36",
+    "explanation": "Counting 1-part triangles (32) and 9-part large triangles (4) gives $32 + 4 = 36$."
+  },
+  {
+    "id": 17,
+    "question": "Average customers first 4 days was 65% of average last 3 days (134, 242, 164). Monday=83, Wed=129, Thu=155. How many on Tuesday?",
+    "options": [
+      "A) 101",
+      "B) 95",
+      "C) 110",
+      "D) 105",
+      "E) 98"
+    ],
+    "answer": "A) 101",
+    "explanation": "Last 3 days average $= 180$. First 4 days average $= 0.65 \\times 180 = 117$. $\\frac{83 + x + 129 + 155}{4} = 117 \\implies x = 101$."
+  },
+  {
+    "id": 18,
+    "question": "Gold coins problem: $B=D$, $C = \\frac{A+B}{4}$, $C = D - 10$, $A = B/2$. Find their total gold coins after round 1.",
+    "options": [
+      "A) 46",
+      "B) 50",
+      "C) 42",
+      "D) 54",
+      "E) 48"
+    ],
+    "answer": "A) 46",
+    "explanation": "Solving system: $A = 8$, $B = 16$, $C = 6$, $D = 16$. Total $= 8 + 16 + 6 + 16 = 46$."
+  },
+  {
+    "id": 19,
+    "question": "Find the missing number in the sequence: $311, 282, 313, 304, 315, 306, 317, ?, 309$.",
+    "options": [
+      "A) 318",
+      "B) 308",
+      "C) 317",
+      "D) 328",
+      "E) 310"
+    ],
+    "answer": "A) 318",
+    "explanation": "Numbers represent [days in month][month number]: August (month 8) has 31 days $\\implies 318$."
+  },
+  {
+    "id": 20,
+    "question": "Find the smallest positive integer $n$ for which $225n$ is a multiple of 4500.",
+    "options": [
+      "A) 20",
+      "B) 15",
+      "C) 25",
+      "D) 10",
+      "E) 30"
+    ],
+    "answer": "A) 20",
+    "explanation": "$225n = 4500k \\implies n = 20k$. The smallest positive integer is $n = 20$."
+  },
+  {
+    "id": 21,
+    "question": "ABCD and DEFG are squares with $AB=15\\text{ cm}$ and $DE=11\\text{ cm}$. Find the area of the shaded quadrilateral.",
+    "options": [
+      "A) 165 cm²",
+      "B) 150 cm²",
+      "C) 175 cm²",
+      "D) 160 cm²",
+      "E) 180 cm²"
+    ],
+    "answer": "A) 165 cm²",
+    "explanation": "Summing triangle areas and subtracting unshaded regions gives $195 + 143 - 112.5 - 60.5 = 165\\text{ cm}^2$."
+  },
+  {
+    "id": 22,
+    "question": "How many 3-digit numbers are multiples of 6 and remain multiples of 6 when their tens and ones digits are swapped?",
+    "options": [
+      "A) 75",
+      "B) 60",
+      "C) 90",
+      "D) 80",
+      "E) 72"
+    ],
+    "answer": "A) 75",
+    "explanation": "Both tens and units digits must be even. Systematic counting yields 75 such numbers."
+  },
+  {
+    "id": 23,
+    "question": "Find the sum of digits of the product $(333\\dots3) \\times 2019$, where there are 100 threes.",
+    "options": [
+      "A) 900",
+      "B) 891",
+      "C) 909",
+      "D) 990",
+      "E) 810"
+    ],
+    "answer": "A) 900",
+    "explanation": "$333\\dots3 \\times 2019 = 999\\dots9 \\times 673 = (10^{100}-1) \\times 673 = 67299\\dots9327$ (97 nines). Digit sum $= 6+7+2 + 97\\times 9 + 3+2+7 = 900$."
+  },
+  {
+    "id": 24,
+    "question": "In the cryptarithm $RED + DEER = RDRA$, find the value of $R + E + D + A$.",
+    "options": [
+      "A) 24",
+      "B) 22",
+      "C) 20",
+      "D) 25",
+      "E) 26"
+    ],
+    "answer": "A) 24",
+    "explanation": "Solving digits: $E=8$, $R=7$, $D=6$, $A=3$. Sum $= 7 + 8 + 6 + 3 = 24$."
+  },
+  {
+    "id": 25,
+    "question": "Given $159n + 49 = a^2$ is a 4-digit perfect square ($n$ positive integer), find $n$.",
+    "options": [
+      "A) 13",
+      "B) 11",
+      "C) 17",
+      "D) 15",
+      "E) 19"
+    ],
+    "answer": "A) 13",
+    "explanation": "Factorizing $159n = (a-7)(a+7)$ with prime factor 53 gives $a = 46$, so $n = \\frac{46^2-49}{159} = 13$."
+  }
+]

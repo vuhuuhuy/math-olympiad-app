@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Susan had \\$50 to spend at the carnival. She spent \\$12 on food and twice as much on rides. How many dollars did she have left to spend?",
+    "options": ["(A) 12", "(B) 14", "(C) 26", "(D) 38", "(E) 50"],
+    "answer": "(B) 14",
+    "explanation": "Susan spent 2 * 12 = \\$24 on rides, so she spent a total of 12 + 24 = \\$36. She had 50 - 36 = \\$14 left to spend.",
+    "image_width": 300
+  },
+  {
+    "id": 2,
+    "question": "The ten-letter code BEST OF LUCK represents the ten digits 0-9, in order. What 4-digit number is represented by the code word CLUE?",
+    "options": ["(A) 8671", "(B) 8672", "(C) 9781", "(D) 9782", "(E) 9872"],
+    "answer": "(A) 8671",
+    "explanation": "Matching the letters to the digits 0 through 9 in order gives: B=0, E=1, S=2, T=3, O=4, F=5, L=6, U=7, C=8, K=9. Therefore, C=8, L=6, U=7, and E=1, so CLUE represents 8671.",
+    "image_width": 300
+  },
+  {
+    "id": 3,
+    "question": "If February is a month that contains Friday the 13th, what day of the week is February 1?",
+    "options": ["(A) Sunday", "(B) Monday", "(C) Wednesday", "(D) Thursday", "(E) Saturday"],
+    "answer": "(A) Sunday",
+    "explanation": "A week before the 13th is the 6th, which is also a Friday. Counting back from Friday the 6th: the 5th is Thursday, the 4th is Wednesday, the 3rd is Tuesday, the 2nd is Monday, and February 1st is a Sunday.",
+    "image_width": 300
+  },
+  {
+    "id": 4,
+    "question": "In the figure, the outer equilateral triangle has area 16, the inner equilateral triangle has area 1, and the three trapezoids are congruent. What is the area of one of the trapezoids?",
+    "options": ["(A) 3", "(B) 4", "(C) 5", "(D) 6", "(E) 7"],
+    "answer": "(C) 5",
+    "explanation": "The area of the outer triangle with the inner triangle removed is 16 - 1 = 15, which represents the combined area of the three congruent trapezoids. Thus, the area of one trapezoid is 15 / 3 = 5.",
+    "image_width": 300
+  },
+  {
+    "id": 5,
+    "question": "Barney Schwinn notices that the odometer on his bicycle reads 1441, a palindrome, because it reads the same forward and backward. After riding 4 more hours that day and 6 the next, he notices that the odometer shows another palindrome, 1661. What was his average speed in miles per hour?",
+    "options": ["(A) 15", "(B) 16", "(C) 18", "(D) 20", "(E) 22"],
+    "answer": "(E) 22",
+    "explanation": "Barney rides 1661 - 1441 = 220 miles. The total time spent riding is 4 + 6 = 10 hours. His average speed is 220 / 10 = 22 miles per hour.",
+    "image_width": 300
+  },
+  {
+    "id": 6,
+    "question": "In the figure, what is the ratio of the area of the gray squares to the area of the white squares?",
+    "options": ["(A) 3:10", "(B) 3:8", "(C) 3:7", "(D) 3:5", "(E) 1:1"],
+    "answer": "(D) 3:5",
+    "explanation": "Subdividing the central gray square into 4 smaller unit squares reveals a grid of 16 congruent squares in total, 6 of which are gray and 10 of which are white. The ratio of gray area to white area is 6:10 = 3:5.",
+    "image_width": 300
+  },
+  {
+    "id": 7,
+    "question": "If 3/5 = M/45 = 60/N, what is M + N?",
+    "options": ["(A) 27", "(B) 29", "(C) 45", "(D) 105", "(E) 127"],
+    "answer": "(E) 127",
+    "explanation": "From M/45 = 3/5, we get M = 45 * (3/5) = 27. From 60/N = 3/5, we get N = 60 * (5/3) = 100. Therefore, M + N = 27 + 100 = 127.",
+    "image_width": 300
+  },
+  {
+    "id": 8,
+    "question": "Candy sales of the Boosters Club for January through April are shown. What were the average sales per month in dollars?",
+    "options": ["(A) 60", "(B) 70", "(C) 75", "(D) 80", "(E) 85"],
+    "answer": "(D) 80",
+    "explanation": "The sales for the four months were $100 in January, $60 in February, $40 in March, and $120 in April. The total sales were 100 + 60 + 40 + 120 = 320. The average sales per month were 320 / 4 = $80.",
+    "image_width": 300
+  },
+  {
+    "id": 9,
+    "question": "In 2005 Tycoon Tammy invested $100 for two years. During the first year her investment suffered a 15% loss, but during the second year the remaining investment showed a 20% gain. Over the two-year period, what was the change in Tammy's investment?",
+    "options": ["(A) 5% loss", "(B) 2% loss", "(C) 1% gain", "(D) 2% gain", "(E) 5% gain"],
+    "answer": "(D) 2% gain",
+    "explanation": "After the first year, her investment was 85% of $100 = $85. After the second year, it gained 20%, giving 1.20 * 85 = $102. Over two years, the investment went from $100 to $102, representing a 2% gain.",
+    "image_width": 300
+  },
+  {
+    "id": 10,
+    "question": "The average age of the 6 people in Room A is 40. The average age of the 4 people in Room B is 25. If the two groups are combined, what is the average age of all the people?",
+    "options": ["(A) 32.5", "(B) 33", "(C) 33.5", "(D) 34", "(E) 35"],
+    "answer": "(D) 34",
+    "explanation": "The sum of ages in Room A is 6 * 40 = 240. The sum of ages in Room B is 4 * 25 = 100. The total sum of ages for all 10 people is 240 + 100 = 340. The average age is 340 / 10 = 34.",
+    "image_width": 300
+  },
+  {
+    "id": 11,
+    "question": "Each of the 39 students in the eighth grade at Lincoln Middle School has one dog or one cat or both a dog and a cat. Twenty students have a dog and 26 students have a cat. How many students have both a dog and a cat?",
+    "options": ["(A) 7", "(B) 13", "(C) 19", "(D) 39", "(E) 46"],
+    "answer": "(A) 7",
+    "explanation": "The sum of dog owners and cat owners is 20 + 26 = 46. Since there are only 39 students in total, 46 - 39 = 7 students must have both a dog and a cat.",
+    "image_width": 300
+  },
+  {
+    "id": 12,
+    "question": "A ball is dropped from a height of 3 meters. On its first bounce it rises to a height of 2 meters. It keeps falling and bouncing to 2/3 of the height it reached in the previous bounce. On which bounce will it not rise to a height of 0.5 meters?",
+    "options": ["(A) 3", "(B) 4", "(C) 5", "(D) 6", "(E) 7"],
+    "answer": "(C) 5",
+    "explanation": "Bounce 1: 2 m. Bounce 2: 4/3 m. Bounce 3: 8/9 m. Bounce 4: 16/27 m (since 16/27 > 0.5). Bounce 5: 32/81 m (since 32/81 < 0.5). Thus, the ball fails to rise to 0.5 meters on the 5th bounce.",
+    "image_width": 300
+  },
+  {
+    "id": 13,
+    "question": "Mr. Harman needs to know the combined weight in pounds of three boxes he wants to mail. However, the only available scale is not accurate for weights less than 100 pounds or more than 150 pounds. So the boxes are weighed in pairs in every possible way. The results are 122, 125 and 127 pounds. What is the combined weight in pounds of the three boxes?",
+    "options": ["(A) 160", "(B) 170", "(C) 187", "(D) 195", "(E) 354"],
+    "answer": "(C) 187",
+    "explanation": "Since each box is weighed twice (once with each of the other two boxes), summing the pairwise weights gives 122 + 125 + 127 = 374 pounds, which is twice the total combined weight. The total weight of all three boxes is 374 / 2 = 187 pounds.",
+    "image_width": 300
+  },
+  {
+    "id": 14,
+    "question": "Three As, three Bs and three Cs are placed in the nine spaces so that each row and column contain one of each letter. If A is placed in the upper left corner, how many arrangements are possible?",
+    "options": ["(A) 2", "(B) 3", "(C) 4", "(D) 5", "(E) 6"],
+    "answer": "(C) 4",
+    "explanation": "With A fixed in the upper-left corner, the remaining two spots in the top row can be (B, C) or (C, B) [2 choices]. Similarly, the remaining spots in the left column can be (B, C) or (C, B) [2 choices]. Once these are chosen, all remaining cells in the grid are completely forced. Thus, there are 2 * 2 = 4 possible arrangements.",
+    "image_width": 300
+  },
+  {
+    "id": 15,
+    "question": "In Theresa's first 8 basketball games, she scored 7, 4, 3, 6, 8, 3, 1 and 5 points. In her ninth game, she scored fewer than 10 points and her points-per-game average for the nine games was an integer. Similarly in her tenth game, she scored fewer than 10 points and her points-per-game average for the 10 games was also an integer. What is the product of the number of points she scored in the ninth and tenth games?",
+    "options": ["(A) 35", "(B) 40", "(C) 48", "(D) 56", "(E) 72"],
+    "answer": "(B) 40",
+    "explanation": "Sum of points in the first 8 games is 37. For the 9-game average to be an integer, 37 + g9 must be a multiple of 9. Since g9 < 10, 37 + g9 = 45 -> g9 = 8. For the 10-game average to be an integer, 45 + g10 must be a multiple of 10. Since g10 < 10, 45 + g10 = 50 -> g10 = 5. The product is 8 * 5 = 40.",
+    "image_width": 300
+  },
+  {
+    "id": 16,
+    "question": "A shape is created by joining seven unit cubes, as shown. What is the ratio of the volume in cubic units to the surface area in square units?",
+    "options": ["(A) 1:6", "(B) 7:36", "(C) 1:5", "(D) 7:30", "(E) 6:25"],
+    "answer": "(D) 7:30",
+    "explanation": "The volume is 7 * 1 = 7 cubic units. Six of the unit cubes each have 5 exposed faces, while the central cube has 0 exposed faces. The total surface area is 6 * 5 = 30 square units. The ratio of volume to surface area is 7:30.",
+    "image_width": 300
+  },
+  {
+    "id": 17,
+    "question": "Ms. Osborne asks each student in her class to draw a rectangle with integer side lengths and a perimeter of 50 units. All of her students calculate the area of the rectangle they draw. What is the difference between the largest and smallest possible areas of the rectangles?",
+    "options": ["(A) 76", "(B) 120", "(C) 128", "(D) 132", "(E) 136"],
+    "answer": "(D) 132",
+    "explanation": "Since 2(l + w) = 50, l + w = 25. The smallest area occurs when w = 1 and l = 24, giving 1 * 24 = 24. The largest area occurs when w = 12 and l = 13, giving 12 * 13 = 156. The difference between the largest and smallest areas is 156 - 24 = 132.",
+    "image_width": 300
+  },
+  {
+    "id": 18,
+    "question": "Two circles that share the same center have radii 10 meters and 20 meters. An aardvark runs along the path shown, starting at A and ending at K. How many meters does the aardvark run?",
+    "options": ["(A) 10pi + 20", "(B) 10pi + 30", "(C) 10pi + 40", "(D) 20pi + 20", "(E) 20pi + 40"],
+    "answer": "(E) 20pi + 40",
+    "explanation": "The path consists of three quarter-circle arcs and three straight line segments. The outer quarter-circle arc has length (1/4)(2pi * 20) = 10pi. The two inner quarter-circle arcs each have length (1/4)(2pi * 10) = 5pi. The straight segments have lengths of 10, 10, and 20 meters. Total distance = 10pi + 5pi + 5pi + 10 + 10 + 20 = 20pi + 40 meters.",
+    "image_width": 300
+  },
+  {
+    "id": 19,
+    "question": "Eight points are spaced at intervals of one unit around a 2x2 square, as shown. Two of the 8 points are chosen at random. What is the probability that the points are one unit apart?",
+    "options": ["(A) 1/4", "(B) 2/7", "(C) 4/11", "(D) 1/2", "(E) 4/7"],
+    "answer": "(B) 2/7",
+    "explanation": "There are 28 possible ways to pick 2 points out of 8. Exactly 8 of these pairs consist of adjacent points that are 1 unit apart. The probability is 8 / 28 = 2/7.",
+    "image_width": 300
+  },
+  {
+    "id": 20,
+    "question": "The students in Mr. Neatkin's class took a penmanship test. Two-thirds of the boys and three-fourths of the girls passed the test, and an equal number of boys and girls passed the test. What is the minimum possible number of students in the class?",
+    "options": ["(A) 12", "(B) 17", "(C) 24", "(D) 27", "(E) 36"],
+    "answer": "(B) 17",
+    "explanation": "Let B be the number of boys and G be the number of girls. We are given (2/3)B = (3/4)G -> 8B = 9G. Since 8 and 9 are coprime, the minimum integer solution is B = 9 and G = 8. The minimum total number of students is 9 + 8 = 17.",
+    "image_width": 300
+  },
+  {
+    "id": 21,
+    "question": "Jerry cuts a wedge from a 6-cm cylinder of bologna as shown by the dashed curve. Which answer choice is closest to the volume of his wedge in cubic centimeters?",
+    "options": ["(A) 48", "(B) 75", "(C) 151", "(D) 192", "(E) 603"],
+    "answer": "(C) 151",
+    "explanation": "The full cylinder has radius r = 4 cm and height h = 6 cm, giving a total volume of pi * 16 * 6 = 96pi. The cut divides the cylinder exactly in half, so the volume of the wedge is 96pi / 2 = 48pi = 151 cm³.",
+    "image_width": 300
+  },
+  {
+    "id": 22,
+    "question": "For how many positive integer values of n are both n/3 and 3n three-digit whole numbers?",
+    "options": ["(A) 12", "(B) 21", "(C) 27", "(D) 33", "(E) 34"],
+    "answer": "(A) 12",
+    "explanation": "For n/3 >= 100, n >= 300 and n must be a multiple of 3. For 3n <= 999, n <= 333. The valid values of n are 300, 303, 306, ..., 333. The number of values is (333 - 300) / 3 + 1 = 12.",
+    "image_width": 300
+  },
+  {
+    "id": 23,
+    "question": "In square ABCE, AF = 2FE and CD = 2DE. What is the ratio of the area of triangle BFD to the area of square ABCE?",
+    "options": ["(A) 1/6", "(B) 2/9", "(C) 5/18", "(D) 1/3", "(E) 7/20"],
+    "answer": "(C) 5/18",
+    "explanation": "Let the side length of square ABCE be 3. Area of square = 9. Then AF = 2, FE = 1, CD = 2, DE = 1. Area of triangle BAF = (1/2) * 3 * 2 = 3. Area of triangle BCD = (1/2) * 3 * 2 = 3. Area of triangle DEF = (1/2) * 1 * 1 = 0.5. Area of triangle BFD = 9 - (3 + 3 + 0.5) = 2.5. The ratio is 2.5 / 9 = 5/18.",
+    "image_width": 300
+  },
+  {
+    "id": 24,
+    "question": "Ten tiles numbered 1 through 10 are turned face down. One tile is turned up at random, and a die is rolled. What is the probability that the product of the numbers on the tile and the die will be a square?",
+    "options": ["(A) 1/10", "(B) 1/6", "(C) 11/60", "(D) 1/5", "(E) 7/30"],
+    "answer": "(C) 11/60",
+    "explanation": "There are 10 * 6 = 60 total outcomes for (tile, die). Perfect squares less than 60 and their valid pairs are: 1: (1,1); 4: (1,4), (4,1), (2,2); 9: (3,3); 16: (4,4), (8,2); 25: (5,5); 36: (6,6), (9,4). Summing these gives 11 favorable pairs. The probability is 11/60.",
+    "image_width": 300
+  },
+  {
+    "id": 25,
+    "question": "Margie's winning art design is shown. The smallest circle has radius 2 inches, with each successive circle's radius increasing by 2 inches. Approximately what percent of the design is black?",
+    "options": ["(A) 42", "(B) 44", "(C) 45", "(D) 46", "(E) 48"],
+    "answer": "(A) 42",
+    "explanation": "The radii of the 6 circles are 2, 4, 6, 8, 10, and 12 inches, with total area 144pi. The black regions consist of the smallest circle (4pi), the 3rd ring (36pi - 16pi = 20pi), and the 5th ring (100pi - 64pi = 36pi). Total black area = 4pi + 20pi + 36pi = 60pi. The percentage is 60pi / 144pi = 5/12 = 42%.",
+    "image_width": 300
+  }
+]

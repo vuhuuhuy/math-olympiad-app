@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "question": "Given that $-3 \\le x \\le 4$, find the least possible value of $x^2$.",
+    "options": [
+      "A) 16",
+      "B) 9",
+      "C) 1",
+      "D) 0",
+      "E) None of the above"
+    ],
+    "answer": "D) 0",
+    "explanation": "Since $x$ can take the value 0 within the interval $[-3, 4]$, the minimum square value is $0^2 = 0$."
+  },
+  {
+    "id": 2,
+    "question": "Find the largest odd number between 1 and 100 that is divisible by 6 and by 7.",
+    "options": [
+      "A) 42",
+      "B) 54",
+      "C) 56",
+      "D) 84",
+      "E) None of the above"
+    ],
+    "answer": "E) None of the above",
+    "explanation": "Any number divisible by 6 must be even, so there are no odd numbers divisible by 6."
+  },
+  {
+    "id": 3,
+    "question": "Find the next term of the sequence: $3, 1, 4, 5, 21, \\dots$",
+    "options": [
+      "A) 45",
+      "B) 46",
+      "C) 47",
+      "D) 106",
+      "E) 2015"
+    ],
+    "answer": "D) 106",
+    "explanation": "Pattern: $3 \\times 1 + 1 = 4$, $1 \\times 4 + 1 = 5$, $4 \\times 5 + 1 = 21$. Next term = $5 \\times 21 + 1 = 106$."
+  },
+  {
+    "id": 4,
+    "question": "If both $n$ and $\\frac{18}{n}$ are positive integers, how many possible values of $n$ are there?",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7",
+      "E) None of the above"
+    ],
+    "answer": "C) 6",
+    "explanation": "$n$ must be a factor of 18: $1, 2, 3, 6, 9, 18$ (6 values)."
+  },
+  {
+    "id": 5,
+    "question": "A palindromic number reads the same forward and backward. How many 5-digit palindromic numbers are there?",
+    "options": [
+      "A) 190",
+      "B) 900",
+      "C) 1000",
+      "D) 90000",
+      "E) None of the above"
+    ],
+    "answer": "B) 900",
+    "explanation": "Format $abcba$: 9 choices for $a$ (1–9), 10 choices for $b$ (0–9), 10 choices for $c$ (0–9). Total = $9 \\times 10 \\times 10 = 900$."
+  },
+  {
+    "id": 6,
+    "question": "An operator acts on numbers: $3+2=15$, $5+3=28$, $7+6=113$. What is $5+7$ equal to?",
+    "options": [
+      "A) 122",
+      "B) 212",
+      "C) -122",
+      "D) -212",
+      "E) None of the above"
+    ],
+    "answer": "D) -212",
+    "explanation": "Pattern for $a+b$: prefix is $a-b$, suffix is $a+b$. For $5+7$: $5-7 = -2$ and $5+7 = 12$, yielding $-212$."
+  },
+  {
+    "id": 7,
+    "question": "The Haberdasher's Puzzle cuts an equilateral triangle to form a square. If the square length is $19\\text{ cm}$ and triangle height is $25\\text{ cm}$, find the base length of the triangle to the nearest cm.",
+    "options": [
+      "A) 27 cm",
+      "B) 28 cm",
+      "C) 29 cm",
+      "D) 30 cm",
+      "E) 31 cm"
+    ],
+    "answer": "C) 29 cm",
+    "explanation": "Equal areas: $\\text{Area} = 19^2 = 361\\text{ cm}^2$. $\\frac{1}{2} \\times b \\times 25 = 361 \\implies b = 28.88 \\approx 29\\text{ cm}$."
+  },
+  {
+    "id": 8,
+    "question": "People stand equally spaced around a circle numbered clockwise. If person 14 is directly opposite person 40, how many people are there?",
+    "options": [
+      "A) 48",
+      "B) 50",
+      "C) 52",
+      "D) 54",
+      "E) 56"
+    ],
+    "answer": "C) 52",
+    "explanation": "Half of the circle has $40 - 14 = 26$ people. Total people = $26 \\times 2 = 52$."
+  },
+  {
+    "id": 9,
+    "question": "If the 5-digit number $4567N$ is divisible by 8, find $N$.",
+    "options": [
+      "A) 8",
+      "B) 6",
+      "C) 4",
+      "D) 2",
+      "E) 0"
+    ],
+    "answer": "D) 2",
+    "explanation": "The last 3 digits $67N$ must be divisible by 8. $672 / 8 = 84$, so $N = 2$."
+  },
+  {
+    "id": 10,
+    "question": "A $3 \\times 3 \\times 3$ cube made of 27 small cubes is painted on all exterior faces. How many small cubes have exactly two painted faces?",
+    "options": [
+      "A) 4",
+      "B) 8",
+      "C) 12",
+      "D) 16",
+      "E) None of the above"
+    ],
+    "answer": "C) 12",
+    "explanation": "Cubes with exactly 2 painted faces lie on the 12 edges (excluding corners): 1 per edge $\\times 12 = 12$."
+  },
+  {
+    "id": 11,
+    "question": "Find the maximum number of regions formed inside a circle by joining 5 points on its circumference with straight chords.",
+    "options": [
+      "A) 14",
+      "B) 15",
+      "C) 16",
+      "D) 17",
+      "E) None of the above"
+    ],
+    "answer": "C) 16",
+    "explanation": "Formula for maximum circle regions: $1 + \\binom{n}{2} + \\binom{n}{4}$. For $n = 5$: $1 + 10 + 5 = 16$."
+  },
+  {
+    "id": 12,
+    "question": "The product of two numbers is 10000. Neither number has 10 as a factor. Find the difference between these two numbers.",
+    "options": [
+      "A) 45",
+      "B) 210",
+      "C) 609",
+      "D) 1242",
+      "E) Not enough information"
+    ],
+    "answer": "C) 609",
+    "explanation": "$10000 = 2^4 \\times 5^4 = 16 \\times 625$. Difference = $625 - 16 = 609$."
+  },
+  {
+    "id": 13,
+    "question": "Find the smallest positive integer $n$ for which $108n$ is a multiple of 360.",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 10",
+      "D) 30",
+      "E) None of the above"
+    ],
+    "answer": "C) 10",
+    "explanation": "$\\frac{108n}{360} = \\frac{3n}{10}$. For this to be an integer, $n$ must be a multiple of 10. Smallest positive $n = 10$."
+  },
+  {
+    "id": 14,
+    "question": "What is the maximum number of regions that can be formed on a flat surface by drawing a circle and a quadrilateral?",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 10",
+      "D) 12",
+      "E) 14"
+    ],
+    "answer": "E) 14",
+    "explanation": "A circle intersecting a 4-sided polygon can intersect each side at most twice (8 intersection points), dividing the surface into 14 regions."
+  },
+  {
+    "id": 15,
+    "question": "70 cakes are packed into small boxes (capacity 6) and big boxes (capacity 8). If more than 10 boxes are used and all are fully packed, how many small boxes are used?",
+    "options": [
+      "A) 2",
+      "B) 5",
+      "C) 7",
+      "D) 9",
+      "E) 11"
+    ],
+    "answer": "D) 9",
+    "explanation": "$6S + 8B = 70 \\implies 3S + 4B = 35$. Valid $(S, B)$ pairs: $(1, 8) \\to 9$ boxes; $(5, 5) \\to 10$ boxes; $(9, 2) \\to 11$ boxes. Since total boxes $> 10$, $S = 9$."
+  },
+  {
+    "id": 16,
+    "question": "Four passersby give directions. Only ONE tells the truth: P1 ('Not Road 1'), P2 ('Moved from Road 2 to 4'), P3 ('Taken Road 2, no houses there'), P4 ('Friend on Road 3'). Which road?",
+    "options": [
+      "A) Road 1",
+      "B) Road 2",
+      "C) Road 3",
+      "D) Road 4",
+      "E) Cannot be determined"
+    ],
+    "answer": "A) Road 1",
+    "explanation": "If on Road 1: P1 lies, P2 lies, P3 tells the truth (not Road 2), P4 lies. Exactly one truth-teller!"
+  },
+  {
+    "id": 17,
+    "question": "Elsie divides 20 pens into 4 piles, each with a different number of pens. Find the smallest possible number of pens in the largest pile.",
+    "options": [
+      "A) 7",
+      "B) 6",
+      "C) 8",
+      "D) 9",
+      "E) 5"
+    ],
+    "answer": "A) 7",
+    "explanation": "To minimize the maximum pile, make numbers as close as possible: $3, 4, 6, 7$ (sum 20). The largest pile has 7 pens."
+  },
+  {
+    "id": 18,
+    "question": "Anna thinks of 7 different positive integers, none of which is a multiple of another. What is the least possible sum of these 7 integers?",
+    "options": [
+      "A) 64",
+      "B) 56",
+      "C) 70",
+      "D) 48",
+      "E) 60"
+    ],
+    "answer": "A) 64",
+    "explanation": "Selecting integers in the range $(N, 2N]$ avoids multiples: $6, 7, 8, 9, 10, 11, 13$. Sum = $64$."
+  },
+  {
+    "id": 19,
+    "question": "A square and an equilateral triangle share vertices with a regular polygon. How many sides does the regular polygon have?",
+    "options": [
+      "A) 12",
+      "B) 10",
+      "C) 8",
+      "D) 15",
+      "E) 16"
+    ],
+    "answer": "A) 12",
+    "explanation": "Interior angle of polygon = $360^\\circ - (90^\\circ + 60^\\circ) = 150^\\circ$. Exterior angle = $30^\\circ$. Sides = $360 / 30 = 12$."
+  },
+  {
+    "id": 20,
+    "question": "Areas ratio $\\triangle ABC : \\triangle ADE : \\triangle AFG = 7 : 8 : 15$. Given $\\frac{1}{4}$ of $\\triangle ADE$ is shaded, what fraction of the whole figure is shaded?",
+    "options": [
+      "A) 2/15",
+      "B) 1/5",
+      "C) 4/15",
+      "D) 1/8",
+      "E) 3/10"
+    ],
+    "answer": "A) 2/15",
+    "explanation": "Shaded area = $\\frac{1}{4} \\times 8 = 2$ units. Total area = $15$ units. Fraction = $2/15$."
+  },
+  {
+    "id": 21,
+    "question": "A rectangle is divided into 3 smaller rectangles and a square (area $49\\text{ cm}^2$). If the unshaded rectangle perimeter is $42\\text{ cm}$, find the total shaded area.",
+    "options": [
+      "A) 147 cm²",
+      "B) 126 cm²",
+      "C) 168 cm²",
+      "D) 98 cm²",
+      "E) 154 cm²"
+    ],
+    "answer": "A) 147 cm²",
+    "explanation": "Square side = $7\\text{ cm}$. Unshaded perimeter $2(x+y) = 42 \\implies x+y = 21$. Shaded area = $7 \\times (x+y) = 7 \\times 21 = 147\\text{ cm}^2$."
+  },
+  {
+    "id": 22,
+    "question": "Polite numbers are sums of two or more consecutive positive integers. Which set describes all polite numbers that can be expressed as the sum of TWO consecutive positive integers?",
+    "options": [
+      "A) All odd numbers greater than 1",
+      "B) All even numbers",
+      "C) All prime numbers",
+      "D) All multiples of 3",
+      "E) All numbers ending in 5"
+    ],
+    "answer": "A) All odd numbers greater than 1",
+    "explanation": "Any sum of 2 consecutive integers $n + (n+1) = 2n + 1$, which generates every odd integer greater than 1."
+  },
+  {
+    "id": 23,
+    "question": "How many rectangles (including squares) are there in a $5 \\times 5$ square grid?",
+    "options": [
+      "A) 225",
+      "B) 100",
+      "C) 150",
+      "D) 200",
+      "E) 250"
+    ],
+    "answer": "A) 225",
+    "explanation": "Choosing 2 lines out of 6 horizontally and vertically: $\\binom{6}{2} \\times \\binom{6}{2} = 15 \\times 15 = 225$."
+  },
+  {
+    "id": 24,
+    "question": "Find the last digit of $1^{2015} + 2^{2015} + 3^{2015} + \\dots + 10^{2015}$.",
+    "options": [
+      "A) 5",
+      "B) 0",
+      "C) 3",
+      "D) 7",
+      "E) 9"
+    ],
+    "answer": "A) 5",
+    "explanation": "Since $2015 \\equiv 3 \\pmod 4$, last digit equals last digit of $1^3 + 2^3 + \\dots + 9^3 + 0^3 = 2025$, ending in 5."
+  },
+  {
+    "id": 25,
+    "question": "In the cryptarithm $ABCD + KEFGB = EFCBH$, find the 5-digit number $EFCBH$.",
+    "options": [
+      "A) 10987",
+      "B) 10897",
+      "C) 12987",
+      "D) 10978",
+      "E) 11987"
+    ],
+    "answer": "A) 10987",
+    "explanation": "Deducing column carries: $E=1$, $F=0$, $C=9$, $B=8$, $H=7$. The 5-digit number is 10987."
+  }
+]

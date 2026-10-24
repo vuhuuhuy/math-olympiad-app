@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "question": "Find the value of $2016 \\times 2016 - 2015 \\times 2017$.",
+    "options": [
+      "A) 0",
+      "B) 1",
+      "C) 2015",
+      "D) 2016",
+      "E) 2017"
+    ],
+    "answer": "B) 1",
+    "explanation": "Let $x = 2016$. Then $2015 \\times 2017 = (x - 1)(x + 1) = x^2 - 1$. Therefore, $2016^2 - 2015 \\times 2017 = x^2 - (x^2 - 1) = 1$."
+  },
+  {
+    "id": 2,
+    "question": "Find the remainder when the sum $1 + 2 + 3 + \\dots + 2016$ is divided by 5.",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "E) 0"
+    ],
+    "answer": "A) 1",
+    "explanation": "The sum of the first $n$ positive integers is $\\frac{n(n+1)}{2}$. For $n = 2016$, the sum is $\\frac{2016 \\times 2017}{2} = 1008 \\times 2017 = 2033136$. The last digit is 6, so when divided by 5, the remainder is 1."
+  },
+  {
+    "id": 3,
+    "question": "In a class of 40 students, 25 play basketball, 22 play badminton, and 5 play neither sport. How many students play both basketball and badminton?",
+    "options": [
+      "A) 10",
+      "B) 12",
+      "C) 14",
+      "D) 15",
+      "E) 18"
+    ],
+    "answer": "B) 12",
+    "explanation": "The number of students playing at least one sport is $40 - 5 = 35$. By Inclusion-Exclusion: $\\text{Both} = 25 + 22 - 35 = 12$."
+  },
+  {
+    "id": 4,
+    "question": "A clock chime sounds once at 1 o'clock, twice at 2 o'clock, 3 times at 3 o'clock, and so on. How many total chimes does the clock make in a 24-hour day?",
+    "options": [
+      "A) 78",
+      "B) 156",
+      "C) 180",
+      "D) 300",
+      "E) 144"
+    ],
+    "answer": "B) 156",
+    "explanation": "In one 12-hour cycle, the clock chimes $1 + 2 + \\dots + 12 = 78$ times. In a full 24-hour day (two cycles), it chimes $78 \\times 2 = 156$ times."
+  },
+  {
+    "id": 5,
+    "question": "Find the missing number in the sequence: $3, 7, 15, 31, 63, ?, 255$.",
+    "options": [
+      "A) 127",
+      "B) 125",
+      "C) 129",
+      "D) 123",
+      "E) 131"
+    ],
+    "answer": "A) 127",
+    "explanation": "Each term is double the previous term plus 1 ($T_n = 2T_{n-1} + 1$). The missing number is $2 \\times 63 + 1 = 127$."
+  },
+  {
+    "id": 6,
+    "question": "How many 2-digit positive integers are divisible by both 3 and 4?",
+    "options": [
+      "A) 7",
+      "B) 8",
+      "C) 9",
+      "D) 10",
+      "E) 12"
+    ],
+    "answer": "B) 8",
+    "explanation": "A number divisible by both 3 and 4 must be a multiple of $\\text{LCM}(3, 4) = 12$. The 2-digit multiples of 12 are $12, 24, 36, 48, 60, 72, 84, 96$ (8 numbers)."
+  },
+  {
+    "id": 7,
+    "question": "The average score of 5 students in a test is 84. When a 6th student's score is added, the average becomes 85. What is the score of the 6th student?",
+    "options": [
+      "A) 85",
+      "B) 86",
+      "C) 89",
+      "D) 90",
+      "E) 92"
+    ],
+    "answer": "D) 90",
+    "explanation": "Total score of 5 students = $5 \\times 84 = 420$. Total score of 6 students = $6 \\times 85 = 510$. The 6th student's score is $510 - 420 = 90$."
+  },
+  {
+    "id": 8,
+    "question": "In a fraction, if the numerator is increased by 2 and the denominator is decreased by 1, the fraction becomes 1. If the numerator is decreased by 1 and the denominator is increased by 2, the fraction becomes $\\frac{1}{3}$. Find the original fraction.",
+    "options": [
+      "A) 3/6",
+      "B) 4/7",
+      "C) 5/8",
+      "D) 7/10",
+      "E) 2/5"
+    ],
+    "answer": "B) 4/7",
+    "explanation": "Let the fraction be $\\frac{N}{D}$. First condition: $\\frac{N+2}{D-1} = 1 \\implies D - N = 3$. Second condition: $\\frac{N-1}{D+2} = \\frac{1}{3} \\implies 3N - D = 5$. Solving gives $N = 4$ and $D = 7$."
+  },
+  {
+    "id": 9,
+    "question": "How many 3-digit numbers contain at least one digit '8'?",
+    "options": [
+      "A) 252",
+      "B) 225",
+      "C) 280",
+      "D) 216",
+      "E) 270"
+    ],
+    "answer": "A) 252",
+    "explanation": "Total 3-digit numbers = 900. Numbers with no '8': hundreds digit has 8 choices (1–9 except 8), tens and units have 9 choices each. $8 \\times 9 \\times 9 = 648$. Numbers with at least one '8' = $900 - 648 = 252$."
+  },
+  {
+    "id": 10,
+    "question": "The perimeter of a rectangle is 36 cm. If the length and width are whole numbers, what is the maximum possible area of the rectangle?",
+    "options": [
+      "A) 81 cm²",
+      "B) 80 cm²",
+      "C) 72 cm²",
+      "D) 64 cm²",
+      "E) 90 cm²"
+    ],
+    "answer": "A) 81 cm²",
+    "explanation": "Length + Width = $36 / 2 = 18$ cm. The area is maximized when length = width = 9 cm (a square). Maximum area = $9 \\times 9 = 81\\text{ cm}^2$."
+  },
+  {
+    "id": 11,
+    "question": "A bag contains 6 red balls, 8 blue balls, and 10 yellow balls. What is the minimum number of balls to pick without looking to ensure drawing at least 2 balls of each color?",
+    "options": [
+      "A) 18",
+      "B) 20",
+      "C) 21",
+      "D) 19",
+      "E) 22"
+    ],
+    "answer": "B) 20",
+    "explanation": "Worst-case scenario: draw all 10 yellow balls, all 8 blue balls (total 18 balls), and still have no red balls. Drawing 2 more balls guarantees at least 2 red balls. Total = $10 + 8 + 2 = 20$ balls."
+  },
+  {
+    "id": 12,
+    "question": "Evaluate $100 - 98 + 96 - 94 + 92 - 90 + \\dots + 4 - 2$.",
+    "options": [
+      "A) 50",
+      "B) 100",
+      "C) 25",
+      "D) 48",
+      "E) 52"
+    ],
+    "answer": "A) 50",
+    "explanation": "Group in pairs: $(100 - 98) + (96 - 94) + \\dots + (4 - 2)$. There are 25 pairs, each equal to 2. Total sum = $25 \\times 2 = 50$."
+  },
+  {
+    "id": 13,
+    "question": "Four years ago, the ratio of Alice's age to Bob's age was $3 : 4$. Four years from now, the ratio of their ages will be $4 : 5$. How old is Alice now?",
+    "options": [
+      "A) 24",
+      "B) 28",
+      "C) 20",
+      "D) 16",
+      "E) 32"
+    ],
+    "answer": "B) 28",
+    "explanation": "Let ages 4 years ago be $3x$ and $4x$. Ages in 4 years will be $3x + 8$ and $4x + 8$. Given $\\frac{3x+8}{4x+8} = \\frac{4}{5} \\implies x = 8$. Alice's current age = $3(8) + 4 = 28$."
+  },
+  {
+    "id": 14,
+    "question": "Three friends Amy, Ben, and Carl made statements:\\n• Amy: 'I got the highest mark.'\\n• Ben: 'I did not get the lowest mark.'\\n• Carl: 'I got the lowest mark.'\\nIf only one person is lying, who got the highest mark?",
+    "options": [
+      "A) Amy",
+      "B) Ben",
+      "C) Carl",
+      "D) Cannot be determined",
+      "E) Amy and Ben tie"
+    ],
+    "answer": "A) Amy",
+    "explanation": "If Carl lies, Amy and Ben tell the truth. Amy gets the highest mark, Ben is middle, and Carl is highest/middle (contradicting his lie, making him non-lowest). All statements align consistently with Amy getting the highest mark."
+  },
+  {
+    "id": 15,
+    "question": "Find the total number of triangles in a standard 5-pointed star (pentagram).",
+    "options": [
+      "A) 5",
+      "B) 8",
+      "C) 10",
+      "D) 12",
+      "E) 15"
+    ],
+    "answer": "C) 10",
+    "explanation": "A 5-pointed star contains 5 small outer triangles at the tips and 5 larger overlapping triangles containing the central pentagon. Total = 10 triangles."
+  },
+  {
+    "id": 16,
+    "question": "Find the sum of all distinct prime factors of 2016.",
+    "options": [
+      "A) 12",
+      "B) 14",
+      "C) 16",
+      "D) 18",
+      "E) 20"
+    ],
+    "answer": "A) 12",
+    "explanation": "The prime factorization of $2016 = 2^5 \\times 3^2 \\times 7$. The distinct prime factors are 2, 3, and 7. Sum = $2 + 3 + 7 = 12$."
+  },
+  {
+    "id": 17,
+    "question": "A train 150 meters long traveling at $18\\text{ m/s}$ passes completely through a tunnel in 25 seconds. What is the length of the tunnel?",
+    "options": [
+      "A) 300 m",
+      "B) 450 m",
+      "C) 250 m",
+      "D) 350 m",
+      "E) 400 m"
+    ],
+    "answer": "A) 300 m",
+    "explanation": "Total distance traveled = $\\text{Speed} \\times \\text{Time} = 18 \\times 25 = 450\\text{ m}$. Length of tunnel = $450 - 150 = 300\\text{ m}$."
+  },
+  {
+    "id": 18,
+    "question": "A water tank is $\\frac{3}{5}$ full. After 24 liters of water are used, the tank becomes $\\frac{1}{3}$ full. What is the total capacity of the water tank in liters?",
+    "options": [
+      "A) 80 L",
+      "B) 90 L",
+      "C) 100 L",
+      "D) 120 L",
+      "E) 150 L"
+    ],
+    "answer": "B) 90 L",
+    "explanation": "Fraction of water used = $\\frac{3}{5} - \\frac{1}{3} = \\frac{4}{15}$. Total capacity = $24 \\div \\frac{4}{15} = 90\\text{ liters}$."
+  },
+  {
+    "id": 19,
+    "question": "If $A \\star B = A \\times B - (A + B)$, calculate $(5 \\star 3) \\star 4$.",
+    "options": [
+      "A) 17",
+      "B) 20",
+      "C) 21",
+      "D) 18",
+      "E) 25"
+    ],
+    "answer": "A) 17",
+    "explanation": "First, $5 \\star 3 = 5 \\times 3 - (5 + 3) = 15 - 8 = 7$. Next, $7 \\star 4 = 7 \\times 4 - (7 + 4) = 28 - 11 = 17$."
+  },
+  {
+    "id": 20,
+    "question": "How many rectangles (including squares) are there in a $3 \\times 3$ grid?",
+    "options": [
+      "A) 36",
+      "B) 30",
+      "C) 25",
+      "D) 16",
+      "E) 40"
+    ],
+    "answer": "A) 36",
+    "explanation": "Selecting 2 horizontal lines out of 4 and 2 vertical lines out of 4 yields $\\binom{4}{2} \\times \\binom{4}{2} = 6 \\times 6 = 36$ rectangles."
+  },
+  {
+    "id": 21,
+    "question": "In the cryptarithm $AB + BC = CDE$, where different letters represent different non-zero digits, what is the value of $C$?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 5",
+      "E) 9"
+    ],
+    "answer": "A) 1",
+    "explanation": "The maximum sum of two 2-digit numbers is $99 + 99 = 198$. Since $CDE$ is a 3-digit number starting with $C$, $C$ must be 1."
+  },
+  {
+    "id": 22,
+    "question": "Find the units digit of $3^{2016}$.",
+    "options": [
+      "A) 1",
+      "B) 3",
+      "C) 7",
+      "D) 9",
+      "E) 5"
+    ],
+    "answer": "A) 1",
+    "explanation": "Powers of 3 end in a repeating cycle of $3, 9, 7, 1$. Since 2016 is divisible by 4, the units digit is 1."
+  },
+  {
+    "id": 23,
+    "question": "Worker A takes 6 hours to build a wall alone, while Worker B takes 8 hours. Working together with an apprentice, they finish in 2 hours. How many hours would the apprentice take alone?",
+    "options": [
+      "A) 4.8 hours",
+      "B) 3.5 hours",
+      "C) 4.2 hours",
+      "D) 5 hours",
+      "E) 6 hours"
+    ],
+    "answer": "A) 4.8 hours",
+    "explanation": "Rate equation: $\\frac{1}{6} + \\frac{1}{8} + \\frac{1}{x} = \\frac{1}{2} \\implies \\frac{7}{24} + \\frac{1}{x} = \\frac{12}{24} \\implies \\frac{1}{x} = \\frac{5}{24}$. So $x = 4.8$ hours."
+  },
+  {
+    "id": 24,
+    "question": "What is the smaller angle between the hour hand and minute hand of a clock at 3:30?",
+    "options": [
+      "A) 75°",
+      "B) 80°",
+      "C) 85°",
+      "D) 90°",
+      "E) 65°"
+    ],
+    "answer": "A) 75°",
+    "explanation": "At 3:30, the minute hand points at $180^\\circ$ and the hour hand is at $3.5 \\times 30^\\circ = 105^\\circ$. Angle = $180^\\circ - 105^\\circ = 75^\\circ$."
+  },
+  {
+    "id": 25,
+    "question": "Find the remainder when $2^{100}$ is divided by 7.",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 4",
+      "D) 3",
+      "E) 5"
+    ],
+    "answer": "B) 2",
+    "explanation": "Powers of 2 mod 7 cycle as $2, 4, 1$. Since $100 = 3 \\times 33 + 1$, $2^{100} \\equiv 2^1 \\equiv 2 \\pmod 7$."
+  }
+]

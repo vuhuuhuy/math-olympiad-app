@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "question": "Find the value of $2020 \\times 2020 - 2019 \\times 2021$.",
+    "options": [
+      "A) 0",
+      "B) -1",
+      "C) 1",
+      "D) 2",
+      "E) None of the above"
+    ],
+    "answer": "C) 1",
+    "explanation": "Let $x = 2020$. Then $x^2 - (x-1)(x+1) = x^2 - (x^2 - 1) = 1$."
+  },
+  {
+    "id": 2,
+    "question": "3 apples and 4 oranges cost $10.90, while 5 apples and 7 oranges cost $18.90. How much do 9 apples and 13 oranges cost?",
+    "options": [
+      "A) $20.60",
+      "B) $33.10",
+      "C) $34.20",
+      "D) $34.90",
+      "E) None of the above"
+    ],
+    "answer": "D) $34.90",
+    "explanation": "Let $A$ and $O$ be costs. $(5A+7O) - (3A+4O) \\implies 2A+3O = 8.00$. Then $9A+13O = (5A+7O) + 2(2A+3O) = 18.90 + 2(8.00) = $34.90$."
+  },
+  {
+    "id": 3,
+    "question": "In the diagram, $d_1 \\parallel d_2$ and $a + b + c + d = 460^\\circ$. What is angle $e$ in degrees?",
+    "options": [
+      "A) 100°",
+      "B) 80°",
+      "C) 70°",
+      "D) 60°",
+      "E) None of the above"
+    ],
+    "answer": "A) 100°",
+    "explanation": "Since $d_1 \\parallel d_2$, $a+d = 180^\\circ \\implies b+c = 280^\\circ$. In the triangle, $e + (180^\\circ-b) + (180^\\circ-c) = 180^\\circ \\implies e = 100^\\circ$."
+  },
+  {
+    "id": 4,
+    "question": "Find the next term of the sequence: $1935, 1940, 1948, 1962, 1985, 2020, \\dots$",
+    "options": [
+      "A) 2070",
+      "B) 2055",
+      "C) 2060",
+      "D) 2067",
+      "E) None of the above"
+    ],
+    "answer": "A) 2070",
+    "explanation": "Differences are $5, 8, 14, 23, 35$ (second differences $3, 6, 9, 12, 15$). Next difference = $35 + 15 = 50$. Next term = $2020 + 50 = 2070$."
+  },
+  {
+    "id": 5,
+    "question": "Find the last digit of $2^{2020} \\times 3^{2022}$.",
+    "options": [
+      "A) 6",
+      "B) 9",
+      "C) 3",
+      "D) 4",
+      "E) None of the above"
+    ],
+    "answer": "D) 4",
+    "explanation": "$2^{2020} \\times 3^{2022} = (2 \\times 3)^{2020} \\times 3^2 = 6^{2020} \\times 9$. $6 \\times 9 = 54$, so last digit is 4."
+  },
+  {
+    "id": 6,
+    "question": "In rectangle ABCD, $BE = \\frac{1}{4}AE$ and $DF = \\frac{2}{3}AD$. What is the ratio of area ABCD to triangle FEC?",
+    "options": [
+      "A) 30 : 13",
+      "B) 40 : 17",
+      "C) 48 : 23",
+      "D) 24 : 11",
+      "E) None of the above"
+    ],
+    "answer": "A) 30 : 13",
+    "explanation": "Set $AB = 5x$, $AD = 3y$. Area ABCD $= 15xy$. Area FEC $= 15xy - 5xy - 1.5xy - 2xy = 6.5xy$. Ratio $= 15 : 6.5 = 30 : 13$."
+  },
+  {
+    "id": 7,
+    "question": "The six-digit number $2X475Y$ is divisible by 36. How many possible values of $X$ are there?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "E) None of the above"
+    ],
+    "answer": "B) 2",
+    "explanation": "Divisible by 4 $\\implies Y = 2$ or $6$. If $Y=2$, sum divisible by 9 gives $X=7$. If $Y=6$, sum gives $X=3$. (2 values)."
+  },
+  {
+    "id": 8,
+    "question": "Four roses cost $7 and 3 lilies cost $8. Billy bought some roses and lilies for $86. Which option can be the number of roses he bought?",
+    "options": [
+      "A) 16",
+      "B) 24",
+      "C) 44",
+      "D) 36",
+      "E) None of the above"
+    ],
+    "answer": "E) None of the above",
+    "explanation": "$7a + 8b = 86$ ($a$ packs of 4 roses). Solutions: $a=2 (8 \\text{ roses})$ or $a=10 (40 \\text{ roses})$. Neither is listed in A–D."
+  },
+  {
+    "id": 9,
+    "question": "How many triples $(x, y, z)$ of positive integers satisfy $x+y+z=14$? (Order does not matter).",
+    "options": [
+      "A) 12",
+      "B) 11",
+      "C) 14",
+      "D) 15",
+      "E) None of the above"
+    ],
+    "answer": "E) None of the above",
+    "explanation": "Listing unordered partitions of 14 into 3 positive integers yields exactly 16 triples."
+  },
+  {
+    "id": 10,
+    "question": "What is the least number of weights required to weigh any integer mass from 1 to 35 grams on a balance scale (weights on one plate)?",
+    "options": [
+      "A) 35",
+      "B) 10",
+      "C) 7",
+      "D) 6",
+      "E) None of the above"
+    ],
+    "answer": "D) 6",
+    "explanation": "Using binary power representation: $18\\text{g}, 9\\text{g}, 4\\text{g}, 2\\text{g}, 1\\text{g}, 1\\text{g}$ (6 weights)."
+  },
+  {
+    "id": 11,
+    "question": "A soccer ball has 12 pentagonal faces. Each pentagon touches 5 hexagons. Each hexagon touches 3 pentagons and 3 hexagons. How many hexagonal faces?",
+    "options": [
+      "A) 12",
+      "B) 20",
+      "C) 24",
+      "D) 8",
+      "E) None of the above"
+    ],
+    "answer": "B) 20",
+    "explanation": "Total pentagon-hexagon edges $= 12 \\times 5 = 60$. Hexagons $= 60 / 3 = 20$."
+  },
+  {
+    "id": 12,
+    "question": "Logic puzzle: Victor born 1983 in Singapore, Philip in Moscow, Alice 1985, Paris born is 1 year older than Singapore. In which year was Jane born?",
+    "options": [
+      "A) 1982",
+      "B) 1983",
+      "C) 1984",
+      "D) 1985",
+      "E) None of the above"
+    ],
+    "answer": "A) 1982",
+    "explanation": "Deducing birth order forces Jane to be born in Paris in 1982."
+  },
+  {
+    "id": 13,
+    "question": "How many ways are there for an ant to move from A to B moving only upwards or rightwards along existing grid lines?",
+    "options": [
+      "A) 7",
+      "B) 12",
+      "C) 8",
+      "D) 2",
+      "E) None of the above"
+    ],
+    "answer": "A) 7",
+    "explanation": "Labeling grid vertices with cumulative path sums yields 7 ways to reach B."
+  },
+  {
+    "id": 14,
+    "question": "A bag has 13 yellow, 7 brown, 25 red, and 10 green balls. Least number of balls to draw without looking to guarantee 3 different colors?",
+    "options": [
+      "A) 3",
+      "B) 20",
+      "C) 39",
+      "D) 48",
+      "E) None of the above"
+    ],
+    "answer": "C) 39",
+    "explanation": "Worst case: draw all 25 red balls and all 13 yellow balls (38 balls). The 39th ball guarantees a 3rd color."
+  },
+  {
+    "id": 15,
+    "question": "How many 4-digit numbers between 3700 and 9600 can be formed using digits 3, 7, 5, 6, 0, or 9 without digit repetition?",
+    "options": [
+      "A) 300",
+      "B) 100",
+      "C) 264",
+      "D) 240",
+      "E) None of the above"
+    ],
+    "answer": "D) 240",
+    "explanation": "Summing cases based on thousands digit choices (thousands = 3: 24; thousands = 5,6,7: 180; thousands = 9: 36) gives 240."
+  },
+  {
+    "id": 16,
+    "question": "A test graph scores 2 pts for correct (B), 0 for no response, -1 for wrong. Total points = -120. How many students answered correctly?",
+    "options": [
+      "A) 140",
+      "B) 120",
+      "C) 100",
+      "D) 160",
+      "E) 80"
+    ],
+    "answer": "A) 140",
+    "explanation": "Setting graph unit $x$: $14x - 20x = -6x = -120 \\implies x = 20$. Correct students $= 7x = 140$."
+  },
+  {
+    "id": 17,
+    "question": "Andrea travels 20% faster than Claire. When Andrea completes the distance, Claire is $5\\text{ km}$ away. Find the total distance.",
+    "options": [
+      "A) 30 km",
+      "B) 25 km",
+      "C) 35 km",
+      "D) 40 km",
+      "E) 20 km"
+    ],
+    "answer": "A) 30 km",
+    "explanation": "$D - 5 = \\frac{5}{6}D \\implies D = 30\\text{ km}$."
+  },
+  {
+    "id": 18,
+    "question": "Find the smallest positive integer $n$ for which $3993n$ is a multiple of 2475.",
+    "options": [
+      "A) 75",
+      "B) 45",
+      "C) 15",
+      "D) 125",
+      "E) 25"
+    ],
+    "answer": "A) 75",
+    "explanation": "$\\frac{3993n}{2475} = \\frac{121n}{75}$. For this to be an integer, $n$ must be a multiple of 75. Smallest $n = 75$."
+  },
+  {
+    "id": 19,
+    "question": "4 identical circles pass through the center of a large circle (diameter $28\\text{ cm}$). Find the shaded area using $\\pi = 22/7$.",
+    "options": [
+      "A) 154 cm²",
+      "B) 176 cm²",
+      "C) 140 cm²",
+      "D) 308 cm²",
+      "E) 132 cm²"
+    ],
+    "answer": "A) 154 cm²",
+    "explanation": "Shaded region area is $\\frac{1}{4}$ of total circle area: $\\frac{1}{4} \\times \\frac{22}{7} \\times 14^2 = 154\\text{ cm}^2$."
+  },
+  {
+    "id": 20,
+    "question": "Given $\\{n\\} = 1+3+5+\\dots+(2n-1) = n^2$, if $\\frac{\\{m\\}}{m} + m = 2020$, find $m$.",
+    "options": [
+      "A) 1010",
+      "B) 2020",
+      "C) 505",
+      "D) 1000",
+      "E) 1020"
+    ],
+    "answer": "A) 1010",
+    "explanation": "$\\frac{m^2}{m} + m = 2020 \\implies 2m = 2020 \\implies m = 1010$."
+  },
+  {
+    "id": 21,
+    "question": "What is the smallest positive integer that has exactly 3 odd divisors and 3 even divisors?",
+    "options": [
+      "A) 18",
+      "B) 12",
+      "C) 24",
+      "D) 36",
+      "E) 20"
+    ],
+    "answer": "A) 18",
+    "explanation": "Divisors of 18 are 1, 2, 3, 6, 9, 18 (3 odd: 1, 3, 9; 3 even: 2, 6, 18). 18 is the smallest such integer."
+  },
+  {
+    "id": 22,
+    "question": "Operator $\\wedge$: $4\\wedge8=2412$, $5\\wedge9=2812$, $1\\wedge7=1618$, $2\\wedge3=103$. What is $6\\wedge7$?",
+    "options": [
+      "A) 263",
+      "B) 261",
+      "C) 133",
+      "D) 283",
+      "E) 243"
+    ],
+    "answer": "A) 263",
+    "explanation": "Pattern: $a \\wedge b = [2(a+b)][3(b-a)]$. For $6 \\wedge 7$: $2(13) = 26$ and $3(1) = 3$, giving $263$."
+  },
+  {
+    "id": 23,
+    "question": "Peter places 5 different subject books on a shelf. How many arrangements avoid placing Physics next to Biology?",
+    "options": [
+      "A) 72",
+      "B) 120",
+      "C) 48",
+      "D) 96",
+      "E) 60"
+    ],
+    "answer": "A) 72",
+    "explanation": "Total arrangements $= 5! = 120$. Adjacent Physics and Biology $= 2 \\times 4! = 48$. Valid arrangements $= 120 - 48 = 72$."
+  },
+  {
+    "id": 24,
+    "question": "Peter & Frank build a house in 12 days, Frank & George in 6 days, Peter & George in 6.5 days (9 hrs/day). How many hours together?",
+    "options": [
+      "A) 45 hours",
+      "B) 42 hours",
+      "C) 48 hours",
+      "D) 50 hours",
+      "E) 40 hours"
+    ],
+    "answer": "A) 45 hours",
+    "explanation": "Combined rate per 9-hour day $= \\frac{21}{104}$ house. Total hours $= 9 / (21/104) = 44.57 \\approx 45$ hours."
+  },
+  {
+    "id": 25,
+    "question": "In the cryptarithm $SASMO + MEDAL = ???$, given $N=7$ and $M=6$, find $S+A+S+M+O$.",
+    "options": [
+      "A) 29",
+      "B) 27",
+      "C) 31",
+      "D) 25",
+      "E) 30"
+    ],
+    "answer": "A) 29",
+    "explanation": "Deducing values $S=5$, $A=9$, $M=6$, $O=4$: Sum $= 5 + 9 + 5 + 6 + 4 = 29$."
+  }
+]
