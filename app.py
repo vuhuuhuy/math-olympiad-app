@@ -239,7 +239,7 @@ def fetch_user_history(user_email):
 # --- SIDEBAR: TOP TIMER PLACEHOLDER ---
 sidebar_timer_placeholder = st.sidebar.empty()
 
-# --- CONTINUOUS LIVE TIMER FRAGMENT ---
+# --- CONTINUOUS LIVE MOCK TIMER FRAGMENT ---
 @st.fragment(run_every="1s")
 def render_mock_timer():
     if st.session_state.get("start_time") is not None and not st.session_state.get("submitted", False):
@@ -260,6 +260,23 @@ def render_mock_timer():
         if time_left == 0:
             st.session_state.submitted = True
             st.rerun()
+
+# --- CONTINUOUS LIVE PRACTICE TIMER FRAGMENT (COUNT UP) ---
+@st.fragment(run_every="1s")
+def render_practice_timer():
+    if st.session_state.get("practice_start_time") is not None and not st.session_state.get("practice_submitted", False):
+        time_elapsed = int(time.time() - st.session_state.practice_start_time)
+        mins, secs = divmod(time_elapsed, 60)
+        
+        sidebar_timer_placeholder.markdown(
+            f"""
+            <div style='background-color: #f8f9fa; border: 1px solid #dcdfe6; padding: 8px 12px; border-radius: 8px; text-align: center; margin-top: 0px; margin-bottom: 20px;'>
+                <div style='font-size: 15px; font-weight: 600; color: #262730; margin-bottom: 2px;'>⏱️ Time Elapsed</div>
+                <div style='font-size: 34px; font-weight: 800; color: #28a745; line-height: 1.1;'>{mins:02d}:{secs:02d}</div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 # --- SIDEBAR HEADER & EMAIL VALIDATION ---
 st.sidebar.markdown(
@@ -353,7 +370,8 @@ elif app_mode == "📝 Mock Test":
     else:
         st.sidebar.warning(f"No test papers found for {selected_competition}.")
 
-if app_mode != "📝 Mock Test" or st.session_state.get("submitted", False):
+# CLEAR TIMER PLACEHOLDER WHEN NOT ACTIVE
+if app_mode == "📊 My History" or (app_mode == "🎲 Practice" and st.session_state.get("practice_submitted", False)) or (app_mode == "📝 Mock Test" and st.session_state.get("submitted", False)):
     sidebar_timer_placeholder.empty()
 
 # --- SECURITY GATE: STOP APP IF NOT VALID ---
@@ -505,6 +523,8 @@ if app_mode == "🎲 Practice":
                     st.markdown("---")
 
             else:
+                render_practice_timer()
+
                 for idx, q in enumerate(questions):
                     q_id = q['id']
                     source_file = q.get("source_file", "")
@@ -685,9 +705,9 @@ elif app_mode == "📊 My History":
         history = fetch_user_history(user_email)
 
     if history:
-        st.success(f"Found {len(history)} recorded session(s)!")
         table_data = []
         chart_data = []
+        valid_pcts = []
 
         for h in history:
             raw_date = str(h.get("date") or h.get("Date") or h.get("timestamp") or "").strip()
@@ -735,6 +755,7 @@ elif app_mode == "📊 My History":
                     if total > 0:
                         pct_number = (correct / total) * 100
                         percentage_str = f"{pct_number:.1f}%"
+                        valid_pcts.append(pct_number)
                 except Exception:
                     pass
 
@@ -751,6 +772,50 @@ elif app_mode == "📊 My History":
                     "Date & Time": formatted_date,
                     "Accuracy (%)": round(pct_number, 1)
                 })
+
+        # Calculate Average Accuracy for Last 10 Sessions
+        last_10_pcts = valid_pcts[-10:] if valid_pcts else []
+        avg_last_10 = (sum(last_10_pcts) / len(last_10_pcts)) if last_10_pcts else 0.0
+
+        # Dynamic Status Colors for Box 1
+        status_bg = "#d4edda" if avg_last_10 >= 60.0 else "#fff3cd"
+        status_color = "#155724" if avg_last_10 >= 60.0 else "#856404"
+        status_border = "#c3e6cb" if avg_last_10 >= 60.0 else "#ffeeba"
+
+        # Display the 3 Summary Cards Side-by-Side
+        col1, col2, col3 = st.columns([1, 1, 1])
+
+        with col1:
+            st.markdown(
+                f"""
+                <div style='background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; padding: 10px 14px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center; min-height: 48px; display: flex; align-items: center; justify-content: center;'>
+                    📋 Found {len(history)} recorded session(s)!
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        with col2:
+            st.markdown(
+                f"""
+                <div style='background-color: {status_bg}; color: {status_color}; border: 1px solid {status_border}; padding: 10px 14px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center; min-height: 48px; display: flex; align-items: center; justify-content: center;'>
+                    📊 Avg Accuracy (Last 10):&nbsp;<strong style='font-size: 18px;'>{avg_last_10:.1f}%</strong>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        with col3:
+            st.markdown(
+                """
+                <div style='background-color: #e3f2fd; color: #0d47a1; border: 1px solid #bbdefb; padding: 10px 14px; border-radius: 8px; font-size: 16px; font-weight: 600; text-align: center; min-height: 48px; display: flex; align-items: center; justify-content: center;'>
+                    🎯 Target Accuracy:&nbsp;<strong style='font-size: 18px;'>60.0%</strong>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        st.markdown("<div style='margin-bottom: 16px;'></div>", unsafe_allow_html=True)
 
         if chart_data:
             st.subheader("📈 Progress Trend Over Time")
