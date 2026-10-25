@@ -1,0 +1,330 @@
+[
+  {
+    "id": "1",
+    "question": "Mindy made three purchases for \\$1.98, \\$5.04 and \\$9.89. What was her total, to the nearest dollar?",
+    "options": [
+      "(A) \\$10",
+      "(B) \\$15",
+      "(C) \\$16",
+      "(D) \\$17",
+      "(E) \\$18"
+    ],
+    "answer": "(D) \\$17",
+    "explanation": "Mindy's total was approximately \\$2 + 5 + 10 = \\$17."
+  },
+  {
+    "id": "2",
+    "question": "On the AMC 8 contest Billy answers 13 questions correctly, answers 7 questions incorrectly and doesn't answer the last 5. What is his score?",
+    "options": [
+      "(A) 1",
+      "(B) 6",
+      "(C) 13",
+      "(D) 19",
+      "(E) 26"
+    ],
+    "answer": "(C) 13",
+    "explanation": "On the AMC 8 a student's score is the number of problems answered correctly. So Billy's score is 13. Because there is no penalty for guessing, if he wants to increase his score, he probably should fill in the last five answers."
+  },
+  {
+    "id": "3",
+    "question": "Elisa swims laps in the pool. When she first started, she completed 10 laps in 25 minutes. Now she can finish 12 laps in 24 minutes. By how many minutes has she improved her lap time?",
+    "options": [
+      "(A) 1/2",
+      "(B) 3/4",
+      "(C) 1",
+      "(D) 2",
+      "(E) 3"
+    ],
+    "answer": "(A) 1/2",
+    "explanation": "When Elisa started, she completed a lap in 25 / 10 = 2.5 minutes. Now she can complete a lap in 24 / 12 = 2 minutes. She has improved her lap time by 2.5 - 2 = 0.5 or 1/2 minute."
+  },
+  {
+    "id": "4",
+    "question": "Initially, a spinner points west. Chenille moves it clockwise $2\\frac{1}{4}$ revolutions and then counterclockwise $3\\frac{3}{4}$ revolutions. In what direction does the spinner point after the two moves?",
+    "options": [
+      "(A) north",
+      "(B) east",
+      "(C) south",
+      "(D) west",
+      "(E) northwest"
+    ],
+    "answer": "(B) east",
+    "explanation": "Ignore the number of complete revolutions because they do not affect direction. One-fourth of the distance around the circle clockwise from west is north. Three-fourths of the distance counterclockwise around the circle from north is east. Chenille's spinner points east."
+  },
+  {
+    "id": "5",
+    "question": "Points A, B, C and D are midpoints of the sides of the larger square. If the larger square has area 60, what is the area of the smaller square?",
+    "options": [
+      "(A) 15",
+      "(B) 20",
+      "(C) 24",
+      "(D) 30",
+      "(E) 40"
+    ],
+    "answer": "(D) 30",
+    "explanation": "Divide the larger square into 8 congruent triangles, 4 of which make up the smaller square. The area of the smaller square is 4/8 of the area of the larger square, so the area of the smaller square is equal to 30."
+  },
+  {
+    "id": "6",
+    "question": "The letter T is formed by placing two $2\\text{ inch} \\times 4\\text{ inch}$ rectangles next to each other, as shown. What is the perimeter of the T, in inches?",
+    "options": [
+      "(A) 12",
+      "(B) 16",
+      "(C) 20",
+      "(D) 22",
+      "(E) 24"
+    ],
+    "answer": "(C) 20",
+    "explanation": "The perimeter is 4 + 2 + 1 + 4 + 2 + 4 + 1 + 2 = 20 inches. Alternatively, each rectangle has perimeter 2(4) + 2(2) = 12 inches. When the two rectangles are positioned to form the T, a two-inch segment of each rectangle is inside the T and not on the outer border. So the perimeter is 2(12) - 2(2) = 20 inches."
+  },
+  {
+    "id": "7",
+    "question": "Circle X has a radius of $\\pi$. Circle Y has a circumference of $8\\pi$. Circle Z has an area of $9\\pi$. List the circles in order from smallest to largest radius.",
+    "options": [
+      "(A) X, Y, Z",
+      "(B) Z, X, Y",
+      "(C) Y, X, Z",
+      "(D) Z, Y, X",
+      "(E) X, Z, Y"
+    ],
+    "answer": "(B) Z, X, Y",
+    "explanation": "Because circumference $C = 2\\pi r$ and circle Y has circumference $8\\pi$, its radius is $8\\pi / (2\\pi) = 4$. Because area $A = \\pi r^2$ and circle Z has area $9\\pi$, its radius is $\\sqrt{9} = 3$. Circle X has radius $\\pi \\approx 3.14$. Ordering the radii gives $3 < \\pi < 4$, so the ascending order is Z, X, Y."
+  },
+  {
+    "id": "8",
+    "question": "The table shows some of the results of a survey by radio station KAMC. What percentage of the males surveyed listen to the station?",
+    "image_width": 600,
+    "options": [
+      "(A) 39",
+      "(B) 48",
+      "(C) 52",
+      "(D) 55",
+      "(E) 75"
+    ],
+    "answer": "(E) 75",
+    "explanation": "Because $200 - 96 = 104$ of those surveyed were male, $104 - 26 = 78$ of those surveyed are male listeners. The percentage of males surveyed who listen to KAMC is $(78 / 104) \\times 100\\% = 75\\%$."
+  },
+  {
+    "id": "9",
+    "question": "What is the product of $\\frac{3}{2} \\times \\frac{4}{3} \\times \\frac{5}{4} \\times \\dots \\times \\frac{2006}{2005}$?",
+    "options": [
+      "(A) 1",
+      "(B) 1002",
+      "(C) 1003",
+      "(D) 2005",
+      "(E) 2006"
+    ],
+    "answer": "(C) 1003",
+    "explanation": "Note that in each fraction, the numerator is the same as the denominator in the next fraction, so they cancel out across the product. The product reduces to $2006 / 2 = 1003$."
+  },
+  {
+    "id": "10",
+    "question": "Jorge's teacher asks him to plot all the ordered pairs $(w, l)$ of positive integers for which $w$ is the width and $l$ is the length of a rectangle with area 12. What should his graph look like?",
+    "image_width": 600,
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "(D)",
+      "(E)"
+    ],
+    "answer": "(A)",
+    "explanation": "When the area of a rectangle is 12 square units and the side lengths are integers, the factors of 12 are the possible dimensions: (1, 12), (2, 6), (3, 4), (4, 3), (6, 2), and (12, 1). Only Graph A displays these inverse relationship points."
+  },
+  {
+    "id": "11",
+    "question": "How many two-digit numbers have digits whose sum is a perfect square?",
+    "options": [
+      "(A) 13",
+      "(B) 16",
+      "(C) 17",
+      "(D) 18",
+      "(E) 19"
+    ],
+    "answer": "(C) 17",
+    "explanation": "The sum of the digits of a two-digit number is at most $9 + 9 = 18$. The possible perfect square sums are 1, 4, 9, and 16. The possibilities for each sum are:\nSum 1: 10\nSum 4: 40, 31, 22, 13\nSum 9: 90, 81, 72, 63, 54, 45, 36, 27, 18\nSum 16: 97, 88, 79\nThere are 17 two-digit numbers in total."
+  },
+  {
+    "id": "12",
+    "question": "Antonette gets 70% on a 10-problem test, 80% on a 20-problem test and 90% on a 30-problem test. If the three tests are combined into one 60-problem test, which percent is closest to her overall score?",
+    "options": [
+      "(A) 40",
+      "(B) 77",
+      "(C) 80",
+      "(D) 83",
+      "(E) 87"
+    ],
+    "answer": "(D) 83",
+    "explanation": "70% of 10 is 7, 80% of 20 is 16, and 90% of 30 is 27. Antonette answers $7 + 16 + 27 = 50$ problems correctly out of 60 problems in total. Her overall score is $50 / 60 \\approx 83.33\\%$, which is closest to 83."
+  },
+  {
+    "id": "13",
+    "question": "Cassie leaves Escanaba at 8:30 AM heading for Marquette on her bike. She bikes at a uniform rate of 12 miles per hour. Brian leaves Marquette at 9:00 AM heading for Escanaba on his bike. He bikes at a uniform rate of 16 miles per hour. They both bike on the same 62-mile route between Escanaba and Marquette. At what time in the morning do they meet?",
+    "options": [
+      "(A) 10:00",
+      "(B) 10:15",
+      "(C) 10:30",
+      "(D) 11:00",
+      "(E) 11:30"
+    ],
+    "answer": "(D) 11:00",
+    "explanation": "Between 8:30 and 9:00 AM, Cassie travels 6 miles. At 9:00 AM, Cassie and Brian are 56 miles apart. After 9:00 AM, the distance between them decreases at a combined rate of $12 + 16 = 28$ miles per hour. It will take them $56 / 28 = 2$ hours to meet. So they meet at 11:00 AM."
+  },
+  {
+    "id": "14",
+    "question": "The students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds.\n\nIf Bob and Chandra both read the whole book, Bob will spend how many more seconds reading than Chandra?",
+    "options": [
+      "(A) 7,600",
+      "(B) 11,400",
+      "(C) 12,500",
+      "(D) 15,200",
+      "(E) 22,800"
+    ],
+    "answer": "(B) 11,400",
+    "explanation": "Bob takes $45 - 30 = 15$ more seconds per page than Chandra. The difference in their total reading times is $760 \\times 15 = 11,400$ seconds."
+  },
+  {
+    "id": "15",
+    "question": "The students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds.\n\nChandra and Bob decide to team read the novel. Chandra will read from page 1 to a certain page and Bob will read from the next page through page 760, finishing the book. What is the last page that Chandra should read so that she and Bob spend the same amount of time reading the novel?",
+    "options": [
+      "(A) 425",
+      "(B) 444",
+      "(C) 456",
+      "(D) 484",
+      "(E) 506"
+    ],
+    "answer": "(C) 456",
+    "explanation": "The ratio of Bob's reading speed to Chandra's is $45 : 30 = 3 : 2$, meaning Bob should read $2/3$ as many pages as Chandra. If Chandra reads $x$ pages in $30x$ seconds, Bob reads $760 - x$ pages in $45(760 - x)$ seconds. Setting $30x = 45(760 - x)$ yields $75x = 45 \\times 760$, so $x = 456$. Chandra reads the first 456 pages."
+  },
+  {
+    "id": "16",
+    "question": "The students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds.\n\nBefore Chandra and Bob start reading, Alice says she would like to team read with them. If they divide the book into three sections so that each reads for the same length of time, how many seconds will each have to read?",
+    "options": [
+      "(A) 6400",
+      "(B) 6600",
+      "(C) 6800",
+      "(D) 7000",
+      "(E) 7200"
+    ],
+    "answer": "(E) 7200",
+    "explanation": "The least common multiple of 20, 30, and 45 is 180 seconds. In 180 seconds, Alice reads 9 pages, Chandra reads 6 pages, and Bob reads 4 pages, totaling 19 pages per 180 seconds. To complete 760 pages, it takes $(760 / 19) \\times 180 = 40 \\times 180 = 7,200$ seconds."
+  },
+  {
+    "id": "17",
+    "question": "Jeff rotates spinners P, Q and R and adds the resulting numbers. What is the probability that his sum is an odd number?",
+    "image_width": 600,
+    "options": [
+      "(A) 1/4",
+      "(B) 1/3",
+      "(C) 1/2",
+      "(D) 2/3",
+      "(E) 3/4"
+    ],
+    "answer": "(B) 1/3",
+    "explanation": "Because the sum of a number from spinner Q and a number from spinner R is always odd, the sum of all three spinners will be odd if and only if the number from spinner P is even. Since 2 is the only even number out of 3 choices on spinner P, the probability is 1/3."
+  },
+  {
+    "id": "18",
+    "question": "A cube with 3-inch edges is made using 27 cubes with 1-inch edges. Nineteen of the smaller cubes are white and eight are black. If the eight black cubes are placed at the corners of the larger cube, what fraction of the surface area of the larger cube is white?",
+    "options": [
+      "(A) 1/9",
+      "(B) 1/4",
+      "(C) 4/9",
+      "(D) 5/9",
+      "(E) 19/27"
+    ],
+    "answer": "(D) 5/9",
+    "explanation": "Four black and five white unit square faces are visible on each of the six faces of the larger cube. Thus, $5/9$ of the total surface area of the larger cube is white."
+  },
+  {
+    "id": "19",
+    "question": "Triangle ABC is an isosceles triangle with $AB = BC$. Point D is the midpoint of both $\\overline{BC}$ and $\\overline{AE}$ and $\\overline{CE}$ is 11 units long. Triangle ABD is congruent to triangle ECD. What is the length of $\\overline{BD}$?",
+    "options": [
+      "(A) 4",
+      "(B) 4.5",
+      "(C) 5",
+      "(D) 5.5",
+      "(E) 6"
+    ],
+    "answer": "(D) 5.5",
+    "explanation": "Because triangles ABD and ECD are congruent and triangle ABC is isosceles, $EC = AB = BC = 11$. Since D is the midpoint of $\\overline{BC}$, $BD = 11 / 2 = 5.5$."
+  },
+  {
+    "id": "20",
+    "question": "A singles tournament had six players. Each player played every other player only once, with no ties. If Helen won 4 games, Ines won 3 games, Janet won 2 games, Kendra won 2 games and Lara won 2 games, how many games did Monica win?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 3",
+      "(E) 4"
+    ],
+    "answer": "(C) 2",
+    "explanation": "With six players, there were $(6 \\times 5) / 2 = 15$ total games. Helen, Ines, Janet, Kendra, and Lara won a combined total of $4 + 3 + 2 + 2 + 2 = 13$ games. Therefore, Monica won $15 - 13 = 2$ games."
+  },
+  {
+    "id": "21",
+    "question": "An aquarium has a rectangular base that measures $100\\text{ cm}$ by $40\\text{ cm}$ and has a height of $50\\text{ cm}$. The aquarium is filled with water to a depth of $37\\text{ cm}$. A rock with volume $1000\\text{ cm}^3$ is placed in the aquarium and completely submerged. By how many centimeters does the water level rise?",
+    "options": [
+      "(A) 0.25",
+      "(B) 0.5",
+      "(C) 1",
+      "(D) 1.25",
+      "(E) 2.5"
+    ],
+    "answer": "(A) 0.25",
+    "explanation": "The base area of the aquarium is $100 \\times 40 = 4000\\text{ cm}^2$. Using $\\text{Base Area} \\times h = \\text{Volume}$, we get $4000 \\times h = 1000$, so $h = 1000 / 4000 = 0.25\\text{ cm}$."
+  },
+  {
+    "id": "22",
+    "question": "Three different one-digit positive integers are placed in the bottom row of cells. Numbers in adjacent cells are added and the sum is placed in the cell above them. In the second row, continue the same process to obtain a number in the top cell. What is the difference between the largest and smallest numbers possible in the top cell?",
+    "options": [
+      "(A) 16",
+      "(B) 24",
+      "(C) 25",
+      "(D) 26",
+      "(E) 35"
+    ],
+    "answer": "(D) 26",
+    "explanation": "If the bottom row cells are $A, B, C$, the top cell value is $A + 2B + C$. To obtain the smallest sum, place 1 in the middle cell and 2 and 3 in the outer ones ($2 + 2(1) + 3 = 7$). For the largest sum, place 9 in the middle cell and 7 and 8 in the outer ones ($7 + 2(9) + 8 = 33$). The difference is $33 - 7 = 26$."
+  },
+  {
+    "id": "23",
+    "question": "A box contains gold coins. If the coins are equally divided among six people, four coins are left over. If the coins are equally divided among five people, three coins are left over. If the box holds the smallest number of coins that meets these two conditions, how many coins are left when equally divided among seven people?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 3",
+      "(E) 5"
+    ],
+    "answer": "(A) 0",
+    "explanation": "Adding 2 coins to the box would make the total divisible by both 6 and 5. The smallest positive integer divisible by 6 and 5 is 30, so the smallest possible number of coins is $30 - 2 = 28$. When 28 coins are divided among 7 people ($28 / 7 = 4$), there are 0 coins left over."
+  },
+  {
+    "id": "24",
+    "question": "In the multiplication problem below, A, B, C and D are different digits. What is $A + B$?",
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) 9"
+    ],
+    "answer": "(A) 1",
+    "explanation": "We can decompose $CDCD = CD \\times 100 + CD = CD(101)$. Since $ABA \\times CD = CD \\times 101$, $ABA = 101$. That means $A = 1$ and $B = 0$, so $A + B = 1 + 0 = 1$."
+  },
+  {
+    "id": "25",
+    "question": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table showing numbers 44, 59, and 38. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers?",
+    "options": [
+      "(A) 13",
+      "(B) 14",
+      "(C) 15",
+      "(D) 16",
+      "(E) 17"
+    ],
+    "answer": "(B) 14",
+    "explanation": "Because all primes other than 2 are odd, and the sum of an even number and an odd number is odd, the common sum must be odd. That means 2 must be opposite 59, making the common sum $2 + 59 = 61$. The other two hidden numbers are $61 - 44 = 17$ and $61 - 38 = 23$. All three hidden numbers (2, 17, 23) are prime, and their average is $(2 + 17 + 23) / 3 = 42 / 3 = 14$."
+  }
+]
