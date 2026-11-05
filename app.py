@@ -350,6 +350,8 @@ if "current_comp" not in st.session_state or st.session_state.current_comp != se
     st.session_state.practice_submitted = False
     st.session_state.practice_answers = {}
     st.session_state.logged_practice = False
+    st.session_state.reshuffle_count = 0
+    st.session_state.show_reshuffle_confirm = False
 
 if app_mode == "🎲 Practice":
     st.sidebar.markdown("**Select number of questions:**")
@@ -425,10 +427,37 @@ if app_mode == "🎲 Practice":
             st.session_state.logged_practice = False
         if "practice_start_time" not in st.session_state:
             st.session_state.practice_start_time = time.time()
+        if "reshuffle_count" not in st.session_state:
+            st.session_state.reshuffle_count = 0
+        if "show_reshuffle_confirm" not in st.session_state:
+            st.session_state.show_reshuffle_confirm = False
 
-        generate_clicked = st.sidebar.button("🔀 Reshuffle Practice Set", type="primary")
-        
-        if generate_clicked or not st.session_state.practice_questions or len(st.session_state.practice_questions) != num_q_select:
+        MAX_RESHUFFLES = 2
+        remaining_reshuffles = MAX_RESHUFFLES - st.session_state.reshuffle_count
+        reshuffle_disabled = st.session_state.reshuffle_count >= MAX_RESHUFFLES
+
+        if st.sidebar.button(
+            f"🔀 Reshuffle Practice Set ({remaining_reshuffles}/{MAX_RESHUFFLES} left)",
+            type="primary",
+            disabled=reshuffle_disabled
+        ):
+            st.session_state.show_reshuffle_confirm = True
+
+        do_reshuffle = False
+        if st.session_state.show_reshuffle_confirm:
+            st.warning(f"⚠️ **Are you sure you want to reshuffle the questions?**\n\nAny current choices or progress in this session will be reset. ({remaining_reshuffles} reshuffle(s) remaining)")
+            col_conf_yes, col_conf_no = st.columns(2)
+            with col_conf_yes:
+                if st.button("✅ Yes, Reshuffle", type="primary", key="confirm_reshuffle_yes"):
+                    st.session_state.reshuffle_count += 1
+                    st.session_state.show_reshuffle_confirm = False
+                    do_reshuffle = True
+            with col_conf_no:
+                if st.button("❌ No, Keep Practicing", key="confirm_reshuffle_no"):
+                    st.session_state.show_reshuffle_confirm = False
+                    st.rerun()
+
+        if do_reshuffle or not st.session_state.practice_questions or len(st.session_state.practice_questions) != num_q_select:
             pooled_questions = []
             for file in comp_files:
                 file_path = os.path.join(BASE_DIR, file)
@@ -448,7 +477,7 @@ if app_mode == "🎲 Practice":
                 st.session_state.practice_answers = {}
                 st.session_state.logged_practice = False
                 st.session_state.practice_start_time = time.time()
-                if generate_clicked:
+                if do_reshuffle:
                     st.rerun()
 
         if st.session_state.practice_questions:
@@ -498,6 +527,8 @@ if app_mode == "🎲 Practice":
                     st.session_state.practice_answers = {}
                     st.session_state.logged_practice = False
                     st.session_state.practice_start_time = time.time()
+                    st.session_state.reshuffle_count = 0
+                    st.session_state.show_reshuffle_confirm = False
                     st.rerun()
 
                 st.markdown("### 📝 Detailed Review")
