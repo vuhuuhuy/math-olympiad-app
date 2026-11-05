@@ -1,0 +1,333 @@
+[
+  {
+    "id": "1",
+    "question": "On a map, a 12-centimeter length represents 72 kilometers. How many kilometers does a 17-centimeter length represent?",
+    "options": [
+      "(A) 6",
+      "(B) 102",
+      "(C) 204",
+      "(D) 864",
+      "(E) 1224"
+    ],
+    "answer": "(B) 102",
+    "explanation": "If 12 centimeters represents 72 kilometers, then 1 centimeter represents $72 / 12 = 6\\text{ kilometers}$. A 17-centimeter length represents $17 \\times 6 = 102\\text{ kilometers}$."
+  },
+  {
+    "id": "2",
+    "question": "How many different four-digit numbers can be formed by rearranging the four digits in 2004?",
+    "options": [
+      "(A) 4",
+      "(B) 6",
+      "(C) 16",
+      "(D) 24",
+      "(E) 81"
+    ],
+    "answer": "(B) 6",
+    "explanation": "To form a four-digit number using the digits 2, 0, 0, and 4, the thousands digit must be 2 or 4. If the thousands digit is 2, the remaining digits (0, 0, 4) can be arranged in 3 ways: 2004, 2040, 2400. If the thousands digit is 4, the remaining digits (0, 0, 2) can also be arranged in 3 ways: 4002, 4020, 4200. Thus, there are $3 + 3 = 6$ possible numbers."
+  },
+  {
+    "id": "3",
+    "question": "Twelve friends met for dinner at Oscar's Overstuffed Oyster House, and each ordered one meal. The portions were so large, there was enough food for 18 people. If they share, how many meals should they have ordered to have just enough food for the 12 of them?",
+    "options": [
+      "(A) 8",
+      "(B) 9",
+      "(C) 10",
+      "(D) 15",
+      "(E) 18"
+    ],
+    "answer": "(A) 8",
+    "explanation": "If 12 meals feed 18 people, each meal feeds $18 / 12 = 1.5$ people. To feed 12 people, they should have ordered $12 / 1.5 = 8$ meals."
+  },
+  {
+    "id": "4",
+    "question": "Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament. Lance, Sally, Joy and Fred are chosen for the team. In how many ways can the three starters be chosen?",
+    "options": [
+      "(A) 2",
+      "(B) 4",
+      "(C) 6",
+      "(D) 8",
+      "(E) 10"
+    ],
+    "answer": "(B) 4",
+    "explanation": "Choosing 3 starters out of 4 players is equivalent to choosing 1 alternate out of 4 players. Since any of the 4 players can be the alternate, there are 4 ways to select the starting team."
+  },
+  {
+    "id": "5",
+    "question": "Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament. The losing team of each game is eliminated from the tournament. If sixteen teams compete, how many games will be played to determine the winner?",
+    "options": [
+      "(A) 4",
+      "(B) 7",
+      "(C) 8",
+      "(D) 15",
+      "(E) 16"
+    ],
+    "answer": "(D) 15",
+    "explanation": "In a single-elimination tournament, each game eliminates exactly 1 team. To eliminate 15 teams and leave 1 winner out of 16 teams, 15 games must be played."
+  },
+  {
+    "id": "6",
+    "question": "Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament. After Sally takes 20 shots, she has made 55% of her shots. After she takes 5 more shots, she raises her percentage to 56%. How many of the last 5 shots did she make?",
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) 5"
+    ],
+    "answer": "(C) 3",
+    "explanation": "In her first 20 shots, Sally made $0.55 \\times 20 = 11$ shots. After 25 total shots, she made $0.56 \\times 25 = 14$ shots. Therefore, she made $14 - 11 = 3$ of the last 5 shots."
+  },
+  {
+    "id": "7",
+    "question": "An athlete's target heart rate, in beats per minute, is 80% of the theoretical maximum heart rate. The maximum heart rate is found by subtracting the athlete's age, in years, from 220. To the nearest whole number, what is the target heart rate of an athlete who is 26 years old?",
+    "options": [
+      "(A) 134",
+      "(B) 155",
+      "(C) 176",
+      "(D) 194",
+      "(E) 243"
+    ],
+    "answer": "(B) 155",
+    "explanation": "The maximum heart rate for a 26-year-old is $220 - 26 = 194$ beats per minute. The target heart rate is $0.80 \\times 194 = 155.2$, which rounds to 155."
+  },
+  {
+    "id": "8",
+    "question": "Find the number of two-digit positive integers whose digits total 7.",
+    "options": [
+      "(A) 6",
+      "(B) 7",
+      "(C) 8",
+      "(D) 9",
+      "(E) 10"
+    ],
+    "answer": "(B) 7",
+    "explanation": "The two-digit numbers whose digits sum to 7 are 16, 25, 34, 43, 52, 61, and 70. There are 7 such numbers."
+  },
+  {
+    "id": "9",
+    "question": "The average of the five numbers in a list is 54. The average of the first two numbers is 48. What is the average of the last three numbers?",
+    "options": [
+      "(A) 55",
+      "(B) 56",
+      "(C) 57",
+      "(D) 58",
+      "(E) 59"
+    ],
+    "answer": "(D) 58",
+    "explanation": "The sum of all five numbers is $5 \\times 54 = 270$. The sum of the first two numbers is $2 \\times 48 = 96$, so the sum of the last three numbers is $270 - 96 = 174$. The average of the last three numbers is $174 / 3 = 58$."
+  },
+  {
+    "id": "10",
+    "question": "Handy Aaron helped a neighbor $1\\frac{1}{4}$ hours on Monday, 50 minutes on Tuesday, from 8:20 to 10:45 on Wednesday morning, and a half-hour on Friday. He is paid \\$3 per hour. How much did he earn for the week?",
+    "options": [
+      "(A) \\$8",
+      "(B) \\$9",
+      "(C) \\$10",
+      "(D) \\$12",
+      "(E) \\$15"
+    ],
+    "answer": "(E) \\$15",
+    "explanation": "Convert Aaron's work time to minutes:\nMonday: $1\\frac{1}{4}\\text{ hours} = 75\\text{ minutes}$\nTuesday: 50 minutes\nWednesday: 8:20 to 10:45 = 2 hours 25 minutes = 145 minutes\nFriday: $\\frac{1}{2}\\text{ hour} = 30\\text{ minutes}$\nTotal time = $75 + 50 + 145 + 30 = 300\\text{ minutes} = 5\\text{ hours}$.\nEarnings = $5 \\times \\$3 = \\$15$."
+  },
+  {
+    "id": "11",
+    "question": "The numbers -2, 4, 6, 9 and 12 are rearranged according to these rules:\n1. The largest isn't first, but it is in one of the first three places.\n2. The smallest isn't last, but it is in one of the last three places.\n3. The median isn't first or last.\nWhat is the average of the first and last numbers?",
+    "options": [
+      "(A) 3.5",
+      "(B) 5",
+      "(C) 6.5",
+      "(D) 7.5",
+      "(E) 8"
+    ],
+    "answer": "(C) 6.5",
+    "explanation": "The largest number is 12, the smallest is -2, and the median is 6. By Rule 1, 12 is in position 2 or 3. By Rule 2, -2 is in position 3 or 4. By Rule 3, 6 is in position 2, 3, or 4. Thus, the three middle positions (2, 3, 4) are occupied by 12, -2, and 6 in some order. This leaves 4 and 9 to occupy the first and last positions. The average of the first and last numbers is $(4 + 9) / 2 = 6.5$."
+  },
+  {
+    "id": "12",
+    "question": "Niki usually leaves her cell phone on. If her cell phone is on but she is not actually using it, the battery will last for 24 hours. If she is using it constantly, the battery will last for only 3 hours. Since the last recharge, her phone has been on 9 hours, and during that time she has used it for 60 minutes. If she doesn't talk any more but leaves the phone on, how many more hours will the battery last?",
+    "options": [
+      "(A) 7",
+      "(B) 8",
+      "(C) 11",
+      "(D) 14",
+      "(E) 15"
+    ],
+    "answer": "(B) 8",
+    "explanation": "Talking for 60 minutes (1 hour) uses $1/3$ of the battery capacity. Leaving the phone on for 8 hours without talking uses $8/24 = 1/3$ of the battery capacity. Total battery used is $1/3 + 1/3 = 2/3$. The remaining $1/3$ of the battery capacity will last $\\frac{1}{3} \\times 24 = 8\\text{ hours}$ of standby time."
+  },
+  {
+    "id": "13",
+    "question": "Amy, Bill and Celine are friends with different ages. Exactly one of the following statements is true.\nI. Bill is the oldest.\nII. Amy is not the oldest.\nIII. Celine is not the youngest.\nRank the friends from the oldest to the youngest.",
+    "options": [
+      "(A) Bill, Amy, Celine",
+      "(B) Amy, Bill, Celine",
+      "(C) Celine, Amy, Bill",
+      "(D) Celine, Bill, Amy",
+      "(E) Amy, Celine, Bill"
+    ],
+    "answer": "(E) Amy, Celine, Bill",
+    "explanation": "If Statement I were true (Bill is oldest), then Statement II (Amy is not oldest) would also be true, giving two true statements. Thus, Statement I is false (Bill is not oldest). If Statement II were true (Amy is not oldest), Celine would have to be oldest, making Statement III (Celine is not youngest) also true, which again gives two true statements. Thus, Statement II is false, meaning Amy IS the oldest. Therefore, Statement III must be the single true statement: Celine is not the youngest. The order from oldest to youngest is Amy, Celine, Bill."
+  },
+  {
+    "id": "14",
+    "question": "What is the area enclosed by the geoboard quadrilateral below?",
+    "image_width": 600,
+    "options": [
+      "(A) 15",
+      "(B) 18 1/2",
+      "(C) 22 1/2",
+      "(D) 27",
+      "(E) 41"
+    ],
+    "answer": "(C) 22 1/2",
+    "explanation": "Enclose the quadrilateral in a $10 \\times 10$ square of area 100. Subtract the surrounding outer regions:\nRegion A (rectangle): $3 \\times 5 = 15$\nRegion B (triangle): $\\frac{1}{2} \\times 6 \\times 7 = 21$\nRegion C (triangle): $\\frac{1}{2} \\times 1 \\times 3 = 1.5$\nRegion D (triangle): $\\frac{1}{2} \\times 4 \\times 5 = 10$\nRegion E (triangle): $\\frac{1}{2} \\times 6 \\times 10 = 30$\nTotal area subtracted = $15 + 21 + 1.5 + 10 + 30 = 77.5$.\nEnclosed area = $100 - 77.5 = 22\\frac{1}{2}$."
+  },
+  {
+    "id": "15",
+    "question": "Thirteen black and six white hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure?",
+    "image_width": 600,
+    "options": [
+      "(A) 5",
+      "(B) 7",
+      "(C) 11",
+      "(D) 12",
+      "(E) 18"
+    ],
+    "answer": "(C) 11",
+    "explanation": "The new outer border requires 18 additional white tiles. The total number of white tiles becomes $6 + 18 = 24$. The number of black tiles remains 13. The difference between white and black tiles is $24 - 13 = 11$."
+  },
+  {
+    "id": "16",
+    "question": "Two 600 ml pitchers contain orange juice. One pitcher is $\\frac{1}{3}$ full and the other pitcher is $\\frac{2}{5}$ full. Water is added to fill each pitcher completely, then both pitchers are poured into one large container. What fraction of the mixture in the large container is orange juice?",
+    "options": [
+      "(A) 1/8",
+      "(B) 3/16",
+      "(C) 11/30",
+      "(D) 11/19",
+      "(E) 11/15"
+    ],
+    "answer": "(C) 11/30",
+    "explanation": "The first pitcher has $\\frac{1}{3} \\times 600 = 200\\text{ ml}$ of juice. The second pitcher has $\\frac{2}{5} \\times 600 = 240\\text{ ml}$ of juice. Total juice = $200 + 240 = 440\\text{ ml}$. Total volume of mixture = $600 + 600 = 1200\\text{ ml}$. The fraction of juice is $\\frac{440}{1200} = \\frac{11}{30}$."
+  },
+  {
+    "id": "17",
+    "question": "Three friends have a total of 6 identical pencils, and each one has at least one pencil. In how many ways can this happen?",
+    "options": [
+      "(A) 1",
+      "(B) 3",
+      "(C) 6",
+      "(D) 10",
+      "(E) 12"
+    ],
+    "answer": "(D) 10",
+    "explanation": "Give 1 pencil to each of the 3 friends first. The remaining 3 pencils can be distributed among the 3 friends. Using stars and bars, the number of ways to distribute 3 identical items among 3 people is $\\binom{3 + 3 - 1}{3 - 1} = \\binom{5}{2} = 10$."
+  },
+  {
+    "id": "18",
+    "question": "Five friends compete in a dart-throwing contest. Each one has two darts to throw at the same circular target, and each individual's score is the sum of the scores in the target regions that are hit. The scores for the target regions are the whole numbers 1 through 10. Each throw hits the target in a region with a different value. The scores are: Alice 16 points, Ben 4 points, Cindy 7 points, Dave 11 points, and Ellen 17 points. Who hits the region worth 6 points?",
+    "options": [
+      "(A) Alice",
+      "(B) Ben",
+      "(C) Cindy",
+      "(D) Dave",
+      "(E) Ellen"
+    ],
+    "answer": "(A) Alice",
+    "explanation": "Ben's 4 points must come from $1 + 3$. Cindy's 7 points must come from $5 + 2$. Dave's 11 points must come from $7 + 4$. Ellen's 17 points must come from $9 + 8$. This leaves 10 and 6 for Alice, whose sum is $10 + 6 = 16$. Thus, Alice hits the region worth 6 points."
+  },
+  {
+    "id": "19",
+    "question": "A whole number larger than 2 leaves a remainder of 2 when divided by each of the numbers 3, 4, 5 and 6. The smallest such number lies between which two numbers?",
+    "options": [
+      "(A) 40 and 49",
+      "(B) 60 and 79",
+      "(C) 100 and 129",
+      "(D) 210 and 249",
+      "(E) 320 and 369"
+    ],
+    "answer": "(B) 60 and 79",
+    "explanation": "If $N > 2$ leaves a remainder of 2 when divided by 3, 4, 5, and 6, then $N - 2$ is a multiple of 3, 4, 5, and 6. The least common multiple $\\text{LCM}(3, 4, 5, 6) = 60$. So $N - 2 = 60$, which means $N = 62$. The number 62 lies between 60 and 79."
+  },
+  {
+    "id": "20",
+    "question": "Two-thirds of the people in a room are seated in three-fourths of the chairs. The rest of the people are standing. If there are 6 empty chairs, how many people are in the room?",
+    "options": [
+      "(A) 12",
+      "(B) 18",
+      "(C) 24",
+      "(D) 27",
+      "(E) 36"
+    ],
+    "answer": "(D) 27",
+    "explanation": "The 6 empty chairs represent $1 - \\frac{3}{4} = \\frac{1}{4}$ of the total chairs, so there are $6 \\times 4 = 24$ chairs in total. The number of seated chairs is $24 - 6 = 18$. Since 18 people are seated, and this represents $\\frac{2}{3}$ of the people present, the total number of people in the room is $18 / (2/3) = 27$."
+  },
+  {
+    "id": "21",
+    "question": "Spinners A and B are spun. On each spinner, the arrow is equally likely to land on each number. What is the probability that the product of the two spinners' numbers is even?",
+    "image_width": 600,
+    "options": [
+      "(A) 1/4",
+      "(B) 1/3",
+      "(C) 1/2",
+      "(D) 2/3",
+      "(E) 3/4"
+    ],
+    "answer": "(D) 2/3",
+    "explanation": "The product is odd if and only if both spinners land on odd numbers. Spinner A (numbers 1, 2, 3, 4) has probability $1/2$ of landing on an odd number. Spinner B (numbers 1, 2, 3) has probability $2/3$ of landing on an odd number. The probability of an odd product is $\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1}{3}$. Therefore, the probability of an even product is $1 - \\frac{1}{3} = \\frac{2}{3}$."
+  },
+  {
+    "id": "22",
+    "question": "At a party there are only single women and married men with their wives. The probability that a randomly selected woman is single is $\\frac{2}{5}$. What fraction of the people in the room are married men?",
+    "options": [
+      "(A) 1/3",
+      "(B) 3/8",
+      "(C) 2/5",
+      "(D) 5/12",
+      "(E) 3/5"
+    ],
+    "answer": "(B) 3/8",
+    "explanation": "Since $\\frac{2}{5}$ of the women are single, $\\frac{3}{5}$ of the women are married. For every 2 single women, there are 3 married women. Since married men attend with their wives, there are also 3 married men for every 3 married women. Thus, in any group of $2 + 3 + 3 = 8$ people, 3 are married men. The fraction of people who are married men is $\\frac{3}{8}$."
+  },
+  {
+    "id": "23",
+    "question": "Tess runs counterclockwise around rectangular block JKLM. She lives at corner J. Which graph could represent her straight-line distance from home?",
+    "image_width": 600,
+    "options": [
+      "(A) Graph A",
+      "(B) Graph B",
+      "(C) Graph C",
+      "(D) Graph D",
+      "(E) Graph E"
+    ],
+    "answer": "(D) Graph D",
+    "explanation": "As Tess runs from J to K, her straight-line distance from J increases. As she runs from K to L, her distance from J continues to increase until reaching a peak at corner L (the farthest point from J). As she runs from L to M, her distance decreases, and as she runs from M back to J, her distance decreases to 0. Graph D shows these continuous distance changes with a peak at L."
+  },
+  {
+    "id": "24",
+    "question": "In the figure, ABCD is a rectangle and EFGH is a parallelogram. Using the measurements given in the figure, what is the length d of the segment that is perpendicular to $\\overline{HE}$ and $\\overline{FG}$?",
+    "image_width": 600,
+    "options": [
+      "(A) 6.8",
+      "(B) 7.1",
+      "(C) 7.6",
+      "(D) 7.8",
+      "(E) 8.1"
+    ],
+    "answer": "(C) 7.6",
+    "explanation": "By the Pythagorean Theorem in right triangle AEH, $HE = \\sqrt{3^2 + 4^2} = 5$. The total area of rectangle ABCD is $10 \\times 8 = 80$. The four corner triangles have areas: two of $\\frac{1}{2} \\times 3 \\times 4 = 6$, and two of $\\frac{1}{2} \\times 5 \\times 6 = 15$. The area of parallelogram EFGH is $80 - 2(6) - 2(15) = 38$. Since area of parallelogram EFGH is $HE \\times d = 5d$, we have $5d = 38$, so $d = 38 / 5 = 7.6$."
+  },
+  {
+    "id": "25",
+    "question": "Two $4 \\times 4$ squares intersect at right angles, bisecting their intersecting sides, as shown. The circle's diameter is the segment between the two points of intersection. What is the area of the shaded region created by removing the circle from the squares?",
+    "image_width": 600,
+    "options": [
+      "(A) 16 - 4\\pi",
+      "(B) 16 - 2\\pi",
+      "(C) 28 - 4\\pi",
+      "(D) 28 - 2\\pi",
+      "(E) 32 - 2\\pi"
+    ],
+    "answer": "(D) 28 - 2\\pi",
+    "explanation": "Each square has area $4 \\times 4 = 16$. Their intersection is a $2 \\times 2$ square of area 4. The total area enclosed by the two squares is $2(16) - 4 = 28$. The diameter of the circle is the diagonal of the $2 \\times 2$ intersection square, which is $\\sqrt{2^2 + 2^2} = \\sqrt{8}$. The radius of the circle is $r = \\frac{\\sqrt{8}}{2} = \\sqrt{2}$. The area of the circle is $\\pi r^2 = \\pi (\\sqrt{2})^2 = 2\\pi$. Removing the circle leaves a shaded area of $28 - 2\\pi$."
+  }
+]
