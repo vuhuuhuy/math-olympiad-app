@@ -321,6 +321,50 @@ def get_topic_analytics(user_email):
 
     return list(cat_stats.values())
 
+def sample_balanced_questions(questions_pool, target_size, topic_filter):
+    """Guarantees balanced coverage across all 5 Olympiad domains when practicing in mixed mode."""
+    if not questions_pool or target_size <= 0:
+        return []
+
+    # If single topic is selected or target weakness mode, sample from the filtered pool
+    if topic_filter != "All Topics (Mixed)":
+        return random.sample(questions_pool, min(target_size, len(questions_pool)))
+
+    buckets = {}
+    for q in questions_pool:
+        cat = q.get("category", "Algebra & Word Problems")
+        buckets.setdefault(cat, []).append(q)
+
+    if not buckets:
+        return random.sample(questions_pool, min(target_size, len(questions_pool)))
+
+    num_buckets = len(buckets)
+    base_per_bucket = target_size // num_buckets
+    remainder = target_size % num_buckets
+
+    selected = []
+    bucket_names = list(buckets.keys())
+    random.shuffle(bucket_names)
+
+    remaining_pool = []
+    for idx, b_name in enumerate(bucket_names):
+        b_questions = buckets[b_name]
+        random.shuffle(b_questions)
+        take_count = base_per_bucket + (1 if idx < remainder else 0)
+        actual_take = min(take_count, len(b_questions))
+        selected.extend(b_questions[:actual_take])
+        remaining_pool.extend(b_questions[actual_take:])
+
+    # If some categories had fewer questions, backfill from remaining pool
+    if len(selected) < target_size and remaining_pool:
+        needed = target_size - len(selected)
+        extra = random.sample(remaining_pool, min(needed, len(remaining_pool)))
+        selected.extend(extra)
+
+    # Shuffle the final question list so topics appear interleaved and varied
+    random.shuffle(selected)
+    return selected
+
 def log_result_to_sheets(test_type, score_str, user_email, duration_str="N/A"):
     if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
         return
@@ -718,8 +762,12 @@ if app_mode == "🎲 Practice":
             or (not st.session_state.practice_submitted and len(st.session_state.practice_questions) != target_sample_size)
         )
 
+        if selected_topic_filter == "All Topics (Mixed)" and target_sample_size >= 5:
+            base_count = target_sample_size // 5
+            st.caption(f"✨ **Balanced Topic Coverage**: Every set guarantees at least **{base_count} question(s)** from each of the 5 Olympiad domains.")
+
         if needs_sampling and pooled_questions:
-            st.session_state.practice_questions = random.sample(pooled_questions, target_sample_size)
+            st.session_state.practice_questions = sample_balanced_questions(pooled_questions, target_sample_size, selected_topic_filter)
             st.session_state.practice_submitted = False
             st.session_state.practice_answers = {}
             st.session_state.logged_practice = False
