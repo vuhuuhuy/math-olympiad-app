@@ -11,7 +11,8 @@
     ],
     "answer": "(C) 28",
     "explanation": "The total number of students taking the test is $11 + 8 + 9 = 28$.",
-    "hint": "**Key Strategy:** Direct Addition (Combining Disjoint Groups)\n• **Step 1 (First Move):** Identify the number of students taking the contest from each teacher's class: $11$ from Miss Germain's class, $8$ from Mr. Newton's class, and $9$ from Mrs. Young's class.\n• **Step 2 (The Guiding Bridge):** Combine the first two classes by adding $11 + 8 = 19$ students.\n• **Step 3 (How to Finish):** Add the remaining $9$ students from Mrs. Young's class to $19$ to find the total number of mathematics students taking the contest."
+    "hint": "**Key Strategy:** Direct Addition (Combining Disjoint Groups)\n• **Step 1 (First Move):** Identify the number of students taking the contest from each teacher's class: $11$ from Miss Germain's class, $8$ from Mr. Newton's class, and $9$ from Mrs. Young's class.\n• **Step 2 (The Guiding Bridge):** Combine the first two classes by adding $11 + 8 = 19$ students.\n• **Step 3 (How to Finish):** Add the remaining $9$ students from Mrs. Young's class to $19$ to find the total number of mathematics students taking the contest.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "(D) 10/3",
     "explanation": "$5 * 10 = \\frac{5 \\times 10}{5 + 10} = \\frac{50}{15} = \\frac{10}{3}$.",
-    "hint": "**Key Strategy:** Algebraic Substitution (Defined Operation)\n• **Step 1 (First Move):** Substitute $a = 5$ and $b = 10$ into the rule $a * b = \\frac{a \\times b}{a + b}$ to write $\\frac{5 \\times 10}{5 + 10}$.\n• **Step 2 (The Guiding Bridge):** Compute the numerator ($5 \\times 10 = 50$) and the denominator ($5 + 10 = 15$) separately to get the fraction $\\frac{50}{15}$.\n• **Step 3 (How to Finish):** Simplify $\\frac{50}{15}$ to lowest terms by dividing both the numerator and the denominator by their greatest common factor, $5$."
+    "hint": "**Key Strategy:** Algebraic Substitution (Defined Operation)\n• **Step 1 (First Move):** Substitute $a = 5$ and $b = 10$ into the rule $a * b = \\frac{a \\times b}{a + b}$ to write $\\frac{5 \\times 10}{5 + 10}$.\n• **Step 2 (The Guiding Bridge):** Compute the numerator ($5 \\times 10 = 50$) and the denominator ($5 + 10 = 15$) separately to get the fraction $\\frac{50}{15}$.\n• **Step 3 (How to Finish):** Simplify $\\frac{50}{15}$ to lowest terms by dividing both the numerator and the denominator by their greatest common factor, $5$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 3,
@@ -40,7 +42,8 @@
     ],
     "answer": "(C) 70%",
     "explanation": "The highest price in January was \\$17 and the lowest in March was \\$10. The \\$17 price was \\$7 more than the \\$10 price, and 7 is $70\\%$ of 10.",
-    "hint": "**Key Strategy:** Percent Increase (Relative Difference)\n• **Step 1 (First Move):** Read the highest and lowest prices from the graph: the highest price is $\\$17$ (in January) and the lowest price is $\\$10$ (in March). Find the dollar difference: $17 - 10 = 7$.\n• **Step 2 (The Guiding Bridge):** Since the question asks by what percent the highest price is more than the *lowest* price, divide the difference by the lowest price ($10$): $\\frac{7}{10}$.\n• **Step 3 (How to Finish):** Convert the fraction $\\frac{7}{10}$ into a percentage by multiplying $\\frac{7}{10} \\times 100\\%$."
+    "hint": "**Key Strategy:** Percent Increase (Relative Difference)\n• **Step 1 (First Move):** Read the highest and lowest prices from the graph: the highest price is $\\$17$ (in January) and the lowest price is $\\$10$ (in March). Find the dollar difference: $17 - 10 = 7$.\n• **Step 2 (The Guiding Bridge):** Since the question asks by what percent the highest price is more than the *lowest* price, divide the difference by the lowest price ($10$): $\\frac{7}{10}$.\n• **Step 3 (How to Finish):** Convert the fraction $\\frac{7}{10}$ into a percentage by multiplying $\\frac{7}{10} \\times 100\\%$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -54,7 +57,8 @@
     ],
     "answer": "(C) 7.5",
     "explanation": "Arrange the numbers in increasing order: 0, 0, 1, 2, 3, 3, 3, 4. The mean is $\\frac{16}{8} = 2$. The median is halfway between 2 and 3, or 2.5. The mode is 3. The sum of the mean, median, and mode is $2 + 2.5 + 3 = 7.5$.",
-    "hint": "**Key Strategy:** Descriptive Statistics (Mean, Median, Mode)\n• **Step 1 (First Move):** Order the $8$ numbers from least to greatest: $0, 0, 1, 2, 3, 3, 3, 4$. Add all $8$ numbers together: $0 + 0 + 1 + 2 + 3 + 3 + 3 + 4 = 16$.\n• **Step 2 (The Guiding Bridge):** Find each measure: the **mean** is $\\frac{16}{8} = 2$; the **median** is the average of the two middle numbers ($2$ and $3$), which is $\\frac{2 + 3}{2} = 2.5$; and the **mode** is the most frequent number, which is $3$.\n• **Step 3 (How to Finish):** Add your three values together ($2 + 2.5 + 3$) to find the required sum."
+    "hint": "**Key Strategy:** Descriptive Statistics (Mean, Median, Mode)\n• **Step 1 (First Move):** Order the $8$ numbers from least to greatest: $0, 0, 1, 2, 3, 3, 3, 4$. Add all $8$ numbers together: $0 + 0 + 1 + 2 + 3 + 3 + 3 + 4 = 16$.\n• **Step 2 (The Guiding Bridge):** Find each measure: the **mean** is $\\frac{16}{8} = 2$; the **median** is the average of the two middle numbers ($2$ and $3$), which is $\\frac{2 + 3}{2} = 2.5$; and the **mode** is the most frequent number, which is $3$.\n• **Step 3 (How to Finish):** Add your three values together ($2 + 2.5 + 3$) to find the required sum.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 5,
@@ -68,7 +72,8 @@
     ],
     "answer": "(B) 34",
     "explanation": "The ceiling is $2.4 - 1.5 = 0.9$ meters $= 90$ centimeters above Alice's head. She can reach 46 centimeters above her head, and the light bulb is 10 centimeters below the ceiling, so the stool is $90 - 46 - 10 = 34$ centimeters high.",
-    "hint": "**Key Strategy:** Unit Conversion & Length Comparison\n• **Step 1 (First Move):** Convert all lengths from meters to centimeters using $1\\text{ m} = 100\\text{ cm}$: the ceiling is $2.4 \\times 100 = 240\\text{ cm}$ above the floor, and Alice is $1.5 \\times 100 = 150\\text{ cm}$ tall.\n• **Step 2 (The Guiding Bridge):** Find the height of the light bulb above the floor ($240 - 10 = 230\\text{ cm}$) and how high Alice can reach from the floor without a stool ($150 + 46 = 196\\text{ cm}$).\n• **Step 3 (How to Finish):** Subtract Alice's reach without a stool ($196\\text{ cm}$) from the light bulb's height ($230\\text{ cm}$) to find the height of the stool in centimeters."
+    "hint": "**Key Strategy:** Unit Conversion & Length Comparison\n• **Step 1 (First Move):** Convert all lengths from meters to centimeters using $1\\text{ m} = 100\\text{ cm}$: the ceiling is $2.4 \\times 100 = 240\\text{ cm}$ above the floor, and Alice is $1.5 \\times 100 = 150\\text{ cm}$ tall.\n• **Step 2 (The Guiding Bridge):** Find the height of the light bulb above the floor ($240 - 10 = 230\\text{ cm}$) and how high Alice can reach from the floor without a stool ($150 + 46 = 196\\text{ cm}$).\n• **Step 3 (How to Finish):** Subtract Alice's reach without a stool ($196\\text{ cm}$) from the light bulb's height ($230\\text{ cm}$) to find the height of the stool in centimeters.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -82,7 +87,8 @@
     ],
     "answer": "(E) square",
     "explanation": "A square has 4 lines of symmetry. An equilateral triangle has 3, a non-square rhombus has 2, a non-square rectangle has 2, and an isosceles trapezoid has 1.",
-    "hint": "**Key Strategy:** Geometric Symmetry Counting\n• **Step 1 (First Move):** Count the lines of symmetry (folds where the two halves match exactly) for the non-regular quadrilaterals: an isosceles trapezoid has $1$ (vertically through the midpoints of the parallel sides), a non-square rectangle has $2$ (horizontal and vertical through opposite side midpoints), and a non-square rhombus has $2$ (along its two diagonals).\n• **Step 2 (The Guiding Bridge):** Count the lines of symmetry for an equilateral triangle ($3$, each from a vertex to the opposite side's midpoint). Then examine the last figure by counting both the folds connecting opposite side midpoints *and* the folds along its diagonals.\n• **Step 3 (How to Finish):** Add those two types of symmetry lines for the remaining figure and compare all five totals to identify which figure has the most lines of symmetry."
+    "hint": "**Key Strategy:** Geometric Symmetry Counting\n• **Step 1 (First Move):** Count the lines of symmetry (folds where the two halves match exactly) for the non-regular quadrilaterals: an isosceles trapezoid has $1$ (vertically through the midpoints of the parallel sides), a non-square rectangle has $2$ (horizontal and vertical through opposite side midpoints), and a non-square rhombus has $2$ (along its two diagonals).\n• **Step 2 (The Guiding Bridge):** Count the lines of symmetry for an equilateral triangle ($3$, each from a vertex to the opposite side's midpoint). Then examine the last figure by counting both the folds connecting opposite side midpoints *and* the folds along its diagonals.\n• **Step 3 (How to Finish):** Add those two types of symmetry lines for the remaining figure and compare all five totals to identify which figure has the most lines of symmetry.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 7,
@@ -96,7 +102,8 @@
     ],
     "answer": "(B) 10",
     "explanation": "Freddie needs 4 pennies (for amounts 1–4 cents), 2 nickels (to combine with pennies for up to 14 cents), 1 dime (to extend up to 24 cents), and 3 quarters (to extend up to 99 cents). $4 + 2 + 1 + 3 = 10$ coins total.",
-    "hint": "**Key Strategy:** Greedy Construction (Building Amounts from Smallest to Largest)\n• **Step 1 (First Move):** Build from $1\\text{¢}$ upward: to make $1\\text{¢}, 2\\text{¢}, 3\\text{¢},$ and $4\\text{¢}$, Freddie needs at least $4$ pennies. Next, to make every amount from $1\\text{¢}$ up to $24\\text{¢}$ (just under a quarter) using the fewest coins, pair those $4$ pennies with $2$ nickels and $1$ dime (since $4\\text{¢} + 5\\text{¢} + 5\\text{¢} + 10\\text{¢} = 24\\text{¢}$).\n• **Step 2 (The Guiding Bridge):** Now extend from $24\\text{¢}$ up to $99\\text{¢}$ using quarters ($25\\text{¢}$ each). Adding $3$ quarters adds $75\\text{¢}$, reaching $24\\text{¢} + 75\\text{¢} = 99\\text{¢}$ (note that $1$ nickel and $1$ dime with $4$ pennies and $3$ quarters only reaches $94\\text{¢}$).\n• **Step 3 (How to Finish):** Add the counts of each type of coin together: $4\\text{ pennies} + 2\\text{ nickels} + 1\\text{ dime} + 3\\text{ quarters}$."
+    "hint": "**Key Strategy:** Greedy Construction (Building Amounts from Smallest to Largest)\n• **Step 1 (First Move):** Build from $1\\text{¢}$ upward: to make $1\\text{¢}, 2\\text{¢}, 3\\text{¢},$ and $4\\text{¢}$, Freddie needs at least $4$ pennies. Next, to make every amount from $1\\text{¢}$ up to $24\\text{¢}$ (just under a quarter) using the fewest coins, pair those $4$ pennies with $2$ nickels and $1$ dime (since $4\\text{¢} + 5\\text{¢} + 5\\text{¢} + 10\\text{¢} = 24\\text{¢}$).\n• **Step 2 (The Guiding Bridge):** Now extend from $24\\text{¢}$ up to $99\\text{¢}$ using quarters ($25\\text{¢}$ each). Adding $3$ quarters adds $75\\text{¢}$, reaching $24\\text{¢} + 75\\text{¢} = 99\\text{¢}$ (note that $1$ nickel and $1$ dime with $4$ pennies and $3$ quarters only reaches $94\\text{¢}$).\n• **Step 3 (How to Finish):** Add the counts of each type of coin together: $4\\text{ pennies} + 2\\text{ nickels} + 1\\text{ dime} + 3\\text{ quarters}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 8,
@@ -110,7 +117,8 @@
     ],
     "answer": "(D) 15",
     "explanation": "Emily gains on Emerson at a relative speed of $12 - 8 = 4$ miles per hour. To go from $\\frac{1}{2}$ mile behind to $\\frac{1}{2}$ mile ahead, she must gain a total of 1 mile. This takes $\\frac{1}{4}$ hour, which is 15 minutes.",
-    "hint": "**Key Strategy:** Relative Speed\n• **Step 1 (First Move):** Since Emily and Emerson are moving in the same direction, find Emily's relative speed (the rate at which she gains on Emerson): $12 - 8 = 4\\text{ miles per hour}$.\n• **Step 2 (The Guiding Bridge):** Calculate the total relative distance Emily must cover while seeing Emerson: from $\\frac{1}{2}\\text{ mile}$ behind him to $\\frac{1}{2}\\text{ mile}$ ahead of him is $\\frac{1}{2} + \\frac{1}{2} = 1\\text{ mile}$. Using $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$, the time in hours is $\\frac{1}{4}\\text{ hour}$.\n• **Step 3 (How to Finish):** Convert $\\frac{1}{4}\\text{ hour}$ into minutes by calculating $\\frac{1}{4} \\times 60$."
+    "hint": "**Key Strategy:** Relative Speed\n• **Step 1 (First Move):** Since Emily and Emerson are moving in the same direction, find Emily's relative speed (the rate at which she gains on Emerson): $12 - 8 = 4\\text{ miles per hour}$.\n• **Step 2 (The Guiding Bridge):** Calculate the total relative distance Emily must cover while seeing Emerson: from $\\frac{1}{2}\\text{ mile}$ behind him to $\\frac{1}{2}\\text{ mile}$ ahead of him is $\\frac{1}{2} + \\frac{1}{2} = 1\\text{ mile}$. Using $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$, the time in hours is $\\frac{1}{4}\\text{ hour}$.\n• **Step 3 (How to Finish):** Convert $\\frac{1}{4}\\text{ hour}$ into minutes by calculating $\\frac{1}{4} \\times 60$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 9,
@@ -124,7 +132,8 @@
     ],
     "answer": "(D) 84%",
     "explanation": "Ryan correctly answered $0.80 \\times 25 = 20$, $0.90 \\times 40 = 36$, and $0.70 \\times 10 = 7$ problems, for a total of $20 + 36 + 7 = 63$ correct problems out of $25 + 40 + 10 = 75$. The percentage is $\\frac{63}{75} = 84\\%$.",
-    "hint": "**Key Strategy:** Weighted Average (Total Correct over Total Problems)\n• **Step 1 (First Move):** Find the exact number of correct problems on each test: $0.80 \\times 25 = 20$ on the first test, $0.90 \\times 40 = 36$ on the second test, and $0.70 \\times 10 = 7$ on the third test.\n• **Step 2 (The Guiding Bridge):** Add the correct answers ($20 + 36 + 7 = 63$) and add the total number of problems across all three tests ($25 + 40 + 10 = 75$) to form the fraction $\\frac{63}{75}$.\n• **Step 3 (How to Finish):** Simplify $\\frac{63}{75}$ and multiply by $100\\%$ (or compute $\\frac{63}{75} \\times 100\\%$) to express the result as a percentage."
+    "hint": "**Key Strategy:** Weighted Average (Total Correct over Total Problems)\n• **Step 1 (First Move):** Find the exact number of correct problems on each test: $0.80 \\times 25 = 20$ on the first test, $0.90 \\times 40 = 36$ on the second test, and $0.70 \\times 10 = 7$ on the third test.\n• **Step 2 (The Guiding Bridge):** Add the correct answers ($20 + 36 + 7 = 63$) and add the total number of problems across all three tests ($25 + 40 + 10 = 75$) to form the fraction $\\frac{63}{75}$.\n• **Step 3 (How to Finish):** Simplify $\\frac{63}{75}$ and multiply by $100\\%$ (or compute $\\frac{63}{75} \\times 100\\%$) to express the result as a percentage.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 10,
@@ -138,7 +147,8 @@
     ],
     "answer": "(B) 2/3",
     "explanation": "Each pepperoni circle has a diameter of 2 inches and radius of 1 inch, so its area is $\\pi(1)^2 = \\pi$. The 24 pepperonis cover $24\\pi$ square inches. The pizza has radius 6 inches and area $\\pi(6)^2 = 36\\pi$. The fraction covered is $\\frac{24\\pi}{36\\pi} = \\frac{2}{3}$.",
-    "hint": "**Key Strategy:** Area Ratio of Circles\n• **Step 1 (First Move):** Find the radius of the pizza and the radius of each pepperoni: the $12$-inch pizza has radius $R = \\frac{12}{2} = 6\\text{ inches}$. Because $6$ pepperoni circles span the $12$-inch diameter, each pepperoni has diameter $\\frac{12}{6} = 2\\text{ inches}$ and radius $r = \\frac{2}{2} = 1\\text{ inch}$.\n• **Step 2 (The Guiding Bridge):** Compute the areas using $A = \\pi r^2$: the pizza's area is $\\pi(6)^2 = 36\\pi$, and each pepperoni's area is $\\pi(1)^2 = \\pi$, so $24$ pepperonis cover a combined area of $24\\pi$.\n• **Step 3 (How to Finish):** Write the covered fraction as $\\frac{24\\pi}{36\\pi}$, cancel $\\pi$, and simplify $\\frac{24}{36}$ to lowest terms."
+    "hint": "**Key Strategy:** Area Ratio of Circles\n• **Step 1 (First Move):** Find the radius of the pizza and the radius of each pepperoni: the $12$-inch pizza has radius $R = \\frac{12}{2} = 6\\text{ inches}$. Because $6$ pepperoni circles span the $12$-inch diameter, each pepperoni has diameter $\\frac{12}{6} = 2\\text{ inches}$ and radius $r = \\frac{2}{2} = 1\\text{ inch}$.\n• **Step 2 (The Guiding Bridge):** Compute the areas using $A = \\pi r^2$: the pizza's area is $\\pi(6)^2 = 36\\pi$, and each pepperoni's area is $\\pi(1)^2 = \\pi$, so $24$ pepperonis cover a combined area of $24\\pi$.\n• **Step 3 (How to Finish):** Write the covered fraction as $\\frac{24\\pi}{36\\pi}$, cancel $\\pi$, and simplify $\\frac{24}{36}$ to lowest terms.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 11,
@@ -152,7 +162,8 @@
     ],
     "answer": "(B) 64",
     "explanation": "Let the heights be $3x$ and $4x$. The difference is $4x - 3x = x = 16$ feet. Thus, the taller tree is $4x = 4 \\times 16 = 64$ feet.",
-    "hint": "**Key Strategy:** Ratio Parts (Unit Value Method)\n• **Step 1 (First Move):** Represent the heights of the shorter tree and taller tree using the ratio $3:4$ as $3x$ and $4x$ (or $3$ equal parts and $4$ equal parts).\n• **Step 2 (The Guiding Bridge):** Find the difference in parts: $4x - 3x = 1x$. Since the taller tree is $16\\text{ feet}$ higher, $x = 16\\text{ feet}$ ($1\\text{ part} = 16\\text{ feet}$).\n• **Step 3 (How to Finish):** Multiply $16\\text{ feet}$ by $4$ to calculate the height of the taller tree ($4x$)."
+    "hint": "**Key Strategy:** Ratio Parts (Unit Value Method)\n• **Step 1 (First Move):** Represent the heights of the shorter tree and taller tree using the ratio $3:4$ as $3x$ and $4x$ (or $3$ equal parts and $4$ equal parts).\n• **Step 2 (The Guiding Bridge):** Find the difference in parts: $4x - 3x = 1x$. Since the taller tree is $16\\text{ feet}$ higher, $x = 16\\text{ feet}$ ($1\\text{ part} = 16\\text{ feet}$).\n• **Step 3 (How to Finish):** Multiply $16\\text{ feet}$ by $4$ to calculate the height of the taller tree ($4x$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 12,
@@ -166,7 +177,8 @@
     ],
     "answer": "(D) 100",
     "explanation": "There are $0.20 \\times 500 = 100$ blue balls. After removing red balls, these 100 blue balls must represent $25\\%$ of the remaining total. So the new total number of balls is $\\frac{100}{0.25} = 400$. Thus, $500 - 400 = 100$ red balls must be removed.",
-    "hint": "**Key Strategy:** Invariant Quantity (Focus on What Does Not Change)\n• **Step 1 (First Move):** Find the number of blue balls, which remains unchanged because only red balls are removed: since $80\\%$ of the $500$ balls are red, $100\\% - 80\\% = 20\\%$ are blue, giving $0.20 \\times 500 = 100$ blue balls.\n• **Step 2 (The Guiding Bridge):** After removing red balls, $75\\%$ of the remaining balls are red, so the $100$ blue balls must make up $100\\% - 75\\% = 25\\%$ of the new total $T_{\\text{new}}$. Solve $0.25 \\times T_{\\text{new}} = 100$ to get $T_{\\text{new}} = \\frac{100}{0.25} = 400$ remaining balls.\n• **Step 3 (How to Finish):** Subtract the remaining total ($400$ balls) from the original total ($500$ balls) to find how many red balls must be removed."
+    "hint": "**Key Strategy:** Invariant Quantity (Focus on What Does Not Change)\n• **Step 1 (First Move):** Find the number of blue balls, which remains unchanged because only red balls are removed: since $80\\%$ of the $500$ balls are red, $100\\% - 80\\% = 20\\%$ are blue, giving $0.20 \\times 500 = 100$ blue balls.\n• **Step 2 (The Guiding Bridge):** After removing red balls, $75\\%$ of the remaining balls are red, so the $100$ blue balls must make up $100\\% - 75\\% = 25\\%$ of the new total $T_{\\text{new}}$. Solve $0.25 \\times T_{\\text{new}} = 100$ to get $T_{\\text{new}} = \\frac{100}{0.25} = 400$ remaining balls.\n• **Step 3 (How to Finish):** Subtract the remaining total ($400$ balls) from the original total ($500$ balls) to find how many red balls must be removed.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 13,
@@ -180,7 +192,8 @@
     ],
     "answer": "(E) 11",
     "explanation": "Let the sides be $x-2$, $x-1$, and $x$. The perimeter is $3x - 3$. Given $x - 2 = 0.3(3x - 3) = 0.9x - 0.9$, we get $0.1x = 1.1 \\implies x = 11$. The longest side is 11.",
-    "hint": "**Key Strategy:** Linear Equation with Consecutive Integers\n• **Step 1 (First Move):** Let $x$ be the shortest side of the triangle. Because the side lengths are consecutive integers, write the three sides as $x$, $x + 1$, and $x + 2$.\n• **Step 2 (The Guiding Bridge):** Add the three sides to get the perimeter: $x + (x + 1) + (x + 2) = 3x + 3$. Set up the equation $x = 0.30(3x + 3)$, which simplifies to $x = 0.9x + 0.9$, so $0.1x = 0.9$ and $x = 9$.\n• **Step 3 (How to Finish):** Add $2$ to $x = 9$ to find the length of the longest side ($x + 2$)."
+    "hint": "**Key Strategy:** Linear Equation with Consecutive Integers\n• **Step 1 (First Move):** Let $x$ be the shortest side of the triangle. Because the side lengths are consecutive integers, write the three sides as $x$, $x + 1$, and $x + 2$.\n• **Step 2 (The Guiding Bridge):** Add the three sides to get the perimeter: $x + (x + 1) + (x + 2) = 3x + 3$. Set up the equation $x = 0.30(3x + 3)$, which simplifies to $x = 0.9x + 0.9$, so $0.1x = 0.9$ and $x = 9$.\n• **Step 3 (How to Finish):** Add $2$ to $x = 9$ to find the length of the longest side ($x + 2$).",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 14,
@@ -194,7 +207,8 @@
     ],
     "answer": "(C) 77",
     "explanation": "The prime factorization of 2010 is $2 \\times 3 \\times 5 \\times 67$. The sum of these prime factors is $2 + 3 + 5 + 67 = 77$.",
-    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Start factoring $2010$ by pulling out $10 = 2 \\times 5$: $2010 = 2 \\times 5 \\times 201$.\n• **Step 2 (The Guiding Bridge):** Factor $201$ next: since $2 + 0 + 1 = 3$ is divisible by $3$, divide $201 \\div 3 = 67$. Verify that $67$ is prime, giving the complete prime factorization $2010 = 2 \\times 3 \\times 5 \\times 67$.\n• **Step 3 (How to Finish):** Add the four prime factors together ($2 + 3 + 5 + 67$)."
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Start factoring $2010$ by pulling out $10 = 2 \\times 5$: $2010 = 2 \\times 5 \\times 201$.\n• **Step 2 (The Guiding Bridge):** Factor $201$ next: since $2 + 0 + 1 = 3$ is divisible by $3$, divide $201 \\div 3 = 67$. Verify that $67$ is prime, giving the complete prime factorization $2010 = 2 \\times 3 \\times 5 \\times 67$.\n• **Step 3 (How to Finish):** Add the four prime factors together ($2 + 3 + 5 + 67$).",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 15,
@@ -208,7 +222,8 @@
     ],
     "answer": "(C) 42",
     "explanation": "The green gum drops represent $100\\% - (30+20+15+10)\\% = 25\\%$ of the total. So the total number of gum drops is $\\frac{30}{0.25} = 120$. Initially, there are $0.30 \\times 120 = 36$ blue and $0.20 \\times 120 = 24$ brown. Replacing half the blue drops gives $24 + \\frac{1}{2}(36) = 42$ brown gum drops.",
-    "hint": "**Key Strategy:** Percent-to-Whole Conversion\n• **Step 1 (First Move):** Find the percentage of green gum drops by subtracting the other percentages from $100\\%$: $100\\% - (30\\% + 20\\% + 15\\% + 10\\%) = 25\\%$. Since $25\\%$ of the jar is $30$ gum drops, the total number of gum drops is $\\frac{30}{0.25} = 120$.\n• **Step 2 (The Guiding Bridge):** Find the initial counts for blue and brown: there are $0.30 \\times 120 = 36$ blue gum drops and $0.20 \\times 120 = 24$ brown gum drops. Replacing half of the blue gum drops with brown adds $\\frac{1}{2} \\times 36 = 18$ brown gum drops.\n• **Step 3 (How to Finish):** Add the $18$ added brown gum drops to the original $24$ brown gum drops."
+    "hint": "**Key Strategy:** Percent-to-Whole Conversion\n• **Step 1 (First Move):** Find the percentage of green gum drops by subtracting the other percentages from $100\\%$: $100\\% - (30\\% + 20\\% + 15\\% + 10\\%) = 25\\%$. Since $25\\%$ of the jar is $30$ gum drops, the total number of gum drops is $\\frac{30}{0.25} = 120$.\n• **Step 2 (The Guiding Bridge):** Find the initial counts for blue and brown: there are $0.30 \\times 120 = 36$ blue gum drops and $0.20 \\times 120 = 24$ brown gum drops. Replacing half of the blue gum drops with brown adds $\\frac{1}{2} \\times 36 = 18$ brown gum drops.\n• **Step 3 (How to Finish):** Add the $18$ added brown gum drops to the original $24$ brown gum drops.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -222,7 +237,8 @@
     ],
     "answer": "(B) $\\sqrt{\\pi}$",
     "explanation": "Let the radius of the circle be $r$. Its area is $\\pi r^2$. A square with side $s$ has area $s^2 = \\pi r^2$, so $s = r\\sqrt{\\pi}$. The ratio $\\frac{s}{r} = \\sqrt{\\pi}$.",
-    "hint": "**Key Strategy:** Area Equating & Algebraic Solving\n• **Step 1 (First Move):** Let $s$ be the side length of the square and $r$ be the radius of the circle. Write their area formulas: the square has area $s^2$ and the circle has area $\\pi r^2$.\n• **Step 2 (The Guiding Bridge):** Set the areas equal to each other: $s^2 = \\pi r^2$. Divide both sides by $r^2$ to isolate the squared ratio: $\\left(\\frac{s}{r}\\right)^2 = \\pi$.\n• **Step 3 (How to Finish):** Take the positive square root of both sides of $\\left(\\frac{s}{r}\\right)^2 = \\pi$ to find the ratio $\\frac{s}{r}$."
+    "hint": "**Key Strategy:** Area Equating & Algebraic Solving\n• **Step 1 (First Move):** Let $s$ be the side length of the square and $r$ be the radius of the circle. Write their area formulas: the square has area $s^2$ and the circle has area $\\pi r^2$.\n• **Step 2 (The Guiding Bridge):** Set the areas equal to each other: $s^2 = \\pi r^2$. Divide both sides by $r^2$ to isolate the squared ratio: $\\left(\\frac{s}{r}\\right)^2 = \\pi$.\n• **Step 3 (How to Finish):** Take the positive square root of both sides of $\\left(\\frac{s}{r}\\right)^2 = \\pi$ to find the ratio $\\frac{s}{r}$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 17,
@@ -236,7 +252,8 @@
     ],
     "answer": "(D) 2/3",
     "explanation": "The total area of the octagon is 10, so $PQ$ divides it into two areas of 5. The trapezoidal region below $PQ$ has area $1 + \\frac{1}{2}(5)(1 + QY) = 5$, giving $QY = \\frac{3}{5}$. Then $XQ = 1 - QY = \\frac{2}{5}$, so $\\frac{XQ}{QY} = \\frac{2/5}{3/5} = \\frac{2}{3}$.",
-    "hint": "**Key Strategy:** Area Bisection & Triangle Area Formula\n• **Step 1 (First Move):** Because the octagon is made of $10$ unit squares, its total area is $10$. Since $\\overline{PQ}$ bisects the octagon's area, the region below $\\overline{PQ}$ has area $\\frac{10}{2} = 5$.\n• **Step 2 (The Guiding Bridge):** Subtract the $1$ unit square from that area ($5 - 1 = 4$) to find the area of the triangle with base $5$ and height $h = 1 + QY$. Solve $\\frac{1}{2}(5)(1 + QY) = 4$ to get $1 + QY = \\frac{8}{5}$, so $QY = \\frac{3}{5}$ and $XQ = 1 - \\frac{3}{5} = \\frac{2}{5}$.\n• **Step 3 (How to Finish):** Compute the ratio $\\frac{XQ}{QY}$ by dividing $\\frac{2}{5} \\div \\frac{3}{5}$."
+    "hint": "**Key Strategy:** Area Bisection & Triangle Area Formula\n• **Step 1 (First Move):** Because the octagon is made of $10$ unit squares, its total area is $10$. Since $\\overline{PQ}$ bisects the octagon's area, the region below $\\overline{PQ}$ has area $\\frac{10}{2} = 5$.\n• **Step 2 (The Guiding Bridge):** Subtract the $1$ unit square from that area ($5 - 1 = 4$) to find the area of the triangle with base $5$ and height $h = 1 + QY$. Solve $\\frac{1}{2}(5)(1 + QY) = 4$ to get $1 + QY = \\frac{8}{5}$, so $QY = \\frac{3}{5}$ and $XQ = 1 - \\frac{3}{5} = \\frac{2}{5}$.\n• **Step 3 (How to Finish):** Compute the ratio $\\frac{XQ}{QY}$ by dividing $\\frac{2}{5} \\div \\frac{3}{5}$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 18,
@@ -250,7 +267,8 @@
     ],
     "answer": "(C) $6:\\pi$",
     "explanation": "Since $AB = 30$, $AD = \\frac{3}{2}(30) = 45$ inches. The area of the rectangle is $30 \\times 45 = 1350$. The two semicircles form a full circle with radius $r = 15$, so their combined area is $\\pi(15)^2 = 225\\pi$. The ratio is $\\frac{1350}{225\\pi} = \\frac{6}{\\pi}$.",
-    "hint": "**Key Strategy:** Composite Area & Ratio Simplification\n• **Step 1 (First Move):** Use the ratio $AD : AB = 3 : 2$ and $AB = 30\\text{ inches}$ to find $AD = \\frac{3}{2} \\times 30 = 45\\text{ inches}$. Then calculate the area of the rectangle: $30 \\times 45 = 1350\\text{ square inches}$.\n• **Step 2 (The Guiding Bridge):** The two semicircles on the ends of width $AB = 30\\text{ inches}$ combine into one full circle with diameter $30\\text{ inches}$ and radius $r = \\frac{30}{2} = 15\\text{ inches}$, giving a combined area of $\\pi(15)^2 = 225\\pi\\text{ square inches}$.\n• **Step 3 (How to Finish):** Write the ratio $\\frac{1350}{225\\pi}$ (or $1350 : 225\\pi$) and simplify by dividing both parts by $225$."
+    "hint": "**Key Strategy:** Composite Area & Ratio Simplification\n• **Step 1 (First Move):** Use the ratio $AD : AB = 3 : 2$ and $AB = 30\\text{ inches}$ to find $AD = \\frac{3}{2} \\times 30 = 45\\text{ inches}$. Then calculate the area of the rectangle: $30 \\times 45 = 1350\\text{ square inches}$.\n• **Step 2 (The Guiding Bridge):** The two semicircles on the ends of width $AB = 30\\text{ inches}$ combine into one full circle with diameter $30\\text{ inches}$ and radius $r = \\frac{30}{2} = 15\\text{ inches}$, giving a combined area of $\\pi(15)^2 = 225\\pi\\text{ square inches}$.\n• **Step 3 (How to Finish):** Write the ratio $\\frac{1350}{225\\pi}$ (or $1350 : 225\\pi$) and simplify by dividing both parts by $225$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 19,
@@ -264,7 +282,8 @@
     ],
     "answer": "(C) $64\\pi$",
     "explanation": "In right triangle $ABC$, $AB = 8$ and $AC = 10$. By the Pythagorean Theorem, $BC = \\sqrt{10^2 - 8^2} = 6$. The area between the circles is $\\pi(10)^2 - \\pi(6)^2 = 100\\pi - 36\\pi = 64\\pi$.",
-    "hint": "**Key Strategy:** Pythagorean Theorem & Annulus Area\n• **Step 1 (First Move):** Draw radius $\\overline{CB}$ to the point of tangency $B$. Because a tangent is perpendicular to the radius at the point of tangency, $\\triangle ABC$ is a right triangle and $B$ bisects chord $\\overline{AD}$, giving $AB = \\frac{16}{2} = 8$.\n• **Step 2 (The Guiding Bridge):** Apply the Pythagorean Theorem to right triangle $ABC$ with hypotenuse $AC = 10$ and leg $AB = 8$ to find the inner radius $BC$: $BC = \\sqrt{10^2 - 8^2} = \\sqrt{100 - 64} = 6$.\n• **Step 3 (How to Finish):** Subtract the area of the inner circle ($\\pi \\times 6^2$) from the area of the outer circle ($\\pi \\times 10^2$) by simplifying $\\pi(10)^2 - \\pi(6)^2$."
+    "hint": "**Key Strategy:** Pythagorean Theorem & Annulus Area\n• **Step 1 (First Move):** Draw radius $\\overline{CB}$ to the point of tangency $B$. Because a tangent is perpendicular to the radius at the point of tangency, $\\triangle ABC$ is a right triangle and $B$ bisects chord $\\overline{AD}$, giving $AB = \\frac{16}{2} = 8$.\n• **Step 2 (The Guiding Bridge):** Apply the Pythagorean Theorem to right triangle $ABC$ with hypotenuse $AC = 10$ and leg $AB = 8$ to find the inner radius $BC$: $BC = \\sqrt{10^2 - 8^2} = \\sqrt{100 - 64} = 6$.\n• **Step 3 (How to Finish):** Subtract the area of the inner circle ($\\pi \\times 6^2$) from the area of the outer circle ($\\pi \\times 10^2$) by simplifying $\\pi(10)^2 - \\pi(6)^2$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 20,
@@ -278,7 +297,8 @@
     ],
     "answer": "(A) 3",
     "explanation": "The number of people in the room must be a multiple of both 5 and 4, so the minimum total number of people is 20. Then $\\frac{2}{5}(20) = 8$ wear gloves and $\\frac{3}{4}(20) = 15$ wear hats. The minimum number wearing both is $8 + 15 - 20 = 3$.",
-    "hint": "**Key Strategy:** Least Common Multiple & Inclusion-Exclusion\n• **Step 1 (First Move):** Since the numbers of people wearing gloves ($\\frac{2}{5}$ of the room) and hats ($\\frac{3}{4}$ of the room) must be whole numbers, the total number of people must be a multiple of both $5$ and $4$. The smallest possible total is $\\text{LCM}(5, 4) = 20$ people.\n• **Step 2 (The Guiding Bridge):** In a room of $20$ people, $\\frac{2}{5} \\times 20 = 8$ wear gloves and $\\frac{3}{4} \\times 20 = 15$ wear hats. Adding those two counts exceeds $20$, and the extra count represents people wearing both.\n• **Step 3 (How to Finish):** Subtract the total number of people ($20$) from $8 + 15$ to find the minimum number of people wearing both a hat and gloves."
+    "hint": "**Key Strategy:** Least Common Multiple & Inclusion-Exclusion\n• **Step 1 (First Move):** Since the numbers of people wearing gloves ($\\frac{2}{5}$ of the room) and hats ($\\frac{3}{4}$ of the room) must be whole numbers, the total number of people must be a multiple of both $5$ and $4$. The smallest possible total is $\\text{LCM}(5, 4) = 20$ people.\n• **Step 2 (The Guiding Bridge):** In a room of $20$ people, $\\frac{2}{5} \\times 20 = 8$ wear gloves and $\\frac{3}{4} \\times 20 = 15$ wear hats. Adding those two counts exceeds $20$, and the extra count represents people wearing both.\n• **Step 3 (How to Finish):** Subtract the total number of people ($20$) from $8 + 15$ to find the minimum number of people wearing both a hat and gloves.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 21,
@@ -292,7 +312,8 @@
     ],
     "answer": "(C) 240",
     "explanation": "Working backwards: Before day 3, $(62 + 18) \\div \\frac{2}{3} = 120$ pages remained. Before day 2, $(120 + 15) \\div \\frac{3}{4} = 180$ pages remained. Before day 1, $(180 + 12) \\div \\frac{4}{5} = 240$ total pages.",
-    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Work backwards from Day 3: adding back the $18$ extra pages to the $62$ pages left gives $62 + 18 = 80$ pages, which is $1 - \\frac{1}{3} = \\frac{2}{3}$ of the pages before Day 3. Divide $80 \\div \\frac{2}{3} = 120$ pages before Day 3.\n• **Step 2 (The Guiding Bridge):** Work backwards through Day 2: add back the $15$ extra pages ($120 + 15 = 135$), which equals $1 - \\frac{1}{4} = \\frac{3}{4}$ of the pages before Day 2. Divide $135 \\div \\frac{3}{4} = 180$ pages before Day 2.\n• **Step 3 (How to Finish):** Work backwards through Day 1 by adding the $12$ extra pages to $180$ (giving $192$ pages, which is $1 - \\frac{1}{5} = \\frac{4}{5}$ of the book) and computing $192 \\div \\frac{4}{5}$."
+    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Work backwards from Day 3: adding back the $18$ extra pages to the $62$ pages left gives $62 + 18 = 80$ pages, which is $1 - \\frac{1}{3} = \\frac{2}{3}$ of the pages before Day 3. Divide $80 \\div \\frac{2}{3} = 120$ pages before Day 3.\n• **Step 2 (The Guiding Bridge):** Work backwards through Day 2: add back the $15$ extra pages ($120 + 15 = 135$), which equals $1 - \\frac{1}{4} = \\frac{3}{4}$ of the pages before Day 2. Divide $135 \\div \\frac{3}{4} = 180$ pages before Day 2.\n• **Step 3 (How to Finish):** Work backwards through Day 1 by adding the $12$ extra pages to $180$ (giving $192$ pages, which is $1 - \\frac{1}{5} = \\frac{4}{5}$ of the book) and computing $192 \\div \\frac{4}{5}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 22,
@@ -306,7 +327,8 @@
     ],
     "answer": "(E) 8",
     "explanation": "Let the original number be $100a + 10b + c$ with $a - c = 2$. The reversed number is $100c + 10b + a$. Subtracting gives $99(a - c) = 99(2) = 198$. The units digit is 8.",
-    "hint": "**Key Strategy:** Place-Value Algebra\n• **Step 1 (First Move):** Write the original three-digit number as $100a + 10b + c$, where $a$ is the hundreds digit, $b$ is the tens digit, and $c$ is the units digit, with $a - c = 2$.\n• **Step 2 (The Guiding Bridge):** Write the reversed number as $100c + 10b + a$ and subtract it from the original number: $(100a + 10b + c) - (100c + 10b + a) = 99(a - c)$. Since $a - c = 2$, the difference equals $99 \\times 2$.\n• **Step 3 (How to Finish):** Multiply $99 \\times 2$ and identify the units (ones) digit of the resulting number."
+    "hint": "**Key Strategy:** Place-Value Algebra\n• **Step 1 (First Move):** Write the original three-digit number as $100a + 10b + c$, where $a$ is the hundreds digit, $b$ is the tens digit, and $c$ is the units digit, with $a - c = 2$.\n• **Step 2 (The Guiding Bridge):** Write the reversed number as $100c + 10b + a$ and subtract it from the original number: $(100a + 10b + c) - (100c + 10b + a) = 99(a - c)$. Since $a - c = 2$, the difference equals $99 \\times 2$.\n• **Step 3 (How to Finish):** Multiply $99 \\times 2$ and identify the units (ones) digit of the resulting number.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 23,
@@ -320,7 +342,8 @@
     ],
     "answer": "(B) $\\frac{1}{2}$",
     "explanation": "The radius $OQ$ of circle O is $\\sqrt{1^2 + 1^2} = \\sqrt{2}$, so the area of circle O is $\\pi(\\sqrt{2})^2 = 2\\pi$. The diameters of the semicircles have length 2 (radius 1). Together, the two semicircles form one full circle of radius 1 with area $\\pi(1)^2 = \\pi$. The ratio is $\\frac{\\pi}{2\\pi} = \\frac{1}{2}$.",
-    "hint": "**Key Strategy:** Radius Scaling & Area Ratio\n• **Step 1 (First Move):** Let each semicircle have radius $1$ (so each semicircle has diameter $2$). Because both semicircles pass through center $O$ and their endpoints $P, Q, R, S$ lie on circle $O$, the center of semicircle $POQ$ is $1$ unit from $O$ and $1$ unit from $Q$ at a right angle.\n• **Step 2 (The Guiding Bridge):** Use the Pythagorean Theorem to find the radius $OQ$ of circle $O$: $OQ = \\sqrt{1^2 + 1^2} = \\sqrt{2}$, so circle $O$ has area $\\pi(\\sqrt{2})^2 = 2\\pi$. Together, the two semicircles of radius $1$ form one full circle of radius $1$, with combined area $\\pi(1)^2 = \\pi$.\n• **Step 3 (How to Finish):** Divide the combined area of the semicircles ($\\pi$) by the area of circle $O$ ($2\\pi$) and simplify $\\frac{\\pi}{2\\pi}$."
+    "hint": "**Key Strategy:** Radius Scaling & Area Ratio\n• **Step 1 (First Move):** Let each semicircle have radius $1$ (so each semicircle has diameter $2$). Because both semicircles pass through center $O$ and their endpoints $P, Q, R, S$ lie on circle $O$, the center of semicircle $POQ$ is $1$ unit from $O$ and $1$ unit from $Q$ at a right angle.\n• **Step 2 (The Guiding Bridge):** Use the Pythagorean Theorem to find the radius $OQ$ of circle $O$: $OQ = \\sqrt{1^2 + 1^2} = \\sqrt{2}$, so circle $O$ has area $\\pi(\\sqrt{2})^2 = 2\\pi$. Together, the two semicircles of radius $1$ form one full circle of radius $1$, with combined area $\\pi(1)^2 = \\pi$.\n• **Step 3 (How to Finish):** Divide the combined area of the semicircles ($\\pi$) by the area of circle $O$ ($2\\pi$) and simplify $\\frac{\\pi}{2\\pi}$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 24,
@@ -334,7 +357,8 @@
     ],
     "answer": "(A) $2^{24} < 10^8 < 5^{12}$",
     "explanation": "$2^{24} = (2^3)^8 = 8^8 < 10^8$. Also $10^8 = (2 \\times 5)^8 = 2^8 \\times 5^8 = 256 \\times 5^8 < 625 \\times 5^8 = 5^4 \\times 5^8 = 5^{12}$. Therefore, $2^{24} < 10^8 < 5^{12}$.",
-    "hint": "**Key Strategy:** Exponent Rewriting (Matching Exponents or Bases)\n• **Step 1 (First Move):** Rewrite $2^{24}$ with an exponent of $8$ so you can compare it directly to $10^8$: $2^{24} = (2^3)^8 = 8^8$. Compare $8^8$ and $10^8$.\n• **Step 2 (The Guiding Bridge):** Compare $10^8$ and $5^{12}$ by factoring $10^8 = (2 \\times 5)^8 = 2^8 \\times 5^8$ and splitting $5^{12} = 5^4 \\times 5^8$. Since both share the factor $5^8$, compare $2^8 = 256$ with $5^4 = 625$.\n• **Step 3 (How to Finish):** Combine both inequalities ($8^8$ vs. $10^8$, and $2^8 \\times 5^8$ vs. $5^4 \\times 5^8$) to arrange $2^{24}$, $10^8$, and $5^{12}$ from least to greatest."
+    "hint": "**Key Strategy:** Exponent Rewriting (Matching Exponents or Bases)\n• **Step 1 (First Move):** Rewrite $2^{24}$ with an exponent of $8$ so you can compare it directly to $10^8$: $2^{24} = (2^3)^8 = 8^8$. Compare $8^8$ and $10^8$.\n• **Step 2 (The Guiding Bridge):** Compare $10^8$ and $5^{12}$ by factoring $10^8 = (2 \\times 5)^8 = 2^8 \\times 5^8$ and splitting $5^{12} = 5^4 \\times 5^8$. Since both share the factor $5^8$, compare $2^8 = 256$ with $5^4 = 625$.\n• **Step 3 (How to Finish):** Combine both inequalities ($8^8$ vs. $10^8$, and $2^8 \\times 5^8$ vs. $5^4 \\times 5^8$) to arrange $2^{24}$, $10^8$, and $5^{12}$ from least to greatest.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 25,
@@ -348,6 +372,7 @@
     ],
     "answer": "(E) 24",
     "explanation": "For 1 stair: 1 way. For 2 stairs: 2 ways (1+1, 2). For 3 stairs: 4 ways (1+1+1, 1+2, 2+1, 3). For $n$ stairs, $S_n = S_{n-1} + S_{n-2} + S_{n-3}$. So $S_4 = 4+2+1 = 7$, $S_5 = 7+4+2 = 13$, and $S_6 = 13+7+4 = 24$ ways.",
-    "hint": "**Key Strategy:** Recursion (Step-by-Step Dynamic Counting)\n• **Step 1 (First Move):** Count the ways to climb smaller flights of stairs: for $1$ stair there is $S_1 = 1$ way ($1$); for $2$ stairs there are $S_2 = 2$ ways ($1+1, 2$); and for $3$ stairs there are $S_3 = 4$ ways ($1+1+1, 1+2, 2+1, 3$).\n• **Step 2 (The Guiding Bridge):** To reach stair $n$ ($n \\ge 4$), Jo's final step must be $1$, $2$, or $3$ stairs, coming from stair $n-1$, $n-2$, or $n-3$. Thus $S_n = S_{n-1} + S_{n-2} + S_{n-3}$. Compute $S_4 = 4 + 2 + 1 = 7$ and $S_5 = 7 + 4 + 2 = 13$.\n• **Step 3 (How to Finish):** Add the three previous counts ($13 + 7 + 4$) to find $S_6$, the total number of ways to climb $6$ stairs."
+    "hint": "**Key Strategy:** Recursion (Step-by-Step Dynamic Counting)\n• **Step 1 (First Move):** Count the ways to climb smaller flights of stairs: for $1$ stair there is $S_1 = 1$ way ($1$); for $2$ stairs there are $S_2 = 2$ ways ($1+1, 2$); and for $3$ stairs there are $S_3 = 4$ ways ($1+1+1, 1+2, 2+1, 3$).\n• **Step 2 (The Guiding Bridge):** To reach stair $n$ ($n \\ge 4$), Jo's final step must be $1$, $2$, or $3$ stairs, coming from stair $n-1$, $n-2$, or $n-3$. Thus $S_n = S_{n-1} + S_{n-2} + S_{n-3}$. Compute $S_4 = 4 + 2 + 1 = 7$ and $S_5 = 7 + 4 + 2 = 13$.\n• **Step 3 (How to Finish):** Add the three previous counts ($13 + 7 + 4$) to find $S_6$, the total number of ways to climb $6$ stairs.",
+    "category": "Counting & Probability"
   }
 ]

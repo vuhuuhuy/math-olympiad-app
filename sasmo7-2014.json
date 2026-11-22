@@ -11,7 +11,8 @@
     ],
     "answer": "A) 11",
     "explanation": "From the third term onwards, each term is obtained by adding the previous two terms ($4 + 7 = 11$).",
-    "hint": "**Key Strategy:** Pattern Recognition (Fibonacci-Style Sequence)\n• **Step 1 (First Move):** Check the relationship between consecutive terms starting from the third term: notice that $2 + 1 = 3$, $1 + 3 = 4$, and $3 + 4 = 7$.\n• **Step 2 (The Guiding Bridge):** Identify the rule for this sequence: from the third term onward, every term is equal to the sum of the two terms immediately before it ($a_n = a_{n-1} + a_{n-2}$).\n• **Step 3 (How to Finish):** Add the last two given terms in the sequence, $4$ and $7$, to find the next term."
+    "hint": "**Key Strategy:** Pattern Recognition (Fibonacci-Style Sequence)\n• **Step 1 (First Move):** Check the relationship between consecutive terms starting from the third term: notice that $2 + 1 = 3$, $1 + 3 = 4$, and $3 + 4 = 7$.\n• **Step 2 (The Guiding Bridge):** Identify the rule for this sequence: from the third term onward, every term is equal to the sum of the two terms immediately before it ($a_n = a_{n-1} + a_{n-2}$).\n• **Step 3 (How to Finish):** Add the last two given terms in the sequence, $4$ and $7$, to find the next term.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "A) 96",
     "explanation": "For any two positive integers $a$ and $b$, $\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b$. Thus, $8 \\times 12 = 96$.",
-    "hint": "**Key Strategy:** HCF–LCM Product Identity\n• **Step 1 (First Move):** Recall the fundamental relationship between the highest common factor and lowest common multiple of any two positive integers $a$ and $b$: $\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b$.\n• **Step 2 (The Guiding Bridge):** Substitute $a = 8$ and $b = 12$ into the identity (you can also double-check by finding $\\text{HCF}(8, 12) = 4$ and $\\text{LCM}(8, 12) = 24$ separately).\n• **Step 3 (How to Finish):** Multiply $8 \\times 12$ (or multiply the HCF and LCM you found) to calculate the final product."
+    "hint": "**Key Strategy:** HCF–LCM Product Identity\n• **Step 1 (First Move):** Recall the fundamental relationship between the highest common factor and lowest common multiple of any two positive integers $a$ and $b$: $\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b$.\n• **Step 2 (The Guiding Bridge):** Substitute $a = 8$ and $b = 12$ into the identity (you can also double-check by finding $\\text{HCF}(8, 12) = 4$ and $\\text{LCM}(8, 12) = 24$ separately).\n• **Step 3 (How to Finish):** Multiply $8 \\times 12$ (or multiply the HCF and LCM you found) to calculate the final product.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "A) x = -7, y = 8",
     "explanation": "Since $(x+7)^2 \\ge 0$ and $\\sqrt{y-8} \\ge 0$, their sum can only be 0 if both terms equal 0. Thus, $x = -7$ and $y = 8$.",
-    "hint": "**Key Strategy:** Non-Negative Terms Property (Zero-Sum Property)\n• **Step 1 (First Move):** Observe the sign of each term on the left-hand side: for real numbers, any square is always greater than or equal to zero, $(x + 7)^2 \\ge 0$, and any principal square root is also greater than or equal to zero, $\\sqrt{y - 8} \\ge 0$.\n• **Step 2 (The Guiding Bridge):** Because two non-negative numbers can only add up to $0$ if each number is individually equal to $0$, set both expressions equal to zero: $(x + 7)^2 = 0$ and $\\sqrt{y - 8} = 0$.\n• **Step 3 (How to Finish):** Solve the two resulting equations, $x + 7 = 0$ and $y - 8 = 0$, to find the values of $x$ and $y$."
+    "hint": "**Key Strategy:** Non-Negative Terms Property (Zero-Sum Property)\n• **Step 1 (First Move):** Observe the sign of each term on the left-hand side: for real numbers, any square is always greater than or equal to zero, $(x + 7)^2 \\ge 0$, and any principal square root is also greater than or equal to zero, $\\sqrt{y - 8} \\ge 0$.\n• **Step 2 (The Guiding Bridge):** Because two non-negative numbers can only add up to $0$ if each number is individually equal to $0$, set both expressions equal to zero: $(x + 7)^2 = 0$ and $\\sqrt{y - 8} = 0$.\n• **Step 3 (How to Finish):** Solve the two resulting equations, $x + 7 = 0$ and $y - 8 = 0$, to find the values of $x$ and $y$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "A) Wednesday",
     "explanation": "$365 = 52 \\times 7 + 1$ day. Since 2013 ended on Tuesday, 2014 ends 1 day later, on Wednesday.",
-    "hint": "**Key Strategy:** Modular Arithmetic (7-Day Week Cycle)\n• **Step 1 (First Move):** Since the days of the week repeat every $7$ days, divide the total number of days in 2014 by $7$: $365 \\div 7$.\n• **Step 2 (The Guiding Bridge):** Write $365$ in quotient-remainder form: $365 = 52 \\times 7 + 1$. This means 2014 has $52$ full weeks plus $1$ extra day.\n• **Step 3 (How to Finish):** Starting from the last day of 2013 (Tuesday), move forward by that remainder of $1$ day to determine the day of the week on which 2014 ends."
+    "hint": "**Key Strategy:** Modular Arithmetic (7-Day Week Cycle)\n• **Step 1 (First Move):** Since the days of the week repeat every $7$ days, divide the total number of days in 2014 by $7$: $365 \\div 7$.\n• **Step 2 (The Guiding Bridge):** Write $365$ in quotient-remainder form: $365 = 52 \\times 7 + 1$. This means 2014 has $52$ full weeks plus $1$ extra day.\n• **Step 3 (How to Finish):** Starting from the last day of 2013 (Tuesday), move forward by that remainder of $1$ day to determine the day of the week on which 2014 ends.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "A) 7",
     "explanation": "The maximum number of regions formed by $n$ cuts is $\\frac{n(n+1)}{2} + 1$. For $n = 3$, $\\frac{3 \\times 4}{2} + 1 = 7$.",
-    "hint": "**Key Strategy:** Inductive Pattern & Maximal Region Counting\n• **Step 1 (First Move):** Start with $1$ whole circular disc ($0$ cuts gives $1$ part), then draw the $1$-st straight cut across it to split it into $2$ parts (adding $1$ new part).\n• **Step 2 (The Guiding Bridge):** To maximize the number of parts, make each new cut cross every previous cut at distinct points inside the circle: the $2$-nd cut crosses $1$ previous line (passing through $2$ regions and adding $2$ new parts), and the $3$-rd cut crosses both previous lines (passing through $3$ regions and adding $3$ new parts).\n• **Step 3 (How to Finish):** Add the initial $1$ part to all the newly created parts, $1 + 1 + 2 + 3$ (or evaluate the formula $\\frac{n(n+1)}{2} + 1$ at $n = 3$), to find the maximum number of parts."
+    "hint": "**Key Strategy:** Inductive Pattern & Maximal Region Counting\n• **Step 1 (First Move):** Start with $1$ whole circular disc ($0$ cuts gives $1$ part), then draw the $1$-st straight cut across it to split it into $2$ parts (adding $1$ new part).\n• **Step 2 (The Guiding Bridge):** To maximize the number of parts, make each new cut cross every previous cut at distinct points inside the circle: the $2$-nd cut crosses $1$ previous line (passing through $2$ regions and adding $2$ new parts), and the $3$-rd cut crosses both previous lines (passing through $3$ regions and adding $3$ new parts).\n• **Step 3 (How to Finish):** Add the initial $1$ part to all the newly created parts, $1 + 1 + 2 + 3$ (or evaluate the formula $\\frac{n(n+1)}{2} + 1$ at $n = 3$), to find the maximum number of parts.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "A) Loss of $25",
     "explanation": "Cost of 1st painting = $300 / 1.2 = $250 (profit $50). Cost of 2nd painting = $300 / 0.8 = $375 (loss $75). Net result = $50 - $75 = -$25 (loss of $25).",
-    "hint": "**Key Strategy:** Working Backwards with Percentages (Cost Price vs. Selling Price)\n• **Step 1 (First Move):** Each painting sold for $\\$300$, so the total selling price is $\\$300 + \\$300 = \\$600$. Recognize that a $20\\%$ profit on the first painting means $\\$300$ equals $120\\%$ (or $1.2$) of its original cost price, while a $20\\%$ loss on the second painting means $\\$300$ equals $80\\%$ (or $0.8$) of its original cost price.\n• **Step 2 (The Guiding Bridge):** Calculate the original cost price of each painting separately: compute $\\$300 \\div 1.2$ for the first painting and $\\$300 \\div 0.8$ for the second painting.\n• **Step 3 (How to Finish):** Add the two cost prices together to get the total cost, then compare it with the $\\$600$ total selling price by subtracting to determine whether there was an overall profit or loss and by how much."
+    "hint": "**Key Strategy:** Working Backwards with Percentages (Cost Price vs. Selling Price)\n• **Step 1 (First Move):** Each painting sold for $\\$300$, so the total selling price is $\\$300 + \\$300 = \\$600$. Recognize that a $20\\%$ profit on the first painting means $\\$300$ equals $120\\%$ (or $1.2$) of its original cost price, while a $20\\%$ loss on the second painting means $\\$300$ equals $80\\%$ (or $0.8$) of its original cost price.\n• **Step 2 (The Guiding Bridge):** Calculate the original cost price of each painting separately: compute $\\$300 \\div 1.2$ for the first painting and $\\$300 \\div 0.8$ for the second painting.\n• **Step 3 (How to Finish):** Add the two cost prices together to get the total cost, then compare it with the $\\$600$ total selling price by subtracting to determine whether there was an overall profit or loss and by how much.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "A) x = 2",
     "explanation": "Squaring both sides gives $x + \\sqrt{x+\\sqrt{x+\\dots}} = 4 \\implies x + 2 = 4 \\implies x = 2$.",
-    "hint": "**Key Strategy:** Self-Similarity Substitution (Infinite Nested Radicals)\n• **Step 1 (First Move):** Look closely at the expression inside the outermost square root: because the pattern continues forever, the nested part $\\sqrt{x+\\sqrt{x+\\sqrt{x+\\dots}}}$ is identical to the whole expression, which equals $2$.\n• **Step 2 (The Guiding Bridge):** Square both sides of $\\sqrt{x + \\sqrt{x + \\sqrt{x + \\dots}}} = 2$ to remove the outer square root, giving $x + \\sqrt{x + \\sqrt{x + \\dots}} = 2^2 = 4$.\n• **Step 3 (How to Finish):** Replace $\\sqrt{x + \\sqrt{x + \\dots}}$ with $2$ to form the equation $x + 2 = 4$, and solve for $x$."
+    "hint": "**Key Strategy:** Self-Similarity Substitution (Infinite Nested Radicals)\n• **Step 1 (First Move):** Look closely at the expression inside the outermost square root: because the pattern continues forever, the nested part $\\sqrt{x+\\sqrt{x+\\sqrt{x+\\dots}}}$ is identical to the whole expression, which equals $2$.\n• **Step 2 (The Guiding Bridge):** Square both sides of $\\sqrt{x + \\sqrt{x + \\sqrt{x + \\dots}}} = 2$ to remove the outer square root, giving $x + \\sqrt{x + \\sqrt{x + \\dots}} = 2^2 = 4$.\n• **Step 3 (How to Finish):** Replace $\\sqrt{x + \\sqrt{x + \\dots}}$ with $2$ to form the equation $x + 2 = 4$, and solve for $x$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "A) 4",
     "explanation": "$2014 = 2 \\times 19 \\times 53$. Triples with $x < y < z$ are (1, 2, 1007), (1, 19, 106), (1, 38, 53), and (2, 19, 53) — total 4 triples.",
-    "hint": "**Key Strategy:** Prime Factorization & Systematic Casework\n• **Step 1 (First Move):** Find the prime factorization of $2014$: divide by $2$ to get $1007$, then factor $1007 = 19 \\times 53$, giving $2014 = 2 \\times 19 \\times 53$.\n• **Step 2 (The Guiding Bridge):** Split into two cases based on whether the smallest integer $x$ equals $1$:\n• Case 1 ($x = 1$): Then $yz = 2 \\times 19 \\times 53$ with $1 < y < z$, so split the three primes into two factors where $y$ is the smaller factor ($y$ can be $2$, $19$, or $2 \\times 19$).\n• Case 2 ($x > 1$): None of the numbers is $1$, so the three distinct primes $2$, $19$, and $53$ must be assigned in increasing order to $x < y < z$.\n• **Step 3 (How to Finish):** List every valid triple $(x, y, z)$ from Case 1 and Case 2, verify each satisfies $x < y < z$, and count the total number of triples."
+    "hint": "**Key Strategy:** Prime Factorization & Systematic Casework\n• **Step 1 (First Move):** Find the prime factorization of $2014$: divide by $2$ to get $1007$, then factor $1007 = 19 \\times 53$, giving $2014 = 2 \\times 19 \\times 53$.\n• **Step 2 (The Guiding Bridge):** Split into two cases based on whether the smallest integer $x$ equals $1$:\n• Case 1 ($x = 1$): Then $yz = 2 \\times 19 \\times 53$ with $1 < y < z$, so split the three primes into two factors where $y$ is the smaller factor ($y$ can be $2$, $19$, or $2 \\times 19$).\n• Case 2 ($x > 1$): None of the numbers is $1$, so the three distinct primes $2$, $19$, and $53$ must be assigned in increasing order to $x < y < z$.\n• **Step 3 (How to Finish):** List every valid triple $(x, y, z)$ from Case 1 and Case 2, verify each satisfies $x < y < z$, and count the total number of triples.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "A) 351",
     "explanation": "Total handshakes = $\\frac{27 \\times 26}{2} = 351$.",
-    "hint": "**Key Strategy:** Combinatorial Counting (Handshake Formula)\n• **Step 1 (First Move):** Count from one participant's point of view: each of the $27$ participants shakes hands with the remaining $27 - 1 = 26$ people.\n• **Step 2 (The Guiding Bridge):** Multiplying $27 \\times 26$ counts every handshake twice (once for each of the two people involved), so use the handshake formula $\\frac{n(n - 1)}{2}$ with $n = 27$.\n• **Step 3 (How to Finish):** Calculate $\\frac{27 \\times 26}{2}$ (tip: compute $26 \\div 2 = 13$ first, then multiply $27 \\times 13$) to find the total number of handshakes."
+    "hint": "**Key Strategy:** Combinatorial Counting (Handshake Formula)\n• **Step 1 (First Move):** Count from one participant's point of view: each of the $27$ participants shakes hands with the remaining $27 - 1 = 26$ people.\n• **Step 2 (The Guiding Bridge):** Multiplying $27 \\times 26$ counts every handshake twice (once for each of the two people involved), so use the handshake formula $\\frac{n(n - 1)}{2}$ with $n = 27$.\n• **Step 3 (How to Finish):** Calculate $\\frac{27 \\times 26}{2}$ (tip: compute $26 \\div 2 = 13$ first, then multiply $27 \\times 13$) to find the total number of handshakes.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "answer": "A) 28",
     "explanation": "Proper factors of 28 are 1, 2, 4, 7, and 14. Their sum is $1 + 2 + 4 + 7 + 14 = 28$.",
-    "hint": "**Key Strategy:** Euclid–Euler Pattern & Factor Summation\n• **Step 1 (First Move):** Understand what \"proper factors\" means using the example $6$: its factors excluding $6$ itself are $1, 2, 3$, and $1 + 2 + 3 = 6$.\n• **Step 2 (The Guiding Bridge):** Use the Euclid–Euler formula for even perfect numbers, $2^{p-1}(2^p - 1)$, where $2^p - 1$ is prime: setting $p = 2$ gives $2^1 \\times (2^2 - 1) = 6$. Try the next prime exponent $p = 3$ (checking that $2^3 - 1 = 7$ is prime) to form $2^2 \\times (2^3 - 1)$. (Alternatively, list and sum the proper factors of each candidate number.)\n• **Step 3 (How to Finish):** Evaluate $2^2 \\times (2^3 - 1)$ and verify your result by listing all of its proper factors and checking that their sum equals the number itself."
+    "hint": "**Key Strategy:** Euclid–Euler Pattern & Factor Summation\n• **Step 1 (First Move):** Understand what \"proper factors\" means using the example $6$: its factors excluding $6$ itself are $1, 2, 3$, and $1 + 2 + 3 = 6$.\n• **Step 2 (The Guiding Bridge):** Use the Euclid–Euler formula for even perfect numbers, $2^{p-1}(2^p - 1)$, where $2^p - 1$ is prime: setting $p = 2$ gives $2^1 \\times (2^2 - 1) = 6$. Try the next prime exponent $p = 3$ (checking that $2^3 - 1 = 7$ is prime) to form $2^2 \\times (2^3 - 1)$. (Alternatively, list and sum the proper factors of each candidate number.)\n• **Step 3 (How to Finish):** Evaluate $2^2 \\times (2^3 - 1)$ and verify your result by listing all of its proper factors and checking that their sum equals the number itself.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "answer": "A) 3 by 6, 4 by 4, 6 by 3",
     "explanation": "$xy = 2(x+y) \\implies y = \\frac{2x}{x-2} = 2 + \\frac{4}{x-2}$. Integer solutions for $x > 2$ are $(3,6)$, $(4,4)$, and $(6,3)$.",
-    "hint": "**Key Strategy:** Diophantine Equation Factoring (Simon's Favorite Factoring Trick)\n• **Step 1 (First Move):** Write an equation equating the rectangle's area and perimeter: $xy = 2(x + y) = 2x + 2y$.\n• **Step 2 (The Guiding Bridge):** Move all variable terms to the left side and add $4$ to both sides so the expression factors neatly: $xy - 2x - 2y + 4 = 4$, which factors into $(x - 2)(y - 2) = 4$.\n• **Step 3 (How to Finish):** Since $x$ and $y$ are positive integers (and $x, y > 2$ because $xy = 2x + 2y$), list all pairs of positive integer factors $(x - 2, y - 2)$ whose product is $4$—namely $(1, 4)$, $(2, 2)$, and $(4, 1)$—and add $2$ to each value to get all possible dimensions $(x, y)$."
+    "hint": "**Key Strategy:** Diophantine Equation Factoring (Simon's Favorite Factoring Trick)\n• **Step 1 (First Move):** Write an equation equating the rectangle's area and perimeter: $xy = 2(x + y) = 2x + 2y$.\n• **Step 2 (The Guiding Bridge):** Move all variable terms to the left side and add $4$ to both sides so the expression factors neatly: $xy - 2x - 2y + 4 = 4$, which factors into $(x - 2)(y - 2) = 4$.\n• **Step 3 (How to Finish):** Since $x$ and $y$ are positive integers (and $x, y > 2$ because $xy = 2x + 2y$), list all pairs of positive integer factors $(x - 2, y - 2)$ whose product is $4$—namely $(1, 4)$, $(2, 2)$, and $(4, 1)$—and add $2$ to each value to get all possible dimensions $(x, y)$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "answer": "A) a = 2, b = 4",
     "explanation": "$2^4 = 4^2 = 16$. This is the unique solution in positive integers for $a < b$.",
-    "hint": "**Key Strategy:** Systematic Trial & Exponential Growth Comparison\n• **Step 1 (First Move):** Test the smallest positive integer $a = 1$: the equation $1^b = b^1$ gives $1 = b$, which violates $a < b$. Therefore, $a$ must be at least $2$.\n• **Step 2 (The Guiding Bridge):** Substitute $a = 2$ into $a^b = b^a$ to get $2^b = b^2$, and test small integer values $b > 2$ (such as $b = 3, 4, 5, \\dots$). Note also that for $a \\ge 3$ and $b > a$, $a^b$ is always strictly larger than $b^a$ (for instance, $3^4 = 81 > 4^3 = 64$), so no solutions exist for $a \\ge 3$.\n• **Step 3 (How to Finish):** Evaluate both $2^b$ and $b^2$ for the small integers $b > 2$ until you find the unique pair $(a, b)$ that makes both sides equal."
+    "hint": "**Key Strategy:** Systematic Trial & Exponential Growth Comparison\n• **Step 1 (First Move):** Test the smallest positive integer $a = 1$: the equation $1^b = b^1$ gives $1 = b$, which violates $a < b$. Therefore, $a$ must be at least $2$.\n• **Step 2 (The Guiding Bridge):** Substitute $a = 2$ into $a^b = b^a$ to get $2^b = b^2$, and test small integer values $b > 2$ (such as $b = 3, 4, 5, \\dots$). Note also that for $a \\ge 3$ and $b > a$, $a^b$ is always strictly larger than $b^a$ (for instance, $3^4 = 81 > 4^3 = 64$), so no solutions exist for $a \\ge 3$.\n• **Step 3 (How to Finish):** Evaluate both $2^b$ and $b^2$ for the small integers $b > 2$ until you find the unique pair $(a, b)$ that makes both sides equal.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "answer": "A) 1/2",
     "explanation": "Let $x$ be the value. Then $\\frac{1}{1+2x} = x \\implies 2x^2 + x - 1 = 0 \\implies (2x-1)(x+1) = 0$. Since $x > 0$, $x = 1/2$.",
-    "hint": "**Key Strategy:** Algebraic Self-Substitution (Infinite Continued Fraction)\n• **Step 1 (First Move):** Let $x$ represent the value of the entire infinite expression: $x = \\frac{1}{1+2\\left(\\frac{1}{1+2(\\dots)}\\right)}$. Notice that the expression inside the parentheses is identical to $x$ itself, so rewrite the equation as $x = \\frac{1}{1 + 2x}$.\n• **Step 2 (The Guiding Bridge):** Multiply both sides by $(1 + 2x)$ to clear the denominator, getting $x(1 + 2x) = 1$, and rearrange all terms to one side to form the quadratic equation $2x^2 + x - 1 = 0$.\n• **Step 3 (How to Finish):** Factor the quadratic equation $2x^2 + x - 1 = 0$ into two binomials, solve for $x$, and keep only the positive root (since the original expression is made entirely of positive numbers)."
+    "hint": "**Key Strategy:** Algebraic Self-Substitution (Infinite Continued Fraction)\n• **Step 1 (First Move):** Let $x$ represent the value of the entire infinite expression: $x = \\frac{1}{1+2\\left(\\frac{1}{1+2(\\dots)}\\right)}$. Notice that the expression inside the parentheses is identical to $x$ itself, so rewrite the equation as $x = \\frac{1}{1 + 2x}$.\n• **Step 2 (The Guiding Bridge):** Multiply both sides by $(1 + 2x)$ to clear the denominator, getting $x(1 + 2x) = 1$, and rearrange all terms to one side to form the quadratic equation $2x^2 + x - 1 = 0$.\n• **Step 3 (How to Finish):** Factor the quadratic equation $2x^2 + x - 1 = 0$ into two binomials, solve for $x$, and keep only the positive root (since the original expression is made entirely of positive numbers).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "answer": "A) 6",
     "explanation": "Powers of 4 end in 4 for odd exponents and 6 for even exponents. Since 2014 is even, the last digit is 6.",
-    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Arithmetic mod 10)\n• **Step 1 (First Move):** Only the last digit of the base determines the last digit of a power, so the units digit of $2014^{2014}$ is the same as the units digit of $4^{2014}$.\n• **Step 2 (The Guiding Bridge):** Compute the units digits of the first few powers of $4$: $4^1 = 4$, $4^2 = 16$ (ends in $6$), $4^3 = 64$ (ends in $4$), and $4^4 = 256$ (ends in $6$). Notice the pattern repeats every $2$ powers: odd exponents end in $4$, and even exponents end in $6$.\n• **Step 3 (How to Finish):** Check whether the exponent $2014$ is odd or even, and pick the corresponding units digit from the $2$-step cycle."
+    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Arithmetic mod 10)\n• **Step 1 (First Move):** Only the last digit of the base determines the last digit of a power, so the units digit of $2014^{2014}$ is the same as the units digit of $4^{2014}$.\n• **Step 2 (The Guiding Bridge):** Compute the units digits of the first few powers of $4$: $4^1 = 4$, $4^2 = 16$ (ends in $6$), $4^3 = 64$ (ends in $4$), and $4^4 = 256$ (ends in $6$). Notice the pattern repeats every $2$ powers: odd exponents end in $4$, and even exponents end in $6$.\n• **Step 3 (How to Finish):** Check whether the exponent $2014$ is odd or even, and pick the corresponding units digit from the $2$-step cycle.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "answer": "A) 4",
     "explanation": "By extending lines beyond the grid boundary, all 9 points can be connected using 4 continuous straight line segments.",
-    "hint": "**Key Strategy:** Thinking Outside the Box (Extending Lines Beyond the Grid)\n• **Step 1 (First Move):** Imagine the $3 \\times 3$ grid of dots on a coordinate plane from $(0,0)$ to $(2,2)$. Staying strictly inside the $3 \\times 3$ boundary wastes turns, so allow your line segments to extend past the outer dots.\n• **Step 2 (The Guiding Bridge):** Try this connected path: start at the top-left dot $(0,2)$ and draw a vertical segment straight down through the left column past $(0,0)$ to $(0,-1)$. Next, draw a diagonal segment from $(0,-1)$ through $(1,0)$ and $(2,1)$, extending past the right edge to $(3,2)$.\n• **Step 3 (How to Finish):** From $(3,2)$, draw a horizontal segment left along the top row back to $(0,2)$, and finally draw a diagonal segment through the remaining unvisited dots $(1,1)$ and $(2,0)$. Count the total number of consecutive line segments used (and confirm that fewer segments cannot cover all $9$ dots)."
+    "hint": "**Key Strategy:** Thinking Outside the Box (Extending Lines Beyond the Grid)\n• **Step 1 (First Move):** Imagine the $3 \\times 3$ grid of dots on a coordinate plane from $(0,0)$ to $(2,2)$. Staying strictly inside the $3 \\times 3$ boundary wastes turns, so allow your line segments to extend past the outer dots.\n• **Step 2 (The Guiding Bridge):** Try this connected path: start at the top-left dot $(0,2)$ and draw a vertical segment straight down through the left column past $(0,0)$ to $(0,-1)$. Next, draw a diagonal segment from $(0,-1)$ through $(1,0)$ and $(2,1)$, extending past the right edge to $(3,2)$.\n• **Step 3 (How to Finish):** From $(3,2)$, draw a horizontal segment left along the top row back to $(0,2)$, and finally draw a diagonal segment through the remaining unvisited dots $(1,1)$ and $(2,0)$. Count the total number of consecutive line segments used (and confirm that fewer segments cannot cover all $9$ dots).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "answer": "A) 34344",
     "explanation": "Summing column-by-column from right to left with carries yields the last 5 digits 34344.",
-    "hint": "**Key Strategy:** Place-Value Column Addition with Carries\n• **Step 1 (First Move):** Align all $2014$ numbers vertically by their rightmost digit. Count how many $1$s sit in each of the last five columns: $2014$ ones in the units place, $2013$ in the tens place, $2012$ in the hundreds place, $2011$ in the thousands place, and $2010$ in the ten-thousands place.\n• **Step 2 (The Guiding Bridge):** Add from right to left, keeping the last digit and carrying the rest to the next column:\n• Units place: $2014 \\times 1 = 2014$ $\\rightarrow$ write $4$, carry $201$.\n• Tens place: $2013 + 201 = 2214$ $\\rightarrow$ write $4$, carry $221$.\n• Hundreds place: $2012 + 221 = 2233$ $\\rightarrow$ write $3$, carry $223$.\n• **Step 3 (How to Finish):** Repeat this step for the next two columns: add $2011 + 223$ to get the thousands digit and its carry, then add $2010$ plus that carry to get the ten-thousands digit, and write the last $5$ digits from left to right."
+    "hint": "**Key Strategy:** Place-Value Column Addition with Carries\n• **Step 1 (First Move):** Align all $2014$ numbers vertically by their rightmost digit. Count how many $1$s sit in each of the last five columns: $2014$ ones in the units place, $2013$ in the tens place, $2012$ in the hundreds place, $2011$ in the thousands place, and $2010$ in the ten-thousands place.\n• **Step 2 (The Guiding Bridge):** Add from right to left, keeping the last digit and carrying the rest to the next column:\n• Units place: $2014 \\times 1 = 2014$ $\\rightarrow$ write $4$, carry $201$.\n• Tens place: $2013 + 201 = 2214$ $\\rightarrow$ write $4$, carry $221$.\n• Hundreds place: $2012 + 221 = 2233$ $\\rightarrow$ write $3$, carry $223$.\n• **Step 3 (How to Finish):** Repeat this step for the next two columns: add $2011 + 223$ to get the thousands digit and its carry, then add $2010$ plus that carry to get the ten-thousands digit, and write the last $5$ digits from left to right.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "answer": "A) 16",
     "explanation": "Using the cut formula $n - \\text{HCF}(m, n) = 18 - \\text{HCF}(10, 18) = 18 - 2 = 16$ cuts.",
-    "hint": "**Key Strategy:** Equal Division & HCF Cut-Reduction Formula\n• **Step 1 (First Move):** Simplify the sharing problem using $\\text{HCF}(10, 18) = 2$: dividing $10$ sausages among $18$ people is equivalent to $2$ identical groups of $5$ sausages shared equally among $9$ people.\n• **Step 2 (The Guiding Bridge):** For one group of $5$ sausages lined up end-to-end to be split into $9$ equal portions (each $\\frac{5}{9}$ of a sausage), you need $9 - 1 = 8$ dividing cuts. Because $\\text{HCF}(5, 9) = 1$, none of those cuts lands on the $4$ existing gaps between sausages, so each group requires $8$ cuts (equivalently, apply the general cut formula $n - \\text{HCF}(m, n)$ with $m = 10$ sausages and $n = 18$ people).\n• **Step 3 (How to Finish):** Multiply the cuts needed per group by $2$ groups (or evaluate $18 - \\text{HCF}(10, 18)$) to find the minimum number of cuts."
+    "hint": "**Key Strategy:** Equal Division & HCF Cut-Reduction Formula\n• **Step 1 (First Move):** Simplify the sharing problem using $\\text{HCF}(10, 18) = 2$: dividing $10$ sausages among $18$ people is equivalent to $2$ identical groups of $5$ sausages shared equally among $9$ people.\n• **Step 2 (The Guiding Bridge):** For one group of $5$ sausages lined up end-to-end to be split into $9$ equal portions (each $\\frac{5}{9}$ of a sausage), you need $9 - 1 = 8$ dividing cuts. Because $\\text{HCF}(5, 9) = 1$, none of those cuts lands on the $4$ existing gaps between sausages, so each group requires $8$ cuts (equivalently, apply the general cut formula $n - \\text{HCF}(m, n)$ with $m = 10$ sausages and $n = 18$ people).\n• **Step 3 (How to Finish):** Multiply the cuts needed per group by $2$ groups (or evaluate $18 - \\text{HCF}(10, 18)$) to find the minimum number of cuts.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "answer": "A) 12",
     "explanation": "Since $\\text{LCM}(3, 4) = 12$, subdivide the shape into 12 smaller squares, then regroup into 4 identical shapes of 3 sub-squares each.",
-    "hint": "**Key Strategy:** Lowest Common Multiple (LCM) Grid Subdivision\n• **Step 1 (First Move):** Currently the L-shape consists of $3$ identical large squares, and we want to divide it into $4$ identical parts.\n• **Step 2 (The Guiding Bridge):** For the $4$ identical parts to each consist of the same whole number of smaller sub-squares, the total number of sub-squares must be a multiple of $4$. At the same time, subdividing each of the $3$ original squares identically (for example, splitting each into a $2 \\times 2$ grid of $4$ sub-squares so the parts can form $4$ smaller L-shapes of $3$ sub-squares each) makes the total a multiple of $3$.\n• **Step 3 (How to Finish):** Compute $\\text{LCM}(3, 4)$ (i.e. $3 \\times 4$) to find the minimum total number of smaller sub-squares required."
+    "hint": "**Key Strategy:** Lowest Common Multiple (LCM) Grid Subdivision\n• **Step 1 (First Move):** Currently the L-shape consists of $3$ identical large squares, and we want to divide it into $4$ identical parts.\n• **Step 2 (The Guiding Bridge):** For the $4$ identical parts to each consist of the same whole number of smaller sub-squares, the total number of sub-squares must be a multiple of $4$. At the same time, subdividing each of the $3$ original squares identically (for example, splitting each into a $2 \\times 2$ grid of $4$ sub-squares so the parts can form $4$ smaller L-shapes of $3$ sub-squares each) makes the total a multiple of $3$.\n• **Step 3 (How to Finish):** Compute $\\text{LCM}(3, 4)$ (i.e. $3 \\times 4$) to find the minimum total number of smaller sub-squares required.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "answer": "A) x = 1",
     "explanation": "Factorizing gives $x^3(x^2+2) - (x^2+2) = (x^2+2)(x^3-1) = 0$. Since $x^2+2 > 0$, $x^3 = 1 \\implies x = 1$.",
-    "hint": "**Key Strategy:** Factoring by Grouping\n• **Step 1 (First Move):** Group the four terms of the polynomial into two pairs: $(x^5 + 2x^3) - (x^2 + 2) = 0$.\n• **Step 2 (The Guiding Bridge):** Factor out $x^3$ from the first pair to get $x^3(x^2 + 2) - 1(x^2 + 2) = 0$, and then factor out the common binomial $(x^2 + 2)$ to obtain $(x^2 + 2)(x^3 - 1) = 0$.\n• **Step 3 (How to Finish):** Since $x^2 + 2 \\ge 2 > 0$ for every real number $x$, it can never equal $0$; therefore, set the other factor $x^3 - 1 = 0$ and solve for $x$."
+    "hint": "**Key Strategy:** Factoring by Grouping\n• **Step 1 (First Move):** Group the four terms of the polynomial into two pairs: $(x^5 + 2x^3) - (x^2 + 2) = 0$.\n• **Step 2 (The Guiding Bridge):** Factor out $x^3$ from the first pair to get $x^3(x^2 + 2) - 1(x^2 + 2) = 0$, and then factor out the common binomial $(x^2 + 2)$ to obtain $(x^2 + 2)(x^3 - 1) = 0$.\n• **Step 3 (How to Finish):** Since $x^2 + 2 \\ge 2 > 0$ for every real number $x$, it can never equal $0$; therefore, set the other factor $x^3 - 1 = 0$ and solve for $x$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "answer": "A) 1007.5",
     "explanation": "Sum = $\\frac{1 + 2 + \\dots + 2014}{2014} = \\frac{2014 \\times 2015 / 2}{2014} = \\frac{2015}{2} = 1007.5$.",
-    "hint": "**Key Strategy:** Common Denominator & Gauss's Arithmetic Series Sum\n• **Step 1 (First Move):** Combine all fractions over their common denominator $2014$ to rewrite the sum as $\\frac{1 + 2 + 3 + \\dots + 2014}{2014}$.\n• **Step 2 (The Guiding Bridge):** Apply Gauss's sum formula $1 + 2 + \\dots + n = \\frac{n(n + 1)}{2}$ with $n = 2014$ to express the numerator as $\\frac{2014 \\times 2015}{2}$.\n• **Step 3 (How to Finish):** Place that numerator over $2014$, cancel the common factor of $2014$ from the numerator and denominator, and divide $2015$ by $2$ to get the final value."
+    "hint": "**Key Strategy:** Common Denominator & Gauss's Arithmetic Series Sum\n• **Step 1 (First Move):** Combine all fractions over their common denominator $2014$ to rewrite the sum as $\\frac{1 + 2 + 3 + \\dots + 2014}{2014}$.\n• **Step 2 (The Guiding Bridge):** Apply Gauss's sum formula $1 + 2 + \\dots + n = \\frac{n(n + 1)}{2}$ with $n = 2014$ to express the numerator as $\\frac{2014 \\times 2015}{2}$.\n• **Step 3 (How to Finish):** Place that numerator over $2014$, cancel the common factor of $2014$ from the numerator and denominator, and divide $2015$ by $2$ to get the final value.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "answer": "A) 15",
     "explanation": "Rewriting as $3D98 + 2014 = A8BC$: $C = 2$, $B = 1$, $D = 7$, $A = 5$. Sum = $5 + 1 + 2 + 7 = 15$.",
-    "hint": "**Key Strategy:** Inverse Operation (Subtraction to Addition) & Column Logic\n• **Step 1 (First Move):** Rewrite the subtraction cryptarithm $A8BC - 3D98 = 2014$ as an addition problem: $3D98 + 2014 = A8BC$.\n• **Step 2 (The Guiding Bridge):** Add column by column from right to left while tracking carries:\n• Units column: $8 + 4 = 12$, so $C = 2$ with a carry of $1$ to the tens column.\n• Tens column: $9 + 1 + 1\\text{ (carry)} = 11$, so $B = 1$ with a carry of $1$ to the hundreds column.\n• Hundreds and thousands columns: $D + 0 + 1\\text{ (carry)} = 8$ (note that if there were a carry into the thousands column, $D + 1 = 18$ would require $D = 17$, which is impossible for a single digit, so there is no carry into the thousands column).\n• **Step 3 (How to Finish):** Solve $D + 1 = 8$ to find $D$ and $3 + 2 = A$ to find $A$, then calculate the sum $A + B + C + D$."
+    "hint": "**Key Strategy:** Inverse Operation (Subtraction to Addition) & Column Logic\n• **Step 1 (First Move):** Rewrite the subtraction cryptarithm $A8BC - 3D98 = 2014$ as an addition problem: $3D98 + 2014 = A8BC$.\n• **Step 2 (The Guiding Bridge):** Add column by column from right to left while tracking carries:\n• Units column: $8 + 4 = 12$, so $C = 2$ with a carry of $1$ to the tens column.\n• Tens column: $9 + 1 + 1\\text{ (carry)} = 11$, so $B = 1$ with a carry of $1$ to the hundreds column.\n• Hundreds and thousands columns: $D + 0 + 1\\text{ (carry)} = 8$ (note that if there were a carry into the thousands column, $D + 1 = 18$ would require $D = 17$, which is impossible for a single digit, so there is no carry into the thousands column).\n• **Step 3 (How to Finish):** Solve $D + 1 = 8$ to find $D$ and $3 + 2 = A$ to find $A$, then calculate the sum $A + B + C + D$.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "answer": "A) 4n - 1",
     "explanation": "The sums form the arithmetic progression $3, 7, 11, 15, \\dots$ with term formula $T_n = 3 + 4(n-1) = 4n - 1$.",
-    "hint": "**Key Strategy:** Arithmetic Sequence ($n$-th Term Formula)\n• **Step 1 (First Move):** Calculate the sum of the two numbers in each of the first few pairs of brackets: $1 + 2 = 3$, $3 + 4 = 7$, $5 + 6 = 11$, and $7 + 8 = 15$.\n• **Step 2 (The Guiding Bridge):** Recognize that the sums $3, 7, 11, 15, \\dots$ form an arithmetic sequence with first term $a_1 = 3$ and common difference $d = 4$ (alternatively, notice the $n$-th pair consists of $(2n - 1, 2n)$).\n• **Step 3 (How to Finish):** Use the arithmetic sequence formula $T_n = a_1 + (n - 1)d = 3 + 4(n - 1)$ (or add $(2n - 1) + 2n$) and simplify the expression in terms of $n$."
+    "hint": "**Key Strategy:** Arithmetic Sequence ($n$-th Term Formula)\n• **Step 1 (First Move):** Calculate the sum of the two numbers in each of the first few pairs of brackets: $1 + 2 = 3$, $3 + 4 = 7$, $5 + 6 = 11$, and $7 + 8 = 15$.\n• **Step 2 (The Guiding Bridge):** Recognize that the sums $3, 7, 11, 15, \\dots$ form an arithmetic sequence with first term $a_1 = 3$ and common difference $d = 4$ (alternatively, notice the $n$-th pair consists of $(2n - 1, 2n)$).\n• **Step 3 (How to Finish):** Use the arithmetic sequence formula $T_n = a_1 + (n - 1)d = 3 + 4(n - 1)$ (or add $(2n - 1) + 2n$) and simplify the expression in terms of $n$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "answer": "A) 30°",
     "explanation": "Using parallel and isosceles triangle properties shows $\\angle ABC = 90^\\circ$. In $\\triangle ABC$, $\\angle BAC = 180^\\circ - 90^\\circ - 60^\\circ = 30^\\circ$.",
-    "hint": "**Key Strategy:** Parallel Lines (Co-Interior Angles) & Isosceles Triangle Angle Chasing\n• **Step 1 (First Move):** In the diagram, line segment $PBR$ is a transversal connecting parallel lines $PQ \\parallel RS$ (with $A$ on $PQ$ and $C$ on $RS$). Because co-interior angles between parallel lines add up to $180^\\circ$, we have $\\angle APB + \\angle CRB = 180^\\circ$.\n• **Step 2 (The Guiding Bridge):** Use the isosceles triangles $\\triangle PAB$ ($PA = PB$) and $\\triangle RBC$ ($RB = RC$) to find their base angles: $\\angle PBA = \\frac{180^\\circ - \\angle APB}{2}$ and $\\angle RBC = \\frac{180^\\circ - \\angle CRB}{2}$. Adding these gives $\\angle PBA + \\angle RBC = 180^\\circ - \\frac{\\angle APB + \\angle CRB}{2} = 180^\\circ - 90^\\circ = 90^\\circ$. Along the straight line $PBR$, this leaves $\\angle ABC = 180^\\circ - 90^\\circ = 90^\\circ$.\n• **Step 3 (How to Finish):** Now apply the angle sum of $\\triangle ABC$: knowing $\\angle ABC = 90^\\circ$ and $\\angle BCA = 60^\\circ$, subtract their sum from $180^\\circ$ to find $\\angle BAC$."
+    "hint": "**Key Strategy:** Parallel Lines (Co-Interior Angles) & Isosceles Triangle Angle Chasing\n• **Step 1 (First Move):** In the diagram, line segment $PBR$ is a transversal connecting parallel lines $PQ \\parallel RS$ (with $A$ on $PQ$ and $C$ on $RS$). Because co-interior angles between parallel lines add up to $180^\\circ$, we have $\\angle APB + \\angle CRB = 180^\\circ$.\n• **Step 2 (The Guiding Bridge):** Use the isosceles triangles $\\triangle PAB$ ($PA = PB$) and $\\triangle RBC$ ($RB = RC$) to find their base angles: $\\angle PBA = \\frac{180^\\circ - \\angle APB}{2}$ and $\\angle RBC = \\frac{180^\\circ - \\angle CRB}{2}$. Adding these gives $\\angle PBA + \\angle RBC = 180^\\circ - \\frac{\\angle APB + \\angle CRB}{2} = 180^\\circ - 90^\\circ = 90^\\circ$. Along the straight line $PBR$, this leaves $\\angle ABC = 180^\\circ - 90^\\circ = 90^\\circ$.\n• **Step 3 (How to Finish):** Now apply the angle sum of $\\triangle ABC$: knowing $\\angle ABC = 90^\\circ$ and $\\angle BCA = 60^\\circ$, subtract their sum from $180^\\circ$ to find $\\angle BAC$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "answer": "A) 2",
     "explanation": "Powers of 2 modulo 7 cycle every 3 steps: $2, 4, 1$. Since $2014 = 3 \\times 671 + 1$, $2^{2014} \\equiv 2^1 \\equiv 2 \\pmod 7$.",
-    "hint": "**Key Strategy:** Remainder Pattern / Cyclicity (Modular Arithmetic mod 7)\n• **Step 1 (First Move):** Compute the remainders when the first few powers of $2$ are divided by $7$: $2^1 = 2$ leaves remainder $2$, $2^2 = 4$ leaves remainder $4$, $2^3 = 8$ leaves remainder $1$, and $2^4 = 16$ leaves remainder $2$.\n• **Step 2 (The Guiding Bridge):** Notice that the remainders repeat in a cycle of length $3$ ($2, 4, 1, 2, 4, 1, \\dots$) because $2^3 \\equiv 1 \\pmod 7$. Divide the exponent $2014$ by the cycle length $3$ to find the remainder of $2014 \\div 3$.\n• **Step 3 (How to Finish):** Use the remainder from dividing $2014$ by $3$ to match $2^{2014}$ to the corresponding power ($2^1$, $2^2$, or $2^3$) in your cycle from Step 1, and read off its remainder modulo $7$."
+    "hint": "**Key Strategy:** Remainder Pattern / Cyclicity (Modular Arithmetic mod 7)\n• **Step 1 (First Move):** Compute the remainders when the first few powers of $2$ are divided by $7$: $2^1 = 2$ leaves remainder $2$, $2^2 = 4$ leaves remainder $4$, $2^3 = 8$ leaves remainder $1$, and $2^4 = 16$ leaves remainder $2$.\n• **Step 2 (The Guiding Bridge):** Notice that the remainders repeat in a cycle of length $3$ ($2, 4, 1, 2, 4, 1, \\dots$) because $2^3 \\equiv 1 \\pmod 7$. Divide the exponent $2014$ by the cycle length $3$ to find the remainder of $2014 \\div 3$.\n• **Step 3 (How to Finish):** Use the remainder from dividing $2014$ by $3$ to match $2^{2014}$ to the corresponding power ($2^1$, $2^2$, or $2^3$) in your cycle from Step 1, and read off its remainder modulo $7$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 25,
@@ -347,6 +371,7 @@
     ],
     "answer": "A) 150°",
     "explanation": "Constructing an equilateral triangle on $BC$ inside $\\triangle ABC$ shows $\\angle ABD = 10^\\circ$. Thus $\\angle ADB = 180^\\circ - 20^\\circ - 10^\\circ = 150^\\circ$.",
-    "hint": "**Key Strategy:** Auxiliary Construction (Equilateral Triangle) & Triangle Congruence (SAS)\n• **Step 1 (First Move):** Because $\\triangle ABC$ is isosceles with $AB = AC$ and $\\angle BAC = 20^\\circ$, calculate its two equal base angles: $\\angle ABC = \\angle ACB = \\frac{180^\\circ - 20^\\circ}{2} = 80^\\circ$.\n• **Step 2 (The Guiding Bridge):** Construct an equilateral triangle $\\triangle EBC$ inside $\\triangle ABC$ on side $BC$ (so $EB = EC = BC$ and $\\angle EBC = 60^\\circ$). Then $\\angle EBA = 80^\\circ - 60^\\circ = 20^\\circ$. Comparing $\\triangle ABD$ and $\\triangle BAE$, we have $AD = BC = BE$, $\\angle BAD = 20^\\circ = \\angle EBA$, and $AB = BA$, so $\\triangle ABD \\cong \\triangle BAE$ by SAS—meaning $\\angle ADB = \\angle AEB$.\n• **Step 3 (How to Finish):** By symmetry, $AE$ bisects $\\angle BAC = 20^\\circ$, so $\\angle BAE = 10^\\circ$. In $\\triangle ABE$, you know $\\angle EBA = 20^\\circ$ and $\\angle BAE = 10^\\circ$; subtract their sum from $180^\\circ$ to find $\\angle AEB$, which equals $\\angle ADB$."
+    "hint": "**Key Strategy:** Auxiliary Construction (Equilateral Triangle) & Triangle Congruence (SAS)\n• **Step 1 (First Move):** Because $\\triangle ABC$ is isosceles with $AB = AC$ and $\\angle BAC = 20^\\circ$, calculate its two equal base angles: $\\angle ABC = \\angle ACB = \\frac{180^\\circ - 20^\\circ}{2} = 80^\\circ$.\n• **Step 2 (The Guiding Bridge):** Construct an equilateral triangle $\\triangle EBC$ inside $\\triangle ABC$ on side $BC$ (so $EB = EC = BC$ and $\\angle EBC = 60^\\circ$). Then $\\angle EBA = 80^\\circ - 60^\\circ = 20^\\circ$. Comparing $\\triangle ABD$ and $\\triangle BAE$, we have $AD = BC = BE$, $\\angle BAD = 20^\\circ = \\angle EBA$, and $AB = BA$, so $\\triangle ABD \\cong \\triangle BAE$ by SAS—meaning $\\angle ADB = \\angle AEB$.\n• **Step 3 (How to Finish):** By symmetry, $AE$ bisects $\\angle BAC = 20^\\circ$, so $\\angle BAE = 10^\\circ$. In $\\triangle ABE$, you know $\\angle EBA = 20^\\circ$ and $\\angle BAE = 10^\\circ$; subtract their sum from $180^\\circ$ to find $\\angle AEB$, which equals $\\angle ADB$.",
+    "category": "Geometry & Spatial"
   }
 ]

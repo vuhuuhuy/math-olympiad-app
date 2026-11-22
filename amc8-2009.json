@@ -13,7 +13,8 @@
     ],
     "answer": "(E) 14",
     "explanation": "Work backwards. Bridget had 4 + 3 = 7 apples before she gave Cassie 3 apples. These 7 apples were half of Bridget's original apples, so she originally had 7 * 2 = 14 apples.",
-    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Start at the end when Bridget has $4$ apples left and undo her gift of $3$ apples to Cassie by adding: $4 + 3 = 7$ apples.\n• **Step 2 (The Guiding Bridge):** Recognize that these $7$ apples are what remained right after she gave half of her original bag to Ann, which means $7$ is half of the starting amount.\n• **Step 3 (How to Finish):** Multiply the number of apples she had before giving any to Cassie ($7$) by $2$ to find how many apples Bridget originally bought."
+    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Start at the end when Bridget has $4$ apples left and undo her gift of $3$ apples to Cassie by adding: $4 + 3 = 7$ apples.\n• **Step 2 (The Guiding Bridge):** Recognize that these $7$ apples are what remained right after she gave half of her original bag to Ann, which means $7$ is half of the starting amount.\n• **Step 3 (How to Finish):** Multiply the number of apples she had before giving any to Cassie ($7$) by $2$ to find how many apples Bridget originally bought.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
     ],
     "answer": "(D) 49",
     "explanation": "Set up a proportion: 4/7 = 28/s. Multiplying the numerator and denominator by 7 gives 4(7) / 7(7) = 28/49. Thus, the dealership expects to sell 49 sedans.",
-    "hint": "**Key Strategy:** Ratios and Proportions (Scaling Up)\n• **Step 1 (First Move):** Write the ratio of sports cars to sedans as $\\frac{4}{7}$, and find the scale factor from $4$ to $28$ sports cars by dividing: $28 \\div 4 = 7$.\n• **Step 2 (The Guiding Bridge):** Set up the equivalent proportion $\\frac{4}{7} = \\frac{28}{s}$, where $s$ stands for the expected number of sedans.\n• **Step 3 (How to Finish):** Multiply the original ratio's number of sedans ($7$) by the scale factor you found in Step 1 to determine $s$."
+    "hint": "**Key Strategy:** Ratios and Proportions (Scaling Up)\n• **Step 1 (First Move):** Write the ratio of sports cars to sedans as $\\frac{4}{7}$, and find the scale factor from $4$ to $28$ sports cars by dividing: $28 \\div 4 = 7$.\n• **Step 2 (The Guiding Bridge):** Set up the equivalent proportion $\\frac{4}{7} = \\frac{28}{s}$, where $s$ stands for the expected number of sedans.\n• **Step 3 (How to Finish):** Multiply the original ratio's number of sedans ($7$) by the scale factor you found in Step 1 to determine $s$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 3,
@@ -43,7 +45,8 @@
     ],
     "answer": "(C) 6",
     "explanation": "From the graph, Suzanna rides 3 miles in 15 minutes. In half an hour (30 minutes), which is twice as long, she will ride 3 * 2 = 6 miles.",
-    "hint": "**Key Strategy:** Constant Rate and Proportional Reasoning\n• **Step 1 (First Move):** Read a clear grid point from the graph to identify Suzanna's rate: after $15\\text{ minutes}$, she has ridden $3\\text{ miles}$.\n• **Step 2 (The Guiding Bridge):** Convert half an hour into minutes ($30\\text{ minutes}$) and find how many $15$-minute intervals fit inside it: $\\frac{30}{15} = 2$.\n• **Step 3 (How to Finish):** Multiply the distance she rides in $15\\text{ minutes}$ ($3\\text{ miles}$) by that time multiplier ($2$) to get her total distance."
+    "hint": "**Key Strategy:** Constant Rate and Proportional Reasoning\n• **Step 1 (First Move):** Read a clear grid point from the graph to identify Suzanna's rate: after $15\\text{ minutes}$, she has ridden $3\\text{ miles}$.\n• **Step 2 (The Guiding Bridge):** Convert half an hour into minutes ($30\\text{ minutes}$) and find how many $15$-minute intervals fit inside it: $\\frac{30}{15} = 2$.\n• **Step 3 (How to Finish):** Multiply the distance she rides in $15\\text{ minutes}$ ($3\\text{ miles}$) by that time multiplier ($2$) to get her total distance.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -59,7 +62,8 @@
     ],
     "answer": "(B) B",
     "explanation": "Figure B does not contain any 5-square-long piece, which is required by the longest piece among the five given shapes.",
-    "hint": "**Key Strategy:** Spatial Reasoning (Checking Extreme Constraints)\n• **Step 1 (First Move):** Look at the five given puzzle pieces and identify the longest straight piece, which is $5$ unit squares long.\n• **Step 2 (The Guiding Bridge):** Because every valid figure must use all five pieces without cutting or overlapping them, any figure that can be formed must have room for a straight line of $5$ connected squares somewhere inside it (horizontally or vertically).\n• **Step 3 (How to Finish):** Inspect each of the five figures to see whether a $5$-square-long bar can fit inside it—whichever figure has no row or column with $5$ consecutive squares cannot be formed."
+    "hint": "**Key Strategy:** Spatial Reasoning (Checking Extreme Constraints)\n• **Step 1 (First Move):** Look at the five given puzzle pieces and identify the longest straight piece, which is $5$ unit squares long.\n• **Step 2 (The Guiding Bridge):** Because every valid figure must use all five pieces without cutting or overlapping them, any figure that can be formed must have room for a straight line of $5$ connected squares somewhere inside it (horizontally or vertically).\n• **Step 3 (How to Finish):** Inspect each of the five figures to see whether a $5$-square-long bar can fit inside it—whichever figure has no row or column with $5$ consecutive squares cannot be formed.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 5,
@@ -73,7 +77,8 @@
     ],
     "answer": "(D) 68",
     "explanation": "Extend the sequence step by step: 1st: 1, 2nd: 2, 3rd: 3, 4th: 1 + 2 + 3 = 6, 5th: 2 + 3 + 6 = 11, 6th: 3 + 6 + 11 = 20, 7th: 6 + 11 + 20 = 37, 8th: 11 + 20 + 37 = 68.",
-    "hint": "**Key Strategy:** Recursive Pattern Listing\n• **Step 1 (First Move):** List the first four terms already given: $a_1 = 1$, $a_2 = 2$, $a_3 = 3$, and $a_4 = 1 + 2 + 3 = 6$.\n• **Step 2 (The Guiding Bridge):** Find the $5$th, $6$th, and $7$th terms one by one by adding the previous three terms each time: $a_5 = 2 + 3 + 6 = 11$, $a_6 = 3 + 6 + 11 = 20$, and $a_7 = 6 + 11 + 20 = 37$.\n• **Step 3 (How to Finish):** Add the $5$th, $6$th, and $7$th terms ($11 + 20 + 37$) together to obtain the $8$th number in the sequence."
+    "hint": "**Key Strategy:** Recursive Pattern Listing\n• **Step 1 (First Move):** List the first four terms already given: $a_1 = 1$, $a_2 = 2$, $a_3 = 3$, and $a_4 = 1 + 2 + 3 = 6$.\n• **Step 2 (The Guiding Bridge):** Find the $5$th, $6$th, and $7$th terms one by one by adding the previous three terms each time: $a_5 = 2 + 3 + 6 = 11$, $a_6 = 3 + 6 + 11 = 20$, and $a_7 = 6 + 11 + 20 = 37$.\n• **Step 3 (How to Finish):** Add the $5$th, $6$th, and $7$th terms ($11 + 20 + 37$) together to obtain the $8$th number in the sequence.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -87,7 +92,8 @@
     ],
     "answer": "(A) 40",
     "explanation": "The 4 hoses together supply 4 * 2.5 = 10 gallons per minute, which equals 10 * 60 = 600 gallons per hour. The time required is 24,000 / 600 = 40 hours.",
-    "hint": "**Key Strategy:** Combined Unit Rate and Unit Conversion\n• **Step 1 (First Move):** Find how much water all $4$ hoses supply together each minute: $4 \\times 2.5 = 10\\text{ gallons per minute}$.\n• **Step 2 (The Guiding Bridge):** Convert that combined rate from gallons per minute to gallons per hour by multiplying by $60$: $10 \\times 60 = 600\\text{ gallons per hour}$.\n• **Step 3 (How to Finish):** Divide the pool's total capacity ($24{,}000\\text{ gallons}$) by the hourly rate ($600\\text{ gallons per hour}$) to find how many hours it takes to fill the pool."
+    "hint": "**Key Strategy:** Combined Unit Rate and Unit Conversion\n• **Step 1 (First Move):** Find how much water all $4$ hoses supply together each minute: $4 \\times 2.5 = 10\\text{ gallons per minute}$.\n• **Step 2 (The Guiding Bridge):** Convert that combined rate from gallons per minute to gallons per hour by multiplying by $60$: $10 \\times 60 = 600\\text{ gallons per hour}$.\n• **Step 3 (How to Finish):** Divide the pool's total capacity ($24{,}000\\text{ gallons}$) by the hourly rate ($600\\text{ gallons per hour}$) to find how many hours it takes to fill the pool.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 7,
@@ -103,7 +109,8 @@
     ],
     "answer": "(C) 4.5",
     "explanation": "The area of triangle ACD can be found by taking the area of the large triangle ABD (1/2 * 3 * 6 = 9) and subtracting the area of the smaller triangle ABC (1/2 * 3 * 3 = 4.5). Thus, 9 - 4.5 = 4.5 square miles.",
-    "hint": "**Key Strategy:** Area Decomposition (Subtraction of Triangles)\n• **Step 1 (First Move):** View $\\triangle ACD$ as the large right triangle $\\triangle ABD$ minus the smaller right triangle $\\triangle ABC$ along the north-south railroad, using $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$.\n• **Step 2 (The Guiding Bridge):** Compute the area of the large triangle $\\triangle ABD$ with base $3\\text{ miles}$ and total height $3 + 3 = 6\\text{ miles}$: $\\frac{1}{2} \\times 3 \\times 6 = 9\\text{ sq mi}$. Then set up the area of the smaller triangle $\\triangle ABC$ with base $3\\text{ miles}$ and height $3\\text{ miles}$.\n• **Step 3 (How to Finish):** Calculate $\\frac{1}{2} \\times 3 \\times 3$ for $\\triangle ABC$ and subtract it from $9$ to get the area of plot $ACD$."
+    "hint": "**Key Strategy:** Area Decomposition (Subtraction of Triangles)\n• **Step 1 (First Move):** View $\\triangle ACD$ as the large right triangle $\\triangle ABD$ minus the smaller right triangle $\\triangle ABC$ along the north-south railroad, using $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$.\n• **Step 2 (The Guiding Bridge):** Compute the area of the large triangle $\\triangle ABD$ with base $3\\text{ miles}$ and total height $3 + 3 = 6\\text{ miles}$: $\\frac{1}{2} \\times 3 \\times 6 = 9\\text{ sq mi}$. Then set up the area of the smaller triangle $\\triangle ABC$ with base $3\\text{ miles}$ and height $3\\text{ miles}$.\n• **Step 3 (How to Finish):** Calculate $\\frac{1}{2} \\times 3 \\times 3$ for $\\triangle ABC$ and subtract it from $9$ to get the area of plot $ACD$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
     ],
     "answer": "(B) 99",
     "explanation": "Let the original length and width be L and W. The new area is (1.1L) * (0.9W) = 0.99LW, which represents 99% of the old area.",
-    "hint": "**Key Strategy:** Picking Smart Numbers (Percentage Scaling)\n• **Step 1 (First Move):** Pick a convenient $10 \\times 10$ starting rectangle (or use $L$ and $W$), giving an original area of $10 \\times 10 = 100$.\n• **Step 2 (The Guiding Bridge):** Apply the percentage changes to each side: increasing $10$ by $10\\%$ gives $10 \\times 1.1 = 11$, and decreasing $10$ by $10\\%$ gives $10 \\times 0.9 = 9$ (or $1.1L$ and $0.9W$).\n• **Step 3 (How to Finish):** Multiply the new length by the new width ($11 \\times 9$) to see what percent of the original $100$ the new area is."
+    "hint": "**Key Strategy:** Picking Smart Numbers (Percentage Scaling)\n• **Step 1 (First Move):** Pick a convenient $10 \\times 10$ starting rectangle (or use $L$ and $W$), giving an original area of $10 \\times 10 = 100$.\n• **Step 2 (The Guiding Bridge):** Apply the percentage changes to each side: increasing $10$ by $10\\%$ gives $10 \\times 1.1 = 11$, and decreasing $10$ by $10\\%$ gives $10 \\times 0.9 = 9$ (or $1.1L$ and $0.9W$).\n• **Step 3 (How to Finish):** Multiply the new length by the new width ($11 \\times 9$) to see what percent of the original $100$ the new area is.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 9,
@@ -133,7 +141,8 @@
     ],
     "answer": "(B) 23",
     "explanation": "Each polygon in the chain shares one side with the previous and one with the next. Summing up the exposed exterior sides: Triangle 2, Square 2, Pentagon 3, Hexagon 4, Heptagon 5, Octagon 7. Total exposed sides = 2 + 2 + 3 + 4 + 5 + 7 = 23.",
-    "hint": "**Key Strategy:** Counting Exposed Perimeter Sides (Edge Accounting)\n• **Step 1 (First Move):** List all six regular polygons in the chain and their total sides: triangle ($3$), square ($4$), pentagon ($5$), hexagon ($6$), heptagon ($7$), and octagon ($8$).\n• **Step 2 (The Guiding Bridge):** Count only the outer sides that are not glued to another shape: the two end shapes lose $1$ shared side each ($3 - 1 = 2$ for the triangle and $8 - 1 = 7$ for the octagon), while each of the four middle shapes loses $2$ shared sides ($4 - 2 = 2$, $5 - 2 = 3$, $6 - 2 = 4$, and $7 - 2 = 5$).\n• **Step 3 (How to Finish):** Add the exposed outer sides from all six polygons ($2 + 2 + 3 + 4 + 5 + 7$) to find the total number of sides of the resulting polygon."
+    "hint": "**Key Strategy:** Counting Exposed Perimeter Sides (Edge Accounting)\n• **Step 1 (First Move):** List all six regular polygons in the chain and their total sides: triangle ($3$), square ($4$), pentagon ($5$), hexagon ($6$), heptagon ($7$), and octagon ($8$).\n• **Step 2 (The Guiding Bridge):** Count only the outer sides that are not glued to another shape: the two end shapes lose $1$ shared side each ($3 - 1 = 2$ for the triangle and $8 - 1 = 7$ for the octagon), while each of the four middle shapes loses $2$ shared sides ($4 - 2 = 2$, $5 - 2 = 3$, $6 - 2 = 4$, and $7 - 2 = 5$).\n• **Step 3 (How to Finish):** Add the exposed outer sides from all six polygons ($2 + 2 + 3 + 4 + 5 + 7$) to find the total number of sides of the resulting polygon.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 10,
@@ -149,7 +158,8 @@
     ],
     "answer": "(D) 9/16",
     "explanation": "The interior squares form a (8 - 2) * (8 - 2) = 6 * 6 = 36 square grid. The probability is 36/64 = 9/16.",
-    "hint": "**Key Strategy:** Geometric Counting (Interior Grid) and Probability\n• **Step 1 (First Move):** Determine the dimensions of the checkerboard: since there are $64$ unit squares, it is an $8 \\times 8$ grid ($\\sqrt{64} = 8$).\n• **Step 2 (The Guiding Bridge):** Remove the $1$-unit-wide border on all four edges (top, bottom, left, and right), leaving an interior square grid of $(8 - 2) \\times (8 - 2) = 6 \\times 6 = 36$ unit squares that do not touch the outer edge.\n• **Step 3 (How to Finish):** Write the probability as $\\frac{36}{64}$ and simplify the fraction by dividing both the numerator and denominator by $4$."
+    "hint": "**Key Strategy:** Geometric Counting (Interior Grid) and Probability\n• **Step 1 (First Move):** Determine the dimensions of the checkerboard: since there are $64$ unit squares, it is an $8 \\times 8$ grid ($\\sqrt{64} = 8$).\n• **Step 2 (The Guiding Bridge):** Remove the $1$-unit-wide border on all four edges (top, bottom, left, and right), leaving an interior square grid of $(8 - 2) \\times (8 - 2) = 6 \\times 6 = 36$ unit squares that do not touch the outer edge.\n• **Step 3 (How to Finish):** Write the probability as $\\frac{36}{64}$ and simplify the fraction by dividing both the numerator and denominator by $4$.",
+    "category": "Counting & Probability"
   },
   {
     "id": 11,
@@ -163,7 +173,8 @@
     ],
     "answer": "(D) 4",
     "explanation": "Factor 195 = 3 * 5 * 13 and 143 = 11 * 13. The common divisor is 13 cents per pencil. Sixth graders bought 195 / 13 = 15 pencils, and seventh graders bought 143 / 13 = 11 pencils. The difference is 15 - 11 = 4 more sixth graders.",
-    "hint": "**Key Strategy:** Prime Factorization and Greatest Common Divisor (GCD)\n• **Step 1 (First Move):** Convert both dollar amounts into cents and factor them into primes: $143 = 11 \\times 13$ and $195 = 3 \\times 5 \\times 13$.\n• **Step 2 (The Guiding Bridge):** Because every pencil costs the same whole number of cents, the price per pencil must divide both $143$ and $195$, which tells you each pencil costs $13\\text{ cents}$ (and $195 \\div 13 = 15$ sixth graders bought one, which is at most $30$).\n• **Step 3 (How to Finish):** Divide $143$ by $13$ to find how many seventh graders bought a pencil, then subtract that number from the $15$ sixth graders."
+    "hint": "**Key Strategy:** Prime Factorization and Greatest Common Divisor (GCD)\n• **Step 1 (First Move):** Convert both dollar amounts into cents and factor them into primes: $143 = 11 \\times 13$ and $195 = 3 \\times 5 \\times 13$.\n• **Step 2 (The Guiding Bridge):** Because every pencil costs the same whole number of cents, the price per pencil must divide both $143$ and $195$, which tells you each pencil costs $13\\text{ cents}$ (and $195 \\div 13 = 15$ sixth graders bought one, which is at most $30$).\n• **Step 3 (How to Finish):** Divide $143$ by $13$ to find how many seventh graders bought a pencil, then subtract that number from the $15$ sixth graders.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 12,
@@ -179,7 +190,8 @@
     ],
     "answer": "(D) 7/9",
     "explanation": "The first spinner has outcomes {1, 3, 5} and the second has {2, 4, 6}. Seven of the nine possible sums are prime ({3, 5, 7, 5, 7, 7, 11}), giving 7/9.",
-    "hint": "**Key Strategy:** Organized List (Outcome Grid)\n• **Step 1 (First Move):** List the numbers on each spinner—Spinner 1 has $\\{1, 3, 5\\}$ and Spinner 2 has $\\{2, 4, 6\\}$—giving $3 \\times 3 = 9$ equally likely pairs in total.\n• **Step 2 (The Guiding Bridge):** Write out all $9$ possible sums systematically:\n  - $1 + \\{2, 4, 6\\} = \\{3, 5, 7\\}$\n  - $3 + \\{2, 4, 6\\} = \\{5, 7, 9\\}$\n  - $5 + \\{2, 4, 6\\} = \\{7, 9, 11\\}$\n• **Step 3 (How to Finish):** Count how many of these $9$ sums are prime numbers (remembering that $9 = 3 \\times 3$ is composite, not prime) and divide that count by $9$."
+    "hint": "**Key Strategy:** Organized List (Outcome Grid)\n• **Step 1 (First Move):** List the numbers on each spinner—Spinner 1 has $\\{1, 3, 5\\}$ and Spinner 2 has $\\{2, 4, 6\\}$—giving $3 \\times 3 = 9$ equally likely pairs in total.\n• **Step 2 (The Guiding Bridge):** Write out all $9$ possible sums systematically:\n  - $1 + \\{2, 4, 6\\} = \\{3, 5, 7\\}$\n  - $3 + \\{2, 4, 6\\} = \\{5, 7, 9\\}$\n  - $5 + \\{2, 4, 6\\} = \\{7, 9, 11\\}$\n• **Step 3 (How to Finish):** Count how many of these $9$ sums are prime numbers (remembering that $9 = 3 \\times 3$ is composite, not prime) and divide that count by $9$.",
+    "category": "Counting & Probability"
   },
   {
     "id": 13,
@@ -193,7 +205,8 @@
     ],
     "answer": "(B) 1/3",
     "explanation": "There are 3! = 6 possible three-digit numbers using {1, 3, 5}. Two of them end in 5 (135 and 315), so the probability is 2/6 = 1/3.",
-    "hint": "**Key Strategy:** Divisibility Rule and Symmetry\n• **Step 1 (First Move):** Recall the divisibility rule for $5$: a whole number is divisible by $5$ if and only if its units (last) digit is $0$ or $5$.\n• **Step 2 (The Guiding Bridge):** Using the digits $\\{1, 3, 5\\}$ once each, there are $3 \\times 2 \\times 1 = 6$ possible three-digit integers ($135$, $153$, $315$, $351$, $513$, $531$), and each of the $3$ digits is equally likely to be in the units place.\n• **Step 3 (How to Finish):** Count how many of the $6$ numbers end in $5$ (specifically $135$ and $315$), write the ratio over $6$, and simplify the fraction."
+    "hint": "**Key Strategy:** Divisibility Rule and Symmetry\n• **Step 1 (First Move):** Recall the divisibility rule for $5$: a whole number is divisible by $5$ if and only if its units (last) digit is $0$ or $5$.\n• **Step 2 (The Guiding Bridge):** Using the digits $\\{1, 3, 5\\}$ once each, there are $3 \\times 2 \\times 1 = 6$ possible three-digit integers ($135$, $153$, $315$, $351$, $513$, $531$), and each of the $3$ digits is equally likely to be in the units place.\n• **Step 3 (How to Finish):** Count how many of the $6$ numbers end in $5$ (specifically $135$ and $315$), write the ratio over $6$, and simplify the fraction.",
+    "category": "Counting & Probability"
   },
   {
     "id": 14,
@@ -209,7 +222,8 @@
     ],
     "answer": "(B) 48",
     "explanation": "Total distance = 100 miles. Total time = 50/60 + 50/40 = 25/12 hours. Average speed = 100 / (25/12) = 48 mph.",
-    "hint": "**Key Strategy:** Total Distance Divided by Total Time\n• **Step 1 (First Move):** Calculate the round-trip distance ($50 + 50 = 100\\text{ miles}$) and use $\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$ for each way: going takes $\\frac{50}{60} = \\frac{5}{6}\\text{ hours}$ and returning takes $\\frac{50}{40} = \\frac{5}{4}\\text{ hours}$.\n• **Step 2 (The Guiding Bridge):** Add the two travel times using a common denominator of $12$: $\\frac{5}{6} + \\frac{5}{4} = \\frac{10}{12} + \\frac{15}{12} = \\frac{25}{12}\\text{ hours}$.\n• **Step 3 (How to Finish):** Divide the total distance ($100\\text{ miles}$) by the total time ($\\frac{25}{12}\\text{ hours}$) by multiplying $100 \\times \\frac{12}{25}$."
+    "hint": "**Key Strategy:** Total Distance Divided by Total Time\n• **Step 1 (First Move):** Calculate the round-trip distance ($50 + 50 = 100\\text{ miles}$) and use $\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$ for each way: going takes $\\frac{50}{60} = \\frac{5}{6}\\text{ hours}$ and returning takes $\\frac{50}{40} = \\frac{5}{4}\\text{ hours}$.\n• **Step 2 (The Guiding Bridge):** Add the two travel times using a common denominator of $12$: $\\frac{5}{6} + \\frac{5}{4} = \\frac{10}{12} + \\frac{15}{12} = \\frac{25}{12}\\text{ hours}$.\n• **Step 3 (How to Finish):** Divide the total distance ($100\\text{ miles}$) by the total time ($\\frac{25}{12}\\text{ hours}$) by multiplying $100 \\times \\frac{12}{25}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 15,
@@ -223,7 +237,8 @@
     ],
     "answer": "(D) 8 3/4",
     "explanation": "Milk is the limiting ingredient, allowing 5 * (7/4) = 8.75 (8 3/4) servings.",
-    "hint": "**Key Strategy:** Limiting Ingredient (Ratio Scaling)\n• **Step 1 (First Move):** Divide Jordan's available amount of each limited ingredient by the amount needed for one $5$-serving batch:\n  - Chocolate: $5 \\div 2 = 2.5$ batches\n  - Sugar: $2 \\div \\frac{1}{4} = 8$ batches\n  - Milk: $7 \\div 4 = \\frac{7}{4}$ batches\n• **Step 2 (The Guiding Bridge):** Compare $2.5$, $8$, and $\\frac{7}{4} = 1.75$ to identify the smallest multiplier—milk is the limiting ingredient, allowing at most $\\frac{7}{4}$ batches.\n• **Step 3 (How to Finish):** Multiply $5$ servings per batch by $\\frac{7}{4}$ and write the result as a mixed number."
+    "hint": "**Key Strategy:** Limiting Ingredient (Ratio Scaling)\n• **Step 1 (First Move):** Divide Jordan's available amount of each limited ingredient by the amount needed for one $5$-serving batch:\n  - Chocolate: $5 \\div 2 = 2.5$ batches\n  - Sugar: $2 \\div \\frac{1}{4} = 8$ batches\n  - Milk: $7 \\div 4 = \\frac{7}{4}$ batches\n• **Step 2 (The Guiding Bridge):** Compare $2.5$, $8$, and $\\frac{7}{4} = 1.75$ to identify the smallest multiplier—milk is the limiting ingredient, allowing at most $\\frac{7}{4}$ batches.\n• **Step 3 (How to Finish):** Multiply $5$ servings per batch by $\\frac{7}{4}$ and write the result as a mixed number.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -237,7 +252,8 @@
     ],
     "answer": "(D) 21",
     "explanation": "The possible combinations are {1,3,8} (6 permutations), {1,4,6} (6 permutations), {2,3,4} (6 permutations), and {2,2,6} (3 permutations). Total = 6 + 6 + 6 + 3 = 21.",
-    "hint": "**Key Strategy:** Prime Factorization and Casework with Permutations\n• **Step 1 (First Move):** Factor $24 = 2^3 \\times 3$ and list all unordered sets of three single digits ($1$ through $9$) whose product is $24$: $\\{1, 3, 8\\}$, $\\{1, 4, 6\\}$, $\\{2, 3, 4\\}$, and $\\{2, 2, 6\\}$.\n• **Step 2 (The Guiding Bridge):** Count how many $3$-digit numbers each set makes: a set with three distinct digits has $3! = 6$ arrangements, while the set $\\{2, 2, 6\\}$ with a repeated digit has $\\frac{3!}{2!} = 3$ distinct arrangements.\n• **Step 3 (How to Finish):** Add the arrangement counts across all four sets ($6 + 6 + 6 + 3$) to find the total number of $3$-digit integers."
+    "hint": "**Key Strategy:** Prime Factorization and Casework with Permutations\n• **Step 1 (First Move):** Factor $24 = 2^3 \\times 3$ and list all unordered sets of three single digits ($1$ through $9$) whose product is $24$: $\\{1, 3, 8\\}$, $\\{1, 4, 6\\}$, $\\{2, 3, 4\\}$, and $\\{2, 2, 6\\}$.\n• **Step 2 (The Guiding Bridge):** Count how many $3$-digit numbers each set makes: a set with three distinct digits has $3! = 6$ arrangements, while the set $\\{2, 2, 6\\}$ with a repeated digit has $\\frac{3!}{2!} = 3$ distinct arrangements.\n• **Step 3 (How to Finish):** Add the arrangement counts across all four sets ($6 + 6 + 6 + 3$) to find the total number of $3$-digit integers.",
+    "category": "Counting & Probability"
   },
   {
     "id": 17,
@@ -251,7 +267,8 @@
     ],
     "answer": "(B) 85",
     "explanation": "Prime factorization of 360 = 2^3 * 3^2 * 5^1. For a square, z = 2^1 * 5^1 = 10. For a cube, y = 3^1 * 5^2 = 75. The sum z + y = 10 + 75 = 85.",
-    "hint": "**Key Strategy:** Prime Factorization (Matching Exponents for Squares and Cubes)\n• **Step 1 (First Move):** Find the prime factorization of $360$: $360 = 2^3 \\times 3^2 \\times 5^1$.\n• **Step 2 (The Guiding Bridge):** For $360z$ to be a perfect square, every prime exponent must be even, so $z = 2^1 \\times 5^1 = 10$. For $360y$ to be a perfect cube, every prime exponent must be a multiple of $3$, so $y = 3^1 \\times 5^2 = 75$.\n• **Step 3 (How to Finish):** Add your smallest values for $z$ and $y$ ($10 + 75$) together."
+    "hint": "**Key Strategy:** Prime Factorization (Matching Exponents for Squares and Cubes)\n• **Step 1 (First Move):** Find the prime factorization of $360$: $360 = 2^3 \\times 3^2 \\times 5^1$.\n• **Step 2 (The Guiding Bridge):** For $360z$ to be a perfect square, every prime exponent must be even, so $z = 2^1 \\times 5^1 = 10$. For $360y$ to be a perfect cube, every prime exponent must be a multiple of $3$, so $y = 3^1 \\times 5^2 = 75$.\n• **Step 3 (How to Finish):** Add your smallest values for $z$ and $y$ ($10 + 75$) together.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 18,
@@ -267,7 +284,8 @@
     ],
     "answer": "(C) 64",
     "explanation": "For a 15 x 15 floor with white corners following this checkerboard pattern, there are 8 rows containing 8 white tiles each, totaling 8 * 8 = 64 white tiles.",
-    "hint": "**Key Strategy:** Pattern Recognition (Row-and-Column Counting)\n• **Step 1 (First Move):** Notice in the $7 \\times 7$ floor that white tiles sit only at positions where both the row and column numbers are odd ($1, 3, 5, 7$), forming $4$ rows of $4$ white tiles (where $\\frac{7 + 1}{2} = 4$).\n• **Step 2 (The Guiding Bridge):** Apply the same pattern to a $15 \\times 15$ floor: find how many odd-numbered rows (and odd-numbered columns) go from $1$ to $15$ by calculating $\\frac{15 + 1}{2} = 8$.\n• **Step 3 (How to Finish):** Multiply the number of rows containing white tiles by the number of white tiles per row ($8 \\times 8$) to find the total number of white tiles."
+    "hint": "**Key Strategy:** Pattern Recognition (Row-and-Column Counting)\n• **Step 1 (First Move):** Notice in the $7 \\times 7$ floor that white tiles sit only at positions where both the row and column numbers are odd ($1, 3, 5, 7$), forming $4$ rows of $4$ white tiles (where $\\frac{7 + 1}{2} = 4$).\n• **Step 2 (The Guiding Bridge):** Apply the same pattern to a $15 \\times 15$ floor: find how many odd-numbered rows (and odd-numbered columns) go from $1$ to $15$ by calculating $\\frac{15 + 1}{2} = 8$.\n• **Step 3 (How to Finish):** Multiply the number of rows containing white tiles by the number of white tiles per row ($8 \\times 8$) to find the total number of white tiles.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 19,
@@ -281,7 +299,8 @@
     ],
     "answer": "(D) 165",
     "explanation": "Possible values for x are 70, 55, and 40. Their sum is 70 + 55 + 40 = 165.",
-    "hint": "**Key Strategy:** Casework on Triangle Angle Sum ($180^\\circ$)\n• **Step 1 (First Move):** Use the fact that an isosceles triangle has two equal angles and its three angles add up to $180^\\circ$, splitting into cases based on which angle is repeated.\n• **Step 2 (The Guiding Bridge):** Solve each of the three valid cases for $x$:\n  - Two angles are $70^\\circ$: $x = 180 - 70 - 70 = 40$.\n  - $x^\\circ$ matches $70^\\circ$: $x = 70$.\n  - The two equal angles are both $x^\\circ$: $2x + 70 = 180$, so $x = \\frac{180 - 70}{2} = 55$.\n• **Step 3 (How to Finish):** Add the three possible values ($40 + 70 + 55$) together to find their sum."
+    "hint": "**Key Strategy:** Casework on Triangle Angle Sum ($180^\\circ$)\n• **Step 1 (First Move):** Use the fact that an isosceles triangle has two equal angles and its three angles add up to $180^\\circ$, splitting into cases based on which angle is repeated.\n• **Step 2 (The Guiding Bridge):** Solve each of the three valid cases for $x$:\n  - Two angles are $70^\\circ$: $x = 180 - 70 - 70 = 40$.\n  - $x^\\circ$ matches $70^\\circ$: $x = 70$.\n  - The two equal angles are both $x^\\circ$: $2x + 70 = 180$, so $x = \\frac{180 - 70}{2} = 55$.\n• **Step 3 (How to Finish):** Add the three possible values ($40 + 70 + 55$) together to find their sum.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 20,
@@ -297,7 +316,8 @@
     ],
     "answer": "(D) 8",
     "explanation": "By selecting combinations of 3 points from the given array layout, there are 8 distinct non-congruent triangle shapes possible.",
-    "hint": "**Key Strategy:** Systematic Casework by Base Length and Symmetry\n• **Step 1 (First Move):** Since $3$ points in the same straight line cannot form a triangle, every triangle must have $2$ vertices along one row (forming a horizontal base) and the $3$rd vertex on the other row.\n• **Step 2 (The Guiding Bridge):** Organize your search by the length of the horizontal base ($1$ unit, $2$ units, $3$ units), and for each base length, test each possible position of the $3$rd vertex while checking side lengths to avoid counting mirror reflections or rotations twice.\n• **Step 3 (How to Finish):** Count how many truly distinct (non-congruent) triangles appear across all base-length cases and sum those counts."
+    "hint": "**Key Strategy:** Systematic Casework by Base Length and Symmetry\n• **Step 1 (First Move):** Since $3$ points in the same straight line cannot form a triangle, every triangle must have $2$ vertices along one row (forming a horizontal base) and the $3$rd vertex on the other row.\n• **Step 2 (The Guiding Bridge):** Organize your search by the length of the horizontal base ($1$ unit, $2$ units, $3$ units), and for each base length, test each possible position of the $3$rd vertex while checking side lengths to avoid counting mirror reflections or rotations twice.\n• **Step 3 (How to Finish):** Count how many truly distinct (non-congruent) triangles appear across all base-length cases and sum those counts.",
+    "category": "Counting & Probability"
   },
   {
     "id": 21,
@@ -311,7 +331,8 @@
     ],
     "answer": "(D) 15/8",
     "explanation": "The total sum is 40A = 75B, which gives A/B = 75/40 = 15/8.",
-    "hint": "**Key Strategy:** Invariance (Double Counting the Total Sum)\n• **Step 1 (First Move):** Write the total sum $S$ of all numbers in the array using Andy's $40$ row sums with average $A$: $S = 40A$.\n• **Step 2 (The Guiding Bridge):** Write the exact same total sum $S$ using Bethany's $75$ column sums with average $B$: $S = 75B$, so $40A = 75B$.\n• **Step 3 (How to Finish):** Rearrange the equation to get $\\frac{A}{B} = \\frac{75}{40}$, then simplify the fraction by dividing numerator and denominator by $5$."
+    "hint": "**Key Strategy:** Invariance (Double Counting the Total Sum)\n• **Step 1 (First Move):** Write the total sum $S$ of all numbers in the array using Andy's $40$ row sums with average $A$: $S = 40A$.\n• **Step 2 (The Guiding Bridge):** Write the exact same total sum $S$ using Bethany's $75$ column sums with average $B$: $S = 75B$, so $40A = 75B$.\n• **Step 3 (How to Finish):** Rearrange the equation to get $\\frac{A}{B} = \\frac{75}{40}$, then simplify the fraction by dividing numerator and denominator by $5$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 22,
@@ -325,7 +346,8 @@
     ],
     "answer": "(D) 728",
     "explanation": "Using 3 digits without the digit 1 gives 9^3 = 729 numbers from 000 to 999. Excluding 000 leaves 729 - 1 = 728 numbers.",
-    "hint": "**Key Strategy:** Multiplication Principle with Padded Digits\n• **Step 1 (First Move):** Pad every number from $0$ to $999$ with leading zeros so each is a $3$-digit string from $000$ to $999$ (note that $1000$ contains the digit $1$, so it is already excluded).\n• **Step 2 (The Guiding Bridge):** Since the digit $1$ cannot be used, each of the $3$ digit places has $9$ valid choices ($0, 2, 3, 4, 5, 6, 7, 8, 9$), giving $9 \\times 9 \\times 9 = 9^3 = 729$ strings from $000$ to $999$ without a $1$.\n• **Step 3 (How to Finish):** Subtract $1$ from $729$ to remove $000$, leaving only the whole numbers between $1$ and $1000$."
+    "hint": "**Key Strategy:** Multiplication Principle with Padded Digits\n• **Step 1 (First Move):** Pad every number from $0$ to $999$ with leading zeros so each is a $3$-digit string from $000$ to $999$ (note that $1000$ contains the digit $1$, so it is already excluded).\n• **Step 2 (The Guiding Bridge):** Since the digit $1$ cannot be used, each of the $3$ digit places has $9$ valid choices ($0, 2, 3, 4, 5, 6, 7, 8, 9$), giving $9 \\times 9 \\times 9 = 9^3 = 729$ strings from $000$ to $999$ without a $1$.\n• **Step 3 (How to Finish):** Subtract $1$ from $729$ to remove $000$, leaving only the whole numbers between $1$ and $1000$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 23,
@@ -339,7 +361,8 @@
     ],
     "answer": "(B) 28",
     "explanation": "Let g be the number of girls and g+2 be the number of boys. Total beans given = g^2 + (g+2)^2 = 394. Testing g = 13 gives 13^2 + 15^2 = 169 + 225 = 394. Total students = 13 + 15 = 28.",
-    "hint": "**Key Strategy:** Algebraic Modeling and Perfect Squares\n• **Step 1 (First Move):** Subtract the $6$ leftover jelly beans from $400$ to find how many Mrs. Wonderful gave away: $400 - 6 = 394$.\n• **Step 2 (The Guiding Bridge):** Let $g$ be the number of girls and $g + 2$ be the number of boys; since each girl receives $g$ beans and each boy receives $g + 2$ beans, set up $g^2 + (g + 2)^2 = 394$, and check perfect squares near half of $394$ ($197$): $13^2 = 169$ and $15^2 = 225$, which satisfy $169 + 225 = 394$.\n• **Step 3 (How to Finish):** Add the number of girls ($g = 13$) and the number of boys ($g + 2 = 15$) together to find the total number of students in her class."
+    "hint": "**Key Strategy:** Algebraic Modeling and Perfect Squares\n• **Step 1 (First Move):** Subtract the $6$ leftover jelly beans from $400$ to find how many Mrs. Wonderful gave away: $400 - 6 = 394$.\n• **Step 2 (The Guiding Bridge):** Let $g$ be the number of girls and $g + 2$ be the number of boys; since each girl receives $g$ beans and each boy receives $g + 2$ beans, set up $g^2 + (g + 2)^2 = 394$, and check perfect squares near half of $394$ ($197$): $13^2 = 169$ and $15^2 = 225$, which satisfy $169 + 225 = 394$.\n• **Step 3 (How to Finish):** Add the number of girls ($g = 13$) and the number of boys ($g + 2 = 15$) together to find the total number of students in her class.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 24,
@@ -353,7 +376,8 @@
     ],
     "answer": "(E) 9",
     "explanation": "From the puzzle equations, A = 5, C = 4, and D = 5 + 4 = 9.",
-    "hint": "**Key Strategy:** Cryptarithm (Place-Value Analysis)\n• **Step 1 (First Move):** Look at the units column of $AB + CA = DA$: since $B + A$ ends in $A$ and $B$ is a single digit, $B$ must be $0$.\n• **Step 2 (The Guiding Bridge):** Substitute $B = 0$ into $AB - CA = A$ to get $(10A + 0) - (10C + A) = A$, which simplifies to $8A = 10C$, or $4A = 5C$. Since $A$ and $C$ are nonzero single digits, this forces $A = 5$ and $C = 4$.\n• **Step 3 (How to Finish):** Plug $A = 5$, $B = 0$, and $C = 4$ into $AB + CA = DA$ ($50 + 45$) to read off the digit $D$."
+    "hint": "**Key Strategy:** Cryptarithm (Place-Value Analysis)\n• **Step 1 (First Move):** Look at the units column of $AB + CA = DA$: since $B + A$ ends in $A$ and $B$ is a single digit, $B$ must be $0$.\n• **Step 2 (The Guiding Bridge):** Substitute $B = 0$ into $AB - CA = A$ to get $(10A + 0) - (10C + A) = A$, which simplifies to $8A = 10C$, or $4A = 5C$. Since $A$ and $C$ are nonzero single digits, this forces $A = 5$ and $C = 4$.\n• **Step 3 (How to Finish):** Plug $A = 5$, $B = 0$, and $C = 4$ into $AB + CA = DA$ ($50 + 45$) to read off the digit $D$.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 25,
@@ -369,6 +393,7 @@
     ],
     "answer": "(E) 11",
     "explanation": "The side area remains 4, the two ends total 2, and the 3 cuts add 3 * 2 = 6 square feet of exposed cross-sectional area. Total surface area = 4 + 2 + 6 = 11 square feet.",
-    "hint": "**Key Strategy:** Counting Exposed Area After Cuts and Regluing\n• **Step 1 (First Move):** Start with the $1 \\times 1 \\times 1$ cube's original surface area of $6\\text{ sq ft}$, and note that each of the $3$ horizontal cuts creates $2$ new $1 \\times 1$ faces, giving the $4$ separated pieces a combined surface area of $6 + 3 \\times 2 = 12\\text{ sq ft}$.\n• **Step 2 (The Guiding Bridge):** Compare the piece thicknesses: $A$ is $\\frac{1}{2}\\text{ ft}$ thick, while $B$ ($\\frac{1}{3}\\text{ ft}$), $C$ ($\\frac{1}{17}\\text{ ft}$), and $D$ ($1 - \\frac{1}{2} - \\frac{1}{3} - \\frac{1}{17}$) are all thinner than $A$ and together have thickness $1 - \\frac{1}{2} = \\frac{1}{2}\\text{ ft}$ (with $C$ thinner than $B$). When glued side by side in the order $C, B, A, D$, the $3$ joints cover both sides of $C$'s joint face, $B$'s joint face, and $D$'s joint face, hiding $2 \\times (\\text{thickness of } C + B + D) = 2 \\times \\frac{1}{2} = 1\\text{ sq ft}$.\n• **Step 3 (How to Finish):** Subtract the hidden glued area ($1\\text{ sq ft}$) from the total surface area of the four separate pieces ($12\\text{ sq ft}$) to find the solid's total surface area."
+    "hint": "**Key Strategy:** Counting Exposed Area After Cuts and Regluing\n• **Step 1 (First Move):** Start with the $1 \\times 1 \\times 1$ cube's original surface area of $6\\text{ sq ft}$, and note that each of the $3$ horizontal cuts creates $2$ new $1 \\times 1$ faces, giving the $4$ separated pieces a combined surface area of $6 + 3 \\times 2 = 12\\text{ sq ft}$.\n• **Step 2 (The Guiding Bridge):** Compare the piece thicknesses: $A$ is $\\frac{1}{2}\\text{ ft}$ thick, while $B$ ($\\frac{1}{3}\\text{ ft}$), $C$ ($\\frac{1}{17}\\text{ ft}$), and $D$ ($1 - \\frac{1}{2} - \\frac{1}{3} - \\frac{1}{17}$) are all thinner than $A$ and together have thickness $1 - \\frac{1}{2} = \\frac{1}{2}\\text{ ft}$ (with $C$ thinner than $B$). When glued side by side in the order $C, B, A, D$, the $3$ joints cover both sides of $C$'s joint face, $B$'s joint face, and $D$'s joint face, hiding $2 \\times (\\text{thickness of } C + B + D) = 2 \\times \\frac{1}{2} = 1\\text{ sq ft}$.\n• **Step 3 (How to Finish):** Subtract the hidden glued area ($1\\text{ sq ft}$) from the total surface area of the four separate pieces ($12\\text{ sq ft}$) to find the solid's total surface area.",
+    "category": "Geometry & Spatial"
   }
 ]

@@ -225,6 +225,102 @@ def get_registered_emails():
             print("Error reading users.json:", e)
     return []
 
+# --- STUDENT TOPIC MASTERY & PROGRESS TRACKING ---
+PROGRESS_FILE = os.path.join(BASE_DIR, "student_progress.json")
+
+def load_student_progress():
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading student progress: {e}")
+    return {}
+
+def save_student_progress(data):
+    try:
+        with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"Error saving student progress: {e}")
+
+def record_question_attempts(user_email, attempts):
+    if not user_email or not attempts:
+        return
+    data = load_student_progress()
+    email_key = user_email.strip().lower()
+    if email_key not in data:
+        data[email_key] = []
+    data[email_key].extend(attempts)
+    save_student_progress(data)
+
+def get_topic_analytics(user_email):
+    STANDARD_CATEGORIES = [
+        ("Algebra & Word Problems", "📊"),
+        ("Geometry & Spatial", "📐"),
+        ("Number Theory & Arithmetic", "🔢"),
+        ("Counting & Probability", "🎲"),
+        ("Logic & Patterns", "🧩")
+    ]
+    data = load_student_progress()
+    email_key = user_email.strip().lower() if user_email else ""
+    user_attempts = data.get(email_key, [])
+    
+    cat_stats = {}
+    for name, icon in STANDARD_CATEGORIES:
+        cat_stats[name] = {
+            "name": name,
+            "icon": icon,
+            "attempted": 0,
+            "correct": 0,
+            "hint_correct": 0,
+            "total_score": 0.0,
+            "accuracy": 0.0,
+            "status": "No Data Yet",
+            "color": "#6c757d"
+        }
+    
+    for att in user_attempts:
+        cat = att.get("category", "Algebra & Word Problems")
+        if cat not in cat_stats:
+            cat_stats[cat] = {
+                "name": cat,
+                "icon": "📌",
+                "attempted": 0,
+                "correct": 0,
+                "hint_correct": 0,
+                "total_score": 0.0,
+                "accuracy": 0.0,
+                "status": "No Data Yet",
+                "color": "#6c757d"
+            }
+        cat_stats[cat]["attempted"] += 1
+        if att.get("correct", False):
+            cat_stats[cat]["correct"] += 1
+            if att.get("hint_used", False):
+                cat_stats[cat]["hint_correct"] += 1
+        cat_stats[cat]["total_score"] += float(att.get("score", 0.0))
+
+    for cat, stats in cat_stats.items():
+        att_count = stats["attempted"]
+        if att_count > 0:
+            acc = (stats["correct"] / att_count) * 100.0
+            stats["accuracy"] = round(acc, 1)
+            if att_count < 3:
+                stats["status"] = "Practicing 🆕"
+                stats["color"] = "#17a2b8"
+            elif acc >= 70.0:
+                stats["status"] = "Strong 💪"
+                stats["color"] = "#28a745"
+            elif acc >= 50.0:
+                stats["status"] = "Moderate 👍"
+                stats["color"] = "#e67700"
+            else:
+                stats["status"] = "Focus Area ⚠️"
+                stats["color"] = "#dc3545"
+
+    return list(cat_stats.values())
+
 def log_result_to_sheets(test_type, score_str, user_email, duration_str="N/A"):
     if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
         return
@@ -423,6 +519,40 @@ if app_mode == "🎲 Practice":
         label_visibility="collapsed"
     )
 
+    topic_options = [
+        "All Topics (Mixed)",
+        "🎯 Focus on Weakest Topics",
+        "📐 Geometry & Spatial",
+        "🔢 Number Theory & Arithmetic",
+        "📊 Algebra & Word Problems",
+        "🎲 Counting & Probability",
+        "🧩 Logic & Patterns"
+    ]
+    st.sidebar.markdown("**Select Practice Topic:**")
+    default_topic_idx = 0
+    if st.session_state.get("target_weakness_mode", False):
+        default_topic_idx = 1
+        st.session_state.target_weakness_mode = False
+
+    selected_topic_filter = st.sidebar.selectbox(
+        "Practice Topic:",
+        topic_options,
+        index=default_topic_idx,
+        label_visibility="collapsed"
+    )
+
+    # Reset practice questions if topic filter changed
+    if "current_topic_filter" not in st.session_state or st.session_state.current_topic_filter != selected_topic_filter:
+        st.session_state.current_topic_filter = selected_topic_filter
+        st.session_state.practice_questions = []
+        st.session_state.practice_submitted = False
+        st.session_state.practice_answers = {}
+        st.session_state.practice_hints_used = {}
+        st.session_state.logged_practice = False
+        st.session_state.reshuffle_count = 0
+        st.session_state.show_reshuffle_confirm = False
+        st.session_state.practice_session_id = st.session_state.get("practice_session_id", 0) + 1
+
 elif app_mode == "📝 Mock Test":
     test_files = get_comp_files(selected_competition)
     st.sidebar.markdown("**Select test paper:**")
@@ -554,6 +684,33 @@ if app_mode == "🎲 Practice":
                 item_copy["source_file"] = file
                 pooled_questions.append(item_copy)
 
+        # Apply topic filter
+        if selected_topic_filter == "🎯 Focus on Weakest Topics":
+            analytics = get_topic_analytics(user_email)
+            weak_topics = [item["name"] for item in analytics if item["attempted"] > 0 and item["accuracy"] < 60.0]
+            if not weak_topics:
+                with_data = [item for item in analytics if item["attempted"] > 0]
+                if with_data:
+                    min_acc = min(item["accuracy"] for item in with_data)
+                    weak_topics = [item["name"] for item in with_data if item["accuracy"] == min_acc]
+            if weak_topics:
+                filtered = [q for q in pooled_questions if q.get("category") in weak_topics]
+                if filtered:
+                    pooled_questions = filtered
+                    st.info(f"🎯 **Targeted Weakness Mode**: Focusing practice questions on your weak areas: **{', '.join(weak_topics)}**.")
+                else:
+                    st.warning(f"No questions found for weak topics ({', '.join(weak_topics)}) in {selected_competition}. Using all topics.")
+            else:
+                st.info("💡 Complete a few practice sessions or mock tests first so the app can identify your specific weak areas. Serving a balanced set for now!")
+        elif selected_topic_filter != "All Topics (Mixed)":
+            clean_topic = selected_topic_filter.split(" ", 1)[-1].strip()
+            filtered = [q for q in pooled_questions if q.get("category", "").lower() == clean_topic.lower()]
+            if filtered:
+                pooled_questions = filtered
+                st.info(f"📌 **Topic Filter Active**: Practicing **{selected_topic_filter}** ({len(filtered)} questions available).")
+            else:
+                st.warning(f"No questions found for topic '{clean_topic}' in {selected_competition}. Using all available questions.")
+
         target_sample_size = min(num_q_select, len(pooled_questions)) if pooled_questions else 0
         needs_sampling = (
             do_reshuffle 
@@ -639,6 +796,26 @@ if app_mode == "🎲 Practice":
 
                 if not st.session_state.logged_practice:
                     log_result_to_sheets(f"Practice Mode - {selected_competition}", f"{score_display}/{total}", user_email, time_str)
+                    # Record detailed question attempts for topic mastery
+                    now_str = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S")
+                    attempts = []
+                    for idx, q in enumerate(questions):
+                        user_ans = st.session_state.practice_answers.get(idx)
+                        correct_ans = q["answer"]
+                        used_hint = st.session_state.practice_hints_used.get(idx, False)
+                        is_corr = (user_ans == correct_ans)
+                        pts = 0.7 if (is_corr and used_hint) else (1.0 if is_corr else 0.0)
+                        attempts.append({
+                            "timestamp": now_str,
+                            "session_type": f"Practice ({selected_competition})",
+                            "source_file": q.get("source_file", ""),
+                            "q_id": q["id"],
+                            "category": q.get("category", "Algebra & Word Problems"),
+                            "correct": is_corr,
+                            "score": pts,
+                            "hint_used": used_hint
+                        })
+                    record_question_attempts(user_email, attempts)
                     st.session_state.logged_practice = True
 
                 st.markdown(
@@ -679,14 +856,15 @@ if app_mode == "🎲 Practice":
                     img_w = q.get("image_width", 300)
                     used_hint = st.session_state.practice_hints_used.get(idx, False)
 
+                    q_cat = q.get("category", "General Math")
                     if user_ans == correct_ans:
                         if used_hint:
-                            st.markdown(f"✅ **Question {idx + 1}: Correct with Hint** (Score: **0.7 / 1.0** pts, -30% deduction) — Your choice: {user_ans_str}")
+                            st.markdown(f"✅ **Question {idx + 1}** [{q_cat}]: **Correct with Hint** (Score: **0.7 / 1.0** pts, -30% deduction) — Your choice: {user_ans_str}")
                         else:
-                            st.markdown(f"✅ **Question {idx + 1}: Correct** (Score: **1.0 / 1.0** pts) — Your choice: {user_ans_str}")
+                            st.markdown(f"✅ **Question {idx + 1}** [{q_cat}]: **Correct** (Score: **1.0 / 1.0** pts) — Your choice: {user_ans_str}")
                     else:
                         hint_note = " (Hint was viewed)" if used_hint else ""
-                        st.markdown(f"❌ **Question {idx + 1}: Incorrect** (Score: **0.0 / 1.0** pts{hint_note}) — Your choice: {user_ans_str} | Correct answer: **{correct_ans}**")
+                        st.markdown(f"❌ **Question {idx + 1}** [{q_cat}]: **Incorrect** (Score: **0.0 / 1.0** pts{hint_note}) — Your choice: {user_ans_str} | Correct answer: **{correct_ans}**")
 
                     with st.expander(f"View Solution for Question {idx + 1}"):
                         img_path = get_image_path(folder_name, q_id)
@@ -703,8 +881,19 @@ if app_mode == "🎲 Practice":
                     source_file = q.get("source_file", "")
                     folder_name = source_file.replace(".json", "") if source_file else ""
                     img_w = q.get("image_width", 300)
+                    q_cat = q.get("category", "General Math")
                     
                     st.subheader(f"Question {idx + 1} (From {source_file})")
+                    st.markdown(
+                        f"""
+                        <div style='margin-top: -6px; margin-bottom: 8px;'>
+                            <span style='background-color: #f1f3f5; color: #495057; font-size: 13px; font-weight: 600; padding: 2px 10px; border-radius: 6px; border: 1px solid #dee2e6;'>
+                                🏷️ Topic: {q_cat}
+                            </span>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
                     st.markdown(q["question"], unsafe_allow_html=True)
                     
                     img_path = get_image_path(folder_name, q_id)
@@ -877,6 +1066,27 @@ elif app_mode == "📝 Mock Test":
 
                 if not st.session_state.logged_mock:
                     log_result_to_sheets(f"Mock Test - {selected_competition} {exam_year}", f"{score_display}/{total}", user_email, time_str)
+                    # Record detailed question attempts for topic mastery
+                    now_str = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S")
+                    attempts = []
+                    for q in questions:
+                        q_id = q["id"]
+                        user_ans = st.session_state.user_answers.get(q_id)
+                        correct_ans = q["answer"]
+                        used_hint = st.session_state.user_hints_used.get(q_id, False)
+                        is_corr = (user_ans == correct_ans)
+                        pts = 0.7 if (is_corr and used_hint) else (1.0 if is_corr else 0.0)
+                        attempts.append({
+                            "timestamp": now_str,
+                            "session_type": f"Mock Test ({selected_competition} {exam_year})",
+                            "source_file": selected_file,
+                            "q_id": q_id,
+                            "category": q.get("category", "Algebra & Word Problems"),
+                            "correct": is_corr,
+                            "score": pts,
+                            "hint_used": used_hint
+                        })
+                    record_question_attempts(user_email, attempts)
                     st.session_state.logged_mock = True
 
                 st.markdown(
@@ -902,15 +1112,16 @@ elif app_mode == "📝 Mock Test":
                     correct_ans = q["answer"]
                     img_w = q.get("image_width", 300)
                     used_hint = st.session_state.user_hints_used.get(q_id, False)
+                    q_cat = q.get("category", "General Math")
                     
                     if user_ans == correct_ans:
                         if used_hint:
-                            st.markdown(f"✅ **Question {q_id}: Correct with Hint** (Score: **0.7 / 1.0** pts, -30% deduction) — Your choice: {user_ans_str}")
+                            st.markdown(f"✅ **Question {q_id}** [{q_cat}]: **Correct with Hint** (Score: **0.7 / 1.0** pts, -30% deduction) — Your choice: {user_ans_str}")
                         else:
-                            st.markdown(f"✅ **Question {q_id}: Correct** (Score: **1.0 / 1.0** pts) — Your choice: {user_ans_str}")
+                            st.markdown(f"✅ **Question {q_id}** [{q_cat}]: **Correct** (Score: **1.0 / 1.0** pts) — Your choice: {user_ans_str}")
                     else:
                         hint_note = " (Hint was viewed)" if used_hint else ""
-                        st.markdown(f"❌ **Question {q_id}: Incorrect** (Score: **0.0 / 1.0** pts{hint_note}) — Your choice: {user_ans_str} | Correct answer: **{correct_ans}**")
+                        st.markdown(f"❌ **Question {q_id}** [{q_cat}]: **Incorrect** (Score: **0.0 / 1.0** pts{hint_note}) — Your choice: {user_ans_str} | Correct answer: **{correct_ans}**")
                     
                     with st.expander(f"View Solution for Question {q_id}"):
                         img_path = get_image_path(folder_name, q_id)
@@ -925,8 +1136,19 @@ elif app_mode == "📝 Mock Test":
                 for q in questions:
                     q_id = q['id']
                     img_w = q.get("image_width", 300)
+                    q_cat = q.get("category", "General Math")
 
                     st.subheader(f"Question {q_id}")
+                    st.markdown(
+                        f"""
+                        <div style='margin-top: -6px; margin-bottom: 8px;'>
+                            <span style='background-color: #f1f3f5; color: #495057; font-size: 13px; font-weight: 600; padding: 2px 10px; border-radius: 6px; border: 1px solid #dee2e6;'>
+                                🏷️ Topic: {q_cat}
+                            </span>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
                     st.markdown(q["question"], unsafe_allow_html=True)
                     
                     img_path = get_image_path(folder_name, q_id)
@@ -993,6 +1215,66 @@ elif app_mode == "📊 My History":
             st.rerun()
 
     st.write(f"Showing practice and test history for email: **{user_email}**")
+    
+    # ==========================================
+    # TOPIC MASTERY & STRENGTHS/WEAKNESSES DASHBOARD
+    # ==========================================
+    st.markdown("### 🎯 Strengths & Weaknesses (Topic Mastery)")
+    analytics = get_topic_analytics(user_email)
+    total_attempts = sum(cat["attempted"] for cat in analytics)
+
+    if total_attempts == 0:
+        st.info("ℹ️ Complete a few practice sessions or mock tests to begin tracking your personalized strengths and weaknesses breakdown here!")
+    else:
+        attempted_cats = [c for c in analytics if c["attempted"] > 0]
+        weak_cats = [c for c in attempted_cats if c["accuracy"] < 50.0]
+        moderate_cats = [c for c in attempted_cats if 50.0 <= c["accuracy"] < 70.0]
+        strong_cats = [c for c in attempted_cats if c["accuracy"] >= 70.0]
+
+        # Recommendation Card
+        rec_html = "<div style='background-color: #f8f9fa; border: 1px solid #ced4da; border-radius: 8px; padding: 12px 16px; margin-bottom: 14px;'>"
+        rec_html += "<div style='font-size: 15px; font-weight: 700; color: #343a40; margin-bottom: 4px;'>💡 Personalized Study Guidance:</div>"
+        if weak_cats:
+            weak_str = ", ".join([f"<strong>{c['name']}</strong> ({c['accuracy']}%)" for c in weak_cats])
+            rec_html += f"<div style='font-size: 14px; color: #c92a2a; line-height: 1.5;'>⚠️ <strong>Needs Improvement:</strong> {weak_str} — Accuracy is lowest here. Focusing practice on these areas will yield the greatest score gains.</div>"
+        if strong_cats:
+            strong_str = ", ".join([f"<strong>{c['name']}</strong> ({c['accuracy']}%)" for c in strong_cats])
+            rec_html += f"<div style='font-size: 14px; color: #2b8a3e; line-height: 1.5; margin-top: 4px;'>💪 <strong>Solid Strengths:</strong> {strong_str} — Great mastery! Keep reviewing periodically.</div>"
+        if not weak_cats and not strong_cats:
+            rec_html += "<div style='font-size: 14px; color: #495057; line-height: 1.5;'>Performance is currently balanced across topics. Continue practicing to push accuracy above 70%!</div>"
+        rec_html += "</div>"
+        st.markdown(rec_html, unsafe_allow_html=True)
+
+        # 5 Topic Cards Grid
+        cols = st.columns(len(analytics))
+        for col, cat in zip(cols, analytics):
+            with col:
+                bg_col = "#eafaf1" if cat["accuracy"] >= 70 else ("#fef9e7" if cat["accuracy"] >= 50 else ("#fdf2f2" if cat["attempted"] > 0 else "#f8f9fa"))
+                border_col = "#a3e4d7" if cat["accuracy"] >= 70 else ("#f9e79f" if cat["accuracy"] >= 50 else ("#f5b7b1" if cat["attempted"] > 0 else "#e9ecef"))
+                text_col = "#1e8449" if cat["accuracy"] >= 70 else ("#b7950b" if cat["accuracy"] >= 50 else ("#c0392b" if cat["attempted"] > 0 else "#6c757d"))
+                acc_display = f"{cat['accuracy']}%" if cat["attempted"] > 0 else "N/A"
+                
+                st.markdown(
+                    f"""
+                    <div style='background-color: {bg_col}; border: 1px solid {border_col}; border-radius: 8px; padding: 10px 8px; text-align: center; min-height: 145px; display: flex; flex-direction: column; justify-content: space-between;'>
+                        <div>
+                            <div style='font-size: 22px; line-height: 1.0;'>{cat['icon']}</div>
+                            <div style='font-size: 12px; font-weight: 700; color: #343a40; margin-top: 2px; line-height: 1.2;'>{cat['name']}</div>
+                        </div>
+                        <div>
+                            <div style='font-size: 24px; font-weight: 800; color: {text_col}; margin: 2px 0 2px 0;'>{acc_display}</div>
+                            <div style='font-size: 11px; font-weight: 600; color: {text_col}; background-color: #ffffff; padding: 1px 6px; border-radius: 8px; border: 1px solid {border_col}; display: inline-block;'>{cat['status']}</div>
+                        </div>
+                        <div style='font-size: 11px; color: #6c757d; margin-top: 2px;'>
+                            {cat['correct']}/{cat['attempted']} solved
+                        </div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+                progress_val = min(1.0, max(0.0, cat["accuracy"] / 100.0)) if cat["attempted"] > 0 else 0.0
+                st.progress(progress_val)
+    st.markdown("---")
     
     with st.spinner("Fetching your history from Google Sheets..."):
         history = fetch_user_history(user_email)

@@ -11,7 +11,8 @@
     ],
     "answer": "(C) 665",
     "explanation": "There are 60 minutes in 1 hour, so 11 hours plus 5 minutes is equal to 11 * 60 + 5 = 665 minutes.",
-    "hint": "**Key Strategy:** Unit Conversion\n• **Step 1 (First Move):** Recall that $1\\text{ hour} = 60\\text{ minutes}$, so start by converting the $11\\text{ hours}$ into minutes using $11 \\times 60$.\n• **Step 2 (The Guiding Bridge):** Break up the multiplication to make it easy to check: $11 \\times 60 = (10 \\times 60) + (1 \\times 60) = 600 + 60 = 660\\text{ minutes}$.\n• **Step 3 (How to Finish):** Add the extra $5\\text{ minutes}$ to $660$ to get the total number of minutes."
+    "hint": "**Key Strategy:** Unit Conversion\n• **Step 1 (First Move):** Recall that $1\\text{ hour} = 60\\text{ minutes}$, so start by converting the $11\\text{ hours}$ into minutes using $11 \\times 60$.\n• **Step 2 (The Guiding Bridge):** Break up the multiplication to make it easy to check: $11 \\times 60 = (10 \\times 60) + (1 \\times 60) = 600 + 60 = 660\\text{ minutes}$.\n• **Step 3 (How to Finish):** Add the extra $5\\text{ minutes}$ to $660$ to get the total number of minutes.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "(A) 12",
     "explanation": "The altitude from C to the base segment AM is CD. Thus the area of the shaded triangle AMC is (1/2) * AM * CD = (1/2) * 4 * 6 = 12.",
-    "hint": "**Key Strategy:** Triangle Area Formula (Base and Height)\n• **Step 1 (First Move):** Since $M$ is the midpoint of side $AD$ and $AD = 8$, divide $8$ in half to find the length of base $AM$: $AM = 8 \\div 2 = 4$.\n• **Step 2 (The Guiding Bridge):** Identify the height of $\\triangle AMC$ when using $AM$ as the base. Because $ABCD$ is a rectangle, side $CD$ is perpendicular to line $AD$, so the perpendicular height from vertex $C$ to base $AM$ is $CD = AB = 6$.\n• **Step 3 (How to Finish):** Substitute the base ($4$) and height ($6$) into the area formula $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ and compute the result."
+    "hint": "**Key Strategy:** Triangle Area Formula (Base and Height)\n• **Step 1 (First Move):** Since $M$ is the midpoint of side $AD$ and $AD = 8$, divide $8$ in half to find the length of base $AM$: $AM = 8 \\div 2 = 4$.\n• **Step 2 (The Guiding Bridge):** Identify the height of $\\triangle AMC$ when using $AM$ as the base. Because $ABCD$ is a rectangle, side $CD$ is perpendicular to line $AD$, so the perpendicular height from vertex $C$ to base $AM$ is $CD = AB = 6$.\n• **Step 3 (How to Finish):** Substitute the base ($4$) and height ($6$) into the area formula $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ and compute the result.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "(A) 40",
     "explanation": "The given scores 70, 80, and 90 are a total of 30 above the stated average. Thus the remaining score is 30 points below the average, so 70 - 30 = 40.",
-    "hint": "**Key Strategy:** Total Sum from Average\n• **Step 1 (First Move):** Since the average of $4$ scores is $70$, multiply to find what all four scores must add up to: $\\text{Total Sum} = 4 \\times 70 = 280$.\n• **Step 2 (The Guiding Bridge):** Add together the three known scores: $70 + 80 + 90 = 240$.\n• **Step 3 (How to Finish):** Subtract the sum of the three known scores ($240$) from the total sum of all four scores ($280$) to find the remaining score."
+    "hint": "**Key Strategy:** Total Sum from Average\n• **Step 1 (First Move):** Since the average of $4$ scores is $70$, multiply to find what all four scores must add up to: $\\text{Total Sum} = 4 \\times 70 = 280$.\n• **Step 2 (The Guiding Bridge):** Add together the three known scores: $70 + 80 + 90 = 240$.\n• **Step 3 (How to Finish):** Subtract the sum of the three known scores ($240$) from the total sum of all four scores ($280$) to find the remaining score.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "(B) 10",
     "explanation": "As a boy it took 210 minutes for 15 miles (14 minutes per mile). As an old man it takes 240 minutes for 10 miles (24 minutes per mile). Difference is 24 - 14 = 10 minutes.",
-    "hint": "**Key Strategy:** Unit Rate and Unit Conversion\n• **Step 1 (First Move):** Convert both times completely into minutes. As a boy, $3\\text{ hours and }30\\text{ minutes} = (3 \\times 60) + 30 = 210\\text{ minutes}$. As an old man, $4\\text{ hours} = 4 \\times 60 = 240\\text{ minutes}$.\n• **Step 2 (The Guiding Bridge):** Find the unit rate (minutes per mile) for each stage by dividing total minutes by distance: as a boy, $\\frac{210}{15} = 14\\text{ minutes per mile}$; as an old man, $\\frac{240}{10} = 24\\text{ minutes per mile}$.\n• **Step 3 (How to Finish):** Subtract his boy pace ($14$) from his old-man pace ($24$) to find how many minutes longer one mile takes now."
+    "hint": "**Key Strategy:** Unit Rate and Unit Conversion\n• **Step 1 (First Move):** Convert both times completely into minutes. As a boy, $3\\text{ hours and }30\\text{ minutes} = (3 \\times 60) + 30 = 210\\text{ minutes}$. As an old man, $4\\text{ hours} = 4 \\times 60 = 240\\text{ minutes}$.\n• **Step 2 (The Guiding Bridge):** Find the unit rate (minutes per mile) for each stage by dividing total minutes by distance: as a boy, $\\frac{210}{15} = 14\\text{ minutes per mile}$; as an old man, $\\frac{240}{10} = 24\\text{ minutes per mile}$.\n• **Step 3 (How to Finish):** Subtract his boy pace ($14$) from his old-man pace ($24$) to find how many minutes longer one mile takes now.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "(E) 7",
     "explanation": "The two-digit numbers leaving remainder 3 when divided by 10 and remainder 1 when divided by 9 intersect only at 73. When 73 is divided by 11 the remainder is 7.",
-    "hint": "**Key Strategy:** Systematic Listing and Modular Arithmetic\n• **Step 1 (First Move):** Use the second clue first: any two-digit number that leaves a remainder of $3$ when divided by $10$ must end in the digit $3$. List all possibilities: $13, 23, 33, 43, 53, 63, 73, 83, 93$.\n• **Step 2 (The Guiding Bridge):** Check which number in that list leaves a remainder of $1$ when divided by $9$ (meaning $N - 1$ is a multiple of $9$). Testing them shows only $N = 73$ works, since $73 - 1 = 72 = 9 \\times 8$.\n• **Step 3 (How to Finish):** Divide $73$ by $11$ ($73 = 11 \\times 6 + \\text{remainder}$) and write down the remainder."
+    "hint": "**Key Strategy:** Systematic Listing and Modular Arithmetic\n• **Step 1 (First Move):** Use the second clue first: any two-digit number that leaves a remainder of $3$ when divided by $10$ must end in the digit $3$. List all possibilities: $13, 23, 33, 43, 53, 63, 73, 83, 93$.\n• **Step 2 (The Guiding Bridge):** Check which number in that list leaves a remainder of $1$ when divided by $9$ (meaning $N - 1$ is a multiple of $9$). Testing them shows only $N = 73$ works, since $73 - 1 = 72 = 9 \\times 8$.\n• **Step 3 (How to Finish):** Divide $73$ by $11$ ($73 = 11 \\times 6 + \\text{remainder}$) and write down the remainder.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "(B) 4",
     "explanation": "The 19 name lengths are ordered, and the tenth value, 4, is the median.",
-    "hint": "**Key Strategy:** Median Position and Cumulative Frequency\n• **Step 1 (First Move):** When $19$ numbers are placed in order from least to greatest, find the exact middle position using $\\frac{19 + 1}{2} = 10$. So the median is the $10\\text{th}$ name length.\n• **Step 2 (The Guiding Bridge):** On the bar graph, start at the leftmost bar (shortest name length) and keep a running total of the bar heights (number of people) as you move from left to right.\n• **Step 3 (How to Finish):** Find the bar where your running total reaches or passes $10$; read the name length below that bar on the horizontal axis."
+    "hint": "**Key Strategy:** Median Position and Cumulative Frequency\n• **Step 1 (First Move):** When $19$ numbers are placed in order from least to greatest, find the exact middle position using $\\frac{19 + 1}{2} = 10$. So the median is the $10\\text{th}$ name length.\n• **Step 2 (The Guiding Bridge):** On the bar graph, start at the leftmost bar (shortest name length) and keep a running total of the bar heights (number of people) as you move from left to right.\n• **Step 3 (How to Finish):** Find the bar where your running total reaches or passes $10$; read the name length below that bar on the horizontal axis.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "(B) 2^2017",
     "explanation": "The number 2^2017 is not a perfect square because it is twice a square 2(2^1008)^2.",
-    "hint": "**Key Strategy:** Exponent Rules for Perfect Squares\n• **Step 1 (First Move):** A power $b^k$ is a perfect square if you can rewrite it in the form $(\\text{integer})^2$. Any power with an even exponent $2m$ is automatically a perfect square because $b^{2m} = (b^m)^2$.\n• **Step 2 (The Guiding Bridge):** Look closely at the two choices that have odd exponents ($2017$ and $2019$). Even though $2019$ is odd, notice that the base $4 = 2^2$ is already a square, so $4^{2019} = (2^2)^{2019} = 2^{4038} = (2^{2019})^2$, which IS a perfect square.\n• **Step 3 (How to Finish):** Pick the remaining choice whose base is a prime number and whose exponent is odd, since it has an odd number of that prime factor and cannot be split into two equal groups."
+    "hint": "**Key Strategy:** Exponent Rules for Perfect Squares\n• **Step 1 (First Move):** A power $b^k$ is a perfect square if you can rewrite it in the form $(\\text{integer})^2$. Any power with an even exponent $2m$ is automatically a perfect square because $b^{2m} = (b^m)^2$.\n• **Step 2 (The Guiding Bridge):** Look closely at the two choices that have odd exponents ($2017$ and $2019$). Even though $2019$ is odd, notice that the base $4 = 2^2$ is already a square, so $4^{2019} = (2^2)^{2019} = 2^{4038} = (2^{2019})^2$, which IS a perfect square.\n• **Step 3 (How to Finish):** Pick the remaining choice whose base is a prime number and whose exponent is odd, since it has an odd number of that prime factor and cannot be split into two equal groups.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "(C) 50",
     "explanation": "Evaluate by grouping pairs: (100-98) + (96-94) + ... + (4-2) = 2 * 25 = 50.",
-    "hint": "**Key Strategy:** Grouping Terms into Pairs\n• **Step 1 (First Move):** Group consecutive terms into subtraction pairs: $(100 - 98) + (96 - 94) + (92 - 90) + \\dots + (4 - 2)$. Each pair simplifies to $2$.\n• **Step 2 (The Guiding Bridge):** Count how many pairs there are. Notice the larger number in each pair is a multiple of $4$: $4, 8, 12, \\dots, 100$. Dividing the last number by $4$ gives $\\frac{100}{4} = 25$ pairs in total.\n• **Step 3 (How to Finish):** Multiply the value of one pair ($2$) by the total number of pairs ($25$) to find the value of the entire expression."
+    "hint": "**Key Strategy:** Grouping Terms into Pairs\n• **Step 1 (First Move):** Group consecutive terms into subtraction pairs: $(100 - 98) + (96 - 94) + (92 - 90) + \\dots + (4 - 2)$. Each pair simplifies to $2$.\n• **Step 2 (The Guiding Bridge):** Count how many pairs there are. Notice the larger number in each pair is a multiple of $4$: $4, 8, 12, \\dots, 100$. Dividing the last number by $4$ gives $\\frac{100}{4} = 25$ pairs in total.\n• **Step 3 (How to Finish):** Multiply the value of one pair ($2$) by the total number of pairs ($25$) to find the value of the entire expression.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "(B) 12",
     "explanation": "The prime factorization of 2016 is (2^5)(3^2)(7), so the distinct prime divisors are 2, 3, and 7, and their sum is 2 + 3 + 7 = 12.",
-    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Factor $2016$ by dividing out $2$'s repeatedly: $2016 = 2 \\times 1008 = 2^2 \\times 504 = 2^3 \\times 252 = 2^4 \\times 126 = 2^5 \\times 63$.\n• **Step 2 (The Guiding Bridge):** Factor the remaining odd part $63$ into primes: $63 = 9 \\times 7 = 3^2 \\times 7$. So the complete prime factorization is $2016 = 2^5 \\times 3^2 \\times 7$.\n• **Step 3 (How to Finish):** List the distinct (different) prime divisors—$2$, $3$, and $7$—and add those three prime numbers together once each."
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Factor $2016$ by dividing out $2$'s repeatedly: $2016 = 2 \\times 1008 = 2^2 \\times 504 = 2^3 \\times 252 = 2^4 \\times 126 = 2^5 \\times 63$.\n• **Step 2 (The Guiding Bridge):** Factor the remaining odd part $63$ into primes: $63 = 9 \\times 7 = 3^2 \\times 7$. So the complete prime factorization is $2016 = 2^5 \\times 3^2 \\times 7$.\n• **Step 3 (How to Finish):** List the distinct (different) prime divisors—$2$, $3$, and $7$—and add those three prime numbers together once each.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "answer": "(D) 10",
     "explanation": "Since 2*(5*x) = 1, 6 - (5*x) = 1, so 5*x = 5. Applying the formula again, 15 - x = 5, therefore x = 10.",
-    "hint": "**Key Strategy:** Substitution and Working Outside-In\n• **Step 1 (First Move):** Treat $(5 * x)$ as a single unknown block $B$, so the equation becomes $2 * B = 1$. Apply the rule $a * b = 3a - b$ with $a = 2$ and $b = B$: $3(2) - B = 1$, which gives $6 - B = 1$.\n• **Step 2 (The Guiding Bridge):** Solve $6 - B = 1$ to get $B = 5$. Replace $B$ back with $5 * x$ to form the equation $5 * x = 5$, and apply the rule $a * b = 3a - b$ one more time with $a = 5$ and $b = x$: $3(5) - x = 5$, or $15 - x = 5$.\n• **Step 3 (How to Finish):** Solve $15 - x = 5$ by subtracting $5$ from $15$ to find the value of $x$."
+    "hint": "**Key Strategy:** Substitution and Working Outside-In\n• **Step 1 (First Move):** Treat $(5 * x)$ as a single unknown block $B$, so the equation becomes $2 * B = 1$. Apply the rule $a * b = 3a - b$ with $a = 2$ and $b = B$: $3(2) - B = 1$, which gives $6 - B = 1$.\n• **Step 2 (The Guiding Bridge):** Solve $6 - B = 1$ to get $B = 5$. Replace $B$ back with $5 * x$ to form the equation $5 * x = 5$, and apply the rule $a * b = 3a - b$ one more time with $a = 5$ and $b = x$: $3(5) - x = 5$, or $15 - x = 5$.\n• **Step 3 (How to Finish):** Solve $15 - x = 5$ by subtracting $5$ from $15$ to find the value of $x$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "answer": "(B) 7",
     "explanation": "Let ab be the two-digit number. Then (10a+b) + (10b+a) = 11(a+b) = 132, so a+b = 12. There are 7 two-digit numbers meeting this criterion.",
-    "hint": "**Key Strategy:** Place Value Algebra and Systematic Listing\n• **Step 1 (First Move):** Represent any two-digit number as $10a + b$, where $a$ is the tens digit ($1 \\le a \\le 9$) and $b$ is the units digit ($0 \\le b \\le 9$). Reversing its digits gives $10b + a$.\n• **Step 2 (The Guiding Bridge):** Add the two expressions and set the sum equal to $132$: $(10a + b) + (10b + a) = 11a + 11b = 11(a + b) = 132$. Divide both sides by $11$ to find the required digit sum: $a + b = 12$.\n• **Step 3 (How to Finish):** List and count all pairs of digits $(a, b)$ with $1 \\le a \\le 9$ and $0 \\le b \\le 9$ that add up to $12$, starting from the smallest valid tens digit $a = 3$ (number $39$) up to $a = 9$ (number $93$)."
+    "hint": "**Key Strategy:** Place Value Algebra and Systematic Listing\n• **Step 1 (First Move):** Represent any two-digit number as $10a + b$, where $a$ is the tens digit ($1 \\le a \\le 9$) and $b$ is the units digit ($0 \\le b \\le 9$). Reversing its digits gives $10b + a$.\n• **Step 2 (The Guiding Bridge):** Add the two expressions and set the sum equal to $132$: $(10a + b) + (10b + a) = 11a + 11b = 11(a + b) = 132$. Divide both sides by $11$ to find the required digit sum: $a + b = 12$.\n• **Step 3 (How to Finish):** List and count all pairs of digits $(a, b)$ with $1 \\le a \\le 9$ and $0 \\le b \\le 9$ that add up to $12$, starting from the smallest valid tens digit $a = 3$ (number $39$) up to $a = 9$ (number $93$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "answer": "(B) 9/17",
     "explanation": "Suppose there are 12 boys and 12 girls. Then 9 girls and 8 boys went, total 17 students. The fraction of girls is 9/17.",
-    "hint": "**Key Strategy:** Choosing a Convenient Total (LCM)\n• **Step 1 (First Move):** Since the school has equal numbers of girls and boys and we take $\\frac{3}{4}$ of the girls and $\\frac{2}{3}$ of the boys, choose $\\text{LCM}(4, 3) = 12$. Assume there are $12$ girls and $12$ boys in the school.\n• **Step 2 (The Guiding Bridge):** Calculate how many students from each group went on the field trip: $\\frac{3}{4} \\times 12 = 9$ girls went, and compute $\\frac{2}{3} \\times 12$ to find how many boys went.\n• **Step 3 (How to Finish):** Add the girls and boys on the trip to find the total number of students on the trip, then write the fraction $\\frac{\\text{girls on the trip}}{\\text{total students on the trip}}$."
+    "hint": "**Key Strategy:** Choosing a Convenient Total (LCM)\n• **Step 1 (First Move):** Since the school has equal numbers of girls and boys and we take $\\frac{3}{4}$ of the girls and $\\frac{2}{3}$ of the boys, choose $\\text{LCM}(4, 3) = 12$. Assume there are $12$ girls and $12$ boys in the school.\n• **Step 2 (The Guiding Bridge):** Calculate how many students from each group went on the field trip: $\\frac{3}{4} \\times 12 = 9$ girls went, and compute $\\frac{2}{3} \\times 12$ to find how many boys went.\n• **Step 3 (How to Finish):** Add the girls and boys on the trip to find the total number of students on the trip, then write the fraction $\\frac{\\text{girls on the trip}}{\\text{total students on the trip}}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "answer": "(D) 1/3",
     "explanation": "There are 6 * 5 = 30 possible pairs. For a product to be 0, 0 must be paired with one of the other 5 numbers, giving 10 such products. Probability = 10/30 = 1/3.",
-    "hint": "**Key Strategy:** Counting Outcomes (Combinations)\n• **Step 1 (First Move):** Count the total number of ways to pick $2$ different numbers from the $6$ numbers in the set: $\\frac{6 \\times 5}{2} = 15$ possible pairs.\n• **Step 2 (The Guiding Bridge):** For a product of two numbers to be $0$, at least one of the two chosen numbers must be $0$. Since there is one $0$ in the set, a winning pair must combine $0$ with any of the other $5$ numbers, giving $5$ winning pairs.\n• **Step 3 (How to Finish):** Divide the number of winning pairs ($5$) by the total number of pairs ($15$) and simplify the fraction to lowest terms."
+    "hint": "**Key Strategy:** Counting Outcomes (Combinations)\n• **Step 1 (First Move):** Count the total number of ways to pick $2$ different numbers from the $6$ numbers in the set: $\\frac{6 \\times 5}{2} = 15$ possible pairs.\n• **Step 2 (The Guiding Bridge):** For a product of two numbers to be $0$, at least one of the two chosen numbers must be $0$. Since there is one $0$ in the set, a winning pair must combine $0$ with any of the other $5$ numbers, giving $5$ winning pairs.\n• **Step 3 (How to Finish):** Divide the number of winning pairs ($5$) by the total number of pairs ($15$) and simplify the fraction to lowest terms.",
+    "category": "Counting & Probability"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "answer": "(A) 525",
     "explanation": "Karl used 14 + 8 - 7 = 15 gallons of gas on his trip, so he drove 15 * 35 = 525 miles.",
-    "hint": "**Key Strategy:** Conservation of Total Gallons (Net Flow)\n• **Step 1 (First Move):** Notice that the $350\\text{ miles}$ is already part of the whole trip, so focus on the total gas Karl had and used. He started with $14\\text{ gallons}$ (full tank) and added $8\\text{ gallons}$ during the trip, giving $14 + 8 = 22\\text{ gallons}$ in total.\n• **Step 2 (The Guiding Bridge):** At the end of the trip, his tank was half full, meaning $\\frac{14}{2} = 7\\text{ gallons}$ were left over. Subtract the leftover gas from the total gas available to find how many gallons he burned: $22 - 7 = 15\\text{ gallons}$.\n• **Step 3 (How to Finish):** Since his car drives $35\\text{ miles}$ on each gallon, multiply the gallons burned ($15$) by $35$ to find the total distance driven."
+    "hint": "**Key Strategy:** Conservation of Total Gallons (Net Flow)\n• **Step 1 (First Move):** Notice that the $350\\text{ miles}$ is already part of the whole trip, so focus on the total gas Karl had and used. He started with $14\\text{ gallons}$ (full tank) and added $8\\text{ gallons}$ during the trip, giving $14 + 8 = 22\\text{ gallons}$ in total.\n• **Step 2 (The Guiding Bridge):** At the end of the trip, his tank was half full, meaning $\\frac{14}{2} = 7\\text{ gallons}$ were left over. Subtract the leftover gas from the total gas available to find how many gallons he burned: $22 - 7 = 15\\text{ gallons}$.\n• **Step 3 (How to Finish):** Since his car drives $35\\text{ miles}$ on each gallon, multiply the gallons burned ($15$) by $35$ to find the total distance driven.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "answer": "(C) 32",
     "explanation": "Factor using difference of two squares: 13^4 - 11^4 = (13^2 + 11^2)(13+11)(13-11) = 290 * 24 * 2 = 32 * 435.",
-    "hint": "**Key Strategy:** Difference of Squares\n• **Step 1 (First Move):** Apply the difference of squares formula $a^2 - b^2 = (a + b)(a - b)$ to $13^4 - 11^4 = (13^2)^2 - (11^2)^2$ to get $(13^2 + 11^2)(13^2 - 11^2)$.\n• **Step 2 (The Guiding Bridge):** Factor $13^2 - 11^2$ again as $(13 + 11)(13 - 11)$ and compute each of the three factors: $13^2 + 11^2 = 169 + 121 = 290$, $13 + 11 = 24$, and $13 - 11 = 2$. So $13^4 - 11^4 = 290 \\times 24 \\times 2$.\n• **Step 3 (How to Finish):** Pull out all factors of $2$ from each number ($290 = 2 \\times 145$, $24 = 2^3 \\times 3$, and $2 = 2^1$), add the exponents of $2$ together, and evaluate that power of $2$."
+    "hint": "**Key Strategy:** Difference of Squares\n• **Step 1 (First Move):** Apply the difference of squares formula $a^2 - b^2 = (a + b)(a - b)$ to $13^4 - 11^4 = (13^2)^2 - (11^2)^2$ to get $(13^2 + 11^2)(13^2 - 11^2)$.\n• **Step 2 (The Guiding Bridge):** Factor $13^2 - 11^2$ again as $(13 + 11)(13 - 11)$ and compute each of the three factors: $13^2 + 11^2 = 169 + 121 = 290$, $13 + 11 = 24$, and $13 - 11 = 2$. So $13^4 - 11^4 = 290 \\times 24 \\times 2$.\n• **Step 3 (How to Finish):** Pull out all factors of $2$ from each number ($290 = 2 \\times 145$, $24 = 2^3 \\times 3$, and $2 = 2^1$), add the exponents of $2$ together, and evaluate that power of $2$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "answer": "(D) 5",
     "explanation": "For each lap Bonnie completes, Annie runs 5/4 laps, gaining 1/4 of a lap. Annie passes Bonnie when Bonnie has run 4 laps, meaning Annie has run 5 laps.",
-    "hint": "**Key Strategy:** Relative Speed (Lap Gain)\n• **Step 1 (First Move):** Convert \"$25\\%$ faster\" into a lap ratio: whenever Bonnie runs $1$ lap, Annie runs $1 + 0.25 = 1.25 = \\frac{5}{4}$ laps.\n• **Step 2 (The Guiding Bridge):** Find how much Annie gains per Bonnie lap: $\\frac{5}{4} - 1 = \\frac{1}{4}$ of a lap. To lap (pass) Bonnie for the first time, Annie must gain exactly $1$ full lap on her.\n• **Step 3 (How to Finish):** Calculate how many laps Bonnie runs for Annie to gain $1$ full lap ($1 \\div \\frac{1}{4} = 4\\text{ laps}$), then add $1$ full lap to Bonnie's $4$ laps (or compute $4 \\times \\frac{5}{4}$) to find how many laps Annie has run."
+    "hint": "**Key Strategy:** Relative Speed (Lap Gain)\n• **Step 1 (First Move):** Convert \"$25\\%$ faster\" into a lap ratio: whenever Bonnie runs $1$ lap, Annie runs $1 + 0.25 = 1.25 = \\frac{5}{4}$ laps.\n• **Step 2 (The Guiding Bridge):** Find how much Annie gains per Bonnie lap: $\\frac{5}{4} - 1 = \\frac{1}{4}$ of a lap. To lap (pass) Bonnie for the first time, Annie must gain exactly $1$ full lap on her.\n• **Step 3 (How to Finish):** Calculate how many laps Bonnie runs for Annie to gain $1$ full lap ($1 \\div \\frac{1}{4} = 4\\text{ laps}$), then add $1$ full lap to Bonnie's $4$ laps (or compute $4 \\times \\frac{5}{4}$) to find how many laps Annie has run.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "answer": "(D) 9990",
     "explanation": "Total passwords = 10^4 = 10000. Passwords beginning with 9, 1, 1: there are 10 such passwords. Thus 10000 - 10 = 9990.",
-    "hint": "**Key Strategy:** Complementary Counting\n• **Step 1 (First Move):** Count all possible $4$-digit passwords before applying any restriction. With $10$ digit choices ($0$ through $9$) for each of the $4$ positions, there are $10 \\times 10 \\times 10 \\times 10 = 10{,}000$ total passwords.\n• **Step 2 (The Guiding Bridge):** Count the forbidden passwords that begin with $9, 1, 1$. The first three digits are locked in as $9, 1, 1$, while the fourth digit still has $10$ choices ($0$ through $9$), giving $1 \\times 1 \\times 1 \\times 10 = 10$ forbidden passwords.\n• **Step 3 (How to Finish):** Subtract the number of forbidden passwords ($10$) from the total number of passwords ($10{,}000$)."
+    "hint": "**Key Strategy:** Complementary Counting\n• **Step 1 (First Move):** Count all possible $4$-digit passwords before applying any restriction. With $10$ digit choices ($0$ through $9$) for each of the $4$ positions, there are $10 \\times 10 \\times 10 \\times 10 = 10{,}000$ total passwords.\n• **Step 2 (The Guiding Bridge):** Count the forbidden passwords that begin with $9, 1, 1$. The first three digits are locked in as $9, 1, 1$, while the fourth digit still has $10$ choices ($0$ through $9$), giving $1 \\times 1 \\times 1 \\times 10 = 10$ forbidden passwords.\n• **Step 3 (How to Finish):** Subtract the number of forbidden passwords ($10$) from the total number of passwords ($10{,}000$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "answer": "(C) 43",
     "explanation": "Since 215 sprinters must be eliminated and 5 are eliminated per race, 215 / 5 = 43 races are needed.",
-    "hint": "**Key Strategy:** Counting Eliminations (Invariant)\n• **Step 1 (First Move):** Instead of tracking rounds, count how many sprinters must be eliminated. Out of $216$ sprinters, only $1$ champion remains, so $216 - 1 = 215$ sprinters must lose and be eliminated.\n• **Step 2 (The Guiding Bridge):** Check how many sprinters are eliminated in each race: $6$ sprinters run, $1$ wins, and exactly $6 - 1 = 5$ sprinters are eliminated every time a race is run.\n• **Step 3 (How to Finish):** Divide the total number of sprinters who must be eliminated ($215$) by the number eliminated per race ($5$) to find the number of races needed."
+    "hint": "**Key Strategy:** Counting Eliminations (Invariant)\n• **Step 1 (First Move):** Instead of tracking rounds, count how many sprinters must be eliminated. Out of $216$ sprinters, only $1$ champion remains, so $216 - 1 = 215$ sprinters must lose and be eliminated.\n• **Step 2 (The Guiding Bridge):** Check how many sprinters are eliminated in each race: $6$ sprinters run, $1$ wins, and exactly $6 - 1 = 5$ sprinters are eliminated every time a race is run.\n• **Step 3 (How to Finish):** Divide the total number of sprinters who must be eliminated ($215$) by the number eliminated per race ($5$) to find the number of races needed.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "answer": "(E) 424",
     "explanation": "The average is 10000 / 25 = 400. Since 12 consecutive even integers are larger than 400, the largest is 400 + 12 * 2 = 424.",
-    "hint": "**Key Strategy:** Symmetry (Mean Equals Median)\n• **Step 1 (First Move):** Because consecutive even integers are evenly spaced, the middle ($13\\text{th}$) integer equals the average of all $25$ integers. Divide the total sum by $25$: $\\frac{10{,}000}{25} = 400$.\n• **Step 2 (The Guiding Bridge):** Since $400$ is the $13\\text{th}$ integer out of $25$, count how many even integers come after it: $25 - 13 = 12$ consecutive even integers. Because each step increases by $2$, the largest integer is $12 \\times 2 = 24$ greater than the middle integer.\n• **Step 3 (How to Finish):** Add $24$ to the middle integer ($400$) to find the largest of the $25$ integers."
+    "hint": "**Key Strategy:** Symmetry (Mean Equals Median)\n• **Step 1 (First Move):** Because consecutive even integers are evenly spaced, the middle ($13\\text{th}$) integer equals the average of all $25$ integers. Divide the total sum by $25$: $\\frac{10{,}000}{25} = 400$.\n• **Step 2 (The Guiding Bridge):** Since $400$ is the $13\\text{th}$ integer out of $25$, count how many even integers come after it: $25 - 13 = 12$ consecutive even integers. Because each step increases by $2$, the largest integer is $12 \\times 2 = 24$ greater than the middle integer.\n• **Step 3 (How to Finish):** Add $24$ to the middle integer ($400$) to find the largest of the $25$ integers.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "answer": "(A) 20",
     "explanation": "Testing values: when a = 4, b = 3, c = 5, lcm(a,b)=12, lcm(b,c)=15, and the lcm of a and c is 20.",
-    "hint": "**Key Strategy:** Prime Factorization of LCM\n• **Step 1 (First Move):** Factor the two given LCMs into primes: $12 = 2^2 \\times 3$ and $15 = 3 \\times 5$. Remember that $\\text{lcm}(x, y)$ takes the largest exponent of each prime from $x$ and $y$.\n• **Step 2 (The Guiding Bridge):** To minimize $\\text{lcm}(a, c)$, let $b$ carry the shared prime factor $3$ so that $a$ and $c$ do not need any extra factors. Setting $b = 3$, the smallest choice for $a$ to make $\\text{lcm}(a, 3) = 12$ is $a = 2^2 = 4$, and the smallest choice for $c$ to make $\\text{lcm}(3, c) = 15$ is $c = 5$.\n• **Step 3 (How to Finish):** Find the least common multiple of $a = 4$ and $c = 5$."
+    "hint": "**Key Strategy:** Prime Factorization of LCM\n• **Step 1 (First Move):** Factor the two given LCMs into primes: $12 = 2^2 \\times 3$ and $15 = 3 \\times 5$. Remember that $\\text{lcm}(x, y)$ takes the largest exponent of each prime from $x$ and $y$.\n• **Step 2 (The Guiding Bridge):** To minimize $\\text{lcm}(a, c)$, let $b$ carry the shared prime factor $3$ so that $a$ and $c$ do not need any extra factors. Setting $b = 3$, the smallest choice for $a$ to make $\\text{lcm}(a, 3) = 12$ is $a = 2^2 = 4$, and the smallest choice for $c$ to make $\\text{lcm}(3, c) = 15$ is $c = 5$.\n• **Step 3 (How to Finish):** Find the least common multiple of $a = 4$ and $c = 5$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "answer": "(B) 2/5",
     "explanation": "There are 10 equally likely outcomes. The outcomes where 3 reds are drawn before both greens give 4 out of 10 outcomes, which is 2/5.",
-    "hint": "**Key Strategy:** Counting Arrangements (Full Sequence)\n• **Step 1 (First Move):** Imagine drawing all $5$ chips ($3$ red and $2$ green) in a row of $5$ spots. The total number of equally likely arrangements of the $2$ green chips among the $5$ spots is $\\frac{5 \\times 4}{2} = 10$.\n• **Step 2 (The Guiding Bridge):** All $3$ red chips are drawn before both green chips if and only if the very last ($5\\text{th}$) spot in the sequence is a green chip (otherwise, both greens would already have appeared in the first $4$ spots). If the $5\\text{th}$ spot is green, the remaining $1$ green chip can be placed in any of the first $4$ spots, giving $4$ winning arrangements.\n• **Step 3 (How to Finish):** Divide the number of winning arrangements ($4$) by the total number of arrangements ($10$) and simplify the fraction to lowest terms."
+    "hint": "**Key Strategy:** Counting Arrangements (Full Sequence)\n• **Step 1 (First Move):** Imagine drawing all $5$ chips ($3$ red and $2$ green) in a row of $5$ spots. The total number of equally likely arrangements of the $2$ green chips among the $5$ spots is $\\frac{5 \\times 4}{2} = 10$.\n• **Step 2 (The Guiding Bridge):** All $3$ red chips are drawn before both green chips if and only if the very last ($5\\text{th}$) spot in the sequence is a green chip (otherwise, both greens would already have appeared in the first $4$ spots). If the $5\\text{th}$ spot is green, the remaining $1$ green chip can be placed in any of the first $4$ spots, giving $4$ winning arrangements.\n• **Step 3 (How to Finish):** Divide the number of winning arrangements ($4$) by the total number of arrangements ($10$) and simplify the fraction to lowest terms.",
+    "category": "Counting & Probability"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "answer": "(C) 3",
     "explanation": "Using similar triangles and subtracting areas, the bat wing's area is 3.",
-    "hint": "**Key Strategy:** Similar Triangles and Area Subtraction\n• **Step 1 (First Move):** Look at the two symmetric \"wings\" on opposite sides of the rectangle. On one side, notice the bowtie of two similar triangles formed by base $DC = 1$ and the opposite side $EF = 3$. Because $EF$ is $3$ times as long as $DC$, their heights are in the ratio $1 : 3$.\n• **Step 2 (The Guiding Bridge):** The total perpendicular distance between $DA$ and $EF$ is $4$. Splitting $4$ in the ratio $1 : 3$ gives the smaller triangle on base $DC = 1$ a height of $\\frac{1}{4} \\times 4 = 1$, so its area is $\\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2}$. Meanwhile, the right triangle $\\triangle DEC$ has base $DC = 1$ and height $DE = 4$, giving an area of $\\frac{1}{2} \\times 1 \\times 4 = 2$.\n• **Step 3 (How to Finish):** Subtract the small triangle's area ($\\frac{1}{2}$) from $\\triangle DEC$'s area ($2$) to find the area of one wing, then double it since both wings have the same area."
+    "hint": "**Key Strategy:** Similar Triangles and Area Subtraction\n• **Step 1 (First Move):** Look at the two symmetric \"wings\" on opposite sides of the rectangle. On one side, notice the bowtie of two similar triangles formed by base $DC = 1$ and the opposite side $EF = 3$. Because $EF$ is $3$ times as long as $DC$, their heights are in the ratio $1 : 3$.\n• **Step 2 (The Guiding Bridge):** The total perpendicular distance between $DA$ and $EF$ is $4$. Splitting $4$ in the ratio $1 : 3$ gives the smaller triangle on base $DC = 1$ a height of $\\frac{1}{4} \\times 4 = 1$, so its area is $\\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2}$. Meanwhile, the right triangle $\\triangle DEC$ has base $DC = 1$ and height $DE = 4$, giving an area of $\\frac{1}{2} \\times 1 \\times 4 = 2$.\n• **Step 3 (How to Finish):** Subtract the small triangle's area ($\\frac{1}{2}$) from $\\triangle DEC$'s area ($2$) to find the area of one wing, then double it since both wings have the same area.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "answer": "(C) 120",
     "explanation": "Triangle AEB is equilateral, so angle AEB = 60 degrees. Since DB and AC are diameters, angle DEB and angle AEC are right angles. Thus angle DEC = 90 + 90 - 60 = 120 degrees.",
-    "hint": "**Key Strategy:** Equilateral Triangle and Inscribed Angles (Thales' Theorem)\n• **Step 1 (First Move):** Draw radii $AE$ and $BE$. Because the two circles are congruent and each passes through the other's center, $AB = AE = BE$ (all three equal the radius). Thus $\\triangle AEB$ is equilateral, so $\\angle AEB = 60^\\circ$.\n• **Step 2 (The Guiding Bridge):** Since the line through $A$ and $B$ intersects the circles at $C$ and $D$, one of those segments ($AC$ or $AD$) is a diameter of the circle centered at $B$, and the other ($BD$ or $BC$) is a diameter of the circle centered at $A$. By Thales' theorem (any angle inscribed in a semicircle is $90^\\circ$), the two inscribed angles from $E$ to the diameters—$\\angle AEC$ and $\\angle BED$ (or $\\angle AED$ and $\\angle BEC$)—each measure $90^\\circ$ and overlap precisely on $\\angle AEB = 60^\\circ$.\n• **Step 3 (How to Finish):** Add the two right angles ($90^\\circ + 90^\\circ$) and subtract the overlapping angle $\\angle AEB$ ($60^\\circ$) to find the degree measure of $\\angle CED$."
+    "hint": "**Key Strategy:** Equilateral Triangle and Inscribed Angles (Thales' Theorem)\n• **Step 1 (First Move):** Draw radii $AE$ and $BE$. Because the two circles are congruent and each passes through the other's center, $AB = AE = BE$ (all three equal the radius). Thus $\\triangle AEB$ is equilateral, so $\\angle AEB = 60^\\circ$.\n• **Step 2 (The Guiding Bridge):** Since the line through $A$ and $B$ intersects the circles at $C$ and $D$, one of those segments ($AC$ or $AD$) is a diameter of the circle centered at $B$, and the other ($BD$ or $BC$) is a diameter of the circle centered at $A$. By Thales' theorem (any angle inscribed in a semicircle is $90^\\circ$), the two inscribed angles from $E$ to the diameters—$\\angle AEC$ and $\\angle BED$ (or $\\angle AED$ and $\\angle BEC$)—each measure $90^\\circ$ and overlap precisely on $\\angle AEB = 60^\\circ$.\n• **Step 3 (How to Finish):** Add the two right angles ($90^\\circ + 90^\\circ$) and subtract the overlapping angle $\\angle AEB$ ($60^\\circ$) to find the degree measure of $\\angle CED$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "answer": "(A) 1",
     "explanation": "Since QRS is divisible by 5, S = 5. Testing divisibility rules for PQR and RST yields P = 1, R = 4, T = 3.",
-    "hint": "**Key Strategy:** Divisibility Rules and Deduction\n• **Step 1 (First Move):** Start with the divisibility by $5$ clue: $QRS$ is divisible by $5$. Since $0$ is not among the available digits $\\{1, 2, 3, 4, 5\\}$, the units digit $S$ must be $5$.\n• **Step 2 (The Guiding Bridge):** Next, $PQR$ is divisible by $4$, so its last two digits $QR$ must be a multiple of $4$ using digits from $\\{1, 2, 3, 4\\}$, leaving only $12$, $32$, or $24$. If $R = 2$ (from $12$ or $32$), then $RST = 25T$ must have a digit sum $2 + 5 + T = 7 + T$ divisible by $3$, forcing $T$ to be $2$ or $5$—both already used! Therefore, $QR$ must be $24$ ($Q = 2$ and $R = 4$).\n• **Step 3 (How to Finish):** Test the two remaining digits ($1$ and $3$) for $T$ so that $RST = 45T$ has a digit sum divisible by $3$; once you determine $T$, the last unused digit is $P$."
+    "hint": "**Key Strategy:** Divisibility Rules and Deduction\n• **Step 1 (First Move):** Start with the divisibility by $5$ clue: $QRS$ is divisible by $5$. Since $0$ is not among the available digits $\\{1, 2, 3, 4, 5\\}$, the units digit $S$ must be $5$.\n• **Step 2 (The Guiding Bridge):** Next, $PQR$ is divisible by $4$, so its last two digits $QR$ must be a multiple of $4$ using digits from $\\{1, 2, 3, 4\\}$, leaving only $12$, $32$, or $24$. If $R = 2$ (from $12$ or $32$), then $RST = 25T$ must have a digit sum $2 + 5 + T = 7 + T$ divisible by $3$, forcing $T$ to be $2$ or $5$—both already used! Therefore, $QR$ must be $24$ ($Q = 2$ and $R = 4$).\n• **Step 3 (How to Finish):** Test the two remaining digits ($1$ and $3$) for $T$ so that $RST = 45T$ has a digit sum divisible by $3$; once you determine $T$, the last unused digit is $P$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 25,
@@ -347,6 +371,7 @@
     ],
     "answer": "(B) 120/17",
     "explanation": "Let O be the midpoint of base AB. OBC is a right triangle with OB = 8 and OC = 15, so BC = 17. Using similar triangles, the radius OE is (8 * 15) / 17 = 120/17.",
-    "hint": "**Key Strategy:** Pythagorean Theorem and Equal Area Expressions\n• **Step 1 (First Move):** Let $O$ be the center of the semicircle (the midpoint of the base of length $16$) and $C$ be the top vertex of the isosceles triangle. Dropping the height $OC = 15$ splits the triangle into two right triangles, each with legs $8$ and $15$. Use the Pythagorean theorem to find the slanted side length: $\\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$.\n• **Step 2 (The Guiding Bridge):** Draw the radius $r$ from $O$ perpendicular to the slanted side of length $17$ where the semicircle touches it. This radius $r$ is the altitude to the side of length $17$ inside the half-triangle. Write the area of that right half-triangle in two ways: $\\frac{1}{2} \\times 8 \\times 15 = \\frac{1}{2} \\times 17 \\times r$.\n• **Step 3 (How to Finish):** Cancel $\\frac{1}{2}$ from both sides to get $8 \\times 15 = 17 \\times r$, multiply $8 \\times 15$, and divide by $17$ to solve for the radius $r$."
+    "hint": "**Key Strategy:** Pythagorean Theorem and Equal Area Expressions\n• **Step 1 (First Move):** Let $O$ be the center of the semicircle (the midpoint of the base of length $16$) and $C$ be the top vertex of the isosceles triangle. Dropping the height $OC = 15$ splits the triangle into two right triangles, each with legs $8$ and $15$. Use the Pythagorean theorem to find the slanted side length: $\\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$.\n• **Step 2 (The Guiding Bridge):** Draw the radius $r$ from $O$ perpendicular to the slanted side of length $17$ where the semicircle touches it. This radius $r$ is the altitude to the side of length $17$ inside the half-triangle. Write the area of that right half-triangle in two ways: $\\frac{1}{2} \\times 8 \\times 15 = \\frac{1}{2} \\times 17 \\times r$.\n• **Step 3 (How to Finish):** Cancel $\\frac{1}{2}$ from both sides to get $8 \\times 15 = 17 \\times r$, multiply $8 \\times 15$, and divide by $17$ to solve for the radius $r$.",
+    "category": "Geometry & Spatial"
   }
 ]

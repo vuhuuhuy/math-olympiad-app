@@ -11,7 +11,8 @@
     ],
     "answer": "D) 0",
     "explanation": "Since $x$ can take the value 0 within the interval $[-3, 4]$, the minimum square value is $0^2 = 0$.",
-    "hint": "**Key Strategy:** Properties of Squares & Boundary Testing\n• **Step 1 (First Move):** Compute $x^2$ at both ends of the interval $-3 \\le x \\le 4$: $(-3)^2 = 9$ and $4^2 = 16$. Notice that squaring a negative number still gives a positive result.\n• **Step 2 (The Guiding Bridge):** Remember that the square of any non-zero number is always strictly positive, whereas the single integer right between $-1$ and $1$ has a square that is neither positive nor negative. Check whether that integer lies inside the range $-3 \\le x \\le 4$.\n• **Step 3 (How to Finish):** Since that integer is included in the interval, square it to find the least possible value of $x^2$."
+    "hint": "**Key Strategy:** Properties of Squares & Boundary Testing\n• **Step 1 (First Move):** Compute $x^2$ at both ends of the interval $-3 \\le x \\le 4$: $(-3)^2 = 9$ and $4^2 = 16$. Notice that squaring a negative number still gives a positive result.\n• **Step 2 (The Guiding Bridge):** Remember that the square of any non-zero number is always strictly positive, whereas the single integer right between $-1$ and $1$ has a square that is neither positive nor negative. Check whether that integer lies inside the range $-3 \\le x \\le 4$.\n• **Step 3 (How to Finish):** Since that integer is included in the interval, square it to find the least possible value of $x^2$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "E) None of the above",
     "explanation": "Any number divisible by 6 must be even, so there are no odd numbers divisible by 6.",
-    "hint": "**Key Strategy:** Parity (Even vs. Odd) & Least Common Multiple\n• **Step 1 (First Move):** Find the least common multiple of $6$ and $7$. Since $6$ and $7$ share no common factors other than $1$, any number divisible by both must be a multiple of $6 \\times 7 = 42$.\n• **Step 2 (The Guiding Bridge):** List all multiples of $42$ between $1$ and $100$: they are $42$ and $84$. Also notice that because $6 = 2 \\times 3$, every multiple of $6$ has $2$ as a factor, making it an even number.\n• **Step 3 (How to Finish):** Check whether either $42$ or $84$ is odd; if no odd multiple exists in that range, choose the option stating that no listed number works."
+    "hint": "**Key Strategy:** Parity (Even vs. Odd) & Least Common Multiple\n• **Step 1 (First Move):** Find the least common multiple of $6$ and $7$. Since $6$ and $7$ share no common factors other than $1$, any number divisible by both must be a multiple of $6 \\times 7 = 42$.\n• **Step 2 (The Guiding Bridge):** List all multiples of $42$ between $1$ and $100$: they are $42$ and $84$. Also notice that because $6 = 2 \\times 3$, every multiple of $6$ has $2$ as a factor, making it an even number.\n• **Step 3 (How to Finish):** Check whether either $42$ or $84$ is odd; if no odd multiple exists in that range, choose the option stating that no listed number works.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "D) 106",
     "explanation": "Pattern: $3 \\times 1 + 1 = 4$, $1 \\times 4 + 1 = 5$, $4 \\times 5 + 1 = 21$. Next term = $5 \\times 21 + 1 = 106$.",
-    "hint": "**Key Strategy:** Recursive Pattern Recognition\n• **Step 1 (First Move):** Look at the first three terms $3, 1, 4$ and test how $3$ and $1$ combine to make $4$. Simple addition gives $3 + 1 = 4$ and $1 + 4 = 5$, but $4 + 5 = 9 \\ne 21$, so addition alone does not work.\n• **Step 2 (The Guiding Bridge):** Try multiplying two consecutive terms and adding $1$: check $3 \\times 1 + 1 = 4$, then $1 \\times 4 + 1 = 5$, and then $4 \\times 5 + 1 = 21$. Every pair follows the rule $\\text{next term} = (\\text{term}_1 \\times \\text{term}_2) + 1$.\n• **Step 3 (How to Finish):** Apply this exact rule to the last two given terms, $5$ and $21$, by computing $(5 \\times 21) + 1$."
+    "hint": "**Key Strategy:** Recursive Pattern Recognition\n• **Step 1 (First Move):** Look at the first three terms $3, 1, 4$ and test how $3$ and $1$ combine to make $4$. Simple addition gives $3 + 1 = 4$ and $1 + 4 = 5$, but $4 + 5 = 9 \\ne 21$, so addition alone does not work.\n• **Step 2 (The Guiding Bridge):** Try multiplying two consecutive terms and adding $1$: check $3 \\times 1 + 1 = 4$, then $1 \\times 4 + 1 = 5$, and then $4 \\times 5 + 1 = 21$. Every pair follows the rule $\\text{next term} = (\\text{term}_1 \\times \\text{term}_2) + 1$.\n• **Step 3 (How to Finish):** Apply this exact rule to the last two given terms, $5$ and $21$, by computing $(5 \\times 21) + 1$.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "C) 6",
     "explanation": "$n$ must be a factor of 18: $1, 2, 3, 6, 9, 18$ (6 values).",
-    "hint": "**Key Strategy:** Factor Pairs & Divisibility\n• **Step 1 (First Move):** For $\\frac{18}{n}$ to be a positive integer, $n$ must divide $18$ evenly with no remainder, which means $n$ must be a positive factor of $18$.\n• **Step 2 (The Guiding Bridge):** Systematically list all positive factor pairs $(a, b)$ that multiply to $18$, starting from $1 \\times 18 = 18$, then $2 \\times 9 = 18$, and finally $3 \\times \\text{?} = 18$.\n• **Step 3 (How to Finish):** Fill in the missing factor in the third pair, then count the total number of distinct positive factors of $18$ across all pairs."
+    "hint": "**Key Strategy:** Factor Pairs & Divisibility\n• **Step 1 (First Move):** For $\\frac{18}{n}$ to be a positive integer, $n$ must divide $18$ evenly with no remainder, which means $n$ must be a positive factor of $18$.\n• **Step 2 (The Guiding Bridge):** Systematically list all positive factor pairs $(a, b)$ that multiply to $18$, starting from $1 \\times 18 = 18$, then $2 \\times 9 = 18$, and finally $3 \\times \\text{?} = 18$.\n• **Step 3 (How to Finish):** Fill in the missing factor in the third pair, then count the total number of distinct positive factors of $18$ across all pairs.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "B) 900",
     "explanation": "Format $abcba$: 9 choices for $a$ (1–9), 10 choices for $b$ (0–9), 10 choices for $c$ (0–9). Total = $9 \\times 10 \\times 10 = 900$.",
-    "hint": "**Key Strategy:** Fundamental Counting Principle (Multiplication Principle)\n• **Step 1 (First Move):** Represent a general $5$-digit palindrome using digit placeholders as $\\overline{abcba}$, where the first and fifth digits are both $a$, the second and fourth digits are both $b$, and the middle digit is $c$.\n• **Step 2 (The Guiding Bridge):** Count the choices for each independent digit: $a$ cannot be $0$ (otherwise it would not be a $5$-digit number), so $a$ can be $1$ through $9$ ($9$ choices); $b$ can be $0$ through $9$ ($10$ choices); and $c$ can also be $0$ through $9$ ($10$ choices).\n• **Step 3 (How to Finish):** Multiply the number of choices for $a$, $b$, and $c$ together to find the total number of $5$-digit palindromic numbers."
+    "hint": "**Key Strategy:** Fundamental Counting Principle (Multiplication Principle)\n• **Step 1 (First Move):** Represent a general $5$-digit palindrome using digit placeholders as $\\overline{abcba}$, where the first and fifth digits are both $a$, the second and fourth digits are both $b$, and the middle digit is $c$.\n• **Step 2 (The Guiding Bridge):** Count the choices for each independent digit: $a$ cannot be $0$ (otherwise it would not be a $5$-digit number), so $a$ can be $1$ through $9$ ($9$ choices); $b$ can be $0$ through $9$ ($10$ choices); and $c$ can also be $0$ through $9$ ($10$ choices).\n• **Step 3 (How to Finish):** Multiply the number of choices for $a$, $b$, and $c$ together to find the total number of $5$-digit palindromic numbers.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "D) -212",
     "explanation": "Pattern for $a+b$: prefix is $a-b$, suffix is $a+b$. For $5+7$: $5-7 = -2$ and $5+7 = 12$, yielding $-212$.",
-    "hint": "**Key Strategy:** Digit Concatenation & Pattern Decomposition\n• **Step 1 (First Move):** Compare the inputs $a$ and $b$ with the digits of each output: for $3 + 2 = 15$, notice that $3 - 2 = 1$ and $3 + 2 = 5$, and placing those two results side by side forms $15$.\n• **Step 2 (The Guiding Bridge):** Verify this concatenation pattern on the other two examples: for $5 + 3$, $5 - 3 = 2$ and $5 + 3 = 8$ form $28$; for $7 + 6$, $7 - 6 = 1$ and $7 + 6 = 13$ form $113$. Thus, the operator places $(a - b)$ in front of $(a + b)$.\n• **Step 3 (How to Finish):** Calculate $5 - 7$ for the front part and $5 + 7$ for the back part, then write those two results side by side in order."
+    "hint": "**Key Strategy:** Digit Concatenation & Pattern Decomposition\n• **Step 1 (First Move):** Compare the inputs $a$ and $b$ with the digits of each output: for $3 + 2 = 15$, notice that $3 - 2 = 1$ and $3 + 2 = 5$, and placing those two results side by side forms $15$.\n• **Step 2 (The Guiding Bridge):** Verify this concatenation pattern on the other two examples: for $5 + 3$, $5 - 3 = 2$ and $5 + 3 = 8$ form $28$; for $7 + 6$, $7 - 6 = 1$ and $7 + 6 = 13$ form $113$. Thus, the operator places $(a - b)$ in front of $(a + b)$.\n• **Step 3 (How to Finish):** Calculate $5 - 7$ for the front part and $5 + 7$ for the back part, then write those two results side by side in order.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "C) 29 cm",
     "explanation": "Equal areas: $\\text{Area} = 19^2 = 361\\text{ cm}^2$. $\\frac{1}{2} \\times b \\times 25 = 361 \\implies b = 28.88 \\approx 29\\text{ cm}$.",
-    "hint": "**Key Strategy:** Conservation of Area\n• **Step 1 (First Move):** Because the equilateral triangle is cut and rearranged to form the square without losing or adding material, both shapes have the exact same area. Calculate the square's area with side length $19\\text{ cm}$: $\\text{Area} = 19 \\times 19 = 361\\text{ cm}^2$.\n• **Step 2 (The Guiding Bridge):** Set the triangle area formula equal to the square's area using height $h = 25\\text{ cm}$ and unknown base $b$: $\\frac{1}{2} \\times b \\times 25 = 361$.\n• **Step 3 (How to Finish):** Multiply $361$ by $2$, divide that product by $25$ to solve for $b$, and round your result to the nearest whole centimeter."
+    "hint": "**Key Strategy:** Conservation of Area\n• **Step 1 (First Move):** Because the equilateral triangle is cut and rearranged to form the square without losing or adding material, both shapes have the exact same area. Calculate the square's area with side length $19\\text{ cm}$: $\\text{Area} = 19 \\times 19 = 361\\text{ cm}^2$.\n• **Step 2 (The Guiding Bridge):** Set the triangle area formula equal to the square's area using height $h = 25\\text{ cm}$ and unknown base $b$: $\\frac{1}{2} \\times b \\times 25 = 361$.\n• **Step 3 (How to Finish):** Multiply $361$ by $2$, divide that product by $25$ to solve for $b$, and round your result to the nearest whole centimeter.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "C) 52",
     "explanation": "Half of the circle has $40 - 14 = 26$ people. Total people = $26 \\times 2 = 52$.",
-    "hint": "**Key Strategy:** Circular Symmetry & Diameter Spacing\n• **Step 1 (First Move):** Because person $14$ is directly opposite person $40$, moving clockwise from person $14$ to person $40$ covers exactly half of the circle. Subtract to find the number of spaces (steps) in one half-circle: $40 - 14 = 26$.\n• **Step 2 (The Guiding Bridge):** Since everyone is equally spaced around the circle, the other half of the circle from person $40$ clockwise back to person $14$ must also contain $26$ spaces.\n• **Step 3 (How to Finish):** Double the number of spaces in one half-circle ($26 \\times 2$) to find the total number of people standing around the circle."
+    "hint": "**Key Strategy:** Circular Symmetry & Diameter Spacing\n• **Step 1 (First Move):** Because person $14$ is directly opposite person $40$, moving clockwise from person $14$ to person $40$ covers exactly half of the circle. Subtract to find the number of spaces (steps) in one half-circle: $40 - 14 = 26$.\n• **Step 2 (The Guiding Bridge):** Since everyone is equally spaced around the circle, the other half of the circle from person $40$ clockwise back to person $14$ must also contain $26$ spaces.\n• **Step 3 (How to Finish):** Double the number of spaces in one half-circle ($26 \\times 2$) to find the total number of people standing around the circle.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "D) 2",
     "explanation": "The last 3 digits $67N$ must be divisible by 8. $672 / 8 = 84$, so $N = 2$.",
-    "hint": "**Key Strategy:** Divisibility Rule for 8\n• **Step 1 (First Move):** Use the divisibility rule for $8$: since $1000 = 8 \\times 125$ is divisible by $8$, a whole number is divisible by $8$ if and only if its last three digits form a multiple of $8$. Focus only on the $3$-digit ending $\\overline{67N}$.\n• **Step 2 (The Guiding Bridge):** Divide $670$ by $8$ to find the nearest multiple below it: $8 \\times 83 = 664$, leaving a remainder of $6$.\n• **Step 3 (How to Finish):** Add $8$ to $664$ to find the multiple of $8$ in the $670\\text{s}$ and read off its units digit $N$."
+    "hint": "**Key Strategy:** Divisibility Rule for 8\n• **Step 1 (First Move):** Use the divisibility rule for $8$: since $1000 = 8 \\times 125$ is divisible by $8$, a whole number is divisible by $8$ if and only if its last three digits form a multiple of $8$. Focus only on the $3$-digit ending $\\overline{67N}$.\n• **Step 2 (The Guiding Bridge):** Divide $670$ by $8$ to find the nearest multiple below it: $8 \\times 83 = 664$, leaving a remainder of $6$.\n• **Step 3 (How to Finish):** Add $8$ to $664$ to find the multiple of $8$ in the $670\\text{s}$ and read off its units digit $N$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "answer": "C) 12",
     "explanation": "Cubes with exactly 2 painted faces lie on the 12 edges (excluding corners): 1 per edge $\\times 12 = 12$.",
-    "hint": "**Key Strategy:** 3D Geometry Classification (Vertices, Edges, Faces)\n• **Step 1 (First Move):** Classify the outer small cubes of a $3 \\times 3 \\times 3$ cube by how many faces show on the outside: corner cubes have $3$ painted faces, center cubes on each face have $1$ painted face, and cubes along the edges (excluding corners) have $2$ painted faces.\n• **Step 2 (The Guiding Bridge):** On each edge of length $3$, there are $3$ small cubes in a row: $2$ of them are corners (with $3$ painted faces), leaving $3 - 2 = 1$ middle-edge cube with exactly $2$ painted faces.\n• **Step 3 (How to Finish):** Count how many edges a cube has in total, and multiply that number of edges by $1$ (the number of middle-edge cubes on each edge)."
+    "hint": "**Key Strategy:** 3D Geometry Classification (Vertices, Edges, Faces)\n• **Step 1 (First Move):** Classify the outer small cubes of a $3 \\times 3 \\times 3$ cube by how many faces show on the outside: corner cubes have $3$ painted faces, center cubes on each face have $1$ painted face, and cubes along the edges (excluding corners) have $2$ painted faces.\n• **Step 2 (The Guiding Bridge):** On each edge of length $3$, there are $3$ small cubes in a row: $2$ of them are corners (with $3$ painted faces), leaving $3 - 2 = 1$ middle-edge cube with exactly $2$ painted faces.\n• **Step 3 (How to Finish):** Count how many edges a cube has in total, and multiply that number of edges by $1$ (the number of middle-edge cubes on each edge).",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "answer": "C) 16",
     "explanation": "Formula for maximum circle regions: $1 + \\binom{n}{2} + \\binom{n}{4}$. For $n = 5$: $1 + 10 + 5 = 16$.",
-    "hint": "**Key Strategy:** Chords & Intersection Counting (Region Formula)\n• **Step 1 (First Move):** Test smaller numbers of points first to avoid guessing wrong: $2$ points give $2$ regions, $3$ points give $4$ regions, and $4$ points give $8$ regions, but the pattern does NOT keep doubling for $5$ points!\n• **Step 2 (The Guiding Bridge):** Place $5$ points so no three chords cross at the same interior point. Count the chords connecting pairs of points: $\\binom{5}{2} = \\frac{5 \\times 4}{2} = 10$ chords. Every group of $4$ points creates $1$ interior crossing point, giving $\\binom{5}{4} = 5$ interior intersections. Use the circle region formula: $\\text{Regions} = 1 + (\\text{chords}) + (\\text{interior intersections})$.\n• **Step 3 (How to Finish):** Add $1 + 10 + 5$ together to find the maximum number of regions inside the circle."
+    "hint": "**Key Strategy:** Chords & Intersection Counting (Region Formula)\n• **Step 1 (First Move):** Test smaller numbers of points first to avoid guessing wrong: $2$ points give $2$ regions, $3$ points give $4$ regions, and $4$ points give $8$ regions, but the pattern does NOT keep doubling for $5$ points!\n• **Step 2 (The Guiding Bridge):** Place $5$ points so no three chords cross at the same interior point. Count the chords connecting pairs of points: $\\binom{5}{2} = \\frac{5 \\times 4}{2} = 10$ chords. Every group of $4$ points creates $1$ interior crossing point, giving $\\binom{5}{4} = 5$ interior intersections. Use the circle region formula: $\\text{Regions} = 1 + (\\text{chords}) + (\\text{interior intersections})$.\n• **Step 3 (How to Finish):** Add $1 + 10 + 5$ together to find the maximum number of regions inside the circle.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "answer": "C) 609",
     "explanation": "$10000 = 2^4 \\times 5^4 = 16 \\times 625$. Difference = $625 - 16 = 609$.",
-    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Write $10000$ in prime-factorized form: $10000 = 10^4 = (2 \\times 5)^4 = 2^4 \\times 5^4$.\n• **Step 2 (The Guiding Bridge):** A number has $10$ as a factor if and only if it has BOTH $2$ and $5$ in its prime factorization. Therefore, to prevent either number from having $10$ as a factor, all four $2\\text{s}$ must go into one number ($2^4$) and all four $5\\text{s}$ must go into the other number ($5^4$).\n• **Step 3 (How to Finish):** Evaluate $2^4$ and $5^4$, then subtract the smaller value from the larger value to find their difference."
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Write $10000$ in prime-factorized form: $10000 = 10^4 = (2 \\times 5)^4 = 2^4 \\times 5^4$.\n• **Step 2 (The Guiding Bridge):** A number has $10$ as a factor if and only if it has BOTH $2$ and $5$ in its prime factorization. Therefore, to prevent either number from having $10$ as a factor, all four $2\\text{s}$ must go into one number ($2^4$) and all four $5\\text{s}$ must go into the other number ($5^4$).\n• **Step 3 (How to Finish):** Evaluate $2^4$ and $5^4$, then subtract the smaller value from the larger value to find their difference.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "answer": "C) 10",
     "explanation": "$\\frac{108n}{360} = \\frac{3n}{10}$. For this to be an integer, $n$ must be a multiple of 10. Smallest positive $n = 10$.",
-    "hint": "**Key Strategy:** Prime Factorization & Exponent Matching\n• **Step 1 (First Move):** Find the prime factorization of both numbers: $108 = 2^2 \\times 3^3$ and $360 = 2^3 \\times 3^2 \\times 5$.\n• **Step 2 (The Guiding Bridge):** For $108n$ to be a multiple of $360$, $108n$ must contain at least as many copies of every prime factor as $360$ does. Compare the exponents: $108$ already has enough $3\\text{s}$ ($3^3$ vs. $3^2$), so $n$ only needs to supply one missing factor of $2$ (to raise $2^2$ to $2^3$) and one missing factor of $5$.\n• **Step 3 (How to Finish):** Multiply those missing prime factors together to find the smallest positive integer $n$."
+    "hint": "**Key Strategy:** Prime Factorization & Exponent Matching\n• **Step 1 (First Move):** Find the prime factorization of both numbers: $108 = 2^2 \\times 3^3$ and $360 = 2^3 \\times 3^2 \\times 5$.\n• **Step 2 (The Guiding Bridge):** For $108n$ to be a multiple of $360$, $108n$ must contain at least as many copies of every prime factor as $360$ does. Compare the exponents: $108$ already has enough $3\\text{s}$ ($3^3$ vs. $3^2$), so $n$ only needs to supply one missing factor of $2$ (to raise $2^2$ to $2^3$) and one missing factor of $5$.\n• **Step 3 (How to Finish):** Multiply those missing prime factors together to find the smallest positive integer $n$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "answer": "E) 14",
     "explanation": "A circle intersecting a 4-sided polygon can intersect each side at most twice (8 intersection points), dividing the surface into 14 regions.",
-    "hint": "**Key Strategy:** Maximizing Intersections & Systematic Region Counting\n• **Step 1 (First Move):** Draw a quadrilateral and a circle overlapping so that the circle crosses every side of the quadrilateral as many times as possible: since a straight segment can cross a circle at most $2$ times, all $4$ sides together can have at most $4 \\times 2 = 8$ intersection points.\n• **Step 2 (The Guiding Bridge):** Carefully label and count every distinct region on your diagram: include the central overlapping piece, the corner pieces of the quadrilateral that stick outside the circle, the curved cap pieces of the circle that stick outside the quadrilateral, and the single unbounded outside region around the entire figure.\n• **Step 3 (How to Finish):** Sum all the labeled non-overlapping regions on the flat surface to determine the total region count."
+    "hint": "**Key Strategy:** Maximizing Intersections & Systematic Region Counting\n• **Step 1 (First Move):** Draw a quadrilateral and a circle overlapping so that the circle crosses every side of the quadrilateral as many times as possible: since a straight segment can cross a circle at most $2$ times, all $4$ sides together can have at most $4 \\times 2 = 8$ intersection points.\n• **Step 2 (The Guiding Bridge):** Carefully label and count every distinct region on your diagram: include the central overlapping piece, the corner pieces of the quadrilateral that stick outside the circle, the curved cap pieces of the circle that stick outside the quadrilateral, and the single unbounded outside region around the entire figure.\n• **Step 3 (How to Finish):** Sum all the labeled non-overlapping regions on the flat surface to determine the total region count.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "answer": "D) 9",
     "explanation": "$6S + 8B = 70 \\implies 3S + 4B = 35$. Valid $(S, B)$ pairs: $(1, 8) \\to 9$ boxes; $(5, 5) \\to 10$ boxes; $(9, 2) \\to 11$ boxes. Since total boxes $> 10$, $S = 9$.",
-    "hint": "**Key Strategy:** Linear Diophantine Equation & Systematic Casework\n• **Step 1 (First Move):** Let $S$ be the number of small boxes and $B$ be the number of big boxes. Write the cake total equation $6S + 8B = 70$, then divide every term by $2$ to simplify it to $3S + 4B = 35$.\n• **Step 2 (The Guiding Bridge):** Search for non-negative integer values of $B$ such that $35 - 4B$ is divisible by $3$. Testing $B = 0$ ($35$) and $B = 1$ ($31$) fails, while $B = 2$ gives $35 - 8 = 27$ (a multiple of $3$). Increasing $B$ in steps of $3$ and decreasing $S$ in steps of $4$ produces the other two valid pairs: $(S, B) = (5, 5)$ and $(S, B) = (1, 8)$.\n• **Step 3 (How to Finish):** Compute $S$ for $B = 2$, calculate the total number of boxes $S + B$ for each of the three valid pairs, pick the pair with more than $10$ boxes, and read off its value of $S$."
+    "hint": "**Key Strategy:** Linear Diophantine Equation & Systematic Casework\n• **Step 1 (First Move):** Let $S$ be the number of small boxes and $B$ be the number of big boxes. Write the cake total equation $6S + 8B = 70$, then divide every term by $2$ to simplify it to $3S + 4B = 35$.\n• **Step 2 (The Guiding Bridge):** Search for non-negative integer values of $B$ such that $35 - 4B$ is divisible by $3$. Testing $B = 0$ ($35$) and $B = 1$ ($31$) fails, while $B = 2$ gives $35 - 8 = 27$ (a multiple of $3$). Increasing $B$ in steps of $3$ and decreasing $S$ in steps of $4$ produces the other two valid pairs: $(S, B) = (5, 5)$ and $(S, B) = (1, 8)$.\n• **Step 3 (How to Finish):** Compute $S$ for $B = 2$, calculate the total number of boxes $S + B$ for each of the three valid pairs, pick the pair with more than $10$ boxes, and read off its value of $S$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "answer": "A) Road 1",
     "explanation": "If on Road 1: P1 lies, P2 lies, P3 tells the truth (not Road 2), P4 lies. Exactly one truth-teller!",
-    "hint": "**Key Strategy:** Casework by Testing Each Assumption (Truth-Teller Logic)\n• **Step 1 (First Move):** Notice that **only one** of the four passersby tells the truth, which means the other **three** must all be lying.\n• **Step 2 (The Guiding Bridge):** Test Roads 2, 3, and 4 one by one to see how many statements become true:\n  • If the house is on Road 2, then both P1 and P3 would be telling the truth ($2$ truth-tellers — impossible).\n  • If it is on Road 3, then both P1 and P4 would be telling the truth ($2$ truth-tellers — impossible).\n  • If it is on Road 4, then both P1 and P2 would be telling the truth ($2$ truth-tellers — impossible).\n• **Step 3 (How to Finish):** Test the single remaining road and confirm that P1, P2, and P4 are all lying while only P3 tells the truth."
+    "hint": "**Key Strategy:** Casework by Testing Each Assumption (Truth-Teller Logic)\n• **Step 1 (First Move):** Notice that **only one** of the four passersby tells the truth, which means the other **three** must all be lying.\n• **Step 2 (The Guiding Bridge):** Test Roads 2, 3, and 4 one by one to see how many statements become true:\n  • If the house is on Road 2, then both P1 and P3 would be telling the truth ($2$ truth-tellers — impossible).\n  • If it is on Road 3, then both P1 and P4 would be telling the truth ($2$ truth-tellers — impossible).\n  • If it is on Road 4, then both P1 and P2 would be telling the truth ($2$ truth-tellers — impossible).\n• **Step 3 (How to Finish):** Test the single remaining road and confirm that P1, P2, and P4 are all lying while only P3 tells the truth.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "answer": "A) 7",
     "explanation": "To minimize the maximum pile, make numbers as close as possible: $3, 4, 6, 7$ (sum 20). The largest pile has 7 pens.",
-    "hint": "**Key Strategy:** Extremal Principle (Minimizing the Maximum)\n• **Step 1 (First Move):** To make the largest pile as small as possible, keep the $4$ different pile sizes as close together as possible, starting near the average size $20 \\div 4 = 5$.\n• **Step 2 (The Guiding Bridge):** Try the four smallest consecutive numbers near $5$, which are $3, 4, 5, 6$. Their sum is $3 + 4 + 5 + 6 = 18$, leaving $20 - 18 = 2$ extra pens to distribute without making any two piles equal.\n• **Step 3 (How to Finish):** Add $1$ pen each to the two largest piles ($5$ and $6$) so all $4$ numbers stay strictly different and sum to $20$, then state the size of the largest pile."
+    "hint": "**Key Strategy:** Extremal Principle (Minimizing the Maximum)\n• **Step 1 (First Move):** To make the largest pile as small as possible, keep the $4$ different pile sizes as close together as possible, starting near the average size $20 \\div 4 = 5$.\n• **Step 2 (The Guiding Bridge):** Try the four smallest consecutive numbers near $5$, which are $3, 4, 5, 6$. Their sum is $3 + 4 + 5 + 6 = 18$, leaving $20 - 18 = 2$ extra pens to distribute without making any two piles equal.\n• **Step 3 (How to Finish):** Add $1$ pen each to the two largest piles ($5$ and $6$) so all $4$ numbers stay strictly different and sum to $20$, then state the size of the largest pile.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "answer": "A) 64",
     "explanation": "Selecting integers in the range $(N, 2N]$ avoids multiples: $6, 7, 8, 9, 10, 11, 13$. Sum = $64$.",
-    "hint": "**Key Strategy:** Extremal Principle & Avoiding Multiples\n• **Step 1 (First Move):** You cannot use $1$ (every integer is a multiple of $1$), and choosing small numbers like $2$ or $3$ eliminates too many multiples ($4, 6, 8, \\dots$ or $6, 9, 12, \\dots$). Selecting numbers strictly greater than half of the largest chosen number prevents any number from dividing another.\n• **Step 2 (The Guiding Bridge):** Test $7$ consecutive integers starting at $6$: $6, 7, 8, 9, 10, 11, 12$. Notice that $12$ is a multiple of $6$ ($12 = 2 \\times 6$), so you must skip $12$ and replace it with $13$, giving the set $\\{6, 7, 8, 9, 10, 11, 13\\}$.\n• **Step 3 (How to Finish):** Verify that no number in $\\{6, 7, 8, 9, 10, 11, 13\\}$ is a multiple of another (and that starting at $5$ forces a larger sum), then add those $7$ integers together."
+    "hint": "**Key Strategy:** Extremal Principle & Avoiding Multiples\n• **Step 1 (First Move):** You cannot use $1$ (every integer is a multiple of $1$), and choosing small numbers like $2$ or $3$ eliminates too many multiples ($4, 6, 8, \\dots$ or $6, 9, 12, \\dots$). Selecting numbers strictly greater than half of the largest chosen number prevents any number from dividing another.\n• **Step 2 (The Guiding Bridge):** Test $7$ consecutive integers starting at $6$: $6, 7, 8, 9, 10, 11, 12$. Notice that $12$ is a multiple of $6$ ($12 = 2 \\times 6$), so you must skip $12$ and replace it with $13$, giving the set $\\{6, 7, 8, 9, 10, 11, 13\\}$.\n• **Step 3 (How to Finish):** Verify that no number in $\\{6, 7, 8, 9, 10, 11, 13\\}$ is a multiple of another (and that starting at $5$ forces a larger sum), then add those $7$ integers together.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "answer": "A) 12",
     "explanation": "Interior angle of polygon = $360^\\circ - (90^\\circ + 60^\\circ) = 150^\\circ$. Exterior angle = $30^\\circ$. Sides = $360 / 30 = 12$.",
-    "hint": "**Key Strategy:** Angles Around a Point & Exterior Angle Formula\n• **Step 1 (First Move):** Recall the interior corner angles of the two known regular shapes: each corner of a square is $90^\\circ$, and each corner of an equilateral triangle is $60^\\circ$.\n• **Step 2 (The Guiding Bridge):** At the shared vertex where the square, equilateral triangle, and regular polygon meet without gaps or overlaps, the three angles sum to $360^\\circ$. Subtract $90^\\circ + 60^\\circ$ from $360^\\circ$ to find one interior angle of the regular polygon, then subtract that interior angle from $180^\\circ$ to find one exterior angle.\n• **Step 3 (How to Finish):** Since the exterior angles of any convex polygon always add up to $360^\\circ$, divide $360^\\circ$ by that exterior angle to find the number of sides."
+    "hint": "**Key Strategy:** Angles Around a Point & Exterior Angle Formula\n• **Step 1 (First Move):** Recall the interior corner angles of the two known regular shapes: each corner of a square is $90^\\circ$, and each corner of an equilateral triangle is $60^\\circ$.\n• **Step 2 (The Guiding Bridge):** At the shared vertex where the square, equilateral triangle, and regular polygon meet without gaps or overlaps, the three angles sum to $360^\\circ$. Subtract $90^\\circ + 60^\\circ$ from $360^\\circ$ to find one interior angle of the regular polygon, then subtract that interior angle from $180^\\circ$ to find one exterior angle.\n• **Step 3 (How to Finish):** Since the exterior angles of any convex polygon always add up to $360^\\circ$, divide $360^\\circ$ by that exterior angle to find the number of sides.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "answer": "A) 2/15",
     "explanation": "Shaded area = $\\frac{1}{4} \\times 8 = 2$ units. Total area = $15$ units. Fraction = $2/15$.",
-    "hint": "**Key Strategy:** Assigning Ratio Units\n• **Step 1 (First Move):** Treat the ratio $7 : 8 : 15$ as actual area units, so $\\text{Area}(\\triangle ABC) = 7$ units, $\\text{Area}(\\triangle ADE) = 8$ units, and the whole figure $\\text{Area}(\\triangle AFG) = 15$ units.\n• **Step 2 (The Guiding Bridge):** Calculate how many units of area are shaded by finding $\\frac{1}{4}$ of $\\triangle ADE$'s area: $\\frac{1}{4} \\times 8$.\n• **Step 3 (How to Finish):** Write a fraction with the shaded area units in the numerator and the whole figure's area ($15$ units) in the denominator, simplifying if needed."
+    "hint": "**Key Strategy:** Assigning Ratio Units\n• **Step 1 (First Move):** Treat the ratio $7 : 8 : 15$ as actual area units, so $\\text{Area}(\\triangle ABC) = 7$ units, $\\text{Area}(\\triangle ADE) = 8$ units, and the whole figure $\\text{Area}(\\triangle AFG) = 15$ units.\n• **Step 2 (The Guiding Bridge):** Calculate how many units of area are shaded by finding $\\frac{1}{4}$ of $\\triangle ADE$'s area: $\\frac{1}{4} \\times 8$.\n• **Step 3 (How to Finish):** Write a fraction with the shaded area units in the numerator and the whole figure's area ($15$ units) in the denominator, simplifying if needed.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "answer": "A) 147 cm²",
     "explanation": "Square side = $7\\text{ cm}$. Unshaded perimeter $2(x+y) = 42 \\implies x+y = 21$. Shaded area = $7 \\times (x+y) = 7 \\times 21 = 147\\text{ cm}^2$.",
-    "hint": "**Key Strategy:** Algebraic Dimension Labeling & Distributive Property\n• **Step 1 (First Move):** Find the side length of the square whose area is $49\\text{ cm}^2$ by taking the square root: $\\sqrt{49} = 7\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** Label the length and width of the unshaded rectangle as $x$ and $y$. Its perimeter gives $2(x + y) = 42\\text{ cm}$, so dividing by $2$ gives $x + y = 21\\text{ cm}$. Because the two remaining shaded rectangles each share a side of length $7\\text{ cm}$ with the square and have their other sides equal to $x$ and $y$, their areas are $7x$ and $7y$.\n• **Step 3 (How to Finish):** Combine the two shaded areas using the distributive property, $7x + 7y = 7(x + y)$, and substitute $x + y = 21$ to compute the total shaded area."
+    "hint": "**Key Strategy:** Algebraic Dimension Labeling & Distributive Property\n• **Step 1 (First Move):** Find the side length of the square whose area is $49\\text{ cm}^2$ by taking the square root: $\\sqrt{49} = 7\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** Label the length and width of the unshaded rectangle as $x$ and $y$. Its perimeter gives $2(x + y) = 42\\text{ cm}$, so dividing by $2$ gives $x + y = 21\\text{ cm}$. Because the two remaining shaded rectangles each share a side of length $7\\text{ cm}$ with the square and have their other sides equal to $x$ and $y$, their areas are $7x$ and $7y$.\n• **Step 3 (How to Finish):** Combine the two shaded areas using the distributive property, $7x + 7y = 7(x + y)$, and substitute $x + y = 21$ to compute the total shaded area.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "answer": "A) All odd numbers greater than 1",
     "explanation": "Any sum of 2 consecutive integers $n + (n+1) = 2n + 1$, which generates every odd integer greater than 1.",
-    "hint": "**Key Strategy:** Algebraic Representation of Consecutive Integers\n• **Step 1 (First Move):** Let the smaller of the two consecutive positive integers be $n$ (with $n \\ge 1$), so the next consecutive integer is $n + 1$.\n• **Step 2 (The Guiding Bridge):** Add the two expressions together to get $n + (n + 1) = 2n + 1$. Plug in the smallest values $n = 1, 2, 3, \\dots$ to generate $1 + 2 = 3$, $2 + 3 = 5$, $3 + 4 = 7$, and so on.\n• **Step 3 (How to Finish):** Inspect the pattern of $2n + 1$ for $n \\ge 1$ to state whether all outputs are even or odd and which smallest positive value is excluded."
+    "hint": "**Key Strategy:** Algebraic Representation of Consecutive Integers\n• **Step 1 (First Move):** Let the smaller of the two consecutive positive integers be $n$ (with $n \\ge 1$), so the next consecutive integer is $n + 1$.\n• **Step 2 (The Guiding Bridge):** Add the two expressions together to get $n + (n + 1) = 2n + 1$. Plug in the smallest values $n = 1, 2, 3, \\dots$ to generate $1 + 2 = 3$, $2 + 3 = 5$, $3 + 4 = 7$, and so on.\n• **Step 3 (How to Finish):** Inspect the pattern of $2n + 1$ for $n \\ge 1$ to state whether all outputs are even or odd and which smallest positive value is excluded.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "answer": "A) 225",
     "explanation": "Choosing 2 lines out of 6 horizontally and vertically: $\\binom{6}{2} \\times \\binom{6}{2} = 15 \\times 15 = 225$.",
-    "hint": "**Key Strategy:** Combinatorics (Choosing Bounding Grid Lines)\n• **Step 1 (First Move):** Count the grid lines that form a $5 \\times 5$ grid of unit squares: there are $5 + 1 = 6$ horizontal grid lines and $5 + 1 = 6$ vertical grid lines.\n• **Step 2 (The Guiding Bridge):** Every rectangle (including squares) is uniquely determined by choosing $2$ horizontal lines (top and bottom) and $2$ vertical lines (left and right). Calculate the number of ways to pick $2$ lines from $6$: $\\binom{6}{2} = \\frac{6 \\times 5}{2} = 15$ horizontal pairs and $15$ vertical pairs.\n• **Step 3 (How to Finish):** Multiply the number of horizontal pairs by the number of vertical pairs ($15 \\times 15$) to find the total number of rectangles."
+    "hint": "**Key Strategy:** Combinatorics (Choosing Bounding Grid Lines)\n• **Step 1 (First Move):** Count the grid lines that form a $5 \\times 5$ grid of unit squares: there are $5 + 1 = 6$ horizontal grid lines and $5 + 1 = 6$ vertical grid lines.\n• **Step 2 (The Guiding Bridge):** Every rectangle (including squares) is uniquely determined by choosing $2$ horizontal lines (top and bottom) and $2$ vertical lines (left and right). Calculate the number of ways to pick $2$ lines from $6$: $\\binom{6}{2} = \\frac{6 \\times 5}{2} = 15$ horizontal pairs and $15$ vertical pairs.\n• **Step 3 (How to Finish):** Multiply the number of horizontal pairs by the number of vertical pairs ($15 \\times 15$) to find the total number of rectangles.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "answer": "A) 5",
     "explanation": "Since $2015 \\equiv 3 \\pmod 4$, last digit equals last digit of $1^3 + 2^3 + \\dots + 9^3 + 0^3 = 2025$, ending in 5.",
-    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Arithmetic)\n• **Step 1 (First Move):** Notice that the last digit of powers $a^k$ repeats in cycles of length at most $4$. Divide the exponent $2015$ by $4$ to find the remainder: $2015 = 4 \\times 503 + 3$, giving a remainder of $3$.\n• **Step 2 (The Guiding Bridge):** Because the remainder is $3$, each base $a$ from $1$ to $10$ has the exact same units digit for $a^{2015}$ as it does for $a^3$. Compute the units digits of $1^3$ through $10^3$ (for instance, $1^3 = 1$, $2^3 = 8$, $3^3 = 27$ ends in $7$, $4^3 = 64$ ends in $4$, and continue up to $10^3$).\n• **Step 3 (How to Finish):** Add all ten of those units digits together and take the last digit of that sum."
+    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Arithmetic)\n• **Step 1 (First Move):** Notice that the last digit of powers $a^k$ repeats in cycles of length at most $4$. Divide the exponent $2015$ by $4$ to find the remainder: $2015 = 4 \\times 503 + 3$, giving a remainder of $3$.\n• **Step 2 (The Guiding Bridge):** Because the remainder is $3$, each base $a$ from $1$ to $10$ has the exact same units digit for $a^{2015}$ as it does for $a^3$. Compute the units digits of $1^3$ through $10^3$ (for instance, $1^3 = 1$, $2^3 = 8$, $3^3 = 27$ ends in $7$, $4^3 = 64$ ends in $4$, and continue up to $10^3$).\n• **Step 3 (How to Finish):** Add all ten of those units digits together and take the last digit of that sum.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 25,
@@ -347,6 +371,7 @@
     ],
     "answer": "A) 10987",
     "explanation": "Deducing column carries: $E=1$, $F=0$, $C=9$, $B=8$, $H=7$. The 5-digit number is 10987.",
-    "hint": "**Key Strategy:** Column-by-Column Addition & Carry Analysis\n• **Step 1 (First Move):** Align the addition vertically as $ABCD + KEFGB = EFCBH$. Look at the leftmost columns: a carry enters the ten-thousands column, and $A + E + \\text{carry}$ overflows $10$ to produce $F$ in the thousands digit; test the smallest leading carry digits ($E$ and $F$) suggested by the structure of the choices.\n• **Step 2 (The Guiding Bridge):** Examine the middle columns when $F = 0$: in the hundreds column, $B + 0 + \\text{carry} = C$. Because $B$ and $C$ cannot be the same digit, there MUST be a carry of $1$ from the tens column ($C + G + \\text{carry} = 10 + B$), which forces $C = B + 1$ (so $C$ is exactly $1$ larger than $B$).\n• **Step 3 (How to Finish):** Use the relationship $C = B + 1$ together with the leading digits $E, F$ and the units column carry ($D + B = 10 + H$) to test the given 5-digit candidates and identify the only valid value of $EFCBH$."
+    "hint": "**Key Strategy:** Column-by-Column Addition & Carry Analysis\n• **Step 1 (First Move):** Align the addition vertically as $ABCD + KEFGB = EFCBH$. Look at the leftmost columns: a carry enters the ten-thousands column, and $A + E + \\text{carry}$ overflows $10$ to produce $F$ in the thousands digit; test the smallest leading carry digits ($E$ and $F$) suggested by the structure of the choices.\n• **Step 2 (The Guiding Bridge):** Examine the middle columns when $F = 0$: in the hundreds column, $B + 0 + \\text{carry} = C$. Because $B$ and $C$ cannot be the same digit, there MUST be a carry of $1$ from the tens column ($C + G + \\text{carry} = 10 + B$), which forces $C = B + 1$ (so $C$ is exactly $1$ larger than $B$).\n• **Step 3 (How to Finish):** Use the relationship $C = B + 1$ together with the leading digits $E, F$ and the units column carry ($D + B = 10 + H$) to test the given 5-digit candidates and identify the only valid value of $EFCBH$.",
+    "category": "Logic & Patterns"
   }
 ]

@@ -11,7 +11,8 @@
     ],
     "answer": "(D) 10",
     "explanation": "At $2$ seconds per dimple, it takes $300 \\times 2 = 600$ seconds to paint all $300$ dimples. Since there are $60$ seconds in a minute, he will need $600 / 60 = 10$ minutes.",
-    "hint": "**Key Strategy:** Unit Rate & Time Conversion\n• **Step 1 (First Move):** Find the total time in seconds by multiplying the number of dimples ($300$) by the seconds per dimple ($2$): $300 \\times 2 = 600\\text{ seconds}$.\n• **Step 2 (The Guiding Bridge):** Recall that $1\\text{ minute} = 60\\text{ seconds}$.\n• **Step 3 (How to Finish):** Divide the total seconds ($600$) by $60$ to convert into minutes."
+    "hint": "**Key Strategy:** Unit Rate & Time Conversion\n• **Step 1 (First Move):** Find the total time in seconds by multiplying the number of dimples ($300$) by the seconds per dimple ($2$): $300 \\times 2 = 600\\text{ seconds}$.\n• **Step 2 (The Guiding Bridge):** Recall that $1\\text{ minute} = 60\\text{ seconds}$.\n• **Step 3 (How to Finish):** Divide the total seconds ($600$) by $60$ to convert into minutes.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "2",
@@ -25,7 +26,8 @@
     ],
     "answer": "(D) 8",
     "explanation": "List all pairs of positive integers whose product is $24$:\n• $1 \\times 24 = 24$ (Sum $= 25$)\n• $2 \\times 12 = 24$ (Sum $= 14$)\n• $3 \\times 8 = 24$ (Sum $= 11$)\n• $4 \\times 6 = 24$ (Sum $= 10$)\nThe pair that sums to $11$ is $3$ and $8$. The larger number is $8$.",
-    "hint": "**Key Strategy:** Factor Pairs & Sum Matching\n• **Step 1 (First Move):** List all pairs of whole numbers that multiply to $24$: $(1, 24), (2, 12), (3, 8), (4, 6)$.\n• **Step 2 (The Guiding Bridge):** Add the two numbers in each pair to see which pair sums to $11$.\n• **Step 3 (How to Finish):** Identify the pair $(3, 8)$ and choose the larger of the two numbers."
+    "hint": "**Key Strategy:** Factor Pairs & Sum Matching\n• **Step 1 (First Move):** List all pairs of whole numbers that multiply to $24$: $(1, 24), (2, 12), (3, 8), (4, 6)$.\n• **Step 2 (The Guiding Bridge):** Add the two numbers in each pair to see which pair sums to $11$.\n• **Step 3 (How to Finish):** Identify the pair $(3, 8)$ and choose the larger of the two numbers.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "3",
@@ -39,7 +41,8 @@
     ],
     "answer": "(E) 23",
     "explanation": "Anjou has one-third as much as Granny Smith, so Anjou has \\$63 / 3 = \\$21. Elberta has \\$2 more than Anjou, so Elberta has \\$21 + \\$2 = \\$23.",
-    "hint": "**Key Strategy:** Direct Sequential Substitution\n• **Step 1 (First Move):** Find Anjou's money first, since Anjou has one-third as much as Granny Smith ($63$ dollars): $63 \\div 3 = 21$.\n• **Step 2 (The Guiding Bridge):** Use the relationship between Elberta and Anjou: Elberta has \\$2 more than Anjou.\n• **Step 3 (How to Finish):** Add \\$2 to Anjou's amount ($21 + 2$) to find Elberta's money."
+    "hint": "**Key Strategy:** Direct Sequential Substitution\n• **Step 1 (First Move):** Find Anjou's money first, since Anjou has one-third as much as Granny Smith ($63$ dollars): $63 \\div 3 = 21$.\n• **Step 2 (The Guiding Bridge):** Use the relationship between Elberta and Anjou: Elberta has \\$2 more than Anjou.\n• **Step 3 (How to Finish):** Add \\$2 to Anjou's amount ($21 + 2$) to find Elberta's money.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "4",
@@ -53,7 +56,8 @@
     ],
     "answer": "(E) 9",
     "explanation": "To make the number even, its units digit must be an even digit: either $2$ or $4$.\nTo make the five-digit number as small as possible, we want the leading (ten-thousands) digit to be as small as possible ($1$), followed by the smallest available digits in the thousands and hundreds places.\nIf the units digit is $2$, the remaining digits $\\{1, 3, 4, 9\\}$ arranged in increasing order give $13492$.\nIf the units digit is $4$, the remaining digits $\\{1, 2, 3, 9\\}$ arranged in increasing order give $12394$.\nSince $12394 < 13492$, the smallest even five-digit number is $12394$. The digit in the tens place is $9$.",
-    "hint": "**Key Strategy:** Greedy Place Value Minimization with Parity Constraint\n• **Step 1 (First Move):** For the five-digit number to be even, its last (units) digit must be either $2$ or $4$.\n• **Step 2 (The Guiding Bridge):** To minimize the overall number, place the smallest available digits in the highest place values (ten-thousands, thousands, hundreds). Compare the candidate starting with $1, 2, 3\\dots$ (ending in $4$) versus starting with $1, 3, 4\\dots$ (ending in $2$).\n• **Step 3 (How to Finish):** Write out the smaller number, $12394$, and read the digit in the tens place."
+    "hint": "**Key Strategy:** Greedy Place Value Minimization with Parity Constraint\n• **Step 1 (First Move):** For the five-digit number to be even, its last (units) digit must be either $2$ or $4$.\n• **Step 2 (The Guiding Bridge):** To minimize the overall number, place the smallest available digits in the highest place values (ten-thousands, thousands, hundreds). Compare the candidate starting with $1, 2, 3\\dots$ (ending in $4$) versus starting with $1, 3, 4\\dots$ (ending in $2$).\n• **Step 3 (How to Finish):** Write out the smaller number, $12394$, and read the digit in the tens place.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": "5",
@@ -68,7 +72,8 @@
     "answer": "(C) 2",
     "explanation": "In $10$ seconds, sound travels $10 \\times 1088 = 10880$ feet. To convert this to miles, divide by $5280$:\n$\\frac{10880}{5280} \\approx \\frac{10560 + 320}{5280} = 2 + \\frac{320}{5280} = 2.06\\text{ miles}$.\nTo the nearest half-mile, $2.06$ is closest to $2$ miles.",
     "hint": "**Key Strategy:** Distance = Rate × Time & Estimation\n• **Step 1 (First Move):** Calculate the total distance sound traveled in $10$ seconds: $1088 \\times 10 = 10880\\text{ feet}$.\n• **Step 2 (The Guiding Bridge):** Compare $10880\\text{ feet}$ to multiples of $1\\text{ mile} = 5280\\text{ feet}$: $2\\text{ miles} = 2 \\times 5280 = 10560\\text{ feet}$, and $2.5\\text{ miles} = 13200\\text{ feet}$.\n• **Step 3 (How to Finish):** Notice that $10880$ is only $320\\text{ feet}$ away from $10560$ ($2$ miles), which is far closer to $2$ than to $1.5$ or $2.5$.",
-    "image_width": 150
+    "image_width": 150,
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "6",
@@ -82,7 +87,8 @@
     ],
     "answer": "(B) 100",
     "explanation": "Between the first tree and the fourth tree, there are $4 - 1 = 3$ equal intervals. Since the distance is $60$ feet, each interval is $60 / 3 = 20$ feet long. Between the first tree and the sixth (last) tree, there are $6 - 1 = 5$ intervals. The total distance is $5 \\times 20 = 100$ feet.",
-    "hint": "**Key Strategy:** Fencepost Problem / Counting Intervals\n• **Step 1 (First Move):** Count the number of intervals between the $1^{\\text{st}}$ and $4^{\\text{th}}$ trees: $4 - 1 = 3$ equal gaps.\n• **Step 2 (The Guiding Bridge):** Find the length of a single gap by dividing $60\\text{ feet}$ by $3$: $60 \\div 3 = 20\\text{ feet}$.\n• **Step 3 (How to Finish):** Count the number of gaps between the $1^{\\text{st}}$ and $6^{\\text{th}}$ (last) trees ($6 - 1 = 5$ gaps), and multiply: $5 \\times 20\\text{ feet}$."
+    "hint": "**Key Strategy:** Fencepost Problem / Counting Intervals\n• **Step 1 (First Move):** Count the number of intervals between the $1^{\\text{st}}$ and $4^{\\text{th}}$ trees: $4 - 1 = 3$ equal gaps.\n• **Step 2 (The Guiding Bridge):** Find the length of a single gap by dividing $60\\text{ feet}$ by $3$: $60 \\div 3 = 20\\text{ feet}$.\n• **Step 3 (How to Finish):** Count the number of gaps between the $1^{\\text{st}}$ and $6^{\\text{th}}$ (last) trees ($6 - 1 = 5$ gaps), and multiply: $5 \\times 20\\text{ feet}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "7",
@@ -96,7 +102,8 @@
     ],
     "answer": "(A) 21",
     "explanation": "The small kite is drawn on a $1$-inch grid and fits inside a bounding rectangle of width $6$ inches and height $7$ inches (area $6 \\times 7 = 42$ sq inches).\nThe kite is composed of four triangles meeting at the center (or can be found by subtracting the unshaded corners from the $6 \\times 7$ rectangle):\n• Top corners: two right triangles of base $3$ and height $4$, each of area $\\frac{1}{2} \\times 3 \\times 4 = 6$.\n• Bottom corners: two right triangles of base $2$ and height $3$... let's look at the grid: The horizontal diagonal is $6$ inches long and the vertical diagonal is $7$ inches long. By the kite area formula: $\\text{Area} = \\frac{1}{2} d_1 d_2 = \\frac{1}{2} \\times 6 \\times 7 = 21$ square inches.",
-    "hint": "**Key Strategy:** Kite Area Formula / Diagonal Multiplication\n• **Step 1 (First Move):** Count the grid units for the horizontal diagonal ($d_1 = 6\\text{ inches}$) and vertical diagonal ($d_2 = 7\\text{ inches}$) of the kite.\n• **Step 2 (The Guiding Bridge):** Recall that the diagonals of a kite are perpendicular, so its area is given by $\\frac{1}{2} \\times d_1 \\times d_2$.\n• **Step 3 (How to Finish):** Multiply $\\frac{1}{2} \\times 6 \\times 7$ to find the area."
+    "hint": "**Key Strategy:** Kite Area Formula / Diagonal Multiplication\n• **Step 1 (First Move):** Count the grid units for the horizontal diagonal ($d_1 = 6\\text{ inches}$) and vertical diagonal ($d_2 = 7\\text{ inches}$) of the kite.\n• **Step 2 (The Guiding Bridge):** Recall that the diagonals of a kite are perpendicular, so its area is given by $\\frac{1}{2} \\times d_1 \\times d_2$.\n• **Step 3 (How to Finish):** Multiply $\\frac{1}{2} \\times 6 \\times 7$ to find the area.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "8",
@@ -110,7 +117,8 @@
     ],
     "answer": "(E) 39",
     "explanation": "For the small kite, the cross connecting opposite corners consists of the horizontal diagonal ($6$ inches) and the vertical diagonal ($7$ inches). Total bracing on the small kite is $6 + 7 = 13$ inches. For the large kite, Genevieve triples both the height and width of the entire grid, so every linear dimension is multiplied by $3$. The bracing needed for the large kite is $3 \\times 13 = 39$ inches.",
-    "hint": "**Key Strategy:** Linear Scaling Factor\n• **Step 1 (First Move):** Identify the lengths of the two cross braces on the small kite: the horizontal crossbar is $6\\text{ inches}$ and the vertical backbone is $7\\text{ inches}$.\n• **Step 2 (The Guiding Bridge):** Find the total bracing for the small kite: $6 + 7 = 13\\text{ inches}$.\n• **Step 3 (How to Finish):** Since the large kite triples both height and width, all linear lengths scale by a factor of $3$: multiply $13 \\times 3$."
+    "hint": "**Key Strategy:** Linear Scaling Factor\n• **Step 1 (First Move):** Identify the lengths of the two cross braces on the small kite: the horizontal crossbar is $6\\text{ inches}$ and the vertical backbone is $7\\text{ inches}$.\n• **Step 2 (The Guiding Bridge):** Find the total bracing for the small kite: $6 + 7 = 13\\text{ inches}$.\n• **Step 3 (How to Finish):** Since the large kite triples both height and width, all linear lengths scale by a factor of $3$: multiply $13 \\times 3$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "9",
@@ -124,7 +132,8 @@
     ],
     "answer": "(D) 189",
     "explanation": "For the small kite, the enclosing rectangle has dimensions $6 \\times 7 = 42$ sq inches, and the kite has area $21$ sq inches. The waste material cut from the four corners of the small kite is $42 - 21 = 21$ sq inches (which is half the area of the rectangle). Since the large kite scales all linear dimensions by $3$, all areas scale by $3^2 = 9$. Thus, the waste material for the large kite is $9 \\times 21 = 189$ square inches.",
-    "hint": "**Key Strategy:** Area Scaling Factor ($k^2$)\n• **Step 1 (First Move):** For the small kite, the bounding rectangle has area $6 \\times 7 = 42$, and the kite has area $21$. The waste material is $42 - 21 = 21\\text{ sq in}$.\n• **Step 2 (The Guiding Bridge):** When all linear dimensions of a shape are multiplied by $3$, its area multiplies by $3^2 = 9$.\n• **Step 3 (How to Finish):** Multiply the waste area of the small kite by $9$: $21 \\times 9$."
+    "hint": "**Key Strategy:** Area Scaling Factor ($k^2$)\n• **Step 1 (First Move):** For the small kite, the bounding rectangle has area $6 \\times 7 = 42$, and the kite has area $21$. The waste material is $42 - 21 = 21\\text{ sq in}$.\n• **Step 2 (The Guiding Bridge):** When all linear dimensions of a shape are multiplied by $3$, its area multiplies by $3^2 = 9$.\n• **Step 3 (How to Finish):** Multiply the waste area of the small kite by $9$: $21 \\times 9$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "10",
@@ -138,7 +147,8 @@
     ],
     "answer": "(A) $20",
     "explanation": "Four state quarters have a face value of $4 \\times \\$0.25 = \\$1.00. The offer is for $2000\\%$ of face value. Since $2000\\% = 2000 / 100 = 20$, Bryden will receive $20 \\times \\$1.00 = \\$20.00.",
-    "hint": "**Key Strategy:** Percentage as a Multiple\n• **Step 1 (First Move):** Find the total face value of the four quarters: $4 \\times \\$0.25 = \\$1.00.\n• **Step 2 (The Guiding Bridge):** Convert $2000\\%$ into a regular decimal multiplier: $2000\\% = \\frac{2000}{100} = 20$.\n• **Step 3 (How to Finish):** Multiply the total face value by $20$: \\$1.00 \\times 20$."
+    "hint": "**Key Strategy:** Percentage as a Multiple\n• **Step 1 (First Move):** Find the total face value of the four quarters: $4 \\times \\$0.25 = \\$1.00.\n• **Step 2 (The Guiding Bridge):** Convert $2000\\%$ into a regular decimal multiplier: $2000\\% = \\frac{2000}{100} = 20$.\n• **Step 3 (How to Finish):** Multiply the total face value by $20$: \\$1.00 \\times 20$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "11",
@@ -152,7 +162,8 @@
     ],
     "answer": "(C) 18",
     "explanation": "Quadrilateral $ABCD$ is a trapezoid. The vertical right side $\\overline{AB}$ goes from $(3, -2)$ to $(3, 2)$, so its length is $2 - (-2) = 4$. The vertical left side $\\overline{CD}$ goes from $(-3, -2)$ to $(-3, 0)$, so its length is $0 - (-2) = 2$. The bottom side $\\overline{BC}$ is horizontal from $(-3, -2)$ to $(3, -2)$, so the distance between the two vertical parallel sides is $3 - (-3) = 6$. The area of the trapezoid is $\\text{Area} = \\frac{b_1 + b_2}{2} \\times h = \\frac{4 + 2}{2} \\times 6 = 3 \\times 6 = 18$.",
-    "hint": "**Key Strategy:** Coordinate Trapezoid Area Formula\n• **Step 1 (First Move):** Plot the points or observe that sides $AB$ and $CD$ are both vertical, meaning they are parallel bases: $AB$ has length $2 - (-2) = 4$, and $CD$ has length $0 - (-2) = 2$.\n• **Step 2 (The Guiding Bridge):** The horizontal base $BC$ connects $(-3, -2)$ to $(3, -2)$, providing the height (distance between parallel bases): $3 - (-3) = 6$.\n• **Step 3 (How to Finish):** Apply the trapezoid area formula: $\\text{Area} = \\frac{b_1 + b_2}{2} \\times h = \\frac{4 + 2}{2} \\times 6$."
+    "hint": "**Key Strategy:** Coordinate Trapezoid Area Formula\n• **Step 1 (First Move):** Plot the points or observe that sides $AB$ and $CD$ are both vertical, meaning they are parallel bases: $AB$ has length $2 - (-2) = 4$, and $CD$ has length $0 - (-2) = 2$.\n• **Step 2 (The Guiding Bridge):** The horizontal base $BC$ connects $(-3, -2)$ to $(3, -2)$, providing the height (distance between parallel bases): $3 - (-3) = 6$.\n• **Step 3 (How to Finish):** Apply the trapezoid area formula: $\\text{Area} = \\frac{b_1 + b_2}{2} \\times h = \\frac{4 + 2}{2} \\times 6$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "12",
@@ -166,7 +177,8 @@
     ],
     "answer": "(A) 4",
     "explanation": "First, evaluate the inner expression $6 \\otimes 4$:\n$6 \\otimes 4 = \\frac{6 + 4}{6 - 4} = \\frac{10}{2} = 5$.\nThen, evaluate $5 \\otimes 3$:\n$5 \\otimes 3 = \\frac{5 + 3}{5 - 3} = \\frac{8}{2} = 4$.",
-    "hint": "**Key Strategy:** Order of Operations / Parentheses First\n• **Step 1 (First Move):** Compute the expression inside parentheses first: $6 \\otimes 4 = \\frac{6 + 4}{6 - 4} = \\frac{10}{2} = 5$.\n• **Step 2 (The Guiding Bridge):** Substitute this result into the outer expression: $(6 \\otimes 4) \\otimes 3 = 5 \\otimes 3$.\n• **Step 3 (How to Finish):** Apply the rule to $5 \\otimes 3$: $\\frac{5 + 3}{5 - 3} = \\frac{8}{2}$."
+    "hint": "**Key Strategy:** Order of Operations / Parentheses First\n• **Step 1 (First Move):** Compute the expression inside parentheses first: $6 \\otimes 4 = \\frac{6 + 4}{6 - 4} = \\frac{10}{2} = 5$.\n• **Step 2 (The Guiding Bridge):** Substitute this result into the outer expression: $(6 \\otimes 4) \\otimes 3 = 5 \\otimes 3$.\n• **Step 3 (How to Finish):** Apply the rule to $5 \\otimes 3$: $\\frac{5 + 3}{5 - 3} = \\frac{8}{2}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "13",
@@ -180,7 +192,8 @@
     ],
     "answer": "(D) 50",
     "explanation": "First, find the number of remaining students: $36 - (12 + 8 + 6) = 36 - 26 = 10$ students. Half of these prefer cherry pie, so $10 / 2 = 5$ students prefer cherry pie. In a circle graph, $360^\\circ$ represents all $36$ students. Each student corresponds to $360^\\circ / 36 = 10^\\circ$. Therefore, the sector for cherry pie is $5 \\times 10^\\circ = 50^\\circ$.",
-    "hint": "**Key Strategy:** Proportional Sector Angle in a Circle Graph\n• **Step 1 (First Move):** Calculate how many students are left by subtracting the known preferences from the class total: $36 - (12 + 8 + 6) = 36 - 26 = 10$ students.\n• **Step 2 (The Guiding Bridge):** Since half of the remaining students prefer cherry, $10 \\div 2 = 5$ students prefer cherry pie.\n• **Step 3 (How to Finish):** A full circle has $360^\\circ$ for $36$ students ($10^\\circ$ per student). Multiply $5$ students by $10^\\circ$ per student."
+    "hint": "**Key Strategy:** Proportional Sector Angle in a Circle Graph\n• **Step 1 (First Move):** Calculate how many students are left by subtracting the known preferences from the class total: $36 - (12 + 8 + 6) = 36 - 26 = 10$ students.\n• **Step 2 (The Guiding Bridge):** Since half of the remaining students prefer cherry, $10 \\div 2 = 5$ students prefer cherry pie.\n• **Step 3 (How to Finish):** A full circle has $360^\\circ$ for $36$ students ($10^\\circ$ per student). Multiply $5$ students by $10^\\circ$ per student.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "14",
@@ -194,7 +207,8 @@
     ],
     "answer": "(C) 72",
     "explanation": "Use the Fundamental Counting Principle:\n• **Meat:** Tyler chooses $1$ of $3$ meats: $\\binom{3}{1} = 3$ ways.\n• **Vegetables:** Tyler chooses $2$ different vegetables from $4$: $\\binom{4}{2} = \\frac{4 \\times 3}{2} = 6$ ways.\n• **Dessert:** Tyler chooses $1$ of $4$ desserts: $\\binom{4}{1} = 4$ ways.\nThe total number of different meals is $3 \\times 6 \\times 4 = 72$.",
-    "hint": "**Key Strategy:** Counting Principle & Combinations\n• **Step 1 (First Move):** Count the choices for meat ($3$ ways) and dessert ($4$ ways).\n• **Step 2 (The Guiding Bridge):** For vegetables, Tyler chooses $2$ different items out of $4$. Use combination formula $\\binom{4}{2} = \\frac{4 \\times 3}{2 \\times 1} = 6$ ways.\n• **Step 3 (How to Finish):** Multiply the choices for each category together: $3 \\times 6 \\times 4$."
+    "hint": "**Key Strategy:** Counting Principle & Combinations\n• **Step 1 (First Move):** Count the choices for meat ($3$ ways) and dessert ($4$ ways).\n• **Step 2 (The Guiding Bridge):** For vegetables, Tyler chooses $2$ different items out of $4$. Use combination formula $\\binom{4}{2} = \\frac{4 \\times 3}{2 \\times 1} = 6$ ways.\n• **Step 3 (How to Finish):** Multiply the choices for each category together: $3 \\times 6 \\times 4$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "15",
@@ -208,7 +222,8 @@
     ],
     "answer": "(A) 20",
     "explanation": "In the first $4$ minutes, Homer peeled $4 \\times 3 = 12$ potatoes alone. That left $44 - 12 = 32$ potatoes. When Christen joined Homer, their combined peeling rate was $3 + 5 = 8$ potatoes per minute. The time they worked together was $32 / 8 = 4$ minutes. In those $4$ minutes, Christen peeled $4 \\times 5 = 20$ potatoes.",
-    "hint": "**Key Strategy:** Work Rate with Head Start\n• **Step 1 (First Move):** Calculate how many potatoes Homer peeled in his first $4$ minutes alone: $4 \\times 3 = 12$ potatoes.\n• **Step 2 (The Guiding Bridge):** Subtract those from $44$ to find how many were left: $44 - 12 = 32$ potatoes. Together, they peel at a combined rate of $3 + 5 = 8$ potatoes per minute.\n• **Step 3 (How to Finish):** Divide $32$ by $8$ to find how many minutes they worked together ($4$ minutes), then multiply by Christen's rate ($4 \\times 5$)."
+    "hint": "**Key Strategy:** Work Rate with Head Start\n• **Step 1 (First Move):** Calculate how many potatoes Homer peeled in his first $4$ minutes alone: $4 \\times 3 = 12$ potatoes.\n• **Step 2 (The Guiding Bridge):** Subtract those from $44$ to find how many were left: $44 - 12 = 32$ potatoes. Together, they peel at a combined rate of $3 + 5 = 8$ potatoes per minute.\n• **Step 3 (How to Finish):** Divide $32$ by $8$ to find how many minutes they worked together ($4$ minutes), then multiply by Christen's rate ($4 \\times 5$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "16",
@@ -223,7 +238,8 @@
     "answer": "(E) $\\dfrac{5}{6}$",
     "explanation": "The original square has dimensions $4 \\times 4$. When folded vertically, it has width $2$ and height $4$. Cutting both layers in half parallel to the fold cuts across the $2$-inch width at $1$ inch from the fold. Unfolding gives:\n• The central piece (containing the fold line) is a rectangle of width $1 + 1 = 2$ inches and height $4$ inches. Its perimeter is $2(2 + 4) = 12$ inches.\n• The two outer edge pieces are rectangles of width $1$ inch and height $4$ inches. The perimeter of one small rectangle is $2(1 + 4) = 10$ inches.\nThe ratio of the perimeter of a small rectangle to the large rectangle is $10 / 12 = 5/6$.",
     "hint": "**Key Strategy:** Paper Folding & Unfolding Dimensions\n• **Step 1 (First Move):** The $4 \\times 4$ square is folded in half vertically into a $2 \\times 4$ folded sheet. Cutting in half parallel to the fold produces two strips of width $1$ and height $4$.\n• **Step 2 (The Guiding Bridge):** Unfold: the strip containing the fold becomes a large rectangle of dimensions $2 \\times 4$ (Perimeter $= 2(2 + 4) = 12$). The other two strips become two separate small rectangles of dimensions $1 \\times 4$ (Perimeter $= 2(1 + 4) = 10$).\n• **Step 3 (How to Finish):** Form the ratio of the small perimeter to the large perimeter: $\\frac{10}{12}$ and simplify.",
-    "image_width": 150
+    "image_width": 150,
+    "category": "Geometry & Spatial"
   },
   {
     "id": "17",
@@ -237,7 +253,8 @@
     ],
     "answer": "(B) From 2 to 3",
     "explanation": "Calculate the percent increase $\\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$ for each choice:\n• **(A) 1 to 2:** $\\frac{200 - 100}{100} = \\frac{100}{100} = 100\\%$\n• **(B) 2 to 3:** $\\frac{300 - 200}{200} = \\frac{100}{200} = 50\\%$\n• **(C) 3 to 4:** $\\frac{500 - 300}{300} = \\frac{200}{300} = 66.\\overline{6}\\%$\n• **(D) 11 to 12:** $\\frac{125 - 64}{64} = \\frac{61}{64} \\approx 95.3\\%$\n• **(E) 14 to 15:** $\\frac{1000 - 500}{500} = \\frac{500}{500} = 100\\%$\nThe smallest percent increase is $50\\%$, which occurs from Question 2 to Question 3.",
-    "hint": "**Key Strategy:** Percentage Increase Formula Comparison\n• **Step 1 (First Move):** Recall the percent increase formula: $\\frac{\\text{Increase}}{\\text{Original}} \\times 100\\%$.\n• **Step 2 (The Guiding Bridge):** Test the five given options: (A) $\\frac{100}{100} = 100\\%$, (B) $\\frac{100}{200} = 50\\%$, (C) $\\frac{200}{300} \\approx 67\\%$, (D) $\\frac{61}{64} \\approx 95\\%$, (E) $\\frac{500}{500} = 100\\%$.\n• **Step 3 (How to Finish):** Compare the percentages to find the smallest value ($50\\%$)."
+    "hint": "**Key Strategy:** Percentage Increase Formula Comparison\n• **Step 1 (First Move):** Recall the percent increase formula: $\\frac{\\text{Increase}}{\\text{Original}} \\times 100\\%$.\n• **Step 2 (The Guiding Bridge):** Test the five given options: (A) $\\frac{100}{100} = 100\\%$, (B) $\\frac{100}{200} = 50\\%$, (C) $\\frac{200}{300} \\approx 67\\%$, (D) $\\frac{61}{64} \\approx 95\\%$, (E) $\\frac{500}{500} = 100\\%$.\n• **Step 3 (How to Finish):** Compare the percentages to find the smallest value ($50\\%$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "18",
@@ -251,7 +268,8 @@
     ],
     "answer": "(D) $\\dfrac{11}{36}$",
     "explanation": "Since $5$ is prime, the product of two dice rolls is a multiple of $5$ if and only if at least one of the dice shows a $5$.\nThere are $6 \\times 6 = 36$ total possible outcomes.\nThe outcomes where NEITHER die shows a $5$ use only the $5$ numbers $\\{1, 2, 3, 4, 6\\}$, which can happen in $5 \\times 5 = 25$ ways.\nBy complementary counting, the number of outcomes with at least one $5$ is $36 - 25 = 11$.\nTherefore, the probability is $11/36$.",
-    "hint": "**Key Strategy:** Complementary Probability\n• **Step 1 (First Move):** Since $5$ is a prime number, the product of two dice is divisible by $5$ if and only if at least one die rolls a $5$.\n• **Step 2 (The Guiding Bridge):** Find the probability that NEITHER die shows a $5$: each die has $5$ non-5 options ($1, 2, 3, 4, 6$), giving $5 \\times 5 = 25$ outcomes out of $36$ total.\n• **Step 3 (How to Finish):** Subtract from $1$: $1 - \\frac{25}{36} = \\frac{11}{36}$."
+    "hint": "**Key Strategy:** Complementary Probability\n• **Step 1 (First Move):** Since $5$ is a prime number, the product of two dice is divisible by $5$ if and only if at least one die rolls a $5$.\n• **Step 2 (The Guiding Bridge):** Find the probability that NEITHER die shows a $5$: each die has $5$ non-5 options ($1, 2, 3, 4, 6$), giving $5 \\times 5 = 25$ outcomes out of $36$ total.\n• **Step 3 (How to Finish):** Subtract from $1$: $1 - \\frac{25}{36} = \\frac{11}{36}$.",
+    "category": "Counting & Probability"
   },
   {
     "id": "19",
@@ -266,7 +284,8 @@
     "answer": "(D) Graph D",
     "explanation": "Distance is given by $\\text{Distance} = \\text{Speed} \\times \\text{Time}$.\nCar N travels at twice the speed of Car M: $s_N = 2 s_M$. This means on the vertical \"speed\" axis, the solid line for N must be twice as high as the dashed line for M.\nSince Car N travels the same distance at twice the speed, it takes half the time: $t_N = d / (2 s_M) = \\frac{1}{2} t_M$. This means on the horizontal \"time\" axis, the solid line for N must be half as long as the dashed line for M.\nLooking at the options, Graph D shows Car N at twice the height (twice the speed) and extending for half the horizontal distance (half the time).",
     "hint": "**Key Strategy:** Distance = Speed × Time / Graphic Interpretation\n• **Step 1 (First Move):** Since Car N has twice the speed of Car M, the solid line (Car N) must be twice as high on the vertical \"speed\" axis as the dashed line (Car M).\n• **Step 2 (The Guiding Bridge):** Since both cars cover the same distance, traveling at twice the speed requires half the time ($t = d/s$), so Car N's line must end at half the length along the horizontal \"time\" axis.\n• **Step 3 (How to Finish):** Find the graph where line N is twice as tall and half as long as line M.",
-    "image_width": 900
+    "image_width": 900,
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "20",
@@ -280,7 +299,8 @@
     ],
     "answer": "(A) S, Q, M",
     "explanation": "Each student knows only Kaleana's score ($K$) and their own score:\n• Quay knows $K$ and $Q$. Quay thinks \"at least two of us have the same score\". For Quay to be certain of this without seeing Marty's or Shana's score, Quay's score must equal Kaleana's score: $Q = K$.\n• Marty knows $K$ and $M$. Marty thinks \"I didn't get the lowest score\". For Marty to be certain he didn't get the lowest score without seeing the others, his score must be strictly greater than Kaleana's: $M > K$.\n• Shana knows $K$ and $S$. Shana thinks \"I didn't get the highest score\". For Shana to be certain she didn't get the highest score, her score must be strictly less than Kaleana's: $S < K$.\nCombining these: $S < K = Q < M$, so $S < Q < M$. From lowest to highest, the order is S, Q, M.",
-    "hint": "**Key Strategy:** Logical Deduction from Partial Information\n• **Step 1 (First Move):** Each person only sees Kaleana's score ($K$) and their own score. If Quay knows for sure that two people tied, Quay must have tied with Kaleana ($Q = K$).\n• **Step 2 (The Guiding Bridge):** For Marty to know for sure he is not the lowest, his score must be higher than Kaleana's ($M > K$). For Shana to know for sure she is not the highest, her score must be lower than Kaleana's ($S < K$).\n• **Step 3 (How to Finish):** Combine the inequalities: $S < K = Q < M$, and order from lowest to highest."
+    "hint": "**Key Strategy:** Logical Deduction from Partial Information\n• **Step 1 (First Move):** Each person only sees Kaleana's score ($K$) and their own score. If Quay knows for sure that two people tied, Quay must have tied with Kaleana ($Q = K$).\n• **Step 2 (The Guiding Bridge):** For Marty to know for sure he is not the lowest, his score must be higher than Kaleana's ($M > K$). For Shana to know for sure she is not the highest, her score must be lower than Kaleana's ($S < K$).\n• **Step 3 (How to Finish):** Combine the inequalities: $S < K = Q < M$, and order from lowest to highest.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "21",
@@ -294,7 +314,8 @@
     ],
     "answer": "(D) 35",
     "explanation": "Let the five integers in increasing order be $a < b < c < d < e$. Since the mean is $15$, their sum is $a + b + c + d + e = 5 \\times 15 = 75$.\nThe median is the third number, so $c = 18$. The sum becomes $a + b + 18 + d + e = 75 \\implies a + b + d + e = 57$.\nTo maximize the largest integer $e$, we must minimize $a, b,$ and $d$:\n• $a$ and $b$ must be distinct positive integers less than $18$. The smallest possible values are $a = 1$ and $b = 2$.\n• $d$ must be an integer strictly between $18$ and $e$. The smallest possible value for $d$ is $19$.\nNow substitute these minimum values into the sum:\n$1 + 2 + 18 + 19 + e = 75 \\implies 40 + e = 75 \\implies e = 35$.\nThus, the maximum possible value of the largest integer is $35$.",
-    "hint": "**Key Strategy:** Extremal Value / Minimizing Other Terms\n• **Step 1 (First Move):** With $5$ numbers having a mean of $15$, the sum of all five numbers is $5 \\times 15 = 75$. Write the numbers in order: $a < b < c < d < e$.\n• **Step 2 (The Guiding Bridge):** The median is $c = 18$. To make the largest number $e$ as big as possible, make $a, b,$ and $d$ as small as possible: the smallest distinct positive integers are $a = 1$ and $b = 2$; the smallest integer greater than $18$ is $d = 19$.\n• **Step 3 (How to Finish):** Substitute into the sum: $1 + 2 + 18 + 19 + e = 75$ and solve for $e$."
+    "hint": "**Key Strategy:** Extremal Value / Minimizing Other Terms\n• **Step 1 (First Move):** With $5$ numbers having a mean of $15$, the sum of all five numbers is $5 \\times 15 = 75$. Write the numbers in order: $a < b < c < d < e$.\n• **Step 2 (The Guiding Bridge):** The median is $c = 18$. To make the largest number $e$ as big as possible, make $a, b,$ and $d$ as small as possible: the smallest distinct positive integers are $a = 1$ and $b = 2$; the smallest integer greater than $18$ is $d = 19$.\n• **Step 3 (How to Finish):** Substitute into the sum: $1 + 2 + 18 + 19 + e = 75$ and solve for $e$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "22",
@@ -308,7 +329,8 @@
     ],
     "answer": "(E) 97",
     "explanation": "Let $c$ be the number of correct answers, $u$ be unanswered, and $w$ be wrong, with $c + u + w = 20$. The score is $S = 5c + u$.\nSince $u \\le 20 - c$, the maximum score for a given $c$ is $5c + (20 - c) = 4c + 20$.\n• If $c = 20$: Score $= 100$.\n• If $c = 19$: Maximum score is $5(19) + 1 = 96$ (with 1 unanswered). If the 1 remaining question is wrong, score is $95$.\n• If $c \\le 18$: Maximum score is $5(18) + 2 = 92$.\nNotice the scores possible between $92$ and $100$ are $95, 96,$ and $100$.\nA score of $97$ would require $c = 19$ (which caps at $96$) or $c = 20$ (which is $100$). Thus, $97$ is impossible.",
-    "hint": "**Key Strategy:** Upper Bound by Number of Correct Answers\n• **Step 1 (First Move):** The score formula is $5c + u$, where $c + u \\le 20$. The maximum possible score is $20 \\times 5 = 100$.\n• **Step 2 (The Guiding Bridge):** Check scores near $100$: If $c = 19$, the maximum score is $19 \\times 5 + 1 = 96$. If $c = 20$, the score is $100$.\n• **Step 3 (How to Finish):** Notice that no score can fall between $96$ and $100$ (so $97, 98, 99$ are impossible). Check the answer choices to identify which one cannot be achieved."
+    "hint": "**Key Strategy:** Upper Bound by Number of Correct Answers\n• **Step 1 (First Move):** The score formula is $5c + u$, where $c + u \\le 20$. The maximum possible score is $20 \\times 5 = 100$.\n• **Step 2 (The Guiding Bridge):** Check scores near $100$: If $c = 19$, the maximum score is $19 \\times 5 + 1 = 96$. If $c = 20$, the score is $100$.\n• **Step 3 (How to Finish):** Notice that no score can fall between $96$ and $100$ (so $97, 98, 99$ are impossible). Check the answer choices to identify which one cannot be achieved.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "23",
@@ -322,7 +344,8 @@
     ],
     "answer": "(D) 4",
     "explanation": "Let the side length of equilateral $\\triangle RST$ be $2$. Then the side lengths between the six points $\\{R, S, T, X, Y, Z\\}$ can be determined:\n• Distance between adjacent midpoint and vertex $= 1$\n• Distance between two midpoints $= 1$\n• Distance between two vertices $= 2$\n• Distance between a vertex and the opposite midpoint (altitude) $= \\sqrt{2^2 - 1^2} = \\sqrt{3}$.\nAny three noncollinear points form a triangle. The possible sets of side lengths are:\n1. Side lengths $(1, 1, 1)$: An equilateral triangle of side $1$ (e.g. $\\triangle XYZ$ or $\\triangle RXY$).\n2. Side lengths $(2, 2, 2)$: The original large equilateral triangle of side $2$ ($\\triangle RST$).\n3. Side lengths $(1, \\sqrt{3}, 2)$: A $30^\\circ-60^\\circ-90^\\circ$ right triangle (e.g. $\\triangle RXZ$).\n4. Side lengths $(1, 1, \\sqrt{3})$: An obtuse isosceles triangle with angles $30^\\circ-30^\\circ-120^\\circ$ (e.g. $\\triangle SXY$).\nThere are no other noncongruent triangles possible. Thus, exactly $4$ noncongruent triangles can be formed.",
-    "hint": "**Key Strategy:** Classification by Side Lengths / Congruence Classes\n• **Step 1 (First Move):** Let the large equilateral triangle have side length $2$. The distances between any pairs among the $6$ points are $1$, $\\sqrt{3}$ (the altitude), or $2$.\n• **Step 2 (The Guiding Bridge):** Find all valid combinations of three lengths that form a triangle: (1) $(1, 1, 1)$ equilateral; (2) $(2, 2, 2)$ large equilateral; (3) $(1, \\sqrt{3}, 2)$ right triangle; (4) $(1, 1, \\sqrt{3})$ obtuse isosceles.\n• **Step 3 (How to Finish):** Verify that no other combination of three available lengths satisfies the triangle inequality without being collinear, giving a total of $4$ noncongruent types."
+    "hint": "**Key Strategy:** Classification by Side Lengths / Congruence Classes\n• **Step 1 (First Move):** Let the large equilateral triangle have side length $2$. The distances between any pairs among the $6$ points are $1$, $\\sqrt{3}$ (the altitude), or $2$.\n• **Step 2 (The Guiding Bridge):** Find all valid combinations of three lengths that form a triangle: (1) $(1, 1, 1)$ equilateral; (2) $(2, 2, 2)$ large equilateral; (3) $(1, \\sqrt{3}, 2)$ right triangle; (4) $(1, 1, \\sqrt{3})$ obtuse isosceles.\n• **Step 3 (How to Finish):** Verify that no other combination of three available lengths satisfies the triangle inequality without being collinear, giving a total of $4$ noncongruent types.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "24",
@@ -336,7 +359,8 @@
     ],
     "answer": "(B) 5",
     "explanation": "Each half has $3$ red (R), $5$ blue (B), and $8$ white (W) triangles, for a total of $16$ triangles per half and $16$ overlapping pairs when folded.\nLet the pairs be denoted by $(X, Y)$:\n• Red pairs: There are $3$ red triangles on top and $3$ on bottom. $2$ pairs of red coincide: $2$ (R, R) pairs. This leaves $3 - 2 = 1$ red triangle in each half that must pair with a non-red triangle.\n• We are given there are $2$ red-white (R, W) pairs. Since only $1$ red triangle remains in the top half and $1$ in the bottom, these two (R, W) pairs must be $1$ (R_top, W_bottom) and $1$ (W_top, R_bottom). All red triangles are now accounted for.\n• Blue pairs: $3$ pairs of blue coincide: $3$ (B, B) pairs. This leaves $5 - 3 = 2$ blue triangles in each half to pair with non-blue triangles. Since all red triangles are already paired, these remaining $2$ blue triangles in each half must pair with white triangles! This creates $2 + 2 = 4$ blue-white (B, W) pairs ($2$ from top and $2$ from bottom).\n• Now count the white triangles: Each half has $8$ white triangles. In each half, $1$ white pairs with red, and $2$ white pair with blue. That leaves $8 - 1 - 2 = 5$ white triangles in each half to pair with white triangles from the other half.\nTherefore, exactly $5$ pairs of white triangles coincide.",
-    "hint": "**Key Strategy:** Systematic Matching / In-and-Out Table\n• **Step 1 (First Move):** Each half has $3$ Red, $5$ Blue, and $8$ White triangles ($16$ total pairs). Start with Red: $2$ pairs are (R, R), leaving $3 - 2 = 1$ Red in each half.\n• **Step 2 (The Guiding Bridge):** There are $2$ (R, W) pairs, which perfectly uses up the $1$ leftover Red in each half. Next look at Blue: $3$ pairs are (B, B), leaving $5 - 3 = 2$ Blue in each half. Since Red is fully matched, these leftover Blue triangles must pair with White ($2$ W in each half).\n• **Step 3 (How to Finish):** Of the $8$ White triangles in each half, $1$ is paired with Red and $2$ are paired with Blue. Subtract $8 - 1 - 2 = 5$ to find how many (W, W) pairs remain."
+    "hint": "**Key Strategy:** Systematic Matching / In-and-Out Table\n• **Step 1 (First Move):** Each half has $3$ Red, $5$ Blue, and $8$ White triangles ($16$ total pairs). Start with Red: $2$ pairs are (R, R), leaving $3 - 2 = 1$ Red in each half.\n• **Step 2 (The Guiding Bridge):** There are $2$ (R, W) pairs, which perfectly uses up the $1$ leftover Red in each half. Next look at Blue: $3$ pairs are (B, B), leaving $5 - 3 = 2$ Blue in each half. Since Red is fully matched, these leftover Blue triangles must pair with White ($2$ W in each half).\n• **Step 3 (How to Finish):** Of the $8$ White triangles in each half, $1$ is paired with Red and $2$ are paired with Blue. Subtract $8 - 1 - 2 = 5$ to find how many (W, W) pairs remain.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "25",
@@ -350,6 +374,7 @@
     ],
     "answer": "(D) 7425",
     "explanation": "Let the multiple be $M$ and the smaller number be $N$, so $M = k \\times N$ for some integer $k \\ge 2$.\nThe sum of the digits is $2 + 4 + 5 + 7 = 18$. Since $18$ is divisible by $9$, every one of the $24$ numbers is divisible by $9$. Thus $N$ and $M$ are both multiples of $9$.\nThe smallest possible number using these digits is $2457$, and the largest is $7542$.\nIf $k \\ge 4$, then $k \\times N \\ge 4 \\times 2457 = 9828$, and any larger $N$ would exceed four digits (and $9828$ does not use the digits). If $N = 2457$ and $k = 3$, $3 \\times 2457 = 7371$ (digits don't match). If $k = 2$, $2 \\times N$ must be even, but among the choices, $7425$ and $7245$ end in $5$ (odd). If $N$ ends in $5$, then $M$ must end in $5$ (since $N \\times \\text{odd} = \\text{odd}$ ending in $5$). For $M = 3N$ with $N$ ending in $5$, $N = 2475 \\implies 3 \\times 2475 = 7425$. Both $2475$ and $7425$ use the digits $2, 4, 5, 7$! Therefore, the multiple is $7425$.",
-    "hint": "**Key Strategy:** Divisibility by 9 & Factor Estimation\n• **Step 1 (First Move):** Note that the sum of the digits $2 + 4 + 5 + 7 = 18$, so all $24$ numbers are multiples of $9$. The smallest possible number is $2457$ and the largest is $7542$.\n• **Step 2 (The Guiding Bridge):** The ratio $M / N$ can only be $2$ or $3$ (since $4 \\times 2457 = 9828 > 7542$). If $M$ is a multiple of $N$ with ratio $3$, test numbers starting with $2$: try $N = 2475$.\n• **Step 3 (How to Finish):** Multiply $2475 \\times 3 = 7425$. Check that $7425$ uses the digits $\\{2, 4, 5, 7\\}$ and matches option (D)."
+    "hint": "**Key Strategy:** Divisibility by 9 & Factor Estimation\n• **Step 1 (First Move):** Note that the sum of the digits $2 + 4 + 5 + 7 = 18$, so all $24$ numbers are multiples of $9$. The smallest possible number is $2457$ and the largest is $7542$.\n• **Step 2 (The Guiding Bridge):** The ratio $M / N$ can only be $2$ or $3$ (since $4 \\times 2457 = 9828 > 7542$). If $M$ is a multiple of $N$ with ratio $3$, test numbers starting with $2$: try $N = 2475$.\n• **Step 3 (How to Finish):** Multiply $2475 \\times 3 = 7425$. Check that $7425$ uses the digits $\\{2, 4, 5, 7\\}$ and matches option (D).",
+    "category": "Number Theory & Arithmetic"
   }
 ]

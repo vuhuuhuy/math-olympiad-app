@@ -11,7 +11,8 @@
     ],
     "answer": "(D) 5",
     "explanation": "Two distinct lines can intersect each other in at most $1$ point. A straight line can intersect a circle in at most $2$ points, so two lines can intersect the circle in at most $2 \\times 2 = 4$ points. The maximum possible number of intersection points is $1 + 4 = 5$. This maximum can be achieved if the two lines intersect each other outside or inside the circle and each line cuts through the circle at two distinct points.",
-    "hint": "**Key Strategy:** Counting Intersections by Pairs of Figures\n• **Step 1 (First Move):** Determine the maximum number of times two distinct lines can intersect: at most $1$ point.\n• **Step 2 (The Guiding Bridge):** Determine the maximum number of times a single line can intersect a circle: at most $2$ points. For two lines, that gives at most $2 \\times 2 = 4$ intersection points with the circle.\n• **Step 3 (How to Finish):** Add the maximum intersections: $1\\text{ (line-line)} + 4\\text{ (line-circle)} = 5$ points."
+    "hint": "**Key Strategy:** Counting Intersections by Pairs of Figures\n• **Step 1 (First Move):** Determine the maximum number of times two distinct lines can intersect: at most $1$ point.\n• **Step 2 (The Guiding Bridge):** Determine the maximum number of times a single line can intersect a circle: at most $2$ points. For two lines, that gives at most $2 \\times 2 = 4$ intersection points with the circle.\n• **Step 3 (How to Finish):** Add the maximum intersections: $1\\text{ (line-line)} + 4\\text{ (line-circle)} = 5$ points.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "2",
@@ -25,7 +26,8 @@
     ],
     "answer": "(A) 2",
     "explanation": "Let $f$ be the number of \\$5 bills and $t$ be the number of \\$2 bills, where $f, t \\ge 0$ are integers. We need $5f + 2t = 17$, so $2t = 17 - 5f$. Since $2t$ is even, $17 - 5f$ must be even, which means $5f$ must be odd, so $f$ must be an odd integer.\n• If $f = 1$: $5(1) + 2t = 17 \\implies 2t = 12 \\implies t = 6$. (1 five-dollar bill and 6 two-dollar bills: $5 + 12 = 17$)\n• If $f = 3$: $5(3) + 2t = 17 \\implies 2t = 2 \\implies t = 1$. (3 five-dollar bills and 1 two-dollar bill: $15 + 2 = 17$)\n• If $f \\ge 5$: $5(5) = 25 > 17$, which is too large.\nThus, there are exactly $2$ combinations.",
-    "hint": "**Key Strategy:** Parity & Diophantine Equation\n• **Step 1 (First Move):** Set up the equation $5f + 2t = 17$, where $f$ and $t$ are non-negative integers.\n• **Step 2 (The Guiding Bridge):** Since $2t$ and $17 - 5f$ must both be even, $5f$ must be odd, meaning $f$ can only be an odd integer ($1$ or $3$).\n• **Step 3 (How to Finish):** Test $f = 1$ (gives $t = 6$) and $f = 3$ (gives $t = 1$). Count the number of valid solutions."
+    "hint": "**Key Strategy:** Parity & Diophantine Equation\n• **Step 1 (First Move):** Set up the equation $5f + 2t = 17$, where $f$ and $t$ are non-negative integers.\n• **Step 2 (The Guiding Bridge):** Since $2t$ and $17 - 5f$ must both be even, $5f$ must be odd, meaning $f$ can only be an odd integer ($1$ or $3$).\n• **Step 3 (How to Finish):** Test $f = 1$ (gives $t = 6$) and $f = 3$ (gives $t = 1$). Count the number of valid solutions.",
+    "category": "Counting & Probability"
   },
   {
     "id": "3",
@@ -39,7 +41,8 @@
     ],
     "answer": "(C) 5",
     "explanation": "To minimize the average of four distinct positive even integers, we must choose the four smallest distinct positive even integers. These are $2, 4, 6,$ and $8$. Their sum is $2 + 4 + 6 + 8 = 20$. The average is $20 / 4 = 5$.",
-    "hint": "**Key Strategy:** Greedy Minimization\n• **Step 1 (First Move):** To make the average as small as possible, pick the four smallest possible positive even integers.\n• **Step 2 (The Guiding Bridge):** The four smallest distinct positive even numbers are $2, 4, 6,$ and $8$.\n• **Step 3 (How to Finish):** Add these numbers ($2 + 4 + 6 + 8 = 20$) and divide by $4$ to find the average."
+    "hint": "**Key Strategy:** Greedy Minimization\n• **Step 1 (First Move):** To make the average as small as possible, pick the four smallest possible positive even integers.\n• **Step 2 (The Guiding Bridge):** The four smallest distinct positive even numbers are $2, 4, 6,$ and $8$.\n• **Step 3 (How to Finish):** Add these numbers ($2 + 4 + 6 + 8 = 20$) and divide by $4$ to find the average.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "4",
@@ -53,7 +56,8 @@
     ],
     "answer": "(B) 4",
     "explanation": "A four-digit palindrome has the form $ABBA$. In the 2000s, the first digit $A$ is $2$, so the last digit must also be $2$, making the year of the form $2BB2$. The year 2002 corresponds to $B = 0$. The next possible palindrome in the 2000s is obtained by setting $B = 1$, giving the year $2112$. The product of its digits is $2 \\times 1 \\times 1 \\times 2 = 4$.",
-    "hint": "**Key Strategy:** Palindrome Structure & Digit Product\n• **Step 1 (First Move):** Note that a four-digit palindrome in the 2000s must have the form $2BB2$, because the thousands digit is $2$.\n• **Step 2 (The Guiding Bridge):** The year $2002$ has $B = 0$. The very next integer value for $B$ is $1$, giving the year $2112$.\n• **Step 3 (How to Finish):** Multiply the digits of $2112$: $2 \\times 1 \\times 1 \\times 2$."
+    "hint": "**Key Strategy:** Palindrome Structure & Digit Product\n• **Step 1 (First Move):** Note that a four-digit palindrome in the 2000s must have the form $2BB2$, because the thousands digit is $2$.\n• **Step 2 (The Guiding Bridge):** The year $2002$ has $B = 0$. The very next integer value for $B$ is $1$, giving the year $2112$.\n• **Step 3 (How to Finish):** Multiply the digits of $2112$: $2 \\times 1 \\times 1 \\times 2$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": "5",
@@ -67,7 +71,8 @@
     ],
     "answer": "(C) Friday",
     "explanation": "Days of the week repeat every $7$ days. We find the remainder when $706$ is divided by $7$:\n$706 = 7 \\times 100 + 6$.\nSince the remainder is $6$, the day of the week will be $6$ days after Saturday (or equivalently, $1$ day before Saturday). Six days after Saturday is Friday.",
-    "hint": "**Key Strategy:** Modular Arithmetic (Mod 7)\n• **Step 1 (First Move):** Days of the week cycle every $7$ days. Divide $706$ by $7$ to find the quotient and remainder: $706 = 7 \\times 100 + 6$.\n• **Step 2 (The Guiding Bridge):** A remainder of $6$ means advancing $6$ days forward from Saturday (or $1$ day backward).\n• **Step 3 (How to Finish):** Count $6$ days after Saturday: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday."
+    "hint": "**Key Strategy:** Modular Arithmetic (Mod 7)\n• **Step 1 (First Move):** Days of the week cycle every $7$ days. Divide $706$ by $7$ to find the quotient and remainder: $706 = 7 \\times 100 + 6$.\n• **Step 2 (The Guiding Bridge):** A remainder of $6$ means advancing $6$ days forward from Saturday (or $1$ day backward).\n• **Step 3 (How to Finish):** Count $6$ days after Saturday: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": "6",
@@ -82,7 +87,8 @@
     "answer": "(A) Graph A",
     "explanation": "During the filling phase, water enters at $20\\text{ mL/min}$ and drains at $18\\text{ mL/min}$, giving a net gain of $20 - 18 = 2\\text{ mL/min}$. Because the net rate of increase is constant, the volume increases linearly with a positive slope (a straight line sloping upward). Once the birdbath reaches its maximum capacity and begins to overflow, any excess water spills over, keeping the volume constant at capacity (a horizontal line). Graph A shows a steady linear rise followed by a flat, horizontal line.",
     "hint": "**Key Strategy:** Interpreting Rates as Slopes\n• **Step 1 (First Move):** While filling, the net inflow rate is $20 - 18 = 2\\text{ mL/min}$, which is a constant positive rate. This means the graph must start with a straight line sloping upward.\n• **Step 2 (The Guiding Bridge):** Once the birdbath is full and starts to overflow, the total volume of water cannot increase anymore; it stays constant at full capacity.\n• **Step 3 (How to Finish):** A constant volume over time is represented by a horizontal flat line. Find the graph that slopes steadily up and then becomes horizontal (Graph A).",
-    "image_width": 900
+    "image_width": 900,
+    "category": "Geometry & Spatial"
   },
   {
     "id": "7",
@@ -97,7 +103,8 @@
     "answer": "(E) 20",
     "explanation": "Reading the frequencies from the bar graph for candies A, B, C, D, and E:\n• Candy A: $6$ students\n• Candy B: $8$ students\n• Candy C: $4$ students\n• Candy D: $2$ students\n• Candy E: $5$ students\nThe total number of students in the class is $6 + 8 + 4 + 2 + 5 = 25$ students. The percentage of students who chose candy E is $\\frac{5}{25} = \\frac{1}{5} = 20\\%$.",
     "hint": "**Key Strategy:** Bar Graph Reading & Percentage Calculation\n• **Step 1 (First Move):** Read the height of each bar on the graph: $A = 6$, $B = 8$, $C = 4$, $D = 2$, $E = 5$.\n• **Step 2 (The Guiding Bridge):** Add the counts together to find the total number of students in the class: $6 + 8 + 4 + 2 + 5 = 25$.\n• **Step 3 (How to Finish):** Divide the count for candy E ($5$) by the total ($25$) and convert to a percent: $\\frac{5}{25} \\times 100\\%$.",
-    "image_width": 600
+    "image_width": 600,
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "8",
@@ -112,7 +119,8 @@
     "answer": "(D) 24",
     "explanation": "The European countries are France and Spain. In the '80s column of the table:\n• France: $15$ stamps\n• Spain: $9$ stamps\nThe total number of European stamps issued in the '80s is $15 + 9 = 24$.",
     "hint": "**Key Strategy:** Table Data Extraction\n• **Step 1 (First Move):** Identify the European countries from the description: France and Spain.\n• **Step 2 (The Guiding Bridge):** Look at the '80s column in the table for those two rows: France has $15$ and Spain has $9$.\n• **Step 3 (How to Finish):** Add the two values: $15 + 9$.",
-    "image_width": 600
+    "image_width": 600,
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "9",
@@ -127,7 +135,8 @@
     "answer": "(B) $1.06",
     "explanation": "The South American countries are Brazil (at $6¢$ each) and Peru (at $4¢$ each). Stamps issued before the '70s are those from the '50s and '60s:\n• Brazil: $4$ ('50s) $+ 7$ ('60s) $= 11$ stamps at $6¢$ each $= 11 \\times 6¢ = 66¢$.\n• Peru: $6$ ('50s) $+ 4$ ('60s) $= 10$ stamps at $4¢$ each $= 10 \\times 4¢ = 40¢$.\nTotal cost is $66¢ + 40¢ = 106¢ = \\$1.06.",
     "hint": "**Key Strategy:** Multi-Criteria Table Summation\n• **Step 1 (First Move):** Identify the South American countries (Brazil at $6¢$, Peru at $4¢$) and the decades before the '70s ('50s and '60s).\n• **Step 2 (The Guiding Bridge):** Count the stamps: Brazil has $4 + 7 = 11$ stamps; Peru has $6 + 4 = 10$ stamps.\n• **Step 3 (How to Finish):** Multiply by their respective prices and add: $(11 \\times 6¢) + (10 \\times 4¢) = 66¢ + 40¢$.",
-    "image_width": 600
+    "image_width": 600,
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "10",
@@ -142,7 +151,8 @@
     "answer": "(E) 5.5¢",
     "explanation": "From the '70s column of the table:\n• Brazil ($6¢$): $12$ stamps $\\implies 12 \\times 6 = 72¢$\n• France ($6¢$): $12$ stamps $\\implies 12 \\times 6 = 72¢$\n• Peru ($4¢$): $6$ stamps $\\implies 6 \\times 4 = 24¢$\n• Spain ($5¢$): $13$ stamps $\\implies 13 \\times 5 = 65¢$\nTotal number of '70s stamps is $12 + 12 + 6 + 13 = 43$ stamps.\nTotal cost is $72 + 72 + 24 + 65 = 233¢$.\nThe average price per stamp is $\\frac{233}{43} \\approx 5.4186¢$, which is closest to $5.5¢$.",
     "hint": "**Key Strategy:** Weighted Average Calculation\n• **Step 1 (First Move):** Find the total cost of all stamps in the '70s column: Brazil ($12 \\times 6 = 72$), France ($12 \\times 6 = 72$), Peru ($6 \\times 4 = 24$), Spain ($13 \\times 5 = 65$). Sum $= 233¢$.\n• **Step 2 (The Guiding Bridge):** Find the total count of stamps in the '70s column: $12 + 12 + 6 + 13 = 43$ stamps.\n• **Step 3 (How to Finish):** Divide total cost by total stamps: $\\frac{233}{43} \\approx 5.42¢$, and select the closest option.",
-    "image_width": 600
+    "image_width": 600,
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "11",
@@ -156,7 +166,8 @@
     ],
     "answer": "(C) 13",
     "explanation": "The $n^{\\text{th}}$ square has side length $n$ tiles, so it requires $n^2$ tiles. The sixth square requires $6^2 = 36$ tiles, and the seventh square requires $7^2 = 49$ tiles. The number of additional tiles required is $7^2 - 6^2 = 49 - 36 = 13$ tiles. (Alternatively, the difference between consecutive squares is $(n+1)^2 - n^2 = 2n + 1 = 2(6) + 1 = 13$.)",
-    "hint": "**Key Strategy:** Difference of Consecutive Squares\n• **Step 1 (First Move):** Note that an $n \\times n$ square uses $n^2$ tiles.\n• **Step 2 (The Guiding Bridge):** Calculate the number of tiles in the $7^{\\text{th}}$ square ($7^2 = 49$) and the $6^{\\text{th}}$ square ($6^2 = 36$).\n• **Step 3 (How to Finish):** Subtract the two counts: $49 - 36$ (or use the formula $(n+1)^2 - n^2 = 2n+1$ with $n=6$)."
+    "hint": "**Key Strategy:** Difference of Consecutive Squares\n• **Step 1 (First Move):** Note that an $n \\times n$ square uses $n^2$ tiles.\n• **Step 2 (The Guiding Bridge):** Calculate the number of tiles in the $7^{\\text{th}}$ square ($7^2 = 49$) and the $6^{\\text{th}}$ square ($6^2 = 36$).\n• **Step 3 (How to Finish):** Subtract the two counts: $49 - 36$ (or use the formula $(n+1)^2 - n^2 = 2n+1$ with $n=6$).",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "12",
@@ -170,7 +181,8 @@
     ],
     "answer": "(B) $\\dfrac{1}{6}$",
     "explanation": "The sum of the probabilities of all possible regions on the spinner must equal $1$. Therefore:\n$P(A) + P(B) + P(C) = 1 \\implies \\frac{1}{3} + \\frac{1}{2} + P(C) = 1$.\nFind a common denominator of $6$:\n$\\frac{2}{6} + \\frac{3}{6} + P(C) = 1 \\implies \\frac{5}{6} + P(C) = 1 \\implies P(C) = 1 - \\frac{5}{6} = \\frac{1}{6}$.",
-    "hint": "**Key Strategy:** Total Probability Law\n• **Step 1 (First Move):** Recall that the sum of the probabilities of all mutually exclusive outcomes on a spinner is $1$.\n• **Step 2 (The Guiding Bridge):** Add the probabilities of regions $A$ and $B$: $\\frac{1}{3} + \\frac{1}{2} = \\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6}$.\n• **Step 3 (How to Finish):** Subtract from $1$: $P(C) = 1 - \\frac{5}{6}$."
+    "hint": "**Key Strategy:** Total Probability Law\n• **Step 1 (First Move):** Recall that the sum of the probabilities of all mutually exclusive outcomes on a spinner is $1$.\n• **Step 2 (The Guiding Bridge):** Add the probabilities of regions $A$ and $B$: $\\frac{1}{3} + \\frac{1}{2} = \\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6}$.\n• **Step 3 (How to Finish):** Subtract from $1$: $P(C) = 1 - \\frac{5}{6}$.",
+    "category": "Counting & Probability"
   },
   {
     "id": "13",
@@ -184,7 +196,8 @@
     ],
     "answer": "(E) 1000",
     "explanation": "The volume of a box with length $l$, width $w$, and height $h$ is $V = l \\times w \\times h$. Carrie's box has dimensions $2l, 2w,$ and $2h$. The volume of Carrie's box is $(2l)(2w)(2h) = 8(l \\times w \\times h) = 8V$. Since Bert's box holds $125$ jellybeans, Carrie's box holds approximately $8 \\times 125 = 1000$ jellybeans.",
-    "hint": "**Key Strategy:** Volume Scaling Factor ($k^3$)\n• **Step 1 (First Move):** Note that Carrie's box doubles in all three dimensions: length, width, and height.\n• **Step 2 (The Guiding Bridge):** When all three linear dimensions scale by a factor of $2$, the volume scales by $2 \\times 2 \\times 2 = 2^3 = 8$.\n• **Step 3 (How to Finish):** Multiply the capacity of Bert's box by $8$: $125 \\times 8$."
+    "hint": "**Key Strategy:** Volume Scaling Factor ($k^3$)\n• **Step 1 (First Move):** Note that Carrie's box doubles in all three dimensions: length, width, and height.\n• **Step 2 (The Guiding Bridge):** When all three linear dimensions scale by a factor of $2$, the volume scales by $2 \\times 2 \\times 2 = 2^3 = 8$.\n• **Step 3 (How to Finish):** Multiply the capacity of Bert's box by $8$: $125 \\times 8$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "14",
@@ -198,7 +211,8 @@
     ],
     "answer": "(B) 44%",
     "explanation": "Let the original price of an item be \\$100. A $30\\%$ discount reduces the price to $100 - 30 = \\$70 (or $0.70 \\times 100$). A further $20\\%$ discount on the \\$70 sale price takes off $0.20 \\times 70 = \\$14, leaving a final price of $70 - 14 = \\$56 (or $0.80 \\times 70 = \\$56). Since the original price was \\$100 and the final price is \\$56, the total discount is $100 - 56 = \\$44, which represents a $44\\%$ discount.",
-    "hint": "**Key Strategy:** Successive Discounts / Base 100 Assumption\n• **Step 1 (First Move):** Assume a starting price of \\$100. A $30\\%$ discount reduces the price to \\$70.\n• **Step 2 (The Guiding Bridge):** Apply the second discount of $20\\%$ to the \\$70 sale price: $0.20 \\times 70 = \\$14 off, making the final price $70 - 14 = \\$56 (or $0.70 \\times 0.80 = 0.56$).\n• **Step 3 (How to Finish):** Subtract the final price from \\$100: $100 - 56 = 44\\%$ total discount."
+    "hint": "**Key Strategy:** Successive Discounts / Base 100 Assumption\n• **Step 1 (First Move):** Assume a starting price of \\$100. A $30\\%$ discount reduces the price to \\$70.\n• **Step 2 (The Guiding Bridge):** Apply the second discount of $20\\%$ to the \\$70 sale price: $0.20 \\times 70 = \\$14 off, making the final price $70 - 14 = \\$56 (or $0.70 \\times 0.80 = 0.56$).\n• **Step 3 (How to Finish):** Subtract the final price from \\$100: $100 - 56 = 44\\%$ total discount.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "15",
@@ -213,7 +227,8 @@
     "answer": "(E) E",
     "explanation": "Assume each grid square has side length $1$ unit (area $1$). We calculate the area of each polygon using Pick's Theorem ($A = i + \\frac{b}{2} - 1$) or by decomposing into rectangles and right triangles:\n• **Polygon A:** A triangle with base $3$ and height $2$: $\\text{Area} = \\frac{1}{2} \\times 3 \\times 2 = 3$.\n• **Polygon B:** A parallelogram with base $2$ and height $2$: $\\text{Area} = 2 \\times 2 = 4$.\n• **Polygon C:** A triangle with base $3$ and height $3$: $\\text{Area} = \\frac{1}{2} \\times 3 \\times 3 = 4.5$.\n• **Polygon D:** A trapezoid with bases $1$ and $3$, height $2$: $\\text{Area} = \\frac{1 + 3}{2} \\times 2 = 4$.\n• **Polygon E:** A shape that encloses $4$ full interior unit squares and several half-squares; decomposing shows: $\\text{Area} = 5$.\nComparing: $3, 4, 4.5, 4, 5$. Polygon E has the largest area.",
     "hint": "**Key Strategy:** Grid Area Calculation / Decomposition\n• **Step 1 (First Move):** Calculate the area of each shape on the grid by dividing each polygon into simple rectangles and triangles.\n• **Step 2 (The Guiding Bridge):** Find the area of each: Polygon A has area $3$; Polygon B has area $4$; Polygon C has area $4.5$; Polygon D has area $4$; Polygon E has area $5$.\n• **Step 3 (How to Finish):** Compare the calculated areas to identify which polygon is the largest (Polygon E with area $5$).",
-    "image_width": 900
+    "image_width": 900,
+    "category": "Geometry & Spatial"
   },
   {
     "id": "16",
@@ -227,7 +242,8 @@
     ],
     "answer": "(E) X + Y = Z",
     "explanation": "The inner right triangle has legs $3$ and $4$, and hypotenuse $5$, with area $W = \\frac{1}{2} \\times 3 \\times 4 = 6$.\nOn each side, a right isosceles triangle is constructed with the side as its hypotenuse. For a right isosceles triangle with hypotenuse $c$, the legs are $c/\\sqrt{2}$, and its area is $\\frac{1}{2}\\left(\\frac{c}{\\sqrt{2}}\\right)^2 = \\frac{c^2}{4}$.\nThus:\n• $X = \\frac{3^2}{4} = \\frac{9}{4}$\n• $Y = \\frac{4^2}{4} = \\frac{16}{4}$\n• $Z = \\frac{5^2}{4} = \\frac{25}{4}$\nNotice that $X + Y = \\frac{9}{4} + \\frac{16}{4} = \\frac{25}{4} = Z$. This is a direct consequence of the Pythagorean Theorem ($a^2 + b^2 = c^2$).",
-    "hint": "**Key Strategy:** Generalized Pythagorean Theorem on Similar Figures\n• **Step 1 (First Move):** Recall that when similar figures are constructed on the three sides of a right triangle, the sum of the areas of the figures on the two legs equals the area of the figure on the hypotenuse.\n• **Step 2 (The Guiding Bridge):** Verify using the given lengths: $X$ is built on leg $3$ (area $\\frac{9}{4}$), $Y$ is built on leg $4$ (area $\\frac{16}{4}$), and $Z$ is built on hypotenuse $5$ (area $\\frac{25}{4}$).\n• **Step 3 (How to Finish):** Notice $\\frac{9}{4} + \\frac{16}{4} = \\frac{25}{4}$, confirming $X + Y = Z$."
+    "hint": "**Key Strategy:** Generalized Pythagorean Theorem on Similar Figures\n• **Step 1 (First Move):** Recall that when similar figures are constructed on the three sides of a right triangle, the sum of the areas of the figures on the two legs equals the area of the figure on the hypotenuse.\n• **Step 2 (The Guiding Bridge):** Verify using the given lengths: $X$ is built on leg $3$ (area $\\frac{9}{4}$), $Y$ is built on leg $4$ (area $\\frac{16}{4}$), and $Z$ is built on hypotenuse $5$ (area $\\frac{25}{4}$).\n• **Step 3 (How to Finish):** Notice $\\frac{9}{4} + \\frac{16}{4} = \\frac{25}{4}$, confirming $X + Y = Z$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "17",
@@ -241,7 +257,8 @@
     ],
     "answer": "(C) 7",
     "explanation": "Let $c$ be the number of correct answers and $w$ be the number of incorrect answers. Since Olivia answered all $10$ problems, $c + w = 10 \\implies w = 10 - c$.\nHer score is given by $5c - 2w = 29$.\nSubstitute $w = 10 - c$:\n$5c - 2(10 - c) = 29 \\implies 5c - 20 + 2c = 29 \\implies 7c = 49 \\implies c = 7$.\nSo Olivia had $7$ correct answers (and $3$ incorrect: $7 \\times 5 - 3 \\times 2 = 35 - 6 = 29$).",
-    "hint": "**Key Strategy:** Single-Variable Substitution / Assumption Method\n• **Step 1 (First Move):** If Olivia had answered all $10$ questions correctly, her score would be $10 \\times 5 = 50$ points.\n• **Step 2 (The Guiding Bridge):** Each time a correct answer is replaced by an incorrect answer, her score drops by $5 - (-2) = 7$ points.\n• **Step 3 (How to Finish):** The total deficit from a perfect score is $50 - 29 = 21$ points. Divide $21$ by $7$ to find the number of wrong answers ($3$). Subtract from $10$ to get the correct answers ($10 - 3 = 7$)."
+    "hint": "**Key Strategy:** Single-Variable Substitution / Assumption Method\n• **Step 1 (First Move):** If Olivia had answered all $10$ questions correctly, her score would be $10 \\times 5 = 50$ points.\n• **Step 2 (The Guiding Bridge):** Each time a correct answer is replaced by an incorrect answer, her score drops by $5 - (-2) = 7$ points.\n• **Step 3 (How to Finish):** The total deficit from a perfect score is $50 - 29 = 21$ points. Divide $21$ by $7$ to find the number of wrong answers ($3$). Subtract from $10$ to get the correct answers ($10 - 3 = 7$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "18",
@@ -255,7 +272,8 @@
     ],
     "answer": "(E) 2 hr",
     "explanation": "Convert all times to minutes:\n• $1\\text{ hr } 15\\text{ min} = 75\\text{ minutes}$. For $5$ days: $5 \\times 75 = 375\\text{ minutes}$.\n• $1\\text{ hr } 30\\text{ min} = 90\\text{ minutes}$. For $3$ days: $3 \\times 90 = 270\\text{ minutes}$.\nThe total skating time for the first $8$ days is $375 + 270 = 645\\text{ minutes}$.\nTo average $85$ minutes per day over $9$ days, the grand total must be $9 \\times 85 = 765\\text{ minutes}$.\nThe time needed on the ninth day is $765 - 645 = 120\\text{ minutes} = 2\\text{ hours}$.",
-    "hint": "**Key Strategy:** Working with Target Total Sum\n• **Step 1 (First Move):** Convert all daily times to minutes: $1\\text{ hr } 15\\text{ min} = 75\\text{ min}$ and $1\\text{ hr } 30\\text{ min} = 90\\text{ min}$.\n• **Step 2 (The Guiding Bridge):** Calculate total minutes skated so far: $(5 \\times 75) + (3 \\times 90) = 375 + 270 = 645\\text{ minutes}$. Then find the required $9$-day total: $9 \\times 85 = 765\\text{ minutes}$.\n• **Step 3 (How to Finish):** Subtract to find the day $9$ requirement: $765 - 645 = 120\\text{ minutes}$, and convert to hours."
+    "hint": "**Key Strategy:** Working with Target Total Sum\n• **Step 1 (First Move):** Convert all daily times to minutes: $1\\text{ hr } 15\\text{ min} = 75\\text{ min}$ and $1\\text{ hr } 30\\text{ min} = 90\\text{ min}$.\n• **Step 2 (The Guiding Bridge):** Calculate total minutes skated so far: $(5 \\times 75) + (3 \\times 90) = 375 + 270 = 645\\text{ minutes}$. Then find the required $9$-day total: $9 \\times 85 = 765\\text{ minutes}$.\n• **Step 3 (How to Finish):** Subtract to find the day $9$ requirement: $765 - 645 = 120\\text{ minutes}$, and convert to hours.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "19",
@@ -269,7 +287,8 @@
     ],
     "answer": "(D) 162",
     "explanation": "The numbers between $99$ and $999$ are three-digit numbers from $100$ to $998$. A three-digit number has places $H T U$ (hundreds, tens, units). Since it is a three-digit number, $H \\in \\{1, 2, \\dots, 9\\}$ ($9$ choices, cannot be $0$).\nTo contain exactly one zero, the zero must be either in the tens place or in the units place:\n• **Case 1: Zero in tens place ($H 0 U$):** $H$ has $9$ choices ($1$–$9$), the tens digit is $0$ ($1$ choice), and $U$ has $9$ non-zero choices ($1$–$9$). This gives $9 \\times 1 \\times 9 = 81$ numbers.\n• **Case 2: Zero in units place ($H T 0$):** $H$ has $9$ choices ($1$–$9$), $T$ has $9$ non-zero choices ($1$–$9$), and the units digit is $0$ ($1$ choice). This gives $9 \\times 9 \\times 1 = 81$ numbers.\nTotal number of such three-digit numbers is $81 + 81 = 162$.",
-    "hint": "**Key Strategy:** Casework on Position of Zero\n• **Step 1 (First Move):** Note that numbers between $99$ and $999$ are three-digit numbers ($100\\text{ to }998$), so the hundreds digit can be any digit from $1$ to $9$ ($9$ choices).\n• **Step 2 (The Guiding Bridge):** Split into two mutually exclusive cases: Case 1: the tens digit is $0$ and units digit is non-zero ($9 \\times 1 \\times 9 = 81$); Case 2: the units digit is $0$ and tens digit is non-zero ($9 \\times 9 \\times 1 = 81$).\n• **Step 3 (How to Finish):** Add the counts from both cases: $81 + 81$."
+    "hint": "**Key Strategy:** Casework on Position of Zero\n• **Step 1 (First Move):** Note that numbers between $99$ and $999$ are three-digit numbers ($100\\text{ to }998$), so the hundreds digit can be any digit from $1$ to $9$ ($9$ choices).\n• **Step 2 (The Guiding Bridge):** Split into two mutually exclusive cases: Case 1: the tens digit is $0$ and units digit is non-zero ($9 \\times 1 \\times 9 = 81$); Case 2: the units digit is $0$ and tens digit is non-zero ($9 \\times 9 \\times 1 = 81$).\n• **Step 3 (How to Finish):** Add the counts from both cases: $81 + 81$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": "20",
@@ -284,7 +303,8 @@
     "answer": "(D) 3",
     "explanation": "Because $\\overline{XY} \\cong \\overline{XZ}$ and altitude $\\overline{XC}$ bisects $\\overline{YZ}$, $\\triangle XYZ$ is an isosceles triangle symmetric across line $XC$. The altitude $XC$ divides $\\triangle XYZ$ into two congruent right triangles $\\triangle XYC$ and $\\triangle XZC$, each having area $8 / 2 = 4$.\nIn $\\triangle XYC$, segment $\\overline{AC}$ is a median from $C$ to the midpoint $A$ of side $XY$. A median divides a triangle into two triangles of equal area! Therefore:\n$\\text{Area}(\\triangle XAC) = \\text{Area}(\\triangle YAC) = \\frac{1}{2} \\times 4 = 2$.\nSimilarly, in $\\triangle XZC$, $\\overline{BC}$ is a median, so $\\text{Area}(\\triangle XBC) = \\text{Area}(\\triangle ZBC) = 2$.\nLooking at the figure, the shaded region consists of $\\triangle ABC$ (or $\\triangle YAC$ plus half of $\\triangle XAB$): Since $A$ and $B$ are midpoints, $\\triangle XAB$ is similar to $\\triangle XYZ$ with ratio $1/2$, so $\\text{Area}(\\triangle XAB) = (1/2)^2 \\times 8 = 2$. The altitude $XC$ splits $\\triangle XAB$ into two triangles of area $1$ each. The shaded region consists of $\\triangle YAC$ (area $2$) plus $\\triangle XBC$'s inner section of area $1$, totaling $2 + 1 = 3$ square inches.",
     "hint": "**Key Strategy:** Medians & Midline Subdivisions\n• **Step 1 (First Move):** Note that $\\triangle XYZ$ is isosceles with total area $8$. The altitude $XC$ divides it into two halves of area $4$ each.\n• **Step 2 (The Guiding Bridge):** Since $A$ is the midpoint of $XY$, segment $AC$ is a median of $\\triangle XYC$, so $\\text{Area}(\\triangle YAC) = 2$ and $\\text{Area}(\\triangle XAC) = 2$.\n• **Step 3 (How to Finish):** Use midline properties or area subtraction on the shaded parts: the shaded region consists of regions totaling $\\frac{3}{8}$ of the entire triangle's area: $\\frac{3}{8} \\times 8 = 3$ square inches.",
-    "image_width": 600
+    "image_width": 600,
+    "category": "Geometry & Spatial"
   },
   {
     "id": "21",
@@ -298,7 +318,8 @@
     ],
     "answer": "(E) $\\dfrac{11}{16}$",
     "explanation": "There are $2^4 = 16$ equally likely outcomes when tossing a coin four times. Harold gets at least as many heads as tails if he gets $4$ heads, $3$ heads, or $2$ heads (since with 2 heads, there are 2 tails, which is \"at least as many\"):\n• $4$ heads: $\\binom{4}{4} = 1$ way ($HHHH$)\n• $3$ heads ($1$ tail): $\\binom{4}{3} = 4$ ways\n• $2$ heads ($2$ tails): $\\binom{4}{2} = 6$ ways\nThe total number of successful outcomes is $1 + 4 + 6 = 11$.\nTherefore, the probability is $11/16$.",
-    "hint": "**Key Strategy:** Binomial Coefficients / Complementary Symmetry\n• **Step 1 (First Move):** Find the total number of outcomes for four coin tosses: $2^4 = 16$ equally likely outcomes.\n• **Step 2 (The Guiding Bridge):** \"At least as many heads as tails\" means the number of heads is $\\ge$ number of tails: this occurs with $4$ heads, $3$ heads, or $2$ heads.\n• **Step 3 (How to Finish):** Count the ways for each case: $\\binom{4}{4} = 1$, $\\binom{4}{3} = 4$, $\\binom{4}{2} = 6$. Sum them ($1 + 4 + 6 = 11$) and divide by $16$."
+    "hint": "**Key Strategy:** Binomial Coefficients / Complementary Symmetry\n• **Step 1 (First Move):** Find the total number of outcomes for four coin tosses: $2^4 = 16$ equally likely outcomes.\n• **Step 2 (The Guiding Bridge):** \"At least as many heads as tails\" means the number of heads is $\\ge$ number of tails: this occurs with $4$ heads, $3$ heads, or $2$ heads.\n• **Step 3 (How to Finish):** Count the ways for each case: $\\binom{4}{4} = 1$, $\\binom{4}{3} = 4$, $\\binom{4}{2} = 6$. Sum them ($1 + 4 + 6 = 11$) and divide by $16$.",
+    "category": "Counting & Probability"
   },
   {
     "id": "22",
@@ -312,7 +333,8 @@
     ],
     "answer": "(C) 26",
     "explanation": "Each of the $6$ cubes has $6$ faces of area $1\\text{ sq inch}$, giving a total of $6 \\times 6 = 36$ faces before gluing.\nEach time two cubes are joined face-to-face, $2$ faces are hidden inside the solid.\nLooking at the joints between the $6$ cubes in the figure:\n• The base has $4$ cubes in a row (3 joints) plus $1$ cube attached to the side (1 joint) and $1$ cube on top (1 joint), giving $5$ joints total.\nEach of the $5$ joints removes $2$ faces from the exterior: $5 \\times 2 = 10$ hidden faces.\nThe total surface area is $36 - 10 = 26$ square inches.\n(Alternatively, count by viewing directions: Front = 5, Back = 5, Top = 4, Bottom = 4, Left = 4, Right = 4 $\\implies 5 + 5 + 4 + 4 + 4 + 4 = 26$.)",
-    "hint": "**Key Strategy:** Directional Face Counting (6 Viewpoints)\n• **Step 1 (First Move):** Count exposed faces from the 6 orthogonal viewpoints (Front, Back, Left, Right, Top, Bottom).\n• **Step 2 (The Guiding Bridge):** Front view shows $5$ faces; Back view shows $5$ faces; Top view shows $4$ faces; Bottom view shows $4$ faces; Left view shows $4$ faces; Right view shows $4$ faces.\n• **Step 3 (How to Finish):** Sum the counts from all six directions: $5 + 5 + 4 + 4 + 4 + 4 = 26$ square inches."
+    "hint": "**Key Strategy:** Directional Face Counting (6 Viewpoints)\n• **Step 1 (First Move):** Count exposed faces from the 6 orthogonal viewpoints (Front, Back, Left, Right, Top, Bottom).\n• **Step 2 (The Guiding Bridge):** Front view shows $5$ faces; Back view shows $5$ faces; Top view shows $4$ faces; Bottom view shows $4$ faces; Left view shows $4$ faces; Right view shows $4$ faces.\n• **Step 3 (How to Finish):** Sum the counts from all six directions: $5 + 5 + 4 + 4 + 4 + 4 = 26$ square inches.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "23",
@@ -326,7 +348,8 @@
     ],
     "answer": "(B) $\\dfrac{4}{9}$",
     "explanation": "Look at the repeating pattern unit in the tiled floor. The floor is composed of repeating $3 \\times 3$ square blocks of tiles (or consider the symmetry of the pattern).\nIn each $3 \\times 3$ block of $9$ equal square tiles, there are $4$ dark tiles (forming a hollow ring or checker-like pattern) and $5$ light tiles.\nSince the pattern tiles the entire floor uniformly, the ratio of darker tiles to total tiles across the entire floor is the ratio within each repeating unit: $\\frac{4}{9}$.",
-    "hint": "**Key Strategy:** Identifying the Repeating Unit Cell\n• **Step 1 (First Move):** Look at the corner diagram and find the smallest repeating square block that tiles the entire floor.\n• **Step 2 (The Guiding Bridge):** Notice that the pattern repeats every $3 \\times 3$ block of $9$ tiles.\n• **Step 3 (How to Finish):** Count the number of dark tiles inside each $3 \\times 3$ block: there are $4$ dark tiles out of $9$ total tiles, giving a fraction of $\\frac{4}{9}$."
+    "hint": "**Key Strategy:** Identifying the Repeating Unit Cell\n• **Step 1 (First Move):** Look at the corner diagram and find the smallest repeating square block that tiles the entire floor.\n• **Step 2 (The Guiding Bridge):** Notice that the pattern repeats every $3 \\times 3$ block of $9$ tiles.\n• **Step 3 (How to Finish):** Count the number of dark tiles inside each $3 \\times 3$ block: there are $4$ dark tiles out of $9$ total tiles, giving a fraction of $\\frac{4}{9}$.",
+    "category": "Logic & Patterns"
   },
   {
     "id": "24",
@@ -340,7 +363,8 @@
     ],
     "answer": "(B) 40",
     "explanation": "Find the yield per fruit:\n• $1$ pear yields $\\frac{8}{3}$ ounces of juice.\n• $1$ orange yields $\\frac{8}{2} = 4$ ounces of juice.\nSince the blend uses an equal number of pears and oranges, suppose she uses $6$ of each (a convenient common multiple of $2$ and $3$):\n• $6$ pears produce $6 \\times \\frac{8}{3} = 16$ ounces of pear juice.\n• $6$ oranges produce $6 \\times 4 = 24$ ounces of orange juice.\nThe total blend is $16 + 24 = 40$ ounces.\nThe percentage of pear juice in the blend is $\\frac{16}{40} = \\frac{2}{5} = 40\\%$.",
-    "hint": "**Key Strategy:** Common Multiple / Concrete Value Substitution\n• **Step 1 (First Move):** Find the juice produced by $1$ pear ($8/3\\text{ oz}$) and $1$ orange ($8/2 = 4\\text{ oz}$).\n• **Step 2 (The Guiding Bridge):** Since an equal number of each fruit is used, pick a convenient number divisible by both $2$ and $3$, such as $6$ pears and $6$ oranges: $6$ pears yield $6 \\times \\frac{8}{3} = 16\\text{ oz}$ and $6$ oranges yield $6 \\times 4 = 24\\text{ oz}$.\n• **Step 3 (How to Finish):** Compute the total volume ($16 + 24 = 40\\text{ oz}$) and find the percentage of pear juice: $\\frac{16}{40} \\times 100\\%$."
+    "hint": "**Key Strategy:** Common Multiple / Concrete Value Substitution\n• **Step 1 (First Move):** Find the juice produced by $1$ pear ($8/3\\text{ oz}$) and $1$ orange ($8/2 = 4\\text{ oz}$).\n• **Step 2 (The Guiding Bridge):** Since an equal number of each fruit is used, pick a convenient number divisible by both $2$ and $3$, such as $6$ pears and $6$ oranges: $6$ pears yield $6 \\times \\frac{8}{3} = 16\\text{ oz}$ and $6$ oranges yield $6 \\times 4 = 24\\text{ oz}$.\n• **Step 3 (How to Finish):** Compute the total volume ($16 + 24 = 40\\text{ oz}$) and find the percentage of pear juice: $\\frac{16}{40} \\times 100\\%$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "25",
@@ -354,6 +378,7 @@
     ],
     "answer": "(B) $\\dfrac{1}{4}$",
     "explanation": "Let the amount of money each person gave to Ott be $x$.\n• Moe gave one-fifth of his money, so $\\frac{1}{5} M = x \\implies M = 5x$.\n• Loki gave one-fourth of his money, so $\\frac{1}{4} L = x \\implies L = 4x$.\n• Nick gave one-third of his money, so $\\frac{1}{3} N = x \\implies N = 3x$.\n• Ott started with \\$0 and received $x$ from each of the three friends, so Ott now has $x + x + x = 3x$.\nThe total money in the group is unchanged and equals the initial money of Moe, Loki, and Nick:\n$\\text{Total} = M + L + N = 5x + 4x + 3x = 12x$.\nThe fractional part of the group's money that Ott now has is $\\frac{3x}{12x} = \\frac{3}{12} = \\frac{1}{4}$.",
-    "hint": "**Key Strategy:** Normalized Variable Assignment\n• **Step 1 (First Move):** Let the amount each friend gives to Ott be $x$. Since $3$ friends each give him $x$, Ott ends up with $3x$.\n• **Step 2 (The Guiding Bridge):** Express each friend's starting money in terms of $x$: Moe had $5x$ (since $\\frac{1}{5}M = x$), Loki had $4x$ (since $\\frac{1}{4}L = x$), and Nick had $3x$ (since $\\frac{1}{3}N = x$).\n• **Step 3 (How to Finish):** Find the total money of the group: $5x + 4x + 3x = 12x$. Form Ott's fraction: $\\frac{3x}{12x}$ and simplify."
+    "hint": "**Key Strategy:** Normalized Variable Assignment\n• **Step 1 (First Move):** Let the amount each friend gives to Ott be $x$. Since $3$ friends each give him $x$, Ott ends up with $3x$.\n• **Step 2 (The Guiding Bridge):** Express each friend's starting money in terms of $x$: Moe had $5x$ (since $\\frac{1}{5}M = x$), Loki had $4x$ (since $\\frac{1}{4}L = x$), and Nick had $3x$ (since $\\frac{1}{3}N = x$).\n• **Step 3 (How to Finish):** Find the total money of the group: $5x + 4x + 3x = 12x$. Form Ott's fraction: $\\frac{3x}{12x}$ and simplify.",
+    "category": "Algebra & Word Problems"
   }
 ]

@@ -11,7 +11,8 @@
     ],
     "answer": "(A) 2 + 0 + 1 + 7",
     "explanation": "The values of the expressions are, in order, 10, 8, 9, 9, and 0[cite: 18].",
-    "hint": "**Key Strategy:** Order of Operations (PEMDAS / BODMAS)\n• **Step 1 (First Move):** Remember that multiplication ($\\times$) always comes before addition ($+$). For example, in the second expression, $2 \\times 0 + 1 + 7$, evaluate $2 \\times 0 = 0$ first, then add $0 + 1 + 7$.\n• **Step 2 (The Guiding Bridge):** Apply that same rule to all five choices: compute every multiplication product first (notice how multiplying by $0$ turns that entire product into $0$, while $1 \\times 7 = 7$), and then add the remaining terms.\n• **Step 3 (How to Finish):** Compare the five resulting sums and select the expression that produces the greatest value."
+    "hint": "**Key Strategy:** Order of Operations (PEMDAS / BODMAS)\n• **Step 1 (First Move):** Remember that multiplication ($\\times$) always comes before addition ($+$). For example, in the second expression, $2 \\times 0 + 1 + 7$, evaluate $2 \\times 0 = 0$ first, then add $0 + 1 + 7$.\n• **Step 2 (The Guiding Bridge):** Apply that same rule to all five choices: compute every multiplication product first (notice how multiplying by $0$ turns that entire product into $0$, while $1 \\times 7 = 7$), and then add the remaining terms.\n• **Step 3 (How to Finish):** Compare the five resulting sums and select the expression that produces the greatest value.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "(E) 120",
     "explanation": "Observe that 36 votes made up 30% of the total number of votes. Thus 12 votes made up 10% of the total number of votes and therefore there were 120 total votes[cite: 18].",
-    "hint": "**Key Strategy:** Percentage and Part-to-Whole Ratio\n• **Step 1 (First Move):** Read Brenda's slice on the pie chart to find her percentage of the votes: she received $30\\%$ of all votes, which corresponds to $36$ votes.\n• **Step 2 (The Guiding Bridge):** Use proportional reasoning to find $10\\%$ of the total votes by dividing both the percentage and the vote count by $3$: since $30\\% \\div 3 = 10\\%$, $10\\%$ represents $36 \\div 3 = 12$ votes.\n• **Step 3 (How to Finish):** Because the entire pie chart is $100\\%$ ($10$ times $10\\%$), multiply the number of votes for $10\\%$ by $10$ to find the total number of votes cast."
+    "hint": "**Key Strategy:** Percentage and Part-to-Whole Ratio\n• **Step 1 (First Move):** Read Brenda's slice on the pie chart to find her percentage of the votes: she received $30\\%$ of all votes, which corresponds to $36$ votes.\n• **Step 2 (The Guiding Bridge):** Use proportional reasoning to find $10\\%$ of the total votes by dividing both the percentage and the vote count by $3$: since $30\\% \\div 3 = 10\\%$, $10\\%$ represents $36 \\div 3 = 12$ votes.\n• **Step 3 (How to Finish):** Because the entire pie chart is $100\\%$ ($10$ times $10\\%$), multiply the number of votes for $10\\%$ by $10$ to find the total number of votes cast.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "(C) 8",
     "explanation": "Simplifying yields $\\sqrt{16\\sqrt{8\\sqrt{4}}} = \\sqrt{16\\sqrt{16}} = \\sqrt{64} = 8$[cite: 18].",
-    "hint": "**Key Strategy:** Working Inside-Out (Nested Radicals)\n• **Step 1 (First Move):** Start with the innermost square root and simplify it first: $\\sqrt{4} = 2$.\n• **Step 2 (The Guiding Bridge):** Substitute $2$ back into the middle square root to get $\\sqrt{8 \\times 2} = \\sqrt{16}$, and simplify that to $4$.\n• **Step 3 (How to Finish):** Substitute $4$ into the outermost radical to form $\\sqrt{16 \\times 4}$, multiply the two numbers inside, and take the final square root."
+    "hint": "**Key Strategy:** Working Inside-Out (Nested Radicals)\n• **Step 1 (First Move):** Start with the innermost square root and simplify it first: $\\sqrt{4} = 2$.\n• **Step 2 (The Guiding Bridge):** Substitute $2$ back into the middle square root to get $\\sqrt{8 \\times 2} = \\sqrt{16}$, and simplify that to $4$.\n• **Step 3 (How to Finish):** Substitute $4$ into the outermost radical to form $\\sqrt{16 \\times 4}$, multiply the two numbers inside, and take the final square root.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "(D) 2,400",
     "explanation": "The product may be estimated as $(3 \\times 10^{-4})(8 \\times 10^6) = 24 \\times 10^2 = 2400$[cite: 18].",
-    "hint": "**Key Strategy:** Estimation and Scientific Notation\n• **Step 1 (First Move):** Round each number to one leading digit: $0.000315 \\approx 0.0003 = 3 \\times 10^{-4}$, and $7{,}928{,}564 \\approx 8{,}000{,}000 = 8 \\times 10^{6}$.\n• **Step 2 (The Guiding Bridge):** Group the leading digits and the powers of $10$ separately: $(3 \\times 8) \\times (10^{-4} \\times 10^{6})$. Simplify the powers of $10$ using $10^{-4} \\times 10^{6} = 10^{6 - 4} = 10^{2} = 100$.\n• **Step 3 (How to Finish):** Multiply $3 \\times 8$ and then multiply that product by $100$ to find the closest estimate."
+    "hint": "**Key Strategy:** Estimation and Scientific Notation\n• **Step 1 (First Move):** Round each number to one leading digit: $0.000315 \\approx 0.0003 = 3 \\times 10^{-4}$, and $7{,}928{,}564 \\approx 8{,}000{,}000 = 8 \\times 10^{6}$.\n• **Step 2 (The Guiding Bridge):** Group the leading digits and the powers of $10$ separately: $(3 \\times 8) \\times (10^{-4} \\times 10^{6})$. Simplify the powers of $10$ using $10^{-4} \\times 10^{6} = 10^{6 - 4} = 10^{2} = 100$.\n• **Step 3 (How to Finish):** Multiply $3 \\times 8$ and then multiply that product by $100$ to find the closest estimate.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "(B) 1120",
     "explanation": "The sum $1 + 2 + 3 + \\dots + 8 = 36$, so the desired quotient is $\\frac{1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8}{36} = 4 \\cdot 5 \\cdot 7 \\cdot 8 = 1120$[cite: 18].",
-    "hint": "**Key Strategy:** Arithmetic Series Pairing and Factor Cancellation\n• **Step 1 (First Move):** Find the denominator by pairing numbers from opposite ends: $(1+8) + (2+7) + (3+6) + (4+5) = 9 \\times 4 = 36$.\n• **Step 2 (The Guiding Bridge):** Rewrite the fraction as $\\frac{1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8}{36}$ and notice that $2 \\cdot 3 \\cdot 6 = 36$ in the numerator cancels completely with the denominator $36$.\n• **Step 3 (How to Finish):** Multiply the remaining factors left in the numerator—$4 \\times 5 \\times 7 \\times 8$ (tip: group $4 \\times 5 = 20$ first)—to get the final value."
+    "hint": "**Key Strategy:** Arithmetic Series Pairing and Factor Cancellation\n• **Step 1 (First Move):** Find the denominator by pairing numbers from opposite ends: $(1+8) + (2+7) + (3+6) + (4+5) = 9 \\times 4 = 36$.\n• **Step 2 (The Guiding Bridge):** Rewrite the fraction as $\\frac{1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8}{36}$ and notice that $2 \\cdot 3 \\cdot 6 = 36$ in the numerator cancels completely with the denominator $36$.\n• **Step 3 (How to Finish):** Multiply the remaining factors left in the numerator—$4 \\times 5 \\times 7 \\times 8$ (tip: group $4 \\times 5 = 20$ first)—to get the final value.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "(D) 72",
     "explanation": "Let the degree measures of the angles be 3x, 3x, and 4x. Then $3x + 3x + 4x = 10x = 180$, so $x = 18$. The largest angle has measure $4 \\times 18 = 72$ degrees[cite: 18].",
-    "hint": "**Key Strategy:** Ratio Scaling (Total Parts)\n• **Step 1 (First Move):** Represent the three angles using a scale factor $x$: $3x$, $3x$, and $4x$ (or split the triangle's total degrees into $3 + 3 + 4 = 10$ equal parts).\n• **Step 2 (The Guiding Bridge):** Set the sum of the angles in a triangle equal to $180^\\circ$: $3x + 3x + 4x = 180$, so $10x = 180$, which gives $x = 18^\\circ$ for each part.\n• **Step 3 (How to Finish):** Multiply the value of one part ($18^\\circ$) by $4$ (the largest share in the ratio) to find the degree measure of the largest angle."
+    "hint": "**Key Strategy:** Ratio Scaling (Total Parts)\n• **Step 1 (First Move):** Represent the three angles using a scale factor $x$: $3x$, $3x$, and $4x$ (or split the triangle's total degrees into $3 + 3 + 4 = 10$ equal parts).\n• **Step 2 (The Guiding Bridge):** Set the sum of the angles in a triangle equal to $180^\\circ$: $3x + 3x + 4x = 180$, so $10x = 180$, which gives $x = 18^\\circ$ for each part.\n• **Step 3 (How to Finish):** Multiply the value of one part ($18^\\circ$) by $4$ (the largest share in the ratio) to find the degree measure of the largest angle.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "(A) 11",
     "explanation": "Assume Z has the form abcabc. Then $Z = 1001 \\times abc = 7 \\times 11 \\times 13 \\times abc$. So 11 must be a factor of Z[cite: 18].",
-    "hint": "**Key Strategy:** Place Value Expansion and Prime Factorization\n• **Step 1 (First Move):** Express $Z$ using place value and its $3$-digit block $\\overline{abc}$: for example, $247247 = 247000 + 247 = 247 \\times 1000 + 247 \\times 1$.\n• **Step 2 (The Guiding Bridge):** Factor out $\\overline{abc}$ to see that $Z = \\overline{abc} \\times (1000 + 1) = \\overline{abc} \\times 1001$.\n• **Step 3 (How to Finish):** Find the prime factorization of $1001$ (try dividing by $7$ first: $1001 \\div 7 = 143$, then factor $143$ into two primes) to identify which option is guaranteed to be a factor of $Z$."
+    "hint": "**Key Strategy:** Place Value Expansion and Prime Factorization\n• **Step 1 (First Move):** Express $Z$ using place value and its $3$-digit block $\\overline{abc}$: for example, $247247 = 247000 + 247 = 247 \\times 1000 + 247 \\times 1$.\n• **Step 2 (The Guiding Bridge):** Factor out $\\overline{abc}$ to see that $Z = \\overline{abc} \\times (1000 + 1) = \\overline{abc} \\times 1001$.\n• **Step 3 (How to Finish):** Find the prime factorization of $1001$ (try dividing by $7$ first: $1001 \\div 7 = 143$, then factor $143$ into two primes) to identify which option is guaranteed to be a factor of $Z$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "(D) 8",
     "explanation": "Statement 1 must be false because there are no two-digit even primes and no two-digit prime divisible by 7. Thus statements 2, 3, and 4 are true, making the number 98, so its units digit is 8[cite: 19].",
-    "hint": "**Key Strategy:** Logical Contradiction and Elimination\n• **Step 1 (First Move):** Test whether statement (1) (\"It is prime\") can be true. Because $3$ of the $4$ statements are true, if (1) were true, at least one of (2) or (3) would also have to be true.\n• **Step 2 (The Guiding Bridge):** Check those pairs for a two-digit number: there is no two-digit even prime (only $2$ is an even prime), and there is no two-digit prime divisible by $7$ (only $7$ is). Thus statement (1) must be the false statement, so statements (2), (3), and (4) are all true.\n• **Step 3 (How to Finish):** List the two-digit multiples of $7$ that contain a digit $9$ (such as $7 \\times 7 = 49$, $7 \\times 13 = 91$, $7 \\times 14 = \\dots$), pick the one that is also even, and write down its units (ones) digit."
+    "hint": "**Key Strategy:** Logical Contradiction and Elimination\n• **Step 1 (First Move):** Test whether statement (1) (\"It is prime\") can be true. Because $3$ of the $4$ statements are true, if (1) were true, at least one of (2) or (3) would also have to be true.\n• **Step 2 (The Guiding Bridge):** Check those pairs for a two-digit number: there is no two-digit even prime (only $2$ is an even prime), and there is no two-digit prime divisible by $7$ (only $7$ is). Thus statement (1) must be the false statement, so statements (2), (3), and (4) are all true.\n• **Step 3 (How to Finish):** List the two-digit multiples of $7$ that contain a digit $9$ (such as $7 \\times 7 = 49$, $7 \\times 13 = 91$, $7 \\times 14 = \\dots$), pick the one that is also even, and write down its units (ones) digit.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "(D) 4",
     "explanation": "The total number of Marcy's marbles must be a multiple of 12. If she has 24 marbles, 8 are blue, 6 are red, and 6 are green, leaving 4 yellow marbles[cite: 19].",
-    "hint": "**Key Strategy:** Least Common Multiple (LCM) and Divisibility\n• **Step 1 (First Move):** Since $\\frac{1}{3}$ of the marbles are blue and $\\frac{1}{4}$ are red, the total number of marbles $N$ must be divisible by both $3$ and $4$, so $N$ must be a multiple of $\\text{LCM}(3, 4) = 12$.\n• **Step 2 (The Guiding Bridge):** Test the smallest multiples of $12$. If $N = 12$, then $\\frac{1}{3}$ of $12$ (blue) plus $\\frac{1}{4}$ of $12$ (red) plus $6$ green marbles already totals $13$, which is greater than $12$ (impossible!).\n• **Step 3 (How to Finish):** Move to the next multiple, $N = 24$, compute $\\frac{1}{3}(24)$ for blue and $\\frac{1}{4}(24)$ for red, add the $6$ green marbles, and subtract that sum from $24$ to find the smallest possible number of yellow marbles."
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) and Divisibility\n• **Step 1 (First Move):** Since $\\frac{1}{3}$ of the marbles are blue and $\\frac{1}{4}$ are red, the total number of marbles $N$ must be divisible by both $3$ and $4$, so $N$ must be a multiple of $\\text{LCM}(3, 4) = 12$.\n• **Step 2 (The Guiding Bridge):** Test the smallest multiples of $12$. If $N = 12$, then $\\frac{1}{3}$ of $12$ (blue) plus $\\frac{1}{4}$ of $12$ (red) plus $6$ green marbles already totals $13$, which is greater than $12$ (impossible!).\n• **Step 3 (How to Finish):** Move to the next multiple, $N = 24$, compute $\\frac{1}{3}(24)$ for blue and $\\frac{1}{4}(24)$ for red, add the $6$ green marbles, and subtract that sum from $24$ to find the smallest possible number of yellow marbles.",
+    "category": "Counting & Probability"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "answer": "(C) 3/10",
     "explanation": "There are 10 ways to select 3 cards. If 4 is the largest, the remaining 2 cards are chosen from 1, 2, and 3 in 3 ways, giving probability 3/10[cite: 19].",
-    "hint": "**Key Strategy:** Systematic Counting (Combinations) and Probability\n• **Step 1 (First Move):** Count the total number of ways to pick $3$ cards out of $5$ (order does not matter): $\\binom{5}{3} = \\frac{5 \\times 4}{2 \\times 1} = 10$ possible hands.\n• **Step 2 (The Guiding Bridge):** For $4$ to be the largest number selected, card $4$ must be in the hand, card $5$ must not be in the hand, and the remaining $2$ cards must be chosen from $\\{1, 2, 3\\}$. List or count all ways to pick $2$ cards from $\\{1, 2, 3\\}$.\n• **Step 3 (How to Finish):** Divide the number of favorable hands from Step 2 by the $10$ total hands from Step 1 to get the probability."
+    "hint": "**Key Strategy:** Systematic Counting (Combinations) and Probability\n• **Step 1 (First Move):** Count the total number of ways to pick $3$ cards out of $5$ (order does not matter): $\\binom{5}{3} = \\frac{5 \\times 4}{2 \\times 1} = 10$ possible hands.\n• **Step 2 (The Guiding Bridge):** For $4$ to be the largest number selected, card $4$ must be in the hand, card $5$ must not be in the hand, and the remaining $2$ cards must be chosen from $\\{1, 2, 3\\}$. List or count all ways to pick $2$ cards from $\\{1, 2, 3\\}$.\n• **Step 3 (How to Finish):** Divide the number of favorable hands from Step 2 by the $10$ total hands from Step 1 to get the probability.",
+    "category": "Counting & Probability"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "answer": "(C) 361",
     "explanation": "If the total number of tiles in the two diagonals is 37, there are 19 tiles on each side. Therefore, the floor is covered by $19 \\times 19 = 361$ tiles[cite: 19].",
-    "hint": "**Key Strategy:** Inclusion-Exclusion (Overlap on Diagonals)\n• **Step 1 (First Move):** Imagine an $n \\times n$ square grid of tiles. Each of the two diagonals has $n$ tiles.\n• **Step 2 (The Guiding Bridge):** Notice that $37$ is odd because $n$ is odd and the two diagonals share $1$ center tile. By Inclusion-Exclusion, the total number of tiles on the two diagonals is $n + n - 1 = 2n - 1$. Set $2n - 1 = 37$ and solve for $n$ (add $1$ to $37$, then divide by $2$).\n• **Step 3 (How to Finish):** Once you have the side length $n$, compute $n \\times n$ to find the total number of tiles covering the square floor."
+    "hint": "**Key Strategy:** Inclusion-Exclusion (Overlap on Diagonals)\n• **Step 1 (First Move):** Imagine an $n \\times n$ square grid of tiles. Each of the two diagonals has $n$ tiles.\n• **Step 2 (The Guiding Bridge):** Notice that $37$ is odd because $n$ is odd and the two diagonals share $1$ center tile. By Inclusion-Exclusion, the total number of tiles on the two diagonals is $n + n - 1 = 2n - 1$. Set $2n - 1 = 37$ and solve for $n$ (add $1$ to $37$, then divide by $2$).\n• **Step 3 (How to Finish):** Once you have the side length $n$, compute $n \\times n$ to find the total number of tiles covering the square floor.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "answer": "(D) 60 and 79",
     "explanation": "The least common multiple of 4, 5, and 6 is 60. The number is $60 + 1 = 61$, which lies between 60 and 79[cite: 20].",
-    "hint": "**Key Strategy:** Least Common Multiple (LCM) with Constant Remainder\n• **Step 1 (First Move):** If a number $N$ leaves a remainder of $1$ when divided by $4$, $5$, and $6$, then $N - 1$ must be evenly divisible by $4$, $5$, and $6$ (with remainder $0$).\n• **Step 2 (The Guiding Bridge):** Find the least common multiple using prime factorizations ($4 = 2^2$, $5 = 5$, $6 = 2 \\times 3$): $\\text{LCM}(4, 5, 6) = 2^2 \\times 3 \\times 5 = 60$. Since $N > 1$, the smallest positive value for $N - 1$ is $60$.\n• **Step 3 (How to Finish):** Add $1$ back to $60$ to find $N$, and check which given pair of numbers contains that result."
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) with Constant Remainder\n• **Step 1 (First Move):** If a number $N$ leaves a remainder of $1$ when divided by $4$, $5$, and $6$, then $N - 1$ must be evenly divisible by $4$, $5$, and $6$ (with remainder $0$).\n• **Step 2 (The Guiding Bridge):** Find the least common multiple using prime factorizations ($4 = 2^2$, $5 = 5$, $6 = 2 \\times 3$): $\\text{LCM}(4, 5, 6) = 2^2 \\times 3 \\times 5 = 60$. Since $N > 1$, the smallest positive value for $N - 1$ is $60$.\n• **Step 3 (How to Finish):** Add $1$ back to $60$ to find $N$, and check which given pair of numbers contains that result.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "answer": "(B) 1",
     "explanation": "Total wins equal total losses. Total losses = $2 + 3 + 3 = 8$. Peter and Emma won $4 + 3 = 7$ games, so Kyler won 1 game[cite: 20].",
-    "hint": "**Key Strategy:** Invariant / Conservation of Wins and Losses\n• **Step 1 (First Move):** In every chess game between two players (with no ties, since only wins and losses are counted), one player earns a win and the other earns a loss, so $\\text{Total Wins} = \\text{Total Losses}$.\n• **Step 2 (The Guiding Bridge):** Add up the losses of all three players: $2 + 3 + 3 = 8$. Because total wins must equal total losses, the sum of Peter's, Emma's, and Kyler's wins must also be $8$.\n• **Step 3 (How to Finish):** Add Peter's and Emma's wins ($4 + 3$) and subtract that sum from $8$ to find how many games Kyler won."
+    "hint": "**Key Strategy:** Invariant / Conservation of Wins and Losses\n• **Step 1 (First Move):** In every chess game between two players (with no ties, since only wins and losses are counted), one player earns a win and the other earns a loss, so $\\text{Total Wins} = \\text{Total Losses}$.\n• **Step 2 (The Guiding Bridge):** Add up the losses of all three players: $2 + 3 + 3 = 8$. Because total wins must equal total losses, the sum of Peter's, Emma's, and Kyler's wins must also be $8$.\n• **Step 3 (How to Finish):** Add Peter's and Emma's wins ($4 + 3$) and subtract that sum from $8$ to find how many games Kyler won.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "answer": "(C) 93",
     "explanation": "Chloe's success rate on the joint half was 96%. Zoe's success rate was 90% alone and 96% together, giving an overall average of 93%[cite: 20].",
-    "hint": "**Key Strategy:** Weighted Average (Equal Halves)\n• **Step 1 (First Move):** Since each student did half the problems alone and half together, her overall percentage is the exact average of those two halves: $\\text{Overall} = \\frac{\\text{Alone} + \\text{Together}}{2}$.\n• **Step 2 (The Guiding Bridge):** Use Chloe's numbers to find their shared \"Together\" score $T$: $\\frac{80\\% + T}{2} = 88\\%$. Notice $88\\%$ is $8\\%$ higher than $80\\%$, so $T$ must be $8\\%$ higher than $88\\%$ (giving $T = 2 \\times 88\\% - 80\\% = 96\\%$).\n• **Step 3 (How to Finish):** Average Zoe's \"Alone\" score ($90\\%$) with the \"Together\" score ($96\\%$) by calculating $\\frac{90\\% + 96\\%}{2}$ to find Zoe's overall percentage."
+    "hint": "**Key Strategy:** Weighted Average (Equal Halves)\n• **Step 1 (First Move):** Since each student did half the problems alone and half together, her overall percentage is the exact average of those two halves: $\\text{Overall} = \\frac{\\text{Alone} + \\text{Together}}{2}$.\n• **Step 2 (The Guiding Bridge):** Use Chloe's numbers to find their shared \"Together\" score $T$: $\\frac{80\\% + T}{2} = 88\\%$. Notice $88\\%$ is $8\\%$ higher than $80\\%$, so $T$ must be $8\\%$ higher than $88\\%$ (giving $T = 2 \\times 88\\% - 80\\% = 96\\%$).\n• **Step 3 (How to Finish):** Average Zoe's \"Alone\" score ($90\\%$) with the \"Together\" score ($96\\%$) by calculating $\\frac{90\\% + 96\\%}{2}$ to find Zoe's overall percentage.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "answer": "(D) 24",
     "explanation": "Starting at A, there are 4 choices for M, 3 for C, and 2 for 8, yielding $4 \\times 3 \\times 2 = 24$ paths[cite: 20].",
-    "hint": "**Key Strategy:** Multiplication Principle (Counting Tree)\n• **Step 1 (First Move):** Start at the center letter $A$ and count how many adjacent $M$'s (up, down, left, or right) you can step to: there are $4$ choices for $M$.\n• **Step 2 (The Guiding Bridge):** From any chosen $M$, count the adjacent $C$'s you can move to: there are $3$ choices for $C$. From any chosen $C$, count the adjacent $8$'s: there are $2$ choices for $8$.\n• **Step 3 (How to Finish):** Use the Multiplication Principle and multiply the number of choices at each step ($4 \\times 3 \\times 2$) to find the total number of distinct paths."
+    "hint": "**Key Strategy:** Multiplication Principle (Counting Tree)\n• **Step 1 (First Move):** Start at the center letter $A$ and count how many adjacent $M$'s (up, down, left, or right) you can step to: there are $4$ choices for $M$.\n• **Step 2 (The Guiding Bridge):** From any chosen $M$, count the adjacent $C$'s you can move to: there are $3$ choices for $C$. From any chosen $C$, count the adjacent $8$'s: there are $2$ choices for $8$.\n• **Step 3 (How to Finish):** Use the Multiplication Principle and multiply the number of choices at each step ($4 \\times 3 \\times 2$) to find the total number of distinct paths.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "answer": "(D) 12/5",
     "explanation": "Equal perimeters imply $CD = 3$ and $BD = 2$. The area of triangle ABD is (2/5) of the total area of triangle ABC, which is $(2/5) \\times 6 = 12/5$[cite: 20].",
-    "hint": "**Key Strategy:** Equal Perimeters Equation and Area Ratio (Same Height)\n• **Step 1 (First Move):** Set the perimeters of $\\triangle ACD$ and $\\triangle ABD$ equal: $AC + CD + AD = AB + BD + AD$. Cancel $AD$ from both sides and substitute $AC = 3$ and $AB = 4$ to get $3 + CD = 4 + BD$, or $CD - BD = 1$.\n• **Step 2 (The Guiding Bridge):** Because $D$ lies on segment $BC$, we also have $CD + BD = 5$. Solve the pair of equations ($CD + BD = 5$ and $CD - BD = 1$) to get $CD = 3$ and $BD = 2$.\n• **Step 3 (How to Finish):** Find the area of the whole right triangle $\\triangle ABC$ ($\\frac{1}{2} \\times 3 \\times 4 = 6$). Since $\\triangle ABD$ and $\\triangle ABC$ share the same height from $A$ to $BC$, multiply the total area $6$ by the base ratio $\\frac{BD}{BC} = \\frac{2}{5}$."
+    "hint": "**Key Strategy:** Equal Perimeters Equation and Area Ratio (Same Height)\n• **Step 1 (First Move):** Set the perimeters of $\\triangle ACD$ and $\\triangle ABD$ equal: $AC + CD + AD = AB + BD + AD$. Cancel $AD$ from both sides and substitute $AC = 3$ and $AB = 4$ to get $3 + CD = 4 + BD$, or $CD - BD = 1$.\n• **Step 2 (The Guiding Bridge):** Because $D$ lies on segment $BC$, we also have $CD + BD = 5$. Solve the pair of equations ($CD + BD = 5$ and $CD - BD = 1$) to get $CD = 3$ and $BD = 2$.\n• **Step 3 (How to Finish):** Find the area of the whole right triangle $\\triangle ABC$ ($\\frac{1}{2} \\times 3 \\times 4 = 6$). Since $\\triangle ABD$ and $\\triangle ABC$ share the same height from $A$ to $BC$, multiply the total area $6$ by the base ratio $\\frac{BD}{BC} = \\frac{2}{5}$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "answer": "(C) 45",
     "explanation": "Let c be the number of chests. $9(c - 2) = 6c + 3$, yielding $c = 7$ chests and 45 coins[cite: 21].",
-    "hint": "**Key Strategy:** Linear Equation (Excess and Shortage)\n• **Step 1 (First Move):** Let $c$ be the number of treasure chests. Write two expressions for the number of gold coins: $9$ coins in all but $2$ chests gives $9(c - 2)$, while $6$ coins in each of the $c$ chests plus $3$ leftover coins gives $6c + 3$.\n• **Step 2 (The Guiding Bridge):** Set the two expressions equal: $9(c - 2) = 6c + 3$. Expand to $9c - 18 = 6c + 3$, then add $18$ and subtract $6c$ from both sides to get $3c = 21$, which gives $c = 7$ chests.\n• **Step 3 (How to Finish):** Substitute $c = 7$ back into either coin expression (such as $6c + 3$ or $9(c - 2)$) and evaluate to find the number of gold coins."
+    "hint": "**Key Strategy:** Linear Equation (Excess and Shortage)\n• **Step 1 (First Move):** Let $c$ be the number of treasure chests. Write two expressions for the number of gold coins: $9$ coins in all but $2$ chests gives $9(c - 2)$, while $6$ coins in each of the $c$ chests plus $3$ leftover coins gives $6c + 3$.\n• **Step 2 (The Guiding Bridge):** Set the two expressions equal: $9(c - 2) = 6c + 3$. Expand to $9c - 18 = 6c + 3$, then add $18$ and subtract $6c$ from both sides to get $3c = 21$, which gives $c = 7$ chests.\n• **Step 3 (How to Finish):** Substitute $c = 7$ back into either coin expression (such as $6c + 3$ or $9(c - 2)$) and evaluate to find the number of gold coins.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "answer": "(B) 24",
     "explanation": "Using Pythagorean theorem, $BD = 5$. Triangle ABD has area 30 and triangle BCD has area 6, so the quadrilateral area is $30 - 6 = 24$[cite: 21].",
-    "hint": "**Key Strategy:** Area Decomposition (Subtraction) and Pythagorean Theorem\n• **Step 1 (First Move):** Draw segment $BD$. In right triangle $\\triangle BCD$ with legs $BC = 4$ and $CD = 3$, use the Pythagorean Theorem ($BD = \\sqrt{3^2 + 4^2}$) to find $BD = 5$.\n• **Step 2 (The Guiding Bridge):** Look at $\\triangle ABD$, which has side lengths $5$, $12$, and $13$. Check that $5^2 + 12^2 = 25 + 144 = 169 = 13^2$, which means $\\angle ABD = 90^\\circ$. Because $ABCD$ is non-convex, $\\triangle BCD$ is cut out from inside $\\triangle ABD$.\n• **Step 3 (How to Finish):** Calculate $\\text{Area}(\\triangle ABD) = \\frac{1}{2} \\times 5 \\times 12$ and $\\text{Area}(\\triangle BCD) = \\frac{1}{2} \\times 3 \\times 4$, then subtract the smaller area from the larger area."
+    "hint": "**Key Strategy:** Area Decomposition (Subtraction) and Pythagorean Theorem\n• **Step 1 (First Move):** Draw segment $BD$. In right triangle $\\triangle BCD$ with legs $BC = 4$ and $CD = 3$, use the Pythagorean Theorem ($BD = \\sqrt{3^2 + 4^2}$) to find $BD = 5$.\n• **Step 2 (The Guiding Bridge):** Look at $\\triangle ABD$, which has side lengths $5$, $12$, and $13$. Check that $5^2 + 12^2 = 25 + 144 = 169 = 13^2$, which means $\\angle ABD = 90^\\circ$. Because $ABCD$ is non-convex, $\\triangle BCD$ is cut out from inside $\\triangle ABD$.\n• **Step 3 (How to Finish):** Calculate $\\text{Area}(\\triangle ABD) = \\frac{1}{2} \\times 5 \\times 12$ and $\\text{Area}(\\triangle BCD) = \\frac{1}{2} \\times 3 \\times 4$, then subtract the smaller area from the larger area.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "answer": "(D) 26",
     "explanation": "Factoring gives $98! \\times 100^2$. The exponent of 5 in 98! is 22, and in $100^2$ is 4, totaling $22 + 4 = 26$[cite: 21].",
-    "hint": "**Key Strategy:** Factoring Factorials and Legendre's Formula\n• **Step 1 (First Move):** Factor out the smallest factorial, $98!$, from all three terms: since $99! = 99 \\times 98!$ and $100! = 100 \\times 99 \\times 98!$, the sum becomes $98!(1 + 99 + 100 \\times 99)$.\n• **Step 2 (The Guiding Bridge):** Simplify inside the parentheses: $1 + 99 = 100$, so $100 + 100 \\times 99 = 100 \\times (1 + 99) = 100^2$. Next, count how many factors of $5$ divide $98!$ using Legendre's Formula: $\\lfloor \\frac{98}{5} \\rfloor + \\lfloor \\frac{98}{25} \\rfloor = 19 + 3 = 22$.\n• **Step 3 (How to Finish):** Rewrite $100^2 = (2^2 \\times 5^2)^2$ to find how many extra factors of $5$ are in $100^2$, and add that exponent to $22$ to get $n$."
+    "hint": "**Key Strategy:** Factoring Factorials and Legendre's Formula\n• **Step 1 (First Move):** Factor out the smallest factorial, $98!$, from all three terms: since $99! = 99 \\times 98!$ and $100! = 100 \\times 99 \\times 98!$, the sum becomes $98!(1 + 99 + 100 \\times 99)$.\n• **Step 2 (The Guiding Bridge):** Simplify inside the parentheses: $1 + 99 = 100$, so $100 + 100 \\times 99 = 100 \\times (1 + 99) = 100^2$. Next, count how many factors of $5$ divide $98!$ using Legendre's Formula: $\\lfloor \\frac{98}{5} \\rfloor + \\lfloor \\frac{98}{25} \\rfloor = 19 + 3 = 22$.\n• **Step 3 (How to Finish):** Rewrite $100^2 = (2^2 \\times 5^2)^2$ to find how many extra factors of $5$ are in $100^2$, and add that exponent to $22$ to get $n$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "answer": "(B) 56/225",
     "explanation": "There are 2240 such integers out of 9000 total integers, giving a probability of 56/225[cite: 21].",
-    "hint": "**Key Strategy:** Constructive Counting (Most Restricted Digits First)\n• **Step 1 (First Move):** Count all $4$-digit integers from $1000$ to $9999$ inclusive: $9999 - 1000 + 1 = 9000$.\n• **Step 2 (The Guiding Bridge):** Count the $4$-digit odd integers with all distinct digits by filling the most restricted digits first: the units digit must be odd ($1, 3, 5, 7, 9 \\Rightarrow 5$ choices); the thousands digit cannot be $0$ and cannot match the units digit ($8$ choices); the hundreds digit can be $0$ but cannot match the first two chosen digits ($8$ choices); and the tens digit cannot match the three digits already used ($7$ choices).\n• **Step 3 (How to Finish):** Multiply $5 \\times 8 \\times 8 \\times 7$ to get the count of favorable integers, divide by $9000$, and simplify the fraction to lowest terms."
+    "hint": "**Key Strategy:** Constructive Counting (Most Restricted Digits First)\n• **Step 1 (First Move):** Count all $4$-digit integers from $1000$ to $9999$ inclusive: $9999 - 1000 + 1 = 9000$.\n• **Step 2 (The Guiding Bridge):** Count the $4$-digit odd integers with all distinct digits by filling the most restricted digits first: the units digit must be odd ($1, 3, 5, 7, 9 \\Rightarrow 5$ choices); the thousands digit cannot be $0$ and cannot match the units digit ($8$ choices); the hundreds digit can be $0$ but cannot match the first two chosen digits ($8$ choices); and the tens digit cannot match the three digits already used ($7$ choices).\n• **Step 3 (How to Finish):** Multiply $5 \\times 8 \\times 8 \\times 7$ to get the count of favorable integers, divide by $9000$, and simplify the fraction to lowest terms.",
+    "category": "Counting & Probability"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "answer": "(A) 0",
     "explanation": "Checking cases where numbers are positive or negative due to $a + b + c = 0$ always results in a sum of 0[cite: 21, 22].",
-    "hint": "**Key Strategy:** Casework on Signs\n• **Step 1 (First Move):** Recall that for any nonzero number $x$, $\\frac{x}{|x|} = 1$ if $x > 0$ and $\\frac{x}{|x|} = -1$ if $x < 0$.\n• **Step 2 (The Guiding Bridge):** Since $a + b + c = 0$ and none of $a, b, c$ is $0$, they cannot all have the same sign (all positive would sum to $> 0$, all negative to $< 0$). That leaves only two cases:\n  - **Case 1:** Two numbers are positive and one is negative (making the product $abc$ negative).\n  - **Case 2:** One number is positive and two are negative (making the product $abc$ positive).\n• **Step 3 (How to Finish):** Replace each fraction in $\\frac{a}{|a|} + \\frac{b}{|b|} + \\frac{c}{|c|} + \\frac{abc}{|abc|}$ with $+1$ or $-1$ for each case and compute the sum."
+    "hint": "**Key Strategy:** Casework on Signs\n• **Step 1 (First Move):** Recall that for any nonzero number $x$, $\\frac{x}{|x|} = 1$ if $x > 0$ and $\\frac{x}{|x|} = -1$ if $x < 0$.\n• **Step 2 (The Guiding Bridge):** Since $a + b + c = 0$ and none of $a, b, c$ is $0$, they cannot all have the same sign (all positive would sum to $> 0$, all negative to $< 0$). That leaves only two cases:\n  - **Case 1:** Two numbers are positive and one is negative (making the product $abc$ negative).\n  - **Case 2:** One number is positive and two are negative (making the product $abc$ positive).\n• **Step 3 (How to Finish):** Replace each fraction in $\\frac{a}{|a|} + \\frac{b}{|b|} + \\frac{c}{|c|} + \\frac{abc}{|abc|}$ with $+1$ or $-1$ for each case and compute the sum.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "answer": "(D) 10/3",
     "explanation": "Using area partitioning: $Area(ABC) = 30 = \\frac{5}{2}r + \\frac{13}{2}r = 9r$, which gives $r = 10/3$[cite: 23].",
-    "hint": "**Key Strategy:** Area Partitioning and Pythagorean Theorem\n• **Step 1 (First Move):** Use the Pythagorean Theorem to find the hypotenuse: $AB = \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13$, and find the area of right triangle $\\triangle ABC$: $\\text{Area} = \\frac{1}{2} \\times 12 \\times 5 = 30$.\n• **Step 2 (The Guiding Bridge):** Let $O$ be the center of the semicircle on $AC$ and $r$ be its radius. Because the semicircle is tangent to $BC$ at $C$ and tangent to $AB$, drawing segment $OB$ splits $\\triangle ABC$ into $\\triangle OBC$ (base $BC = 5$, height $r$) and $\\triangle OBA$ (base $AB = 13$, height $r$).\n• **Step 3 (How to Finish):** Write the total area equation $\\frac{1}{2}(5)r + \\frac{1}{2}(13)r = 30$, combine the $r$ terms on the left side, and divide $30$ by the resulting coefficient to solve for $r$."
+    "hint": "**Key Strategy:** Area Partitioning and Pythagorean Theorem\n• **Step 1 (First Move):** Use the Pythagorean Theorem to find the hypotenuse: $AB = \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13$, and find the area of right triangle $\\triangle ABC$: $\\text{Area} = \\frac{1}{2} \\times 12 \\times 5 = 30$.\n• **Step 2 (The Guiding Bridge):** Let $O$ be the center of the semicircle on $AC$ and $r$ be its radius. Because the semicircle is tangent to $BC$ at $C$ and tangent to $AB$, drawing segment $OB$ splits $\\triangle ABC$ into $\\triangle OBC$ (base $BC = 5$, height $r$) and $\\triangle OBA$ (base $AB = 13$, height $r$).\n• **Step 3 (How to Finish):** Write the total area equation $\\frac{1}{2}(5)r + \\frac{1}{2}(13)r = 30$, combine the $r$ terms on the left side, and divide $30$ by the resulting coefficient to solve for $r$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "answer": "(C) 25",
     "explanation": "The only sequence of factors of 60 with common difference 5 is 5, 10, 15, 20. Total distance is $12 + 6 + 4 + 3 = 25$ miles[cite: 24].",
-    "hint": "**Key Strategy:** Factors of 60 and Arithmetic Progression\n• **Step 1 (First Move):** In $1$ hour ($60$ minutes), if it takes $m$ minutes to travel $1$ mile, Linda travels $\\frac{60}{m}$ miles. Because her distance each day is an integer number of miles, $m$ must be a factor of $60$.\n• **Step 2 (The Guiding Bridge):** List all factors of $60$: $1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60$. Find the only group of four factors that increase by $5$ minutes each day ($m, m+5, m+10, m+15$), which is $5, 10, 15, 20$.\n• **Step 3 (How to Finish):** Divide $60$ by each of the four times ($5, 10, 15, 20$) to find the miles traveled on each of the four days, and add those four distances together."
+    "hint": "**Key Strategy:** Factors of 60 and Arithmetic Progression\n• **Step 1 (First Move):** In $1$ hour ($60$ minutes), if it takes $m$ minutes to travel $1$ mile, Linda travels $\\frac{60}{m}$ miles. Because her distance each day is an integer number of miles, $m$ must be a factor of $60$.\n• **Step 2 (The Guiding Bridge):** List all factors of $60$: $1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60$. Find the only group of four factors that increase by $5$ minutes each day ($m, m+5, m+10, m+15$), which is $5, 10, 15, 20$.\n• **Step 3 (How to Finish):** Divide $60$ by each of the four times ($5, 10, 15, 20$) to find the miles traveled on each of the four days, and add those four distances together.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "answer": "(D) 146",
     "explanation": "Using inclusion-exclusion over 60-day cycles for the year 2017 (365 days), the total number of days without any call is 146[cite: 24].",
-    "hint": "**Key Strategy:** Inclusion-Exclusion Principle and Cycle Periodicity\n• **Step 1 (First Move):** Note that $2017$ has $365$ days (Days $1$ through $365$ starting Jan 1). Because $\\text{LCM}(3, 4, 5) = 60$, the calling pattern repeats every $60$ days, and $365 = 6 \\times 60 + 5$ (six full $60$-day cycles plus Days $361$ to $365$).\n• **Step 2 (The Guiding Bridge):** Count how many days in one $60$-day cycle (Days $1$ to $60$) she receives *at least one* call using Inclusion-Exclusion: add individual callers ($\\frac{60}{3} + \\frac{60}{4} + \\frac{60}{5} = 20 + 15 + 12 = 47$), subtract double-overlaps ($\\frac{60}{12} + \\frac{60}{15} + \\frac{60}{20} = 5 + 4 + 3 = 12$), and add back the triple-overlap ($\\frac{60}{60} = 1$). That gives $47 - 12 + 1 = 36$ call days, leaving $60 - 36 = 24$ no-call days per $60$-day cycle.\n• **Step 3 (How to Finish):** Multiply $24$ no-call days by $6$ full cycles, then check the remaining $5$ days (which match Days $1$ to $5$ of the cycle: check which of $1, 2, 3, 4, 5$ are not divisible by $3$, $4$, or $5$) and add those extra no-call days to your product."
+    "hint": "**Key Strategy:** Inclusion-Exclusion Principle and Cycle Periodicity\n• **Step 1 (First Move):** Note that $2017$ has $365$ days (Days $1$ through $365$ starting Jan 1). Because $\\text{LCM}(3, 4, 5) = 60$, the calling pattern repeats every $60$ days, and $365 = 6 \\times 60 + 5$ (six full $60$-day cycles plus Days $361$ to $365$).\n• **Step 2 (The Guiding Bridge):** Count how many days in one $60$-day cycle (Days $1$ to $60$) she receives *at least one* call using Inclusion-Exclusion: add individual callers ($\\frac{60}{3} + \\frac{60}{4} + \\frac{60}{5} = 20 + 15 + 12 = 47$), subtract double-overlaps ($\\frac{60}{12} + \\frac{60}{15} + \\frac{60}{20} = 5 + 4 + 3 = 12$), and add back the triple-overlap ($\\frac{60}{60} = 1$). That gives $47 - 12 + 1 = 36$ call days, leaving $60 - 36 = 24$ no-call days per $60$-day cycle.\n• **Step 3 (How to Finish):** Multiply $24$ no-call days by $6$ full cycles, then check the remaining $5$ days (which match Days $1$ to $5$ of the cycle: check which of $1, 2, 3, 4, 5$ are not divisible by $3$, $4$, or $5$) and add those extra no-call days to your product.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 25,
@@ -347,6 +371,7 @@
     ],
     "answer": "(B) $4\\sqrt{3} - \\frac{4\\pi}{3}$",
     "explanation": "The area is the equilateral triangle area minus two 60-degree circular sectors: $(\\frac{\\sqrt{3}}{4} \\times 4^2) - 2(\\frac{1}{6} \\times \\pi \\times 2^2) = 4\\sqrt{3} - \\frac{4\\pi}{3}$[cite: 25].",
-    "hint": "**Key Strategy:** Area Subtraction (Equilateral Triangle Minus Sectors)\n• **Step 1 (First Move):** Extend segments $UT$ and $US$ past $T$ and $S$ to the centers $P$ and $Q$ of the two circular arcs $TR$ and $SR$. Because each arc has radius $2$, $TP = 2$ and $SQ = 2$, forming an equilateral triangle $\\triangle UPQ$ with side length $s = 2 + 2 = 4$.\n• **Step 2 (The Guiding Bridge):** Compute the area of equilateral triangle $\\triangle UPQ$ using $\\frac{\\sqrt{3}}{4}s^2$ with $s = 4$, and compute the area of the two circular sectors inside $\\triangle UPQ$: each sector is $\\frac{1}{6}$ of a circle of radius $r = 2$, so each has area $\\frac{1}{6}\\pi r^2 = \\frac{1}{6}\\pi(2^2)$.\n• **Step 3 (How to Finish):** Subtract the combined area of the two sectors from the area of $\\triangle UPQ$ and simplify the fractions."
+    "hint": "**Key Strategy:** Area Subtraction (Equilateral Triangle Minus Sectors)\n• **Step 1 (First Move):** Extend segments $UT$ and $US$ past $T$ and $S$ to the centers $P$ and $Q$ of the two circular arcs $TR$ and $SR$. Because each arc has radius $2$, $TP = 2$ and $SQ = 2$, forming an equilateral triangle $\\triangle UPQ$ with side length $s = 2 + 2 = 4$.\n• **Step 2 (The Guiding Bridge):** Compute the area of equilateral triangle $\\triangle UPQ$ using $\\frac{\\sqrt{3}}{4}s^2$ with $s = 4$, and compute the area of the two circular sectors inside $\\triangle UPQ$: each sector is $\\frac{1}{6}$ of a circle of radius $r = 2$, so each has area $\\frac{1}{6}\\pi r^2 = \\frac{1}{6}\\pi(2^2)$.\n• **Step 3 (How to Finish):** Subtract the combined area of the two sectors from the area of $\\triangle UPQ$ and simplify the fractions.",
+    "category": "Geometry & Spatial"
   }
 ]

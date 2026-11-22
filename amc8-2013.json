@@ -11,7 +11,8 @@
     ],
     "answer": "(A) 1",
     "explanation": "The smallest multiple of 6 that is at least 23 is 24, so Danica must buy 1 additional car[cite: 29].",
-    "hint": "**Key Strategy:** Multiples and Division with Remainder\n• **Step 1 (First Move):** Divide the $23$ cars Danica already has by $6$ cars per row: $23 \\div 6 = 3$ with a remainder of $5$.\n• **Step 2 (The Guiding Bridge):** Since $3$ full rows only hold $6 \\times 3 = 18$ cars, she needs enough cars to complete $4$ full rows: $6 \\times 4 = 24$.\n• **Step 3 (How to Finish):** Subtract the $23$ cars she currently owns from $24$ to find the smallest number of additional cars she must buy."
+    "hint": "**Key Strategy:** Multiples and Division with Remainder\n• **Step 1 (First Move):** Divide the $23$ cars Danica already has by $6$ cars per row: $23 \\div 6 = 3$ with a remainder of $5$.\n• **Step 2 (The Guiding Bridge):** Since $3$ full rows only hold $6 \\times 3 = 18$ cars, she needs enough cars to complete $4$ full rows: $6 \\times 4 = 24$.\n• **Step 3 (How to Finish):** Subtract the $23$ cars she currently owns from $24$ to find the smallest number of additional cars she must buy.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "(D) 12",
     "explanation": "A half-pound package costs $3 at the sale price, so it would cost $6 at the regular price. A whole pound would cost $12 at the regular price[cite: 29].",
-    "hint": "**Key Strategy:** Percentage Reversal and Unit Rate\n• **Step 1 (First Move):** A $50\\%$ discount means the $\\$3$ sale price is half of the regular price, so double $\\$3$ to find the regular price of a half-pound package: $\\$3 \\times 2 = \\$6$.\n• **Step 2 (The Guiding Bridge):** A full pound of fish is made up of two half-pound packages ($1 = \\frac{1}{2} + \\frac{1}{2}$).\n• **Step 3 (How to Finish):** Multiply the regular price of one half-pound package ($\\$6$) by $2$ to get the regular price for a full pound."
+    "hint": "**Key Strategy:** Percentage Reversal and Unit Rate\n• **Step 1 (First Move):** A $50\\%$ discount means the $\\$3$ sale price is half of the regular price, so double $\\$3$ to find the regular price of a half-pound package: $\\$3 \\times 2 = \\$6$.\n• **Step 2 (The Guiding Bridge):** A full pound of fish is made up of two half-pound packages ($1 = \\frac{1}{2} + \\frac{1}{2}$).\n• **Step 3 (How to Finish):** Multiply the regular price of one half-pound package ($\\$6$) by $2$ to get the regular price for a full pound.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "(E) 2000",
     "explanation": "Inside the parentheses are 500 pairs of numbers, each with a sum of 1. Therefore the expression equals $4 \\cdot 500 = 2000$[cite: 29].",
-    "hint": "**Key Strategy:** Grouping and Pairing Terms\n• **Step 1 (First Move):** Group the numbers inside the parentheses into consecutive pairs from left to right: $(-1 + 2) + (-3 + 4) + (-5 + 6) + \\dots + (-999 + 1000)$.\n• **Step 2 (The Guiding Bridge):** Each pair adds up to $-1 + 2 = 1$. Since there are $1000$ numbers in total, there are $1000 \\div 2 = 500$ pairs, so the entire sum inside the parentheses equals $500 \\times 1 = 500$.\n• **Step 3 (How to Finish):** Multiply the sum inside the parentheses ($500$) by the $4$ in front of the parentheses."
+    "hint": "**Key Strategy:** Grouping and Pairing Terms\n• **Step 1 (First Move):** Group the numbers inside the parentheses into consecutive pairs from left to right: $(-1 + 2) + (-3 + 4) + (-5 + 6) + \\dots + (-999 + 1000)$.\n• **Step 2 (The Guiding Bridge):** Each pair adds up to $-1 + 2 = 1$. Since there are $1000$ numbers in total, there are $1000 \\div 2 = 500$ pairs, so the entire sum inside the parentheses equals $500 \\times 1 = 500$.\n• **Step 3 (How to Finish):** Multiply the sum inside the parentheses ($500$) by the $4$ in front of the parentheses.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "(C) $140",
     "explanation": "Judi's share of the bill was $7(\\$2.50) = \\$17.50$, so the total bill was $8(\\$17.50) = \\$140$[cite: 29].",
-    "hint": "**Key Strategy:** Equal Sharing (Unitary Method)\n• **Step 1 (First Move):** Multiply the extra $\\$2.50$ paid by each of the $7$ friends to find the total amount they paid to cover Judi's portion: $7 \\times \\$2.50 = \\$17.50$.\n• **Step 2 (The Guiding Bridge):** Because all $8$ friends agreed to share the bill equally, this $\\$17.50$ equals one person's equal share of the bill.\n• **Step 3 (How to Finish):** Multiply one person's share ($\\$17.50$) by all $8$ friends to calculate the total bill."
+    "hint": "**Key Strategy:** Equal Sharing (Unitary Method)\n• **Step 1 (First Move):** Multiply the extra $\\$2.50$ paid by each of the $7$ friends to find the total amount they paid to cover Judi's portion: $7 \\times \\$2.50 = \\$17.50$.\n• **Step 2 (The Guiding Bridge):** Because all $8$ friends agreed to share the bill equally, this $\\$17.50$ equals one person's equal share of the bill.\n• **Step 3 (How to Finish):** Multiply one person's share ($\\$17.50$) by all $8$ friends to calculate the total bill.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "(E) average, by 20",
     "explanation": "The total weight is 130 pounds, so the average is 26 pounds[cite: 29]. The median is 6 pounds, so the average is greater by 20 pounds[cite: 29].",
-    "hint": "**Key Strategy:** Mean vs. Median Comparison\n• **Step 1 (First Move):** Add all five weights together ($5 + 5 + 6 + 8 + 106 = 130\\text{ pounds}$) and divide by $5$ to find the average (mean): $130 \\div 5 = 26\\text{ pounds}$.\n• **Step 2 (The Guiding Bridge):** List the five weights in order from smallest to largest ($5, 5, 6, 8, 106$) and identify the middle ($3\\text{rd}$) value, which gives a median of $6\\text{ pounds}$.\n• **Step 3 (How to Finish):** Compare the mean ($26$) and the median ($6$) to determine which is greater, then subtract the smaller value from the larger value to find the difference in pounds."
+    "hint": "**Key Strategy:** Mean vs. Median Comparison\n• **Step 1 (First Move):** Add all five weights together ($5 + 5 + 6 + 8 + 106 = 130\\text{ pounds}$) and divide by $5$ to find the average (mean): $130 \\div 5 = 26\\text{ pounds}$.\n• **Step 2 (The Guiding Bridge):** List the five weights in order from smallest to largest ($5, 5, 6, 8, 106$) and identify the middle ($3\\text{rd}$) value, which gives a median of $6\\text{ pounds}$.\n• **Step 3 (How to Finish):** Compare the mean ($26$) and the median ($6$) to determine which is greater, then subtract the smaller value from the larger value to find the difference in pounds.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "(C) 4",
     "explanation": "The product of the two numbers in the second row is 600, so the missing number in that row is $600 / 30 = 20$[cite: 29]. The missing number in the top row is $20 / 5 = 4$[cite: 29].",
-    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Look at the bottom box ($600$) and the known box touching it from the second row ($30$). Divide $600$ by $30$ to find the missing number in the second row: $600 \\div 30 = 20$.\n• **Step 2 (The Guiding Bridge):** That second-row number ($20$) must be the product of the two top-row boxes touching it—one of which is $5$ and the other is the missing number.\n• **Step 3 (How to Finish):** Divide $20$ by $5$ to find the missing number in the top row."
+    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Look at the bottom box ($600$) and the known box touching it from the second row ($30$). Divide $600$ by $30$ to find the missing number in the second row: $600 \\div 30 = 20$.\n• **Step 2 (The Guiding Bridge):** That second-row number ($20$) must be the product of the two top-row boxes touching it—one of which is $5$ and the other is the missing number.\n• **Step 3 (How to Finish):** Divide $20$ by $5$ to find the missing number in the top row.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "(C) 100",
     "explanation": "Using proportion, in 165 seconds the number of cars is $N = (6/10) \\times 165 = 99$, which is approximately 100 cars[cite: 29].",
-    "hint": "**Key Strategy:** Unit Conversion and Proportional Reasoning\n• **Step 1 (First Move):** Convert the total time it took the train to pass into seconds: $2\\text{ minutes and }45\\text{ seconds} = (2 \\times 60) + 45 = 165\\text{ seconds}$.\n• **Step 2 (The Guiding Bridge):** Use the constant rate of $6$ cars per $10$ seconds to estimate the number of cars in $165$ seconds: $\\frac{6}{10} \\times 165 = 99$.\n• **Step 3 (How to Finish):** Compare $99$ with the given answer choices and choose the round number closest to it."
+    "hint": "**Key Strategy:** Unit Conversion and Proportional Reasoning\n• **Step 1 (First Move):** Convert the total time it took the train to pass into seconds: $2\\text{ minutes and }45\\text{ seconds} = (2 \\times 60) + 45 = 165\\text{ seconds}$.\n• **Step 2 (The Guiding Bridge):** Use the constant rate of $6$ cars per $10$ seconds to estimate the number of cars in $165$ seconds: $\\frac{6}{10} \\times 165 = 99$.\n• **Step 3 (How to Finish):** Compare $99$ with the given answer choices and choose the round number closest to it.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "(C) $\\frac{3}{8}$",
     "explanation": "Out of 8 possible outcomes, HHH, HHT, and THH have at least 2 consecutive heads, giving a probability of $3/8$[cite: 29].",
-    "hint": "**Key Strategy:** Systematic Listing (Sample Space)\n• **Step 1 (First Move):** Find the total number of possible coin-toss outcomes for $3$ tosses ($2 \\times 2 \\times 2 = 8$) and list them all systematically: $HHH, HHT, HTH, HTT, THH, THT, TTH, TTT$.\n• **Step 2 (The Guiding Bridge):** Check each of the $8$ outcomes and count how many have at least two $H$'s right next to each other (the first two tosses are $HH$, the last two tosses are $HH$, or all three are $HHH$).\n• **Step 3 (How to Finish):** Write the probability as a fraction with your count of favorable outcomes in the numerator and $8$ in the denominator."
+    "hint": "**Key Strategy:** Systematic Listing (Sample Space)\n• **Step 1 (First Move):** Find the total number of possible coin-toss outcomes for $3$ tosses ($2 \\times 2 \\times 2 = 8$) and list them all systematically: $HHH, HHT, HTH, HTT, THH, THT, TTH, TTT$.\n• **Step 2 (The Guiding Bridge):** Check each of the $8$ outcomes and count how many have at least two $H$'s right next to each other (the first two tosses are $HH$, the last two tosses are $HH$, or all three are $HHH$).\n• **Step 3 (How to Finish):** Write the probability as a fraction with your count of favorable outcomes in the numerator and $8$ in the denominator.",
+    "category": "Counting & Probability"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "(C) $11^{th}$",
     "explanation": "On the $11^{th}$ jump, the distance is $2^{10} = 1024$ meters, which exceeds 1 kilometer[cite: 30].",
-    "hint": "**Key Strategy:** Powers of $2$ and Unit Conversion\n• **Step 1 (First Move):** Convert $1\\text{ kilometer}$ into meters: $1\\text{ km} = 1000\\text{ meters}$. Notice that the jump distances follow powers of $2$: Jump $1$ is $1\\text{ m}$, Jump $2$ is $2\\text{ m}$, Jump $3$ is $4\\text{ m}$, and so on.\n• **Step 2 (The Guiding Bridge):** Keep doubling the jump distance until you first exceed $1000\\text{ meters}$: $8, 16, 32, 64, 128, 256, 512, 1024$.\n• **Step 3 (How to Finish):** Count along your list ($1\\text{st}$ jump $= 1$, $2\\text{nd}$ jump $= 2$, $3\\text{rd}$ jump $= 4$, etc.) to find which jump number reaches $1024\\text{ meters}$."
+    "hint": "**Key Strategy:** Powers of $2$ and Unit Conversion\n• **Step 1 (First Move):** Convert $1\\text{ kilometer}$ into meters: $1\\text{ km} = 1000\\text{ meters}$. Notice that the jump distances follow powers of $2$: Jump $1$ is $1\\text{ m}$, Jump $2$ is $2\\text{ m}$, Jump $3$ is $4\\text{ m}$, and so on.\n• **Step 2 (The Guiding Bridge):** Keep doubling the jump distance until you first exceed $1000\\text{ meters}$: $8, 16, 32, 64, 128, 256, 512, 1024$.\n• **Step 3 (How to Finish):** Count along your list ($1\\text{st}$ jump $= 1$, $2\\text{nd}$ jump $= 2$, $3\\text{rd}$ jump $= 4$, etc.) to find which jump number reaches $1024\\text{ meters}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "answer": "(C) 330",
     "explanation": "The ratio simplifies to $(2^2 \\cdot 3^3 \\cdot 5 \\cdot 11) / (2 \\cdot 3^2) = 2 \\cdot 3 \\cdot 5 \\cdot 11 = 330$[cite: 30].",
-    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Write both numbers as products of prime factors: $180 = 2^2 \\times 3^2 \\times 5$ and $594 = 2 \\times 3^3 \\times 11$.\n• **Step 2 (The Guiding Bridge):** Build the $\\text{LCM}$ using the highest power of each prime ($2^2 \\times 3^3 \\times 5 \\times 11$) and the $\\text{GCF}$ using the lowest power of shared primes ($2^1 \\times 3^2$).\n• **Step 3 (How to Finish):** Simplify the ratio $\\frac{\\text{LCM}}{\\text{GCF}} = \\frac{2^2 \\times 3^3 \\times 5 \\times 11}{2 \\times 3^2}$ by canceling common prime factors, then multiply the remaining factors together."
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Write both numbers as products of prime factors: $180 = 2^2 \\times 3^2 \\times 5$ and $594 = 2 \\times 3^3 \\times 11$.\n• **Step 2 (The Guiding Bridge):** Build the $\\text{LCM}$ using the highest power of each prime ($2^2 \\times 3^3 \\times 5 \\times 11$) and the $\\text{GCF}$ using the lowest power of shared primes ($2^1 \\times 3^2$).\n• **Step 3 (How to Finish):** Simplify the ratio $\\frac{\\text{LCM}}{\\text{GCF}} = \\frac{2^2 \\times 3^3 \\times 5 \\times 11}{2 \\times 3^2}$ by canceling common prime factors, then multiply the remaining factors together.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "answer": "(D) 4",
     "explanation": "Actual time spent was $24 + 40 + 30 = 94$ minutes[cite: 30]. At a constant 4 mph, it would take 90 minutes, saving 4 minutes[cite: 30].",
-    "hint": "**Key Strategy:** Distance-Rate-Time Formula ($T = \\frac{D}{R}$)\n• **Step 1 (First Move):** Convert each $2\\text{-mile}$ walk into minutes using $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} \\times 60$: Monday took $\\frac{2}{5} \\times 60 = 24\\text{ min}$, Wednesday took $\\frac{2}{3} \\times 60 = 40\\text{ min}$, and Friday took $\\frac{2}{4} \\times 60 = 30\\text{ min}$.\n• **Step 2 (The Guiding Bridge):** Add his actual walking times ($24 + 40 + 30 = 94\\text{ minutes}$), then calculate the time to walk all $2 \\times 3 = 6\\text{ miles}$ at a steady $4\\text{ mph}$: $\\frac{6}{4} \\times 60 = 90\\text{ minutes}$.\n• **Step 3 (How to Finish):** Subtract the steady-speed time ($90\\text{ minutes}$) from his actual total time ($94\\text{ minutes}$) to find how many minutes less he would have spent."
+    "hint": "**Key Strategy:** Distance-Rate-Time Formula ($T = \\frac{D}{R}$)\n• **Step 1 (First Move):** Convert each $2\\text{-mile}$ walk into minutes using $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} \\times 60$: Monday took $\\frac{2}{5} \\times 60 = 24\\text{ min}$, Wednesday took $\\frac{2}{3} \\times 60 = 40\\text{ min}$, and Friday took $\\frac{2}{4} \\times 60 = 30\\text{ min}$.\n• **Step 2 (The Guiding Bridge):** Add his actual walking times ($24 + 40 + 30 = 94\\text{ minutes}$), then calculate the time to walk all $2 \\times 3 = 6\\text{ miles}$ at a steady $4\\text{ mph}$: $\\frac{6}{4} \\times 60 = 90\\text{ minutes}$.\n• **Step 3 (How to Finish):** Subtract the steady-speed time ($90\\text{ minutes}$) from his actual total time ($94\\text{ minutes}$) to find how many minutes less he would have spent.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "answer": "(B) 30",
     "explanation": "Javier spent &#36;50 on the first pair, &#36;30 on the second pair, and &#36;25 on the third pair, for a total of &#36;105. This is a savings of &#36;45 off the &#36;150 list price, which is 30% off.",
-    "hint": "**Key Strategy:** Discount and Percentage Calculation\n• **Step 1 (First Move):** Find how many dollars Javier saved on each pair: $\\$0$ on the first pair, $40\\%$ of $\\$50 = 0.40 \\times \\$50 = \\$20$ on the second pair, and half of $\\$50 = \\$25$ on the third pair.\n• **Step 2 (The Guiding Bridge):** Add the savings across all three pairs to find his total dollar savings: $\\$0 + \\$20 + \\$25 = \\$45$.\n• **Step 3 (How to Finish):** Divide the total savings ($\\$45$) by the regular price of three pairs ($\\$150$) and multiply by $100\\%$ to find the percentage saved."
+    "hint": "**Key Strategy:** Discount and Percentage Calculation\n• **Step 1 (First Move):** Find how many dollars Javier saved on each pair: $\\$0$ on the first pair, $40\\%$ of $\\$50 = 0.40 \\times \\$50 = \\$20$ on the second pair, and half of $\\$50 = \\$25$ on the third pair.\n• **Step 2 (The Guiding Bridge):** Add the savings across all three pairs to find his total dollar savings: $\\$0 + \\$20 + \\$25 = \\$45$.\n• **Step 3 (How to Finish):** Divide the total savings ($\\$45$) by the regular price of three pairs ($\\$150$) and multiply by $100\\%$ to find the percentage saved.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "answer": "(A) 45",
     "explanation": "Reversing two digits changes the sum by a multiple of 9. Among the choices, 45 is a possible difference[cite: 30].",
-    "hint": "**Key Strategy:** Place Value and Divisibility by $9$\n• **Step 1 (First Move):** Represent the original two-digit score with tens digit $t$ and units digit $u$ as $10t + u$, and the reversed-digit score as $10u + t$.\n• **Step 2 (The Guiding Bridge):** Subtract one from the other to find how much the sum changes: $(10t + u) - (10u + t) = 9t - 9u = 9(t - u)$. This shows the difference must always be a multiple of $9$.\n• **Step 3 (How to Finish):** Test the given answer choices for divisibility by $9$ and choose the one that is a multiple of $9$."
+    "hint": "**Key Strategy:** Place Value and Divisibility by $9$\n• **Step 1 (First Move):** Represent the original two-digit score with tens digit $t$ and units digit $u$ as $10t + u$, and the reversed-digit score as $10u + t$.\n• **Step 2 (The Guiding Bridge):** Subtract one from the other to find how much the sum changes: $(10t + u) - (10u + t) = 9t - 9u = 9(t - u)$. This shows the difference must always be a multiple of $9$.\n• **Step 3 (How to Finish):** Test the given answer choices for divisibility by $9$ and choose the one that is a multiple of $9$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "answer": "(C) $\\frac{3}{8}$",
     "explanation": "Out of 8 equally likely pairings, only 3 result in matching colors, giving a probability of $3/8$[cite: 30].",
-    "hint": "**Key Strategy:** Casework and Probability Multiplication\n• **Step 1 (First Move):** Note that Abe has $2$ jelly beans ($1$ green, $1$ red) and Bea has $1 + 1 + 2 = 4$ jelly beans ($1$ green, $1$ yellow, $2$ red). The only colors they can both match on are green or red.\n• **Step 2 (The Guiding Bridge):** Find the probability of matching each color: both pick green with probability $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$, and both pick red with probability $\\frac{1}{2} \\times \\frac{2}{4} = \\frac{2}{8}$.\n• **Step 3 (How to Finish):** Add the two matching probabilities ($\\frac{1}{8} + \\frac{2}{8}$) together to get the total probability that the colors match."
+    "hint": "**Key Strategy:** Casework and Probability Multiplication\n• **Step 1 (First Move):** Note that Abe has $2$ jelly beans ($1$ green, $1$ red) and Bea has $1 + 1 + 2 = 4$ jelly beans ($1$ green, $1$ yellow, $2$ red). The only colors they can both match on are green or red.\n• **Step 2 (The Guiding Bridge):** Find the probability of matching each color: both pick green with probability $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$, and both pick red with probability $\\frac{1}{2} \\times \\frac{2}{4} = \\frac{2}{8}$.\n• **Step 3 (How to Finish):** Add the two matching probabilities ($\\frac{1}{8} + \\frac{2}{8}$) together to get the total probability that the colors match.",
+    "category": "Counting & Probability"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "answer": "(B) 40",
     "explanation": "Solving the equations gives $p = 2$, $r = 5$, and $s = 4$. Their product is $2 \\times 5 \\times 4 = 40$[cite: 31].",
-    "hint": "**Key Strategy:** Solving Exponential Equations\n• **Step 1 (First Move):** Evaluate the known powers ($3^4 = 81$ and $5^3 = 125$) and isolate each unknown power: $3^p = 90 - 81 = 9$, $2^r = 76 - 44 = 32$, and $6^s = 1421 - 125 = 1296$.\n• **Step 2 (The Guiding Bridge):** Match each power to find the exponents: $3^2 = 9$ gives $p = 2$, $2^5 = 32$ gives $r = 5$, and $6^4 = 1296$ gives $s = 4$.\n• **Step 3 (How to Finish):** Multiply the three values $p \\times r \\times s$ ($2 \\times 5 \\times 4$) together."
+    "hint": "**Key Strategy:** Solving Exponential Equations\n• **Step 1 (First Move):** Evaluate the known powers ($3^4 = 81$ and $5^3 = 125$) and isolate each unknown power: $3^p = 90 - 81 = 9$, $2^r = 76 - 44 = 32$, and $6^s = 1421 - 125 = 1296$.\n• **Step 2 (The Guiding Bridge):** Match each power to find the exponents: $3^2 = 9$ gives $p = 2$, $2^5 = 32$ gives $r = 5$, and $6^4 = 1296$ gives $s = 4$.\n• **Step 3 (How to Finish):** Multiply the three values $p \\times r \\times s$ ($2 \\times 5 \\times 4$) together.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "answer": "(E) 89",
     "explanation": "Using 40 as the number of $8^{th}$-graders, there are $24$ sixth-graders and $25$ seventh-graders, totaling $40 + 24 + 25 = 89$ students[cite: 31].",
-    "hint": "**Key Strategy:** Combining Ratios via $\\text{LCM}$\n• **Step 1 (First Move):** Since the number of $8^{th}$-graders appears in both ratios ($5:3$ and $8:5$), it must be a multiple of both $5$ and $8$. Find $\\text{LCM}(5, 8) = 40$.\n• **Step 2 (The Guiding Bridge):** Scale both ratios so the $8^{th}$-graders equal $40$: multiply $5:3$ by $8$ to get $40:24$ (so $24$ sixth-graders), and multiply $8:5$ by $5$ to get $40:25$ (so $25$ seventh-graders).\n• **Step 3 (How to Finish):** Add the smallest integer counts for all three grades ($40 + 24 + 25$) to find the minimum number of participating students."
+    "hint": "**Key Strategy:** Combining Ratios via $\\text{LCM}$\n• **Step 1 (First Move):** Since the number of $8^{th}$-graders appears in both ratios ($5:3$ and $8:5$), it must be a multiple of both $5$ and $8$. Find $\\text{LCM}(5, 8) = 40$.\n• **Step 2 (The Guiding Bridge):** Scale both ratios so the $8^{th}$-graders equal $40$: multiply $5:3$ by $8$ to get $40:24$ (so $24$ sixth-graders), and multiply $8:5$ by $5$ to get $40:25$ (so $25$ seventh-graders).\n• **Step 3 (How to Finish):** Add the smallest integer counts for all three grades ($40 + 24 + 25$) to find the minimum number of participating students.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "answer": "(B) 338",
     "explanation": "The average of the six integers is $2013 / 6 = 335.5$, making the numbers $333$ through $338$[cite: 31].",
-    "hint": "**Key Strategy:** Average of Consecutive Integers\n• **Step 1 (First Move):** Divide the sum by $6$ to find the average of the six consecutive integers: $2013 \\div 6 = 335.5$.\n• **Step 2 (The Guiding Bridge):** Because there are $6$ consecutive integers (an even count), their average $335.5$ lies halfway between the $3\\text{rd}$ integer ($335$) and the $4\\text{th}$ integer ($336$).\n• **Step 3 (How to Finish):** Count up two more consecutive integers past the $4\\text{th}$ integer ($336$) to reach the $6\\text{th}$ and largest integer."
+    "hint": "**Key Strategy:** Average of Consecutive Integers\n• **Step 1 (First Move):** Divide the sum by $6$ to find the average of the six consecutive integers: $2013 \\div 6 = 335.5$.\n• **Step 2 (The Guiding Bridge):** Because there are $6$ consecutive integers (an even count), their average $335.5$ lies halfway between the $3\\text{rd}$ integer ($335$) and the $4\\text{th}$ integer ($336$).\n• **Step 3 (How to Finish):** Count up two more consecutive integers past the $4\\text{th}$ integer ($336$) to reach the $6\\text{th}$ and largest integer.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "answer": "(B) 280",
     "explanation": "Total outer volume is 600 cubic feet and inner empty volume is 320 cubic feet, leaving $600 - 320 = 280$ blocks[cite: 31].",
-    "hint": "**Key Strategy:** 3D Volume Subtraction\n• **Step 1 (First Move):** Compute the total outer volume of the rectangular prism: $12 \\times 10 \\times 5 = 600\\text{ cubic feet}$.\n• **Step 2 (The Guiding Bridge):** Find the dimensions of the hollow interior: subtract $1\\text{ foot}$ from each end for the walls to get inner length $12 - 2 = 10\\text{ ft}$ and inner width $10 - 2 = 8\\text{ ft}$, and subtract $1\\text{ foot}$ only for the floor (no roof) to get inner height $5 - 1 = 4\\text{ ft}$. Multiply to find the empty inner volume: $10 \\times 8 \\times 4 = 320\\text{ cubic feet}$.\n• **Step 3 (How to Finish):** Subtract the empty inner volume ($320$) from the outer volume ($600$) to find how many $1\\text{-foot}$ blocks form the fort."
+    "hint": "**Key Strategy:** 3D Volume Subtraction\n• **Step 1 (First Move):** Compute the total outer volume of the rectangular prism: $12 \\times 10 \\times 5 = 600\\text{ cubic feet}$.\n• **Step 2 (The Guiding Bridge):** Find the dimensions of the hollow interior: subtract $1\\text{ foot}$ from each end for the walls to get inner length $12 - 2 = 10\\text{ ft}$ and inner width $10 - 2 = 8\\text{ ft}$, and subtract $1\\text{ foot}$ only for the floor (no roof) to get inner height $5 - 1 = 4\\text{ ft}$. Multiply to find the empty inner volume: $10 \\times 8 \\times 4 = 320\\text{ cubic feet}$.\n• **Step 3 (How to Finish):** Subtract the empty inner volume ($320$) from the outer volume ($600$) to find how many $1\\text{-foot}$ blocks form the fort.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "answer": "(D) Cassie, Hannah, Bridget",
     "explanation": "Cassie's score is higher than Hannah's, and Bridget's score is lower than Hannah's, yielding the order: Cassie, Hannah, Bridget[cite: 31].",
-    "hint": "**Key Strategy:** Logic Deduction and Elimination\n• **Step 1 (First Move):** Use the given statements to rule out positions: since Cassie did not get the lowest score, she cannot be last; since Bridget did not get the highest score, she cannot be first. Eliminate any options where Cassie is lowest or Bridget is highest.\n• **Step 2 (The Guiding Bridge):** Among the remaining rankings, notice that Hannah sits in the middle between the other two girls—Cassie's score is higher than Hannah's, and Bridget's score is lower than Hannah's.\n• **Step 3 (How to Finish):** Arrange the three names in order from highest score to lowest score using those comparisons."
+    "hint": "**Key Strategy:** Logic Deduction and Elimination\n• **Step 1 (First Move):** Use the given statements to rule out positions: since Cassie did not get the lowest score, she cannot be last; since Bridget did not get the highest score, she cannot be first. Eliminate any options where Cassie is lowest or Bridget is highest.\n• **Step 2 (The Guiding Bridge):** Among the remaining rankings, notice that Hannah sits in the middle between the other two girls—Cassie's score is higher than Hannah's, and Bridget's score is lower than Hannah's.\n• **Step 3 (How to Finish):** Arrange the three names in order from highest score to lowest score using those comparisons.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "answer": "(C) $\\pi$",
     "explanation": "By the Pythagorean Theorem, the radius of the semicircle is $\\sqrt{2}$, so its area is $\\pi(\\sqrt{2})^2 / 2 = \\pi$[cite: 31].",
-    "hint": "**Key Strategy:** Symmetry and the Pythagorean Theorem\n• **Step 1 (First Move):** By symmetry, the center of the semicircle's diameter sits at the midpoint of the rectangle's longer side (length $2$), splitting that base into two halves of length $2 \\div 2 = 1$.\n• **Step 2 (The Guiding Bridge):** Draw a radius $r$ from the center of the semicircle to one of the rectangle's upper corners. This creates a right triangle with horizontal leg $1$ and vertical leg $1$, so by the Pythagorean Theorem, $r^2 = 1^2 + 1^2 = 2$.\n• **Step 3 (How to Finish):** Plug $r^2 = 2$ into the semicircle area formula $\\text{Area} = \\frac{1}{2}\\pi r^2$ and simplify."
+    "hint": "**Key Strategy:** Symmetry and the Pythagorean Theorem\n• **Step 1 (First Move):** By symmetry, the center of the semicircle's diameter sits at the midpoint of the rectangle's longer side (length $2$), splitting that base into two halves of length $2 \\div 2 = 1$.\n• **Step 2 (The Guiding Bridge):** Draw a radius $r$ from the center of the semicircle to one of the rectangle's upper corners. This creates a right triangle with horizontal leg $1$ and vertical leg $1$, so by the Pythagorean Theorem, $r^2 = 1^2 + 1^2 = 2$.\n• **Step 3 (How to Finish):** Plug $r^2 = 2$ into the semicircle area formula $\\text{Area} = \\frac{1}{2}\\pi r^2$ and simplify.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "answer": "(E) 18",
     "explanation": "There are 3 ways to the park entry and 6 ways from the park exit to school, giving $3 \\times 6 = 18$ routes[cite: 32].",
-    "hint": "**Key Strategy:** Grid Path Counting and Multiplication Principle\n• **Step 1 (First Move):** Break Samantha's shortest route into three parts: navigating the grid to the park entrance, taking the single diagonal shortcut across City Park, and navigating the grid from the park exit to her destination.\n• **Step 2 (The Guiding Bridge):** Count the shortest grid paths for each stage (by adding path counts at grid corners or using combinations): there are $3$ shortest routes to the park entrance ($1$ step one way and $2$ the other, $\\binom{3}{1} = 3$), $1$ diagonal path through the park, and $6$ shortest routes from the park exit to the end ($2$ steps one way and $2$ the other, $\\binom{4}{2} = 6$).\n• **Step 3 (How to Finish):** Use the Multiplication Principle by multiplying the number of choices for the first grid section ($3$) by the number of choices for the second grid section ($6$)."
+    "hint": "**Key Strategy:** Grid Path Counting and Multiplication Principle\n• **Step 1 (First Move):** Break Samantha's shortest route into three parts: navigating the grid to the park entrance, taking the single diagonal shortcut across City Park, and navigating the grid from the park exit to her destination.\n• **Step 2 (The Guiding Bridge):** Count the shortest grid paths for each stage (by adding path counts at grid corners or using combinations): there are $3$ shortest routes to the park entrance ($1$ step one way and $2$ the other, $\\binom{3}{1} = 3$), $1$ diagonal path through the park, and $6$ shortest routes from the park exit to the end ($2$ steps one way and $2$ the other, $\\binom{4}{2} = 6$).\n• **Step 3 (How to Finish):** Use the Multiplication Principle by multiplying the number of choices for the first grid section ($3$) by the number of choices for the second grid section ($6$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "answer": "(E) 3932",
     "explanation": "The grid requires $(61 \\times 32) + (33 \\times 60) = 3932$ toothpicks[cite: 32].",
-    "hint": "**Key Strategy:** Row-and-Column Counting (Fencepost Principle)\n• **Step 1 (First Move):** Count horizontal and vertical toothpicks separately. A grid $32$ squares high needs $32 + 1 = 33$ horizontal lines, each $60$ toothpicks long, giving $33 \\times 60 = 1980$ horizontal toothpicks.\n• **Step 2 (The Guiding Bridge):** Similarly, a grid $60$ squares long needs $60 + 1 = 61$ vertical lines, each $32$ toothpicks high, giving $61 \\times 32 = 1952$ vertical toothpicks.\n• **Step 3 (How to Finish):** Add the horizontal toothpicks ($1980$) and vertical toothpicks ($1952$) together to get the total number of toothpicks used."
+    "hint": "**Key Strategy:** Row-and-Column Counting (Fencepost Principle)\n• **Step 1 (First Move):** Count horizontal and vertical toothpicks separately. A grid $32$ squares high needs $32 + 1 = 33$ horizontal lines, each $60$ toothpicks long, giving $33 \\times 60 = 1980$ horizontal toothpicks.\n• **Step 2 (The Guiding Bridge):** Similarly, a grid $60$ squares long needs $60 + 1 = 61$ vertical lines, each $32$ toothpicks high, giving $61 \\times 32 = 1952$ vertical toothpicks.\n• **Step 3 (How to Finish):** Add the horizontal toothpicks ($1980$) and vertical toothpicks ($1952$) together to get the total number of toothpicks used.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "answer": "(B) 7.5",
     "explanation": "Sides are $AB = 8$ and $AC = 17$. By Pythagorean theorem, $BC = 15$, making its radius $7.5$[cite: 33].",
-    "hint": "**Key Strategy:** Circle Formulas and the Pythagorean Theorem\n• **Step 1 (First Move):** Use the semicircle area formula $\\frac{1}{2}\\pi r^2 = 8\\pi$ on $AB$ to get $r^2 = 16$, so $r = 4$ and diameter $AB = 2 \\times 4 = 8$.\n• **Step 2 (The Guiding Bridge):** Use the semicircle arc length formula $\\pi r = 8.5\\pi$ on $AC$ to get $r = 8.5$, so hypotenuse $AC = 2 \\times 8.5 = 17$. Apply the Pythagorean Theorem ($AB^2 + BC^2 = AC^2$): $8^2 + BC^2 = 17^2 \\implies BC^2 = 289 - 64 = 225$, giving $BC = 15$.\n• **Step 3 (How to Finish):** Since $BC$ ($15$) is the diameter of its semicircle, divide $15$ by $2$ to find its radius."
+    "hint": "**Key Strategy:** Circle Formulas and the Pythagorean Theorem\n• **Step 1 (First Move):** Use the semicircle area formula $\\frac{1}{2}\\pi r^2 = 8\\pi$ on $AB$ to get $r^2 = 16$, so $r = 4$ and diameter $AB = 2 \\times 4 = 8$.\n• **Step 2 (The Guiding Bridge):** Use the semicircle arc length formula $\\pi r = 8.5\\pi$ on $AC$ to get $r = 8.5$, so hypotenuse $AC = 2 \\times 8.5 = 17$. Apply the Pythagorean Theorem ($AB^2 + BC^2 = AC^2$): $8^2 + BC^2 = 17^2 \\implies BC^2 = 289 - 64 = 225$, giving $BC = 15$.\n• **Step 3 (How to Finish):** Since $BC$ ($15$) is the diameter of its semicircle, divide $15$ by $2$ to find its radius.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "answer": "(C) $\\frac{1}{3}$",
     "explanation": "The total area of the three squares is 3 and the shaded area is 1, giving a ratio of $1/3$[cite: 33].",
-    "hint": "**Key Strategy:** Assigning Convenient Side Lengths and Area Decomposition\n• **Step 1 (First Move):** Because the question asks for a ratio, set the side length of each of the three equal squares to $2$. Then each square has area $2 \\times 2 = 4$, and the sum of the areas of all three squares is $3 \\times 4 = 12$.\n• **Step 2 (The Guiding Bridge):** Extend side $AB$ past $B$ and side $JI$ past $I$ to meet at a right-angle corner $K$, forming right triangle $AKJ$ with base $AK = 2 + 1 = 3$ and height $KJ = 2 + 2 = 4$, which has area $\\frac{1}{2} \\times 3 \\times 4 = 6$. Remove the unshaded $1 \\times 2$ corner rectangle $BKIC$ (area $1 \\times 2 = 2$) to find the area of pentagon $AJICB$: $6 - 2 = 4$.\n• **Step 3 (How to Finish):** Form the ratio $\\frac{\\text{Area of } AJICB}{\\text{Total area of 3 squares}} = \\frac{4}{12}$ and simplify the fraction to lowest terms."
+    "hint": "**Key Strategy:** Assigning Convenient Side Lengths and Area Decomposition\n• **Step 1 (First Move):** Because the question asks for a ratio, set the side length of each of the three equal squares to $2$. Then each square has area $2 \\times 2 = 4$, and the sum of the areas of all three squares is $3 \\times 4 = 12$.\n• **Step 2 (The Guiding Bridge):** Extend side $AB$ past $B$ and side $JI$ past $I$ to meet at a right-angle corner $K$, forming right triangle $AKJ$ with base $AK = 2 + 1 = 3$ and height $KJ = 2 + 2 = 4$, which has area $\\frac{1}{2} \\times 3 \\times 4 = 6$. Remove the unshaded $1 \\times 2$ corner rectangle $BKIC$ (area $1 \\times 2 = 2$) to find the area of pentagon $AJICB$: $6 - 2 = 4$.\n• **Step 3 (How to Finish):** Form the ratio $\\frac{\\text{Area of } AJICB}{\\text{Total area of 3 squares}} = \\frac{4}{12}$ and simplify the fraction to lowest terms.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 25,
@@ -347,6 +371,7 @@
     ],
     "answer": "(A) $238\\pi$",
     "explanation": "The center of the ball rolls through semicircles of radii $98$, $62$, and $78$ inches, yielding a total path length of $\\pi(98 + 62 + 78) = 238\\pi$[cite: 34].",
-    "hint": "**Key Strategy:** Path of the Center of a Circle (Offset Arcs)\n• **Step 1 (First Move):** Divide the ball's diameter by $2$ to find its radius: $r_{\\text{ball}} = 4 \\div 2 = 2\\text{ inches}$.\n• **Step 2 (The Guiding Bridge):** As the ball rolls, its center stays $2\\text{ inches}$ away from the track: for the two inward-curving (concave) arcs of radii $100$ and $80$, the center traces smaller semicircles of radii $100 - 2 = 98\\text{ in}$ and $80 - 2 = 78\\text{ in}$; for the middle outward-curving (convex) arc of radius $60$, it traces a larger semicircle of radius $60 + 2 = 62\\text{ in}$. Using the semicircle arc length $\\pi R$, the three distances are $98\\pi$, $62\\pi$, and $78\\pi$.\n• **Step 3 (How to Finish):** Add the three semicircle arc lengths ($98\\pi + 62\\pi + 78\\pi$) together to find the total distance the center travels."
+    "hint": "**Key Strategy:** Path of the Center of a Circle (Offset Arcs)\n• **Step 1 (First Move):** Divide the ball's diameter by $2$ to find its radius: $r_{\\text{ball}} = 4 \\div 2 = 2\\text{ inches}$.\n• **Step 2 (The Guiding Bridge):** As the ball rolls, its center stays $2\\text{ inches}$ away from the track: for the two inward-curving (concave) arcs of radii $100$ and $80$, the center traces smaller semicircles of radii $100 - 2 = 98\\text{ in}$ and $80 - 2 = 78\\text{ in}$; for the middle outward-curving (convex) arc of radius $60$, it traces a larger semicircle of radius $60 + 2 = 62\\text{ in}$. Using the semicircle arc length $\\pi R$, the three distances are $98\\pi$, $62\\pi$, and $78\\pi$.\n• **Step 3 (How to Finish):** Add the three semicircle arc lengths ($98\\pi + 62\\pi + 78\\pi$) together to find the total distance the center travels.",
+    "category": "Geometry & Spatial"
   }
 ]

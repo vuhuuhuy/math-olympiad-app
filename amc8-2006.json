@@ -11,7 +11,8 @@
     ],
     "answer": "(D) \\$17",
     "explanation": "Mindy's total was approximately \\$2 + 5 + 10 = \\$17.",
-    "hint": "**Key Strategy:** Rounding and Estimation\n• **Step 1 (First Move):** Round each of the three prices to the nearest whole dollar: $\\$1.98$ rounds to $\\$2$, $\\$5.04$ rounds to $\\$5$, and $\\$9.89$ rounds to $\\$10$.\n• **Step 2 (The Guiding Bridge):** Check the rounding errors to be sure the nearest dollar won't shift: $\\$1.98$ is $\\$0.02$ below $\\$2$, $\\$5.04$ is $\\$0.04$ above $\\$5$, and $\\$9.89$ is $\\$0.11$ below $\\$10$. Those tiny differences combine to $-0.02 + 0.04 - 0.11 = -0.09$, which is much less than $\\$0.50$.\n• **Step 3 (How to Finish):** Add the three rounded dollar amounts ($2 + 5 + 10$) to find Mindy's total to the nearest dollar."
+    "hint": "**Key Strategy:** Rounding and Estimation\n• **Step 1 (First Move):** Round each of the three prices to the nearest whole dollar: $\\$1.98$ rounds to $\\$2$, $\\$5.04$ rounds to $\\$5$, and $\\$9.89$ rounds to $\\$10$.\n• **Step 2 (The Guiding Bridge):** Check the rounding errors to be sure the nearest dollar won't shift: $\\$1.98$ is $\\$0.02$ below $\\$2$, $\\$5.04$ is $\\$0.04$ above $\\$5$, and $\\$9.89$ is $\\$0.11$ below $\\$10$. Those tiny differences combine to $-0.02 + 0.04 - 0.11 = -0.09$, which is much less than $\\$0.50$.\n• **Step 3 (How to Finish):** Add the three rounded dollar amounts ($2 + 5 + 10$) to find Mindy's total to the nearest dollar.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "2",
@@ -25,7 +26,8 @@
     ],
     "answer": "(C) 13",
     "explanation": "On the AMC 8 a student's score is the number of problems answered correctly. So Billy's score is 13. Because there is no penalty for guessing, if he wants to increase his score, he probably should fill in the last five answers.",
-    "hint": "**Key Strategy:** Contest Scoring Rules (Counting Correct Answers)\n• **Step 1 (First Move):** Recall how AMC 8 points are awarded: each correct answer earns $1$ point, while each incorrect answer and each unanswered question earns $0$ points (there is no guessing penalty).\n• **Step 2 (The Guiding Bridge):** Multiply each category of Billy's questions by its point value: multiply his count of correct answers by $1$ point, his $7$ incorrect answers by $0$ points, and his $5$ unanswered questions by $0$ points.\n• **Step 3 (How to Finish):** Add the points from all three categories together to find Billy's final score."
+    "hint": "**Key Strategy:** Contest Scoring Rules (Counting Correct Answers)\n• **Step 1 (First Move):** Recall how AMC 8 points are awarded: each correct answer earns $1$ point, while each incorrect answer and each unanswered question earns $0$ points (there is no guessing penalty).\n• **Step 2 (The Guiding Bridge):** Multiply each category of Billy's questions by its point value: multiply his count of correct answers by $1$ point, his $7$ incorrect answers by $0$ points, and his $5$ unanswered questions by $0$ points.\n• **Step 3 (How to Finish):** Add the points from all three categories together to find Billy's final score.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "3",
@@ -39,7 +41,8 @@
     ],
     "answer": "(A) 1/2",
     "explanation": "When Elisa started, she completed a lap in 25 / 10 = 2.5 minutes. Now she can complete a lap in 24 / 12 = 2 minutes. She has improved her lap time by 2.5 - 2 = 0.5 or 1/2 minute.",
-    "hint": "**Key Strategy:** Unit Rate Comparison\n• **Step 1 (First Move):** Find Elisa's starting time per lap by dividing her total minutes by the number of laps she swam: $\\frac{25\\text{ minutes}}{10\\text{ laps}} = 2.5\\text{ minutes per lap}$.\n• **Step 2 (The Guiding Bridge):** Calculate her new time per lap the same way: divide $24\\text{ minutes}$ by $12\\text{ laps}$ to get $2\\text{ minutes per lap}$.\n• **Step 3 (How to Finish):** Subtract her new lap time from her original lap time ($2.5 - 2$) and convert that decimal into a fraction to find by how many minutes she improved."
+    "hint": "**Key Strategy:** Unit Rate Comparison\n• **Step 1 (First Move):** Find Elisa's starting time per lap by dividing her total minutes by the number of laps she swam: $\\frac{25\\text{ minutes}}{10\\text{ laps}} = 2.5\\text{ minutes per lap}$.\n• **Step 2 (The Guiding Bridge):** Calculate her new time per lap the same way: divide $24\\text{ minutes}$ by $12\\text{ laps}$ to get $2\\text{ minutes per lap}$.\n• **Step 3 (How to Finish):** Subtract her new lap time from her original lap time ($2.5 - 2$) and convert that decimal into a fraction to find by how many minutes she improved.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "4",
@@ -53,7 +56,8 @@
     ],
     "answer": "(B) east",
     "explanation": "Ignore the number of complete revolutions because they do not affect direction. One-fourth of the distance around the circle clockwise from west is north. Three-fourths of the distance counterclockwise around the circle from north is east. Chenille's spinner points east.",
-    "hint": "**Key Strategy:** Modular Arithmetic (Ignoring Full Rotations)\n• **Step 1 (First Move):** Notice that any whole number of full revolutions brings the spinner back to where it started, so ignore the $2$ full turns and $3$ full turns and focus only on the fractional turns: $\\frac{1}{4}$ revolution clockwise, followed by $\\frac{3}{4}$ revolution counterclockwise.\n• **Step 2 (The Guiding Bridge):** Apply the first move starting from west: turning $\\frac{1}{4}$ of a circle clockwise moves the spinner from west to north.\n• **Step 3 (How to Finish):** Starting from north, rotate $\\frac{3}{4}$ of a circle counterclockwise (moving opposite a clock's hands: $1$ quarter-turn reaches west, a $2$nd quarter-turn reaches south, then make the $3$rd quarter-turn) to see where the spinner points."
+    "hint": "**Key Strategy:** Modular Arithmetic (Ignoring Full Rotations)\n• **Step 1 (First Move):** Notice that any whole number of full revolutions brings the spinner back to where it started, so ignore the $2$ full turns and $3$ full turns and focus only on the fractional turns: $\\frac{1}{4}$ revolution clockwise, followed by $\\frac{3}{4}$ revolution counterclockwise.\n• **Step 2 (The Guiding Bridge):** Apply the first move starting from west: turning $\\frac{1}{4}$ of a circle clockwise moves the spinner from west to north.\n• **Step 3 (How to Finish):** Starting from north, rotate $\\frac{3}{4}$ of a circle counterclockwise (moving opposite a clock's hands: $1$ quarter-turn reaches west, a $2$nd quarter-turn reaches south, then make the $3$rd quarter-turn) to see where the spinner points.",
+    "category": "Counting & Probability"
   },
   {
     "id": "5",
@@ -67,7 +71,8 @@
     ],
     "answer": "(D) 30",
     "explanation": "Divide the larger square into 8 congruent triangles, 4 of which make up the smaller square. The area of the smaller square is 4/8 of the area of the larger square, so the area of the smaller square is equal to 30.",
-    "hint": "**Key Strategy:** Area Decomposition (Midpoint Symmetry)\n• **Step 1 (First Move):** Draw two straight lines connecting opposite midpoints (one horizontal and one vertical) across the larger square of area $60$, splitting it into $4$ identical smaller corner squares.\n• **Step 2 (The Guiding Bridge):** Observe that each side of the tilted inner square is a diagonal of one of those $4$ corner squares, cutting each corner square into $2$ congruent right triangles—giving $8$ identical triangles in total, with $4$ of them inside the smaller square.\n• **Step 3 (How to Finish):** Multiply the area of the larger square ($60$) by the fraction $\\frac{4}{8}$ (or $\\frac{1}{2}$) to find the area of the smaller square."
+    "hint": "**Key Strategy:** Area Decomposition (Midpoint Symmetry)\n• **Step 1 (First Move):** Draw two straight lines connecting opposite midpoints (one horizontal and one vertical) across the larger square of area $60$, splitting it into $4$ identical smaller corner squares.\n• **Step 2 (The Guiding Bridge):** Observe that each side of the tilted inner square is a diagonal of one of those $4$ corner squares, cutting each corner square into $2$ congruent right triangles—giving $8$ identical triangles in total, with $4$ of them inside the smaller square.\n• **Step 3 (How to Finish):** Multiply the area of the larger square ($60$) by the fraction $\\frac{4}{8}$ (or $\\frac{1}{2}$) to find the area of the smaller square.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "6",
@@ -81,7 +86,8 @@
     ],
     "answer": "(C) 20",
     "explanation": "The perimeter is 4 + 2 + 1 + 4 + 2 + 4 + 1 + 2 = 20 inches. Alternatively, each rectangle has perimeter 2(4) + 2(2) = 12 inches. When the two rectangles are positioned to form the T, a two-inch segment of each rectangle is inside the T and not on the outer border. So the perimeter is 2(12) - 2(2) = 20 inches.",
-    "hint": "**Key Strategy:** Perimeter with Overlap Subtraction\n• **Step 1 (First Move):** Find the perimeter of one $2\\text{ inch} \\times 4\\text{ inch}$ rectangle using $2 \\times (4 + 2) = 12\\text{ inches}$, so two separate rectangles have a total perimeter of $2 \\times 12 = 24\\text{ inches}$.\n• **Step 2 (The Guiding Bridge):** Look at where the two rectangles meet to form the T: the $2\\text{-inch}$ top edge of the vertical stem touches the bottom edge of the horizontal bar, hiding a $2\\text{-inch}$ segment from each rectangle inside the shape.\n• **Step 3 (How to Finish):** Subtract the total hidden length ($2 \\times 2 = 4\\text{ inches}$) from $24\\text{ inches}$ to get the outer perimeter of the T."
+    "hint": "**Key Strategy:** Perimeter with Overlap Subtraction\n• **Step 1 (First Move):** Find the perimeter of one $2\\text{ inch} \\times 4\\text{ inch}$ rectangle using $2 \\times (4 + 2) = 12\\text{ inches}$, so two separate rectangles have a total perimeter of $2 \\times 12 = 24\\text{ inches}$.\n• **Step 2 (The Guiding Bridge):** Look at where the two rectangles meet to form the T: the $2\\text{-inch}$ top edge of the vertical stem touches the bottom edge of the horizontal bar, hiding a $2\\text{-inch}$ segment from each rectangle inside the shape.\n• **Step 3 (How to Finish):** Subtract the total hidden length ($2 \\times 2 = 4\\text{ inches}$) from $24\\text{ inches}$ to get the outer perimeter of the T.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "7",
@@ -95,7 +101,8 @@
     ],
     "answer": "(B) Z, X, Y",
     "explanation": "Because circumference $C = 2\\pi r$ and circle Y has circumference $8\\pi$, its radius is $8\\pi / (2\\pi) = 4$. Because area $A = \\pi r^2$ and circle Z has area $9\\pi$, its radius is $\\sqrt{9} = 3$. Circle X has radius $\\pi \\approx 3.14$. Ordering the radii gives $3 < \\pi < 4$, so the ascending order is Z, X, Y.",
-    "hint": "**Key Strategy:** Circle Formulas ($C = 2\\pi r$ and $A = \\pi r^2$)\n• **Step 1 (First Move):** Write down Circle X's radius directly ($\\pi \\approx 3.14$), and find Circle Y's radius using $C = 2\\pi r$: solve $2\\pi r = 8\\pi$ to get $r = 4$.\n• **Step 2 (The Guiding Bridge):** Find Circle Z's radius using the area formula $A = \\pi r^2$: set $\\pi r^2 = 9\\pi$, divide both sides by $\\pi$ to get $r^2 = 9$, and take the positive square root to get $r = 3$.\n• **Step 3 (How to Finish):** Compare the three radii ($3$, $\\approx 3.14$, and $4$) and list the circle names in order from smallest to largest radius."
+    "hint": "**Key Strategy:** Circle Formulas ($C = 2\\pi r$ and $A = \\pi r^2$)\n• **Step 1 (First Move):** Write down Circle X's radius directly ($\\pi \\approx 3.14$), and find Circle Y's radius using $C = 2\\pi r$: solve $2\\pi r = 8\\pi$ to get $r = 4$.\n• **Step 2 (The Guiding Bridge):** Find Circle Z's radius using the area formula $A = \\pi r^2$: set $\\pi r^2 = 9\\pi$, divide both sides by $\\pi$ to get $r^2 = 9$, and take the positive square root to get $r = 3$.\n• **Step 3 (How to Finish):** Compare the three radii ($3$, $\\approx 3.14$, and $4$) and list the circle names in order from smallest to largest radius.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "8",
@@ -110,7 +117,8 @@
     ],
     "answer": "(E) 75",
     "explanation": "Because $200 - 96 = 104$ of those surveyed were male, $104 - 26 = 78$ of those surveyed are male listeners. The percentage of males surveyed who listen to KAMC is $(78 / 104) \\times 100\\% = 75\\%$.",
-    "hint": "**Key Strategy:** Two-Way Table Completion and Percentage\n• **Step 1 (First Move):** Find the total number of males surveyed from the table by subtracting the number of females ($96$) from the total people surveyed ($200$): $200 - 96 = 104$ males.\n• **Step 2 (The Guiding Bridge):** Find how many of those males listen to KAMC by subtracting the males who do not listen ($26$) from the total number of males ($104$): $104 - 26 = 78$ male listeners.\n• **Step 3 (How to Finish):** Set up the fraction $\\frac{78}{104}$, simplify it to lowest terms, and multiply by $100\\%$ to find the percentage of males who listen."
+    "hint": "**Key Strategy:** Two-Way Table Completion and Percentage\n• **Step 1 (First Move):** Find the total number of males surveyed from the table by subtracting the number of females ($96$) from the total people surveyed ($200$): $200 - 96 = 104$ males.\n• **Step 2 (The Guiding Bridge):** Find how many of those males listen to KAMC by subtracting the males who do not listen ($26$) from the total number of males ($104$): $104 - 26 = 78$ male listeners.\n• **Step 3 (How to Finish):** Set up the fraction $\\frac{78}{104}$, simplify it to lowest terms, and multiply by $100\\%$ to find the percentage of males who listen.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "9",
@@ -124,7 +132,8 @@
     ],
     "answer": "(C) 1003",
     "explanation": "Note that in each fraction, the numerator is the same as the denominator in the next fraction, so they cancel out across the product. The product reduces to $2006 / 2 = 1003$.",
-    "hint": "**Key Strategy:** Telescoping Product (Cross-Cancellation)\n• **Step 1 (First Move):** Write out the beginning and end of the product to see the pattern clearly: $\\frac{3}{2} \\times \\frac{4}{3} \\times \\frac{5}{4} \\times \\dots \\times \\frac{2005}{2004} \\times \\frac{2006}{2005}$.\n• **Step 2 (The Guiding Bridge):** Cancel each numerator with the identical denominator in the next fraction: $3$ cancels $3$, $4$ cancels $4$, $5$ cancels $5$, continuing all the way until $2005$ cancels $2005$.\n• **Step 3 (How to Finish):** Keep only the two uncancelled numbers—the very first denominator ($2$) and the very last numerator ($2006$)—and divide $2006$ by $2$."
+    "hint": "**Key Strategy:** Telescoping Product (Cross-Cancellation)\n• **Step 1 (First Move):** Write out the beginning and end of the product to see the pattern clearly: $\\frac{3}{2} \\times \\frac{4}{3} \\times \\frac{5}{4} \\times \\dots \\times \\frac{2005}{2004} \\times \\frac{2006}{2005}$.\n• **Step 2 (The Guiding Bridge):** Cancel each numerator with the identical denominator in the next fraction: $3$ cancels $3$, $4$ cancels $4$, $5$ cancels $5$, continuing all the way until $2005$ cancels $2005$.\n• **Step 3 (How to Finish):** Keep only the two uncancelled numbers—the very first denominator ($2$) and the very last numerator ($2006$)—and divide $2006$ by $2$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "10",
@@ -139,7 +148,8 @@
     ],
     "answer": "(A)",
     "explanation": "When the area of a rectangle is 12 square units and the side lengths are integers, the factors of 12 are the possible dimensions: (1, 12), (2, 6), (3, 4), (4, 3), (6, 2), and (12, 1). Only Graph A displays these inverse relationship points.",
-    "hint": "**Key Strategy:** Factor Pairs and Coordinate Graphing\n• **Step 1 (First Move):** Since area equals $w \\times l = 12$ and both $w$ and $l$ must be positive integers, list all factor pairs $(w, l)$ of $12$: $(1, 12)$, $(2, 6)$, $(3, 4)$, $(4, 3)$, $(6, 2)$, and $(12, 1)$.\n• **Step 2 (The Guiding Bridge):** Look for two key features on the graph: there must be $6$ separate dots (not a solid line or curve, since non-integers are not allowed), and as $w$ increases from $1$ to $12$, $l$ drops smoothly from $12$ down to $1$.\n• **Step 3 (How to Finish):** Check the five answer graphs and select the one that shows those exact $6$ isolated coordinate points."
+    "hint": "**Key Strategy:** Factor Pairs and Coordinate Graphing\n• **Step 1 (First Move):** Since area equals $w \\times l = 12$ and both $w$ and $l$ must be positive integers, list all factor pairs $(w, l)$ of $12$: $(1, 12)$, $(2, 6)$, $(3, 4)$, $(4, 3)$, $(6, 2)$, and $(12, 1)$.\n• **Step 2 (The Guiding Bridge):** Look for two key features on the graph: there must be $6$ separate dots (not a solid line or curve, since non-integers are not allowed), and as $w$ increases from $1$ to $12$, $l$ drops smoothly from $12$ down to $1$.\n• **Step 3 (How to Finish):** Check the five answer graphs and select the one that shows those exact $6$ isolated coordinate points.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "11",
@@ -153,7 +163,8 @@
     ],
     "answer": "(C) 17",
     "explanation": "The sum of the digits of a two-digit number is at most $9 + 9 = 18$. The possible perfect square sums are 1, 4, 9, and 16. The possibilities for each sum are:\nSum 1: 10\nSum 4: 40, 31, 22, 13\nSum 9: 90, 81, 72, 63, 54, 45, 36, 27, 18\nSum 16: 97, 88, 79\nThere are 17 two-digit numbers in total.",
-    "hint": "**Key Strategy:** Casework by Perfect Square Sums\n• **Step 1 (First Move):** Determine the maximum possible digit sum for a two-digit number ($9 + 9 = 18$), and list all perfect squares up to $18$: $1$, $4$, $9$, and $16$.\n• **Step 2 (The Guiding Bridge):** List and count the valid two-digit numbers (remembering the first digit cannot be $0$) for each square sum:\n  - Sum $= 1$: $10$ ($1$ number)\n  - Sum $= 4$: $13, 22, 31, 40$ ($4$ numbers)\n  - Sum $= 9$: $18, 27, 36, 45, 54, 63, 72, 81, 90$ ($9$ numbers)\n  - Sum $= 16$: $79, 88, 97$ ($3$ numbers)\n• **Step 3 (How to Finish):** Add the counts from all four cases ($1 + 4 + 9 + 3$) to find the total number of two-digit numbers."
+    "hint": "**Key Strategy:** Casework by Perfect Square Sums\n• **Step 1 (First Move):** Determine the maximum possible digit sum for a two-digit number ($9 + 9 = 18$), and list all perfect squares up to $18$: $1$, $4$, $9$, and $16$.\n• **Step 2 (The Guiding Bridge):** List and count the valid two-digit numbers (remembering the first digit cannot be $0$) for each square sum:\n  - Sum $= 1$: $10$ ($1$ number)\n  - Sum $= 4$: $13, 22, 31, 40$ ($4$ numbers)\n  - Sum $= 9$: $18, 27, 36, 45, 54, 63, 72, 81, 90$ ($9$ numbers)\n  - Sum $= 16$: $79, 88, 97$ ($3$ numbers)\n• **Step 3 (How to Finish):** Add the counts from all four cases ($1 + 4 + 9 + 3$) to find the total number of two-digit numbers.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "12",
@@ -167,7 +178,8 @@
     ],
     "answer": "(D) 83",
     "explanation": "70% of 10 is 7, 80% of 20 is 16, and 90% of 30 is 27. Antonette answers $7 + 16 + 27 = 50$ problems correctly out of 60 problems in total. Her overall score is $50 / 60 \\approx 83.33\\%$, which is closest to 83.",
-    "hint": "**Key Strategy:** Weighted Average (Total Correct Out of Total Problems)\n• **Step 1 (First Move):** Find the exact number of questions Antonette got right on each test: $70\\%$ of $10 = 7$, $80\\%$ of $20 = 16$, and $90\\%$ of $30 = 27$.\n• **Step 2 (The Guiding Bridge):** Add her correct answers across all three tests ($7 + 16 + 27 = 50$) and confirm the combined number of problems ($10 + 20 + 30 = 60$).\n• **Step 3 (How to Finish):** Divide $50$ by $60$, convert the result to a percentage by multiplying by $100\\%$, and round to the nearest whole percent."
+    "hint": "**Key Strategy:** Weighted Average (Total Correct Out of Total Problems)\n• **Step 1 (First Move):** Find the exact number of questions Antonette got right on each test: $70\\%$ of $10 = 7$, $80\\%$ of $20 = 16$, and $90\\%$ of $30 = 27$.\n• **Step 2 (The Guiding Bridge):** Add her correct answers across all three tests ($7 + 16 + 27 = 50$) and confirm the combined number of problems ($10 + 20 + 30 = 60$).\n• **Step 3 (How to Finish):** Divide $50$ by $60$, convert the result to a percentage by multiplying by $100\\%$, and round to the nearest whole percent.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "13",
@@ -181,7 +193,8 @@
     ],
     "answer": "(D) 11:00",
     "explanation": "Between 8:30 and 9:00 AM, Cassie travels 6 miles. At 9:00 AM, Cassie and Brian are 56 miles apart. After 9:00 AM, the distance between them decreases at a combined rate of $12 + 16 = 28$ miles per hour. It will take them $56 / 28 = 2$ hours to meet. So they meet at 11:00 AM.",
-    "hint": "**Key Strategy:** Relative Speed with Head-Start Adjustment\n• **Step 1 (First Move):** Calculate how far Cassie rides during her $30$-minute ($\\frac{1}{2}$-hour) head start from $8{:}30\\text{ AM}$ to $9{:}00\\text{ AM}$: at $12\\text{ mph}$, she travels $12 \\times \\frac{1}{2} = 6\\text{ miles}$, leaving $62 - 6 = 56\\text{ miles}$ between them at $9{:}00\\text{ AM}$.\n• **Step 2 (The Guiding Bridge):** Once Brian starts at $9{:}00\\text{ AM}$, they ride toward each other, so add their speeds to find their combined closing speed: $12 + 16 = 28\\text{ miles per hour}$.\n• **Step 3 (How to Finish):** Divide the remaining $56\\text{ miles}$ by $28\\text{ mph}$ to get the number of hours after $9{:}00\\text{ AM}$, and add those hours to $9{:}00\\text{ AM}$."
+    "hint": "**Key Strategy:** Relative Speed with Head-Start Adjustment\n• **Step 1 (First Move):** Calculate how far Cassie rides during her $30$-minute ($\\frac{1}{2}$-hour) head start from $8{:}30\\text{ AM}$ to $9{:}00\\text{ AM}$: at $12\\text{ mph}$, she travels $12 \\times \\frac{1}{2} = 6\\text{ miles}$, leaving $62 - 6 = 56\\text{ miles}$ between them at $9{:}00\\text{ AM}$.\n• **Step 2 (The Guiding Bridge):** Once Brian starts at $9{:}00\\text{ AM}$, they ride toward each other, so add their speeds to find their combined closing speed: $12 + 16 = 28\\text{ miles per hour}$.\n• **Step 3 (How to Finish):** Divide the remaining $56\\text{ miles}$ by $28\\text{ mph}$ to get the number of hours after $9{:}00\\text{ AM}$, and add those hours to $9{:}00\\text{ AM}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "14",
@@ -195,7 +208,8 @@
     ],
     "answer": "(B) 11,400",
     "explanation": "Bob takes $45 - 30 = 15$ more seconds per page than Chandra. The difference in their total reading times is $760 \\times 15 = 11,400$ seconds.",
-    "hint": "**Key Strategy:** Rate Difference Multiplication\n• **Step 1 (First Move):** Find how many more seconds Bob needs per page compared to Chandra: $45 - 30 = 15\\text{ seconds per page}$.\n• **Step 2 (The Guiding Bridge):** Because both read the same $760$-page novel, Bob's extra time accumulates by $15\\text{ seconds}$ on every single page.\n• **Step 3 (How to Finish):** Multiply the total number of pages ($760$) by the per-page time difference ($15$) to find how many more seconds Bob spends reading."
+    "hint": "**Key Strategy:** Rate Difference Multiplication\n• **Step 1 (First Move):** Find how many more seconds Bob needs per page compared to Chandra: $45 - 30 = 15\\text{ seconds per page}$.\n• **Step 2 (The Guiding Bridge):** Because both read the same $760$-page novel, Bob's extra time accumulates by $15\\text{ seconds}$ on every single page.\n• **Step 3 (How to Finish):** Multiply the total number of pages ($760$) by the per-page time difference ($15$) to find how many more seconds Bob spends reading.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "15",
@@ -209,7 +223,8 @@
     ],
     "answer": "(C) 456",
     "explanation": "The ratio of Bob's reading speed to Chandra's is $45 : 30 = 3 : 2$, meaning Bob should read $2/3$ as many pages as Chandra. If Chandra reads $x$ pages in $30x$ seconds, Bob reads $760 - x$ pages in $45(760 - x)$ seconds. Setting $30x = 45(760 - x)$ yields $75x = 45 \\times 760$, so $x = 456$. Chandra reads the first 456 pages.",
-    "hint": "**Key Strategy:** Linear Equation (Setting Reading Times Equal)\n• **Step 1 (First Move):** Let $x$ be the number of pages Chandra reads (from page $1$ to page $x$), so Bob reads the remaining $760 - x$ pages.\n• **Step 2 (The Guiding Bridge):** Write an expression for each friend's reading time and set them equal: $30x = 45(760 - x)$, which simplifies to $30x = 45 \\times 760 - 45x$, or $75x = 45 \\times 760$.\n• **Step 3 (How to Finish):** Divide $45 \\times 760$ by $75$ (simplifying $\\frac{45}{75} = \\frac{3}{5}$ first makes the arithmetic easy) to solve for $x$."
+    "hint": "**Key Strategy:** Linear Equation (Setting Reading Times Equal)\n• **Step 1 (First Move):** Let $x$ be the number of pages Chandra reads (from page $1$ to page $x$), so Bob reads the remaining $760 - x$ pages.\n• **Step 2 (The Guiding Bridge):** Write an expression for each friend's reading time and set them equal: $30x = 45(760 - x)$, which simplifies to $30x = 45 \\times 760 - 45x$, or $75x = 45 \\times 760$.\n• **Step 3 (How to Finish):** Divide $45 \\times 760$ by $75$ (simplifying $\\frac{45}{75} = \\frac{3}{5}$ first makes the arithmetic easy) to solve for $x$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "16",
@@ -223,7 +238,8 @@
     ],
     "answer": "(E) 7200",
     "explanation": "The least common multiple of 20, 30, and 45 is 180 seconds. In 180 seconds, Alice reads 9 pages, Chandra reads 6 pages, and Bob reads 4 pages, totaling 19 pages per 180 seconds. To complete 760 pages, it takes $(760 / 19) \\times 180 = 40 \\times 180 = 7,200$ seconds.",
-    "hint": "**Key Strategy:** Least Common Multiple (LCM) Rate Grouping\n• **Step 1 (First Move):** Find the Least Common Multiple of their per-page times ($20$, $30$, and $45$), which is $180\\text{ seconds}$.\n• **Step 2 (The Guiding Bridge):** Count how many pages all three read together in one $180\\text{-second}$ block: Alice reads $\\frac{180}{20} = 9$ pages, Chandra reads $\\frac{180}{30} = 6$ pages, and Bob reads $\\frac{180}{45} = 4$ pages, for a combined $9 + 6 + 4 = 19$ pages every $180\\text{ seconds}$.\n• **Step 3 (How to Finish):** Divide the total pages ($760$) by $19$ to find how many $180\\text{-second}$ blocks are needed ($40$ blocks), then multiply $40$ by $180\\text{ seconds}$."
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) Rate Grouping\n• **Step 1 (First Move):** Find the Least Common Multiple of their per-page times ($20$, $30$, and $45$), which is $180\\text{ seconds}$.\n• **Step 2 (The Guiding Bridge):** Count how many pages all three read together in one $180\\text{-second}$ block: Alice reads $\\frac{180}{20} = 9$ pages, Chandra reads $\\frac{180}{30} = 6$ pages, and Bob reads $\\frac{180}{45} = 4$ pages, for a combined $9 + 6 + 4 = 19$ pages every $180\\text{ seconds}$.\n• **Step 3 (How to Finish):** Divide the total pages ($760$) by $19$ to find how many $180\\text{-second}$ blocks are needed ($40$ blocks), then multiply $40$ by $180\\text{ seconds}$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": "17",
@@ -238,7 +254,8 @@
     ],
     "answer": "(B) 1/3",
     "explanation": "Because the sum of a number from spinner Q and a number from spinner R is always odd, the sum of all three spinners will be odd if and only if the number from spinner P is even. Since 2 is the only even number out of 3 choices on spinner P, the probability is 1/3.",
-    "hint": "**Key Strategy:** Parity Analysis (Even and Odd Sums)\n• **Step 1 (First Move):** Look at the numbers on spinners Q and R in the figure: one spinner contains only odd numbers and the other contains only even numbers, so the sum of a spin from Q and a spin from R is **always** odd ($\\text{even} + \\text{odd} = \\text{odd}$).\n• **Step 2 (The Guiding Bridge):** Use parity on the full sum $P + (Q + R)$: since $(Q + R)$ is always odd, adding $P$ produces an odd total if and only if $P$ is **even** (because $\\text{even} + \\text{odd} = \\text{odd}$, whereas $\\text{odd} + \\text{odd} = \\text{even}$).\n• **Step 3 (How to Finish):** Count how many of the $3$ equally likely sections on spinner P show an even number, and write that count over $3$ as a fraction."
+    "hint": "**Key Strategy:** Parity Analysis (Even and Odd Sums)\n• **Step 1 (First Move):** Look at the numbers on spinners Q and R in the figure: one spinner contains only odd numbers and the other contains only even numbers, so the sum of a spin from Q and a spin from R is **always** odd ($\\text{even} + \\text{odd} = \\text{odd}$).\n• **Step 2 (The Guiding Bridge):** Use parity on the full sum $P + (Q + R)$: since $(Q + R)$ is always odd, adding $P$ produces an odd total if and only if $P$ is **even** (because $\\text{even} + \\text{odd} = \\text{odd}$, whereas $\\text{odd} + \\text{odd} = \\text{even}$).\n• **Step 3 (How to Finish):** Count how many of the $3$ equally likely sections on spinner P show an even number, and write that count over $3$ as a fraction.",
+    "category": "Counting & Probability"
   },
   {
     "id": "18",
@@ -252,7 +269,8 @@
     ],
     "answer": "(D) 5/9",
     "explanation": "Four black and five white unit square faces are visible on each of the six faces of the larger cube. Thus, $5/9$ of the total surface area of the larger cube is white.",
-    "hint": "**Key Strategy:** Surface Symmetry (Single-Face Analysis)\n• **Step 1 (First Move):** Because all $6$ faces of the $3 \\times 3 \\times 3$ cube have the exact same pattern, examine just one $3 \\times 3$ face, which contains $3 \\times 3 = 9$ unit squares.\n• **Step 2 (The Guiding Bridge):** Locate the black squares on that single face: the $8$ black corner cubes only appear at the $4$ corner squares of the face, while every other square on that face belongs to a white cube.\n• **Step 3 (How to Finish):** Subtract the $4$ black corner squares from the $9$ total squares on that face to get the number of white squares, and divide that number by $9$ to find the fraction of the surface area that is white."
+    "hint": "**Key Strategy:** Surface Symmetry (Single-Face Analysis)\n• **Step 1 (First Move):** Because all $6$ faces of the $3 \\times 3 \\times 3$ cube have the exact same pattern, examine just one $3 \\times 3$ face, which contains $3 \\times 3 = 9$ unit squares.\n• **Step 2 (The Guiding Bridge):** Locate the black squares on that single face: the $8$ black corner cubes only appear at the $4$ corner squares of the face, while every other square on that face belongs to a white cube.\n• **Step 3 (How to Finish):** Subtract the $4$ black corner squares from the $9$ total squares on that face to get the number of white squares, and divide that number by $9$ to find the fraction of the surface area that is white.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "19",
@@ -266,7 +284,8 @@
     ],
     "answer": "(D) 5.5",
     "explanation": "Because triangles ABD and ECD are congruent and triangle ABC is isosceles, $EC = AB = BC = 11$. Since D is the midpoint of $\\overline{BC}$, $BD = 11 / 2 = 5.5$.",
-    "hint": "**Key Strategy:** Congruent and Isosceles Triangle Properties\n• **Step 1 (First Move):** Since $\\triangle ABD \\cong \\triangle ECD$, corresponding sides are equal in length, which tells you $AB = EC = 11$.\n• **Step 2 (The Guiding Bridge):** Use the isosceles triangle condition $AB = BC$ to conclude that side $\\overline{BC}$ also has length $11$.\n• **Step 3 (How to Finish):** Since $D$ is the midpoint of $\\overline{BC}$, divide the length of $\\overline{BC}$ ($11$) by $2$ to find the length of $\\overline{BD}$."
+    "hint": "**Key Strategy:** Congruent and Isosceles Triangle Properties\n• **Step 1 (First Move):** Since $\\triangle ABD \\cong \\triangle ECD$, corresponding sides are equal in length, which tells you $AB = EC = 11$.\n• **Step 2 (The Guiding Bridge):** Use the isosceles triangle condition $AB = BC$ to conclude that side $\\overline{BC}$ also has length $11$.\n• **Step 3 (How to Finish):** Since $D$ is the midpoint of $\\overline{BC}$, divide the length of $\\overline{BC}$ ($11$) by $2$ to find the length of $\\overline{BD}$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "20",
@@ -280,7 +299,8 @@
     ],
     "answer": "(C) 2",
     "explanation": "With six players, there were $(6 \\times 5) / 2 = 15$ total games. Helen, Ines, Janet, Kendra, and Lara won a combined total of $4 + 3 + 2 + 2 + 2 = 13$ games. Therefore, Monica won $15 - 13 = 2$ games.",
-    "hint": "**Key Strategy:** Round-Robin Counting (Total Wins = Total Games)\n• **Step 1 (First Move):** Compute the total number of games played in a $6$-player round-robin tournament where each pair plays once: $\\frac{6 \\times 5}{2} = 15$ games.\n• **Step 2 (The Guiding Bridge):** Since there are no ties, every game has $1$ winner, so all $6$ players' win totals must add up to $15$. Add the wins of the first five players: $4 + 3 + 2 + 2 + 2 = 13$ wins.\n• **Step 3 (How to Finish):** Subtract those $13$ wins from the $15$ total games to find how many games Monica won."
+    "hint": "**Key Strategy:** Round-Robin Counting (Total Wins = Total Games)\n• **Step 1 (First Move):** Compute the total number of games played in a $6$-player round-robin tournament where each pair plays once: $\\frac{6 \\times 5}{2} = 15$ games.\n• **Step 2 (The Guiding Bridge):** Since there are no ties, every game has $1$ winner, so all $6$ players' win totals must add up to $15$. Add the wins of the first five players: $4 + 3 + 2 + 2 + 2 = 13$ wins.\n• **Step 3 (How to Finish):** Subtract those $13$ wins from the $15$ total games to find how many games Monica won.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "21",
@@ -294,7 +314,8 @@
     ],
     "answer": "(A) 0.25",
     "explanation": "The base area of the aquarium is $100 \\times 40 = 4000\\text{ cm}^2$. Using $\\text{Base Area} \\times h = \\text{Volume}$, we get $4000 \\times h = 1000$, so $h = 1000 / 4000 = 0.25\\text{ cm}$.",
-    "hint": "**Key Strategy:** Volume Displacement ($\\text{Volume} = \\text{Base Area} \\times \\text{Height}$)\n• **Step 1 (First Move):** Recognize that the $37\\text{ cm}$ water depth and $50\\text{ cm}$ tank height are extra details as long as no water overflows. Compute the area of the rectangular base: $100 \\times 40 = 4000\\text{ cm}^2$.\n• **Step 2 (The Guiding Bridge):** Set the volume of the displaced water layer equal to the rock's volume ($1000\\text{ cm}^3$): $\\text{Base Area} \\times h = 1000$, which gives $4000 \\times h = 1000$.\n• **Step 3 (How to Finish):** Divide $1000$ by $4000$ and write the result as a decimal to find the water level rise $h$ in centimeters."
+    "hint": "**Key Strategy:** Volume Displacement ($\\text{Volume} = \\text{Base Area} \\times \\text{Height}$)\n• **Step 1 (First Move):** Recognize that the $37\\text{ cm}$ water depth and $50\\text{ cm}$ tank height are extra details as long as no water overflows. Compute the area of the rectangular base: $100 \\times 40 = 4000\\text{ cm}^2$.\n• **Step 2 (The Guiding Bridge):** Set the volume of the displaced water layer equal to the rock's volume ($1000\\text{ cm}^3$): $\\text{Base Area} \\times h = 1000$, which gives $4000 \\times h = 1000$.\n• **Step 3 (How to Finish):** Divide $1000$ by $4000$ and write the result as a decimal to find the water level rise $h$ in centimeters.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": "22",
@@ -308,7 +329,8 @@
     ],
     "answer": "(D) 26",
     "explanation": "If the bottom row cells are $A, B, C$, the top cell value is $A + 2B + C$. To obtain the smallest sum, place 1 in the middle cell and 2 and 3 in the outer ones ($2 + 2(1) + 3 = 7$). For the largest sum, place 9 in the middle cell and 7 and 8 in the outer ones ($7 + 2(9) + 8 = 33$). The difference is $33 - 7 = 26$.",
-    "hint": "**Key Strategy:** Algebraic Expression and Extreme Value Placement\n• **Step 1 (First Move):** Label the bottom three cells $A$, $B$, and $C$ from left to right. The second row then has $(A + B)$ and $(B + C)$, so the top cell is $(A + B) + (B + C) = A + 2B + C$.\n• **Step 2 (The Guiding Bridge):** Notice that the middle number $B$ counts twice, so use the biggest digits for the maximum and smallest digits for the minimum (all three must be **different** digits from $1$ to $9$). For the largest top number, set $B = 9$ and put $7$ and $8$ in $A$ and $C$: $7 + 2(9) + 8 = 33$.\n• **Step 3 (How to Finish):** For the smallest top number, set $B = 1$ and put $2$ and $3$ in $A$ and $C$ to compute $2 + 2(1) + 3$, then subtract that smallest result from $33$."
+    "hint": "**Key Strategy:** Algebraic Expression and Extreme Value Placement\n• **Step 1 (First Move):** Label the bottom three cells $A$, $B$, and $C$ from left to right. The second row then has $(A + B)$ and $(B + C)$, so the top cell is $(A + B) + (B + C) = A + 2B + C$.\n• **Step 2 (The Guiding Bridge):** Notice that the middle number $B$ counts twice, so use the biggest digits for the maximum and smallest digits for the minimum (all three must be **different** digits from $1$ to $9$). For the largest top number, set $B = 9$ and put $7$ and $8$ in $A$ and $C$: $7 + 2(9) + 8 = 33$.\n• **Step 3 (How to Finish):** For the smallest top number, set $B = 1$ and put $2$ and $3$ in $A$ and $C$ to compute $2 + 2(1) + 3$, then subtract that smallest result from $33$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "23",
@@ -322,7 +344,8 @@
     ],
     "answer": "(A) 0",
     "explanation": "Adding 2 coins to the box would make the total divisible by both 6 and 5. The smallest positive integer divisible by 6 and 5 is 30, so the smallest possible number of coins is $30 - 2 = 28$. When 28 coins are divided among 7 people ($28 / 7 = 4$), there are 0 coins left over.",
-    "hint": "**Key Strategy:** Remainder Shifting and Least Common Multiple (LCM)\n• **Step 1 (First Move):** Compare each remainder to its divisor: leaving $4$ when dividing by $6$ means being $6 - 4 = 2$ short of a multiple of $6$, and leaving $3$ when dividing by $5$ means being $5 - 3 = 2$ short of a multiple of $5$. Adding $2$ coins would make the total divisible by both $6$ and $5$.\n• **Step 2 (The Guiding Bridge):** Find the smallest positive multiple of both $6$ and $5$ (their LCM is $30$), then subtract the $2$ extra coins to get the smallest number of coins in the box: $30 - 2 = 28$.\n• **Step 3 (How to Finish):** Divide $28$ by $7$ and find the remainder to determine how many coins are left over."
+    "hint": "**Key Strategy:** Remainder Shifting and Least Common Multiple (LCM)\n• **Step 1 (First Move):** Compare each remainder to its divisor: leaving $4$ when dividing by $6$ means being $6 - 4 = 2$ short of a multiple of $6$, and leaving $3$ when dividing by $5$ means being $5 - 3 = 2$ short of a multiple of $5$. Adding $2$ coins would make the total divisible by both $6$ and $5$.\n• **Step 2 (The Guiding Bridge):** Find the smallest positive multiple of both $6$ and $5$ (their LCM is $30$), then subtract the $2$ extra coins to get the smallest number of coins in the box: $30 - 2 = 28$.\n• **Step 3 (How to Finish):** Divide $28$ by $7$ and find the remainder to determine how many coins are left over.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": "24",
@@ -336,7 +359,8 @@
     ],
     "answer": "(A) 1",
     "explanation": "We can decompose $CDCD = CD \\times 100 + CD = CD(101)$. Since $ABA \\times CD = CD \\times 101$, $ABA = 101$. That means $A = 1$ and $B = 0$, so $A + B = 1 + 0 = 1$.",
-    "hint": "**Key Strategy:** Place Value Decomposition\n• **Step 1 (First Move):** Rewrite the four-digit product $CDCD$ from the multiplication $ABA \\times CD = CDCD$ using place value: $CDCD = CD \\times 100 + CD$.\n• **Step 2 (The Guiding Bridge):** Factor out the two-digit number $CD$ on the right side: $CD \\times 100 + CD = CD \\times (100 + 1) = CD \\times 101$, so $ABA \\times CD = 101 \\times CD$.\n• **Step 3 (How to Finish):** Divide both sides by $CD$ to see that the three-digit number $ABA$ equals $101$, identify the digits $A$ and $B$, and calculate $A + B$."
+    "hint": "**Key Strategy:** Place Value Decomposition\n• **Step 1 (First Move):** Rewrite the four-digit product $CDCD$ from the multiplication $ABA \\times CD = CDCD$ using place value: $CDCD = CD \\times 100 + CD$.\n• **Step 2 (The Guiding Bridge):** Factor out the two-digit number $CD$ on the right side: $CD \\times 100 + CD = CD \\times (100 + 1) = CD \\times 101$, so $ABA \\times CD = 101 \\times CD$.\n• **Step 3 (How to Finish):** Divide both sides by $CD$ to see that the three-digit number $ABA$ equals $101$, identify the digits $A$ and $B$, and calculate $A + B$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": "25",
@@ -350,6 +374,7 @@
     ],
     "answer": "(B) 14",
     "explanation": "Because all primes other than 2 are odd, and the sum of an even number and an odd number is odd, the common sum must be odd. That means 2 must be opposite 59, making the common sum $2 + 59 = 61$. The other two hidden numbers are $61 - 44 = 17$ and $61 - 38 = 23$. All three hidden numbers (2, 17, 23) are prime, and their average is $(2 + 17 + 23) / 3 = 42 / 3 = 14$.",
-    "hint": "**Key Strategy:** Parity Analysis of Prime Numbers\n• **Step 1 (First Move):** Check whether the three visible numbers are even or odd: $44$ (even), $59$ (odd), and $38$ (even). Remember that every prime number except $2$ is odd.\n• **Step 2 (The Guiding Bridge):** Test the parity of the equal card sum: if the sum were even, both $44$ and $38$ would need even primes opposite them, which is impossible because $2$ is the only even prime and all $6$ numbers are different. So the card sum must be **odd**, which forces the prime opposite the odd number $59$ to be $2$, giving a common sum of $59 + 2 = 61$.\n• **Step 3 (How to Finish):** Subtract $44$ and $38$ from $61$ to find the other two hidden prime numbers, then add all three hidden primes together and divide by $3$ to find their average."
+    "hint": "**Key Strategy:** Parity Analysis of Prime Numbers\n• **Step 1 (First Move):** Check whether the three visible numbers are even or odd: $44$ (even), $59$ (odd), and $38$ (even). Remember that every prime number except $2$ is odd.\n• **Step 2 (The Guiding Bridge):** Test the parity of the equal card sum: if the sum were even, both $44$ and $38$ would need even primes opposite them, which is impossible because $2$ is the only even prime and all $6$ numbers are different. So the card sum must be **odd**, which forces the prime opposite the odd number $59$ to be $2$, giving a common sum of $59 + 2 = 61$.\n• **Step 3 (How to Finish):** Subtract $44$ and $38$ from $61$ to find the other two hidden prime numbers, then add all three hidden primes together and divide by $3$ to find their average.",
+    "category": "Number Theory & Arithmetic"
   }
 ]

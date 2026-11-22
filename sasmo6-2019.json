@@ -12,7 +12,8 @@
     "answer": "B) 1",
     "explanation": "Let $x = 2019$. The expression becomes $x^2 - (x-1)(x+1) = x^2 - (x^2 - 1) = 1$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Difference of Squares (Algebraic Substitution)\n• **Step 1 (First Move):** Let $x = 2019$. Rewrite the neighboring numbers $2018$ and $2020$ in terms of $x$: $2018 = x - 1$ and $2020 = x + 1$, turning the expression into $x^2 - (x - 1)(x + 1)$.\n• **Step 2 (The Guiding Bridge):** Apply the Difference of Squares identity, $(x - 1)(x + 1) = x^2 - 1^2$, and substitute it back into the expression to get $x^2 - (x^2 - 1^2)$.\n• **Step 3 (How to Finish):** Distribute the subtraction sign across the parentheses carefully to simplify $x^2 - x^2 + 1^2$, cancel out the $x^2$ terms, and evaluate the remaining constant."
+    "hint": "**Key Strategy:** Difference of Squares (Algebraic Substitution)\n• **Step 1 (First Move):** Let $x = 2019$. Rewrite the neighboring numbers $2018$ and $2020$ in terms of $x$: $2018 = x - 1$ and $2020 = x + 1$, turning the expression into $x^2 - (x - 1)(x + 1)$.\n• **Step 2 (The Guiding Bridge):** Apply the Difference of Squares identity, $(x - 1)(x + 1) = x^2 - 1^2$, and substitute it back into the expression to get $x^2 - (x^2 - 1^2)$.\n• **Step 3 (How to Finish):** Distribute the subtraction sign across the parentheses carefully to simplify $x^2 - x^2 + 1^2$, cancel out the $x^2$ terms, and evaluate the remaining constant.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 2,
@@ -27,7 +28,8 @@
     "answer": "C) 61",
     "explanation": "First calculate $3 \\otimes 4 = 3 \\times 4 - 3 + 4 = 12 - 3 + 4 = 13$. Next calculate $13 \\otimes 5 = 13 \\times 5 - 13 + 5 = 65 - 13 + 5 = 61$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Order of Operations & Custom Operator Substitution\n• **Step 1 (First Move):** Evaluate the expression inside the parentheses first, $3 \\otimes 4$, by substituting $a = 3$ and $b = 4$ into the rule $a \\otimes b = a \\times b - a + b$: calculate $3 \\times 4 - 3 + 4 = 13$.\n• **Step 2 (The Guiding Bridge):** Replace $(3 \\otimes 4)$ with $13$ so the problem becomes $13 \\otimes 5$. Substitute $a = 13$ and $b = 5$ into the same rule: $13 \\times 5 - 13 + 5$.\n• **Step 3 (How to Finish):** Multiply $13 \\times 5$ first, then subtract $13$ and add $5$ to find the final value."
+    "hint": "**Key Strategy:** Order of Operations & Custom Operator Substitution\n• **Step 1 (First Move):** Evaluate the expression inside the parentheses first, $3 \\otimes 4$, by substituting $a = 3$ and $b = 4$ into the rule $a \\otimes b = a \\times b - a + b$: calculate $3 \\times 4 - 3 + 4 = 13$.\n• **Step 2 (The Guiding Bridge):** Replace $(3 \\otimes 4)$ with $13$ so the problem becomes $13 \\otimes 5$. Substitute $a = 13$ and $b = 5$ into the same rule: $13 \\times 5 - 13 + 5$.\n• **Step 3 (How to Finish):** Multiply $13 \\times 5$ first, then subtract $13$ and add $5$ to find the final value.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 3,
@@ -42,7 +44,8 @@
     "answer": "A) 477",
     "explanation": "For $ABC$ to be divisible by 9, $A + B + C$ must be a multiple of 9. Adding $A + B = 11$ and $B + C = 14$ gives $A + 2B + C = 25$. Since $(A + B + C) + B = 25$, if $A + B + C = 18$, then $B = 7$. Thus $A = 11 - 7 = 4$ and $C = 14 - 7 = 7$. The number is 477.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Divisibility Rule for 9 & Digit Algebra\n• **Step 1 (First Move):** Add the two given equations together: $(A + B) + (B + C) = 11 + 14 = 25$, which can be regrouped as $(A + B + C) + B = 25$.\n• **Step 2 (The Guiding Bridge):** Because the 3-digit number $ABC$ is divisible by $9$, its digit sum $A + B + C$ must be a multiple of $9$ ($9, 18,$ or $27$). Since $B$ is a single digit from $0$ to $9$, only $A + B + C = 18$ makes $B = 25 - 18 = 7$ a valid digit.\n• **Step 3 (How to Finish):** Substitute $B = 7$ into $A + B = 11$ and $B + C = 14$ to solve for $A$ and $C$, then write down the 3-digit number $ABC$."
+    "hint": "**Key Strategy:** Divisibility Rule for 9 & Digit Algebra\n• **Step 1 (First Move):** Add the two given equations together: $(A + B) + (B + C) = 11 + 14 = 25$, which can be regrouped as $(A + B + C) + B = 25$.\n• **Step 2 (The Guiding Bridge):** Because the 3-digit number $ABC$ is divisible by $9$, its digit sum $A + B + C$ must be a multiple of $9$ ($9, 18,$ or $27$). Since $B$ is a single digit from $0$ to $9$, only $A + B + C = 18$ makes $B = 25 - 18 = 7$ a valid digit.\n• **Step 3 (How to Finish):** Substitute $B = 7$ into $A + B = 11$ and $B + C = 14$ to solve for $A$ and $C$, then write down the 3-digit number $ABC$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 4,
@@ -57,7 +60,8 @@
     "answer": "D) 128",
     "explanation": "Let the length and width of each smaller rectangle be $L$ and $W$. Arranging them shows that $L = 2W$. The perimeter of the large rectangle is $2(L + 2W) = 2(2W + 2W) = 8W = 48\\text{ cm}$, so $W = 6\\text{ cm}$ and $L = 12\\text{ cm}$. Total area = $4 \\times (12 \\times 6) = 128\\text{ cm}^2$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Geometric Proportion & Perimeter-Area Relationship\n• **Step 1 (First Move):** Let each identical smaller rectangle have width $W$ and length $L$. Using the perimeter of the original rectangle, find its semi-perimeter: $\\text{Outer Length} + \\text{Outer Width} = \\frac{48}{2} = 24\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** When $4$ identical rectangles with $L = 2W$ are fitted together to form a larger rectangle (such as two $W \\times 2W$ pieces stacked horizontally beside two placed vertically), the outer dimensions are $4W$ by $2W$. Set up the semi-perimeter equation $4W + 2W = 24$ (so $6W = 24$) to find $W$, and then calculate the outer length ($4W$) and outer width ($2W$).\n• **Step 3 (How to Finish):** Multiply the outer length by the outer width to calculate the area of the original rectangle in $\\text{cm}^2$."
+    "hint": "**Key Strategy:** Geometric Proportion & Perimeter-Area Relationship\n• **Step 1 (First Move):** Let each identical smaller rectangle have width $W$ and length $L$. Using the perimeter of the original rectangle, find its semi-perimeter: $\\text{Outer Length} + \\text{Outer Width} = \\frac{48}{2} = 24\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** When $4$ identical rectangles with $L = 2W$ are fitted together to form a larger rectangle (such as two $W \\times 2W$ pieces stacked horizontally beside two placed vertically), the outer dimensions are $4W$ by $2W$. Set up the semi-perimeter equation $4W + 2W = 24$ (so $6W = 24$) to find $W$, and then calculate the outer length ($4W$) and outer width ($2W$).\n• **Step 3 (How to Finish):** Multiply the outer length by the outer width to calculate the area of the original rectangle in $\\text{cm}^2$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 5,
@@ -72,7 +76,8 @@
     "answer": "B) 150",
     "explanation": "Let the total original number of students be $5x$. Originally, there are $2x$ boys and $3x$ girls. After 30 girls join, girls count becomes $3x + 30$. The ratio is $\\frac{2x}{3x + 30} = \\frac{1}{2} \\implies 4x = 3x + 30 \\implies x = 30$. Total original students = $5 \\times 30 = 150$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Ratio & Unchanged Quantity (Unit Method)\n• **Step 1 (First Move):** Since $\\frac{2}{5}$ of the original students are boys, the remaining $\\frac{3}{5}$ are girls. Represent the original number of boys as $2x$ and girls as $3x$, making the original total $5x$.\n• **Step 2 (The Guiding Bridge):** When $30$ more girls join, the number of boys stays unchanged at $2x$, while the number of girls becomes $3x + 30$. Set up the new ratio equation $\\frac{2x}{3x + 30} = \\frac{1}{2}$, which means the new number of girls is twice the number of boys: $3x + 30 = 4x$.\n• **Step 3 (How to Finish):** Solve $3x + 30 = 4x$ to find the value of $x$ (one unit), and then multiply $x$ by $5$ to find the original total number of students."
+    "hint": "**Key Strategy:** Ratio & Unchanged Quantity (Unit Method)\n• **Step 1 (First Move):** Since $\\frac{2}{5}$ of the original students are boys, the remaining $\\frac{3}{5}$ are girls. Represent the original number of boys as $2x$ and girls as $3x$, making the original total $5x$.\n• **Step 2 (The Guiding Bridge):** When $30$ more girls join, the number of boys stays unchanged at $2x$, while the number of girls becomes $3x + 30$. Set up the new ratio equation $\\frac{2x}{3x + 30} = \\frac{1}{2}$, which means the new number of girls is twice the number of boys: $3x + 30 = 4x$.\n• **Step 3 (How to Finish):** Solve $3x + 30 = 4x$ to find the value of $x$ (one unit), and then multiply $x$ by $5$ to find the original total number of students.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -87,7 +92,8 @@
     "answer": "D) 12",
     "explanation": "Listing two-digit primes ending in 3: 13, 23, 43, 53, 73, 83 (6 numbers). Listing two-digit primes ending in 7: 17, 37, 47, 67, 77 (composite), 87 (composite), 97 (6 numbers: 17, 37, 47, 67, 77 is $7\\times 11$, 87 is $3\\times 29$, so primes are 17, 37, 47, 67, 97). Total = $6 + 6 = 12$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Systematic Casework & Divisibility Testing\n• **Step 1 (First Move):** List all two-digit numbers ending in $3$ ($13, 23, 33, 43, 53, 63, 73, 83, 93$) and all two-digit numbers ending in $7$ ($17, 27, 37, 47, 57, 67, 77, 87, 97$).\n• **Step 2 (The Guiding Bridge):** None of these numbers are divisible by $2$ or $5$, so eliminate composite numbers by checking divisibility by $3$ and $7$. Cross out every multiple of $3$ (whose digits add up to a multiple of $3$: $33, 63, 93$ and $27, 57, 87$) as well as multiples of $7$ ($63$ and $77$).\n• **Step 3 (How to Finish):** Check that none of the remaining numbers have any prime factors up to $7$, then count how many prime numbers remain across both lists combined."
+    "hint": "**Key Strategy:** Systematic Casework & Divisibility Testing\n• **Step 1 (First Move):** List all two-digit numbers ending in $3$ ($13, 23, 33, 43, 53, 63, 73, 83, 93$) and all two-digit numbers ending in $7$ ($17, 27, 37, 47, 57, 67, 77, 87, 97$).\n• **Step 2 (The Guiding Bridge):** None of these numbers are divisible by $2$ or $5$, so eliminate composite numbers by checking divisibility by $3$ and $7$. Cross out every multiple of $3$ (whose digits add up to a multiple of $3$: $33, 63, 93$ and $27, 57, 87$) as well as multiples of $7$ ($63$ and $77$).\n• **Step 3 (How to Finish):** Check that none of the remaining numbers have any prime factors up to $7$, then count how many prime numbers remain across both lists combined.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 7,
@@ -102,7 +108,8 @@
     "answer": "C) C",
     "explanation": "If C is telling the truth, C is 1st. A is 2nd, D is 4th, and B is 3rd (not last). Everyone's statement is consistent with order C, A, B, D, meaning C indeed won 1st place.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Logical Deduction & Casework (Testing the Liar)\n• **Step 1 (First Move):** Summarize the four claims: A says 2nd, B says not 4th, C says 1st, and D says 4th. Because exactly one child lied, three statements must be true and one must be false.\n• **Step 2 (The Guiding Bridge):** Test whether B or D could be the single liar. If B lied (meaning B was 4th), then D also lied (two liars—impossible). If D lied (meaning D was not 4th), then with A in 2nd, C in 1st, and B not in 4th, nobody could be in 4th place (impossible). Therefore, both B and D must be telling the truth, placing D in 4th.\n• **Step 3 (How to Finish):** Check the remaining cases for the single liar (testing whether A lied or C lied) by assigning 1st, 2nd, and 3rd places, and see who ends up in 1st place in the consistent ordering."
+    "hint": "**Key Strategy:** Logical Deduction & Casework (Testing the Liar)\n• **Step 1 (First Move):** Summarize the four claims: A says 2nd, B says not 4th, C says 1st, and D says 4th. Because exactly one child lied, three statements must be true and one must be false.\n• **Step 2 (The Guiding Bridge):** Test whether B or D could be the single liar. If B lied (meaning B was 4th), then D also lied (two liars—impossible). If D lied (meaning D was not 4th), then with A in 2nd, C in 1st, and B not in 4th, nobody could be in 4th place (impossible). Therefore, both B and D must be telling the truth, placing D in 4th.\n• **Step 3 (How to Finish):** Check the remaining cases for the single liar (testing whether A lied or C lied) by assigning 1st, 2nd, and 3rd places, and see who ends up in 1st place in the consistent ordering.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 8,
@@ -117,7 +124,8 @@
     "answer": "A) 77.2",
     "explanation": "The difference in total marks is $84 - 48 = 36$. The increase in average is $\\frac{36}{30} = 1.2$. The correct average is $76 + 1.2 = 77.2$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Mean Adjustment (Total Sum Correction)\n• **Step 1 (First Move):** Find how many marks were lost when $84$ was misread as $48$: calculate the difference $84 - 48 = 36$ marks.\n• **Step 2 (The Guiding Bridge):** Since the class has $30$ students, divide the missing $36$ marks equally among all $30$ students to find how much the average should increase: $\\frac{36}{30}$.\n• **Step 3 (How to Finish):** Add the average increase from Step 2 to the original recorded average of $76$ to find the correct class average."
+    "hint": "**Key Strategy:** Mean Adjustment (Total Sum Correction)\n• **Step 1 (First Move):** Find how many marks were lost when $84$ was misread as $48$: calculate the difference $84 - 48 = 36$ marks.\n• **Step 2 (The Guiding Bridge):** Since the class has $30$ students, divide the missing $36$ marks equally among all $30$ students to find how much the average should increase: $\\frac{36}{30}$.\n• **Step 3 (How to Finish):** Add the average increase from Step 2 to the original recorded average of $76$ to find the correct class average.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 9,
@@ -132,7 +140,8 @@
     "answer": "B) 115°",
     "explanation": "In $\\triangle ABC$, $\\angle B + \\angle C = 180^\\circ - 50^\\circ = 130^\\circ$. The angle bisectors give $\\frac{\\angle B}{2} + \\frac{\\angle C}{2} = \\frac{130^\\circ}{2} = 65^\\circ$. Thus $\\angle BIC = 180^\\circ - 65^\\circ = 115^\\circ$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Triangle Angle Sum & Angle Bisectors\n• **Step 1 (First Move):** Use the angle sum of $\\triangle ABC$ ($180^\\circ$) to find the combined measure of $\\angle B$ and $\\angle C$: $\\angle B + \\angle C = 180^\\circ - 50^\\circ = 130^\\circ$.\n• **Step 2 (The Guiding Bridge):** Because $BI$ and $CI$ are angle bisectors, $\\angle IBC = \\frac{1}{2}\\angle B$ and $\\angle ICB = \\frac{1}{2}\\angle C$. Add them together inside $\\triangle BIC$: $\\angle IBC + \\angle ICB = \\frac{1}{2}(\\angle B + \\angle C) = \\frac{130^\\circ}{2} = 65^\\circ$.\n• **Step 3 (How to Finish):** Apply the angle sum property to $\\triangle BIC$ by subtracting $65^\\circ$ from $180^\\circ$ to find $\\angle BIC$."
+    "hint": "**Key Strategy:** Triangle Angle Sum & Angle Bisectors\n• **Step 1 (First Move):** Use the angle sum of $\\triangle ABC$ ($180^\\circ$) to find the combined measure of $\\angle B$ and $\\angle C$: $\\angle B + \\angle C = 180^\\circ - 50^\\circ = 130^\\circ$.\n• **Step 2 (The Guiding Bridge):** Because $BI$ and $CI$ are angle bisectors, $\\angle IBC = \\frac{1}{2}\\angle B$ and $\\angle ICB = \\frac{1}{2}\\angle C$. Add them together inside $\\triangle BIC$: $\\angle IBC + \\angle ICB = \\frac{1}{2}(\\angle B + \\angle C) = \\frac{130^\\circ}{2} = 65^\\circ$.\n• **Step 3 (How to Finish):** Apply the angle sum property to $\\triangle BIC$ by subtracting $65^\\circ$ from $180^\\circ$ to find $\\angle BIC$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 10,
@@ -147,7 +156,8 @@
     "answer": "B) 4",
     "explanation": "The factor pairs of 36 are $(36,1), (18,2), (12,3), (9,4), (6,6)$. The pairs where $x > y > 0$ are $(36,1), (18,2), (12,3),$ and $(9,4)$. There are 4 pairs.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Factor Pairs & Inequality Filtering\n• **Step 1 (First Move):** List all positive integer factor pairs $(x, y)$ with $x \\ge y$ whose product is $36$ by testing divisors from $1$ up to $\\sqrt{36} = 6$: $(36, 1), (18, 2), (12, 3), (9, 4), (6, 6)$.\n• **Step 2 (The Guiding Bridge):** Apply the strict inequality $x > y > 0$. Notice that $(6, 6)$ must be excluded because $6$ is not strictly greater than $6$, and negative factor pairs are excluded because $y > 0$.\n• **Step 3 (How to Finish):** Count how many valid ordered pairs $(x, y)$ remain after removing $(6, 6)$."
+    "hint": "**Key Strategy:** Factor Pairs & Inequality Filtering\n• **Step 1 (First Move):** List all positive integer factor pairs $(x, y)$ with $x \\ge y$ whose product is $36$ by testing divisors from $1$ up to $\\sqrt{36} = 6$: $(36, 1), (18, 2), (12, 3), (9, 4), (6, 6)$.\n• **Step 2 (The Guiding Bridge):** Apply the strict inequality $x > y > 0$. Notice that $(6, 6)$ must be excluded because $6$ is not strictly greater than $6$, and negative factor pairs are excluded because $y > 0$.\n• **Step 3 (How to Finish):** Count how many valid ordered pairs $(x, y)$ remain after removing $(6, 6)$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 11,
@@ -162,7 +172,8 @@
     "answer": "C) 40 s",
     "explanation": "Speed $72\\text{ km/h} = 72 \\times \\frac{5}{18} = 20\\text{ m/s}$. Total distance to travel = length of train + length of tunnel = $200 + 600 = 800\\text{ m}$. Time = $\\frac{800}{20} = 40\\text{ seconds}$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Unit Conversion & Total Distance for Moving Objects\n• **Step 1 (First Move):** Convert the train's speed from $\\text{km/h}$ to $\\text{m/s}$ by multiplying by $\\frac{1000}{3600} = \\frac{5}{18}$: $72 \\times \\frac{5}{18} = 20\\text{ m/s}$.\n• **Step 2 (The Guiding Bridge):** For the train to *completely* pass through the tunnel (from the front entering until the rear exits), the front of the train must travel both the tunnel's length and its own length: $\\text{Total Distance} = 600 + 200 = 800\\text{ m}$.\n• **Step 3 (How to Finish):** Calculate $\\text{Time} = \\frac{\\text{Total Distance}}{\\text{Speed}}$ by dividing $800\\text{ m}$ by $20\\text{ m/s}$."
+    "hint": "**Key Strategy:** Unit Conversion & Total Distance for Moving Objects\n• **Step 1 (First Move):** Convert the train's speed from $\\text{km/h}$ to $\\text{m/s}$ by multiplying by $\\frac{1000}{3600} = \\frac{5}{18}$: $72 \\times \\frac{5}{18} = 20\\text{ m/s}$.\n• **Step 2 (The Guiding Bridge):** For the train to *completely* pass through the tunnel (from the front entering until the rear exits), the front of the train must travel both the tunnel's length and its own length: $\\text{Total Distance} = 600 + 200 = 800\\text{ m}$.\n• **Step 3 (How to Finish):** Calculate $\\text{Time} = \\frac{\\text{Total Distance}}{\\text{Speed}}$ by dividing $800\\text{ m}$ by $20\\text{ m/s}$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 12,
@@ -177,7 +188,8 @@
     "answer": "B) 8",
     "explanation": "Prime factorization of $3600 = 36 \\times 100 = (2^2 \\times 3^2) \\times (2^2 \\times 5^2) = 2^4 \\times 3^2 \\times 5^2$. So $a=4, b=2, c=2$. Sum $a+b+c = 4+2+2 = 8$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Split $3600$ into two familiar factors first: $3600 = 36 \\times 100$.\n• **Step 2 (The Guiding Bridge):** Prime factorize each piece separately ($36 = 4 \\times 9 = 2^2 \\times 3^2$ and $100 = 4 \\times 25 = 2^2 \\times 5^2$), then combine the powers of $2$ by adding exponents ($2^2 \\times 2^2 = 2^4$) to write $3600$ in the form $2^a \\times 3^b \\times 5^c$.\n• **Step 3 (How to Finish):** Read off the exponents $a$, $b$, and $c$ for bases $2$, $3$, and $5$, and add $a + b + c$."
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Split $3600$ into two familiar factors first: $3600 = 36 \\times 100$.\n• **Step 2 (The Guiding Bridge):** Prime factorize each piece separately ($36 = 4 \\times 9 = 2^2 \\times 3^2$ and $100 = 4 \\times 25 = 2^2 \\times 5^2$), then combine the powers of $2$ by adding exponents ($2^2 \\times 2^2 = 2^4$) to write $3600$ in the form $2^a \\times 3^b \\times 5^c$.\n• **Step 3 (How to Finish):** Read off the exponents $a$, $b$, and $c$ for bases $2$, $3$, and $5$, and add $a + b + c$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 13,
@@ -192,7 +204,8 @@
     "answer": "C) 7",
     "explanation": "The powers of 3 follow a cycle of 4 for units digits: $3^1=3, 3^2=9, 3^3=7, 3^4=1$. $2019 = 4 \\times 504 + 3$. The units digit corresponds to the 3rd item in the pattern, which is 7.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Pattern)\n• **Step 1 (First Move):** Find the units digits of the first few powers of $3$: $3^1 = 3$, $3^2 = 9$, $3^3 = 27$ (ends in $7$), $3^4 = 81$ (ends in $1$), and $3^5 = 243$ (ends in $3$ again).\n• **Step 2 (The Guiding Bridge):** Notice that the units digits repeat in a cycle of $4$: $\\{3, 9, 7, 1\\}$. Divide the exponent $2019$ by $4$ to find its remainder: $2019 = 4 \\times 504 + 3$, giving a remainder of $3$.\n• **Step 3 (How to Finish):** Use the remainder $3$ to pick the $3\\text{rd}$ digit in the repeating cycle $\\{3, 9, 7, 1\\}$."
+    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Pattern)\n• **Step 1 (First Move):** Find the units digits of the first few powers of $3$: $3^1 = 3$, $3^2 = 9$, $3^3 = 27$ (ends in $7$), $3^4 = 81$ (ends in $1$), and $3^5 = 243$ (ends in $3$ again).\n• **Step 2 (The Guiding Bridge):** Notice that the units digits repeat in a cycle of $4$: $\\{3, 9, 7, 1\\}$. Divide the exponent $2019$ by $4$ to find its remainder: $2019 = 4 \\times 504 + 3$, giving a remainder of $3$.\n• **Step 3 (How to Finish):** Use the remainder $3$ to pick the $3\\text{rd}$ digit in the repeating cycle $\\{3, 9, 7, 1\\}$.",
+    "category": "Logic & Patterns"
   },
   {
     "id": 14,
@@ -207,7 +220,8 @@
     "answer": "A) $44",
     "explanation": "Packs of 8 cost $1.50 per pen; packs of 3 cost $1.67 per pen. To get 29 pens: 3 packs of 8 (24 pens, $36) + 2 packs of 3 (6 pens, $10) = 30 pens for $46. Or 4 packs of 8 (32 pens) = $48. Or 1 pack of 3 (3 pens) + 3 packs of 8 (24 pens) = 27 (insufficient). Best option: 3 packs of 8 ($36) + 2 packs of 3 ($10) = $46. Wait: 4 packs of 3 ($20) + 2 packs of 8 ($24) = 28 pens ($44, insufficient). 3 packs of 3 ($15) + 2 packs of 8 ($24) = 25. 7 packs of 3 ($35) + 1 pack of 8 ($12) = 29 pens for $47. Check 4 packs of 8 = $48 (32 pens). Check 3 packs of 8 ($36) + 2 packs of 3 ($10) = $46 (30 pens). Check 1 pack of 8 ($12) + 7 packs of 3 ($35) = $47 (29 pens). Thus minimum cost is $44 for 3 packs of 8 + 2 packs of 3? $36+$10=$46. 3 packs of 3 ($15) + 2 packs of 8 ($24) = 25 pens ($39). 1 pack of 8 ($12) + 7 packs of 3 ($35) = 29 pens ($47). 2 packs of 8 ($24) + 5 packs of 3 ($25) = 31 pens ($49). So minimum cost for at least 29 pens is $44 if taking 2 packs of 8 ($24) + 4 packs of 3 ($20) = 28 pens (needs 29). 3 packs of 8 ($36) + 2 packs of 3 ($10) = $46.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Unit Cost Comparison & Systematic Casework\n• **Step 1 (First Move):** Compare the unit price per pen: a pack of $8$ costs $\\frac{\\$12}{8} = \\$1.50$ per pen, while a pack of $3$ costs $\\frac{\\$5}{3} \\approx \\$1.67$ per pen, so using more packs of $8$ is generally cheaper.\n• **Step 2 (The Guiding Bridge):** Test the possible numbers of packs of $8$ ($4, 3, 2, 1$) and pair each with the minimum number of packs of $3$ needed to reach *at least* $29$ pens:\n  - $4$ packs of $8$ ($32$ pens)\n  - $3$ packs of $8$ + $2$ packs of $3$ ($24 + 6 = 30$ pens)\n  - $2$ packs of $8$ + $5$ packs of $3$ ($16 + 15 = 31$ pens; note that $4$ packs of $3$ only gives $28$)\n  - $1$ pack of $8$ + $7$ packs of $3$ ($8 + 21 = 29$ pens)\n• **Step 3 (How to Finish):** Compute the total cost ($\\text{packs of } 8 \\times \\$12 + \\text{packs of } 3 \\times \\$5$) for each valid combination and select the lowest cost."
+    "hint": "**Key Strategy:** Unit Cost Comparison & Systematic Casework\n• **Step 1 (First Move):** Compare the unit price per pen: a pack of $8$ costs $\\frac{\\$12}{8} = \\$1.50$ per pen, while a pack of $3$ costs $\\frac{\\$5}{3} \\approx \\$1.67$ per pen, so using more packs of $8$ is generally cheaper.\n• **Step 2 (The Guiding Bridge):** Test the possible numbers of packs of $8$ ($4, 3, 2, 1$) and pair each with the minimum number of packs of $3$ needed to reach *at least* $29$ pens:\n  - $4$ packs of $8$ ($32$ pens)\n  - $3$ packs of $8$ + $2$ packs of $3$ ($24 + 6 = 30$ pens)\n  - $2$ packs of $8$ + $5$ packs of $3$ ($16 + 15 = 31$ pens; note that $4$ packs of $3$ only gives $28$)\n  - $1$ pack of $8$ + $7$ packs of $3$ ($8 + 21 = 29$ pens)\n• **Step 3 (How to Finish):** Compute the total cost ($\\text{packs of } 8 \\times \\$12 + \\text{packs of } 3 \\times \\$5$) for each valid combination and select the lowest cost.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 15,
@@ -222,7 +236,8 @@
     "answer": "C) 48 cm²",
     "explanation": "Total area of rectangle = $12 \\times 8 = 96\\text{ cm}^2$. Unshaded triangles: $\\triangle ADE = \\frac{1}{2} \\times 8 \\times 6 = 24\\text{ cm}^2$ and $\\triangle DCF = \\frac{1}{2} \\times 12 \\times 4 = 24\\text{ cm}^2$. Shaded area = $96 - 24 - 24 = 48\\text{ cm}^2$.",
     "image_width": 390,
-    "hint": "**Key Strategy:** Area Decomposition (Total Area Minus Unshaded Triangles)\n• **Step 1 (First Move):** Find the area of the entire rectangle $ABCD$: $12 \\times 8 = 96\\text{ cm}^2$. Since $E$ is the midpoint of $AB$ ($12\\text{ cm}$) and $F$ is the midpoint of $BC$ ($8\\text{ cm}$), label the half-lengths $AE = EB = 6\\text{ cm}$ and $BF = FC = 4\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** Compute the areas of the two unshaded right triangles outside quadrilateral $EBFD$ using $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$: $\\triangle DAE$ has legs $DA = 8\\text{ cm}$ and $AE = 6\\text{ cm}$, and $\\triangle DCF$ has legs $DC = 12\\text{ cm}$ and $CF = 4\\text{ cm}$.\n• **Step 3 (How to Finish):** Subtract the areas of both unshaded triangles ($\\triangle DAE$ and $\\triangle DCF$) from the total rectangle area of $96\\text{ cm}^2$."
+    "hint": "**Key Strategy:** Area Decomposition (Total Area Minus Unshaded Triangles)\n• **Step 1 (First Move):** Find the area of the entire rectangle $ABCD$: $12 \\times 8 = 96\\text{ cm}^2$. Since $E$ is the midpoint of $AB$ ($12\\text{ cm}$) and $F$ is the midpoint of $BC$ ($8\\text{ cm}$), label the half-lengths $AE = EB = 6\\text{ cm}$ and $BF = FC = 4\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** Compute the areas of the two unshaded right triangles outside quadrilateral $EBFD$ using $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$: $\\triangle DAE$ has legs $DA = 8\\text{ cm}$ and $AE = 6\\text{ cm}$, and $\\triangle DCF$ has legs $DC = 12\\text{ cm}$ and $CF = 4\\text{ cm}$.\n• **Step 3 (How to Finish):** Subtract the areas of both unshaded triangles ($\\triangle DAE$ and $\\triangle DCF$) from the total rectangle area of $96\\text{ cm}^2$.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 16,
@@ -237,7 +252,8 @@
     "answer": "D) 56",
     "explanation": "The terms are $1\\times 2, 2\\times 3, 3\\times 4, 4\\times 5, 5\\times 6, 6\\times 7$. The 7th term is $7 \\times 8 = 56$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Pattern Recognition (Consecutive Differences & Product Formula)\n• **Step 1 (First Move):** Calculate the difference between each pair of consecutive terms: $6 - 2 = 4$, $12 - 6 = 6$, $20 - 12 = 8$, $30 - 20 = 10$, and $42 - 30 = 12$.\n• **Step 2 (The Guiding Bridge):** Notice two matching patterns: the differences increase by $2$ each step ($+4, +6, +8, +10, +12, \\dots$), and each $n\\text{th}$ term can also be written as $n \\times (n + 1)$ ($1 \\times 2, 2 \\times 3, 3 \\times 4, 4 \\times 5, 5 \\times 6, 6 \\times 7$).\n• **Step 3 (How to Finish):** Add the next difference ($14$) to $42$, or compute $7 \\times 8$ for the $7\\text{th}$ term."
+    "hint": "**Key Strategy:** Pattern Recognition (Consecutive Differences & Product Formula)\n• **Step 1 (First Move):** Calculate the difference between each pair of consecutive terms: $6 - 2 = 4$, $12 - 6 = 6$, $20 - 12 = 8$, $30 - 20 = 10$, and $42 - 30 = 12$.\n• **Step 2 (The Guiding Bridge):** Notice two matching patterns: the differences increase by $2$ each step ($+4, +6, +8, +10, +12, \\dots$), and each $n\\text{th}$ term can also be written as $n \\times (n + 1)$ ($1 \\times 2, 2 \\times 3, 3 \\times 4, 4 \\times 5, 5 \\times 6, 6 \\times 7$).\n• **Step 3 (How to Finish):** Add the next difference ($14$) to $42$, or compute $7 \\times 8$ for the $7\\text{th}$ term.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 17,
@@ -252,7 +268,8 @@
     "answer": "D) 37.5",
     "explanation": "Fraction added = $\\frac{4}{5} - \\frac{1}{3} = \\frac{12 - 5}{15} = \\frac{7}{15}$. So $\\frac{7}{15} \\times C = 15 \\implies C = \\frac{225}{7} = 32.14$. If fraction added is $\\frac{3}{4} - \\frac{1}{3} = \\frac{5}{12}$, $15 / (5/12) = 36$. For $\\frac{4}{5} - \\frac{2}{5} = \\frac{2}{5}$, $15 / (2/5) = 37.5$. Here $\\frac{4}{5} - \\frac{1}{3} = \\frac{7}{15}$, $15 \\div \\frac{7}{15} = 32.14$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Fraction Difference & Unitary Method\n• **Step 1 (First Move):** Find what fraction of the container's capacity was filled by the $15$ litres of added water by subtracting the starting fraction from the ending fraction: $\\frac{4}{5} - \\frac{1}{3}$.\n• **Step 2 (The Guiding Bridge):** Convert both fractions to a common denominator of $15$ to get $\\frac{12}{15} - \\frac{5}{15} = \\frac{7}{15}$. This means $\\frac{7}{15}$ of the full capacity equals $15$ litres.\n• **Step 3 (How to Finish):** Divide $15$ by $\\frac{7}{15}$ (compute $15 \\times \\frac{15}{7}$) to find the total capacity of the container in litres."
+    "hint": "**Key Strategy:** Fraction Difference & Unitary Method\n• **Step 1 (First Move):** Find what fraction of the container's capacity was filled by the $15$ litres of added water by subtracting the starting fraction from the ending fraction: $\\frac{4}{5} - \\frac{1}{3}$.\n• **Step 2 (The Guiding Bridge):** Convert both fractions to a common denominator of $15$ to get $\\frac{12}{15} - \\frac{5}{15} = \\frac{7}{15}$. This means $\\frac{7}{15}$ of the full capacity equals $15$ litres.\n• **Step 3 (How to Finish):** Divide $15$ by $\\frac{7}{15}$ (compute $15 \\times \\frac{15}{7}$) to find the total capacity of the container in litres.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -267,7 +284,8 @@
     "answer": "C) 20",
     "explanation": "A $3 \\times 3$ grid requires 3 Right moves and 3 Up moves. Total paths = $\\binom{3+3}{3} = \\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$.",
     "image_width": 390,
-    "hint": "**Key Strategy:** Grid Path Counting (Pascal's Triangle / Combinations)\n• **Step 1 (First Move):** Count how many Right ($R$) and Up ($U$) steps are required to move from $A$ to $B$ across the $3 \\times 3$ grid: you must take $3$ Right steps and $3$ Up steps, making $6$ steps in total.\n• **Step 2 (The Guiding Bridge):** Either label each grid corner with the sum of paths arriving from the left and from below (starting with $1$ along the bottom and left edges), or use combinations to count how many ways to choose $3$ positions out of $6$ steps to be Right steps: $\\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1}$.\n• **Step 3 (How to Finish):** Evaluate $\\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1}$ (or read the final sum at corner $B$) to find the number of paths."
+    "hint": "**Key Strategy:** Grid Path Counting (Pascal's Triangle / Combinations)\n• **Step 1 (First Move):** Count how many Right ($R$) and Up ($U$) steps are required to move from $A$ to $B$ across the $3 \\times 3$ grid: you must take $3$ Right steps and $3$ Up steps, making $6$ steps in total.\n• **Step 2 (The Guiding Bridge):** Either label each grid corner with the sum of paths arriving from the left and from below (starting with $1$ along the bottom and left edges), or use combinations to count how many ways to choose $3$ positions out of $6$ steps to be Right steps: $\\binom{6}{3} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1}$.\n• **Step 3 (How to Finish):** Evaluate $\\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1}$ (or read the final sum at corner $B$) to find the number of paths.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 19,
@@ -282,7 +300,8 @@
     "answer": "C) 9",
     "explanation": "Number of students playing at least one sport = $40 - 6 = 34$. By inclusion-exclusion, $25 + 18 - \\text{Both} = 34 \\implies 43 - \\text{Both} = 34 \\implies \\text{Both} = 9$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Inclusion-Exclusion Principle (Venn Diagram)\n• **Step 1 (First Move):** Subtract the $6$ students who play neither sport from the $40$ total students to find how many play at least one sport: $40 - 6 = 34$ students.\n• **Step 2 (The Guiding Bridge):** Add the basketball and badminton players together: $25 + 18 = 43$. Because students who play *both* sports are included in both groups, they have been counted twice in $43$.\n• **Step 3 (How to Finish):** Subtract the number of students who play at least one sport ($34$) from the double-counted total ($43$) to find how many students play both sports."
+    "hint": "**Key Strategy:** Inclusion-Exclusion Principle (Venn Diagram)\n• **Step 1 (First Move):** Subtract the $6$ students who play neither sport from the $40$ total students to find how many play at least one sport: $40 - 6 = 34$ students.\n• **Step 2 (The Guiding Bridge):** Add the basketball and badminton players together: $25 + 18 = 43$. Because students who play *both* sports are included in both groups, they have been counted twice in $43$.\n• **Step 3 (How to Finish):** Subtract the number of students who play at least one sport ($34$) from the double-counted total ($43$) to find how many students play both sports.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 20,
@@ -297,7 +316,8 @@
     "answer": "B) 36",
     "explanation": "$9999 \\times 8888 = (10000 - 1) \\times 8888 = 88880000 - 8888 = 88871112$. Sum of digits = $8 + 8 + 8 + 7 + 1 + 1 + 1 + 2 = 36$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Algebraic Simplification ($10^n - 1$ Method)\n• **Step 1 (First Move):** Rewrite $9999$ as $10000 - 1$ so the product becomes $(10000 - 1) \\times 8888$.\n• **Step 2 (The Guiding Bridge):** Distribute $8888$ to get $88880000 - 8888$, and perform the subtraction carefully by borrowing from the thousands place ($80000 - 8888 = 71112$) to write down the exact 8-digit product.\n• **Step 3 (How to Finish):** Add all $8$ digits of the resulting product together to find the sum of its digits."
+    "hint": "**Key Strategy:** Algebraic Simplification ($10^n - 1$ Method)\n• **Step 1 (First Move):** Rewrite $9999$ as $10000 - 1$ so the product becomes $(10000 - 1) \\times 8888$.\n• **Step 2 (The Guiding Bridge):** Distribute $8888$ to get $88880000 - 8888$, and perform the subtraction carefully by borrowing from the thousands place ($80000 - 8888 = 71112$) to write down the exact 8-digit product.\n• **Step 3 (How to Finish):** Add all $8$ digits of the resulting product together to find the sum of its digits.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 21,
@@ -312,7 +332,8 @@
     "answer": "A) 0",
     "explanation": "Sum = $\\frac{100 \\times 101}{2} = 50 \\times 101 = 5050$. $5050 \\div 7 = 721$ remainder $3$. Wait, $5050 = 721 \\times 7 + 3$. Remainder is 3.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Gauss's Sum Formula & Modular Arithmetic\n• **Step 1 (First Move):** Find the sum $1 + 2 + 3 + \\dots + 100$ using Gauss's pairing formula $\\frac{n(n + 1)}{2}$ with $n = 100$: $\\frac{100 \\times 101}{2} = 50 \\times 101 = 5050$.\n• **Step 2 (The Guiding Bridge):** Begin dividing $5050$ by $7$ by subtracting a large multiple of $7$: since $7 \\times 700 = 4900$, subtract $5050 - 4900 = 150$.\n• **Step 3 (How to Finish):** Divide $150$ by $7$ (using $7 \\times 21 = 147$) and find the remainder left over."
+    "hint": "**Key Strategy:** Gauss's Sum Formula & Modular Arithmetic\n• **Step 1 (First Move):** Find the sum $1 + 2 + 3 + \\dots + 100$ using Gauss's pairing formula $\\frac{n(n + 1)}{2}$ with $n = 100$: $\\frac{100 \\times 101}{2} = 50 \\times 101 = 5050$.\n• **Step 2 (The Guiding Bridge):** Begin dividing $5050$ by $7$ by subtracting a large multiple of $7$: since $7 \\times 700 = 4900$, subtract $5050 - 4900 = 150$.\n• **Step 3 (How to Finish):** Divide $150$ by $7$ (using $7 \\times 21 = 147$) and find the remainder left over.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 22,
@@ -327,7 +348,8 @@
     "answer": "B) 252",
     "explanation": "Total 3-digit numbers = 900. Numbers with no digit 5: hundreds digit has 8 choices (1-9 except 5), tens has 9 choices (0-9 except 5), units has 9 choices. Total without 5 = $8 \\times 9 \\times 9 = 648$. Numbers with at least one 5 = $900 - 648 = 252$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Complementary Counting (Total Minus Unwanted)\n• **Step 1 (First Move):** Find the total number of 3-digit numbers from $100$ to $999$: $999 - 100 + 1 = 900$.\n• **Step 2 (The Guiding Bridge):** Count the opposite case—3-digit numbers that contain *no* digit $5$ at all. The hundreds digit has $8$ choices ($1$–$9$ except $5$), the tens digit has $9$ choices ($0$–$9$ except $5$), and the units digit has $9$ choices ($0$–$9$ except $5$), giving $8 \\times 9 \\times 9 = 648$ numbers without any $5$.\n• **Step 3 (How to Finish):** Subtract the count of 3-digit numbers with no digit $5$ ($648$) from the total number of 3-digit numbers ($900$)."
+    "hint": "**Key Strategy:** Complementary Counting (Total Minus Unwanted)\n• **Step 1 (First Move):** Find the total number of 3-digit numbers from $100$ to $999$: $999 - 100 + 1 = 900$.\n• **Step 2 (The Guiding Bridge):** Count the opposite case—3-digit numbers that contain *no* digit $5$ at all. The hundreds digit has $8$ choices ($1$–$9$ except $5$), the tens digit has $9$ choices ($0$–$9$ except $5$), and the units digit has $9$ choices ($0$–$9$ except $5$), giving $8 \\times 9 \\times 9 = 648$ numbers without any $5$.\n• **Step 3 (How to Finish):** Subtract the count of 3-digit numbers with no digit $5$ ($648$) from the total number of 3-digit numbers ($900$).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 23,
@@ -342,7 +364,8 @@
     "answer": "C) 9",
     "explanation": "Let the ages be $n-1, n, n+1$. Prime factorize $504 = 7 \\times 8 \\times 9$. The ages are 7, 8, and 9. The oldest sibling is 9 years old.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Prime Factorization & Consecutive Grouping\n• **Step 1 (First Move):** Break $504$ into its prime factors by dividing repeatedly by small primes: $504 = 2 \\times 252 = 2^2 \\times 126 = 2^3 \\times 63 = 2^3 \\times 3^2 \\times 7$.\n• **Step 2 (The Guiding Bridge):** Since $7$ is a prime factor, one of the three consecutive ages must be a multiple of $7$ (it must be $7$ itself, because $12 \\times 13 \\times 14$ is far greater than $504$). Group the remaining prime factors ($2^3$ and $3^2$) to form the two consecutive integers adjacent to $7$.\n• **Step 3 (How to Finish):** Check that the product of your three consecutive integers equals $504$, and then select the greatest of the three ages."
+    "hint": "**Key Strategy:** Prime Factorization & Consecutive Grouping\n• **Step 1 (First Move):** Break $504$ into its prime factors by dividing repeatedly by small primes: $504 = 2 \\times 252 = 2^2 \\times 126 = 2^3 \\times 63 = 2^3 \\times 3^2 \\times 7$.\n• **Step 2 (The Guiding Bridge):** Since $7$ is a prime factor, one of the three consecutive ages must be a multiple of $7$ (it must be $7$ itself, because $12 \\times 13 \\times 14$ is far greater than $504$). Group the remaining prime factors ($2^3$ and $3^2$) to form the two consecutive integers adjacent to $7$.\n• **Step 3 (How to Finish):** Check that the product of your three consecutive integers equals $504$, and then select the greatest of the three ages.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 24,
@@ -357,7 +380,8 @@
     "answer": "A) 1",
     "explanation": "Cutting the center corner of the twice-folded square produces a single hole in the center of the unfolded paper.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Spatial Visualization (Symmetry & Paper Folding)\n• **Step 1 (First Move):** Imagine (or fold) a square sheet of paper in half horizontally and then in half vertically to form a smaller square made of $4$ overlapping layers.\n• **Step 2 (The Guiding Bridge):** Identify where each of the $4$ corners of the folded square sits in the original unfolded sheet: one corner holds the $4$ original corners, two corners lie on the outer edges, and the remaining corner is the folded center point where all $4$ layers meet inside the square.\n• **Step 3 (How to Finish):** Trace what happens when that folded center corner is cut off—notice that cutting an outer corner creates edge notches, whereas cutting the center point creates a connected shape around the center—and count how many separate holes appear when you unfold both folds."
+    "hint": "**Key Strategy:** Spatial Visualization (Symmetry & Paper Folding)\n• **Step 1 (First Move):** Imagine (or fold) a square sheet of paper in half horizontally and then in half vertically to form a smaller square made of $4$ overlapping layers.\n• **Step 2 (The Guiding Bridge):** Identify where each of the $4$ corners of the folded square sits in the original unfolded sheet: one corner holds the $4$ original corners, two corners lie on the outer edges, and the remaining corner is the folded center point where all $4$ layers meet inside the square.\n• **Step 3 (How to Finish):** Trace what happens when that folded center corner is cut off—notice that cutting an outer corner creates edge notches, whereas cutting the center point creates a connected shape around the center—and count how many separate holes appear when you unfold both folds.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 25,
@@ -372,6 +396,7 @@
     "answer": "A) 9663",
     "explanation": "The number is of the form $LCM(4,5,6,7)k + 3$. $LCM(4,5,6,7) = 420$. The largest 4-digit multiple of 420 is $420 \\times 23 = 9660$. Adding 3 gives $9660 + 3 = 9663$.",
     "image_width": 300,
-    "hint": "**Key Strategy:** Least Common Multiple (LCM) & Remainder Shift\n• **Step 1 (First Move):** Subtracting the common remainder $3$ from the target number $N$ means $N - 3$ is divisible by $4, 5, 6,$ and $7$. Find $\\text{LCM}(4, 5, 6, 7)$ by multiplying the highest powers of each prime factor: $2^2 \\times 3 \\times 5 \\times 7 = 420$.\n• **Step 2 (The Guiding Bridge):** Find the largest 4-digit multiple of $420$ by dividing $9999$ by $420$: $9999 \\div 420$ gives a whole-number quotient of $23$ (with a remainder), so the largest 4-digit multiple is $420 \\times 23$.\n• **Step 3 (How to Finish):** Multiply $420 \\times 23$, add the remainder $3$ back on, and check that the result is still a 4-digit number ($\\le 9999$)."
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) & Remainder Shift\n• **Step 1 (First Move):** Subtracting the common remainder $3$ from the target number $N$ means $N - 3$ is divisible by $4, 5, 6,$ and $7$. Find $\\text{LCM}(4, 5, 6, 7)$ by multiplying the highest powers of each prime factor: $2^2 \\times 3 \\times 5 \\times 7 = 420$.\n• **Step 2 (The Guiding Bridge):** Find the largest 4-digit multiple of $420$ by dividing $9999$ by $420$: $9999 \\div 420$ gives a whole-number quotient of $23$ (with a remainder), so the largest 4-digit multiple is $420 \\times 23$.\n• **Step 3 (How to Finish):** Multiply $420 \\times 23$, add the remainder $3$ back on, and check that the result is still a 4-digit number ($\\le 9999$).",
+    "category": "Number Theory & Arithmetic"
   }
 ]

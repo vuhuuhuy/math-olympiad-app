@@ -11,7 +11,8 @@
     ],
     "answer": "(A) 12",
     "explanation": "The floor is 12 / 3 = 4 yards long and 9 / 3 = 3 yards wide. Thus, it requires 4 x 3 = 12 square yards of carpet.",
-    "hint": "**Key Strategy:** Unit Conversion Before Area\n• **Step 1 (First Move):** Convert both dimensions of the floor from feet to yards using $1\\text{ yard} = 3\\text{ feet}$: divide the length $12\\text{ feet}$ by $3$ and the width $9\\text{ feet}$ by $3$.\n• **Step 2 (The Guiding Bridge):** Remember that the area of a rectangle in square yards is $(\\text{length in yards}) \\times (\\text{width in yards})$. (If you computed $12 \\times 9$ in square feet first, you would need to divide by $3 \\times 3 = 9$, not $3$.)\n• **Step 3 (How to Finish):** Multiply your converted length in yards by your converted width in yards to find the total area in square yards."
+    "hint": "**Key Strategy:** Unit Conversion Before Area\n• **Step 1 (First Move):** Convert both dimensions of the floor from feet to yards using $1\\text{ yard} = 3\\text{ feet}$: divide the length $12\\text{ feet}$ by $3$ and the width $9\\text{ feet}$ by $3$.\n• **Step 2 (The Guiding Bridge):** Remember that the area of a rectangle in square yards is $(\\text{length in yards}) \\times (\\text{width in yards})$. (If you computed $12 \\times 9$ in square feet first, you would need to divide by $3 \\times 3 = 9$, not $3$.)\n• **Step 3 (How to Finish):** Multiply your converted length in yards by your converted width in yards to find the total area in square yards.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     ],
     "answer": "(D) 7/16",
     "explanation": "The regular octagon can be divided into 8 congruent triangles around center O. The shaded region covers 3 full triangles and half of one triangle corresponding to side AB, which equals 3 x (1/8) + (1/2) x (1/8) = 7/16.",
-    "hint": "**Key Strategy:** Symmetry and Area Decomposition\n• **Step 1 (First Move):** Draw segments from the center $O$ to all $8$ vertices $A, B, C, D, E, F, G, H$ to slice the regular octagon into $8$ congruent triangles, each having $\\frac{1}{8}$ of the octagon's total area.\n• **Step 2 (The Guiding Bridge):** Count how many full triangles are shaded ($3$ full triangles), and notice that the segment $OX$ splits $\\triangle OAB$ (whose area is $\\frac{1}{8}$) into two congruent halves, giving an extra $\\frac{1}{2} \\times \\frac{1}{8} = \\frac{1}{16}$ of the octagon.\n• **Step 3 (How to Finish):** Add the area of the $3$ full triangles ($3 \\times \\frac{1}{8}$) and the shaded half-triangle ($\\frac{1}{16}$) using a common denominator of $16$ to get the total shaded fraction."
+    "hint": "**Key Strategy:** Symmetry and Area Decomposition\n• **Step 1 (First Move):** Draw segments from the center $O$ to all $8$ vertices $A, B, C, D, E, F, G, H$ to slice the regular octagon into $8$ congruent triangles, each having $\\frac{1}{8}$ of the octagon's total area.\n• **Step 2 (The Guiding Bridge):** Count how many full triangles are shaded ($3$ full triangles), and notice that the segment $OX$ splits $\\triangle OAB$ (whose area is $\\frac{1}{8}$) into two congruent halves, giving an extra $\\frac{1}{2} \\times \\frac{1}{8} = \\frac{1}{16}$ of the octagon.\n• **Step 3 (How to Finish):** Add the area of the $3$ full triangles ($3 \\times \\frac{1}{8}$) and the shaded half-triangle ($\\frac{1}{16}$) using a common denominator of $16$ to get the total shaded fraction.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
     ],
     "answer": "(D) 9",
     "explanation": "Jill takes 1/10 of an hour (6 minutes) to get to the pool, and Jack takes 1/4 of an hour (15 minutes). Jill arrives 15 - 6 = 9 minutes before Jack.",
-    "hint": "**Key Strategy:** Rate-Time-Distance and Unit Conversion\n• **Step 1 (First Move):** Use $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$ for the $1\\text{-mile}$ trip: Jill takes $\\frac{1}{10}\\text{ hour}$, and Jack takes $\\frac{1}{4}\\text{ hour}$.\n• **Step 2 (The Guiding Bridge):** Convert both times from hours to minutes by multiplying each fraction by $60\\text{ minutes/hour}$: Jill takes $\\frac{1}{10} \\times 60 = 6\\text{ minutes}$, and Jack takes $\\frac{1}{4} \\times 60 = 15\\text{ minutes}$.\n• **Step 3 (How to Finish):** Subtract Jill's travel time in minutes from Jack's travel time in minutes to find how many minutes earlier Jill arrives."
+    "hint": "**Key Strategy:** Rate-Time-Distance and Unit Conversion\n• **Step 1 (First Move):** Use $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$ for the $1\\text{-mile}$ trip: Jill takes $\\frac{1}{10}\\text{ hour}$, and Jack takes $\\frac{1}{4}\\text{ hour}$.\n• **Step 2 (The Guiding Bridge):** Convert both times from hours to minutes by multiplying each fraction by $60\\text{ minutes/hour}$: Jill takes $\\frac{1}{10} \\times 60 = 6\\text{ minutes}$, and Jack takes $\\frac{1}{4} \\times 60 = 15\\text{ minutes}$.\n• **Step 3 (How to Finish):** Subtract Jill's travel time in minutes from Jack's travel time in minutes to find how many minutes earlier Jill arrives.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
     ],
     "answer": "(E) 12",
     "explanation": "There are 2 ways to seat the boys at the two ends (Boy 1 on left/Boy 2 on right or vice versa), and 3 x 2 x 1 = 6 ways to seat the three girls in the middle. Total arrangements = 2 x 6 = 12.",
-    "hint": "**Key Strategy:** Fundamental Counting Principle (Slot Method)\n• **Step 1 (First Move):** Draw $5$ seats in a row: $[\\text{Boy}] - [\\text{Girl}] - [\\text{Girl}] - [\\text{Girl}] - [\\text{Boy}]$. Count the ways to place the $2$ boys in the two end seats: there are $2$ choices for the left end and $1$ choice left for the right end, giving $2 \\times 1 = 2$ ways.\n• **Step 2 (The Guiding Bridge):** Count the ways to arrange the $3$ girls in the three middle seats: $3$ choices for the first middle seat, $2$ choices for the second, and $1$ choice for the third, which gives $3 \\times 2 \\times 1 = 6$ ways.\n• **Step 3 (How to Finish):** Multiply the number of ways to seat the boys at the ends by the number of ways to arrange the girls in the middle to get the total number of arrangements."
+    "hint": "**Key Strategy:** Fundamental Counting Principle (Slot Method)\n• **Step 1 (First Move):** Draw $5$ seats in a row: $[\\text{Boy}] - [\\text{Girl}] - [\\text{Girl}] - [\\text{Girl}] - [\\text{Boy}]$. Count the ways to place the $2$ boys in the two end seats: there are $2$ choices for the left end and $1$ choice left for the right end, giving $2 \\times 1 = 2$ ways.\n• **Step 2 (The Guiding Bridge):** Count the ways to arrange the $3$ girls in the three middle seats: $3$ choices for the first middle seat, $2$ choices for the second, and $1$ choice for the third, which gives $3 \\times 2 \\times 1 = 6$ ways.\n• **Step 3 (How to Finish):** Multiply the number of ways to seat the boys at the ends by the number of ways to arrange the girls in the middle to get the total number of arrangements.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
     ],
     "answer": "(A) range",
     "explanation": "The original range is 73 - 42 = 31. With the new score of 40, the range becomes 73 - 40 = 33, which increases. All other options (mean, median, mode, mid-range) either decrease or stay the same.",
-    "hint": "**Key Strategy:** Comparing Statistical Measures Before and After\n• **Step 1 (First Move):** Find the original values from the sorted list of $11$ scores ($42$ to $73$): the minimum is $42$, the maximum is $73$, the $6\\text{th}$ score (median) is $58$, and the most frequent score (mode) is $58$.\n• **Step 2 (The Guiding Bridge):** Insert the new score of $40$ at the front of the list ($40, 42, 47, \\dots, 73$) and compare each statistic: the **mean** decreases because $40$ is below the old average; the **median** (now the average of the $6\\text{th}$ and $7\\text{th}$ scores, $58$ and $58$) and **mode** ($58$ still appears $3$ times) stay unchanged; only **range** ($\\text{max} - \\text{min}$) and **mid-range** ($\\frac{\\text{max} + \\text{min}}{2}$) change with the new minimum of $40$.\n• **Step 3 (How to Finish):** Compute $\\text{max} - \\text{min}$ and $\\frac{\\text{max} + \\text{min}}{2}$ using the old minimum ($42$) versus the new minimum ($40$) while keeping $\\text{max} = 73$ to see which statistic becomes strictly larger."
+    "hint": "**Key Strategy:** Comparing Statistical Measures Before and After\n• **Step 1 (First Move):** Find the original values from the sorted list of $11$ scores ($42$ to $73$): the minimum is $42$, the maximum is $73$, the $6\\text{th}$ score (median) is $58$, and the most frequent score (mode) is $58$.\n• **Step 2 (The Guiding Bridge):** Insert the new score of $40$ at the front of the list ($40, 42, 47, \\dots, 73$) and compare each statistic: the **mean** decreases because $40$ is below the old average; the **median** (now the average of the $6\\text{th}$ and $7\\text{th}$ scores, $58$ and $58$) and **mode** ($58$ still appears $3$ times) stay unchanged; only **range** ($\\text{max} - \\text{min}$) and **mid-range** ($\\frac{\\text{max} + \\text{min}}{2}$) change with the new minimum of $40$.\n• **Step 3 (How to Finish):** Compute $\\text{max} - \\text{min}$ and $\\frac{\\text{max} + \\text{min}}{2}$ using the old minimum ($42$) versus the new minimum ($40$) while keeping $\\text{max} = 73$ to see which statistic becomes strictly larger.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
     ],
     "answer": "(B) 420",
     "explanation": "Let D be the midpoint of side AC. Then BD is the altitude to AC and triangle BDC is a right triangle with BC = 29 and DC = 21. So BD = sqrt(29^2 - 21^2) = 20. The area of triangle ABC = (1/2) * 20 * 42 = 420.",
-    "hint": "**Key Strategy:** Isosceles Triangle Altitude and Pythagorean Theorem\n• **Step 1 (First Move):** Since $AB = BC = 29$, $\\triangle ABC$ is isosceles. Draw the altitude from $B$ to the midpoint $D$ of base $AC = 42$, splitting the base into two equal halves of length $AD = DC = 42 \\div 2 = 21$.\n• **Step 2 (The Guiding Bridge):** Apply the Pythagorean theorem to right triangle $\\triangle BDC$ with hypotenuse $BC = 29$ and leg $DC = 21$ to find the height $BD$: $BD^2 + 21^2 = 29^2$, so $BD = \\sqrt{29^2 - 21^2}$ (tip: factor $29^2 - 21^2 = (29 - 21)(29 + 21)$).\n• **Step 3 (How to Finish):** Use $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ with base $AC = 42$ and the height $BD$ you just found."
+    "hint": "**Key Strategy:** Isosceles Triangle Altitude and Pythagorean Theorem\n• **Step 1 (First Move):** Since $AB = BC = 29$, $\\triangle ABC$ is isosceles. Draw the altitude from $B$ to the midpoint $D$ of base $AC = 42$, splitting the base into two equal halves of length $AD = DC = 42 \\div 2 = 21$.\n• **Step 2 (The Guiding Bridge):** Apply the Pythagorean theorem to right triangle $\\triangle BDC$ with hypotenuse $BC = 29$ and leg $DC = 21$ to find the height $BD$: $BD^2 + 21^2 = 29^2$, so $BD = \\sqrt{29^2 - 21^2}$ (tip: factor $29^2 - 21^2 = (29 - 21)(29 + 21)$).\n• **Step 3 (How to Finish):** Use $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ with base $AC = 42$ and the height $BD$ you just found.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
     ],
     "answer": "(E) 5/9",
     "explanation": "The only way the product of the two values could be odd is if an odd number is drawn from each box. The probability that this occurs is (2/3) * (2/3) = 4/9. So the probability that the product is even is 1 - 4/9 = 5/9.",
-    "hint": "**Key Strategy:** Complementary Counting (Probability of the Opposite Event)\n• **Step 1 (First Move):** A product of two whole numbers is even whenever at least one factor is even, so look at the opposite event instead: the product is **odd** only when *both* drawn chips are odd.\n• **Step 2 (The Guiding Bridge):** In each box of $\\{1, 2, 3\\}$, there are $2$ odd chips ($1$ and $3$) out of $3$, so the probability of drawing an odd chip from one box is $\\frac{2}{3}$. Multiply $\\frac{2}{3} \\times \\frac{2}{3}$ to find the probability that both chips are odd (an odd product).\n• **Step 3 (How to Finish):** Subtract the probability of an odd product from $1$ using $1 - P(\\text{odd product})$ to get the probability that the product is even."
+    "hint": "**Key Strategy:** Complementary Counting (Probability of the Opposite Event)\n• **Step 1 (First Move):** A product of two whole numbers is even whenever at least one factor is even, so look at the opposite event instead: the product is **odd** only when *both* drawn chips are odd.\n• **Step 2 (The Guiding Bridge):** In each box of $\\{1, 2, 3\\}$, there are $2$ odd chips ($1$ and $3$) out of $3$, so the probability of drawing an odd chip from one box is $\\frac{2}{3}$. Multiply $\\frac{2}{3} \\times \\frac{2}{3}$ to find the probability that both chips are odd (an odd product).\n• **Step 3 (How to Finish):** Subtract the probability of an odd product from $1$ using $1 - P(\\text{odd product})$ to get the probability that the product is even.",
+    "category": "Counting & Probability"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
     ],
     "answer": "(D) 48",
     "explanation": "Let t be the length of the third side of the triangle. By the Triangle Inequality, t < 5 + 19 = 24. So the perimeter 5 + 19 + t < 5 + 19 + (5 + 19) = 48.",
-    "hint": "**Key Strategy:** Triangle Inequality Theorem\n• **Step 1 (First Move):** Let $t$ be the length of the third side. By the Triangle Inequality, the sum of two sides must be strictly greater than the third side, so $t < 5 + 19 = 24$.\n• **Step 2 (The Guiding Bridge):** Write the perimeter of the triangle as $P = 5 + 19 + t = 24 + t$. Because $t$ must be strictly less than $24$ (though it can be arbitrarily close to $24$), substitute the upper bound $t < 24$ into the perimeter expression.\n• **Step 3 (How to Finish):** Compute $24 + 24$, which is the exact upper limit that every possible perimeter stays strictly below, giving the smallest whole number larger than any such perimeter."
+    "hint": "**Key Strategy:** Triangle Inequality Theorem\n• **Step 1 (First Move):** Let $t$ be the length of the third side. By the Triangle Inequality, the sum of two sides must be strictly greater than the third side, so $t < 5 + 19 = 24$.\n• **Step 2 (The Guiding Bridge):** Write the perimeter of the triangle as $P = 5 + 19 + t = 24 + t$. Because $t$ must be strictly less than $24$ (though it can be arbitrarily close to $24$), substitute the upper bound $t < 24$ into the perimeter expression.\n• **Step 3 (How to Finish):** Compute $24 + 24$, which is the exact upper limit that every possible perimeter stays strictly below, giving the smallest whole number larger than any such perimeter.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
     ],
     "answer": "(D) 400",
     "explanation": "The sum of the first 20 odd numbers is equal to 20^2 = 400.",
-    "hint": "**Key Strategy:** Sum of Consecutive Odd Numbers (Pattern Recognition)\n• **Step 1 (First Move):** List the first few running totals of widgets sold: Day $1$: $1 = 1^2$; Days $1\\text{–}2$: $1 + 3 = 4 = 2^2$; Days $1\\text{–}3$: $1 + 3 + 5 = 9 = 3^2$; Days $1\\text{–}4$: $1 + 3 + 5 + 7 = 16 = 4^2$.\n• **Step 2 (The Guiding Bridge):** Notice the pattern: the sum of the first $n$ consecutive odd integers starting from $1$ is always $n^2$. (Alternatively, pair Day $1$'s $1$ with Day $20$'s $2(20) - 1 = 39$ to form $10$ pairs summing to $40$ each.)\n• **Step 3 (How to Finish):** Evaluate $n^2$ for $n = 20$ days (or multiply $10 \\times 40$) to find the total number of widgets sold."
+    "hint": "**Key Strategy:** Sum of Consecutive Odd Numbers (Pattern Recognition)\n• **Step 1 (First Move):** List the first few running totals of widgets sold: Day $1$: $1 = 1^2$; Days $1\\text{–}2$: $1 + 3 = 4 = 2^2$; Days $1\\text{–}3$: $1 + 3 + 5 = 9 = 3^2$; Days $1\\text{–}4$: $1 + 3 + 5 + 7 = 16 = 4^2$.\n• **Step 2 (The Guiding Bridge):** Notice the pattern: the sum of the first $n$ consecutive odd integers starting from $1$ is always $n^2$. (Alternatively, pair Day $1$'s $1$ with Day $20$'s $2(20) - 1 = 39$ to form $10$ pairs summing to $40$ each.)\n• **Step 3 (How to Finish):** Evaluate $n^2$ for $n = 20$ days (or multiply $10 \\times 40$) to find the total number of widgets sold.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
     ],
     "answer": "(B) 4536",
     "explanation": "The thousands position can be filled by 9 digits (1-9). The hundreds position by 9 remaining digits (including 0), tens position by 8, and ones position by 7. Total integers = 9 * 9 * 8 * 7 = 4536.",
-    "hint": "**Key Strategy:** Fundamental Counting Principle (Digit-by-Digit Choices)\n• **Step 1 (First Move):** A $4$-digit integer between $1000$ and $9999$ has four places: thousands, hundreds, tens, and ones. Start with the thousands place: it cannot be $0$, so there are $9$ choices ($1$ through $9$).\n• **Step 2 (The Guiding Bridge):** Move left to right using distinct digits from $\\{0, 1, \\dots, 9\\}$: for the hundreds place, $0$ is now allowed and $1$ digit is already used, leaving $10 - 1 = 9$ choices; for the tens place, $2$ digits are used, leaving $8$ choices; for the ones place, $3$ digits are used, leaving $7$ choices.\n• **Step 3 (How to Finish):** Multiply the number of choices for all four positions together: $9 \\times 9 \\times 8 \\times 7$."
+    "hint": "**Key Strategy:** Fundamental Counting Principle (Digit-by-Digit Choices)\n• **Step 1 (First Move):** A $4$-digit integer between $1000$ and $9999$ has four places: thousands, hundreds, tens, and ones. Start with the thousands place: it cannot be $0$, so there are $9$ choices ($1$ through $9$).\n• **Step 2 (The Guiding Bridge):** Move left to right using distinct digits from $\\{0, 1, \\dots, 9\\}$: for the hundreds place, $0$ is now allowed and $1$ digit is already used, leaving $10 - 1 = 9$ choices; for the tens place, $2$ digits are used, leaving $8$ choices; for the ones place, $3$ digits are used, leaving $7$ choices.\n• **Step 3 (How to Finish):** Multiply the number of choices for all four positions together: $9 \\times 9 \\times 8 \\times 7$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
     ],
     "answer": "(B) 1/21000",
     "explanation": "Total possible plates = 5 (vowels) * 21 (first consonant) * 20 (second consonant) * 10 (digits) = 21,000. Only one plate reads 'AMC8', so the probability is 1/21,000.",
-    "hint": "**Key Strategy:** Counting Total Outcomes for Probability\n• **Step 1 (First Move):** Count the choices for each of the four symbols on a valid plate: $5$ choices for the first symbol (vowel), $21$ choices for the second symbol (non-vowel), $20$ choices for the third symbol (a *different* non-vowel), and $10$ choices for the fourth symbol (digit $0\\text{–}9$).\n• **Step 2 (The Guiding Bridge):** Multiply the choices for the four positions ($5 \\times 21 \\times 20 \\times 10$) to find the total number of possible plates. Verify that `'AMC8'` is a valid plate (`A` is a vowel, `M` and `C` are two distinct non-vowels, `8` is a digit), so it counts as $1$ favorable outcome.\n• **Step 3 (How to Finish):** Compute $5 \\times 21 \\times 20 \\times 10$ to get the denominator and form the probability fraction $\\frac{1}{\\text{total valid plates}}$."
+    "hint": "**Key Strategy:** Counting Total Outcomes for Probability\n• **Step 1 (First Move):** Count the choices for each of the four symbols on a valid plate: $5$ choices for the first symbol (vowel), $21$ choices for the second symbol (non-vowel), $20$ choices for the third symbol (a *different* non-vowel), and $10$ choices for the fourth symbol (digit $0\\text{–}9$).\n• **Step 2 (The Guiding Bridge):** Multiply the choices for the four positions ($5 \\times 21 \\times 20 \\times 10$) to find the total number of possible plates. Verify that `'AMC8'` is a valid plate (`A` is a vowel, `M` and `C` are two distinct non-vowels, `8` is a digit), so it counts as $1$ favorable outcome.\n• **Step 3 (How to Finish):** Compute $5 \\times 21 \\times 20 \\times 10$ to get the denominator and form the probability fraction $\\frac{1}{\\text{total valid plates}}$.",
+    "category": "Counting & Probability"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     ],
     "answer": "(C) 18",
     "explanation": "Each of the 12 edges of a cube is parallel to 3 other edges, giving 36 pairs. Dividing by 2 because each pair is counted twice, we get 18 pairs of parallel edges.",
-    "hint": "**Key Strategy:** Grouping by Direction and Combinations\n• **Step 1 (First Move):** Group the $12$ edges of a cube by direction: there are $3$ directions (vertical, left-to-right, and front-to-back), with $4$ parallel edges in each group.\n• **Step 2 (The Guiding Bridge):** Two edges are parallel only if they lie in the same group of $4$. Within a single group of $4$ parallel edges, count how many pairs of edges you can form: $\\frac{4 \\times 3}{2} = 6$ pairs.\n• **Step 3 (How to Finish):** Multiply the $6$ pairs in one direction by the $3$ different edge directions on the cube."
+    "hint": "**Key Strategy:** Grouping by Direction and Combinations\n• **Step 1 (First Move):** Group the $12$ edges of a cube by direction: there are $3$ directions (vertical, left-to-right, and front-to-back), with $4$ parallel edges in each group.\n• **Step 2 (The Guiding Bridge):** Two edges are parallel only if they lie in the same group of $4$. Within a single group of $4$ parallel edges, count how many pairs of edges you can form: $\\frac{4 \\times 3}{2} = 6$ pairs.\n• **Step 3 (How to Finish):** Multiply the $6$ pairs in one direction by the $3$ different edge directions on the cube.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
     ],
     "answer": "(D) 5",
     "explanation": "Sum of remaining 9 numbers must be 9 * 6 = 54. Original sum is 66, so the sum of the two removed numbers must be 66 - 54 = 12. The pairs summing to 12 are: {1,11}, {2,10}, {3,9}, {4,8}, and {5,7} (total 5 subsets).",
-    "hint": "**Key Strategy:** Working Backwards from the Sum (Average Formula)\n• **Step 1 (First Move):** Find the sum of all $11$ numbers in $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11\\}$ using $\\frac{11 \\times (1 + 11)}{2} = 66$.\n• **Step 2 (The Guiding Bridge):** If the $9$ remaining numbers have a mean of $6$, their sum must be $9 \\times 6 = 54$. Subtract $54$ from the original sum $66$ to find the required sum of the two removed numbers ($66 - 54 = 12$).\n• **Step 3 (How to Finish):** List and count all distinct pairs $\\{a, b\\}$ of two different numbers from $\\{1, 2, \\dots, 11\\}$ that satisfy $a + b = 12$ (remembering $\\{6, 6\\}$ is not allowed)."
+    "hint": "**Key Strategy:** Working Backwards from the Sum (Average Formula)\n• **Step 1 (First Move):** Find the sum of all $11$ numbers in $\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11\\}$ using $\\frac{11 \\times (1 + 11)}{2} = 66$.\n• **Step 2 (The Guiding Bridge):** If the $9$ remaining numbers have a mean of $6$, their sum must be $9 \\times 6 = 54$. Subtract $54$ from the original sum $66$ to find the required sum of the two removed numbers ($66 - 54 = 12$).\n• **Step 3 (How to Finish):** List and count all distinct pairs $\\{a, b\\}$ of two different numbers from $\\{1, 2, \\dots, 11\\}$ that satisfy $a + b = 12$ (remembering $\\{6, 6\\}$ is not allowed).",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
     ],
     "answer": "(D) 100",
     "explanation": "The sum of 4 consecutive odd integers is always a multiple of 8: (2n-3) + (2n-1) + (2n+1) + (2n+3) = 8n. Among the choices, only 100 is not divisible by 8.",
-    "hint": "**Key Strategy:** Algebraic Representation and Divisibility\n• **Step 1 (First Move):** Write any four consecutive odd integers symmetrically around an even integer $2n$ as $(2n - 3)$, $(2n - 1)$, $(2n + 1)$, and $(2n + 3)$ (for example, $1 + 3 + 5 + 7 = 16$).\n• **Step 2 (The Guiding Bridge):** Add the four expressions together: $(2n - 3) + (2n - 1) + (2n + 1) + (2n + 3) = 8n$. Since $n$ is an integer, the sum of any four consecutive odd integers must always be divisible by $8$.\n• **Step 3 (How to Finish):** Test each of the five options ($16, 40, 72, 100, 200$) by dividing by $8$ to find the single number that is not a multiple of $8$."
+    "hint": "**Key Strategy:** Algebraic Representation and Divisibility\n• **Step 1 (First Move):** Write any four consecutive odd integers symmetrically around an even integer $2n$ as $(2n - 3)$, $(2n - 1)$, $(2n + 1)$, and $(2n + 3)$ (for example, $1 + 3 + 5 + 7 = 16$).\n• **Step 2 (The Guiding Bridge):** Add the four expressions together: $(2n - 3) + (2n - 1) + (2n + 1) + (2n + 3) = 8n$. Since $n$ is an integer, the sum of any four consecutive odd integers must always be divisible by $8$.\n• **Step 3 (How to Finish):** Test each of the five options ($16, 40, 72, 100, 200$) by dividing by $8$ to find the single number that is not a multiple of $8$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
     ],
     "answer": "(D) 99",
     "explanation": "Total students voting or against both = 198 - 29 = 169 students voted for at least one issue. By Principle of Inclusion-Exclusion: 149 + 119 - both = 169 => both = 268 - 169 = 99.",
-    "hint": "**Key Strategy:** Principle of Inclusion-Exclusion (Venn Diagram)\n• **Step 1 (First Move):** Subtract the $29$ students who voted against both issues from the $198$ total students: $198 - 29 = 169$ students voted in favor of at least one issue.\n• **Step 2 (The Guiding Bridge):** Add the two individual counts: $149 + 119 = 268$. Since students who voted in favor of *both* issues are counted twice in $268$, apply Inclusion-Exclusion: $149 + 119 - (\\text{both}) = 169$.\n• **Step 3 (How to Finish):** Subtract $169$ from $268$ ($268 - 169$) to find the number of students who voted in favor of both issues."
+    "hint": "**Key Strategy:** Principle of Inclusion-Exclusion (Venn Diagram)\n• **Step 1 (First Move):** Subtract the $29$ students who voted against both issues from the $198$ total students: $198 - 29 = 169$ students voted in favor of at least one issue.\n• **Step 2 (The Guiding Bridge):** Add the two individual counts: $149 + 119 = 268$. Since students who voted in favor of *both* issues are counted twice in $268$, apply Inclusion-Exclusion: $149 + 119 - (\\text{both}) = 169$.\n• **Step 3 (How to Finish):** Subtract $169$ from $268$ ($268 - 169$) to find the number of students who voted in favor of both issues.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
     ],
     "answer": "(B) 4/11",
     "explanation": "Let n students be paired. Total sixth graders = (5/2)n, total ninth graders = 3n. Total students = 11/2 n. Paired students = 2n. Ratio = 2n / (11/2 n) = 4/11.",
-    "hint": "**Key Strategy:** Common Numerator / Variable for Pairs\n• **Step 1 (First Move):** Because each ninth grader is paired with at most one sixth grader, the number of paired ninth graders equals the number of paired sixth graders. Since $\\frac{2}{5}$ and $\\frac{2}{6}$ already share the numerator $2$, let $2k$ be the number of buddy pairs (so $2k$ ninth graders and $2k$ sixth graders have a buddy).\n• **Step 2 (The Guiding Bridge):** If $2k$ equals $\\frac{2}{5}$ of all ninth graders, then there are $5k$ ninth graders in total. Similarly, if $2k$ equals $\\frac{2}{6}$ of all sixth graders, then there are $6k$ sixth graders in total.\n• **Step 3 (How to Finish):** Form the fraction $\\frac{\\text{total paired students}}{\\text{total students}} = \\frac{2k + 2k}{5k + 6k}$, add the like terms in the numerator and denominator, and cancel $k$."
+    "hint": "**Key Strategy:** Common Numerator / Variable for Pairs\n• **Step 1 (First Move):** Because each ninth grader is paired with at most one sixth grader, the number of paired ninth graders equals the number of paired sixth graders. Since $\\frac{2}{5}$ and $\\frac{2}{6}$ already share the numerator $2$, let $2k$ be the number of buddy pairs (so $2k$ ninth graders and $2k$ sixth graders have a buddy).\n• **Step 2 (The Guiding Bridge):** If $2k$ equals $\\frac{2}{5}$ of all ninth graders, then there are $5k$ ninth graders in total. Similarly, if $2k$ equals $\\frac{2}{6}$ of all sixth graders, then there are $6k$ sixth graders in total.\n• **Step 3 (How to Finish):** Form the fraction $\\frac{\\text{total paired students}}{\\text{total students}} = \\frac{2k + 2k}{5k + 6k}$, add the like terms in the numerator and denominator, and cancel $k$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
     ],
     "answer": "(D) 9",
     "explanation": "New time is 12/20 = 3/5 of original time, so speed is 5/3 of original. The increase of 18 mph equals 2/3 of original speed, meaning original speed is 27 mph. Distance = 27 * (20/60) = 9 miles.",
-    "hint": "**Key Strategy:** Inverse Ratio of Speed and Time (Constant Distance)\n• **Step 1 (First Move):** Compare the two travel times for the same distance: $12\\text{ minutes}$ compared to $20\\text{ minutes}$ is the fraction $\\frac{12}{20} = \\frac{3}{5}$ of the rush-hour time.\n• **Step 2 (The Guiding Bridge):** Since $\\text{Distance} = \\text{Speed} \\times \\text{Time}$ stays constant, taking $\\frac{3}{5}$ of the time means the faster speed is $\\frac{5}{3}$ of the rush-hour speed $v$. Thus the $18\\text{ mph}$ increase equals $\\left(\\frac{5}{3} - 1\\right)v = \\frac{2}{3}v$. Solve $\\frac{2}{3}v = 18$ to get the rush-hour speed $v$.\n• **Step 3 (How to Finish):** Convert the rush-hour time of $20\\text{ minutes}$ to $\\frac{20}{60} = \\frac{1}{3}\\text{ hour}$, and multiply your rush-hour speed $v$ by $\\frac{1}{3}$ to find the distance in miles."
+    "hint": "**Key Strategy:** Inverse Ratio of Speed and Time (Constant Distance)\n• **Step 1 (First Move):** Compare the two travel times for the same distance: $12\\text{ minutes}$ compared to $20\\text{ minutes}$ is the fraction $\\frac{12}{20} = \\frac{3}{5}$ of the rush-hour time.\n• **Step 2 (The Guiding Bridge):** Since $\\text{Distance} = \\text{Speed} \\times \\text{Time}$ stays constant, taking $\\frac{3}{5}$ of the time means the faster speed is $\\frac{5}{3}$ of the rush-hour speed $v$. Thus the $18\\text{ mph}$ increase equals $\\left(\\frac{5}{3} - 1\\right)v = \\frac{2}{3}v$. Solve $\\frac{2}{3}v = 18$ to get the rush-hour speed $v$.\n• **Step 3 (How to Finish):** Convert the rush-hour time of $20\\text{ minutes}$ to $\\frac{20}{60} = \\frac{1}{3}\\text{ hour}$, and multiply your rush-hour speed $v$ by $\\frac{1}{3}$ to find the distance in miles.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
     ],
     "answer": "(B) 31",
     "explanation": "The center entry of a 5x5 arithmetic array is the average of opposite corners or midpoints. X is the average of 13 and 49 (or 9 and 53), which equals 31.",
-    "hint": "**Key Strategy:** Midpoint Average Property of Arithmetic Sequences\n• **Step 1 (First Move):** Recall that in any $5$-term arithmetic sequence $a_1, a_2, a_3, a_4, a_5$, the middle ($3$rd) term is the average of the $1$st and $5$th terms: $a_3 = \\frac{a_1 + a_5}{2}$. Use the given corner numbers in the top row and bottom row of your $5 \\times 5$ grid to compute the middle entry of the top row (row $1$, column $3$) and the middle entry of the bottom row (row $5$, column $3$).\n• **Step 2 (The Guiding Bridge):** Notice that column $3$ is also a $5$-term arithmetic sequence running vertically from the middle of the top row to the middle of the bottom row, and $X$ is its middle ($3$rd) term.\n• **Step 3 (How to Finish):** Average the middle entry of the top row and the middle entry of the bottom row using $\\frac{\\text{top middle} + \\text{bottom middle}}{2}$ to find $X$."
+    "hint": "**Key Strategy:** Midpoint Average Property of Arithmetic Sequences\n• **Step 1 (First Move):** Recall that in any $5$-term arithmetic sequence $a_1, a_2, a_3, a_4, a_5$, the middle ($3$rd) term is the average of the $1$st and $5$th terms: $a_3 = \\frac{a_1 + a_5}{2}$. Use the given corner numbers in the top row and bottom row of your $5 \\times 5$ grid to compute the middle entry of the top row (row $1$, column $3$) and the middle entry of the bottom row (row $5$, column $3$).\n• **Step 2 (The Guiding Bridge):** Notice that column $3$ is also a $5$-term arithmetic sequence running vertically from the middle of the top row to the middle of the bottom row, and $X$ is its middle ($3$rd) term.\n• **Step 3 (How to Finish):** Average the middle entry of the top row and the middle entry of the bottom row using $\\frac{\\text{top middle} + \\text{bottom middle}}{2}$ to find $X$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
     ],
     "answer": "(A) 1/6",
     "explanation": "Using a bounding 4x3 rectangle (area 12) and subtracting surrounding right triangles, the area of triangle ABC is 5. Total grid area is 6 x 5 = 30. Fraction = 5/30 = 1/6.",
-    "hint": "**Key Strategy:** Bounding Rectangle (Area Subtraction)\n• **Step 1 (First Move):** Enclose $\\triangle ABC$ inside the smallest grid-aligned rectangle: $x$ runs from $1$ to $5$ (width $4$) and $y$ runs from $1$ to $4$ (height $3$), giving a bounding rectangle area of $4 \\times 3 = 12$.\n• **Step 2 (The Guiding Bridge):** Compute the areas of the three right triangles inside the rectangle outside $\\triangle ABC$: bottom-left (legs $4$ and $2$) has area $\\frac{1}{2}(4)(2) = 4$; top-left (legs $3$ and $1$) has area $\\frac{1}{2}(3)(1) = 1.5$; right (legs $1$ and $3$) has area $\\frac{1}{2}(1)(3) = 1.5$. Subtract these three areas from $12$ to get the area of $\\triangle ABC$.\n• **Step 3 (How to Finish):** Divide the area of $\\triangle ABC$ by the total area of the $6 \\times 5$ grid ($6 \\times 5 = 30$) and simplify the fraction."
+    "hint": "**Key Strategy:** Bounding Rectangle (Area Subtraction)\n• **Step 1 (First Move):** Enclose $\\triangle ABC$ inside the smallest grid-aligned rectangle: $x$ runs from $1$ to $5$ (width $4$) and $y$ runs from $1$ to $4$ (height $3$), giving a bounding rectangle area of $4 \\times 3 = 12$.\n• **Step 2 (The Guiding Bridge):** Compute the areas of the three right triangles inside the rectangle outside $\\triangle ABC$: bottom-left (legs $4$ and $2$) has area $\\frac{1}{2}(4)(2) = 4$; top-left (legs $3$ and $1$) has area $\\frac{1}{2}(3)(1) = 1.5$; right (legs $1$ and $3$) has area $\\frac{1}{2}(1)(3) = 1.5$. Subtract these three areas from $12$ to get the area of $\\triangle ABC$.\n• **Step 3 (How to Finish):** Divide the area of $\\triangle ABC$ by the total area of the $6 \\times 5$ grid ($6 \\times 5 = 30$) and simplify the fraction.",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
     ],
     "answer": "(D) 7",
     "explanation": "Let a, b, c be pairs of $1, $3, $4 socks. a + b + c = 12 and a + 3b + 4c = 24. Subtracting gives 2b + 3c = 12. Since b, c >= 1, the solution is b=3, c=2, and a=7.",
-    "hint": "**Key Strategy:** System of Equations with Integer Constraints (Elimination)\n• **Step 1 (First Move):** Let $a, b, c$ be the numbers of $\\$1, \\$3,$ and $\\$4$ sock pairs. Write the two equations:\n  $$a + b + c = 12 \\quad\\text{and}\\quad 1a + 3b + 4c = 24$$\n• **Step 2 (The Guiding Bridge):** Subtract the first equation from the second to eliminate $a$: $(a + 3b + 4c) - (a + b + c) = 24 - 12$, giving $2b + 3c = 12$. Since $b \\ge 1$ and $c \\ge 1$ are positive integers and $2b$ and $12$ are even, $3c$ must be even, so test even integers $c = 2, 4, \\dots$ to find the unique positive solution for $(b, c)$.\n• **Step 3 (How to Finish):** Substitute your values of $b$ and $c$ into $a + b + c = 12$ and calculate $a = 12 - b - c$."
+    "hint": "**Key Strategy:** System of Equations with Integer Constraints (Elimination)\n• **Step 1 (First Move):** Let $a, b, c$ be the numbers of $\\$1, \\$3,$ and $\\$4$ sock pairs. Write the two equations:\n  $$a + b + c = 12 \\quad\\text{and}\\quad 1a + 3b + 4c = 24$$\n• **Step 2 (The Guiding Bridge):** Subtract the first equation from the second to eliminate $a$: $(a + 3b + 4c) - (a + b + c) = 24 - 12$, giving $2b + 3c = 12$. Since $b \\ge 1$ and $c \\ge 1$ are positive integers and $2b$ and $12$ are even, $3c$ must be even, so test even integers $c = 2, 4, \\dots$ to find the unique positive solution for $(b, c)$.\n• **Step 3 (How to Finish):** Substitute your values of $b$ and $c$ into $a + b + c = 12$ and calculate $a = 12 - b - c$.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
     ],
     "answer": "(C) 12",
     "explanation": "KB = sqrt(18) = 3*sqrt(2) and BC = sqrt(32) = 4*sqrt(2). Angle KBC = 90 degrees. Area = (1/2) * 3*sqrt(2) * 4*sqrt(2) = 12.",
-    "hint": "**Key Strategy:** Angle Chasing Around a Vertex and Right Triangle Area\n• **Step 1 (First Move):** Find the side lengths from the square areas: $KB = JB = AB = \\sqrt{18}$ (since $\\triangle JBK$ is equilateral on side $JB$ of square $ABJI$), and $BC = FE = \\sqrt{32}$ (from square $FEHG$).\n• **Step 2 (The Guiding Bridge):** Find $\\angle KBC$ using the $360^\\circ$ around vertex $B$: each interior angle of equiangular hexagon $ABCDEF$ is $\\frac{(6 - 2) \\times 180^\\circ}{6} = 120^\\circ$ ($\\angle ABC = 120^\\circ$), square $ABJI$ gives $\\angle JBA = 90^\\circ$, and equilateral $\\triangle JBK$ gives $\\angle JBK = 60^\\circ$. Subtract $120^\\circ + 90^\\circ + 60^\\circ = 270^\\circ$ from $360^\\circ$ to see that $\\angle KBC = 90^\\circ$.\n• **Step 3 (How to Finish):** Calculate the right triangle's area $\\frac{1}{2} \\times KB \\times BC = \\frac{1}{2} \\times \\sqrt{18} \\times \\sqrt{32}$ (tip: simplify $\\sqrt{18 \\times 32} = \\sqrt{(9 \\times 2) \\times (16 \\times 2)} = 3 \\times 4 \\times 2$, then multiply by $\\frac{1}{2}$)."
+    "hint": "**Key Strategy:** Angle Chasing Around a Vertex and Right Triangle Area\n• **Step 1 (First Move):** Find the side lengths from the square areas: $KB = JB = AB = \\sqrt{18}$ (since $\\triangle JBK$ is equilateral on side $JB$ of square $ABJI$), and $BC = FE = \\sqrt{32}$ (from square $FEHG$).\n• **Step 2 (The Guiding Bridge):** Find $\\angle KBC$ using the $360^\\circ$ around vertex $B$: each interior angle of equiangular hexagon $ABCDEF$ is $\\frac{(6 - 2) \\times 180^\\circ}{6} = 120^\\circ$ ($\\angle ABC = 120^\\circ$), square $ABJI$ gives $\\angle JBA = 90^\\circ$, and equilateral $\\triangle JBK$ gives $\\angle JBK = 60^\\circ$. Subtract $120^\\circ + 90^\\circ + 60^\\circ = 270^\\circ$ from $360^\\circ$ to see that $\\angle KBC = 90^\\circ$.\n• **Step 3 (How to Finish):** Calculate the right triangle's area $\\frac{1}{2} \\times KB \\times BC = \\frac{1}{2} \\times \\sqrt{18} \\times \\sqrt{32}$ (tip: simplify $\\sqrt{18 \\times 32} = \\sqrt{(9 \\times 2) \\times (16 \\times 2)} = 3 \\times 4 \\times 2$, then multiply by $\\frac{1}{2}$).",
+    "category": "Geometry & Spatial"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
     ],
     "answer": "(C) 60",
     "explanation": "The number of students must have exactly 12 divisors (since it can be arranged 12 different ways up to June 12, but fails on June 13 meaning it has only 12 divisors). The smallest number with 12 divisors is 60.",
-    "hint": "**Key Strategy:** Number of Divisors Formula (Prime Factorization)\n• **Step 1 (First Move):** Each valid row arrangement corresponds to a divisor of the number of students $N$. Succeeding for $12$ days (June 1–12) and failing on June 13 means $N$ has *exactly* $12$ positive divisors, and June 1 tells us $N$ is a multiple of $15 = 3 \\times 5$.\n• **Step 2 (The Guiding Bridge):** For a prime factorization $N = p_1^{e_1} p_2^{e_2} \\cdots$, the number of divisors is $(e_1 + 1)(e_2 + 1)\\cdots = 12$. Factor $12$ into integers $\\ge 2$ (such as $12$, $6 \\times 2$, $4 \\times 3$, or $3 \\times 2 \\times 2$) to get the possible exponent sets, keeping in mind $N$ must include primes $3$ and $5$ (and can also use the smallest prime $2$).\n• **Step 3 (How to Finish):** Test the smallest exponent combinations on primes $2, 3,$ and $5$—for instance, exponents $(2, 1, 1)$ versus $(3, 2)$ or $(5, 1)$ on pairs/triples of primes containing $3$ and $5$—and compute the smallest product that has $12$ divisors."
+    "hint": "**Key Strategy:** Number of Divisors Formula (Prime Factorization)\n• **Step 1 (First Move):** Each valid row arrangement corresponds to a divisor of the number of students $N$. Succeeding for $12$ days (June 1–12) and failing on June 13 means $N$ has *exactly* $12$ positive divisors, and June 1 tells us $N$ is a multiple of $15 = 3 \\times 5$.\n• **Step 2 (The Guiding Bridge):** For a prime factorization $N = p_1^{e_1} p_2^{e_2} \\cdots$, the number of divisors is $(e_1 + 1)(e_2 + 1)\\cdots = 12$. Factor $12$ into integers $\\ge 2$ (such as $12$, $6 \\times 2$, $4 \\times 3$, or $3 \\times 2 \\times 2$) to get the possible exponent sets, keeping in mind $N$ must include primes $3$ and $5$ (and can also use the smallest prime $2$).\n• **Step 3 (How to Finish):** Test the smallest exponent combinations on primes $2, 3,$ and $5$—for instance, exponents $(2, 1, 1)$ versus $(3, 2)$ or $(5, 1)$ on pairs/triples of primes containing $3$ and $5$—and compute the smallest product that has $12$ divisors.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
     ],
     "answer": "(D) D",
     "explanation": "Total sum is 35, so cup sums are 5, 6, 7, 8, 9. Testing constraints, 3.5 must go into Cup D.",
-    "hint": "**Key Strategy:** Total Sum and Decimal/Remainder Elimination\n• **Step 1 (First Move):** Add all twelve slip numbers: $2+2+2+2.5+2.5+3+3+3+3+3.5+4+4.5 = 35$. Since the $5$ cup sums are consecutive integers, their middle sum is $35 \\div 5 = 7$, so cups $A, B, C, D, E$ have target sums $5, 6, 7, 8,$ and $9$ in order.\n• **Step 2 (The Guiding Bridge):** Suppose $3.5$ goes into each cup and calculate the remaining sum still needed (remembering $B$ already has $3$, $E$ already has $2$, and every unused slip is at least $2$):\n  - Cup $A$ ($5$): needs $5 - 3.5 = 1.5$.\n  - Cup $B$ ($6$, already has $3$): $3 + 3.5 = 6.5$.\n  - Cup $C$ ($7$): needs $7 - 3.5 = 3.5$.\n  - Cup $D$ ($8$): needs $8 - 3.5 = 4.5$.\n  - Cup $E$ ($9$, already has $2$): needs $9 - 2 - 3.5 = 3.5$.\n• **Step 3 (How to Finish):** Rule out every cup whose remaining needed sum cannot be built from the remaining slips (there is no $1.5$, no second $3.5$, and any $2$ or more slips sum to at least $2 + 2 = 4$) to find the only cup that can hold $3.5$."
+    "hint": "**Key Strategy:** Total Sum and Decimal/Remainder Elimination\n• **Step 1 (First Move):** Add all twelve slip numbers: $2+2+2+2.5+2.5+3+3+3+3+3.5+4+4.5 = 35$. Since the $5$ cup sums are consecutive integers, their middle sum is $35 \\div 5 = 7$, so cups $A, B, C, D, E$ have target sums $5, 6, 7, 8,$ and $9$ in order.\n• **Step 2 (The Guiding Bridge):** Suppose $3.5$ goes into each cup and calculate the remaining sum still needed (remembering $B$ already has $3$, $E$ already has $2$, and every unused slip is at least $2$):\n  - Cup $A$ ($5$): needs $5 - 3.5 = 1.5$.\n  - Cup $B$ ($6$, already has $3$): $3 + 3.5 = 6.5$.\n  - Cup $C$ ($7$): needs $7 - 3.5 = 3.5$.\n  - Cup $D$ ($8$): needs $8 - 3.5 = 4.5$.\n  - Cup $E$ ($9$, already has $2$): needs $9 - 2 - 3.5 = 3.5$.\n• **Step 3 (How to Finish):** Rule out every cup whose remaining needed sum cannot be built from the remaining slips (there is no $1.5$, no second $3.5$, and any $2$ or more slips sum to at least $2 + 2 = 4$) to find the only cup that can hold $3.5$.",
+    "category": "Number Theory & Arithmetic"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
     ],
     "answer": "(B) 48",
     "explanation": "Total games = 3N + 4M = 76. Testing constraints with M > 4 and N > 2M yields N = 16, M = 7. Games within division = 3 * 16 = 48.",
-    "hint": "**Key Strategy:** Linear Diophantine Equation with Inequalities\n• **Step 1 (First Move):** Count one team's opponents: $4 - 1 = 3$ other teams in its own division ($N$ games each) and $4$ teams in the other division ($M$ games each), giving $3N + 4M = 76$.\n• **Step 2 (The Guiding Bridge):** Rewrite the equation as $3N = 76 - 4M = 4(19 - M)$, which shows $N$ must be a multiple of $4$ and $19 - M$ must be a multiple of $3$. Also use $N > 2M$ in $3N + 4M = 76$ to get $3(2M) + 4M < 76$, or $10M < 76$, narrowing $M > 4$ down to $M \\in \\{5, 6, 7\\}$.\n• **Step 3 (How to Finish):** Check $M = 5, 6, 7$ in $3N = 76 - 4M$ to find the integer pair $(M, N)$ that satisfies $N > 2M$, and then multiply $3 \\times N$ to get the number of games played within the division."
+    "hint": "**Key Strategy:** Linear Diophantine Equation with Inequalities\n• **Step 1 (First Move):** Count one team's opponents: $4 - 1 = 3$ other teams in its own division ($N$ games each) and $4$ teams in the other division ($M$ games each), giving $3N + 4M = 76$.\n• **Step 2 (The Guiding Bridge):** Rewrite the equation as $3N = 76 - 4M = 4(19 - M)$, which shows $N$ must be a multiple of $4$ and $19 - M$ must be a multiple of $3$. Also use $N > 2M$ in $3N + 4M = 76$ to get $3(2M) + 4M < 76$, or $10M < 76$, narrowing $M > 4$ down to $M \\in \\{5, 6, 7\\}$.\n• **Step 3 (How to Finish):** Check $M = 5, 6, 7$ in $3N = 76 - 4M$ to find the integer pair $(M, N)$ that satisfies $N > 2M$, and then multiply $3 \\times N$ to get the number of games played within the division.",
+    "category": "Algebra & Word Problems"
   },
   {
     "id": 25,
@@ -347,6 +371,7 @@
     ],
     "answer": "(C) 15",
     "explanation": "Using similar triangles and Pythagorean relations in the corners, the side length squared (area) of the largest inscribed square is 15.",
-    "hint": "**Key Strategy:** Similar Triangles and Area Subtraction (Tilted Square)\n• **Step 1 (First Move):** An upright square only fits with side $5 - 1 - 1 = 3$ (area $9$). To fit a larger square, tilt it so its $4$ vertices touch the $4$ outer edges of the $5\\text{-inch}$ square, leaving $4$ congruent corner right triangles with legs $a$ and $b$ such that $a + b = 5$ (and each hypotenuse equals the tilted square's side).\n• **Step 2 (The Guiding Bridge):** Inside one corner right triangle (legs $a$ and $b$), the $1 \\times 1$ corner cutout touches the hypotenuse at its inner corner, creating two smaller similar right triangles beside it: one with legs $a - 1$ and $1$, and one with legs $1$ and $b - 1$. Set up the similarity proportion $\\frac{a - 1}{1} = \\frac{1}{b - 1}$, cross-multiply to get $(a - 1)(b - 1) = 1$, and expand $ab - (a + b) + 1 = 1$ to find $ab = a + b = 5$.\n• **Step 3 (How to Finish):** Subtract the total area of the $4$ corner right triangles ($4 \\times \\frac{1}{2}ab$) from the $5 \\times 5 = 25$ outer square (or compute $a^2 + b^2 = (a + b)^2 - 2ab$) to find the area of the largest inscribed square."
+    "hint": "**Key Strategy:** Similar Triangles and Area Subtraction (Tilted Square)\n• **Step 1 (First Move):** An upright square only fits with side $5 - 1 - 1 = 3$ (area $9$). To fit a larger square, tilt it so its $4$ vertices touch the $4$ outer edges of the $5\\text{-inch}$ square, leaving $4$ congruent corner right triangles with legs $a$ and $b$ such that $a + b = 5$ (and each hypotenuse equals the tilted square's side).\n• **Step 2 (The Guiding Bridge):** Inside one corner right triangle (legs $a$ and $b$), the $1 \\times 1$ corner cutout touches the hypotenuse at its inner corner, creating two smaller similar right triangles beside it: one with legs $a - 1$ and $1$, and one with legs $1$ and $b - 1$. Set up the similarity proportion $\\frac{a - 1}{1} = \\frac{1}{b - 1}$, cross-multiply to get $(a - 1)(b - 1) = 1$, and expand $ab - (a + b) + 1 = 1$ to find $ab = a + b = 5$.\n• **Step 3 (How to Finish):** Subtract the total area of the $4$ corner right triangles ($4 \\times \\frac{1}{2}ab$) from the $5 \\times 5 = 25$ outer square (or compute $a^2 + b^2 = (a + b)^2 - 2ab$) to find the area of the largest inscribed square.",
+    "category": "Geometry & Spatial"
   }
 ]
