@@ -2,135 +2,268 @@
   {
     "id": 1,
     "question": "Rachelle uses 3 pounds of meat to make 8 hamburgers for her family. How many pounds of meat does she need to make 24 hamburgers for a neighborhood picnic?",
-    "options": ["(A) 6", "(B) $6\\frac{2}{3}$", "(C) $7\\frac{1}{2}$", "(D) 8", "(E) 9"],
+    "options": [
+      "(A) 6",
+      "(B) $6\\frac{2}{3}$",
+      "(C) $7\\frac{1}{2}$",
+      "(D) 8",
+      "(E) 9"
+    ],
     "answer": "(E) 9",
-    "explanation": "Rachelle needs $24 / 8 = 3$ times the amount of meat, so she needs $3 \\times 3 = 9$ pounds of meat[cite: 44]."
+    "explanation": "Rachelle needs $24 / 8 = 3$ times the amount of meat, so she needs $3 \\times 3 = 9$ pounds of meat[cite: 44].",
+    "hint": "**Key Strategy:** Proportional Reasoning (Scaling Ratio)\n• **Step 1 (First Move):** Compare the new number of hamburgers to the original batch by dividing: $24 \\div 8$.\n• **Step 2 (The Guiding Bridge):** The result tells you how many times larger the picnic batch is compared to the family batch, so you will need that same multiple of the $3$ pounds of meat.\n• **Step 3 (How to Finish):** Multiply the scaling factor you found in Step 1 by $3$ pounds to find the total pounds of meat needed."
   },
   {
     "id": 2,
     "question": "In the county of East Westmore, statisticians estimate there is a baby born every 8 hours and a death every day. To the nearest hundred, how many people are added to the population of East Westmore each year?",
-    "options": ["(A) 600", "(B) 700", "(C) 800", "(D) 900", "(E) 1000"],
+    "options": [
+      "(A) 600",
+      "(B) 700",
+      "(C) 800",
+      "(D) 900",
+      "(E) 1000"
+    ],
     "answer": "(B) 700",
-    "explanation": "The net growth per day is 3 births - 1 death = 2 people. Over 365 days, the population grows by about $2 \\times 365 = 730$, which rounds to 700[cite: 44]."
+    "explanation": "The net growth per day is 3 births - 1 death = 2 people. Over 365 days, the population grows by about $2 \\times 365 = 730$, which rounds to 700[cite: 44].",
+    "hint": "**Key Strategy:** Unit Rate & Net Change\n• **Step 1 (First Move):** Find how many babies are born in one $24$-hour day by calculating $24 \\div 8$.\n• **Step 2 (The Guiding Bridge):** Subtract the $1$ death per day from the daily births to get the net population growth per day, then set up a multiplication for a full year of $365$ days: $(\\text{net daily growth}) \\times 365$.\n• **Step 3 (How to Finish):** Compute that product for $365$ days and round the result to the nearest hundred."
   },
   {
     "id": 3,
     "question": "On February 13 The Oshkosh Northwester listed the length of daylight as 10 hours and 24 minutes, the sunrise as 6:57 AM, and the sunset as 8:15 PM. The length of daylight and sunrise were correct, but the sunset was wrong. When did the sun really set?",
-    "options": ["(A) 5:10 PM", "(B) 5:21 PM", "(C) 5:41 PM", "(D) 5:57 PM", "(E) 6:03 PM"],
+    "options": [
+      "(A) 5:10 PM",
+      "(B) 5:21 PM",
+      "(C) 5:41 PM",
+      "(D) 5:57 PM",
+      "(E) 6:03 PM"
+    ],
     "answer": "(B) 5:21 PM",
-    "explanation": "From 6:57 AM to 12:00 PM is 5 hours and 3 minutes. With 10 hours and 24 minutes of daylight total, there are another 5 hours and 21 minutes after noon, making the sunset 5:21 PM[cite: 44]."
+    "explanation": "From 6:57 AM to 12:00 PM is 5 hours and 3 minutes. With 10 hours and 24 minutes of daylight total, there are another 5 hours and 21 minutes after noon, making the sunset 5:21 PM[cite: 44].",
+    "hint": "**Key Strategy:** Elapsed Time (Counting Through Noon)\n• **Step 1 (First Move):** Calculate how much time passes from sunrise at $6:57\\text{ AM}$ until noon ($12:00\\text{ PM}$). Notice that $6:57\\text{ AM}$ is $3\\text{ minutes}$ before $7:00\\text{ AM}$, and $7:00\\text{ AM}$ to $12:00\\text{ PM}$ is $5\\text{ hours}$.\n• **Step 2 (The Guiding Bridge):** Subtract that morning daylight ($5\\text{ hours}$ and $3\\text{ minutes}$) from the total daylight of $10\\text{ hours}$ and $24\\text{ minutes}$ to find how much daylight remains after $12:00\\text{ PM}$.\n• **Step 3 (How to Finish):** Add the remaining hours and minutes onto $12:00\\text{ PM}$ to determine the true sunset time."
   },
   {
     "id": 4,
     "question": "Peter's family ordered a 12-slice pizza for dinner. Peter ate one slice and shared another slice equally with his brother Paul. What fraction of the pizza did Peter eat?",
-    "options": ["(A) $\\frac{1}{24}$", "(B) $\\frac{1}{12}$", "(C) $\\frac{1}{8}$", "(D) $\\frac{1}{6}$", "(E) $\\frac{1}{4}$"],
+    "options": [
+      "(A) $\\frac{1}{24}$",
+      "(B) $\\frac{1}{12}$",
+      "(C) $\\frac{1}{8}$",
+      "(D) $\\frac{1}{6}$",
+      "(E) $\\frac{1}{4}$"
+    ],
     "answer": "(C) $\\frac{1}{8}$",
-    "explanation": "Peter ate one full slice ($\\frac{1}{12}$) plus half of another ($\\frac{1}{24}$), totaling $\\frac{2}{24} + \\frac{1}{24} = \\frac{3}{24} = \\frac{1}{8}$[cite: 44]."
+    "explanation": "Peter ate one full slice ($\\frac{1}{12}$) plus half of another ($\\frac{1}{24}$), totaling $\\frac{2}{24} + \\frac{1}{24} = \\frac{3}{24} = \\frac{1}{8}$[cite: 44].",
+    "hint": "**Key Strategy:** Fraction Addition & Simplification\n• **Step 1 (First Move):** Write the fraction of the whole pizza for $1$ full slice out of $12$ slices: $\\frac{1}{12}$. Since Peter shared a second slice equally with Paul, Peter ate $\\frac{1}{2}$ of $\\frac{1}{12}$, which is $\\frac{1}{2} \\times \\frac{1}{12} = \\frac{1}{24}$.\n• **Step 2 (The Guiding Bridge):** Convert $\\frac{1}{12}$ to an equivalent fraction with a denominator of $24$ ($\\frac{1 \\times 2}{12 \\times 2}$) so both pieces have a common denominator.\n• **Step 3 (How to Finish):** Add the two fractions with denominator $24$ together, then simplify the resulting fraction by dividing both the numerator and denominator by $3$."
   },
   {
     "id": 5,
     "question": "In the diagram, all angles are right angles and the lengths of the sides are given in centimeters. What is X, in centimeters?",
-    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) 5"
+    ],
     "answer": "(E) 5",
-    "explanation": "The vertical sides on the left add up to $5 + X$ while the vertical sides on the right add up to 10, giving $X = 5$[cite: 44]."
+    "explanation": "The vertical sides on the left add up to $5 + X$ while the vertical sides on the right add up to 10, giving $X = 5$[cite: 44].",
+    "hint": "**Key Strategy:** Side-Length Balancing (Rectilinear Polygons)\n• **Step 1 (First Move):** Because all angles are right angles, the total vertical height on the left side must equal the total vertical height on the right side. Look at the vertical segments on the left: one has length $5\\text{ cm}$ and the other has length $X\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** Set the sum of the left vertical segments equal to the vertical height on the right ($10\\text{ cm}$): $5 + X = 10$.\n• **Step 3 (How to Finish):** Solve the equation for $X$ by subtracting $5$ from $10$."
   },
   {
     "id": 6,
     "question": "A rectangular photograph is placed in a frame that forms a border two inches wide on all sides of the photograph. The photograph measures 8 inches high and 10 inches wide. What is the area of the border, in square inches?",
-    "options": ["(A) 36", "(B) 40", "(C) 64", "(D) 72", "(E) 88"],
+    "options": [
+      "(A) 36",
+      "(B) 40",
+      "(C) 64",
+      "(D) 72",
+      "(E) 88"
+    ],
     "answer": "(E) 88",
-    "explanation": "The total frame dimensions are $14 \\times 12 = 168$ square inches. Subtracting the photograph area ($80$ sq in) leaves $88$ square inches[cite: 44]."
+    "explanation": "The total frame dimensions are $14 \\times 12 = 168$ square inches. Subtracting the photograph area ($80$ sq in) leaves $88$ square inches[cite: 44].",
+    "hint": "**Key Strategy:** Area Subtraction (Outer Minus Inner)\n• **Step 1 (First Move):** Find the area of the inner photograph by multiplying its height and width: $8 \\times 10 = 80\\text{ sq in}$.\n• **Step 2 (The Guiding Bridge):** Since the $2$-inch border goes on both the top and bottom (and both the left and right), add $2 + 2 = 4\\text{ inches}$ to each dimension of the photograph to get the outer frame's height ($8 + 4$) and width ($10 + 4$), then multiply them to find the total outer area.\n• **Step 3 (How to Finish):** Subtract the photograph's area ($80\\text{ sq in}$) from the outer frame's total area to get the area of just the border."
   },
   {
     "id": 7,
     "question": "Isabella must take four 100-point tests in her math class. Her goal is to achieve an average grade of at least 95 on the tests. Her first two test scores were 97 and 91. After seeing her score on the third test, she realized that she could still reach her goal. What is the lowest possible score she could have made on the third test?",
-    "options": ["(A) 90", "(B) 92", "(C) 95", "(D) 96", "(E) 97"],
+    "options": [
+      "(A) 90",
+      "(B) 92",
+      "(C) 95",
+      "(D) 96",
+      "(E) 97"
+    ],
     "answer": "(B) 92",
-    "explanation": "To average 95 across 4 tests, she needs 380 total points. With 188 points from the first two tests, she needs 192 points from the last two. Since the maximum score on the fourth test is 100, the third test must be at least 92[cite: 44]."
+    "explanation": "To average 95 across 4 tests, she needs 380 total points. With 188 points from the first two tests, she needs 192 points from the last two. Since the maximum score on the fourth test is 100, the third test must be at least 92[cite: 44].",
+    "hint": "**Key Strategy:** Working Backwards from the Mean (Extreme Case Analysis)\n• **Step 1 (First Move):** Multiply the target average by the total number of tests to find the minimum total points Isabella needs across all $4$ tests: $95 \\times 4 = 380$.\n• **Step 2 (The Guiding Bridge):** Add her first two scores ($97 + 91 = 188$) and subtract that sum from $380$ to find the minimum combined points she needs on the third and fourth tests ($380 - 188$).\n• **Step 3 (How to Finish):** To make the third test score as low as possible, assume she earns the maximum possible score of $100$ on the fourth test, then subtract $100$ from the remaining points needed."
   },
   {
     "id": 8,
     "question": "A shop advertises that everything is 'half price in today\\'s sale.' In addition, a coupon gives a 20% discount on sale prices. Using the coupon, the price today represents what percentage discount off the original price?",
-    "options": ["(A) 10", "(B) 33", "(C) 40", "(D) 60", "(E) 70"],
+    "options": [
+      "(A) 10",
+      "(B) 33",
+      "(C) 40",
+      "(D) 60",
+      "(E) 70"
+    ],
     "answer": "(D) 60",
-    "explanation": "The final price is $0.80 \\times 0.50d = 0.40d$, which represents a 60% discount off the original price[cite: 45]."
+    "explanation": "The final price is $0.80 \\times 0.50d = 0.40d$, which represents a 60% discount off the original price[cite: 45].",
+    "hint": "**Key Strategy:** Successive Percentages (Using a Smart Number)\n• **Step 1 (First Move):** Pick an easy starting price of $\\$100$ for an item. Apply the half-price sale first: $50\\%$ of $\\$100$ leaves a sale price of $\\$50$.\n• **Step 2 (The Guiding Bridge):** Next, apply the $20\\%$ coupon to the sale price of $\\$50$ by finding $20\\%$ of $\\$50$ ($0.20 \\times 50 = 10$) and subtracting that $\\$10$ discount from $\\$50$ to get the final price paid.\n• **Step 3 (How to Finish):** Subtract the final price paid from the original $\\$100$ price to find the total dollar discount, which directly gives the overall percentage discount off $\\$100$."
   },
   {
     "id": 9,
     "question": "The Fort Worth Zoo has a number of two-legged birds and a number of four-legged mammals. On one visit to the zoo, Margie counted 200 heads and 522 legs. How many of the animals that Margie counted were two-legged birds?",
-    "options": ["(A) 61", "(B) 122", "(C) 139", "(D) 150", "(E) 161"],
+    "options": [
+      "(A) 61",
+      "(B) 122",
+      "(C) 139",
+      "(D) 150",
+      "(E) 161"
+    ],
     "answer": "(C) 139",
-    "explanation": "Assuming all 200 animals have 2 legs, that accounts for 400 legs. The remaining 122 legs belong to the four-legged mammals (2 extra legs each), meaning there are 61 mammals and $200 - 61 = 139$ birds[cite: 45]."
+    "explanation": "Assuming all 200 animals have 2 legs, that accounts for 400 legs. The remaining 122 legs belong to the four-legged mammals (2 extra legs each), meaning there are 61 mammals and $200 - 61 = 139$ birds[cite: 45].",
+    "hint": "**Key Strategy:** Assumption Method (Chicken-and-Rabbit Problem)\n• **Step 1 (First Move):** Imagine all $200$ animals are two-legged birds. Count how many legs there would be in that case: $200 \\times 2 = 400$ legs.\n• **Step 2 (The Guiding Bridge):** Find the extra legs by subtracting $522 - 400 = 122$. Since each four-legged mammal has $4 - 2 = 2$ extra legs compared to a bird, divide $122 \\div 2$ to find the number of four-legged mammals.\n• **Step 3 (How to Finish):** Subtract the number of mammals you just found from the $200$ total animals to find the number of two-legged birds."
   },
   {
     "id": 10,
     "question": "How many 4-digit numbers greater than 1000 are there that use the four digits of 2012?",
-    "options": ["(A) 6", "(B) 7", "(C) 8", "(D) 9", "(E) 12"],
+    "options": [
+      "(A) 6",
+      "(B) 7",
+      "(C) 8",
+      "(D) 9",
+      "(E) 12"
+    ],
     "answer": "(D) 9",
-    "explanation": "Starting with 1 gives 3 numbers (022, 202, 220). Starting with 2 gives 6 numbers (012, 021, 102, 120, 201, 210), totaling 9 numbers[cite: 45]."
+    "explanation": "Starting with 1 gives 3 numbers (022, 202, 220). Starting with 2 gives 6 numbers (012, 021, 102, 120, 201, 210), totaling 9 numbers[cite: 45].",
+    "hint": "**Key Strategy:** Systematic Casework (Organizing by Leading Digit)\n• **Step 1 (First Move):** List the four available digits: $0, 1, 2, 2$ (with two $2$'s). For a $4$-digit number to be greater than $1000$, the thousands digit cannot be $0$, so it must be either $1$ or $2$.\n• **Step 2 (The Guiding Bridge):** Count each case separately:\n  - Case 1 (starts with $1$): Arrange the remaining digits $\\{0, 2, 2\\}$ in the last three places by choosing which of the $3$ spots gets the single $0$.\n  - Case 2 (starts with $2$): Arrange the remaining distinct digits $\\{0, 1, 2\\}$ in the last three places, giving $3 \\times 2 \\times 1$ arrangements.\n• **Step 3 (How to Finish):** Add the number of valid $4$-digit numbers from Case 1 and Case 2 together."
   },
   {
     "id": 11,
     "question": "The mean, median, and unique mode of the positive integers 3, 4, 5, 6, 6, 7, x are all equal. What is the value of x?",
-    "options": ["(A) 5", "(B) 6", "(C) 7", "(D) 11", "(E) 9"],
+    "options": [
+      "(A) 5",
+      "(B) 6",
+      "(C) 7",
+      "(D) 11",
+      "(E) 9"
+    ],
     "answer": "(D) 11",
-    "explanation": "Since the mode is unique, it must be 6, making the mean and median 6 as well. The sum of 7 numbers with a mean of 6 is 42. Since $3 + 4 + 5 + 6 + 6 + 7 = 31$, $x$ must be $42 - 31 = 11$[cite: 45]."
+    "explanation": "Since the mode is unique, it must be 6, making the mean and median 6 as well. The sum of 7 numbers with a mean of 6 is 42. Since $3 + 4 + 5 + 6 + 6 + 7 = 31$, $x$ must be $42 - 31 = 11$[cite: 45].",
+    "hint": "**Key Strategy:** Working with Mean, Median, and Mode\n• **Step 1 (First Move):** Look at the known numbers $3, 4, 5, 6, 6, 7$. Notice that $6$ appears twice while every other listed number appears once. Because the mode is unique, no other value can appear twice or more, so the mode must be $6$.\n• **Step 2 (The Guiding Bridge):** Since the mean, median, and mode are all equal, the mean of all $7$ numbers is also $6$. Multiply the mean by the count of numbers to find the total sum of all $7$ numbers: $6 \\times 7 = 42$.\n• **Step 3 (How to Finish):** Add the six known numbers ($3 + 4 + 5 + 6 + 6 + 7$) and subtract their sum from $42$ to find $x$ (then double-check that $6$ is indeed the middle value when all $7$ numbers are sorted)."
   },
   {
     "id": 12,
     "question": "What is the units digit of $13^{2012}$?",
-    "options": ["(A) 1", "(B) 3", "(C) 5", "(D) 7", "(E) 12"],
+    "options": [
+      "(A) 1",
+      "(B) 3",
+      "(C) 5",
+      "(D) 7",
+      "(E) 12"
+    ],
     "answer": "(A) 1",
-    "explanation": "The units digits of powers of 13 follow a cycle of four: 3, 9, 7, 1. Since $2012$ is a multiple of 4 ($2012 = 4 \\times 503$), the units digit is 1[cite: 45]."
+    "explanation": "The units digits of powers of 13 follow a cycle of four: 3, 9, 7, 1. Since $2012$ is a multiple of 4 ($2012 = 4 \\times 503$), the units digit is 1[cite: 45].",
+    "hint": "**Key Strategy:** Pattern Recognition (Cyclicity of Units Digits)\n• **Step 1 (First Move):** Only the units digit of the base ($3$) affects the units digit of the power. Compute the units digits of the first five powers of $3$: $3^1$, $3^2$, $3^3$, $3^4$, and $3^5$.\n• **Step 2 (The Guiding Bridge):** Observe that the units digits repeat in a cycle of length $4$ (since $3^5$ ends in the same digit as $3^1$). Divide the exponent $2012$ by $4$ to find the remainder.\n• **Step 3 (How to Finish):** Use the remainder from $2012 \\div 4$ to pick the matching position in your $4$-digit cycle (a remainder of $0$ corresponds to the $4\\text{th}$ position in the cycle, i.e., the units digit of $3^4$)."
   },
   {
     "id": 13,
     "question": "Jamar bought some pencils costing more than a penny each at the school bookstore and paid &#36;1.43. Sharona bought some of the same pencils and paid &#36;1.87. How many more pencils did Sharona buy than Jamar?",
-    "options": ["(A) 2", "(B) 3", "(C) 4", "(D) 5", "(E) 6"],
+    "options": [
+      "(A) 2",
+      "(B) 3",
+      "(C) 4",
+      "(D) 5",
+      "(E) 6"
+    ],
     "answer": "(C) 4",
-    "explanation": "The greatest common divisor of 143 and 187 is 11 cents per pencil. Jamar bought $143 / 11 = 13$ pencils and Sharona bought $187 / 11 = 17$ pencils, a difference of 4 pencils[cite: 45]."
+    "explanation": "The greatest common divisor of 143 and 187 is 11 cents per pencil. Jamar bought $143 / 11 = 13$ pencils and Sharona bought $187 / 11 = 17$ pencils, a difference of 4 pencils[cite: 45].",
+    "hint": "**Key Strategy:** Greatest Common Divisor (GCD)\n• **Step 1 (First Move):** Convert both dollar amounts into cents so you are working with whole numbers: $\\$1.43 = 143\\text{ cents}$ and $\\$1.87 = 187\\text{ cents}$.\n• **Step 2 (The Guiding Bridge):** Since each pencil costs the same whole number of cents (greater than $1$), the price per pencil must divide both $143$ and $187$, as well as their difference $187 - 143 = 44\\text{ cents}$. Find the common divisor greater than $1$ of $143$, $187$, and $44$ (test factors of $44$, such as $11$).\n• **Step 3 (How to Finish):** Divide the $44\\text{ cents}$ difference (or divide $187$ and $143$ separately and subtract) by the price of one pencil to find how many more pencils Sharona bought."
   },
   {
     "id": 14,
     "question": "In the BIG N, a middle school football conference, each team plays every other team exactly once. If a total of 21 conference games were played during the 2012 season, how many teams were members of the BIG N conference?",
-    "options": ["(A) 6", "(B) 7", "(C) 8", "(D) 9", "(E) 10"],
+    "options": [
+      "(A) 6",
+      "(B) 7",
+      "(C) 8",
+      "(D) 9",
+      "(E) 10"
+    ],
     "answer": "(B) 7",
-    "explanation": "If $n$ teams play each other once, the number of games is $\\frac{n(n-1)}{2} = 21$, which yields $n = 7$ teams[cite: 45, 46]."
+    "explanation": "If $n$ teams play each other once, the number of games is $\\frac{n(n-1)}{2} = 21$, which yields $n = 7$ teams[cite: 45, 46].",
+    "hint": "**Key Strategy:** Handshake Formula (Combinations)\n• **Step 1 (First Move):** Think of each game as a handshake between two teams. If there are $n$ teams, each team plays $n - 1$ other teams, which counts every game twice (once for each team).\n• **Step 2 (The Guiding Bridge):** Set up the handshake formula for the total number of games: $\\frac{n(n - 1)}{2} = 21$. Multiply both sides by $2$ to get $n(n - 1) = 42$.\n• **Step 3 (How to Finish):** Find two consecutive positive integers whose product is $42$; the larger of the two integers is $n$, the number of teams."
   },
   {
     "id": 15,
     "question": "The smallest number greater than 2 that leaves a remainder of 2 when divided by 3, 4, 5, or 6 lies between what numbers?",
-    "options": ["(A) 40 and 50", "(B) 51 and 55", "(C) 56 and 60", "(D) 61 and 65", "(E) 66 and 99"],
+    "options": [
+      "(A) 40 and 50",
+      "(B) 51 and 55",
+      "(C) 56 and 60",
+      "(D) 61 and 65",
+      "(E) 66 and 99"
+    ],
     "answer": "(D) 61 and 65",
-    "explanation": "The least common multiple of 3, 4, 5, and 6 is 60. Adding the remainder of 2 gives 62, which lies between 61 and 65[cite: 46]."
+    "explanation": "The least common multiple of 3, 4, 5, and 6 is 60. Adding the remainder of 2 gives 62, which lies between 61 and 65[cite: 46].",
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) with Constant Remainder\n• **Step 1 (First Move):** If a number leaves a remainder of $2$ when divided by $3, 4, 5,$ or $6$, then subtracting $2$ from that number gives a number that is exactly divisible by $3, 4, 5,$ and $6$.\n• **Step 2 (The Guiding Bridge):** Find the Least Common Multiple (LCM) of $3, 4, 5,$ and $6$ using prime factorization ($3 = 3$, $4 = 2^2$, $5 = 5$, $6 = 2 \\times 3$), so $\\text{LCM}(3, 4, 5, 6) = 2^2 \\times 3 \\times 5$.\n• **Step 3 (How to Finish):** Add the remainder of $2$ back onto that LCM to find the smallest number greater than $2$, then identify which given interval contains it."
   },
   {
     "id": 16,
     "question": "Each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 is used only once to make two five-digit numbers so that they have the largest possible sum. Which of the following could be one of the numbers?",
-    "options": ["(A) 76531", "(B) 86724", "(C) 87431", "(D) 96240", "(E) 97403"],
+    "options": [
+      "(A) 76531",
+      "(B) 86724",
+      "(C) 87431",
+      "(D) 96240",
+      "(E) 97403"
+    ],
     "answer": "(C) 87431",
-    "explanation": "To maximize the sum, place the largest available digits in the highest place values (9 and 8 in ten-thousands, 7 and 6 in thousands, etc.), resulting in numbers like 96520 and 87431[cite: 46]."
+    "explanation": "To maximize the sum, place the largest available digits in the highest place values (9 and 8 in ten-thousands, 7 and 6 in thousands, etc.), resulting in numbers like 96520 and 87431[cite: 46].",
+    "hint": "**Key Strategy:** Greedy Place-Value Optimization\n• **Step 1 (First Move):** To make the sum of two $5$-digit numbers as large as possible, put the two largest digits ($9$ and $8$) in the ten-thousands places (the highest place value).\n• **Step 2 (The Guiding Bridge):** Continue placing the next largest digits in the next highest place values for both numbers: put $7$ and $6$ in the thousands places, $5$ and $4$ in the hundreds places, $3$ and $2$ in the tens places, and $1$ and $0$ in the ones places.\n• **Step 3 (How to Finish):** Check each of the five answer choices digit-by-digit from left to right to find the one whose ten-thousands digit is $9$ or $8$, thousands digit is $7$ or $6$, hundreds digit is $5$ or $4$, tens digit is $3$ or $2$, and ones digit is $1$ or $0$."
   },
   {
     "id": 17,
     "question": "A square with an integer side length is cut into 10 squares, all of which have integer side length and at least 8 of which have area 1. What is the smallest possible value of the length of the side of the original square?",
-    "options": ["(A) 3", "(B) 4", "(C) 5", "(D) 6", "(E) 7"],
+    "options": [
+      "(A) 3",
+      "(B) 4",
+      "(C) 5",
+      "(D) 6",
+      "(E) 7"
+    ],
     "answer": "(B) 4",
-    "explanation": "Since at least 8 squares have area 1, and the total area must accommodate them plus at least 2 other squares, the minimum possible total area is 16, giving an original side length of 4[cite: 46]."
+    "explanation": "Since at least 8 squares have area 1, and the total area must accommodate them plus at least 2 other squares, the minimum possible total area is 16, giving an original side length of 4[cite: 46].",
+    "hint": "**Key Strategy:** Area Lower-Bound & Geometric Tiling\n• **Step 1 (First Move):** Since all $10$ smaller squares have integer side lengths of at least $1$, each has area at least $1$, meaning the original square's area $s^2$ must be at least $10$.\n• **Step 2 (The Guiding Bridge):** Test perfect squares $s^2 \\ge 10$ starting right above $3^2 = 9$. Remember you need exactly $10$ squares in total, and at least $8$ of them must have area $1$ ($1 \\times 1$).\n• **Step 3 (How to Finish):** Check whether the next integer side length $s$ after $3$ allows you to partition an $s \\times s$ square into $8$ unit squares ($1 \\times 1$) plus $2$ larger squares (such as $2 \\times 2$ squares) whose areas add up to $s^2$."
   },
   {
     "id": 18,
     "question": "What is the smallest positive integer that is neither prime nor square and that has no prime factor less than 50?",
-    "options": ["(A) 3127", "(B) 3133", "(C) 3137", "(D) 3139", "(E) 3149"],
+    "options": [
+      "(A) 3127",
+      "(B) 3133",
+      "(C) 3137",
+      "(D) 3139",
+      "(E) 3149"
+    ],
     "answer": "(A) 3127",
-    "explanation": "The smallest primes not less than 50 are 53 and 59. Their product is $53 \\times 59 = 3127$, which is neither prime nor a square and has no prime factor below 50[cite: 46]."
+    "explanation": "The smallest primes not less than 50 are 53 and 59. Their product is $53 \\times 59 = 3127$, which is neither prime nor a square and has no prime factor below 50[cite: 46].",
+    "hint": "**Key Strategy:** Prime Factorization & Counting Factors\n• **Step 1 (First Move):** Since the number is not prime, it must be a product of at least two prime factors, each $\\ge 50$. List the two smallest prime numbers greater than $50$ (check odd numbers starting from $51$: since $51 = 3 \\times 17$, start with the next prime).\n• **Step 2 (The Guiding Bridge):** Notice that multiplying the smallest prime above $50$ by itself gives a square number, which is not allowed. Therefore, to keep the product as small as possible without being a square, multiply the smallest prime above $50$ by the second smallest prime above $50$.\n• **Step 3 (How to Finish):** Multiply those two primes ($53$ and $59$) together to get the smallest valid integer."
   },
   {
     "id": 19,
     "question": "In a jar of red, green, and blue marbles, all but 6 are red marbles, all but 8 are green, and all but 4 are blue. How many marbles are in the jar?",
-    "options": ["(A) 6", "(B) 8", "(C) 9", "(D) 10", "(E) 18"],
+    "options": [
+      "(A) 6",
+      "(B) 8",
+      "(C) 9",
+      "(D) 10",
+      "(E) 18"
+    ],
     "answer": "(C) 9",
-    "explanation": "Summing the non-red (6), non-green (8), and non-blue (4) marbles gives $2(r+g+b) = 18$, meaning the total number of marbles is 9[cite: 46, 47]."
+    "explanation": "Summing the non-red (6), non-green (8), and non-blue (4) marbles gives $2(r+g+b) = 18$, meaning the total number of marbles is 9[cite: 46, 47].",
+    "hint": "**Key Strategy:** System of Linear Equations (Symmetric Addition)\n• **Step 1 (First Move):** Translate each clue into an equation using $R, G,$ and $B$ for the counts of red, green, and blue marbles:\n  - \"All but $6$ are red\" means $G + B = 6$.\n  - \"All but $8$ are green\" means $R + B = 8$.\n  - \"All but $4$ are blue\" means $R + G = 4$.\n• **Step 2 (The Guiding Bridge):** Add all three equations together on both sides: $(G + B) + (R + B) + (R + G) = 6 + 8 + 4$, which simplifies to $2(R + G + B) = 18$.\n• **Step 3 (How to Finish):** Divide both sides of $2(R + G + B) = 18$ by $2$ to find the total number of marbles $R + G + B$."
   },
   {
     "id": 20,
@@ -143,28 +276,50 @@
       "(E) $\\frac{7}{21} < \\frac{5}{19} < \\frac{9}{23}$"
     ],
     "answer": "(B) $\\frac{5}{19} < \\frac{7}{21} < \\frac{9}{23}$",
-    "explanation": "Converting to decimals or comparing with $\\frac{1}{3}$ shows that $\\frac{5}{19} \\approx 0.263$, $\\frac{7}{21} \\approx 0.333$, and $\\frac{9}{23} \\approx 0.391$[cite: 47]."
+    "explanation": "Converting to decimals or comparing with $\\frac{1}{3}$ shows that $\\frac{5}{19} \\approx 0.263$, $\\frac{7}{21} \\approx 0.333$, and $\\frac{9}{23} \\approx 0.391$[cite: 47].",
+    "hint": "**Key Strategy:** Benchmark Comparison (Comparing to $\\frac{1}{3}$)\n• **Step 1 (First Move):** Simplify the middle fraction $\\frac{7}{21}$ by dividing the numerator and denominator by $7$ to see its exact value: $\\frac{1}{3}$.\n• **Step 2 (The Guiding Bridge):** Use $\\frac{1}{3}$ as a benchmark to compare the other two fractions:\n  - Compare $\\frac{5}{19}$ to $\\frac{5}{15} = \\frac{1}{3}$ (since $19 > 15$, $\\frac{5}{19}$ is smaller than $\\frac{5}{15}$).\n  - Compare $\\frac{9}{23}$ to $\\frac{9}{27} = \\frac{1}{3}$ (since $23 < 27$, $\\frac{9}{23}$ is larger than $\\frac{9}{27}$).\n• **Step 3 (How to Finish):** Arrange the three fractions from smallest to largest based on which one is less than $\\frac{1}{3}$, which one equals $\\frac{1}{3}$, and which one is greater than $\\frac{1}{3}$."
   },
   {
     "id": 21,
     "question": "Marla has a large white cube that has an edge of 10 feet. She also has enough green paint to cover 300 square feet. Marla uses all the paint to create a white square centered on each face, surrounded by a green border. What is the area of one of the white squares, in square feet?",
-    "options": ["(A) $5\\sqrt{2}$", "(B) 10", "(C) $10\\sqrt{2}$", "(D) 50", "(E) $50\\sqrt{2}$"],
+    "options": [
+      "(A) $5\\sqrt{2}$",
+      "(B) 10",
+      "(C) $10\\sqrt{2}$",
+      "(D) 50",
+      "(E) $50\\sqrt{2}$"
+    ],
     "answer": "(D) 50",
-    "explanation": "The total surface area of the cube is $600$ sq ft. Since green paint covers 300 sq ft, the remaining white area is 300 sq ft across 6 faces, giving $300 / 6 = 50$ sq ft per face[cite: 47]."
+    "explanation": "The total surface area of the cube is $600$ sq ft. Since green paint covers 300 sq ft, the remaining white area is 300 sq ft across 6 faces, giving $300 / 6 = 50$ sq ft per face[cite: 47].",
+    "hint": "**Key Strategy:** Surface Area & Complementary Counting\n• **Step 1 (First Move):** Calculate the area of one face of the $10$-foot cube ($10 \\times 10 = 100\\text{ sq ft}$), then multiply by $6$ faces to find the cube's total surface area ($600\\text{ sq ft}$).\n• **Step 2 (The Guiding Bridge):** Subtract the $300\\text{ sq ft}$ of green paint from the total surface area of $600\\text{ sq ft}$ to find the total white area remaining across all $6$ faces combined.\n• **Step 3 (How to Finish):** Because the white squares on all $6$ faces are identical, divide the total remaining white area by $6$ to get the area of one white square."
   },
   {
     "id": 22,
     "question": "Let R be a set of nine distinct integers. Six of the elements of the set are 2, 3, 4, 6, 9, and 14. What is the number of possible values of the median of R?",
-    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) 7", "(E) 8"],
+    "options": [
+      "(A) 4",
+      "(B) 5",
+      "(C) 6",
+      "(D) 7",
+      "(E) 8"
+    ],
     "answer": "(D) 7",
-    "explanation": "The median is the 5th element in sorted order. By choosing the remaining 3 elements appropriately, the median can take any integer value from 3 to 9, giving 7 possible values[cite: 47]."
+    "explanation": "The median is the 5th element in sorted order. By choosing the remaining 3 elements appropriately, the median can take any integer value from 3 to 9, giving 7 possible values[cite: 47].",
+    "hint": "**Key Strategy:** Extreme Bounds Analysis (Ordered Median)\n• **Step 1 (First Move):** Because $R$ has $9$ distinct integers sorted from least to greatest, the median is the $5\\text{th}$ smallest number (with $4$ numbers smaller than it and $4$ numbers larger than it).\n• **Step 2 (The Guiding Bridge):** Find the smallest and largest possible values for the $5\\text{th}$ element by placing the $3$ unknown distinct integers:\n  - To minimize the median, put all $3$ unknown integers below $2$ (such as $-2, -1, 0$), making $3$ the $5\\text{th}$ number.\n  - To maximize the median, put all $3$ unknown integers above $14$ (such as $15, 16, 17$), making $9$ the $5\\text{th}$ number.\n• **Step 3 (How to Finish):** Verify that every integer from $3$ to $9$ can also sit in the $5\\text{th}$ position by choosing the $3$ unknown integers appropriately, then count how many integers are in the inclusive range from $3$ to $9$ using $(9 - 3) + 1$."
   },
   {
     "id": 23,
     "question": "An equilateral triangle and a regular hexagon have equal perimeters. If the area of the triangle is 4, what is the area of the hexagon?",
-    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) $4\\sqrt{3}$", "(E) $6\\sqrt{3}$"],
+    "options": [
+      "(A) 4",
+      "(B) 5",
+      "(C) 6",
+      "(D) $4\\sqrt{3}$",
+      "(E) $6\\sqrt{3}$"
+    ],
     "answer": "(C) 6",
-    "explanation": "An equilateral triangle of area 4 can be split into 4 small triangles of area 1. A hexagon with the same perimeter can be divided into 6 such small triangles, yielding an area of 6[cite: 47]."
+    "explanation": "An equilateral triangle of area 4 can be split into 4 small triangles of area 1. A hexagon with the same perimeter can be divided into 6 such small triangles, yielding an area of 6[cite: 47].",
+    "hint": "**Key Strategy:** Geometric Dissection (Congruent Sub-triangles)\n• **Step 1 (First Move):** Pick a convenient shared perimeter such as $12$. Then each side of the equilateral triangle ($3$ sides) has length $12 \\div 3 = 4$, while each side of the regular hexagon ($6$ sides) has length $12 \\div 6 = 2$ — exactly half as long.\n• **Step 2 (The Guiding Bridge):** Connect the midpoints of the equilateral triangle's sides to divide it into $4$ identical smaller equilateral triangles of side length $2$. Since the big triangle has area $4$, each small triangle has area $4 \\div 4 = 1$.\n• **Step 3 (How to Finish):** Draw the main diagonals through the center of the regular hexagon to divide it into identical equilateral triangles of side length $2$, count how many such small triangles make up the hexagon, and multiply by the area of one small triangle ($1$)."
   },
   {
     "id": 24,
@@ -177,13 +332,21 @@
       "(E) $\\frac{3}{\\pi}$"
     ],
     "answer": "(A) $\\frac{4-\\pi}{\\pi}$",
-    "explanation": "Calculating the areas of the inscribed square and circular sectors yields a star area of $16 - 4\\pi$, which divided by the circle area $4\\pi$ gives $\\frac{4-\\pi}{\\pi}$[cite: 48]."
+    "explanation": "Calculating the areas of the inscribed square and circular sectors yields a star area of $16 - 4\\pi$, which divided by the circle area $4\\pi$ gives $\\frac{4-\\pi}{\\pi}$[cite: 48].",
+    "hint": "**Key Strategy:** Area Decomposition (Square Minus Quarter-Circles)\n• **Step 1 (First Move):** Compute the area of the original circle with radius $r = 2$ using $A = \\pi r^2 = \\pi(2^2) = 4\\pi$.\n• **Step 2 (The Guiding Bridge):** Notice how the $4$ quarter-circle arcs form the star inside a square: each side of the bounding square equals two radii ($2 + 2 = 4$), giving a square of area $4 \\times 4 = 16$. The empty corners around the star are $4$ quarter-circles of radius $2$, which together equal $1$ full circle of area $4\\pi$.\n• **Step 3 (How to Finish):** Subtract the area of the $4$ quarter-circles ($4\\pi$) from the area of the $4 \\times 4$ square ($16$) to get the star's area, then divide that expression by the circle's area ($4\\pi$) and simplify by cancelling a common factor of $4$."
   },
   {
     "id": 25,
     "question": "A square with area 4 is inscribed in a square with area 5, with one vertex of the smaller square on each side of the larger square. A vertex of the smaller square divides a side of the larger square into two segments, one of length a and the other of length b. What is the value of ab?",
-    "options": ["(A) $\\frac{1}{5}$", "(B) $\\frac{2}{5}$", "(C) $\\frac{1}{2}$", "(D) 1", "(E) 4"],
+    "options": [
+      "(A) $\\frac{1}{5}$",
+      "(B) $\\frac{2}{5}$",
+      "(C) $\\frac{1}{2}$",
+      "(D) 1",
+      "(E) 4"
+    ],
     "answer": "(C) $\\frac{1}{2}$",
-    "explanation": "The difference in area between the two squares is $5 - 4 = 1$, which is equal to the sum of four right triangles of area $\\frac{1}{4}$ each. Since the area of each triangle is $\\frac{1}{2}ab = \\frac{1}{4}$, we get $ab = \\frac{1}{2}$[cite: 48]."
+    "explanation": "The difference in area between the two squares is $5 - 4 = 1$, which is equal to the sum of four right triangles of area $\\frac{1}{4}$ each. Since the area of each triangle is $\\frac{1}{2}ab = \\frac{1}{4}$, we get $ab = \\frac{1}{2}$[cite: 48].",
+    "hint": "**Key Strategy:** Area Decomposition (Outer Square Minus Inner Square)\n• **Step 1 (First Move):** Find the total area of the region outside the inner square (area $4$) but inside the outer square (area $5$) by subtracting: $5 - 4 = 1$.\n• **Step 2 (The Guiding Bridge):** That leftover area of $1$ consists of $4$ congruent right triangles in the corners, each with legs $a$ and $b$. Divide the leftover area by $4$ to find the area of a single corner triangle: $1 \\div 4 = \\frac{1}{4}$.\n• **Step 3 (How to Finish):** Set the triangle area formula $\\text{Area} = \\frac{ab}{2}$ equal to $\\frac{1}{4}$, and multiply both sides by $2$ to find $ab$."
   }
 ]

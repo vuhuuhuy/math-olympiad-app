@@ -10,7 +10,8 @@
       "E) None of the above"
     ],
     "answer": "C) 13",
-    "explanation": "$2x^2 + 41^2 = 2019 \\implies 2x^2 + 1681 = 2019 \\implies 2x^2 = 338 \\implies x^2 = 169 \\implies x = 13$."
+    "explanation": "$2x^2 + 41^2 = 2019 \\implies 2x^2 + 1681 = 2019 \\implies 2x^2 = 338 \\implies x^2 = 169 \\implies x = 13$.",
+    "hint": "**Key Strategy:** Algebraic Isolation & Square Roots\n• **Step 1 (First Move):** Combine the two identical terms into $2x^2$ and calculate the known square: $41^2 = 41 \\times 41 = 1681$, turning the equation into $2x^2 + 1681 = 2019$.\n• **Step 2 (The Guiding Bridge):** Subtract $1681$ from $2019$ to find the value of $2x^2$, then divide that difference by $2$ to isolate $x^2$.\n• **Step 3 (How to Finish):** Take the positive square root of your value for $x^2$ (finding the prime number that multiplies by itself to equal that result)."
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "E) None of the above"
     ],
     "answer": "D) Eight times the original",
-    "explanation": "$E_{\\text{new}} = \\frac{(2p)^2}{2(m/2)} = \\frac{4p^2}{m} = 8 \\times \\frac{p^2}{2m} = 8E$."
+    "explanation": "$E_{\\text{new}} = \\frac{(2p)^2}{2(m/2)} = \\frac{4p^2}{m} = 8 \\times \\frac{p^2}{2m} = 8E$.",
+    "hint": "**Key Strategy:** Formula Substitution & Ratio Scaling\n• **Step 1 (First Move):** Write down the new momentum and new mass in terms of the original variables: $p_{\\text{new}} = 2p$ and $m_{\\text{new}} = \\frac{m}{2}$.\n• **Step 2 (The Guiding Bridge):** Substitute these into the formula to get $E_{\\text{new}} = \\frac{(2p)^2}{2 \\times (m/2)}$. Simplify the numerator $(2p)^2 = 4p^2$ and simplify the denominator $2 \\times \\frac{m}{2} = m$, giving $E_{\\text{new}} = \\frac{4p^2}{m}$.\n• **Step 3 (How to Finish):** Compare $\\frac{4p^2}{m}$ to the original formula $E = \\frac{p^2}{2m}$ (try rewriting $\\frac{4p^2}{m}$ with $2m$ in the denominator by multiplying top and bottom by $2$) to see how many times larger $E_{\\text{new}}$ is than $E$."
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "E) None of the above"
     ],
     "answer": "A) 25",
-    "explanation": "$2^8 - 1 = (2^4-1)(2^4+1) = 15 \\times 17 = 3 \\times 5 \\times 17$. Prime factors are 3, 5, 17. Sum = $3 + 5 + 17 = 25$."
+    "explanation": "$2^8 - 1 = (2^4-1)(2^4+1) = 15 \\times 17 = 3 \\times 5 \\times 17$. Prime factors are 3, 5, 17. Sum = $3 + 5 + 17 = 25$.",
+    "hint": "**Key Strategy:** Difference of Squares & Prime Factorization\n• **Step 1 (First Move):** Use the difference of squares identity $a^2 - b^2 = (a - b)(a + b)$ by rewriting $2^8 - 1$ as $(2^4)^2 - 1^2 = (2^4 - 1)(2^4 + 1)$.\n• **Step 2 (The Guiding Bridge):** Calculate $2^4 = 16$, so the two factors are $16 - 1 = 15$ and $16 + 1 = 17$. Break any composite factor into primes ($15 = 3 \\times 5$, while $17$ is already prime).\n• **Step 3 (How to Finish):** Add all of the distinct prime factors you found together to compute their sum."
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "E) Average of the 100 numbers is not an integer."
     ],
     "answer": "D) Number of multiples of 8 is the same as multiples of 9.",
-    "explanation": "There are 12 multiples of 8 ($8 \\times 12 = 96$) and 11 multiples of 9 ($9 \\times 11 = 99$). Thus statement D is NOT true."
+    "explanation": "There are 12 multiples of 8 ($8 \\times 12 = 96$) and 11 multiples of 9 ($9 \\times 11 = 99$). Thus statement D is NOT true.",
+    "hint": "**Key Strategy:** Systematic Verification & Elimination\n• **Step 1 (First Move):** Test the quick number-sense statements first: from $1$ to $100$, half the numbers are even ($100 \\div 2 = 50$) and half are odd ($50$), the average of $1$ through $100$ is $\\frac{1 + 100}{2} = 50.5$, and all primes except $2$ are odd.\n• **Step 2 (The Guiding Bridge):** Check the remaining counting statements carefully: count how many times the digit $0$ appears in $10, 20, \\dots, 100$ compared to a digit like $2$ (which appears in both the tens and ones places), and divide $100$ by $8$ and $100$ by $9$ to find how many multiples of each fit inside $1$ to $100$.\n• **Step 3 (How to Finish):** Compare the whole-number quotients of $100 \\div 8$ and $100 \\div 9$ along with your earlier checks to pinpoint the single statement that is false."
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "E) None of the above"
     ],
     "answer": "B) 2520",
-    "explanation": "$\\text{LCM}(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2520$, which is the smallest 4-digit number satisfying the condition."
+    "explanation": "$\\text{LCM}(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2520$, which is the smallest 4-digit number satisfying the condition.",
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) via Prime Factorization\n• **Step 1 (First Move):** Write out the prime factorization of every integer from $1$ to $10$: $2, 3, 4 = 2^2, 5, 6 = 2 \\times 3, 7, 8 = 2^3, 9 = 3^2, 10 = 2 \\times 5$.\n• **Step 2 (The Guiding Bridge):** To build $\\text{LCM}(1, 2, 3, \\dots, 10)$, select the highest power of each prime factor that appears in the list: $2^3$ (from $8$), $3^2$ (from $9$), $5$, and $7$.\n• **Step 3 (How to Finish):** Multiply those highest prime powers together ($2^3 \\times 3^2 \\times 5 \\times 7$) and verify that the resulting product is already a $4$-digit number, making it the smallest such number."
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "E) None of the above"
     ],
     "answer": "D) 32%",
-    "explanation": "Overall factor = $1.10 \\times 0.80 \\times 1.50 = 1.32$, which represents a 32% increase."
+    "explanation": "Overall factor = $1.10 \\times 0.80 \\times 1.50 = 1.32$, which represents a 32% increase.",
+    "hint": "**Key Strategy:** Sequential Percentage Multipliers (Starting at $100$)\n• **Step 1 (First Move):** Pretend there were $100$ followers in September, and turn each monthly change into a decimal multiplier: $+10\\% \\rightarrow \\times 1.10$, $-20\\% \\rightarrow \\times 0.80$, and $+50\\% \\rightarrow \\times 1.50$.\n• **Step 2 (The Guiding Bridge):** Apply the first two changes step by step: in October you have $100 \\times 1.10 = 110$, and in November you have $110 \\times 0.80 = 88$ (or set up the combined expression $100 \\times 1.10 \\times 0.80 \\times 1.50$).\n• **Step 3 (How to Finish):** Multiply November's count ($88$) by $1.50$ to find December's follower count, then subtract your starting $100$ to get the total percentage increase."
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "E) None of the above"
     ],
     "answer": "A) 45",
-    "explanation": "Connections = $\\binom{10}{2} = \\frac{10 \\times 9}{2} = 45$."
+    "explanation": "Connections = $\\binom{10}{2} = \\frac{10 \\times 9}{2} = 45$.",
+    "hint": "**Key Strategy:** Handshake Formula ($\\binom{n}{2}$)\n• **Step 1 (First Move):** Pick any single node and count how many other nodes it connects to: since there are $10$ nodes and a node does not connect to itself, each node has $10 - 1 = 9$ connections.\n• **Step 2 (The Guiding Bridge):** Multiply $10 \\times 9 = 90$ to sum the connections from all $10$ nodes, and notice that every connection between two nodes (for example, between Node $1$ and Node $2$) has been counted twice.\n• **Step 3 (How to Finish):** Divide $90$ by $2$ (following $\\frac{n(n-1)}{2}$) to remove the double-counting and find the exact number of connections."
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "E) -46"
     ],
     "answer": "C) 0",
-    "explanation": "To get sum 0, exactly 23 integers must be 1 and 23 must be -1. But $(-1)^{23} = -1 \\ne 1$, so the sum cannot be 0."
+    "explanation": "To get sum 0, exactly 23 integers must be 1 and 23 must be -1. But $(-1)^{23} = -1 \\ne 1$, so the sum cannot be 0.",
+    "hint": "**Key Strategy:** Parity & Sign Analysis\n• **Step 1 (First Move):** Determine what values the $46$ integers can be: since the product of integers is $1$, every integer in the list must be either $+1$ or $-1$. Let $k$ be the count of $-1$'s, leaving $46 - k$ copies of $+1$.\n• **Step 2 (The Guiding Bridge):** For the product $(-1)^k \\times 1^{46-k}$ to equal $+1$, $k$ must be an **even** integer. Write the sum in terms of $k$: $\\text{Sum} = (46 - k)(1) + k(-1) = 46 - 2k$.\n• **Step 3 (How to Finish):** Test each option by solving $k = \\frac{46 - \\text{Sum}}{2}$ and find the one choice that forces $k$ to be an odd number (which would make the product $-1$ instead of $+1$)."
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "E) None of the above"
     ],
     "answer": "C) 45°",
-    "explanation": "Setting up angle relations in isosceles triangles $\\triangle ABD$, $\\triangle BDE$, and $\\triangle DEC$ yields $\\angle BDA = 45^\\circ$."
+    "explanation": "Setting up angle relations in isosceles triangles $\\triangle ABD$, $\\triangle BDE$, and $\\triangle DEC$ yields $\\angle BDA = 45^\\circ$.",
+    "hint": "**Key Strategy:** Isosceles Triangle Angle Chasing & Exterior Angle Theorem\n• **Step 1 (First Move):** Let $\\angle ECD = x$. Because $DE = EC$ in isosceles $\\triangle DEC$, $\\angle EDC = x$, and by the Exterior Angle Theorem, $\\angle BED = \\angle EDC + \\angle ECD = 2x$.\n• **Step 2 (The Guiding Bridge):** In isosceles $\\triangle BDE$ ($BD = DE$), $\\angle DBE = \\angle BED = 2x$, so $\\angle BDE = 180^\\circ - 4x$. Using the straight angle along $A\\text{-}D\\text{-}E\\text{-}C$, find $\\angle BDA = 180^\\circ - (180^\\circ - 4x) - x = 3x$. Then in isosceles $\\triangle ABD$ ($AB = BD$), $\\angle BAD = 3x$, giving $\\angle ABD = 180^\\circ - 6x$.\n• **Step 3 (How to Finish):** Set up the equation for the given angle $\\angle ABE = \\angle ABD + \\angle DBE = (180^\\circ - 6x) + 2x = 120^\\circ$, solve $180^\\circ - 4x = 120^\\circ$ for $x$, and multiply $x$ by $3$ to find $\\angle BDA$."
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "E) None of the above"
     ],
     "answer": "D) 3233",
-    "explanation": "Pattern: $a \\otimes b = [b-2][(a+b)/2]$ concatenated. For $32 \\otimes 34$: $34-2 = 32$ and $(32+34)/2 = 33$, giving $3233$."
+    "explanation": "Pattern: $a \\otimes b = [b-2][(a+b)/2]$ concatenated. For $32 \\otimes 34$: $34-2 = 32$ and $(32+34)/2 = 33$, giving $3233$.",
+    "hint": "**Key Strategy:** Concatenated Number Pattern Recognition\n• **Step 1 (First Move):** Split each result into two smaller numbers placed side by side: $44 \\rightarrow 4 \\text{ and } 4$, $1613 \\rightarrow 16 \\text{ and } 13$, and $2019 \\rightarrow 20 \\text{ and } 19$.\n• **Step 2 (The Guiding Bridge):** Compare the left part of each output to the second input $b$ ($6 \\rightarrow 4$, $18 \\rightarrow 16$, $22 \\rightarrow 20$) to spot the rule $b - 2$. Then compare the right part to the average of the two inputs $\\frac{a + b}{2}$ (check $\\frac{2 + 6}{2} = 4$, $\\frac{8 + 18}{2} = 13$, and $\\frac{16 + 22}{2} = 19$).\n• **Step 3 (How to Finish):** Apply both rules to $32 \\otimes 34$ by computing $34 - 2$ for the left part and $\\frac{32 + 34}{2}$ for the right part, then concatenate the two numbers side by side."
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "E) None of the above"
     ],
     "answer": "C) 43",
-    "explanation": "Using Venn diagram equations with single-game regions $= 0$: Total students $= 43$."
+    "explanation": "Using Venn diagram equations with single-game regions $= 0$: Total students $= 43$.",
+    "hint": "**Key Strategy:** Venn Diagram & Double-Counting Principle\n• **Step 1 (First Move):** Add the counts for all three games together: $33 + 29 + 36 = 98$ total game participations. Since every student played at least $2$ games, nobody played only $1$ game.\n• **Step 2 (The Guiding Bridge):** Subtract the participations of the $12$ students who played all $3$ games—since each of them was counted $3$ times, they account for $12 \\times 3 = 36$ of the $98$ participations, leaving $98 - 36$ participations for students who played *exactly* $2$ games.\n• **Step 3 (How to Finish):** Divide $98 - 36$ by $2$ (because each 2-game student was counted twice) to get the number of 2-game students, then add the $12$ students who played all $3$ games."
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "E) Cube E"
     ],
     "answer": "C) Cube C",
-    "explanation": "Analyzing adjacent face orientations shows Cube C is the uniquely valid folding."
+    "explanation": "Analyzing adjacent face orientations shows Cube C is the uniquely valid folding.",
+    "hint": "**Key Strategy:** 3D Visualization — Opposite Faces & Corner Orientation\n• **Step 1 (First Move):** Pair up the three sets of opposite faces on the unfolded net (faces separated by one square in a straight line, or across an L-shape skip) — remember that opposite faces can never touch or be seen together on a folded cube.\n• **Step 2 (The Guiding Bridge):** Cross out any cube choice that displays two opposite faces at the same time. For the remaining choices, fix one face as the front and mentally fold the two adjacent faces $90^\\circ$ backward until all three meet at a single corner.\n• **Step 3 (How to Finish):** Trace how the markings, lines, or shading on those three faces orient around that shared corner (clockwise vs. counterclockwise) to identify the only valid cube."
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "E) None of the above"
     ],
     "answer": "D) 4097",
-    "explanation": "Sum $S = 9 - \\frac{511}{512} = \\frac{4097}{512}$. The numerator is 4097."
+    "explanation": "Sum $S = 9 - \\frac{511}{512} = \\frac{4097}{512}$. The numerator is 4097.",
+    "hint": "**Key Strategy:** Complementary Fractions ($1 - \\frac{1}{2^k}$) & Geometric Sum\n• **Step 1 (First Move):** Rewrite each term as $1$ minus a unit fraction: $\\frac{1}{2} = 1 - \\frac{1}{2}$, $\\frac{3}{4} = 1 - \\frac{1}{4}$, $\\frac{7}{8} = 1 - \\frac{1}{8}$, up to $\\frac{511}{512} = 1 - \\frac{1}{512}$. Since $512 = 2^9$, note that there are $9$ terms in total.\n• **Step 2 (The Guiding Bridge):** Group the $1$'s together and the subtracted fractions together: $9 - \\left(\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots + \\frac{1}{512}\\right)$. Notice that adding $\\frac{1}{2} + \\frac{1}{4} + \\dots + \\frac{1}{512}$ always leaves $\\frac{1}{512}$ remaining before $1$, so the sum inside the parentheses equals $1 - \\frac{1}{512} = \\frac{511}{512}$.\n• **Step 3 (How to Finish):** Simplify $9 - \\frac{511}{512} = 8 + \\frac{1}{512}$ into a single improper fraction $\\frac{8 \\times 512 + 1}{512}$, check that the numerator is odd (so it shares no factor of $2$ with $512$), and read off the numerator."
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "E) Insufficient data"
     ],
     "answer": "A) Mobile Phone",
-    "explanation": "Logical seating assignment forces the two adjacent truth-tellers to point to 'Mobile Phone'."
+    "explanation": "Logical seating assignment forces the two adjacent truth-tellers to point to 'Mobile Phone'.",
+    "hint": "**Key Strategy:** Contradiction Testing & Circular Seating Casework\n• **Step 1 (First Move):** Draw a $6$-seat circle and list the seating constraint: $2$ truth-tellers sit side-by-side, $2$ liars sit side-by-side, and the other $2$ seats are alternators (one truth, one lie).\n• **Step 2 (The Guiding Bridge):** Compare the followers' claims about what is in the box and about their neighbors: any two people who name different items cannot both be telling the truth, and the two adjacent truth-tellers must agree on the true item inside the box.\n• **Step 3 (How to Finish):** Test each possible item in the box (or each possible placement of the $2$ adjacent truth-tellers), eliminate any case that prevents fitting $2$ adjacent liars and $2$ alternators into the remaining seats, and take the item supported by the valid truth-teller pair."
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "E) 2014"
     ],
     "answer": "D) 2013",
-    "explanation": "Accounting for leap year shifts, Jan 1 shifts back by 7 total days from 2019 to 2013."
+    "explanation": "Accounting for leap year shifts, Jan 1 shifts back by 7 total days from 2019 to 2013.",
+    "hint": "**Key Strategy:** Modular Arithmetic (Day-of-the-Week Shifts & Leap Years)\n• **Step 1 (First Move):** Note that $2019$ is a normal year ($365$ days), so a matching year must also be a normal year (eliminating leap years like $2012$). Remember that each normal year shifts January $1$ by $1$ weekday ($365 = 52 \\times 7 + 1$) and each leap year shifts it by $2$ weekdays ($366 = 52 \\times 7 + 2$).\n• **Step 2 (The Guiding Bridge):** Step backward year by year from $2019$, adding up the weekday shifts: $2019 \\rightarrow 2018$ ($1$ shift), $2018 \\rightarrow 2017$ ($1$ shift), $2017 \\rightarrow 2016$ ($2$ shifts because $2016$ has Feb $29$), which totals $4$ shifts so far.\n• **Step 3 (How to Finish):** Keep stepping backward ($1$ shift per normal year) until your total weekday shift reaches a multiple of $7$ (specifically $7$), and confirm that the year you land on is a non-leap year."
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "E) 34"
     ],
     "answer": "A) 36",
-    "explanation": "Counting 1-part triangles (32) and 9-part large triangles (4) gives $32 + 4 = 36$."
+    "explanation": "Counting 1-part triangles (32) and 9-part large triangles (4) gives $32 + 4 = 36$.",
+    "hint": "**Key Strategy:** Systematic Casework by Size & Symmetry\n• **Step 1 (First Move):** Classify the triangles by how many smallest basic pieces (parts) they contain: $1$-part triangles, $4$-part triangles, $9$-part triangles, etc.\n• **Step 2 (The Guiding Bridge):** Use the diagram's $4$-way symmetry: carefully count the $1$-part triangles inside a single quadrant (quarter) of the figure and multiply by $4$. Then check whether any $4$-part groupings form triangles, and count the larger $9$-part triangles spanning the figure.\n• **Step 3 (How to Finish):** Add your verified counts from each size category together, making sure no triangle crossing a quadrant line is counted twice."
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "E) 98"
     ],
     "answer": "A) 101",
-    "explanation": "Last 3 days average $= 180$. First 4 days average $= 0.65 \\times 180 = 117$. $\\frac{83 + x + 129 + 155}{4} = 117 \\implies x = 101$."
+    "explanation": "Last 3 days average $= 180$. First 4 days average $= 0.65 \\times 180 = 117$. $\\frac{83 + x + 129 + 155}{4} = 117 \\implies x = 101$.",
+    "hint": "**Key Strategy:** Working Backward from Averages\n• **Step 1 (First Move):** Calculate the average number of customers for the last $3$ days: $\\frac{134 + 242 + 164}{3} = \\frac{540}{3} = 180$.\n• **Step 2 (The Guiding Bridge):** Take $65\\%$ of $180$ to get the average for the first $4$ days ($0.65 \\times 180 = 117$), and multiply by $4$ to find the total customers across Monday through Thursday ($117 \\times 4 = 468$).\n• **Step 3 (How to Finish):** Add the three given days ($83 + 129 + 155$) and subtract that sum from $468$ to find Tuesday's customer count."
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "E) 48"
     ],
     "answer": "A) 46",
-    "explanation": "Solving system: $A = 8$, $B = 16$, $C = 6$, $D = 16$. Total $= 8 + 16 + 6 + 16 = 46$."
+    "explanation": "Solving system: $A = 8$, $B = 16$, $C = 6$, $D = 16$. Total $= 8 + 16 + 6 + 16 = 46$.",
+    "hint": "**Key Strategy:** Unit Model Method / Algebraic Substitution\n• **Step 1 (First Move):** Choose a convenient number of units for $A$ to avoid fractions: since $A = \\frac{B}{2}$ and $C = \\frac{A + B}{4}$, let $A = 4u$ units, which gives $B = 8u$ and $D = B = 8u$.\n• **Step 2 (The Guiding Bridge):** Substitute these into $C = \\frac{A + B}{4}$ to get $C = \\frac{4u + 8u}{4} = 3u$. Then use $C = D - 10$ to connect the unit difference to $10$: $8u - 3u = 5u = 10$.\n• **Step 3 (How to Finish):** Divide $10$ by $5$ to find the value of $1$ unit ($u$), and multiply $u$ by the total number of units ($4u + 8u + 3u + 8u = 23u$) to find their total gold coins."
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "E) 310"
     ],
     "answer": "A) 318",
-    "explanation": "Numbers represent [days in month][month number]: August (month 8) has 31 days $\\implies 318$."
+    "explanation": "Numbers represent [days in month][month number]: August (month 8) has 31 days $\\implies 318$.",
+    "hint": "**Key Strategy:** Real-World Sequence Pattern (Splitting Digits into Attributes)\n• **Step 1 (First Move):** Examine the last digit of each $3$-digit number in order: $1, 2, 3, 4, 5, 6, 7, ?, 9$. They simply count upward from $1$ to $9$, so the missing term corresponds to $8$.\n• **Step 2 (The Guiding Bridge):** Look at the first two digits paired with each position: $(1 \\rightarrow 31)$, $(2 \\rightarrow 28)$, $(3 \\rightarrow 31)$, $(4 \\rightarrow 30)$, $(5 \\rightarrow 31)$, $(6 \\rightarrow 30)$, $(7 \\rightarrow 31)$, $(9 \\rightarrow 30)$. Recognize this as the number of days in each month of the year!\n• **Step 3 (How to Finish):** Determine how many days are in the $8\\text{th}$ month (August), and place that $2$-digit number directly in front of the digit $8$."
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       "E) 30"
     ],
     "answer": "A) 20",
-    "explanation": "$225n = 4500k \\implies n = 20k$. The smallest positive integer is $n = 20$."
+    "explanation": "$225n = 4500k \\implies n = 20k$. The smallest positive integer is $n = 20$.",
+    "hint": "**Key Strategy:** Divisibility & Ratio Simplification\n• **Step 1 (First Move):** Translate \"$225n$ is a multiple of $4500$\" into an equation: $225n = 4500k$, where $k$ is a positive integer ($1, 2, 3, \\dots$).\n• **Step 2 (The Guiding Bridge):** Divide both sides by $225$ to isolate $n$: $n = \\frac{4500}{225}k$. Simplify $\\frac{4500}{225}$ step by step (for example, divide numerator and denominator by $25$ or by $9$ first).\n• **Step 3 (How to Finish):** Substitute the smallest positive integer $k = 1$ into your simplified equation $n = (\\text{quotient}) \\times k$ to find the smallest positive integer $n$."
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
       "E) 180 cm²"
     ],
     "answer": "A) 165 cm²",
-    "explanation": "Summing triangle areas and subtracting unshaded regions gives $195 + 143 - 112.5 - 60.5 = 165\\text{ cm}^2$."
+    "explanation": "Summing triangle areas and subtracting unshaded regions gives $195 + 143 - 112.5 - 60.5 = 165\\text{ cm}^2$.",
+    "hint": "**Key Strategy:** Area Decomposition (Total Area Minus Unshaded Regions)\n• **Step 1 (First Move):** Compute the areas of the two squares ($15^2 = 225\\text{ cm}^2$ and $11^2 = 121\\text{ cm}^2$) and the combined side length along the base ($15 + 11 = 26\\text{ cm}$).\n• **Step 2 (The Guiding Bridge):** Express the shaded quadrilateral using half-square and full-base triangles: notice that half of each square is $\\frac{15 \\times 15}{2} = 112.5\\text{ cm}^2$ and $\\frac{11 \\times 11}{2} = 60.5\\text{ cm}^2$, while the two triangles spanning the $26\\text{ cm}$ base have areas $\\frac{1}{2} \\times 26 \\times 15 = 195\\text{ cm}^2$ and $\\frac{1}{2} \\times 26 \\times 11 = 143\\text{ cm}^2$.\n• **Step 3 (How to Finish):** Combine these triangle areas by computing $195 + 143 - 112.5 - 60.5$ (equivalently, subtracting the unshaded triangles from the total area of the figure) to get the shaded area in $\\text{cm}^2$."
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
       "E) 72"
     ],
     "answer": "A) 75",
-    "explanation": "Both tens and units digits must be even. Systematic counting yields 75 such numbers."
+    "explanation": "Both tens and units digits must be even. Systematic counting yields 75 such numbers.",
+    "hint": "**Key Strategy:** Divisibility Rules for $6$ & Systematic Counting\n• **Step 1 (First Move):** Use the divisibility rule for $6$: a $3$-digit number $\\overline{htu}$ is a multiple of $6$ if and only if it is even ($u$ is even) and $h + t + u$ is a multiple of $3$. Notice that swapping $t$ and $u$ to form $\\overline{hut}$ keeps the digit sum $h + u + t$ identical, so divisibility by $3$ is automatically preserved.\n• **Step 2 (The Guiding Bridge):** For both $\\overline{htu}$ and $\\overline{hut}$ to be even, BOTH $t$ and $u$ must come from the $5$ even digits $\\{0, 2, 4, 6, 8\\}$. That gives $5 \\times 5 = 25$ possible pairs for $(t, u)$.\n• **Step 3 (How to Finish):** For any fixed pair $(t, u)$, exactly $3$ choices of the hundreds digit $h \\in \\{1, 2, \\dots, 9\\}$ (one from $\\{1,2,3\\}$, one from $\\{4,5,6\\}$, and one from $\\{7,8,9\\}$) make $h + t + u$ divisible by $3$. Multiply $25$ by $3$ to find the total count."
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
       "E) 810"
     ],
     "answer": "A) 900",
-    "explanation": "$333\\dots3 \\times 2019 = 999\\dots9 \\times 673 = (10^{100}-1) \\times 673 = 67299\\dots9327$ (97 nines). Digit sum $= 6+7+2 + 97\\times 9 + 3+2+7 = 900$."
+    "explanation": "$333\\dots3 \\times 2019 = 999\\dots9 \\times 673 = (10^{100}-1) \\times 673 = 67299\\dots9327$ (97 nines). Digit sum $= 6+7+2 + 97\\times 9 + 3+2+7 = 900$.",
+    "hint": "**Key Strategy:** Algebraic Rewriting ($999\\dots9 = 10^{100} - 1$) & Digit Subtraction\n• **Step 1 (First Move):** Factor $3$ out of $2019$ ($2019 = 3 \\times 673$) and multiply that $3$ into the $100$-digit string of threes: $(333\\dots3 \\times 3) \\times 673 = \\underbrace{999\\dots9}_{100\\text{ nines}} \\times 673$.\n• **Step 2 (The Guiding Bridge):** Rewrite $\\underbrace{999\\dots9}_{100\\text{ nines}}$ as $10^{100} - 1$, turning the product into $673 \\times 10^{100} - 673$ ($673$ followed by $100$ zeros, minus $673$). Performing the borrowing subtraction leaves $672$ at the front, $97$ nines in the middle, and $1000 - 673 = 327$ at the end.\n• **Step 3 (How to Finish):** Add all the digits of this result together: $(6 + 7 + 2) + (97 \\times 9) + (3 + 2 + 7)$."
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
       "E) 26"
     ],
     "answer": "A) 24",
-    "explanation": "Solving digits: $E=8$, $R=7$, $D=6$, $A=3$. Sum $= 7 + 8 + 6 + 3 = 24$."
+    "explanation": "Solving digits: $E=8$, $R=7$, $D=6$, $A=3$. Sum $= 7 + 8 + 6 + 3 = 24$.",
+    "hint": "**Key Strategy:** Cryptarithm Place-Value & Carry Analysis\n• **Step 1 (First Move):** Look at the thousands column of $\\text{DEER} + \\text{RED} = \\text{RDRA}$: since $\\text{RED} < 1000$ and $R \\ne D$, the hundreds column must carry $1$ into the thousands column, forcing $R = D + 1$.\n• **Step 2 (The Guiding Bridge):** In the hundreds column, $R + E + (\\text{carry from tens}) = 10 + D$. Substituting $R = D + 1$ simplifies this to $E + (\\text{carry from tens}) = 9$. Because the tens column $E + E + (\\text{carry from ones})$ is at least $10$ when $E$ is $8$ or $9$, the carry into the hundreds column must be $1$, which forces $E = 8$.\n• **Step 3 (How to Finish):** From the tens column $8 + 8 + (\\text{carry from ones}) = 10 + R$, test the two possible carries from the ones column ($0$ or $1$) to see which gives values of $R$ and $D = R - 1$ that satisfy $D + R = 10 + A$ in the ones column (with the matching carry), then calculate $R + E + D + A$."
   },
   {
     "id": 25,
@@ -322,6 +346,7 @@
       "E) 19"
     ],
     "answer": "A) 13",
-    "explanation": "Factorizing $159n = (a-7)(a+7)$ with prime factor 53 gives $a = 46$, so $n = \\frac{46^2-49}{159} = 13$."
+    "explanation": "Factorizing $159n = (a-7)(a+7)$ with prime factor 53 gives $a = 46$, so $n = \\frac{46^2-49}{159} = 13$.",
+    "hint": "**Key Strategy:** Difference of Squares & Prime Divisibility\n• **Step 1 (First Move):** Subtract $49$ ($= 7^2$) from both sides and factor using the Difference of Squares: $159n = a^2 - 7^2 = (a - 7)(a + 7)$. Also factorize $159 = 3 \\times 53$.\n• **Step 2 (The Guiding Bridge):** Since $a^2$ is a $4$-digit perfect square ($1000 \\le a^2 \\le 9999$), $a$ must satisfy $32 \\le a \\le 99$ (as $31^2 = 961$ and $100^2 = 10000$). Because $53$ is prime and divides $(a - 7)(a + 7)$, either $a - 7$ or $a + 7$ must be a multiple of $53$ (such as $53$ or $106$), giving a short list of candidate values for $a$ in $[32, 99]$.\n• **Step 3 (How to Finish):** Check each candidate value of $a$ to find the one for which $(a - 7)(a + 7)$ is also divisible by $3$ (so that $3 \\times 53 = 159$ divides the product), and then divide $(a - 7)(a + 7)$ by $159$ to get $n$."
   }
 ]

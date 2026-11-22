@@ -10,7 +10,8 @@
       "(E) 1224"
     ],
     "answer": "(B) 102",
-    "explanation": "If 12 centimeters represents 72 kilometers, then 1 centimeter represents $72 / 12 = 6\\text{ kilometers}$. A 17-centimeter length represents $17 \\times 6 = 102\\text{ kilometers}$."
+    "explanation": "If 12 centimeters represents 72 kilometers, then 1 centimeter represents $72 / 12 = 6\\text{ kilometers}$. A 17-centimeter length represents $17 \\times 6 = 102\\text{ kilometers}$.",
+    "hint": "**Key Strategy:** Unit Rate\n• **Step 1 (First Move):** Find out how many kilometers $1\\text{ cm}$ on the map represents by dividing the distance by the map length: $72 \\div 12 = 6\\text{ km per cm}$.\n• **Step 2 (The Guiding Bridge):** Since each centimeter on the map stands for $6\\text{ km}$, a $17\\text{ cm}$ length represents $17$ times that unit distance.\n• **Step 3 (How to Finish):** Multiply the unit rate ($6\\text{ km/cm}$) by $17\\text{ cm}$ to find the total number of kilometers."
   },
   {
     "id": "2",
@@ -23,7 +24,8 @@
       "(E) 81"
     ],
     "answer": "(B) 6",
-    "explanation": "To form a four-digit number using the digits 2, 0, 0, and 4, the thousands digit must be 2 or 4. If the thousands digit is 2, the remaining digits (0, 0, 4) can be arranged in 3 ways: 2004, 2040, 2400. If the thousands digit is 4, the remaining digits (0, 0, 2) can also be arranged in 3 ways: 4002, 4020, 4200. Thus, there are $3 + 3 = 6$ possible numbers."
+    "explanation": "To form a four-digit number using the digits 2, 0, 0, and 4, the thousands digit must be 2 or 4. If the thousands digit is 2, the remaining digits (0, 0, 4) can be arranged in 3 ways: 2004, 2040, 2400. If the thousands digit is 4, the remaining digits (0, 0, 2) can also be arranged in 3 ways: 4002, 4020, 4200. Thus, there are $3 + 3 = 6$ possible numbers.",
+    "hint": "**Key Strategy:** Casework\n• **Step 1 (First Move):** Remember that a four-digit number cannot start with $0$, so the thousands digit must be either $2$ or $4$. Split the problem into two cases based on the first digit.\n• **Step 2 (The Guiding Bridge):** In Case 1 (starting with $2$), you have the digits $0, 0, 4$ left for the last three places; count how many distinct arrangements exist by choosing where the $4$ goes (such as $2004, 2040, \\dots$). In Case 2 (starting with $4$), you have $0, 0, 2$ left to arrange in the last three places.\n• **Step 3 (How to Finish):** List and count the valid numbers in Case 1 and Case 2, then add the counts from both cases together."
   },
   {
     "id": "3",
@@ -36,7 +38,8 @@
       "(E) 18"
     ],
     "answer": "(A) 8",
-    "explanation": "If 12 meals feed 18 people, each meal feeds $18 / 12 = 1.5$ people. To feed 12 people, they should have ordered $12 / 1.5 = 8$ meals."
+    "explanation": "If 12 meals feed 18 people, each meal feeds $18 / 12 = 1.5$ people. To feed 12 people, they should have ordered $12 / 1.5 = 8$ meals.",
+    "hint": "**Key Strategy:** Unit Rate & Proportional Reasoning\n• **Step 1 (First Move):** Find out how many people $1$ meal can feed by dividing the number of people fed by the number of meals ordered: $18 \\div 12 = \\frac{3}{2} = 1.5\\text{ people per meal}$.\n• **Step 2 (The Guiding Bridge):** You want just enough food for $12$ people, where each meal feeds $1.5$ people, so set up the division $12 \\div 1.5$ (or use the equivalent proportion $\\frac{12}{18} = \\frac{x}{12}$).\n• **Step 3 (How to Finish):** Divide $12$ by $1.5$ (or solve the proportion for $x$) to find the exact number of meals they should have ordered."
   },
   {
     "id": "4",
@@ -49,7 +52,8 @@
       "(E) 10"
     ],
     "answer": "(B) 4",
-    "explanation": "Choosing 3 starters out of 4 players is equivalent to choosing 1 alternate out of 4 players. Since any of the 4 players can be the alternate, there are 4 ways to select the starting team."
+    "explanation": "Choosing 3 starters out of 4 players is equivalent to choosing 1 alternate out of 4 players. Since any of the 4 players can be the alternate, there are 4 ways to select the starting team.",
+    "hint": "**Key Strategy:** Complementary Counting (Counting What Is Left Out)\n• **Step 1 (First Move):** Instead of picking $3$ starters out of the $4$ players (Lance, Sally, Joy, and Fred), notice that every choice of $3$ starters leaves out exactly $1$ player as the alternate.\n• **Step 2 (The Guiding Bridge):** Each different choice of the $1$ player sitting out creates a unique group of $3$ starters, so the number of ways to pick $3$ starters equals the number of ways to pick $1$ alternate from the $4$ players.\n• **Step 3 (How to Finish):** Count how many different players could be chosen as that single alternate to find the total number of starting lineups."
   },
   {
     "id": "5",
@@ -62,7 +66,8 @@
       "(E) 16"
     ],
     "answer": "(D) 15",
-    "explanation": "In a single-elimination tournament, each game eliminates exactly 1 team. To eliminate 15 teams and leave 1 winner out of 16 teams, 15 games must be played."
+    "explanation": "In a single-elimination tournament, each game eliminates exactly 1 team. To eliminate 15 teams and leave 1 winner out of 16 teams, 15 games must be played.",
+    "hint": "**Key Strategy:** Invariant / Counting Eliminations\n• **Step 1 (First Move):** Notice that in every single game played, there is $1$ winner and $1$ loser, and the losing team is immediately eliminated from the tournament.\n• **Step 2 (The Guiding Bridge):** Start with $16$ teams. At the end of the tournament, only $1$ champion remains undefeated, which means $16 - 1$ teams had to be eliminated along the way.\n• **Step 3 (How to Finish):** Since each game eliminates exactly $1$ team, compute $16 - 1$ to find the total number of games played."
   },
   {
     "id": "6",
@@ -75,7 +80,8 @@
       "(E) 5"
     ],
     "answer": "(C) 3",
-    "explanation": "In her first 20 shots, Sally made $0.55 \\times 20 = 11$ shots. After 25 total shots, she made $0.56 \\times 25 = 14$ shots. Therefore, she made $14 - 11 = 3$ of the last 5 shots."
+    "explanation": "In her first 20 shots, Sally made $0.55 \\times 20 = 11$ shots. After 25 total shots, she made $0.56 \\times 25 = 14$ shots. Therefore, she made $14 - 11 = 3$ of the last 5 shots.",
+    "hint": "**Key Strategy:** Percentage to Count Conversion\n• **Step 1 (First Move):** Calculate how many shots Sally made in her first $20$ attempts: $55\\% \\times 20 = 0.55 \\times 20 = 11$ shots made.\n• **Step 2 (The Guiding Bridge):** After taking $5$ more shots, she has taken $20 + 5 = 25$ shots in total. Find her new total number of made shots by calculating $56\\% \\times 25 = \\frac{56}{100} \\times 25$.\n• **Step 3 (How to Finish):** Subtract the $11$ shots she made in the first $20$ attempts from her new total made shots after $25$ attempts."
   },
   {
     "id": "7",
@@ -88,7 +94,8 @@
       "(E) 243"
     ],
     "answer": "(B) 155",
-    "explanation": "The maximum heart rate for a 26-year-old is $220 - 26 = 194$ beats per minute. The target heart rate is $0.80 \\times 194 = 155.2$, which rounds to 155."
+    "explanation": "The maximum heart rate for a 26-year-old is $220 - 26 = 194$ beats per minute. The target heart rate is $0.80 \\times 194 = 155.2$, which rounds to 155.",
+    "hint": "**Key Strategy:** Multi-Step Formula & Percentage Evaluation\n• **Step 1 (First Move):** Find the theoretical maximum heart rate for a $26$-year-old athlete by subtracting their age from $220$: $220 - 26 = 194$ beats per minute.\n• **Step 2 (The Guiding Bridge):** The target heart rate is $80\\%$ of this maximum heart rate, which translates to the multiplication $0.80 \\times 194$ (or $\\frac{4}{5} \\times 194$).\n• **Step 3 (How to Finish):** Calculate $0.80 \\times 194$ and round the decimal result to the nearest whole number."
   },
   {
     "id": "8",
@@ -101,7 +108,8 @@
       "(E) 10"
     ],
     "answer": "(B) 7",
-    "explanation": "The two-digit numbers whose digits sum to 7 are 16, 25, 34, 43, 52, 61, and 70. There are 7 such numbers."
+    "explanation": "The two-digit numbers whose digits sum to 7 are 16, 25, 34, 43, 52, 61, and 70. There are 7 such numbers.",
+    "hint": "**Key Strategy:** Systematic Listing (Casework)\n• **Step 1 (First Move):** Write a two-digit number as $\\overline{AB}$, where $A$ is the tens digit and $B$ is the units digit. Since it is a two-digit positive integer, $A$ must be at least $1$, and $A + B = 7$.\n• **Step 2 (The Guiding Bridge):** List the valid pairs $(A, B)$ in order starting from the smallest possible tens digit $A = 1$ (giving $16$) up to the largest possible tens digit $A = 7$ (giving $70$, since $B = 0$ is allowed in the units place).\n• **Step 3 (How to Finish):** Count every number in your complete list from $16$ up to $70$."
   },
   {
     "id": "9",
@@ -114,7 +122,8 @@
       "(E) 59"
     ],
     "answer": "(D) 58",
-    "explanation": "The sum of all five numbers is $5 \\times 54 = 270$. The sum of the first two numbers is $2 \\times 48 = 96$, so the sum of the last three numbers is $270 - 96 = 174$. The average of the last three numbers is $174 / 3 = 58$."
+    "explanation": "The sum of all five numbers is $5 \\times 54 = 270$. The sum of the first two numbers is $2 \\times 48 = 96$, so the sum of the last three numbers is $270 - 96 = 174$. The average of the last three numbers is $174 / 3 = 58$.",
+    "hint": "**Key Strategy:** Sum from Average\n• **Step 1 (First Move):** Use $\\text{Sum} = \\text{Average} \\times \\text{Count}$ to find the total sum of all $5$ numbers: $5 \\times 54 = 270$.\n• **Step 2 (The Guiding Bridge):** Find the sum of the first $2$ numbers in the same way: $2 \\times 48 = 96$. Subtract this from the total sum to get the sum of the last $3$ numbers: $270 - 96 = 174$.\n• **Step 3 (How to Finish):** Divide the sum of the last three numbers ($174$) by $3$ to find their average."
   },
   {
     "id": "10",
@@ -127,7 +136,8 @@
       "(E) \\$15"
     ],
     "answer": "(E) \\$15",
-    "explanation": "Convert Aaron's work time to minutes:\nMonday: $1\\frac{1}{4}\\text{ hours} = 75\\text{ minutes}$\nTuesday: 50 minutes\nWednesday: 8:20 to 10:45 = 2 hours 25 minutes = 145 minutes\nFriday: $\\frac{1}{2}\\text{ hour} = 30\\text{ minutes}$\nTotal time = $75 + 50 + 145 + 30 = 300\\text{ minutes} = 5\\text{ hours}$.\nEarnings = $5 \\times \\$3 = \\$15$."
+    "explanation": "Convert Aaron's work time to minutes:\nMonday: $1\\frac{1}{4}\\text{ hours} = 75\\text{ minutes}$\nTuesday: 50 minutes\nWednesday: 8:20 to 10:45 = 2 hours 25 minutes = 145 minutes\nFriday: $\\frac{1}{2}\\text{ hour} = 30\\text{ minutes}$\nTotal time = $75 + 50 + 145 + 30 = 300\\text{ minutes} = 5\\text{ hours}$.\nEarnings = $5 \\times \\$3 = \\$15$.",
+    "hint": "**Key Strategy:** Unit Conversion (Hours to Minutes)\n• **Step 1 (First Move):** Convert each day's work time into minutes so they are easy to add: Monday is $1\\frac{1}{4}\\text{ hours} = 75\\text{ minutes}$, Tuesday is $50\\text{ minutes}$, Wednesday ($8:20$ to $10:45$) is $2\\text{ hours } 25\\text{ minutes} = 145\\text{ minutes}$, and Friday ($\\frac{1}{2}\\text{ hour}$) is $30\\text{ minutes}$.\n• **Step 2 (The Guiding Bridge):** Add all four durations together ($75 + 50 + 145 + 30$) to get the total minutes worked, then divide that total by $60$ to convert it back into hours.\n• **Step 3 (How to Finish):** Multiply the total number of hours worked by Aaron's hourly pay rate of \\$3 to find his total earnings."
   },
   {
     "id": "11",
@@ -140,7 +150,8 @@
       "(E) 8"
     ],
     "answer": "(C) 6.5",
-    "explanation": "The largest number is 12, the smallest is -2, and the median is 6. By Rule 1, 12 is in position 2 or 3. By Rule 2, -2 is in position 3 or 4. By Rule 3, 6 is in position 2, 3, or 4. Thus, the three middle positions (2, 3, 4) are occupied by 12, -2, and 6 in some order. This leaves 4 and 9 to occupy the first and last positions. The average of the first and last numbers is $(4 + 9) / 2 = 6.5$."
+    "explanation": "The largest number is 12, the smallest is -2, and the median is 6. By Rule 1, 12 is in position 2 or 3. By Rule 2, -2 is in position 3 or 4. By Rule 3, 6 is in position 2, 3, or 4. Thus, the three middle positions (2, 3, 4) are occupied by 12, -2, and 6 in some order. This leaves 4 and 9 to occupy the first and last positions. The average of the first and last numbers is $(4 + 9) / 2 = 6.5$.",
+    "hint": "**Key Strategy:** Constraint Elimination\n• **Step 1 (First Move):** Identify the three key numbers in the set $\\{-2, 4, 6, 9, 12\\}$: the largest is $12$, the smallest is $-2$, and the median (middle value when sorted) is $6$.\n• **Step 2 (The Guiding Bridge):** Check which of positions $1, 2, 3, 4, 5$ each key number can occupy. Rule 1 puts $12$ in position $2$ or $3$; Rule 2 puts $-2$ in position $3$ or $4$; Rule 3 puts $6$ in position $2$, $3$, or $4$. Notice that all three of $12$, $-2$, and $6$ must occupy the middle three positions ($2$, $3$, and $4$).\n• **Step 3 (How to Finish):** That leaves only the remaining two numbers, $4$ and $9$, for the first and last positions. Calculate their average using $\\frac{4 + 9}{2}$."
   },
   {
     "id": "12",
@@ -153,7 +164,8 @@
       "(E) 15"
     ],
     "answer": "(B) 8",
-    "explanation": "Talking for 60 minutes (1 hour) uses $1/3$ of the battery capacity. Leaving the phone on for 8 hours without talking uses $8/24 = 1/3$ of the battery capacity. Total battery used is $1/3 + 1/3 = 2/3$. The remaining $1/3$ of the battery capacity will last $\\frac{1}{3} \\times 24 = 8\\text{ hours}$ of standby time."
+    "explanation": "Talking for 60 minutes (1 hour) uses $1/3$ of the battery capacity. Leaving the phone on for 8 hours without talking uses $8/24 = 1/3$ of the battery capacity. Total battery used is $1/3 + 1/3 = 2/3$. The remaining $1/3$ of the battery capacity will last $\\frac{1}{3} \\times 24 = 8\\text{ hours}$ of standby time.",
+    "hint": "**Key Strategy:** Fraction of Capacity (Rate Work Problem)\n• **Step 1 (First Move):** Split the $9$ hours the phone has been on into talking time and standby time: she talked for $60\\text{ minutes} = 1\\text{ hour}$, and left it on without using it for $9 - 1 = 8\\text{ hours}$.\n• **Step 2 (The Guiding Bridge):** Calculate the fraction of battery used by each activity: $1\\text{ hour}$ of talking uses $\\frac{1}{3}$ of the battery, and $8\\text{ hours}$ of standby uses $\\frac{8}{24} = \\frac{1}{3}$ of the battery. Add these to find the total fraction used ($\\frac{1}{3} + \\frac{1}{3} = \\frac{2}{3}$), then subtract from $1$ to find the fraction of battery remaining.\n• **Step 3 (How to Finish):** Multiply the remaining fraction of the battery by the $24$-hour standby battery life to find how many more hours it will last."
   },
   {
     "id": "13",
@@ -166,7 +178,8 @@
       "(E) Amy, Celine, Bill"
     ],
     "answer": "(E) Amy, Celine, Bill",
-    "explanation": "If Statement I were true (Bill is oldest), then Statement II (Amy is not oldest) would also be true, giving two true statements. Thus, Statement I is false (Bill is not oldest). If Statement II were true (Amy is not oldest), Celine would have to be oldest, making Statement III (Celine is not youngest) also true, which again gives two true statements. Thus, Statement II is false, meaning Amy IS the oldest. Therefore, Statement III must be the single true statement: Celine is not the youngest. The order from oldest to youngest is Amy, Celine, Bill."
+    "explanation": "If Statement I were true (Bill is oldest), then Statement II (Amy is not oldest) would also be true, giving two true statements. Thus, Statement I is false (Bill is not oldest). If Statement II were true (Amy is not oldest), Celine would have to be oldest, making Statement III (Celine is not youngest) also true, which again gives two true statements. Thus, Statement II is false, meaning Amy IS the oldest. Therefore, Statement III must be the single true statement: Celine is not the youngest. The order from oldest to youngest is Amy, Celine, Bill.",
+    "hint": "**Key Strategy:** Proof by Contradiction (Testing Cases)\n• **Step 1 (First Move):** Remember that *exactly one* of the three statements is true. Test what happens if Statement I (\"Bill is the oldest\") were true: if Bill is the oldest, then Statement II (\"Amy is not the oldest\") would *also* be true, giving two true statements—which breaks the rule. So Statement I must be false.\n• **Step 2 (The Guiding Bridge):** Next, test what happens if Statement II (\"Amy is not the oldest\") were true: since Bill isn't the oldest (from Step 1) and Amy isn't the oldest, Celine would have to be the oldest. That would make Statement III (\"Celine is not the youngest\") *also* true, again giving two true statements. Thus, Statement II must also be false, which tells you who the oldest friend is.\n• **Step 3 (How to Finish):** Since Statements I and II are both false, Statement III (\"Celine is not the youngest\") must be the single true statement. Use this fact together with who you found is oldest to order all three friends from oldest to youngest."
   },
   {
     "id": "14",
@@ -180,7 +193,8 @@
       "(E) 41"
     ],
     "answer": "(C) 22 1/2",
-    "explanation": "Enclose the quadrilateral in a $10 \\times 10$ square of area 100. Subtract the surrounding outer regions:\nRegion A (rectangle): $3 \\times 5 = 15$\nRegion B (triangle): $\\frac{1}{2} \\times 6 \\times 7 = 21$\nRegion C (triangle): $\\frac{1}{2} \\times 1 \\times 3 = 1.5$\nRegion D (triangle): $\\frac{1}{2} \\times 4 \\times 5 = 10$\nRegion E (triangle): $\\frac{1}{2} \\times 6 \\times 10 = 30$\nTotal area subtracted = $15 + 21 + 1.5 + 10 + 30 = 77.5$.\nEnclosed area = $100 - 77.5 = 22\\frac{1}{2}$."
+    "explanation": "Enclose the quadrilateral in a $10 \\times 10$ square of area 100. Subtract the surrounding outer regions:\nRegion A (rectangle): $3 \\times 5 = 15$\nRegion B (triangle): $\\frac{1}{2} \\times 6 \\times 7 = 21$\nRegion C (triangle): $\\frac{1}{2} \\times 1 \\times 3 = 1.5$\nRegion D (triangle): $\\frac{1}{2} \\times 4 \\times 5 = 10$\nRegion E (triangle): $\\frac{1}{2} \\times 6 \\times 10 = 30$\nTotal area subtracted = $15 + 21 + 1.5 + 10 + 30 = 77.5$.\nEnclosed area = $100 - 77.5 = 22\\frac{1}{2}$.",
+    "hint": "**Key Strategy:** Area Decomposition (Box Method)\n• **Step 1 (First Move):** Draw a bounding $10 \\times 10$ square around the entire quadrilateral on the grid, which has a total area of $10 \\times 10 = 100$ square units.\n• **Step 2 (The Guiding Bridge):** Split the empty space outside the quadrilateral (inside the $10 \\times 10$ square) into $1$ rectangle ($3 \\times 5 = 15$) and $4$ right triangles along the edges (with legs $6\\text{ and }7$, $1\\text{ and }3$, $4\\text{ and }5$, and $6\\text{ and }10$). Compute each triangle's area using $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$.\n• **Step 3 (How to Finish):** Add the areas of the rectangle and all $4$ outer triangles together, then subtract that sum from $100$."
   },
   {
     "id": "15",
@@ -194,7 +208,8 @@
       "(E) 18"
     ],
     "answer": "(C) 11",
-    "explanation": "The new outer border requires 18 additional white tiles. The total number of white tiles becomes $6 + 18 = 24$. The number of black tiles remains 13. The difference between white and black tiles is $24 - 13 = 11$."
+    "explanation": "The new outer border requires 18 additional white tiles. The total number of white tiles becomes $6 + 18 = 24$. The number of black tiles remains 13. The difference between white and black tiles is $24 - 13 = 11$.",
+    "hint": "**Key Strategy:** Perimeter / Layer Counting\n• **Step 1 (First Move):** Notice that the $13$ black tiles stay the same, and there are already $6$ white tiles inside the original figure. You need to count how many *new* white tiles fit around the entire outer edge to form a complete border.\n• **Step 2 (The Guiding Bridge):** Trace carefully around the perimeter of the figure in the diagram (marking a starting tile so you do not double-count) to verify that the new outer ring uses $18$ additional white tiles.\n• **Step 3 (How to Finish):** Add the $18$ new white tiles to the existing $6$ white tiles to get the total number of white tiles, then subtract the $13$ black tiles from that total."
   },
   {
     "id": "16",
@@ -207,7 +222,8 @@
       "(E) 11/15"
     ],
     "answer": "(C) 11/30",
-    "explanation": "The first pitcher has $\\frac{1}{3} \\times 600 = 200\\text{ ml}$ of juice. The second pitcher has $\\frac{2}{5} \\times 600 = 240\\text{ ml}$ of juice. Total juice = $200 + 240 = 440\\text{ ml}$. Total volume of mixture = $600 + 600 = 1200\\text{ ml}$. The fraction of juice is $\\frac{440}{1200} = \\frac{11}{30}$."
+    "explanation": "The first pitcher has $\\frac{1}{3} \\times 600 = 200\\text{ ml}$ of juice. The second pitcher has $\\frac{2}{5} \\times 600 = 240\\text{ ml}$ of juice. Total juice = $200 + 240 = 440\\text{ ml}$. Total volume of mixture = $600 + 600 = 1200\\text{ ml}$. The fraction of juice is $\\frac{440}{1200} = \\frac{11}{30}$.",
+    "hint": "**Key Strategy:** Part-to-Whole Ratio\n• **Step 1 (First Move):** Calculate the exact amount of pure orange juice in each $600\\text{ ml}$ pitcher: the first has $\\frac{1}{3} \\times 600 = 200\\text{ ml}$, and the second has $\\frac{2}{5} \\times 600 = 240\\text{ ml}$.\n• **Step 2 (The Guiding Bridge):** Find the total amount of orange juice by adding those two amounts ($200 + 240 = 440\\text{ ml}$). After filling both $600\\text{ ml}$ pitchers completely with water and pouring them together, the total volume of the mixture is $600 + 600 = 1200\\text{ ml}$.\n• **Step 3 (How to Finish):** Form the fraction $\\frac{\\text{total orange juice}}{\\text{total mixture}} = \\frac{440}{1200}$ and simplify it to lowest terms."
   },
   {
     "id": "17",
@@ -220,7 +236,8 @@
       "(E) 12"
     ],
     "answer": "(D) 10",
-    "explanation": "Give 1 pencil to each of the 3 friends first. The remaining 3 pencils can be distributed among the 3 friends. Using stars and bars, the number of ways to distribute 3 identical items among 3 people is $\\binom{3 + 3 - 1}{3 - 1} = \\binom{5}{2} = 10$."
+    "explanation": "Give 1 pencil to each of the 3 friends first. The remaining 3 pencils can be distributed among the 3 friends. Using stars and bars, the number of ways to distribute 3 identical items among 3 people is $\\binom{3 + 3 - 1}{3 - 1} = \\binom{5}{2} = 10$.",
+    "hint": "**Key Strategy:** Stars and Bars (Pre-Allocation)\n• **Step 1 (First Move):** Since each of the $3$ friends must have at least $1$ pencil, hand $1$ pencil to each friend right away. That uses $3$ pencils and leaves $6 - 3 = 3$ identical pencils left to distribute freely (each friend can get $0, 1, 2,$ or $3$ extra pencils).\n• **Step 2 (The Guiding Bridge):** Either list all ordered triples $(a, b, c)$ of non-negative integers adding up to $3$ (rearrangements of $(3,0,0)$, $(2,1,0)$, and $(1,1,1)$), or use the Stars and Bars formula with $3$ stars (pencils) and $3 - 1 = 2$ bars (dividers): $\\binom{3 + 2}{2} = \\frac{5 \\times 4}{2 \\times 1}$.\n• **Step 3 (How to Finish):** Add up the counts from your ordered triples (or evaluate $\\frac{5 \\times 4}{2 \\times 1}$) to find the total number of ways."
   },
   {
     "id": "18",
@@ -233,7 +250,8 @@
       "(E) Ellen"
     ],
     "answer": "(A) Alice",
-    "explanation": "Ben's 4 points must come from $1 + 3$. Cindy's 7 points must come from $5 + 2$. Dave's 11 points must come from $7 + 4$. Ellen's 17 points must come from $9 + 8$. This leaves 10 and 6 for Alice, whose sum is $10 + 6 = 16$. Thus, Alice hits the region worth 6 points."
+    "explanation": "Ben's 4 points must come from $1 + 3$. Cindy's 7 points must come from $5 + 2$. Dave's 11 points must come from $7 + 4$. Ellen's 17 points must come from $9 + 8$. This leaves 10 and 6 for Alice, whose sum is $10 + 6 = 16$. Thus, Alice hits the region worth 6 points.",
+    "hint": "**Key Strategy:** Extreme Values & Elimination\n• **Step 1 (First Move):** Since all $10$ darts hit *different* whole numbers from $1$ through $10$, start with the smallest score. Ben's score of $4$ can only be $1 + 3$ (since $2 + 2$ repeats a number).\n• **Step 2 (The Guiding Bridge):** Use elimination in order: for Cindy's $7$, $1$ and $3$ are taken, so she cannot use $1 + 6$ or $3 + 4$, leaving only $2 + 5$. For Dave's $11$, with $1, 2, 3, 5$ taken, only $4 + 7$ remains available. Since $7$ is now taken, Ellen's $17$ cannot be $7 + 10$ and must be $8 + 9$.\n• **Step 3 (How to Finish):** Identify the two numbers from $1$ to $10$ that have not been used yet, check that they add up to the final player's score of $16$, and see who hit the $6$."
   },
   {
     "id": "19",
@@ -246,7 +264,8 @@
       "(E) 320 and 369"
     ],
     "answer": "(B) 60 and 79",
-    "explanation": "If $N > 2$ leaves a remainder of 2 when divided by 3, 4, 5, and 6, then $N - 2$ is a multiple of 3, 4, 5, and 6. The least common multiple $\\text{LCM}(3, 4, 5, 6) = 60$. So $N - 2 = 60$, which means $N = 62$. The number 62 lies between 60 and 79."
+    "explanation": "If $N > 2$ leaves a remainder of 2 when divided by 3, 4, 5, and 6, then $N - 2$ is a multiple of 3, 4, 5, and 6. The least common multiple $\\text{LCM}(3, 4, 5, 6) = 60$. So $N - 2 = 60$, which means $N = 62$. The number 62 lies between 60 and 79.",
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) with Remainder Adjustment\n• **Step 1 (First Move):** If a whole number $N > 2$ leaves a remainder of $2$ when divided by $3, 4, 5,$ and $6$, then subtracting $2$ from $N$ removes the remainder—meaning $N - 2$ is evenly divisible by $3, 4, 5,$ and $6$.\n• **Step 2 (The Guiding Bridge):** Find the Least Common Multiple $\\text{LCM}(3, 4, 5, 6)$ using prime factorizations ($3$, $2^2$, $5$, and $2 \\times 3$): multiply the highest power of each prime, $2^2 \\times 3 \\times 5 = 60$. Since $N > 2$, the smallest positive value for $N - 2$ is $60$.\n• **Step 3 (How to Finish):** Solve $N - 2 = 60$ by adding $2$ to $60$, then check which range among the answer choices contains $N$."
   },
   {
     "id": "20",
@@ -259,7 +278,8 @@
       "(E) 36"
     ],
     "answer": "(D) 27",
-    "explanation": "The 6 empty chairs represent $1 - \\frac{3}{4} = \\frac{1}{4}$ of the total chairs, so there are $6 \\times 4 = 24$ chairs in total. The number of seated chairs is $24 - 6 = 18$. Since 18 people are seated, and this represents $\\frac{2}{3}$ of the people present, the total number of people in the room is $18 / (2/3) = 27$."
+    "explanation": "The 6 empty chairs represent $1 - \\frac{3}{4} = \\frac{1}{4}$ of the total chairs, so there are $6 \\times 4 = 24$ chairs in total. The number of seated chairs is $24 - 6 = 18$. Since 18 people are seated, and this represents $\\frac{2}{3}$ of the people present, the total number of people in the room is $18 / (2/3) = 27$.",
+    "hint": "**Key Strategy:** Working Backwards with Fractions\n• **Step 1 (First Move):** Since $\\frac{3}{4}$ of the chairs are occupied, the $6$ empty chairs make up $1 - \\frac{3}{4} = \\frac{1}{4}$ of all the chairs. Multiply $6 \\times 4$ to find that there are $24$ chairs in total.\n• **Step 2 (The Guiding Bridge):** Find the number of seated people by taking $\\frac{3}{4}$ of the $24$ chairs (or $24 - 6$), which gives $18$ seated people. Since these $18$ people represent $\\frac{2}{3}$ of everyone in the room, set up the equation $\\frac{2}{3} \\times P = 18$.\n• **Step 3 (How to Finish):** Divide $18$ by $\\frac{2}{3}$ (or find $\\frac{1}{3}$ of the people using $18 \\div 2$, then multiply by $3$) to find the total number of people $P$."
   },
   {
     "id": "21",
@@ -273,7 +293,8 @@
       "(E) 3/4"
     ],
     "answer": "(D) 2/3",
-    "explanation": "The product is odd if and only if both spinners land on odd numbers. Spinner A (numbers 1, 2, 3, 4) has probability $1/2$ of landing on an odd number. Spinner B (numbers 1, 2, 3) has probability $2/3$ of landing on an odd number. The probability of an odd product is $\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1}{3}$. Therefore, the probability of an even product is $1 - \\frac{1}{3} = \\frac{2}{3}$."
+    "explanation": "The product is odd if and only if both spinners land on odd numbers. Spinner A (numbers 1, 2, 3, 4) has probability $1/2$ of landing on an odd number. Spinner B (numbers 1, 2, 3) has probability $2/3$ of landing on an odd number. The probability of an odd product is $\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1}{3}$. Therefore, the probability of an even product is $1 - \\frac{1}{3} = \\frac{2}{3}$.",
+    "hint": "**Key Strategy:** Complementary Probability & Parity Rules\n• **Step 1 (First Move):** Recall how multiplication parity works: a product of two whole numbers is *even* if at least one factor is even, and *odd* **only** when both factors are odd. It is faster to find the probability of an odd product first and subtract from $1$.\n• **Step 2 (The Guiding Bridge):** Read the numbers on each spinner from the diagram: Spinner A has $\\{1, 2, 3, 4\\}$ (a $\\frac{2}{4} = \\frac{1}{2}$ chance of landing on an odd number), and Spinner B has $\\{1, 2, 3\\}$ (a $\\frac{2}{3}$ chance of landing on an odd number). Multiply these to find the probability that *both* spinners land on odd numbers: $\\frac{1}{2} \\times \\frac{2}{3} = \\frac{1}{3}$.\n• **Step 3 (How to Finish):** Subtract the probability of getting an odd product ($\\frac{1}{3}$) from $1$ to find the probability that the product is even."
   },
   {
     "id": "22",
@@ -286,7 +307,8 @@
       "(E) 3/5"
     ],
     "answer": "(B) 3/8",
-    "explanation": "Since $\\frac{2}{5}$ of the women are single, $\\frac{3}{5}$ of the women are married. For every 2 single women, there are 3 married women. Since married men attend with their wives, there are also 3 married men for every 3 married women. Thus, in any group of $2 + 3 + 3 = 8$ people, 3 are married men. The fraction of people who are married men is $\\frac{3}{8}$."
+    "explanation": "Since $\\frac{2}{5}$ of the women are single, $\\frac{3}{5}$ of the women are married. For every 2 single women, there are 3 married women. Since married men attend with their wives, there are also 3 married men for every 3 married women. Thus, in any group of $2 + 3 + 3 = 8$ people, 3 are married men. The fraction of people who are married men is $\\frac{3}{8}$.",
+    "hint": "**Key Strategy:** Assumed Total (Ratio Scaling)\n• **Step 1 (First Move):** Pick a convenient number of women so the fraction $\\frac{2}{5}$ works cleanly—for example, suppose there are $5$ women in the room. Since $\\frac{2}{5}$ of them are single, there are $2$ single women and $5 - 2 = 3$ married women.\n• **Step 2 (The Guiding Bridge):** Because every married man attends *with his wife*, the number of married men equals the number of married women ($3$ married men). Add all groups to find the total number of people in the room: $2\\text{ single women} + 3\\text{ married women} + 3\\text{ married men} = 8$ people.\n• **Step 3 (How to Finish):** Write the fraction $\\frac{\\text{number of married men}}{\\text{total number of people}}$ using your counts from Step 2."
   },
   {
     "id": "23",
@@ -300,7 +322,8 @@
       "(E) Graph E"
     ],
     "answer": "(D) Graph D",
-    "explanation": "As Tess runs from J to K, her straight-line distance from J increases. As she runs from K to L, her distance from J continues to increase until reaching a peak at corner L (the farthest point from J). As she runs from L to M, her distance decreases, and as she runs from M back to J, her distance decreases to 0. Graph D shows these continuous distance changes with a peak at L."
+    "explanation": "As Tess runs from J to K, her straight-line distance from J increases. As she runs from K to L, her distance from J continues to increase until reaching a peak at corner L (the farthest point from J). As she runs from L to M, her distance decreases, and as she runs from M back to J, her distance decreases to 0. Graph D shows these continuous distance changes with a peak at L.",
+    "hint": "**Key Strategy:** Qualitative Graph Analysis (Tracking Extrema & Monotonicity)\n• **Step 1 (First Move):** Trace Tess's path starting at corner $J$ (where her distance from home is $0$) and moving counterclockwise from $J \\to K \\to L \\to M \\to J$. As she runs from $J$ to $K$, her straight-line distance from $J$ steadily increases until she reaches $K$.\n• **Step 2 (The Guiding Bridge):** As she turns the corner and runs from $K$ to $L$, she moves even farther from $J$ (along a diagonal of the rectangle), so her distance from $J$ keeps increasing until it reaches a single maximum peak at corner $L$, the corner diagonally opposite $J$.\n• **Step 3 (How to Finish):** Follow the second half of the lap ($L \\to M \\to J$): her distance decreases from that peak at $L$ to $M$, and then decreases back to $0$ at $J$. Match the graph that rises continuously to a single peak in the middle and returns to $0$ at the end."
   },
   {
     "id": "24",
@@ -314,7 +337,8 @@
       "(E) 8.1"
     ],
     "answer": "(C) 7.6",
-    "explanation": "By the Pythagorean Theorem in right triangle AEH, $HE = \\sqrt{3^2 + 4^2} = 5$. The total area of rectangle ABCD is $10 \\times 8 = 80$. The four corner triangles have areas: two of $\\frac{1}{2} \\times 3 \\times 4 = 6$, and two of $\\frac{1}{2} \\times 5 \\times 6 = 15$. The area of parallelogram EFGH is $80 - 2(6) - 2(15) = 38$. Since area of parallelogram EFGH is $HE \\times d = 5d$, we have $5d = 38$, so $d = 38 / 5 = 7.6$."
+    "explanation": "By the Pythagorean Theorem in right triangle AEH, $HE = \\sqrt{3^2 + 4^2} = 5$. The total area of rectangle ABCD is $10 \\times 8 = 80$. The four corner triangles have areas: two of $\\frac{1}{2} \\times 3 \\times 4 = 6$, and two of $\\frac{1}{2} \\times 5 \\times 6 = 15$. The area of parallelogram EFGH is $80 - 2(6) - 2(15) = 38$. Since area of parallelogram EFGH is $HE \\times d = 5d$, we have $5d = 38$, so $d = 38 / 5 = 7.6$.",
+    "hint": "**Key Strategy:** Area Decomposition & Parallelogram Area Formula\n• **Step 1 (First Move):** Find the area of the outer rectangle $ABCD$ ($10 \\times 8 = 80$) and subtract the $4$ corner right triangles shown in the diagram: two congruent triangles with legs $3$ and $4$ (each of area $\\frac{1}{2} \\times 3 \\times 4 = 6$) and two congruent triangles with legs $5$ and $6$ (each of area $\\frac{1}{2} \\times 5 \\times 6 = 15$).\n• **Step 2 (The Guiding Bridge):** Subtract the four corner triangles from $80$ to get the area of parallelogram $EFGH$: $80 - 2(6) - 2(15) = 38$. Next, apply the Pythagorean Theorem to the $3\\text{-}4$ right triangle $AEH$ to find the base length $HE = \\sqrt{3^2 + 4^2} = 5$.\n• **Step 3 (How to Finish):** Since the area of parallelogram $EFGH$ equals $\\text{base} \\times \\text{height} = HE \\times d = 5d$, divide the parallelogram's area ($38$) by $5$ to solve for $d$."
   },
   {
     "id": "25",
@@ -328,6 +352,7 @@
       "(E) 32 - 2\\pi"
     ],
     "answer": "(D) 28 - 2\\pi",
-    "explanation": "Each square has area $4 \\times 4 = 16$. Their intersection is a $2 \\times 2$ square of area 4. The total area enclosed by the two squares is $2(16) - 4 = 28$. The diameter of the circle is the diagonal of the $2 \\times 2$ intersection square, which is $\\sqrt{2^2 + 2^2} = \\sqrt{8}$. The radius of the circle is $r = \\frac{\\sqrt{8}}{2} = \\sqrt{2}$. The area of the circle is $\\pi r^2 = \\pi (\\sqrt{2})^2 = 2\\pi$. Removing the circle leaves a shaded area of $28 - 2\\pi$."
+    "explanation": "Each square has area $4 \\times 4 = 16$. Their intersection is a $2 \\times 2$ square of area 4. The total area enclosed by the two squares is $2(16) - 4 = 28$. The diameter of the circle is the diagonal of the $2 \\times 2$ intersection square, which is $\\sqrt{2^2 + 2^2} = \\sqrt{8}$. The radius of the circle is $r = \\frac{\\sqrt{8}}{2} = \\sqrt{2}$. The area of the circle is $\\pi r^2 = \\pi (\\sqrt{2})^2 = 2\\pi$. Removing the circle leaves a shaded area of $28 - 2\\pi$.",
+    "hint": "**Key Strategy:** Inclusion-Exclusion Principle & Pythagorean Theorem\n• **Step 1 (First Move):** Find the combined area of the two $4 \\times 4$ squares without double-counting their overlap. Each square has area $4 \\times 4 = 16$. Because they bisect each other's sides at right angles, their overlap is a $2 \\times 2$ square of area $2 \\times 2 = 4$, giving a combined square area of $16 + 16 - 4 = 28$.\n• **Step 2 (The Guiding Bridge):** Find the radius $r$ of the circle. Its diameter is the diagonal of that $2 \\times 2$ overlap square, so by the Pythagorean Theorem, $\\text{diameter} = \\sqrt{2^2 + 2^2} = \\sqrt{8} = 2\\sqrt{2}$, meaning $r = \\frac{2\\sqrt{2}}{2} = \\sqrt{2}$. Compute the circle's area using $\\pi r^2 = \\pi(\\sqrt{2})^2 = 2\\pi$.\n• **Step 3 (How to Finish):** Subtract the area of the circle ($2\\pi$) from the combined area of the two squares ($28$) to write the exact area of the shaded region."
   }
 ]

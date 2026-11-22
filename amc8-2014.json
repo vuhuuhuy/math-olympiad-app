@@ -2,176 +2,351 @@
   {
     "id": 1,
     "question": "Harry and Terry are each told to calculate $8-(2+5)$. Harry gets the correct answer. Terry ignores the parentheses and calculates $8-2+5$. If Harry's answer is H and Terry's answer is T, what is $H-T$?",
-    "options": ["(A) -10", "(B) -6", "(C) 0", "(D) 6", "(E) 10"],
+    "options": [
+      "(A) -10",
+      "(B) -6",
+      "(C) 0",
+      "(D) 6",
+      "(E) 10"
+    ],
     "answer": "(A) -10",
-    "explanation": "Harry's answer is $H = 8 - 7 = 1$. Terry's answer is $T = 8 - 2 + 5 = 11$. The difference $H - T$ is $1 - 11 = -10$."
+    "explanation": "Harry's answer is $H = 8 - 7 = 1$. Terry's answer is $T = 8 - 2 + 5 = 11$. The difference $H - T$ is $1 - 11 = -10$.",
+    "hint": "**Key Strategy:** Order of Operations (PEMDAS / BODMAS)\n• **Step 1 (First Move):** Find Harry's value $H$ by simplifying inside the parentheses first: $2 + 5 = 7$, so $H = 8 - 7 = 1$.\n• **Step 2 (The Guiding Bridge):** Find Terry's value $T$ by working strictly from left to right without parentheses: $8 - 2 = 6$, and then add $5$ to get $T = 6 + 5 = 11$.\n• **Step 3 (How to Finish):** Subtract Terry's answer from Harry's answer by computing $H - T = 1 - 11$ (be careful with the negative sign!)."
   },
   {
     "id": 2,
     "question": "Paul owes Paula 35 cents and has a pocket full of 5-cent coins, 10-cent coins, and 25-cent coins that he can use to pay her. What is the difference between the largest and the smallest number of coins he can use to pay her?",
-    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) 5"],
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) 5"
+    ],
     "answer": "(E) 5",
-    "explanation": "To use the largest number of coins, Paul uses only 5-cent coins ($35 = 5 \\times 7$, so 7 coins). To use the smallest number, he uses one 25-cent and one 10-cent coin (2 coins). The difference is $7 - 2 = 5$."
+    "explanation": "To use the largest number of coins, Paul uses only 5-cent coins ($35 = 5 \\times 7$, so 7 coins). To use the smallest number, he uses one 25-cent and one 10-cent coin (2 coins). The difference is $7 - 2 = 5$.",
+    "hint": "**Key Strategy:** Greedy Optimization (Extremes)\n• **Step 1 (First Move):** To get the **largest** number of coins, use only the smallest coin value ($5$ cents): divide $35 \\div 5 = 7$ coins.\n• **Step 2 (The Guiding Bridge):** To get the **smallest** number of coins, use the largest coin values first: start with one $25$-cent coin, leaving $35 - 25 = 10$ cents, which takes just one $10$-cent coin ($1 + 1 = 2$ coins total).\n• **Step 3 (How to Finish):** Find the difference between the largest and smallest coin counts by subtracting $7 - 2$."
   },
   {
     "id": 3,
     "question": "Isabella had a week to read a book for a school assignment. She read an average of 36 pages per day for the first three days and an average of 44 pages per day for the next three days. She then finished the book by reading 10 pages on the last day. How many pages were in the book?",
-    "options": ["(A) 240", "(B) 250", "(C) 260", "(D) 270", "(E) 280"],
+    "options": [
+      "(A) 240",
+      "(B) 250",
+      "(C) 260",
+      "(D) 270",
+      "(E) 280"
+    ],
     "answer": "(B) 250",
-    "explanation": "The total number of pages is $3 \\times 36 + 3 \\times 44 + 10 = 3(80) + 10 = 250$."
+    "explanation": "The total number of pages is $3 \\times 36 + 3 \\times 44 + 10 = 3(80) + 10 = 250$.",
+    "hint": "**Key Strategy:** Average-to-Total Conversion ($\\text{Total} = \\text{Average} \\times \\text{Count}$)\n• **Step 1 (First Move):** Calculate the total pages read in the first $3$ days: $3 \\times 36 = 108$ pages.\n• **Step 2 (The Guiding Bridge):** Calculate the total pages read in the next $3$ days: $3 \\times 44 = 132$ pages (or pair them together as $3 \\times (36 + 44) = 3 \\times 80 = 240$ pages for the first $6$ days).\n• **Step 3 (How to Finish):** Add the $10$ pages read on the $7\\text{th}$ day to the $6$-day total by computing $240 + 10$ (or $108 + 132 + 10$)."
   },
   {
     "id": 4,
     "question": "The sum of two prime numbers is 85. What is the product of these two prime numbers?",
-    "options": ["(A) 85", "(B) 91", "(C) 115", "(D) 133", "(E) 166"],
+    "options": [
+      "(A) 85",
+      "(B) 91",
+      "(C) 115",
+      "(D) 133",
+      "(E) 166"
+    ],
     "answer": "(E) 166",
-    "explanation": "Since the sum 85 is odd, one of the primes must be the only even prime, which is 2. The other prime is 83, and their product is $2 \\times 83 = 166$."
+    "explanation": "Since the sum 85 is odd, one of the primes must be the only even prime, which is 2. The other prime is 83, and their product is $2 \\times 83 = 166$.",
+    "hint": "**Key Strategy:** Parity Analysis (Odd vs. Even Primes)\n• **Step 1 (First Move):** Notice that the sum $85$ is an **odd** number. When two whole numbers add up to an odd number, one must be **even** and the other must be **odd**.\n• **Step 2 (The Guiding Bridge):** Recall that $2$ is the **only** even prime number. Since one prime must be $2$, find the other prime by subtracting: $85 - 2 = 83$ (and check that $83$ is indeed prime).\n• **Step 3 (How to Finish):** Multiply the two prime numbers together by calculating $2 \\times 83$."
   },
   {
     "id": 5,
     "question": "Margie's car can go 32 miles on a gallon of gas, and gas currently costs 4 dollars per gallon. How many miles can Margie drive on 20 dollars worth of gas?",
-    "options": ["(A) 64", "(B) 128", "(C) 160", "(D) 320", "(E) 640"],
+    "options": [
+      "(A) 64",
+      "(B) 128",
+      "(C) 160",
+      "(D) 320",
+      "(E) 640"
+    ],
     "answer": "(C) 160",
-    "explanation": "With 20 dollars, Margie can buy $20 / 4 = 5$ gallons of gas. Driving 32 miles per gallon gives $32 \\times 5 = 160$ miles."
+    "explanation": "With 20 dollars, Margie can buy $20 / 4 = 5$ gallons of gas. Driving 32 miles per gallon gives $32 \\times 5 = 160$ miles.",
+    "hint": "**Key Strategy:** Unit Rate & Multi-Step Conversion\n• **Step 1 (First Move):** Find out how many gallons of gas Margie can buy with $\\$20$ at $\\$4$ per gallon: compute $20 \\div 4 = 5$ gallons.\n• **Step 2 (The Guiding Bridge):** Since her car travels $32$ miles for each gallon of gas, each of those $5$ gallons gives her another $32$ miles of driving.\n• **Step 3 (How to Finish):** Multiply the number of gallons by the miles per gallon: compute $5 \\times 32$."
   },
   {
     "id": 6,
     "question": "Six rectangles each with a common base width of 2 have lengths of 1, 4, 9, 16, 25, and 36. What is the sum of the areas of the six rectangles?",
-    "options": ["(A) 91", "(B) 93", "(C) 162", "(D) 182", "(E) 202"],
+    "options": [
+      "(A) 91",
+      "(B) 93",
+      "(C) 162",
+      "(D) 182",
+      "(E) 202"
+    ],
     "answer": "(D) 182",
-    "explanation": "The sum of areas is $2(1 + 4 + 9 + 16 + 25 + 36) = 2 \\times 91 = 182$."
+    "explanation": "The sum of areas is $2(1 + 4 + 9 + 16 + 25 + 36) = 2 \\times 91 = 182$.",
+    "hint": "**Key Strategy:** Distributive Property (Factoring Out a Common Width)\n• **Step 1 (First Move):** Write the area of each rectangle as $\\text{width} \\times \\text{length}$, and notice that every rectangle shares the same width of $2$: $2 \\times 1 + 2 \\times 4 + 2 \\times 9 + 2 \\times 16 + 2 \\times 25 + 2 \\times 36$.\n• **Step 2 (The Guiding Bridge):** Factor out the common $2$ to add all the lengths first: $1 + 4 + 9 + 16 + 25 + 36 = 91$.\n• **Step 3 (How to Finish):** Multiply the sum of the lengths by the common width of $2$: compute $2 \\times 91$."
   },
   {
     "id": 7,
     "question": "There are four more girls than boys in Ms. Raub's class of 28 students. What is the ratio of the number of girls to the number of boys in her class?",
-    "options": ["(A) 3 : 4", "(B) 4 : 3", "(C) 3 : 2", "(D) 7 : 4", "(E) 2 : 1"],
+    "options": [
+      "(A) 3 : 4",
+      "(B) 4 : 3",
+      "(C) 3 : 2",
+      "(D) 7 : 4",
+      "(E) 2 : 1"
+    ],
     "answer": "(B) 4 : 3",
-    "explanation": "There are 16 girls and 12 boys in the class. The ratio is $16:12$, which simplifies to $4:3$."
+    "explanation": "There are 16 girls and 12 boys in the class. The ratio is $16:12$, which simplifies to $4:3$.",
+    "hint": "**Key Strategy:** Sum-and-Difference Problem & Ratio Simplification\n• **Step 1 (First Move):** Remove the \"extra\" $4$ girls from the total of $28$ students so that the remaining girls and boys are equal in number: $28 - 4 = 24$.\n• **Step 2 (The Guiding Bridge):** Split those $24$ students equally to find the number of boys: $24 \\div 2 = 12$ boys. Then add the $4$ extra back to find the number of girls: $12 + 4 = 16$ girls.\n• **Step 3 (How to Finish):** Write the ratio of girls to boys as $16 : 12$, and simplify by dividing both numbers by their greatest common factor, $4$."
   },
   {
     "id": 8,
     "question": "Eleven members of the Middle School Math Club each paid the same amount for a guest speaker to talk about problem solving at their math club meeting. They paid their guest speaker 1A2 dollars. What is the missing digit A of this 3-digit number?",
-    "options": ["(A) 0", "(B) 1", "(C) 2", "(D) 3", "(E) 4"],
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 3",
+      "(E) 4"
+    ],
     "answer": "(D) 3",
-    "explanation": "Multiples of 11 between 102 and 192 include 132, where the middle digit is 3."
+    "explanation": "Multiples of 11 between 102 and 192 include 132, where the middle digit is 3.",
+    "hint": "**Key Strategy:** Divisibility Rule for $11$\n• **Step 1 (First Move):** Since $11$ members shared the total cost of $1A2$ dollars equally, the $3$-digit number $1A2$ must be a multiple of $11$.\n• **Step 2 (The Guiding Bridge):** Notice the units digit is $2$, so look for a $2$-digit number ending in $2$ to multiply by $11$ that lands between $100$ and $200$ (try $11 \\times 12$), or use the divisibility rule for $11$ where the middle digit $A$ equals the sum of the outer digits ($1 + 2$).\n• **Step 3 (How to Finish):** Compute $11 \\times 12$ (or add the two outer digits $1 + 2$) to find the middle digit $A$."
   },
   {
     "id": 9,
     "question": "In $\\triangle ABC$, D is a point on side $\\overline{AC}$ such that $BD=DC$ and $\\angle BCD$ measures $70^{\\circ}$. What is the degree measure of $\\angle ADB$?",
-    "options": ["(A) 100", "(B) 120", "(C) 135", "(D) 140", "(E) 150"],
+    "options": [
+      "(A) 100",
+      "(B) 120",
+      "(C) 135",
+      "(D) 140",
+      "(E) 150"
+    ],
     "answer": "(D) 140",
-    "explanation": "Triangle BCD is isosceles, so $\\angle CBD = 70^{\\circ}$ and $\\angle BDC = 40^{\\circ}$. Thus, $\\angle ADB = 180^{\\circ} - 40^{\\circ} = 140^{\\circ}$."
+    "explanation": "Triangle BCD is isosceles, so $\\angle CBD = 70^{\\circ}$ and $\\angle BDC = 40^{\\circ}$. Thus, $\\angle ADB = 180^{\\circ} - 40^{\\circ} = 140^{\\circ}$.",
+    "hint": "**Key Strategy:** Isosceles Triangle & Supplementary Angles (or Exterior Angle Theorem)\n• **Step 1 (First Move):** Look at $\\triangle BDC$. Because $BD = DC$, it is an isosceles triangle, so the base angles opposite those equal sides are equal: $\\angle CBD = \\angle BCD = 70^{\\circ}$.\n• **Step 2 (The Guiding Bridge):** Find the third angle in $\\triangle BDC$ using the $180^{\\circ}$ angle sum of a triangle: $\\angle BDC = 180^{\\circ} - 70^{\\circ} - 70^{\\circ} = 40^{\\circ}$.\n• **Step 3 (How to Finish):** Since $A$, $D$, and $C$ lie on a straight line, $\\angle ADB$ and $\\angle BDC$ are supplementary (they add up to $180^{\\circ}$). Subtract $180^{\\circ} - 40^{\\circ}$ to find $\\angle ADB$ (or use the Exterior Angle Theorem: $70^{\\circ} + 70^{\\circ}$)."
   },
   {
     "id": 10,
     "question": "The first AMC 8 was given in 1985 and it has been given annually since that time. Samantha turned 12 years old the year that she took the seventh AMC 8. In what year was Samantha born?",
-    "options": ["(A) 1979", "(B) 1980", "(C) 1981", "(D) 1982", "(E) 1983"],
+    "options": [
+      "(A) 1979",
+      "(B) 1980",
+      "(C) 1981",
+      "(D) 1982",
+      "(E) 1983"
+    ],
     "answer": "(A) 1979",
-    "explanation": "The seventh AMC 8 was given in $1985 + 6 = 1991$. Samantha was born in $1991 - 12 = 1979$."
+    "explanation": "The seventh AMC 8 was given in $1985 + 6 = 1991$. Samantha was born in $1991 - 12 = 1979$.",
+    "hint": "**Key Strategy:** Fencepost Counting (Off-by-One Prevention)\n• **Step 1 (First Move):** Find the year of the seventh AMC 8 carefully. The $1\\text{st}$ AMC 8 was in $1985$, the $2\\text{nd}$ in $1986$, so from the $1\\text{st}$ to the $7\\text{th}$ test only $7 - 1 = 6$ years pass.\n• **Step 2 (The Guiding Bridge):** Add those $6$ years to the starting year to find when Samantha took the seventh AMC 8: $1985 + 6 = 1991$.\n• **Step 3 (How to Finish):** Since Samantha turned $12$ years old in $1991$, subtract her age from that year: compute $1991 - 12$."
   },
   {
     "id": 11,
     "question": "Jack wants to bike from his house to Jill's house, which is located three blocks east and two blocks north of Jack's house. After biking each block, Jack can continue either east or north, but he needs to avoid a dangerous intersection one block east and one block north of his house. In how many ways can he reach Jill's house by biking a total of five blocks?",
-    "options": ["(A) 4", "(B) 5", "(C) 6", "(D) 8", "(E) 10"],
+    "options": [
+      "(A) 4",
+      "(B) 5",
+      "(C) 6",
+      "(D) 8",
+      "(E) 10"
+    ],
     "answer": "(A) 4",
-    "explanation": "To avoid the dangerous intersection, the first two moves must be EE or NN, leaving 4 valid paths."
+    "explanation": "To avoid the dangerous intersection, the first two moves must be EE or NN, leaving 4 valid paths.",
+    "hint": "**Key Strategy:** Grid Path Counting with Complementary Counting (Total Paths Minus Forbidden Paths)\n• **Step 1 (First Move):** Find the total number of $5$-block paths from $(0,0)$ to $(3,2)$ with no restrictions by choosing which $2$ of the $5$ steps go North ($N$) and the rest East ($E$): $\\binom{5}{2} = \\frac{5 \\times 4}{2 \\times 1} = 10$ total paths.\n• **Step 2 (The Guiding Bridge):** Count the forbidden paths that pass through the dangerous intersection at $(1,1)$. To reach $(1,1)$ takes $2$ paths ($EN$ or $NE$), and from $(1,1)$ to $(3,2)$ ($2$ East and $1$ North) takes $3$ paths ($EEN$, $ENE$, $NEE$), giving $2 \\times 3 = 6$ forbidden paths.\n• **Step 3 (How to Finish):** Subtract the forbidden paths from the total paths by computing $10 - 6$."
   },
   {
     "id": 12,
     "question": "A magazine printed photos of three celebrities along with three photos of the celebrities as babies. The baby pictures did not identify the celebrities. Readers were asked to match each celebrity with the correct baby picture. What is the probability that a reader guessing at random will match all three correctly?",
-    "options": ["(A) 1/9", "(B) 1/6", "(C) 1/4", "(D) 1/3", "(E) 1/2"],
+    "options": [
+      "(A) 1/9",
+      "(B) 1/6",
+      "(C) 1/4",
+      "(D) 1/3",
+      "(E) 1/2"
+    ],
     "answer": "(B) 1/6",
-    "explanation": "There are $3! = 6$ possible orderings, and only one is correct, giving a probability of $1/6$."
+    "explanation": "There are $3! = 6$ possible orderings, and only one is correct, giving a probability of $1/6$.",
+    "hint": "**Key Strategy:** Counting Permutations (Factorial) & Basic Probability\n• **Step 1 (First Move):** Count how many choices a reader has when matching the $1\\text{st}$ celebrity to a baby photo: there are $3$ possible baby photos.\n• **Step 2 (The Guiding Bridge):** After the $1\\text{st}$ photo is used, there are $2$ choices left for the $2\\text{nd}$ celebrity and $1$ choice left for the $3\\text{rd}$ celebrity, so the total number of equally likely ways to match all three is $3 \\times 2 \\times 1 = 6$.\n• **Step 3 (How to Finish):** Since only $1$ of those $6$ matchings is completely correct, write the probability as the fraction $\\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$."
   },
   {
     "id": 13,
     "question": "If n and m are integers and $n^2 + m^2$ is even, which of the following is impossible?",
-    "options": ["(A) n and m are even", "(B) n and m are odd", "(C) $n+m$ is even", "(D) $n+m$ is odd", "(E) none of these is impossible"],
-    "answer": "(D) n+m is odd",
-    "explanation": "If $n^2 + m^2$ is even, both n and m must have the same parity, meaning their sum $n+m$ is always even. Thus, $n+m$ being odd is impossible."
+    "options": [
+      "(A) n and m are even",
+      "(B) n and m are odd",
+      "(C) $n+m$ is even",
+      "(D) $n+m$ is odd",
+      "(E) none of these is impossible"
+    ],
+    "answer": "(D) $n+m$ is odd",
+    "explanation": "If $n^2 + m^2$ is even, both n and m must have the same parity, meaning their sum $n+m$ is always even. Thus, $n+m$ being odd is impossible.",
+    "hint": "**Key Strategy:** Parity Casework (Even and Odd Squares)\n• **Step 1 (First Move):** Remember that squaring an integer does not change whether it is even or odd: $(\\text{even})^2 = \\text{even}$ and $(\\text{odd})^2 = \\text{odd}$.\n• **Step 2 (The Guiding Bridge):** For $n^2 + m^2$ to be **even**, either both $n^2$ and $m^2$ are even (meaning $n$ and $m$ are both even), or both $n^2$ and $m^2$ are odd (meaning $n$ and $m$ are both odd).\n• **Step 3 (How to Finish):** Test the sum $n + m$ in both valid cases ($\\text{even} + \\text{even}$ and $\\text{odd} + \\text{odd}$). Since both cases always produce the same parity for $n + m$, identify which choice describes an impossible outcome."
   },
   {
     "id": 14,
     "question": "Rectangle ABCD and right triangle DCE have the same area. They are joined to form a trapezoid, with AB = 5, AD = 6, and rectangle area = 30. What is DE?",
-    "options": ["(A) 12", "(B) 13", "(C) 14", "(D) 15", "(E) 16"],
+    "options": [
+      "(A) 12",
+      "(B) 13",
+      "(C) 14",
+      "(D) 15",
+      "(E) 16"
+    ],
     "answer": "(B) 13",
-    "explanation": "The area of triangle DCE is 30, so $CE = 60 / 5 = 12$. By the Pythagorean Theorem on triangle DCE with legs 5 and 12, the hypotenuse $DE = \\sqrt{5^2 + 12^2} = 13$."
+    "explanation": "The area of triangle DCE is 30, so $CE = 60 / 5 = 12$. By the Pythagorean Theorem on triangle DCE with legs 5 and 12, the hypotenuse $DE = \\sqrt{5^2 + 12^2} = 13$.",
+    "hint": "**Key Strategy:** Triangle Area Formula & Pythagorean Theorem\n• **Step 1 (First Move):** Since right triangle $DCE$ has the same area as rectangle $ABCD$, its area is $30$, and one leg is $DC = AB = 5$. Set up the triangle area equation: $\\frac{1}{2} \\times 5 \\times CE = 30$.\n• **Step 2 (The Guiding Bridge):** Solve for the other leg $CE$: multiply $30 \\times 2 = 60$ and divide by $5$ to get $CE = 12$.\n• **Step 3 (How to Finish):** Apply the Pythagorean Theorem to right triangle $DCE$ with legs $5$ and $12$: compute $\\sqrt{5^2 + 12^2} = \\sqrt{25 + 144}$ to find the hypotenuse $DE$."
   },
   {
     "id": 15,
     "question": "The circumference of the circle with center O is divided into 12 equal arcs, marked with letters A through L. What is the number of degrees in the sum of angles x and y?",
-    "options": ["(A) 75", "(B) 80", "(C) 90", "(D) 120", "(E) 150"],
+    "options": [
+      "(A) 75",
+      "(B) 80",
+      "(C) 90",
+      "(D) 120",
+      "(E) 150"
+    ],
     "answer": "(C) 90",
-    "explanation": "Both triangles are isosceles, and the sum of angles is $(60^{\\circ} + 120^{\\circ}) / 2 = 90^{\\circ}$."
+    "explanation": "Both triangles are isosceles, and the sum of angles is $(60^{\\circ} + 120^{\\circ}) / 2 = 90^{\\circ}$.",
+    "hint": "**Key Strategy:** Central Angles & Isosceles Triangles in a Circle\n• **Step 1 (First Move):** Since the circle's $360^{\\circ}$ circumference is divided into $12$ equal arcs, find the central angle of $1$ arc: $360^{\\circ} \\div 12 = 30^{\\circ}$.\n• **Step 2 (The Guiding Bridge):** Use the number of arcs between the vertices in each triangle to find the two central angles at $O$: one spans $2$ arcs ($2 \\times 30^{\\circ} = 60^{\\circ}$) and the other spans $4$ arcs ($4 \\times 30^{\\circ} = 120^{\\circ}$). Because all radii from center $O$ are equal, both triangles are isosceles, so their base angles are $\\frac{180^{\\circ} - 120^{\\circ}}{2} = 30^{\\circ}$ and $\\frac{180^{\\circ} - 60^{\\circ}}{2} = 60^{\\circ}$.\n• **Step 3 (How to Finish):** Add the two angle measures together by computing $30^{\\circ} + 60^{\\circ}$ (or $\\frac{60^{\\circ} + 120^{\\circ}}{2}$)."
   },
   {
     "id": 16,
     "question": "The Middle School Eight basketball conference has 8 teams. Every season, each team plays every other conference team twice (home and away), and each team also plays 4 games against non-conference opponents. What is the total number of games in a season involving Middle School Eight teams?",
-    "options": ["(A) 60", "(B) 88", "(C) 96", "(D) 144", "(E) 160"],
+    "options": [
+      "(A) 60",
+      "(B) 88",
+      "(C) 96",
+      "(D) 144",
+      "(E) 160"
+    ],
     "answer": "(B) 88",
-    "explanation": "There are 32 non-conference games and 56 conference games, totaling $32 + 56 = 88$ games."
+    "explanation": "There are 32 non-conference games and 56 conference games, totaling $32 + 56 = 88$ games.",
+    "hint": "**Key Strategy:** Handshake Counting (Pairs) & Avoiding Double-Counting\n• **Step 1 (First Move):** Count the **conference games** first. Each of the $8$ teams plays the other $7$ conference teams twice ($8 \\times 7 \\times 2 = 112$), but since every conference game involves $2$ conference teams, divide by $2$ to avoid counting each game twice: $\\frac{8 \\times 7 \\times 2}{2} = 8 \\times 7 = 56$ conference games.\n• **Step 2 (The Guiding Bridge):** Next, count the **non-conference games**. Each of the $8$ teams plays $4$ games against teams *outside* the conference, so none of these games are shared between two Middle School Eight teams: $8 \\times 4 = 32$ non-conference games.\n• **Step 3 (How to Finish):** Add the conference games and non-conference games together by computing $56 + 32$."
   },
   {
     "id": 17,
     "question": "George walks 1 mile to school at 3 miles per hour. Today he walked the first half-mile at 2 miles per hour. At how many miles per hour must George run the last half-mile in order to arrive on time?",
-    "options": ["(A) 4", "(B) 6", "(C) 8", "(D) 10", "(E) 12"],
+    "options": [
+      "(A) 4",
+      "(B) 6",
+      "(C) 8",
+      "(D) 10",
+      "(E) 12"
+    ],
     "answer": "(B) 6",
-    "explanation": "George normally takes 20 minutes. The first half-mile takes 15 minutes, leaving 5 minutes (1/12 hour) to cover the remaining half-mile at 6 miles per hour."
+    "explanation": "George normally takes 20 minutes. The first half-mile takes 15 minutes, leaving 5 minutes (1/12 hour) to cover the remaining half-mile at 6 miles per hour.",
+    "hint": "**Key Strategy:** Distance-Rate-Time ($\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$)\n• **Step 1 (First Move):** Find George's usual total travel time for $1$ mile at $3\\text{ mph}$: $\\text{Time} = \\frac{1}{3}\\text{ hour}$, which is $\\frac{1}{3} \\times 60 = 20$ minutes.\n• **Step 2 (The Guiding Bridge):** Find how long he took for the first $\\frac{1}{2}$ mile at $2\\text{ mph}$: $\\frac{1/2}{2} = \\frac{1}{4}\\text{ hour} = 15$ minutes. Subtract to find the remaining time: $20 - 15 = 5$ minutes, which is $\\frac{5}{60} = \\frac{1}{12}\\text{ hour}$.\n• **Step 3 (How to Finish):** Calculate the required speed for the last $\\frac{1}{2}$ mile using $\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}}$: divide $\\frac{1}{2} \\div \\frac{1}{12}$."
   },
   {
     "id": 18,
     "question": "Four children were born at City Hospital yesterday. Assume each child is equally likely to be a boy or a girl. Which of the following outcomes is most likely?",
-    "options": ["(A) all 4 are boys", "(B) all 4 are girls", "(C) 2 are girls and 2 are boys", "(D) 3 are of one gender and 1 is of the other gender", "(E) all of these outcomes are equally likely"],
+    "options": [
+      "(A) all 4 are boys",
+      "(B) all 4 are girls",
+      "(C) 2 are girls and 2 are boys",
+      "(D) 3 are of one gender and 1 is of the other gender",
+      "(E) all of these outcomes are equally likely"
+    ],
     "answer": "(D) 3 are of one gender and 1 is of the other gender",
-    "explanation": "There are 8 outcomes out of 16 that produce 3 of one gender and 1 of the other, making it the most likely outcome."
+    "explanation": "There are 8 outcomes out of 16 that produce 3 of one gender and 1 of the other, making it the most likely outcome.",
+    "hint": "**Key Strategy:** Sample Space Counting & Binomial Combinations\n• **Step 1 (First Move):** Find the total number of equally likely boy/girl sequences for $4$ children: each child has $2$ possibilities, so there are $2 \\times 2 \\times 2 \\times 2 = 16$ total outcomes.\n• **Step 2 (The Guiding Bridge):** Count how many of the $16$ outcomes match each choice: \"all $4$ boys\" has $1$ way ($BBBB$); \"all $4$ girls\" has $1$ way ($GGGG$); \"$2$ girls and $2$ boys\" has $\\binom{4}{2} = 6$ ways; and \"$3$ of one gender and $1$ of the other\" includes both \"$3$ boys, $1$ girl\" ($4$ ways to place the $1$ girl) and \"$3$ girls, $1$ boy\" ($4$ ways to place the $1$ boy).\n• **Step 3 (How to Finish):** Add $4 + 4$ for the split-gender case and compare all four counts to identify which outcome occurs most often."
   },
   {
     "id": 19,
     "question": "A cube with 3-inch edges is to be constructed from 27 smaller cubes with 1-inch edges. Twenty-one are red and 6 are white. If the 3-inch cube is constructed to have the smallest possible white surface area showing, what fraction of the surface area is white?",
-    "options": ["(A) 5/54", "(B) 1/9", "(C) 5/27", "(D) 2/9", "(E) 1/3"],
+    "options": [
+      "(A) 5/54",
+      "(B) 1/9",
+      "(C) 5/27",
+      "(D) 2/9",
+      "(E) 1/3"
+    ],
     "answer": "(A) 5/54",
-    "explanation": "Placing 5 white cubes inside/on faces appropriately yields 5 visible white square units out of 54 total surface units, resulting in $5/54$."
+    "explanation": "Placing 5 white cubes inside/on faces appropriately yields 5 visible white square units out of 54 total surface units, resulting in $5/54$.",
+    "hint": "**Key Strategy:** 3D Cube Anatomy (Center, Face-Center, Edge, Corner) & Minimization\n• **Step 1 (First Move):** Calculate the total surface area of the $3 \\times 3 \\times 3$ cube: there are $6$ faces, each with area $3 \\times 3 = 9\\text{ in}^2$, giving $6 \\times 9 = 54$ square inches in total.\n• **Step 2 (The Guiding Bridge):** Hide as many of the $6$ white unit cubes as possible inside or with the fewest visible faces: place $1$ white cube completely hidden in the very **center** ($0$ faces showing), and place the remaining $5$ white cubes in the **middle of outer faces** ($1$ face showing each, instead of $2$ at an edge or $3$ at a corner).\n• **Step 3 (How to Finish):** Multiply the $5$ face-center white cubes by $1$ visible face each (plus $0$ from the hidden center cube) to get the minimum white surface area, then divide by the total surface area of $54$ to form the fraction."
   },
   {
     "id": 20,
     "question": "Rectangle ABCD has sides CD = 3 and DA = 5. A circle of radius 1 is centered at A, a circle of radius 2 at B, and a circle of radius 3 at C. Which of the following is closest to the area of the rectangle outside all three circles?",
-    "options": ["(A) 3.5", "(B) 4.0", "(C) 4.5", "(D) 5.0", "(E) 5.5"],
+    "options": [
+      "(A) 3.5",
+      "(B) 4.0",
+      "(C) 4.5",
+      "(D) 5.0",
+      "(E) 5.5"
+    ],
     "answer": "(B) 4.0",
-    "explanation": "Total rectangle area is 15. The sum of the areas of the quarter/sector circles inside the rectangle is approximately 11, leaving $15 - 11 = 4.0$."
+    "explanation": "Total rectangle area is 15. The sum of the areas of the quarter/sector circles inside the rectangle is approximately 11, leaving $15 - 11 = 4.0$.",
+    "hint": "**Key Strategy:** Area Subtraction (Rectangle Minus Quarter-Circles) & Approximation ($\\pi \\approx 3.14$)\n• **Step 1 (First Move):** Calculate the total area of rectangle $ABCD$: $\\text{Area} = 3 \\times 5 = 15$. Check that the three circles do not overlap inside the rectangle ($1 + 2 = 3 = AB$ and $2 + 3 = 5 = BC$, so they only touch at single points).\n• **Step 2 (The Guiding Bridge):** Since each circle is centered at a $90^{\\circ}$ corner of the rectangle and has radius at most $3$ (the shorter side), each covers a **quarter-circle** ($\\frac{1}{4}\\pi r^2$) inside the rectangle. Add the areas of the three quarter-circles: $\\frac{1}{4}\\pi(1^2 + 2^2 + 3^2) = \\frac{1}{4}\\pi(1 + 4 + 9) = \\frac{14}{4}\\pi = 3.5\\pi$.\n• **Step 3 (How to Finish):** Approximate $3.5\\pi$ using $\\pi \\approx 3.14$ (so $3.5 \\times 3.14 \\approx 11$), and subtract that circle area from the rectangle's area of $15$: compute $15 - 11$."
   },
   {
     "id": 21,
     "question": "The 7-digit numbers 74A52B1 and 326AB4C are each multiples of 3. Which of the following could be the value of C?",
-    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 5", "(E) 8"],
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 5",
+      "(E) 8"
+    ],
     "answer": "(A) 1",
-    "explanation": "Analyzing the sum of digits modulo 3 for both numbers shows that C must be 1."
+    "explanation": "Analyzing the sum of digits modulo 3 for both numbers shows that C must be 1.",
+    "hint": "**Key Strategy:** Divisibility Rule for $3$ & Modular Arithmetic ($\\bmod 3$)\n• **Step 1 (First Move):** Apply the divisibility rule for $3$ to the first number, $74A52B1$: sum its known digits, $7 + 4 + 5 + 2 + 1 = 19$, so $19 + A + B$ must be a multiple of $3$.\n• **Step 2 (The Guiding Bridge):** Since $19$ leaves a remainder of $1$ when divided by $3$ ($19 = 3 \\times 6 + 1$), $A + B$ must leave a remainder of $2$ when divided by $3$. Now sum the known digits of the second number, $326AB4C$: $3 + 2 + 6 + 4 = 15$, giving $15 + A + B + C$.\n• **Step 3 (How to Finish):** Because $15$ is already a multiple of $3$ and $A + B$ leaves a remainder of $2$ when divided by $3$, find what remainder $C$ must leave when divided by $3$ so that $(A + B) + C$ is a multiple of $3$ (compute $3 - 2$), then pick the matching choice."
   },
   {
     "id": 22,
     "question": "A 2-digit number is such that the product of the digits plus the sum of the digits is equal to the number. What is the units digit of the number?",
-    "options": ["(A) 1", "(B) 3", "(C) 5", "(D) 7", "(E) 9"],
+    "options": [
+      "(A) 1",
+      "(B) 3",
+      "(C) 5",
+      "(D) 7",
+      "(E) 9"
+    ],
     "answer": "(E) 9",
-    "explanation": "Let the number be $10a + b$. Then $a + b + ab = 10a + b \\implies ab = 9a \\implies b = 9$."
+    "explanation": "Let the number be $10a + b$. Then $a + b + ab = 10a + b \\implies ab = 9a \\implies b = 9$.",
+    "hint": "**Key Strategy:** Place-Value Algebra ($10a + b$)\n• **Step 1 (First Move):** Represent the $2$-digit number algebraically using its tens digit $a$ ($a \\neq 0$) and units digit $b$: the number's value is $10a + b$.\n• **Step 2 (The Guiding Bridge):** Translate the sentence into an equation: $ab + a + b = 10a + b$. Subtract $b$ from both sides to simplify it to $ab + a = 10a$.\n• **Step 3 (How to Finish):** Subtract $a$ from both sides of $ab + a = 10a$, and then divide both sides by the nonzero tens digit $a$ to solve for the units digit $b$."
   },
   {
     "id": 23,
     "question": "Three members of the Euclid Middle School girls' softball team discussed their uniform numbers (all 2-digit primes) and their birthday dates. What number does Caitlin wear?",
-    "options": ["(A) 11", "(B) 13", "(C) 17", "(D) 19", "(E) 23"],
+    "options": [
+      "(A) 11",
+      "(B) 13",
+      "(C) 17",
+      "(D) 19",
+      "(E) 23"
+    ],
     "answer": "(A) 11",
-    "explanation": "The primes are 11, 13, and 17. Caitlin's uniform number is 11."
+    "explanation": "The primes are 11, 13, and 17. Caitlin's uniform number is 11.",
+    "hint": "**Key Strategy:** Prime Listing & Calendar Bounds Casework\n• **Step 1 (First Move):** List the smallest $2$-digit prime numbers in order ($11, 13, 17, 19, 23, \\dots$) and note that any pair of the three girls' uniform numbers must sum to a valid calendar day of the month (at most $31$).\n• **Step 2 (The Guiding Bridge):** Check which three $2$-digit primes have all three pairwise sums $\\le 31$: notice that $13 + 19 = 32$ is too large for a calendar date, so only the three smallest $2$-digit primes ($11, 13, 17$) can work, giving pairwise sums $24$, $28$, and $30$.\n• **Step 3 (How to Finish):** Match the largest sum ($13 + 17 = 30$) to the date \"later this month\" that Caitlin's two teammates sum to, and identify the remaining prime in $\\{11, 13, 17\\}$ that Caitlin wears."
   },
   {
     "id": 24,
     "question": "One day the Beverage Barn sold 252 cans of soda to 100 customers, and every customer bought at least one can of soda. What is the maximum possible median number of cans of soda bought per customer on that day?",
-    "options": ["(A) 2.5", "(B) 3.0", "(C) 3.5", "(D) 4.0", "(E) 4.5"],
+    "options": [
+      "(A) 2.5",
+      "(B) 3.0",
+      "(C) 3.5",
+      "(D) 4.0",
+      "(E) 4.5"
+    ],
     "answer": "(C) 3.5",
-    "explanation": "To maximize the median, minimize the lower 49 customers to 1 can each. Testing values yields a median of $(3 + 4) / 2 = 3.5$."
+    "explanation": "To maximize the median, minimize the lower 49 customers to 1 can each. Testing values yields a median of $(3 + 4) / 2 = 3.5$.",
+    "hint": "**Key Strategy:** Maximizing the Median via Greedy Allocation\n• **Step 1 (First Move):** With $100$ customers sorted from fewest to most cans, the median is the average of the $50\\text{th}$ and $51\\text{st}$ values. To maximize these two middle values, give the first $49$ customers the minimum possible amount: $1$ can each ($49 \\times 1 = 49$ cans used).\n• **Step 2 (The Guiding Bridge):** Subtract those $49$ cans from the total: $252 - 49 = 203$ cans remain for the last $51$ customers (from the $50\\text{th}$ to the $100\\text{th}$). Divide $203 \\div 51$: $51 \\times 3 = 153$, leaving $203 - 153 = 50$ extra cans.\n• **Step 3 (How to Finish):** If all $51$ remaining customers start with $3$ cans, you have $50$ extra cans to add $1$ can each to the top $50$ customers ($51\\text{st}$ through $100\\text{th}$), making the $50\\text{th}$ value $3$ and the $51\\text{st}$ value $4$. Average them by computing $\\frac{3 + 4}{2}$."
   },
   {
     "id": 25,
     "question": "A straight one-mile stretch of highway, 40 feet wide, is closed. Robert rides his bike on a path composed of semicircles. If he rides at 5 miles per hour, how many hours will it take to cover the one-mile stretch?",
-    "options": ["(A) $\\frac{\\pi}{11}$", "(B) $\\frac{\\pi}{10}$", "(C) $\\frac{\\pi}{5}$", "(D) $\\frac{2\\pi}{5}$", "(E) $\\frac{2\\pi}{3}$"],
+    "options": [
+      "(A) $\\frac{\\pi}{11}$",
+      "(B) $\\frac{\\pi}{10}$",
+      "(C) $\\frac{\\pi}{5}$",
+      "(D) $\\frac{2\\pi}{5}$",
+      "(E) $\\frac{2\\pi}{3}$"
+    ],
     "answer": "(B) $\\frac{\\pi}{10}$",
-    "explanation": "The total distance is $\\pi / 2$ miles. At 5 mph, the time required is $(\\pi / 2) \\div 5 = \\pi / 10$ hours."
+    "explanation": "The total distance is $\\pi / 2$ miles. At 5 mph, the time required is $(\\pi / 2) \\div 5 = \\pi / 10$ hours.",
+    "hint": "**Key Strategy:** Arc Length Scaling (Circumference of Semicircles) & $\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}}$\n• **Step 1 (First Move):** Notice a useful geometric ratio: for any semicircle with diameter $d$, the straight distance across it is $d$, while the curved arc length along the semicircle is $\\frac{1}{2}(\\pi d) = \\frac{\\pi}{2} \\times d$.\n• **Step 2 (The Guiding Bridge):** Because Robert's path is made of semicircles whose diameters add up to the full $1$-mile straight stretch (regardless of the $40$-foot width, as long as each semicircle fits across the road), his total curved distance is $\\frac{\\pi}{2} \\times 1 = \\frac{\\pi}{2}$ miles.\n• **Step 3 (How to Finish):** Divide the total distance by Robert's riding speed of $5$ miles per hour by computing $\\frac{\\pi}{2} \\div 5$."
   }
 ]

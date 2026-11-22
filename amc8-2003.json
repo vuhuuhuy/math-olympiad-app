@@ -1,0 +1,361 @@
+[
+  {
+    "id": "1",
+    "question": "Jamie counted the number of edges of a cube, Jimmy counted the number of corners, and Judy counted the number of faces. They then added the three numbers. What was the resulting sum?",
+    "options": [
+      "(A) 12",
+      "(B) 16",
+      "(C) 20",
+      "(D) 22",
+      "(E) 26"
+    ],
+    "answer": "(E) 26",
+    "explanation": "A standard cube has $12$ edges, $8$ corners (vertices), and $6$ faces. Adding these three quantities together gives $12 + 8 + 6 = 26$.",
+    "hint": "**Key Strategy:** Cube Polyhedral Properties\n• **Step 1 (First Move):** Recall the basic geometric properties of a cube: count its edges, corners (vertices), and flat faces.\n• **Step 2 (The Guiding Bridge):** A cube has $12$ edges, $8$ vertices, and $6$ faces.\n• **Step 3 (How to Finish):** Add the three counts together: $12 + 8 + 6$."
+  },
+  {
+    "id": "2",
+    "question": "Which of the following numbers has the smallest prime factor?",
+    "options": [
+      "(A) 55",
+      "(B) 57",
+      "(C) 58",
+      "(D) 59",
+      "(E) 61"
+    ],
+    "answer": "(C) 58",
+    "explanation": "The smallest prime number is $2$, which is a factor of every even number. Among the choices, $58$ is the only even number, so its smallest prime factor is $2$. For the other options: $55 = 5 \\times 11$ (smallest prime factor is $5$), $57 = 3 \\times 19$ (smallest prime factor is $3$), $59$ is prime (smallest is $59$), and $61$ is prime (smallest is $61$). Since $2$ is the smallest prime number of all, $58$ has the smallest prime factor.",
+    "hint": "**Key Strategy:** Smallest Prime Number Property\n• **Step 1 (First Move):** Recall that the smallest prime number is $2$.\n• **Step 2 (The Guiding Bridge):** Any even number has $2$ as a prime factor. Look through the options to see if any number is even.\n• **Step 3 (How to Finish):** Since $58$ is even, its smallest prime factor is $2$, which is smaller than the prime factors of any odd number."
+  },
+  {
+    "id": "3",
+    "question": "A burger at Ricky C's weighs $120$ grams, of which $30$ grams are filler. What percent of the burger is not filler?",
+    "options": [
+      "(A) 60%",
+      "(B) 65%",
+      "(C) 70%",
+      "(D) 75%",
+      "(E) 90%"
+    ],
+    "answer": "(D) 75%",
+    "explanation": "The weight of the burger that is not filler is $120 - 30 = 90$ grams. The percentage of the burger that is not filler is $\\frac{90}{120} = \\frac{3}{4} = 75\\%$.\n(Alternatively, the filler is $\\frac{30}{120} = 25\\%$, so the non-filler is $100\\% - 25\\% = 75\\%$.)",
+    "hint": "**Key Strategy:** Subtraction & Percentage Calculation\n• **Step 1 (First Move):** Find the weight of the meat that is not filler by subtracting the filler from the total: $120 - 30 = 90\\text{ grams}$.\n• **Step 2 (The Guiding Bridge):** Form the fraction of non-filler weight to total weight: $\\frac{90}{120}$.\n• **Step 3 (How to Finish):** Simplify the fraction: $\\frac{90}{120} = \\frac{3}{4}$ and convert to a percentage ($75\\%$)."
+  },
+  {
+    "id": "4",
+    "question": "A group of children riding on bicycles and tricycles rode past Billy Bob's house. Billy Bob counted $7$ children and $19$ wheels. How many tricycles were there?",
+    "options": [
+      "(A) 2",
+      "(B) 4",
+      "(C) 5",
+      "(D) 6",
+      "(E) 7"
+    ],
+    "answer": "(C) 5",
+    "explanation": "Let $b$ be the number of bicycles and $t$ be the number of tricycles. Since each child rides one vehicle, $b + t = 7 \\implies b = 7 - t$.\nEach bicycle has $2$ wheels and each tricycle has $3$ wheels, so $2b + 3t = 19$.\nSubstitute $b = 7 - t$:\n$2(7 - t) + 3t = 19 \\implies 14 - 2t + 3t = 19 \\implies 14 + t = 19 \\implies t = 5$.\nThus, there were $5$ tricycles (and $7 - 5 = 2$ bicycles: $2(2) + 3(5) = 4 + 15 = 19$ wheels).\n(Alternatively: If all 7 vehicles were 2-wheeled bicycles, there would be $7 \\times 2 = 14$ wheels. The extra $19 - 14 = 5$ wheels must belong to $5$ tricycles.)",
+    "hint": "**Key Strategy:** Assumption Method / Wheel Difference\n• **Step 1 (First Move):** Assume all $7$ children were riding $2$-wheeled bicycles. That would account for $7 \\times 2 = 14$ wheels.\n• **Step 2 (The Guiding Bridge):** Billy Bob counted $19$ wheels, which is $19 - 14 = 5$ extra wheels.\n• **Step 3 (How to Finish):** Since each tricycle adds $1$ extra wheel compared to a bicycle ($3 - 2 = 1$), all $5$ extra wheels must belong to $5$ tricycles."
+  },
+  {
+    "id": "5",
+    "question": "If $20\\%$ of a number is $12$, what is $30\\%$ of the same number?",
+    "options": [
+      "(A) 15",
+      "(B) 18",
+      "(C) 20",
+      "(D) 24",
+      "(E) 30"
+    ],
+    "answer": "(B) 18",
+    "explanation": "If $20\\%$ of a number $N$ is $12$, then $0.20 N = 12 \\implies N = 12 / 0.20 = 60$. Then $30\\%$ of $60$ is $0.30 \\times 60 = 18$.\n(Alternatively: Since $20\\%$ is $12$, then $10\\%$ of the number is $12 / 2 = 6$. Therefore, $30\\%$ of the number is $3 \\times 6 = 18$.)",
+    "hint": "**Key Strategy:** Scaling via 10% Unit Rate\n• **Step 1 (First Move):** Since $20\\%$ of the number is $12$, find $10\\%$ by dividing by $2$: $10\\%$ of the number is $12 \\div 2 = 6$.\n• **Step 2 (The Guiding Bridge):** $30\\%$ is three times $10\\%$.\n• **Step 3 (How to Finish):** Multiply $6 \\times 3 = 18$."
+  },
+  {
+    "id": "6",
+    "question": "Given the areas of the three squares in the figure, what is the area of the interior triangle?",
+    "options": [
+      "(A) 13",
+      "(B) 30",
+      "(C) 60",
+      "(D) 300",
+      "(E) 1800"
+    ],
+    "answer": "(B) 30",
+    "explanation": "The three squares have areas $169, 144,$ and $25$. Their side lengths are $\\sqrt{169} = 13$, $\\sqrt{144} = 12$, and $\\sqrt{25} = 5$. Since $5^2 + 12^2 = 25 + 144 = 169 = 13^2$, the interior triangle with side lengths $5, 12, 13$ is a right triangle where the legs are $5$ and $12$, and the hypotenuse is $13$. The area of the triangle is $\\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2 = \\frac{1}{2} \\times 12 \\times 5 = 30$ square units.",
+    "hint": "**Key Strategy:** Pythagorean Triplet & Right Triangle Area\n• **Step 1 (First Move):** Find the side lengths of the three squares by taking square roots of their areas: $\\sqrt{144} = 12$, $\\sqrt{25} = 5$, and $\\sqrt{169} = 13$.\n• **Step 2 (The Guiding Bridge):** Notice that $5^2 + 12^2 = 25 + 144 = 169 = 13^2$, which confirms that the interior triangle is a right triangle with legs $5$ and $12$.\n• **Step 3 (How to Finish):** Apply the right triangle area formula: $\\text{Area} = \\frac{1}{2} \\times 12 \\times 5$."
+  },
+  {
+    "id": "7",
+    "question": "Blake and Jenny each took four $100$-point tests. Blake averaged $78$ on the four tests. Jenny scored $10$ points higher than Blake on the first test, $10$ points lower than him on the second test, and $20$ points higher on both the third and fourth tests. What is the difference between Jenny's average and Blake's average on these four tests?",
+    "options": [
+      "(A) 10",
+      "(B) 15",
+      "(C) 20",
+      "(D) 25",
+      "(E) 40"
+    ],
+    "answer": "(A) 10",
+    "explanation": "Calculate the net difference in total points between Jenny and Blake across the four tests:\n• Test 1: $+10$\n• Test 2: $-10$\n• Test 3: $+20$\n• Test 4: $+20$\nTotal net point difference is $10 - 10 + 20 + 20 = 40$ points.\nSince there were four tests, the difference between their averages is the total point difference divided by $4$:\n$\\frac{40}{4} = 10$ points.",
+    "hint": "**Key Strategy:** Working with Score Differences\n• **Step 1 (First Move):** Instead of calculating full scores, find the net change in Jenny's points across the 4 tests: $(+10) + (-10) + (+20) + (+20)$.\n• **Step 2 (The Guiding Bridge):** Sum the differences: $10 - 10 + 20 + 20 = 40$ more points total for Jenny.\n• **Step 3 (How to Finish):** Divide the total point difference by the number of tests ($4$): $40 \\div 4 = 10$ points."
+  },
+  {
+    "id": "8",
+    "question": "Problems 8, 9 and 10 use the data found in the accompanying paragraph and figures.\n\n**Bake Sale:** Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown. Each friend uses the same amount of dough, and Art makes exactly $12$ cookies.\n\nWho gets the fewest cookies from one batch of cookie dough?",
+    "options": [
+      "(A) Art",
+      "(B) Paul",
+      "(C) Roger",
+      "(D) Trisha",
+      "(E) There is a tie for fewest."
+    ],
+    "answer": "(A) Art",
+    "explanation": "Since all cookies have the same thickness and everyone uses the same amount of dough, the person whose cookies have the largest area per cookie will make the fewest cookies. We calculate the area of each person's cookie:\n• Art (trapezoid): $\\frac{3 + 5}{2} \\times 3 = 4 \\times 3 = 12\\text{ in}^2$\n• Roger (rectangle): $4 \\times 2 = 8\\text{ in}^2$\n• Paul (parallelogram): $3 \\times 2 = 6\\text{ in}^2$\n• Trisha (triangle): $\\frac{1}{2} \\times 3 \\times 4 = 6\\text{ in}^2$\nSince Art's cookies have the largest area ($12\\text{ in}^2$), each of his cookies uses the most dough, so he gets the fewest cookies ($12$ cookies, compared to $18$ for Roger and $24$ for Paul and Trisha).",
+    "hint": "**Key Strategy:** Area Comparison & Inverse Proportionality\n• **Step 1 (First Move):** Since each friend uses the same volume of dough with equal thickness, the person with the largest cookie area makes the fewest cookies.\n• **Step 2 (The Guiding Bridge):** Calculate the area of each shape: Art's trapezoid $= \\frac{3+5}{2} \\times 3 = 12\\text{ in}^2$; Roger's rectangle $= 4 \\times 2 = 8\\text{ in}^2$; Paul's parallelogram $= 3 \\times 2 = 6\\text{ in}^2$; Trisha's triangle $= \\frac{1}{2} \\times 3 \\times 4 = 6\\text{ in}^2$.\n• **Step 3 (How to Finish):** Identify which friend has the largest cookie area (Art with $12\\text{ in}^2$), which corresponds to the fewest cookies.",
+    "image_width": 600
+  },
+  {
+    "id": "9",
+    "question": "Art's cookies sell for $60¢$ each. To earn the same amount from a single batch, how much should one of Roger's cookies cost?",
+    "options": [
+      "(A) 18¢",
+      "(B) 25¢",
+      "(C) 40¢",
+      "(D) 75¢",
+      "(E) 90¢"
+    ],
+    "answer": "(C) 40¢",
+    "explanation": "Art makes $12$ cookies of area $12\\text{ in}^2$ each, so the total area of dough in a batch is $12 \\times 12 = 144\\text{ in}^2$. Selling all $12$ cookies at $60¢$ each brings in $12 \\times \\$0.60 = \\$7.20.\nRoger's cookies have an area of $8\\text{ in}^2$ each, so he makes $144 / 8 = 18$ cookies from his batch.\nTo earn \\$7.20 from $18$ cookies, Roger should charge \\$7.20 / 18 = \\$0.40 = 40¢$ per cookie.\n(Alternatively, the price per cookie is proportional to the cookie's area: $\\frac{8}{12} \\times 60¢ = \\frac{2}{3} \\times 60¢ = 40¢$.)",
+    "hint": "**Key Strategy:** Total Revenue Equivalence or Area Proportionality\n• **Step 1 (First Move):** Find Art's total revenue from one batch: $12\\text{ cookies} \\times 60¢ = 720¢ = \\$7.20.\n• **Step 2 (The Guiding Bridge):** Determine how many cookies Roger makes: each of Roger's cookies has area $8\\text{ in}^2$, and the total batch area is $144\\text{ in}^2$, so Roger makes $144 \\div 8 = 18$ cookies.\n• **Step 3 (How to Finish):** Divide the target revenue by Roger's cookie count: $720¢ \\div 18 = 40¢$.",
+    "image_width": 600
+  },
+  {
+    "id": "10",
+    "question": "How many cookies will be in one batch of Trisha's cookies?",
+    "options": [
+      "(A) 10",
+      "(B) 12",
+      "(C) 16",
+      "(D) 18",
+      "(E) 24"
+    ],
+    "answer": "(E) 24",
+    "explanation": "The total area of a dough batch is $144\\text{ in}^2$ (since Art makes $12$ cookies of area $12\\text{ in}^2$ each). Trisha's triangular cookies each have an area of $\\frac{1}{2} \\times 3 \\times 4 = 6\\text{ in}^2$. The number of cookies in Trisha's batch is $144 / 6 = 24$.\n(Alternatively: Since Trisha's cookie area is $6\\text{ in}^2$, which is exactly half of Art's cookie area of $12\\text{ in}^2$, Trisha makes twice as many cookies as Art: $2 \\times 12 = 24$.)",
+    "hint": "**Key Strategy:** Batch Area Division or Ratio Comparison\n• **Step 1 (First Move):** Recall that each batch contains $144\\text{ square inches}$ of dough (Art makes $12$ cookies of area $12\\text{ in}^2$).\n• **Step 2 (The Guiding Bridge):** Trisha's triangular cookie has an area of $\\frac{1}{2} \\times 3 \\times 4 = 6\\text{ in}^2$.\n• **Step 3 (How to Finish):** Divide the total batch area by Trisha's cookie area: $144 \\div 6 = 24$ (or note that each cookie is half Art's size, so she makes twice as many: $2 \\times 12 = 24$).",
+    "image_width": 600
+  },
+  {
+    "id": "11",
+    "question": "Business is a little slow at Lou's Fine Shoes, so Lou decides to have a sale. On Friday, Lou increases all of Thursday's prices by $10\\%$. Over the weekend, Lou advertises the sale: \"Ten percent off the listed price. Sale starts Monday.\" How much does a pair of shoes cost on Monday that cost \\$40 on Thursday?",
+    "options": [
+      "(A) $36",
+      "(B) $39.60",
+      "(C) $40",
+      "(D) $40.40",
+      "(E) $44"
+    ],
+    "answer": "(B) $39.60",
+    "explanation": "On Friday, the \\$40 price is increased by $10\\%$: $40 + (0.10 \\times 40) = 40 + 4 = \\$44.\nOn Monday, the price is discounted by $10\\%$ of the \\$44 listed price: $44 - (0.10 \\times 44) = 44 - 4.40 = \\$39.60.\n(Using multipliers: $40 \\times 1.10 \\times 0.90 = 40 \\times 0.99 = \\$39.60.)",
+    "hint": "**Key Strategy:** Sequential Percentage Changes\n• **Step 1 (First Move):** Compute Friday's increased price: a $10\\%$ increase on \\$40 adds \\$4, giving \\$44.\n• **Step 2 (The Guiding Bridge):** Calculate the $10\\%$ discount applied to the new \\$44 price: $10\\%$ of $44$ is \\$4.40.\n• **Step 3 (How to Finish):** Subtract the discount: $44 - 4.40 = \\$39.60."
+  },
+  {
+    "id": "12",
+    "question": "When a fair six-sided die is tossed on a table top, the bottom face cannot be seen. What is the probability that the product of the numbers on the five faces that can be seen is divisible by $6$?",
+    "options": [
+      "(A) $\\dfrac{1}{3}$",
+      "(B) $\\dfrac{1}{2}$",
+      "(C) $\\dfrac{2}{3}$",
+      "(D) $\\dfrac{5}{6}$",
+      "(E) 1"
+    ],
+    "answer": "(E) 1",
+    "explanation": "A standard die has faces numbered $1, 2, 3, 4, 5, 6$. Exactly one face is hidden on the bottom. For the product of the five visible faces to be divisible by $6$, the product must be a multiple of both $2$ and $3$:\n• If the hidden face is NOT $6$, then $6$ is among the visible faces, so the product is automatically a multiple of $6$.\n• If the hidden face IS $6$, then the visible faces are $1, 2, 3, 4,$ and $5$. Their product is $1 \\times 2 \\times 3 \\times 4 \\times 5 = 120$. Since $120$ is divisible by $6$ ($120 / 6 = 20$), the product is still a multiple of $6$!\nIn all $6$ possible cases, the product of the visible faces is divisible by $6$. Therefore, the probability is $1$.",
+    "hint": "**Key Strategy:** Divisibility Check by Cases\n• **Step 1 (First Move):** A product is divisible by $6$ if it has prime factors $2$ and $3$, or contains the number $6$.\n• **Step 2 (The Guiding Bridge):** Case 1: If the hidden bottom face is $1, 2, 3, 4,$ or $5$, then $6$ is visible, making the product automatically divisible by $6$.\n• **Step 3 (How to Finish):** Case 2: If the hidden face is $6$, the visible faces are $1, 2, 3, 4, 5$. Check their product: $1 \\times 2 \\times 3 \\times 4 \\times 5 = 120$, which is also divisible by $6$. Since it works in $100\\%$ of cases, the probability is $1$."
+  },
+  {
+    "id": "13",
+    "question": "Fourteen white cubes are put together to form the figure on the right. The complete surface of the figure, including the bottom, is painted red. The figure is then separated into individual cubes. How many of the individual cubes have exactly four red faces?",
+    "options": [
+      "(A) 4",
+      "(B) 6",
+      "(C) 8",
+      "(D) 10",
+      "(E) 12"
+    ],
+    "answer": "(B) 6",
+    "explanation": "Each cube has $6$ faces. A cube has exactly $4$ painted red faces if and only if exactly $6 - 4 = 2$ of its faces are glued to neighboring cubes.\nLet's analyze the structure of $14$ cubes:\n• Top layer ($4$ towers): Each of the $4$ top cubes is glued to only $1$ cube below it. So each top cube has $6 - 1 = 5$ red faces.\n• Bottom layer ($3 \\times 3$ grid with $1$ center cube missing = 8 outer cubes, plus 2 cubes in the second layer? Let's check the figure):\nThe bottom base is $3 \\times 3$ (9 cubes) or $10$ cubes in the lower layers: $14$ total cubes.\n- The $4$ top corner cubes each touch only $1$ other cube $\\implies 5$ red faces.\n- The $4$ bottom corner cubes each touch $3$ other cubes (2 adjacent sides and 1 on top) $\\implies 6 - 3 = 3$ red faces.\n- The remaining cubes each touch exactly $2$ other cubes $\\implies 6 - 2 = 4$ red faces.\nCounting the remaining cubes: $14 - (4 + 4) = 6$ cubes have exactly four red faces.",
+    "hint": "**Key Strategy:** Counting Glued Faces (Internal vs External)\n• **Step 1 (First Move):** A cube has $6$ total faces. For an individual cube to have exactly $4$ painted red faces, exactly $6 - 4 = 2$ of its faces must be glued to other cubes.\n• **Step 2 (The Guiding Bridge):** The $4$ highest cubes on top only touch $1$ cube underneath (so they have $5$ red faces). The $4$ bottom corner cubes each touch $3$ neighboring cubes (so they have $3$ red faces).\n• **Step 3 (How to Finish):** Subtract these non-qualifying cubes from the total of $14$: $14 - 4\\text{ (top)} - 4\\text{ (corners)} = 6$ cubes."
+  },
+  {
+    "id": "14",
+    "question": "In this addition problem, each letter stands for a different digit.\n\nIf $T = 7$ and the letter $O$ represents an even number, what is the only possible value for $W$?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 3",
+      "(E) 4"
+    ],
+    "answer": "(D) 3",
+    "explanation": "Substitute $T = 7$:\n$$\\begin{array}{r@{\\quad}c@{\\,}c@{\\,}c} & 7 & W & O \\\\ + & 7 & W & O \\\\ \\hline F & O & U & R \\end{array}$$\nIn the thousands place, $7 + 7 = 14$ or $7 + 7 + 1 = 15$. This means $F = 1$ and $O$ is either $4$ or $5$.\nWe are given that $O$ is an even number, so $O = 4$ (and there was no carry from the hundreds column, which means $W + W < 10 \\implies W < 5$).\nSince $O = 4$, $O + O = 4 + 4 = 8$, so $R = 8$ with no carry into the tens column.\nNow look at the tens column: $W + W = U$. Since each letter represents a distinct digit:\n• Digits used so far: $T = 7$, $F = 1$, $O = 4$, $R = 8$.\n• Available digits for $W$: $\\{0, 2, 3\\}$ (since $W < 5$ and $W \\ne 1, 4$).\n- If $W = 0$, then $U = 0$, but letters must be different ($W \\ne U$).\n- If $W = 2$, then $U = 2 \\times 2 = 4$, but $O = 4$, so $U \\ne O$.\n- If $W = 3$, then $U = 2 \\times 3 = 6$. All digits are distinct: $T=7, W=3, O=4, F=1, U=6, R=8$.\nThus, the only possible value for $W$ is $3$.",
+    "hint": "**Key Strategy:** Cryptarithm Deduction & Carry Constraints\n• **Step 1 (First Move):** Since $T = 7$, the sum of the leading digits $7 + 7$ produces $14$ (or $15$ with a carry). So $F = 1$ and $O$ must be $4$ or $5$. Because $O$ is even, $O = 4$.\n• **Step 2 (The Guiding Bridge):** Since $O = 4$, $O + O = 4 + 4 = 8 \\implies R = 8$. Also, there was no carry from the hundreds column to the thousands, so $2W < 10 \\implies W < 5$.\n• **Step 3 (How to Finish):** Test available digits for $W$ from $\\{0, 1, 2, 3\\}$: $W \\ne 0$ (would make $U=0$), $W \\ne 1$ ($F=1$), $W \\ne 2$ (would make $U=4=O$). Thus $W = 3$ (which gives $U = 6$)."
+  },
+  {
+    "id": "15",
+    "question": "A figure is constructed from unit cubes. Each cube shares at least one face with another cube. What is the minimum number of cubes needed to build a figure with the front and side views shown?",
+    "options": [
+      "(A) 3",
+      "(B) 4",
+      "(C) 5",
+      "(D) 6",
+      "(E) 7"
+    ],
+    "answer": "(B) 4",
+    "explanation": "From the front view, the shape has two columns: the left column has height $2$ and the right column has height $1$.\nFrom the side view, the shape has two columns: the left column has height $1$ and the right column has height $2$.\nCan this be built with $3$ cubes? The front view requires at least $2 + 1 = 3$ squares, and the side view requires at least $1 + 2 = 3$ squares. However, the cube at height $2$ must be in the front-left and side-right. If we place a column of $2$ cubes at $(x=1, y=2)$, its front view shows height $2$ on the left, and its side view shows height $2$ on the right. But to satisfy the remaining width-1 requirements while sharing faces, at least $2$ more cubes are required on the base level.\nSpecifically, placing a column of $2$ cubes at $(1, 2)$, $1$ cube at $(1, 1)$, and $1$ cube at $(2, 1)$ gives a connected solid of $4$ cubes whose front view has heights $(2, 1)$ and side view has heights $(1, 2)$. No connected 3-cube solid can produce both views. Thus, the minimum number of cubes is $4$.",
+    "hint": "**Key Strategy:** Projections (Front/Side Views) & Grid Heights\n• **Step 1 (First Move):** The front view requires a column of height $2$ on the left and height $1$ on the right. The side view requires height $1$ on the left and height $2$ on the right.\n• **Step 2 (The Guiding Bridge):** The tower of height $2$ must be placed at grid coordinate $(x=1, y=2)$ to appear on the left from the front and on the right from the side.\n• **Step 3 (How to Finish):** Test if $3$ cubes can satisfy both views and face-connectivity: with only $1$ additional cube, you cannot simultaneously show height $1$ on the right of the front view and height $1$ on the left of the side view while remaining connected. Therefore, at least $4$ cubes are required."
+  },
+  {
+    "id": "16",
+    "question": "Ali, Bonnie, Carlo and Dianna are going to drive together to a nearby theme park. The car they are using has four seats: one driver's seat, one front passenger seat and two back seats. Bonnie and Carlo are the only two who can drive the car. How many possible seating arrangements are there?",
+    "options": [
+      "(A) 2",
+      "(B) 4",
+      "(C) 6",
+      "(D) 12",
+      "(E) 24"
+    ],
+    "answer": "(D) 12",
+    "explanation": "We fill the seats step by step:\n1. **Driver's seat:** Only Bonnie or Carlo can drive, giving $2$ choices.\n2. **Front passenger seat:** Any of the remaining $3$ people can sit here: $3$ choices.\n3. **Back left seat:** Any of the remaining $2$ people can sit here: $2$ choices.\n4. **Back right seat:** The last person sits here: $1$ choice.\nThe total number of seating arrangements is $2 \\times 3 \\times 2 \\times 1 = 12$.",
+    "hint": "**Key Strategy:** Fundamental Counting Principle with Constraints\n• **Step 1 (First Move):** Start with the restricted position: the driver's seat. Since only Bonnie or Carlo can drive, there are $2$ choices for the driver.\n• **Step 2 (The Guiding Bridge):** Once the driver is seated, the other three people can fill the remaining three distinct seats in any order.\n• **Step 3 (How to Finish):** Multiply the choices: $2\\text{ (driver)} \\times 3!\\text{ (remaining passengers)} = 2 \\times 6 = 12$."
+  },
+  {
+    "id": "17",
+    "question": "The six children listed below are from two families of three siblings each. Each child has blue or brown eyes and black or blond hair. Children from the same family have at least one of these characteristics in common. Which two children are Jim's siblings?\n\n| Child | Eye Color | Hair Color |\n|---|---|---|\n| Benjamin | Blue | Black |\n| Jim | Brown | Blond |\n| Nadeen | Brown | Black |\n| Austin | Blue | Blond |\n| Tevyn | Blue | Black |\n| Sue | Blue | Blond |",
+    "options": [
+      "(A) Nadeen and Austin",
+      "(B) Benjamin and Sue",
+      "(C) Benjamin and Austin",
+      "(D) Nadeen and Tevyn",
+      "(E) Austin and Sue"
+    ],
+    "answer": "(E) Austin and Sue",
+    "explanation": "Jim has Brown eyes and Blond hair. Any sibling of Jim must share at least one characteristic with him (either Brown eyes or Blond hair).\n• Benjamin and Tevyn have Blue eyes and Black hair. They share NEITHER eye color nor hair color with Jim! Therefore, neither Benjamin nor Tevyn can be Jim's sibling.\nSince there are only $5$ other children and $2$ of them (Benjamin and Tevyn) cannot be Jim's siblings, the remaining three children are Nadeen, Austin, and Sue.\n• Could Nadeen be in Jim's family with Austin and Sue? Nadeen has Brown eyes and Black hair, while Austin and Sue both have Blue eyes and Blond hair. Nadeen shares NEITHER eye color nor hair color with Austin or Sue! So Nadeen cannot be in the same family as Austin and Sue.\nTherefore, the two families must be:\n- Family 1: Benjamin, Nadeen, Tevyn (all share Black hair)\n- Family 2: Jim, Austin, Sue (all share Blond hair)\nThus, Jim's siblings are Austin and Sue.",
+    "hint": "**Key Strategy:** Process of Elimination / Trait Sharing\n• **Step 1 (First Move):** Jim has Brown eyes and Blond hair. Any sibling of Jim must have either Brown eyes or Blond hair. Benjamin and Tevyn have Blue eyes and Black hair, so neither can be Jim's sibling.\n• **Step 2 (The Guiding Bridge):** This leaves Nadeen, Austin, and Sue as the only candidates for Jim's family. But Austin and Sue have Blue eyes and Blond hair, sharing no traits with Nadeen (Brown eyes, Black hair).\n• **Step 3 (How to Finish):** Group the children: Benjamin, Nadeen, and Tevyn all have Black hair (Family 1); Jim, Austin, and Sue all have Blond hair (Family 2). Jim's siblings are Austin and Sue.",
+    "image_width": 600
+  },
+  {
+    "id": "18",
+    "question": "Each of the twenty dots on the graph below represents one of Sarah's classmates. Classmates who are friends are connected with a line segment. For her birthday party, Sarah is inviting only the following: all of her friends and all of those classmates who are friends with at least one of her friends. How many classmates will not be invited to Sarah's party?",
+    "options": [
+      "(A) 1",
+      "(B) 4",
+      "(C) 5",
+      "(D) 6",
+      "(E) 7"
+    ],
+    "answer": "(D) 6",
+    "explanation": "Sarah invites everyone who is at distance $1$ (direct friends) or distance $2$ (friends of friends) from her on the graph.\nLooking at the graph, classmates who are NOT invited are those at distance $\\ge 3$ from Sarah or completely disconnected:\n• The isolated dot with no edges: $1$ student.\n• The triangle of three vertices in the upper left: one vertex is connected to someone who is at distance 2, but the other vertices are at distance $\\ge 3$: tracing carefully, $3$ students in that separate component.\n• In the bottom loops: $2$ dots at the bottom are $3$ or more steps away from Sarah.\nCounting all vertices that are not connected to Sarah directly or via a single intermediary gives exactly $6$ uninvited classmates.",
+    "hint": "**Key Strategy:** Graph Distance / Breadth-First Search (BFS)\n• **Step 1 (First Move):** Mark all dots with direct connections to Sarah (Distance 1: Sarah's direct friends).\n• **Step 2 (The Guiding Bridge):** Mark all dots connected to any of the Distance 1 friends (Distance 2: friends of friends). These students are also invited.\n• **Step 3 (How to Finish):** Count the remaining unmarked dots (including the isolated dot and those $3$ or more edges away). There are $6$ uninvited classmates."
+  },
+  {
+    "id": "19",
+    "question": "How many integers between $1000$ and $2000$ have all three of the numbers $15, 20$ and $25$ as factors?",
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) 5"
+    ],
+    "answer": "(C) 3",
+    "explanation": "A number has $15, 20,$ and $25$ as factors if and only if it is a multiple of their least common multiple (LCM). Find the prime factorizations:\n• $15 = 3 \\times 5$\n• $20 = 2^2 \\times 5$\n• $25 = 5^2$\n$\\text{LCM}(15, 20, 25) = 2^2 \\times 3 \\times 5^2 = 4 \\times 3 \\times 25 = 300$.\nWe need the multiples of $300$ strictly between $1000$ and $2000$:\n• $300 \\times 4 = 1200$\n• $300 \\times 5 = 1500$\n• $300 \\times 6 = 1800$\n• ($300 \\times 7 = 2100 > 2000$).\nThere are exactly $3$ such integers ($1200, 1500, 1800$).",
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) & Range Multiples\n• **Step 1 (First Move):** Find the prime factorization of each number: $15 = 3 \\times 5$, $20 = 2^2 \\times 5$, and $25 = 5^2$.\n• **Step 2 (The Guiding Bridge):** Compute their LCM: $\\text{LCM} = 2^2 \\times 3 \\times 5^2 = 4 \\times 3 \\times 25 = 300$.\n• **Step 3 (How to Finish):** List all multiples of $300$ between $1000$ and $2000$: $1200, 1500, 1800$, which gives $3$ integers."
+  },
+  {
+    "id": "20",
+    "question": "What is the measure of the acute angle formed by the hands of a clock at 4:20 a.m.?",
+    "options": [
+      "(A) $0^\\circ$",
+      "(B) $5^\\circ$",
+      "(C) $8^\\circ$",
+      "(D) $10^\\circ$",
+      "(E) $12^\\circ$"
+    ],
+    "answer": "(D) $10^\\circ$",
+    "explanation": "At 4:20, the minute hand points directly at the $4$ (which is $20 \\times 6^\\circ = 120^\\circ$ from the $12$).\nThe hour hand starts at the $4$ at 4:00 and moves toward the $5$ as minutes pass.\nIn $60$ minutes, the hour hand moves across one $5$-minute segment ($30^\\circ$). In $20$ minutes, the hour hand moves:\n$\\frac{20}{60} \\times 30^\\circ = \\frac{1}{3} \\times 30^\\circ = 10^\\circ$.\nSince the minute hand is exactly on the $4$, the angle between the hour hand and minute hand is simply the $10^\\circ$ that the hour hand has moved past the $4$.",
+    "hint": "**Key Strategy:** Clock Hand Angular Speed\n• **Step 1 (First Move):** At 4:20, the minute hand points precisely at the number $4$ on the clock face.\n• **Step 2 (The Guiding Bridge):** At 4:00, the hour hand was also pointing at $4$. In the $20$ minutes that elapsed, the hour hand moved a fraction of the way toward the $5$.\n• **Step 3 (How to Finish):** The hour hand travels $30^\\circ$ every $60$ minutes ($0.5^\\circ$ per minute). Calculate $20 \\times 0.5^\\circ = 10^\\circ$."
+  },
+  {
+    "id": "21",
+    "question": "The area of trapezoid $ABCD$ is $164\\text{ cm}^2$. The altitude is $8\\text{ cm}$, $AB$ is $10\\text{ cm}$, and $CD$ is $17\\text{ cm}$. What is $BC$, in centimeters?",
+    "options": [
+      "(A) 9",
+      "(B) 10",
+      "(C) 12",
+      "(D) 15",
+      "(E) 20"
+    ],
+    "answer": "(B) 10",
+    "explanation": "Drop perpendicular altitudes from $B$ and $C$ to the lower base $\\overline{AD}$, meeting $\\overline{AD}$ at $E$ and $F$ respectively. Then $BE = CF = 8\\text{ cm}$ and $EF = BC$.\nIn right $\\triangle ABE$, the hypotenuse is $AB = 10$ and leg $BE = 8$, so by the Pythagorean Theorem: $AE = \\sqrt{10^2 - 8^2} = \\sqrt{100 - 64} = 6\\text{ cm}$.\nIn right $\\triangle CDF$, the hypotenuse is $CD = 17$ and leg $CF = 8$, so: $FD = \\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15\\text{ cm}$.\nLet $BC = x$, then $EF = x$, and the bottom base is $AD = AE + EF + FD = 6 + x + 15 = x + 21$.\nThe area of the trapezoid is given by:\n$\\text{Area} = \\frac{BC + AD}{2} \\times h = \\frac{x + (x + 21)}{2} \\times 8 = 4(2x + 21)$.\nWe are given that the area is $164$:\n$4(2x + 21) = 164 \\implies 2x + 21 = 41 \\implies 2x = 20 \\implies x = 10\\text{ cm}$.\nTherefore, $BC = 10\\text{ cm}$.",
+    "hint": "**Key Strategy:** Altitude Drops & Pythagorean Base Segments\n• **Step 1 (First Move):** Drop altitudes of length $8$ from $B$ and $C$ to base $AD$. Use the Pythagorean Theorem to find the two outer base segments: $AE = \\sqrt{10^2 - 8^2} = 6$ and $FD = \\sqrt{17^2 - 8^2} = 15$.\n• **Step 2 (The Guiding Bridge):** Let the upper base $BC = x$. Then the lower base is $AD = 6 + x + 15 = x + 21$.\n• **Step 3 (How to Finish):** Set up the trapezoid area formula: $\\frac{x + (x + 21)}{2} \\times 8 = 164$. Solve for $x$.",
+    "image_width": 600
+  },
+  {
+    "id": "22",
+    "question": "The following figures are composed of squares and circles. Which figure has a shaded region with largest area?",
+    "options": [
+      "(A) A only",
+      "(B) B only",
+      "(C) C only",
+      "(D) both A and B",
+      "(E) all are equal"
+    ],
+    "answer": "(C) C only",
+    "explanation": "All three figures have an overall width of $2\\text{ cm}$:\n• **Figure A:** A square of side $2\\text{ cm}$ (area $4$) with an inscribed circle of diameter $2\\text{ cm}$ (radius $1$, area $\\pi(1^2) = \\pi$). The shaded region is outside the circle: $\\text{Area}(A) = 4 - \\pi \\approx 4 - 3.1416 = 0.8584\\text{ cm}^2$.\n• **Figure B:** A square of side $2\\text{ cm}$ (area $4$) with four circles of diameter $1\\text{ cm}$ (radius $1/2$). The combined area of the four circles is $4 \\times \\pi(1/2)^2 = \\pi$. The shaded area outside the circles is $\\text{Area}(B) = 4 - \\pi \\approx 0.8584\\text{ cm}^2$. So $\\text{Area}(A) = \\text{Area}(B)$.\n• **Figure C:** A circle of diameter $2\\text{ cm}$ (radius $1$, area $\\pi(1^2) = \\pi$) with an inscribed square. The diagonal of the square is the diameter of the circle ($d = 2$). The area of a square with diagonal $d$ is $\\frac{1}{2} d^2 = \\frac{1}{2}(2^2) = 2\\text{ cm}^2$. The shaded region outside the square is $\\text{Area}(C) = \\pi - 2 \\approx 3.1416 - 2 = 1.1416\\text{ cm}^2$.\nComparing the shaded areas: $1.1416 > 0.8584$. Therefore, Figure C has the largest shaded area.",
+    "hint": "**Key Strategy:** Algebraic Area Formulations with $\\pi$\n• **Step 1 (First Move):** Calculate the shaded area in Figure A: Square area minus circle area $= 2^2 - \\pi(1^2) = 4 - \\pi \\approx 0.86$.\n• **Step 2 (The Guiding Bridge):** Calculate Figure B: each of the 4 circles has radius $\\frac{1}{2}$, so four circles have area $4 \\times \\pi(\\frac{1}{2})^2 = \\pi$. Shaded area $= 4 - \\pi \\approx 0.86$ (equal to Figure A).\n• **Step 3 (How to Finish):** Calculate Figure C: Circle area minus inscribed square area. The square has diagonal $2$, so its area is $\\frac{1}{2}(2^2) = 2$. Shaded area $= \\pi - 2 \\approx 3.14 - 2 = 1.14$. Compare $1.14$ to $0.86$.",
+    "image_width": 600
+  },
+  {
+    "id": "23",
+    "question": "In the pattern below, the cat moves clockwise through the four squares and the mouse moves counterclockwise through the eight exterior segments of the four squares. If the pattern is continued, where would the cat and mouse be after the $247^{\\text{th}}$ move?",
+    "options": [
+      "(A) Figure A",
+      "(B) Figure B",
+      "(C) Figure C",
+      "(D) Figure D",
+      "(E) Figure E"
+    ],
+    "answer": "(A) Figure A",
+    "explanation": "• **Cat's position:** The cat moves through $4$ squares in a cycle of length $4$ (top-left $\\to$ top-right $\\to$ bottom-right $\\to$ bottom-left). Find the remainder when $247$ is divided by $4$:\n$247 = 4 \\times 61 + 3$.\nSince the remainder is $3$, after $247$ moves the cat is $3$ steps clockwise from the initial position (top-left). Step 1 is top-right, Step 2 is bottom-right... let's trace from move 1 in the diagram: Move 1 has cat in top-left, Move 2 in top-right, Move 3 in bottom-right. Thus, position after 247 moves corresponds to move 3: the cat is in the bottom-right square.\n• **Mouse's position:** The mouse moves along $8$ exterior edge segments in a cycle of length $8$. Find the remainder when $247$ is divided by $8$:\n$247 = 8 \\times 30 + 7$.\nThe mouse is at the position of move 7. Tracing the mouse: Move 1 is at the bottom of the bottom-left square, Move 2 is at the right of the bottom-right square, Move 3 is at the right of the top-right square... following the counterclockwise cycle, after 7 steps the mouse is on the left edge of the bottom-left square.\nLooking at the options, Figure A shows the cat in the bottom-right square and the mouse on the left outer edge of the bottom-left square.",
+    "hint": "**Key Strategy:** Periodic Cycles & Modular Arithmetic\n• **Step 1 (First Move):** The cat visits $4$ squares in a repeating cycle of $4$. Compute $247 \\pmod 4$: $247 = 4 \\times 61 + 3$, so the cat is in the $3^{\\text{rd}}$ position (bottom-right quadrant).\n• **Step 2 (The Guiding Bridge):** The mouse travels along $8$ exterior segments in a repeating cycle of $8$. Compute $247 \\pmod 8$: $247 = 8 \\times 30 + 7$, so the mouse is in position $7$ of its cycle.\n• **Step 3 (How to Finish):** Position $7$ counterclockwise places the mouse on the left edge of the lower-left square. Find the option with this exact cat and mouse arrangement (Figure A).",
+    "image_width": 900
+  },
+  {
+    "id": "24",
+    "question": "A ship travels from point $A$ to point $B$ along a semicircular path, centered at Island $X$. Then it travels along a straight path from $B$ to $C$. Which of these graphs best shows the ship's distance from Island $X$ as it moves along its course?",
+    "options": [
+      "(A) Graph A",
+      "(B) Graph B",
+      "(C) Graph C",
+      "(D) Graph D",
+      "(E) Graph E"
+    ],
+    "answer": "(B) Graph B",
+    "explanation": "• **From $A$ to $B$:** The ship moves along a circular arc centered at $X$. Since all points on a circle are equidistant from the center, the distance from $X$ is constant (a horizontal line on the graph).\n• **From $B$ to $C$:** The ship moves along a straight line segment. Line $BC$ passes closest to $X$ at the point $D$ where the perpendicular from $X$ meets $BC$. As the ship moves from $B$ toward $D$, its distance to $X$ decreases to a minimum. Then, as it continues from $D$ to $C$, its distance to $X$ increases again.\nGraph B is the only graph that shows an initial flat horizontal segment followed by a curve that decreases to a minimum and then increases.",
+    "hint": "**Key Strategy:** Geometric Distance Function Analysis\n• **Step 1 (First Move):** For the path from $A$ to $B$, the ship travels along a semicircle centered at $X$. Every point on a circle is at a fixed radius $R$ from the center, so the graph must begin with a horizontal line.\n• **Step 2 (The Guiding Bridge):** On the straight path from $B$ to $C$, the distance to $X$ first decreases as the ship approaches the closest point of approach (the perpendicular foot $D$), and then increases as it moves away toward $C$.\n• **Step 3 (How to Finish):** Look for the graph that starts flat and horizontal, then dips downward to a minimum before rising again (Graph B).",
+    "image_width": 900
+  },
+  {
+    "id": "25",
+    "question": "In the figure, the area of square $WXYZ$ is $25\\text{ cm}^2$. The four smaller squares have sides $1\\text{ cm}$ long, either parallel to or coinciding with the sides of the large square. In $\\triangle ABC$, $AB = AC$, and when $\\triangle ABC$ is folded over side $\\overline{BC}$, point $A$ coincides with $O$, the center of square $WXYZ$. What is the area of $\\triangle ABC$, in square centimeters?",
+    "options": [
+      "(A) $\\dfrac{15}{4}$",
+      "(B) $\\dfrac{21}{4}$",
+      "(C) $\\dfrac{27}{4}$",
+      "(D) $\\dfrac{21}{2}$",
+      "(E) $\\dfrac{27}{2}$"
+    ],
+    "answer": "(C) $\\dfrac{27}{4}$",
+    "explanation": "The square $WXYZ$ has area $25$, so its side length is $\\sqrt{25} = 5\\text{ cm}$.\nLet the left edge of square $WXYZ$ lie on the line $x = 0$. The center $O$ is at $(2.5, 0)$.\nThe four small squares each have side length $1\\text{ cm}$. Looking at the left side, two small squares of side $1$ are attached to the left edge of $WXYZ$. Segment $\\overline{BC}$ connects the inner corners of these small squares, so the length of $\\overline{BC}$ is the full side length minus the two corner cutouts: $BC = 5 - 1 - 1 = 3\\text{ cm}$.\nAlso, line $BC$ is shifted $1\\text{ cm}$ to the left of the small squares, at $x = -2\\text{ cm}$ (or relative to edge $WZ$: $BC$ is at distance $1 + 1 = 2\\text{ cm}$ from the edge $WZ$).\nThe center $O$ is at distance $5/2 = 2.5\\text{ cm}$ inside the edge $WZ$.\nSo the distance from line $BC$ to the center $O$ is $MO = 2.5 + 1 + 1 = 4.5 = \\frac{9}{2}\\text{ cm}$.\nSince folding $\\triangle ABC$ over $\\overline{BC}$ places $A$ onto $O$, the altitude of $\\triangle ABC$ to base $BC$ has length $AM = MO = \\frac{9}{2}\\text{ cm}$.\nThe area of $\\triangle ABC$ is:\n$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 3 \\times \\frac{9}{2} = \\frac{27}{4}\\text{ cm}^2$.",
+    "hint": "**Key Strategy:** Reflection Symmetry & Base-Height Calculation\n• **Step 1 (First Move):** The large square has side length $\\sqrt{25} = 5\\text{ cm}$. The base $BC$ is formed between the two $1\\text{ cm}$ square cutouts, so $BC = 5 - 1 - 1 = 3\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** When $\\triangle ABC$ is folded across $BC$, point $A$ lands on center $O$. This means the altitude $AM$ equals the distance from $BC$ to $O$. The center $O$ is $2.5\\text{ cm}$ inside the large square, and $BC$ is $2\\text{ cm}$ outside the center line, giving altitude $h = 2.5 + 2 = 4.5 = \\frac{9}{2}\\text{ cm}$.\n• **Step 3 (How to Finish):** Calculate the area of the triangle: $\\text{Area} = \\frac{1}{2} \\times 3 \\times \\frac{9}{2} = \\frac{27}{4}$.",
+    "image_width": 900
+  }
+]

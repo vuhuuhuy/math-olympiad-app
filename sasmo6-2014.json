@@ -10,7 +10,8 @@
       "E) 2017"
     ],
     "answer": "B) 1",
-    "explanation": "Let $x = 2016$. Then $2015 \\times 2017 = (x - 1)(x + 1) = x^2 - 1$. Therefore, $2016^2 - 2015 \\times 2017 = x^2 - (x^2 - 1) = 1$."
+    "explanation": "Let $x = 2016$. Then $2015 \\times 2017 = (x - 1)(x + 1) = x^2 - 1$. Therefore, $2016^2 - 2015 \\times 2017 = x^2 - (x^2 - 1) = 1$.",
+    "hint": "**Key Strategy:** Algebraic Substitution & Difference of Squares\n• **Step 1 (First Move):** Let $x = 2016$. Rewrite the numbers around $2016$ in terms of $x$: express $2015$ as $(x - 1)$ and $2017$ as $(x + 1)$.\n• **Step 2 (The Guiding Bridge):** Use the Difference of Squares identity, $(a - b)(a + b) = a^2 - b^2$, to rewrite the product $2015 \\times 2017 = (x - 1)(x + 1)$ as $x^2 - 1^2$.\n• **Step 3 (How to Finish):** Substitute this expression back into $x^2 - (x - 1)(x + 1)$, carefully distribute the negative sign across the parentheses, and cancel the $x^2$ terms to find the final value."
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "E) 0"
     ],
     "answer": "A) 1",
-    "explanation": "The sum of the first $n$ positive integers is $\\frac{n(n+1)}{2}$. For $n = 2016$, the sum is $\\frac{2016 \\times 2017}{2} = 1008 \\times 2017 = 2033136$. The last digit is 6, so when divided by 5, the remainder is 1."
+    "explanation": "The sum of the first $n$ positive integers is $\\frac{n(n+1)}{2}$. For $n = 2016$, the sum is $\\frac{2016 \\times 2017}{2} = 1008 \\times 2017 = 2033136$. The last digit is 6, so when divided by 5, the remainder is 1.",
+    "hint": "**Key Strategy:** Triangular Number Formula & Units Digit Modular Arithmetic\n• **Step 1 (First Move):** Recall the formula for the sum of the first $n$ positive integers: $\\frac{n(n + 1)}{2}$. Substitute $n = 2016$ to write the sum as $\\frac{2016 \\times 2017}{2}$.\n• **Step 2 (The Guiding Bridge):** Simplify first by dividing $2016$ by $2$ to get $1008 \\times 2017$. Instead of multiplying the full numbers, look only at their units (ones) digits: $8$ and $7$.\n• **Step 3 (How to Finish):** Multiply the two units digits ($8 \\times 7 = 56$) to find the units digit of the entire sum, and then determine the remainder when that units digit is divided by $5$."
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "E) 18"
     ],
     "answer": "B) 12",
-    "explanation": "The number of students playing at least one sport is $40 - 5 = 35$. By Inclusion-Exclusion: $\\text{Both} = 25 + 22 - 35 = 12$."
+    "explanation": "The number of students playing at least one sport is $40 - 5 = 35$. By Inclusion-Exclusion: $\\text{Both} = 25 + 22 - 35 = 12$.",
+    "hint": "**Key Strategy:** Inclusion-Exclusion Principle (Venn Diagram)\n• **Step 1 (First Move):** Subtract the students who play neither sport from the total number of students to find how many play at least one sport: $40 - 5 = 35$.\n• **Step 2 (The Guiding Bridge):** Add the basketball players and badminton players together: $25 + 22 = 47$. Notice this sum is larger than $35$ because students who play both sports were counted twice.\n• **Step 3 (How to Finish):** Subtract the number of students playing at least one sport ($35$) from the combined sum ($47$) to find how many students play both sports."
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "E) 144"
     ],
     "answer": "B) 156",
-    "explanation": "In one 12-hour cycle, the clock chimes $1 + 2 + \\dots + 12 = 78$ times. In a full 24-hour day (two cycles), it chimes $78 \\times 2 = 156$ times."
+    "explanation": "In one 12-hour cycle, the clock chimes $1 + 2 + \\dots + 12 = 78$ times. In a full 24-hour day (two cycles), it chimes $78 \\times 2 = 156$ times.",
+    "hint": "**Key Strategy:** Arithmetic Series Pairing & Cycle Multiplication\n• **Step 1 (First Move):** Notice that a standard clock completes two $12$-hour cycles in a $24$-hour day. Write out the chimes for one $12$-hour cycle: $1 + 2 + 3 + \\dots + 12$.\n• **Step 2 (The Guiding Bridge):** Use the sum formula $\\frac{n(n + 1)}{2}$ with $n = 12$ (or pair from the ends: $(1 + 12) + (2 + 11) + \\dots + (6 + 7) = 6 \\times 13$) to find the chimes in one $12$-hour cycle: $78$.\n• **Step 3 (How to Finish):** Multiply the number of chimes in one $12$-hour cycle ($78$) by $2$ to get the total number of chimes in a $24$-hour day."
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "E) 131"
     ],
     "answer": "A) 127",
-    "explanation": "Each term is double the previous term plus 1 ($T_n = 2T_{n-1} + 1$). The missing number is $2 \\times 63 + 1 = 127$."
+    "explanation": "Each term is double the previous term plus 1 ($T_n = 2T_{n-1} + 1$). The missing number is $2 \\times 63 + 1 = 127$.",
+    "hint": "**Key Strategy:** Pattern Recognition (Recursive Rule)\n• **Step 1 (First Move):** Compute the differences between consecutive terms: $7 - 3 = 4$, $15 - 7 = 8$, $31 - 15 = 16$, and $63 - 31 = 32$.\n• **Step 2 (The Guiding Bridge):** Notice that each difference doubles ($4, 8, 16, 32, \\dots$), or equivalently, each term follows the rule $\\text{Next Term} = 2 \\times (\\text{Previous Term}) + 1$ (for instance, $2 \\times 3 + 1 = 7$ and $2 \\times 7 + 1 = 15$).\n• **Step 3 (How to Finish):** Apply the pattern to $63$ by calculating $2 \\times 63 + 1$ (or adding $64$ to $63$), and check that applying the rule once more produces $255$."
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "E) 12"
     ],
     "answer": "B) 8",
-    "explanation": "A number divisible by both 3 and 4 must be a multiple of $\\text{LCM}(3, 4) = 12$. The 2-digit multiples of 12 are $12, 24, 36, 48, 60, 72, 84, 96$ (8 numbers)."
+    "explanation": "A number divisible by both 3 and 4 must be a multiple of $\\text{LCM}(3, 4) = 12$. The 2-digit multiples of 12 are $12, 24, 36, 48, 60, 72, 84, 96$ (8 numbers).",
+    "hint": "**Key Strategy:** Least Common Multiple (LCM) & Counting Multiples\n• **Step 1 (First Move):** Since $3$ and $4$ share no common factors greater than $1$, find their Least Common Multiple: $\\text{LCM}(3, 4) = 3 \\times 4 = 12$. Any number divisible by both $3$ and $4$ must be a multiple of $12$.\n• **Step 2 (The Guiding Bridge):** A $2$-digit positive integer ranges from $10$ to $99$. Find the smallest $2$-digit multiple of $12$ ($12 \\times 1 = 12$) and find the largest $2$-digit multiple of $12$ by dividing $99 \\div 12$.\n• **Step 3 (How to Finish):** Divide the largest $2$-digit multiple ($96$) by $12$ (or list all multiples from $12$ to $96$) to count how many $2$-digit multiples of $12$ exist."
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "E) 92"
     ],
     "answer": "D) 90",
-    "explanation": "Total score of 5 students = $5 \\times 84 = 420$. Total score of 6 students = $6 \\times 85 = 510$. The 6th student's score is $510 - 420 = 90$."
+    "explanation": "Total score of 5 students = $5 \\times 84 = 420$. Total score of 6 students = $6 \\times 85 = 510$. The 6th student's score is $510 - 420 = 90$.",
+    "hint": "**Key Strategy:** Total Sum from Average ($\\text{Sum} = \\text{Average} \\times \\text{Count}$)\n• **Step 1 (First Move):** Calculate the total score of the first $5$ students: $5 \\times 84 = 420$.\n• **Step 2 (The Guiding Bridge):** Calculate the new total score for all $6$ students using the new average of $85$: $6 \\times 85 = 510$.\n• **Step 3 (How to Finish):** Subtract the original total for $5$ students ($420$) from the new total for $6$ students ($510$) to find the score of the 6th student."
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "E) 2/5"
     ],
     "answer": "B) 4/7",
-    "explanation": "Let the fraction be $\\frac{N}{D}$. First condition: $\\frac{N+2}{D-1} = 1 \\implies D - N = 3$. Second condition: $\\frac{N-1}{D+2} = \\frac{1}{3} \\implies 3N - D = 5$. Solving gives $N = 4$ and $D = 7$."
+    "explanation": "Let the fraction be $\\frac{N}{D}$. First condition: $\\frac{N+2}{D-1} = 1 \\implies D - N = 3$. Second condition: $\\frac{N-1}{D+2} = \\frac{1}{3} \\implies 3N - D = 5$. Solving gives $N = 4$ and $D = 7$.",
+    "hint": "**Key Strategy:** Setting Up Simultaneous Linear Equations\n• **Step 1 (First Move):** Let the original fraction be $\\frac{N}{D}$. Translate the first condition into an equation: $\\frac{N + 2}{D - 1} = 1$, which gives $N + 2 = D - 1$, or $D = N + 3$.\n• **Step 2 (The Guiding Bridge):** Translate the second condition into an equation: $\\frac{N - 1}{D + 2} = \\frac{1}{3}$. Cross-multiply to get $3(N - 1) = D + 2$, and substitute $D = N + 3$ to obtain $3N - 3 = (N + 3) + 2$.\n• **Step 3 (How to Finish):** Solve $3N - 3 = N + 5$ to find $N$, use $D = N + 3$ to find $D$, and write the original fraction $\\frac{N}{D}$."
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "E) 270"
     ],
     "answer": "A) 252",
-    "explanation": "Total 3-digit numbers = 900. Numbers with no '8': hundreds digit has 8 choices (1–9 except 8), tens and units have 9 choices each. $8 \\times 9 \\times 9 = 648$. Numbers with at least one '8' = $900 - 648 = 252$."
+    "explanation": "Total 3-digit numbers = 900. Numbers with no '8': hundreds digit has 8 choices (1–9 except 8), tens and units have 9 choices each. $8 \\times 9 \\times 9 = 648$. Numbers with at least one '8' = $900 - 648 = 252$.",
+    "hint": "**Key Strategy:** Complementary Counting (Total Minus Unwanted)\n• **Step 1 (First Move):** Count the total number of $3$-digit numbers (from $100$ to $999$ inclusive): $999 - 100 + 1 = 900$.\n• **Step 2 (The Guiding Bridge):** Count the opposite case—how many $3$-digit numbers contain NO digit $8$. The hundreds digit has $8$ choices ($1$–$9$ excluding $8$), the tens digit has $9$ choices ($0$–$9$ excluding $8$), and the units digit has $9$ choices, giving $8 \\times 9 \\times 9 = 648$ numbers without an $8$.\n• **Step 3 (How to Finish):** Subtract the count of numbers with no $8$ ($648$) from the total count of $3$-digit numbers ($900$) to find how many contain at least one $8$."
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "E) 90 cm²"
     ],
     "answer": "A) 81 cm²",
-    "explanation": "Length + Width = $36 / 2 = 18$ cm. The area is maximized when length = width = 9 cm (a square). Maximum area = $9 \\times 9 = 81\\text{ cm}^2$."
+    "explanation": "Length + Width = $36 / 2 = 18$ cm. The area is maximized when length = width = 9 cm (a square). Maximum area = $9 \\times 9 = 81\\text{ cm}^2$.",
+    "hint": "**Key Strategy:** Optimizing Area for a Fixed Perimeter (Symmetry)\n• **Step 1 (First Move):** Divide the perimeter by $2$ to find the sum of the length $L$ and width $W$: $L + W = 36 \\div 2 = 18\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** For two numbers with a fixed sum, their product $L \\times W$ is maximized when the two numbers are equal (forming a square). Set $L = W = 18 \\div 2 = 9\\text{ cm}$.\n• **Step 3 (How to Finish):** Multiply the optimal length and width ($9\\text{ cm} \\times 9\\text{ cm}$) to compute the maximum possible area in $\\text{cm}^2$."
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "E) 22"
     ],
     "answer": "B) 20",
-    "explanation": "Worst-case scenario: draw all 10 yellow balls, all 8 blue balls (total 18 balls), and still have no red balls. Drawing 2 more balls guarantees at least 2 red balls. Total = $10 + 8 + 2 = 20$ balls."
+    "explanation": "Worst-case scenario: draw all 10 yellow balls, all 8 blue balls (total 18 balls), and still have no red balls. Drawing 2 more balls guarantees at least 2 red balls. Total = $10 + 8 + 2 = 20$ balls.",
+    "hint": "**Key Strategy:** Worst-Case Scenario (Pigeonhole Principle)\n• **Step 1 (First Move):** Imagine the unluckiest sequence of picks where you avoid getting $2$ balls of every color for as long as possible. To do this, pick all of the two largest color groups first so none of the smallest group is drawn yet.\n• **Step 2 (The Guiding Bridge):** Add the counts of the two largest color groups—all $10$ yellow balls and all $8$ blue balls: $10 + 8 = 18$ balls. At this point, you still have $0$ red balls.\n• **Step 3 (How to Finish):** Add the exact number of red balls needed to guarantee at least $2$ balls of each color ($2$) to your worst-case count ($18$)."
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "E) 52"
     ],
     "answer": "A) 50",
-    "explanation": "Group in pairs: $(100 - 98) + (96 - 94) + \\dots + (4 - 2)$. There are 25 pairs, each equal to 2. Total sum = $25 \\times 2 = 50$."
+    "explanation": "Group in pairs: $(100 - 98) + (96 - 94) + \\dots + (4 - 2)$. There are 25 pairs, each equal to 2. Total sum = $25 \\times 2 = 50$.",
+    "hint": "**Key Strategy:** Grouping in Pairs\n• **Step 1 (First Move):** Group consecutive terms into pairs from left to right: $(100 - 98) + (96 - 94) + (92 - 90) + \\dots + (4 - 2)$. Notice every pair equals $2$.\n• **Step 2 (The Guiding Bridge):** Count how many pairs there are by looking at the first number in each pair ($100, 96, 92, \\dots, 4$), which decreases by $4$ each time: $\\frac{100 - 4}{4} + 1 = 25$ pairs.\n• **Step 3 (How to Finish):** Multiply the number of pairs ($25$) by the value of each pair ($2$) to find the total sum."
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "E) 32"
     ],
     "answer": "B) 28",
-    "explanation": "Let ages 4 years ago be $3x$ and $4x$. Ages in 4 years will be $3x + 8$ and $4x + 8$. Given $\\frac{3x+8}{4x+8} = \\frac{4}{5} \\implies x = 8$. Alice's current age = $3(8) + 4 = 28$."
+    "explanation": "Let ages 4 years ago be $3x$ and $4x$. Ages in 4 years will be $3x + 8$ and $4x + 8$. Given $\\frac{3x+8}{4x+8} = \\frac{4}{5} \\implies x = 8$. Alice's current age = $3(8) + 4 = 28$.",
+    "hint": "**Key Strategy:** Ratio Variables & Time Shift\n• **Step 1 (First Move):** Let Alice's and Bob's ages $4$ years ago be $3x$ and $4x$. Since $4$ years from now is $8$ years after \"$4$ years ago\" ($4 + 4 = 8$), their ages $4$ years from now will be $3x + 8$ and $4x + 8$.\n• **Step 2 (The Guiding Bridge):** Set up a proportion with the future ratio: $\\frac{3x + 8}{4x + 8} = \\frac{4}{5}$. Cross-multiply to get $5(3x + 8) = 4(4x + 8)$, which simplifies to $15x + 40 = 16x + 32$, giving $x = 8$.\n• **Step 3 (How to Finish):** Compute Alice's age $4$ years ago ($3x = 3 \\times 8$), and then add $4$ years to find Alice's age now."
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "E) Amy and Ben tie"
     ],
     "answer": "A) Amy",
-    "explanation": "If Carl lies, Amy and Ben tell the truth. Amy gets the highest mark, Ben is middle, and Carl is highest/middle (contradicting his lie, making him non-lowest). All statements align consistently with Amy getting the highest mark."
+    "explanation": "If Carl lies, Amy and Ben tell the truth. Amy gets the highest mark, Ben is middle, and Carl is highest/middle (contradicting his lie, making him non-lowest). All statements align consistently with Amy getting the highest mark.",
+    "hint": "**Key Strategy:** Casework by Testing Each Suspect\n• **Step 1 (First Move):** Since only one person is lying and two tell the truth, test the three possible cases for who is the liar: (1) only the first speaker lies, (2) only the second speaker lies, or (3) only the third speaker lies.\n• **Step 2 (The Guiding Bridge):** Check Case 2 first: if only the second speaker lies, then both the second and third speakers would have the lowest mark, which is impossible for distinct ranks. Then compare the remaining cases carefully to see who takes the highest, middle, and lowest positions.\n• **Step 3 (How to Finish):** Identify the consistent ranking where two statements are true and one statement is false, and read off who has the highest mark."
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "E) 15"
     ],
     "answer": "C) 10",
-    "explanation": "A 5-pointed star contains 5 small outer triangles at the tips and 5 larger overlapping triangles containing the central pentagon. Total = 10 triangles."
+    "explanation": "A 5-pointed star contains 5 small outer triangles at the tips and 5 larger overlapping triangles containing the central pentagon. Total = 10 triangles.",
+    "hint": "**Key Strategy:** Systematic Counting by Triangle Type\n• **Step 1 (First Move):** Count the small, non-overlapping triangles at the outer points (tips) of the $5$-pointed star: there are $5$ small outer triangles sitting around the central pentagon.\n• **Step 2 (The Guiding Bridge):** Now count the larger overlapping triangles that enclose the central pentagon. Each of the $5$ long sides of the star forms the base of one larger triangle meeting at an inner corner of the pentagon on the opposite side, giving $5$ larger triangles.\n• **Step 3 (How to Finish):** Add the count of small outer triangles ($5$) and the count of larger overlapping triangles ($5$) together to get the total number of triangles."
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "E) 20"
     ],
     "answer": "A) 12",
-    "explanation": "The prime factorization of $2016 = 2^5 \\times 3^2 \\times 7$. The distinct prime factors are 2, 3, and 7. Sum = $2 + 3 + 7 = 12$."
+    "explanation": "The prime factorization of $2016 = 2^5 \\times 3^2 \\times 7$. The distinct prime factors are 2, 3, and 7. Sum = $2 + 3 + 7 = 12$.",
+    "hint": "**Key Strategy:** Prime Factorization (Repeated Division)\n• **Step 1 (First Move):** Divide $2016$ repeatedly by the smallest prime, $2$: $2016 \\div 2 = 1008$, $1008 \\div 2 = 504$, $504 \\div 2 = 252$, $252 \\div 2 = 126$, and $126 \\div 2 = 63$. This gives $2016 = 2^5 \\times 63$.\n• **Step 2 (The Guiding Bridge):** Factor $63$ completely into primes: $63 = 9 \\times 7 = 3^2 \\times 7$. So the full prime factorization is $2016 = 2^5 \\times 3^2 \\times 7$.\n• **Step 3 (How to Finish):** Take each distinct (different) prime factor once—$2$, $3$, and $7$—and add them together (ignoring the exponents)."
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "E) 400 m"
     ],
     "answer": "A) 300 m",
-    "explanation": "Total distance traveled = $\\text{Speed} \\times \\text{Time} = 18 \\times 25 = 450\\text{ m}$. Length of tunnel = $450 - 150 = 300\\text{ m}$."
+    "explanation": "Total distance traveled = $\\text{Speed} \\times \\text{Time} = 18 \\times 25 = 450\\text{ m}$. Length of tunnel = $450 - 150 = 300\\text{ m}$.",
+    "hint": "**Key Strategy:** Distance-Speed-Time Formula & Train-Passing-Tunnel Model\n• **Step 1 (First Move):** Calculate the total distance the front of the train travels in $25$ seconds using $\\text{Distance} = \\text{Speed} \\times \\text{Time}$: $18 \\times 25 = 450\\text{ m}$.\n• **Step 2 (The Guiding Bridge):** To pass *completely* through the tunnel—from the front entering to the back exiting—the train travels a total distance equal to $\\text{Tunnel Length} + \\text{Train Length} = \\text{Tunnel Length} + 150\\text{ m}$.\n• **Step 3 (How to Finish):** Subtract the train's length ($150\\text{ m}$) from the total distance traveled ($450\\text{ m}$) to find the length of the tunnel."
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "E) 150 L"
     ],
     "answer": "B) 90 L",
-    "explanation": "Fraction of water used = $\\frac{3}{5} - \\frac{1}{3} = \\frac{4}{15}$. Total capacity = $24 \\div \\frac{4}{15} = 90\\text{ liters}$."
+    "explanation": "Fraction of water used = $\\frac{3}{5} - \\frac{1}{3} = \\frac{4}{15}$. Total capacity = $24 \\div \\frac{4}{15} = 90\\text{ liters}$.",
+    "hint": "**Key Strategy:** Fractional Difference & Unit Value Method\n• **Step 1 (First Move):** Find the fraction of the tank's capacity that was used by subtracting the final fraction from the starting fraction: $\\frac{3}{5} - \\frac{1}{3}$.\n• **Step 2 (The Guiding Bridge):** Use the common denominator $15$ to compute $\\frac{9}{15} - \\frac{5}{15} = \\frac{4}{15}$. This tells us that $\\frac{4}{15}$ of the total tank capacity equals $24\\text{ liters}$.\n• **Step 3 (How to Finish):** Find $\\frac{1}{15}$ of the tank by dividing $24 \\div 4$, and then multiply by $15$ (equivalently, calculate $24 \\div \\frac{4}{15}$) to find the full capacity in liters."
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "E) 25"
     ],
     "answer": "A) 17",
-    "explanation": "First, $5 \\star 3 = 5 \\times 3 - (5 + 3) = 15 - 8 = 7$. Next, $7 \\star 4 = 7 \\times 4 - (7 + 4) = 28 - 11 = 17$."
+    "explanation": "First, $5 \\star 3 = 5 \\times 3 - (5 + 3) = 15 - 8 = 7$. Next, $7 \\star 4 = 7 \\times 4 - (7 + 4) = 28 - 11 = 17$.",
+    "hint": "**Key Strategy:** Custom Operation Evaluation & Order of Operations\n• **Step 1 (First Move):** Evaluate inside the parentheses first by substituting $A = 5$ and $B = 3$ into $A \\star B = A \\times B - (A + B)$: compute $5 \\times 3 - (5 + 3) = 15 - 8 = 7$.\n• **Step 2 (The Guiding Bridge):** Replace $(5 \\star 3)$ with $7$ so the expression becomes $7 \\star 4$. Substitute $A = 7$ and $B = 4$ into the same rule: $7 \\times 4 - (7 + 4)$.\n• **Step 3 (How to Finish):** Compute $7 \\times 4 = 28$ and $7 + 4 = 11$, then subtract $11$ from $28$ to find the final value."
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       "E) 40"
     ],
     "answer": "A) 36",
-    "explanation": "Selecting 2 horizontal lines out of 4 and 2 vertical lines out of 4 yields $\\binom{4}{2} \\times \\binom{4}{2} = 6 \\times 6 = 36$ rectangles."
+    "explanation": "Selecting 2 horizontal lines out of 4 and 2 vertical lines out of 4 yields $\\binom{4}{2} \\times \\binom{4}{2} = 6 \\times 6 = 36$ rectangles.",
+    "hint": "**Key Strategy:** Combinatorial Line Selection ($\\binom{n}{2} \\times \\binom{m}{2}$)\n• **Step 1 (First Move):** Count the grid lines in a $3 \\times 3$ grid of squares: there are $3 + 1 = 4$ horizontal lines and $3 + 1 = 4$ vertical lines.\n• **Step 2 (The Guiding Bridge):** Every rectangle (including squares) is uniquely formed by choosing $2$ horizontal lines and $2$ vertical lines. Calculate the number of ways to choose $2$ lines from $4$: $\\binom{4}{2} = \\frac{4 \\times 3}{2} = 6$.\n• **Step 3 (How to Finish):** Multiply the number of horizontal line pairs ($6$) by the number of vertical line pairs ($6$) to get the total number of rectangles."
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
       "E) 9"
     ],
     "answer": "A) 1",
-    "explanation": "The maximum sum of two 2-digit numbers is $99 + 99 = 198$. Since $CDE$ is a 3-digit number starting with $C$, $C$ must be 1."
+    "explanation": "The maximum sum of two 2-digit numbers is $99 + 99 = 198$. Since $CDE$ is a 3-digit number starting with $C$, $C$ must be 1.",
+    "hint": "**Key Strategy:** Range Estimation / Maximum Sum Bounds\n• **Step 1 (First Move):** Find the largest possible sum of any two $2$-digit numbers by calculating $99 + 99 = 198$.\n• **Step 2 (The Guiding Bridge):** Notice that $CDE$ is a $3$-digit number, so it must be at least $100$ and at most $198$ (even smaller once we apply that all letters are distinct non-zero digits).\n• **Step 3 (How to Finish):** Look at the hundreds digit $C$ of any $3$-digit number between $100$ and $198$ to determine the only possible non-zero value for $C$."
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
       "E) 5"
     ],
     "answer": "A) 1",
-    "explanation": "Powers of 3 end in a repeating cycle of $3, 9, 7, 1$. Since 2016 is divisible by 4, the units digit is 1."
+    "explanation": "Powers of 3 end in a repeating cycle of $3, 9, 7, 1$. Since 2016 is divisible by 4, the units digit is 1.",
+    "hint": "**Key Strategy:** Cyclicity of Units Digits (Modular Pattern)\n• **Step 1 (First Move):** List the units digits of the first few powers of $3$: $3^1 = 3$, $3^2 = 9$, $3^3 = 27$ (ends in $7$), $3^4 = 81$ (ends in $1$), and $3^5 = 243$ (ends in $3$).\n• **Step 2 (The Guiding Bridge):** Notice the units digits repeat in a cycle of length $4$: $(3, 9, 7, 1)$. Divide the exponent $2016$ by the cycle length $4$: $2016 \\div 4 = 504$ with a remainder of $0$.\n• **Step 3 (How to Finish):** Since $2016$ is an exact multiple of $4$ (remainder $0$), look at the $4\\text{th}$ position in the cycle $(3, 9, 7, 1)$ to identify the units digit of $3^{2016}$."
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
       "E) 6 hours"
     ],
     "answer": "A) 4.8 hours",
-    "explanation": "Rate equation: $\\frac{1}{6} + \\frac{1}{8} + \\frac{1}{x} = \\frac{1}{2} \\implies \\frac{7}{24} + \\frac{1}{x} = \\frac{12}{24} \\implies \\frac{1}{x} = \\frac{5}{24}$. So $x = 4.8$ hours."
+    "explanation": "Rate equation: $\\frac{1}{6} + \\frac{1}{8} + \\frac{1}{x} = \\frac{1}{2} \\implies \\frac{7}{24} + \\frac{1}{x} = \\frac{12}{24} \\implies \\frac{1}{x} = \\frac{5}{24}$. So $x = 4.8$ hours.",
+    "hint": "**Key Strategy:** Unit Work Rate ($\\text{Rate} = \\frac{1}{\\text{Time}}$)\n• **Step 1 (First Move):** Express each hourly work rate as a fraction of the wall built in $1$ hour: Worker A builds $\\frac{1}{6}$ per hour, Worker B builds $\\frac{1}{8}$ per hour, and all three together build $\\frac{1}{2}$ per hour.\n• **Step 2 (The Guiding Bridge):** Subtract Worker A's and Worker B's rates from the team's rate using the common denominator $24$: compute $\\frac{1}{2} - \\left(\\frac{1}{6} + \\frac{1}{8}\\right) = \\frac{12}{24} - \\frac{7}{24} = \\frac{5}{24}$ of the wall per hour for the apprentice.\n• **Step 3 (How to Finish):** Take the reciprocal of the apprentice's hourly rate ($1 \\div \\frac{5}{24} = \\frac{24}{5}$) and convert that fraction to a decimal to find how many hours the apprentice takes alone."
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
       "E) 65°"
     ],
     "answer": "A) 75°",
-    "explanation": "At 3:30, the minute hand points at $180^\\circ$ and the hour hand is at $3.5 \\times 30^\\circ = 105^\\circ$. Angle = $180^\\circ - 105^\\circ = 75^\\circ$."
+    "explanation": "At 3:30, the minute hand points at $180^\\circ$ and the hour hand is at $3.5 \\times 30^\\circ = 105^\\circ$. Angle = $180^\\circ - 105^\\circ = 75^\\circ$.",
+    "hint": "**Key Strategy:** Clock Hand Angular Speeds ($30^\\circ$ per hour)\n• **Step 1 (First Move):** Find the angle of each hand clockwise from $12$. A full clock is $360^\\circ$, so each hour mark is $360^\\circ \\div 12 = 30^\\circ$. At $3\\text{:30}$, the minute hand points at the $6$, which is $6 \\times 30^\\circ = 180^\\circ$.\n• **Step 2 (The Guiding Bridge):** Remember that the hour hand moves continuously: at $3\\text{:30}$, it is halfway between $3$ and $4$ (at $3.5$ hours). Multiply $3.5 \\times 30^\\circ = 105^\\circ$ to find the hour hand's angle from $12$.\n• **Step 3 (How to Finish):** Subtract the hour hand's angle ($105^\\circ$) from the minute hand's angle ($180^\\circ$) to find the smaller angle between the hands in degrees."
   },
   {
     "id": 25,
@@ -322,6 +346,7 @@
       "E) 5"
     ],
     "answer": "B) 2",
-    "explanation": "Powers of 2 mod 7 cycle as $2, 4, 1$. Since $100 = 3 \\times 33 + 1$, $2^{100} \\equiv 2^1 \\equiv 2 \\pmod 7$."
+    "explanation": "Powers of 2 mod 7 cycle as $2, 4, 1$. Since $100 = 3 \\times 33 + 1$, $2^{100} \\equiv 2^1 \\equiv 2 \\pmod 7$.",
+    "hint": "**Key Strategy:** Modular Arithmetic & Power Cycles ($\\bmod\\; 7$)\n• **Step 1 (First Move):** Find the remainders of the first few powers of $2$ when divided by $7$: $2^1 = 2$ (remainder $2$), $2^2 = 4$ (remainder $4$), $2^3 = 8$ (remainder $1$), and $2^4 = 16$ (remainder $2$).\n• **Step 2 (The Guiding Bridge):** Observe that the remainders repeat in a cycle of length $3$: $(2, 4, 1)$, because $2^3 \\equiv 1 \\pmod 7$. Divide the exponent $100$ by $3$ to write $100 = 3 \\times 33 + 1$, so $2^{100} = (2^3)^{33} \\times 2^1$.\n• **Step 3 (How to Finish):** Since $(2^3)^{33}$ leaves a remainder of $1^{33} = 1$ when divided by $7$, look at the $1\\text{st}$ position in the cycle $(2, 4, 1)$ (corresponding to the remaining $2^1$) to find the remainder."
   }
 ]

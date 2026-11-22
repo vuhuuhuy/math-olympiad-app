@@ -10,7 +10,8 @@
       "(E) 240"
     ],
     "answer": "(B) 15",
-    "explanation": "If multiplying a number by 2 results in 60, then the number must be 30. If 30 is divided by 2, the correct answer is 15."
+    "explanation": "If multiplying a number by 2 results in 60, then the number must be 30. If 30 is divided by 2, the correct answer is 15.",
+    "hint": "**Key Strategy:** Working Backwards\n• **Step 1 (First Move):** Undo Connie's mistake to find her original starting number. Since multiplying the number by $2$ gave $60$, divide backwards: $60 \\div 2 = 30$.\n• **Step 2 (The Guiding Bridge):** Now use that original starting number ($30$) and apply the operation Connie was supposed to perform: dividing by $2$.\n• **Step 3 (How to Finish):** Compute $30 \\div 2$ to get the correct answer."
   },
   {
     "id": "2",
@@ -23,7 +24,8 @@
       "(E) \\$5.00"
     ],
     "answer": "(C) \\$2.50",
-    "explanation": "Karl spent $5 \\times \\$2.50 = \\$12.50$ on the folders. If he had purchased the folders a day later, he would have saved 20% of this total, or $0.20 \\times \\$12.50 = \\$2.50$."
+    "explanation": "Karl spent $5 \\times \\$2.50 = \\$12.50$ on the folders. If he had purchased the folders a day later, he would have saved 20% of this total, or $0.20 \\times \\$12.50 = \\$2.50$.",
+    "hint": "**Key Strategy:** Percentage Discount\n• **Step 1 (First Move):** Find the total amount Karl spent on the five folders before any discount: $5 \\times \\$2.50 = \\$12.50$.\n• **Step 2 (The Guiding Bridge):** The amount Karl could have saved is the $20\\%$ discount on his total purchase. Rewrite $20\\%$ as the fraction $\\frac{20}{100} = \\frac{1}{5}$ (or the decimal $0.20$).\n• **Step 3 (How to Finish):** Multiply the total cost by the discount rate: calculate $\\frac{1}{5} \\times \\$12.50$ (or $0.20 \\times \\$12.50$) to find how much he would have saved."
   },
   {
     "id": "3",
@@ -36,7 +38,8 @@
       "(E) 5"
     ],
     "answer": "(D) 4",
-    "explanation": "For diagonal BD to lie on a line of symmetry in square ABCD, the four small squares corresponding to the reflected positions across BD must be colored black."
+    "explanation": "For diagonal BD to lie on a line of symmetry in square ABCD, the four small squares corresponding to the reflected positions across BD must be colored black.",
+    "hint": "**Key Strategy:** Reflection Symmetry\n• **Step 1 (First Move):** Imagine folding square $ABCD$ along the diagonal line $\\overline{BD}$. Every small square on one side of $\\overline{BD}$ lands directly on a matching mirror-image square on the opposite side.\n• **Step 2 (The Guiding Bridge):** Check each black square currently in the grid one by one. If a black square does not lie directly on the diagonal $\\overline{BD}$, locate its mirror-image square across $\\overline{BD}$ and check whether that matching square is already black or still white.\n• **Step 3 (How to Finish):** Count how many currently white squares are mirror images of existing black squares across $\\overline{BD}$; that count is the minimum number of squares you must color black."
   },
   {
     "id": "4",
@@ -49,7 +52,8 @@
       "(E) 64"
     ],
     "answer": "(C) 36",
-    "explanation": "The perimeter of the triangle is $6.1 + 8.2 + 9.7 = 24\\text{ cm}$. The perimeter of the square is also $24\\text{ cm}$, so each side of the square is $24 / 4 = 6\\text{ cm}$. The area of the square is $6^2 = 36\\text{ cm}^2$."
+    "explanation": "The perimeter of the triangle is $6.1 + 8.2 + 9.7 = 24\\text{ cm}$. The perimeter of the square is also $24\\text{ cm}$, so each side of the square is $24 / 4 = 6\\text{ cm}$. The area of the square is $6^2 = 36\\text{ cm}^2$.",
+    "hint": "**Key Strategy:** Perimeter-to-Area Conversion\n• **Step 1 (First Move):** Calculate the perimeter of the triangle by adding its three side lengths: $6.1 + 8.2 + 9.7 = 24\\text{ cm}$.\n• **Step 2 (The Guiding Bridge):** Since the square has the same perimeter ($24\\text{ cm}$) and $4$ equal sides, divide the perimeter by $4$ to find one side length $s$ of the square: $s = \\frac{24}{4} = 6\\text{ cm}$.\n• **Step 3 (How to Finish):** Calculate the area of the square using $\\text{Area} = s^2$, which means multiplying $6\\text{ cm} \\times 6\\text{ cm}$."
   },
   {
     "id": "5",
@@ -62,7 +66,8 @@
       "(E) 15"
     ],
     "answer": "(B) 5",
-    "explanation": "To get the minimum number of packs, purchase as many 24-packs as possible: three 24-packs contain 72 cans, leaving $90 - 72 = 18$ cans. To get the remaining 18 cans, purchase one 12-pack and one 6-pack. The minimum number of packs is $3 + 1 + 1 = 5$."
+    "explanation": "To get the minimum number of packs, purchase as many 24-packs as possible: three 24-packs contain 72 cans, leaving $90 - 72 = 18$ cans. To get the remaining 18 cans, purchase one 12-pack and one 6-pack. The minimum number of packs is $3 + 1 + 1 = 5$.",
+    "hint": "**Key Strategy:** Greedy Algorithm\n• **Step 1 (First Move):** To use as few packs as possible, take as many of the largest pack ($24$ cans) as you can without going over $90$. Since $4 \\times 24 = 96$ is too high, start with $3$ packs of $24$ cans: $3 \\times 24 = 72$ cans.\n• **Step 2 (The Guiding Bridge):** Find how many cans are still needed: $90 - 72 = 18$ cans. Use the largest remaining pack that fits into $18$, which is one $12$-pack, leaving $18 - 12 = 6$ cans (covered by one $6$-pack).\n• **Step 3 (How to Finish):** Add together the number of $24$-packs, $12$-packs, and $6$-packs you used ($3 + 1 + 1$) to get the minimum total number of packs."
   },
   {
     "id": "6",
@@ -75,7 +80,8 @@
       "(E) 10"
     ],
     "answer": "(C) 5",
-    "explanation": "The number $2.00d5$ is greater than $2.0050$ when the hundredths digit $d$ is greater than or equal to 5. Thus, $d = 5, 6, 7, 8, 9$, giving 5 valid values."
+    "explanation": "The number $2.00d5$ is greater than $2.0050$ when the hundredths digit $d$ is greater than or equal to 5. Thus, $d = 5, 6, 7, 8, 9$, giving 5 valid values.",
+    "hint": "**Key Strategy:** Place Value Comparison\n• **Step 1 (First Move):** Rewrite $2.005$ with four decimal places so both numbers line up cleanly: $2.005 = 2.0050$. Now compare $2.00d5$ against $2.0050$.\n• **Step 2 (The Guiding Bridge):** The digits in the ones ($2$), tenths ($0$), and hundredths ($0$) places match, so compare starting at the thousandths place: $d$ versus $5$. Any $d > 5$ makes $2.00d5$ larger, and when $d = 5$, we get $2.0055 > 2.0050$, which also works.\n• **Step 3 (How to Finish):** List every single-digit whole number $d$ from $0$ to $9$ that satisfies $d \\ge 5$, and count how many values are in your list."
   },
   {
     "id": "7",
@@ -88,7 +94,8 @@
       "(E) 2"
     ],
     "answer": "(B) 1 1/4",
-    "explanation": "Bill's walk is equivalent to walking $1/2 + 1/2 = 1\\text{ mile}$ south and $3/4\\text{ mile}$ east. By the Pythagorean Theorem, the straight-line distance is $\\sqrt{1^2 + (3/4)^2} = \\sqrt{1 + 9/16} = \\sqrt{25/16} = 5/4 = 1\\frac{1}{4}\\text{ miles}$."
+    "explanation": "Bill's walk is equivalent to walking $1/2 + 1/2 = 1\\text{ mile}$ south and $3/4\\text{ mile}$ east. By the Pythagorean Theorem, the straight-line distance is $\\sqrt{1^2 + (3/4)^2} = \\sqrt{1 + 9/16} = \\sqrt{25/16} = 5/4 = 1\\frac{1}{4}\\text{ miles}$.",
+    "hint": "**Key Strategy:** Pythagorean Theorem\n• **Step 1 (First Move):** Combine the two south segments to find Bill's total southward distance: $\\frac{1}{2} + \\frac{1}{2} = 1\\text{ mile}$ south, along with $\\frac{3}{4}\\text{ mile}$ east.\n• **Step 2 (The Guiding Bridge):** Because south and east meet at a $90^\\circ$ right angle, the direct line from start to finish is the hypotenuse $c$ of a right triangle with legs $a = 1$ and $b = \\frac{3}{4}$. Set up $c^2 = 1^2 + \\left(\\frac{3}{4}\\right)^2 = 1 + \\frac{9}{16} = \\frac{25}{16}$.\n• **Step 3 (How to Finish):** Take the square root $\\sqrt{\\frac{25}{16}}$ and write the resulting fraction as a mixed number."
   },
   {
     "id": "8",
@@ -101,7 +108,8 @@
       "(E) $3mn$"
     ],
     "answer": "(E) $3mn$",
-    "explanation": "The product of odd integers is always odd. Since 3, $m$, and $n$ are all odd, $3mn$ must always be odd."
+    "explanation": "The product of odd integers is always odd. Since 3, $m$, and $n$ are all odd, $3mn$ must always be odd.",
+    "hint": "**Key Strategy:** Parity Rules (Odd and Even Properties)\n• **Step 1 (First Move):** Test the expressions with simple positive odd integers, such as $m = 1$ and $n = 1$, to rule out any choices that evaluate to an even number.\n• **Step 2 (The Guiding Bridge):** Apply the general parity rules: $\\text{odd} + \\text{odd} = \\text{even}$, $\\text{odd} - \\text{odd} = \\text{even}$, and $\\text{odd} \\times \\text{odd} = \\text{odd}$. Notice that adding or subtracting two odd terms always produces an even result, and squaring an even number keeps it even.\n• **Step 3 (How to Finish):** Inspect the five choices and select the single expression formed strictly by multiplying odd integers together, since a product of odd numbers is always odd."
   },
   {
     "id": "9",
@@ -114,7 +122,8 @@
       "(E) 18.5"
     ],
     "answer": "(D) 17",
-    "explanation": "Triangle ACD is isosceles with $AD = CD = 17$ and vertex angle $\\angle ADC = 60^\\circ$. An isosceles triangle with a $60^\\circ$ angle is equilateral, so $AC = 17$."
+    "explanation": "Triangle ACD is isosceles with $AD = CD = 17$ and vertex angle $\\angle ADC = 60^\\circ$. An isosceles triangle with a $60^\\circ$ angle is equilateral, so $AC = 17$.",
+    "hint": "**Key Strategy:** Isosceles-to-Equilateral Triangle Property\n• **Step 1 (First Move):** Focus on $\\triangle ACD$, which is formed by sides $\\overline{DA} = 17$, $\\overline{CD} = 17$, and the diagonal $\\overline{AC}$.\n• **Step 2 (The Guiding Bridge):** Since $DA = CD = 17$, $\\triangle ACD$ is isosceles, so its two base angles $\\angle DAC$ and $\\angle DCA$ are equal. Because the three angles in a triangle sum to $180^\\circ$ and $\\angle ADC = 60^\\circ$, compute each base angle: $\\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$.\n• **Step 3 (How to Finish):** Since all three angles of $\\triangle ACD$ measure $60^\\circ$, $\\triangle ACD$ is an equilateral triangle, so diagonal $\\overline{AC}$ has the exact same length as $DA$ and $CD$. State that shared length."
   },
   {
     "id": "10",
@@ -127,7 +136,8 @@
       "(E) 8.3"
     ],
     "answer": "(D) 8",
-    "explanation": "Running the second half of the distance at 3 times his walking speed takes $1/3$ as long: $6 / 3 = 2\\text{ minutes}$. His total time is $6 + 2 = 8\\text{ minutes}$."
+    "explanation": "Running the second half of the distance at 3 times his walking speed takes $1/3$ as long: $6 / 3 = 2\\text{ minutes}$. His total time is $6 + 2 = 8\\text{ minutes}$.",
+    "hint": "**Key Strategy:** Inverse Ratio of Speed and Time\n• **Step 1 (First Move):** Both halves of Joe's trip (walking and running) cover the exact same distance: half the way from home to school. The walking half took $6$ minutes.\n• **Step 2 (The Guiding Bridge):** Over a fixed distance, traveling $3$ times as fast takes $\\frac{1}{3}$ as much time. Divide Joe's walking time by $3$ to find his running time for the second half: $\\frac{6}{3} = 2$ minutes.\n• **Step 3 (How to Finish):** Add the walking time and the running time ($6 + 2$) to find Joe's total travel time in minutes."
   },
   {
     "id": "11",
@@ -140,7 +150,8 @@
       "(E) \\$1.06"
     ],
     "answer": "(C) \\$0",
-    "explanation": "Jack calculates $90 \\times 1.06 \\times 0.80 = 76.32$. Jill calculates $90 \\times 0.80 \\times 1.06 = 76.32$. Multiplication is commutative, so Jack's total minus Jill's total is \\$0."
+    "explanation": "Jack calculates $90 \\times 1.06 \\times 0.80 = 76.32$. Jill calculates $90 \\times 0.80 \\times 1.06 = 76.32$. Multiplication is commutative, so Jack's total minus Jill's total is \\$0.",
+    "hint": "**Key Strategy:** Commutative Property of Multiplication\n• **Step 1 (First Move):** Write both percentage changes as multipliers: adding $6\\%$ sales tax multiplies the price by $1 + 0.06 = 1.06$, and taking a $20\\%$ discount multiplies the price by $1 - 0.20 = 0.80$.\n• **Step 2 (The Guiding Bridge):** Set up an expression for each clerk's final total. Jack calculates $(\\$90 \\times 1.06) \\times 0.80$, while Jill calculates $(\\$90 \\times 0.80) \\times 1.06$.\n• **Step 3 (How to Finish):** Compare Jack's and Jill's expressions (using the fact that multiplication order does not change the product, or by computing each total) and subtract Jill's total from Jack's total."
   },
   {
     "id": "12",
@@ -153,7 +164,8 @@
       "(E) 34"
     ],
     "answer": "(D) 32",
-    "explanation": "The average number of bananas eaten per day is $100 / 5 = 20$, which equals the amount eaten on May 3. On May 5, Big Al ate $20 + 2(6) = 32\\text{ bananas}$."
+    "explanation": "The average number of bananas eaten per day is $100 / 5 = 20$, which equals the amount eaten on May 3. On May 5, Big Al ate $20 + 2(6) = 32\\text{ bananas}$.",
+    "hint": "**Key Strategy:** Average of an Arithmetic Sequence\n• **Step 1 (First Move):** Because Big Al's daily banana counts increase by the same amount ($6$) each day across $5$ consecutive days, the middle day (May 3) equals the average number of bananas per day: $\\frac{100}{5} = 20$ bananas.\n• **Step 2 (The Guiding Bridge):** May 5 is $2$ days after May 3, and Big Al eats $6$ more bananas each day. Calculate the extra bananas eaten on May 5 compared to May 3: $2 \\times 6 = 12$ bananas.\n• **Step 3 (How to Finish):** Add the $12$ extra bananas to the May 3 middle count ($20 + 12$) to find how many bananas Big Al ate on May 5."
   },
   {
     "id": "13",
@@ -166,7 +178,8 @@
       "(E) 11"
     ],
     "answer": "(C) 9",
-    "explanation": "Completing polygon ABCDEF into a full $8 \\times 9$ rectangle ABCG gives a total area of 72. The missing corner rectangle FEDG has area $72 - 52 = 20$. Its height $DE = 9 - 5 = 4$, so its width $EF = 20 / 4 = 5$. Thus, $DE + EF = 4 + 5 = 9$."
+    "explanation": "Completing polygon ABCDEF into a full $8 \\times 9$ rectangle ABCG gives a total area of 72. The missing corner rectangle FEDG has area $72 - 52 = 20$. Its height $DE = 9 - 5 = 4$, so its width $EF = 20 / 4 = 5$. Thus, $DE + EF = 4 + 5 = 9$.",
+    "hint": "**Key Strategy:** Area Decomposition (Rectilinear Completion)\n• **Step 1 (First Move):** Imagine completing polygon $ABCDEF$ into a full rectangle $ABCG$ of width $AB = 8$ and height $BC = 9$. Calculate the full rectangle's area: $8 \\times 9 = 72$.\n• **Step 2 (The Guiding Bridge):** Subtract the polygon's area ($52$) from $72$ to find the area of the missing corner rectangle $FEDG$: $72 - 52 = 20$. Since $BC = 9$ and $FA = 5$, the height of that missing corner is $DE = 9 - 5 = 4$.\n• **Step 3 (How to Finish):** Divide the missing corner's area ($20$) by its height $DE = 4$ to find $EF$, then add $DE + EF$ together."
   },
   {
     "id": "14",
@@ -179,7 +192,8 @@
       "(E) 192"
     ],
     "answer": "(B) 96",
-    "explanation": "Each team plays 5 intra-division opponents twice ($5 \\times 2 = 10\\text{ games}$) and 6 inter-division opponents once ($6\\text{ games}$), totaling 16 games per team. Across 12 teams, the total scheduled games count is $(12 \\times 16) / 2 = 96$."
+    "explanation": "Each team plays 5 intra-division opponents twice ($5 \\times 2 = 10\\text{ games}$) and 6 inter-division opponents once ($6\\text{ games}$), totaling 16 games per team. Across 12 teams, the total scheduled games count is $(12 \\times 16) / 2 = 96$.",
+    "hint": "**Key Strategy:** Handshake Counting (Total Team Games Divided by 2)\n• **Step 1 (First Move):** Pick one team and count how many games it plays: against the $5$ other teams in its own division twice ($5 \\times 2 = 10$ games), plus against all $6$ teams in the other division once ($6$ games), giving $10 + 6 = 16$ games per team.\n• **Step 2 (The Guiding Bridge):** Since there are $6 + 6 = 12$ teams in the conference, multiplying $12 \\times 16 = 192$ counts every game twice—once from each of the two teams playing in that game.\n• **Step 3 (How to Finish):** Divide $192$ by $2$ to get the actual number of scheduled conference games without double-counting."
   },
   {
     "id": "15",
@@ -192,7 +206,8 @@
       "(E) 11"
     ],
     "answer": "(C) 6",
-    "explanation": "Let the side lengths be $a, a, b$ with $2a + b = 23$. Since $2a$ is even, $b$ must be an odd integer, and $b < 2a$ (by triangle inequality), so $b < 11.5$. The valid odd base lengths $b$ are 1, 3, 5, 7, 9, 11, giving 6 distinct isosceles triangles."
+    "explanation": "Let the side lengths be $a, a, b$ with $2a + b = 23$. Since $2a$ is even, $b$ must be an odd integer, and $b < 2a$ (by triangle inequality), so $b < 11.5$. The valid odd base lengths $b$ are 1, 3, 5, 7, 9, 11, giving 6 distinct isosceles triangles.",
+    "hint": "**Key Strategy:** Systematic Casework with the Triangle Inequality\n• **Step 1 (First Move):** Let the two equal sides each have length $a$ and the third side (the base) have length $b$, so $2a + b = 23$. Because $2a$ is even and $23$ is odd, the base $b$ must be a positive odd integer.\n• **Step 2 (The Guiding Bridge):** By the Triangle Inequality, the sum of the two equal sides must be strictly greater than the base: $a + a > b$, or $2a > b$. Substitute $2a = 23 - b$ to get $23 - b > b$, which simplifies to $2b < 23$, or $b < 11.5$.\n• **Step 3 (How to Finish):** List every positive odd integer $b$ smaller than $11.5$ (starting from $1, 3, \\dots$)—each valid $b$ produces a valid integer $a = \\frac{23 - b}{2}$—and count how many triangles are in your list."
   },
   {
     "id": "16",
@@ -205,7 +220,8 @@
       "(E) 15"
     ],
     "answer": "(D) 13",
-    "explanation": "By the Pigeonhole Principle, pulling out at most $4 \\times 3 = 12$ socks could yield 4 of each color without reaching 5 of any single color. Selecting $12 + 1 = 13$ socks guarantees at least 5 socks of one color."
+    "explanation": "By the Pigeonhole Principle, pulling out at most $4 \\times 3 = 12$ socks could yield 4 of each color without reaching 5 of any single color. Selecting $12 + 1 = 13$ socks guarantees at least 5 socks of one color.",
+    "hint": "**Key Strategy:** Pigeonhole Principle (Worst-Case Scenario)\n• **Step 1 (First Move):** Imagine the unluckiest possible sequence of pulls: find the greatest number of socks the Martian can remove *without* ever reaching $5$ socks of the same color.\n• **Step 2 (The Guiding Bridge):** Since there are $3$ colors (red, white, blue), the Martian could pull out $4$ red, $4$ white, and $4$ blue socks—that is $4 \\times 3 = 12$ socks—and still have only $4$ of each color.\n• **Step 3 (How to Finish):** Add $1$ more sock to that worst-case count ($12 + 1$) so that whichever color comes out next is guaranteed to make $5$ of that color."
   },
   {
     "id": "17",
@@ -219,7 +235,8 @@
       "(E) Evelyn"
     ],
     "answer": "(E) Evelyn",
-    "explanation": "Average speed is represented by the slope of the line from the origin $(0,0)$ to the runner's data point. Evelyn's point forms the steepest line (greatest distance per unit time), giving her the highest average speed."
+    "explanation": "Average speed is represented by the slope of the line from the origin $(0,0)$ to the runner's data point. Evelyn's point forms the steepest line (greatest distance per unit time), giving her the highest average speed.",
+    "hint": "**Key Strategy:** Rate Comparison via Graph Slope\n• **Step 1 (First Move):** Recall the formula $\\text{Average Speed} = \\frac{\\text{Distance}}{\\text{Time}}$, and check which axis on the graph shows distance and which shows time.\n• **Step 2 (The Guiding Bridge):** Picture a straight line connecting the origin $(0,0)$ to each runner's data point. The steepness (slope) of that line equals $\\frac{\\text{Distance}}{\\text{Time}}$—a steeper line means a greater average speed.\n• **Step 3 (How to Finish):** Compare the steepness of the lines from $(0,0)$ to each of the five runners' dots (or divide distance by time for each dot) and choose the student with the steepest line."
   },
   {
     "id": "18",
@@ -232,7 +249,8 @@
       "(E) 77"
     ],
     "answer": "(C) 69",
-    "explanation": "The smallest three-digit multiple of 13 is $13 \\times 8 = 104$ and the largest is $13 \\times 76 = 988$. The total number of three-digit multiples is $76 - 8 + 1 = 69$."
+    "explanation": "The smallest three-digit multiple of 13 is $13 \\times 8 = 104$ and the largest is $13 \\times 76 = 988$. The total number of three-digit multiples is $76 - 8 + 1 = 69$.",
+    "hint": "**Key Strategy:** Counting Multiples Using Endpoints\n• **Step 1 (First Move):** Three-digit numbers run from $100$ to $999$. Divide $100 \\div 13 = 7$ with remainder $9$, so the smallest three-digit multiple of $13$ is $13 \\times 8 = 104$.\n• **Step 2 (The Guiding Bridge):** Next, divide $999 \\div 13 = 76$ with remainder $11$, so the largest three-digit multiple of $13$ is $13 \\times 76 = 988$. Thus, the three-digit multiples are $13 \\times 8, 13 \\times 9, \\dots, 13 \\times 76$.\n• **Step 3 (How to Finish):** Count how many integers lie from $8$ to $76$ inclusive using $\\text{last} - \\text{first} + 1$, which means computing $76 - 8 + 1$."
   },
   {
     "id": "19",
@@ -245,7 +263,8 @@
       "(E) 204"
     ],
     "answer": "(A) 180",
-    "explanation": "By the Pythagorean Theorem, $AE = \\sqrt{30^2 - 24^2} = 18$ and $FD = \\sqrt{25^2 - 24^2} = 7$. The top base $BC = 50$, so the bottom base $AD = 18 + 50 + 7 = 75$. The perimeter is $30 + 50 + 25 + 75 = 180$."
+    "explanation": "By the Pythagorean Theorem, $AE = \\sqrt{30^2 - 24^2} = 18$ and $FD = \\sqrt{25^2 - 24^2} = 7$. The top base $BC = 50$, so the bottom base $AD = 18 + 50 + 7 = 75$. The perimeter is $30 + 50 + 25 + 75 = 180$.",
+    "hint": "**Key Strategy:** Dropping Altitudes & Pythagorean Theorem\n• **Step 1 (First Move):** Drop two vertical heights from top vertices $B$ and $C$ down to bottom base $\\overline{AD}$ at points $E$ and $F$. This splits the trapezoid into a central rectangle $BCFE$ (so $EF = BC = 50$) and two right triangles, $\\triangle ABE$ and $\\triangle DCF$, each with height $BE = CF = 24$.\n• **Step 2 (The Guiding Bridge):** Apply the Pythagorean Theorem to each right triangle to find the two bottom side segments: $AE = \\sqrt{30^2 - 24^2}$ and $FD = \\sqrt{25^2 - 24^2}$. Then add $AE + 50 + FD$ to get the full length of bottom base $AD$.\n• **Step 3 (How to Finish):** Add all four outer side lengths of the trapezoid together ($30 + 50 + 25 + AD$) to calculate its perimeter."
   },
   {
     "id": "20",
@@ -258,7 +277,8 @@
       "(E) 24"
     ],
     "answer": "(A) 6",
-    "explanation": "Moving 9 points counterclockwise is equivalent to moving 3 points clockwise ($12 - 9 = 3$). The relative distance closed between Alice and Bob per turn is $5 - 3 = 2$ points. To meet back together at 12 points relative distance requires $12 / 2 = 6\\text{ turns}$."
+    "explanation": "Moving 9 points counterclockwise is equivalent to moving 3 points clockwise ($12 - 9 = 3$). The relative distance closed between Alice and Bob per turn is $5 - 3 = 2$ points. To meet back together at 12 points relative distance requires $12 / 2 = 6\\text{ turns}$.",
+    "hint": "**Key Strategy:** Relative Motion on a Circle (Modular Arithmetic)\n• **Step 1 (First Move):** Rewrite Bob's counterclockwise movement as an equivalent clockwise movement on the $12$-point circle: moving $9$ points counterclockwise lands on the exact same point as moving $12 - 9 = 3$ points clockwise.\n• **Step 2 (The Guiding Bridge):** Now both players travel clockwise from point $12$: Alice moves $5$ points per turn and Bob moves $3$ points per turn. Each turn, Alice gains $5 - 3 = 2$ points ahead of Bob around the circle.\n• **Step 3 (How to Finish):** They stop on the same point again once Alice is a full lap of $12$ points ahead of Bob. Divide $12$ by the $2$-point lead gained each turn ($12 \\div 2$) to find the number of turns."
   },
   {
     "id": "21",
@@ -271,7 +291,8 @@
       "(E) 24"
     ],
     "answer": "(C) 18",
-    "explanation": "With 3 dots in the top row and 3 in the bottom row, choose 2 dots from one row and 1 dot from the other row: $\\binom{3}{2} \\times \\binom{3}{1} = 3 \\times 3 = 9$ triangles with base on the top row, plus 9 triangles with base on the bottom row, totaling $9 + 9 = 18\\text{ triangles}$."
+    "explanation": "With 3 dots in the top row and 3 in the bottom row, choose 2 dots from one row and 1 dot from the other row: $\\binom{3}{2} \\times \\binom{3}{1} = 3 \\times 3 = 9$ triangles with base on the top row, plus 9 triangles with base on the bottom row, totaling $9 + 9 = 18\\text{ triangles}$.",
+    "hint": "**Key Strategy:** Casework by Row (Combinations)\n• **Step 1 (First Move):** Notice the dots form $2$ parallel rows with $3$ dots in each row. Any $3$ dots make a triangle as long as they are not all in the same straight row, so each triangle must use $2$ dots from one row and $1$ dot from the other row.\n• **Step 2 (The Guiding Bridge):** Count the triangles with $2$ vertices in the top row and $1$ vertex in the bottom row: there are $\\binom{3}{2} = 3$ ways to choose $2$ dots from the $3$ top dots, and $3$ ways to choose $1$ dot from the bottom row, giving $3 \\times 3 = 9$ triangles.\n• **Step 3 (How to Finish):** By symmetry, there are the same number ($9$) of triangles with $2$ vertices in the bottom row and $1$ in the top row. Add the two cases together ($9 + 9$) to get the total number of distinct triangles."
   },
   {
     "id": "22",
@@ -284,7 +305,8 @@
       "(E) MLS"
     ],
     "answer": "(E) MLS",
-    "explanation": "Let Small cost \\$1.00 for $10\\text{ oz}$ ($10\\phi/\\text{oz}$). Large contains $20\\text{ oz}$ (twice S) and Medium contains $16\\text{ oz}$ (20% less than L). Medium costs $1.50 \\times Small = \\$1.50$ ($9.375\\phi/\\text{oz}$). Large costs $1.30 \\times Medium = \\$1.95$ ($9.75\\phi/\\text{oz}$). Comparing price per oz gives Medium, Large, Small (MLS)."
+    "explanation": "Let Small cost \\$1.00 for $10\\text{ oz}$ ($10\\phi/\\text{oz}$). Large contains $20\\text{ oz}$ (twice S) and Medium contains $16\\text{ oz}$ (20% less than L). Medium costs $1.50 \\times Small = \\$1.50$ ($9.375\\phi/\\text{oz}$). Large costs $1.30 \\times Medium = \\$1.95$ ($9.75\\phi/\\text{oz}$). Comparing price per oz gives Medium, Large, Small (MLS).",
+    "hint": "**Key Strategy:** Assigning Convenient Values & Unit Rate\n• **Step 1 (First Move):** Pick easy numbers for the Small ($S$) box: suppose $S$ contains $10\\text{ oz}$ of detergent and costs $\\$1.00$ (a unit price of $\\frac{\\$1.00}{10\\text{ oz}} = 10\\text{ cents/oz}$).\n• **Step 2 (The Guiding Bridge):** Find the size and cost for $L$ and $M$: $L$ holds twice $S$ ($2 \\times 10 = 20\\text{ oz}$), and $M$ holds $20\\%$ less than $L$ ($0.80 \\times 20 = 16\\text{ oz}$). Meanwhile, $M$ costs $50\\%$ more than $S$ ($1.50 \\times \\$1.00 = \\$1.50$), and $L$ costs $30\\%$ more than $M$ ($1.30 \\times \\$1.50 = \\$1.95$).\n• **Step 3 (How to Finish):** Compute the unit price ($\\text{cost} \\div \\text{ounces}$) for $M$ ($\\frac{\\$1.50}{16}$) and $L$ ($\\frac{\\$1.95}{20}$), compare them with $S$ ($\\frac{\\$1.00}{10}$), and rank the three letters from lowest cost per ounce (best buy) to highest cost per ounce (worst buy)."
   },
   {
     "id": "23",
@@ -297,7 +319,8 @@
       "(E) 4\\pi"
     ],
     "answer": "(B) 8",
-    "explanation": "Reflecting triangle ABC across hypotenuse $\\overline{AB}$ creates a square enclosing a full circle of area $4\\pi$. The radius is $r = 2$, so the side length of the square is $2r = 4$. The area of the square is 16, meaning the area of triangle ABC is $16 / 2 = 8$."
+    "explanation": "Reflecting triangle ABC across hypotenuse $\\overline{AB}$ creates a square enclosing a full circle of area $4\\pi$. The radius is $r = 2$, so the side length of the square is $2r = 4$. The area of the square is 16, meaning the area of triangle ABC is $16 / 2 = 8$.",
+    "hint": "**Key Strategy:** Symmetry Reflection (Doubling to a Square)\n• **Step 1 (First Move):** Reflect isosceles right triangle $ABC$ across its hypotenuse $\\overline{AB}$. This forms a square whose area is twice the triangle's area, enclosing a full circle of area $2 \\times 2\\pi = 4\\pi$.\n• **Step 2 (The Guiding Bridge):** Use the circle area formula $\\pi r^2 = 4\\pi$ to find the radius $r$: $r^2 = 4$, so $r = 2$. Because the circle is tangent to all four sides of the square, the side length of the square equals the circle's diameter: $2r = 4$.\n• **Step 3 (How to Finish):** Calculate the area of the full square ($4^2$), then divide by $2$ to find the area of triangle $ABC$."
   },
   {
     "id": "24",
@@ -310,7 +333,8 @@
       "(E) 12"
     ],
     "answer": "(B) 9",
-    "explanation": "Working backward from 200: $200 / 2 = 100 / 2 = 50 / 2 = 25 - 1 = 24 / 2 = 12 / 2 = 6 / 2 = 3 - 1 = 2 / 2 = 1$. This sequence $[\times 2][+1][\times 2][\times 2][\times 2][+1][\times 2][\times 2][\times 2]$ uses 9 keystrokes."
+    "explanation": "Working backward from 200: $200 / 2 = 100 / 2 = 50 / 2 = 25 - 1 = 24 / 2 = 12 / 2 = 6 / 2 = 3 - 1 = 2 / 2 = 1$. This sequence $[\times 2][+1][\times 2][\times 2][\times 2][+1][\times 2][\times 2][\times 2]$ uses 9 keystrokes.",
+    "hint": "**Key Strategy:** Working Backwards (Reverse Operations)\n• **Step 1 (First Move):** Instead of going forward from $1$ to $200$, work backwards from $200$ to $1$ using the reverse operations: $[\\div 2]$ (when the number is even) and $[-1]$. To minimize keystrokes, always divide by $2$ whenever possible and subtract $1$ only when the number is odd.\n• **Step 2 (The Guiding Bridge):** Start tracing backwards from $200$: $200 \\xrightarrow{\\div 2} 100 \\xrightarrow{\\div 2} 50 \\xrightarrow{\\div 2} 25 \\xrightarrow{-1} 24$. Continue applying the same rule (halve when even, subtract $1$ when odd) all the way down from $24$ until you reach $1$.\n• **Step 3 (How to Finish):** Count the total number of backward steps (arrows) from $200$ down to $1$—that count equals the fewest forward keystrokes needed."
   },
   {
     "id": "25",
@@ -323,6 +347,7 @@
       "(E) $\\sqrt{\\pi}$"
     ],
     "answer": "(A) $\\frac{2}{\\sqrt{\\pi}}$",
-    "explanation": "Equal overlapping non-shared areas imply that the total area of the square equals the total area of the circle. The square area is $2^2 = 4$. Setting $\\pi r^2 = 4$ yields $r = \\frac{2}{\\sqrt{\\pi}}$."
+    "explanation": "Equal overlapping non-shared areas imply that the total area of the square equals the total area of the circle. The square area is $2^2 = 4$. Setting $\\pi r^2 = 4$ yields $r = \\frac{2}{\\sqrt{\\pi}}$.",
+    "hint": "**Key Strategy:** Equal-Area Cancellation (Shared Overlap)\n• **Step 1 (First Move):** Let $S_{\\text{overlap}}$ be the shared area inside *both* the square and the circle. Notice that $\\text{Area(Square)} = S_{\\text{overlap}} + \\text{Area(inside square, outside circle)}$ and $\\text{Area(Circle)} = S_{\\text{overlap}} + \\text{Area(inside circle, outside square)}$.\n• **Step 2 (The Guiding Bridge):** Because the two non-overlapping outer regions have equal area and both shapes share the exact same $S_{\\text{overlap}}$, the total area of the circle must equal the total area of the square. Compute the square's area ($2^2 = 4$) and set $\\pi r^2 = 4$.\n• **Step 3 (How to Finish):** Solve $\\pi r^2 = 4$ for $r$ by dividing both sides by $\\pi$ and taking the positive square root ($\\sqrt{\\frac{4}{\\pi}}$), then simplify $\\sqrt{4}$ in the numerator."
   }
 ]

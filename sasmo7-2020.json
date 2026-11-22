@@ -10,7 +10,8 @@
       "E) None of the above"
     ],
     "answer": "C) 1",
-    "explanation": "Let $x = 2020$. Then $x^2 - (x-1)(x+1) = x^2 - (x^2 - 1) = 1$."
+    "explanation": "Let $x = 2020$. Then $x^2 - (x-1)(x+1) = x^2 - (x^2 - 1) = 1$.",
+    "hint": "**Key Strategy:** Difference of Squares (Algebraic Substitution)\n• **Step 1 (First Move):** Notice that $2019$ and $2021$ are both $1$ away from $2020$. Let $x = 2020$, so we can rewrite $2019$ as $(x - 1)$ and $2021$ as $(x + 1)$.\n• **Step 2 (The Guiding Bridge):** Substitute these into the expression to get $x^2 - (x - 1)(x + 1)$. Use the difference of squares identity $(x - 1)(x + 1) = x^2 - 1^2$ to expand the second part.\n• **Step 3 (How to Finish):** Subtract $(x^2 - 1^2)$ from $x^2$, paying close attention to distributing the minus sign to both terms inside the parentheses, to find the constant value left over."
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "E) None of the above"
     ],
     "answer": "D) $34.90",
-    "explanation": "Let $A$ and $O$ be costs. $(5A+7O) - (3A+4O) \\implies 2A+3O = 8.00$. Then $9A+13O = (5A+7O) + 2(2A+3O) = 18.90 + 2(8.00) = $34.90$."
+    "explanation": "Let $A$ and $O$ be costs. $(5A+7O) - (3A+4O) \\implies 2A+3O = 8.00$. Then $9A+13O = (5A+7O) + 2(2A+3O) = 18.90 + 2(8.00) = $34.90$.",
+    "hint": "**Key Strategy:** Linear Combination (Elimination)\n• **Step 1 (First Move):** Let $A$ be the cost of one apple and $O$ be the cost of one orange, giving $3A + 4O = \\$10.90$ and $5A + 7O = \\$18.90$. Subtract the first bundle from the second bundle: $(5A + 7O) - (3A + 4O)$ and $\\$18.90 - \\$10.90 = \\$8.00$.\n• **Step 2 (The Guiding Bridge):** This gives you the cost of a smaller helper bundle: $2A + 3O = \\$8.00$. Notice that the target $9A + 13O$ can be built by adding multiples of $(2A + 3O)$ to $(5A + 7O)$: specifically, $9A + 13O = (5A + 7O) + 2(2A + 3O)$.\n• **Step 3 (How to Finish):** Multiply the helper bundle cost ($\\$8.00$) by $2$ and add it to $\\$18.90$ to get the total cost of $9$ apples and $13$ oranges."
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "E) None of the above"
     ],
     "answer": "A) 100°",
-    "explanation": "Since $d_1 \\parallel d_2$, $a+d = 180^\\circ \\implies b+c = 280^\\circ$. In the triangle, $e + (180^\\circ-b) + (180^\\circ-c) = 180^\\circ \\implies e = 100^\\circ$."
+    "explanation": "Since $d_1 \\parallel d_2$, $a+d = 180^\\circ \\implies b+c = 280^\\circ$. In the triangle, $e + (180^\\circ-b) + (180^\\circ-c) = 180^\\circ \\implies e = 100^\\circ$.",
+    "hint": "**Key Strategy:** Parallel Lines & Triangle Angle Sum\n• **Step 1 (First Move):** Since $d_1 \\parallel d_2$, angles $a$ and $d$ are co-interior (same-side interior) angles between parallel lines, which means $a + d = 180^\\circ$. Subtract this from the given total: $b + c = 460^\\circ - 180^\\circ = 280^\\circ$.\n• **Step 2 (The Guiding Bridge):** Look at the triangle containing angle $e$. Its other two interior angles form straight lines with $b$ and $c$, so they measure $(180^\\circ - b)$ and $(180^\\circ - c)$.\n• **Step 3 (How to Finish):** Set the sum of the three angles in the triangle equal to $180^\\circ$: $e + (180^\\circ - b) + (180^\\circ - c) = 180^\\circ$, substitute $b + c = 280^\\circ$, and solve for $e$."
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "E) None of the above"
     ],
     "answer": "A) 2070",
-    "explanation": "Differences are $5, 8, 14, 23, 35$ (second differences $3, 6, 9, 12, 15$). Next difference = $35 + 15 = 50$. Next term = $2020 + 50 = 2070$."
+    "explanation": "Differences are $5, 8, 14, 23, 35$ (second differences $3, 6, 9, 12, 15$). Next difference = $35 + 15 = 50$. Next term = $2020 + 50 = 2070$.",
+    "hint": "**Key Strategy:** Method of Finite Differences (Second Differences)\n• **Step 1 (First Move):** Find the first differences between consecutive terms: $1940 - 1935 = 5$, $1948 - 1940 = 8$, $1962 - 1948 = 14$, $1985 - 1962 = 23$, and $2020 - 1985 = 35$.\n• **Step 2 (The Guiding Bridge):** Look at the pattern in those first differences ($5, 8, 14, 23, 35$) by taking the second differences: $8 - 5 = 3$, $14 - 8 = 6$, $23 - 14 = 9$, and $35 - 23 = 12$. Notice they increase by $3$ each time, so the next second difference is $12 + 3 = 15$.\n• **Step 3 (How to Finish):** Add $15$ to the last first difference ($35$) to find the next jump, and then add that jump to $2020$."
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "E) None of the above"
     ],
     "answer": "D) 4",
-    "explanation": "$2^{2020} \\times 3^{2022} = (2 \\times 3)^{2020} \\times 3^2 = 6^{2020} \\times 9$. $6 \\times 9 = 54$, so last digit is 4."
+    "explanation": "$2^{2020} \\times 3^{2022} = (2 \\times 3)^{2020} \\times 3^2 = 6^{2020} \\times 9$. $6 \\times 9 = 54$, so last digit is 4.",
+    "hint": "**Key Strategy:** Exponent Grouping & Units Digit Patterns\n• **Step 1 (First Move):** Split $3^{2022}$ into $3^{2020} \\times 3^2$ so both bases share the exponent $2020$: $2^{2020} \\times 3^{2020} \\times 3^2$.\n• **Step 2 (The Guiding Bridge):** Combine the matching powers using $a^n \\times b^n = (a \\times b)^n$ to get $(2 \\times 3)^{2020} \\times 3^2 = 6^{2020} \\times 9$. Recall that any positive power of $6$ ($6^1 = 6$, $6^2 = 36$, $6^3 = 216, \\dots$) always ends in $6$.\n• **Step 3 (How to Finish):** Multiply the units digit of $6^{2020}$ (which is $6$) by $9$, and take the units digit of that product."
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "E) None of the above"
     ],
     "answer": "A) 30 : 13",
-    "explanation": "Set $AB = 5x$, $AD = 3y$. Area ABCD $= 15xy$. Area FEC $= 15xy - 5xy - 1.5xy - 2xy = 6.5xy$. Ratio $= 15 : 6.5 = 30 : 13$."
+    "explanation": "Set $AB = 5x$, $AD = 3y$. Area ABCD $= 15xy$. Area FEC $= 15xy - 5xy - 1.5xy - 2xy = 6.5xy$. Ratio $= 15 : 6.5 = 30 : 13$.",
+    "hint": "**Key Strategy:** Area Decomposition (Assigning Convenient Side Lengths)\n• **Step 1 (First Move):** Since $BE = \\frac{1}{4}AE$, side $AB$ is split in a $4:1$ ratio ($5$ equal parts), and since $DF = \\frac{2}{3}AD$, side $AD$ is split into $3$ equal parts. Set convenient lengths $AB = 5$ and $AD = 3$ (so $AE = 4, BE = 1, DF = 2, AF = 1$), giving rectangle $ABCD$ an area of $5 \\times 3 = 15$.\n• **Step 2 (The Guiding Bridge):** Calculate the areas of the three right triangles outside $\\triangle FEC$: $\\text{Area}(\\triangle AEF) = \\frac{1}{2} \\times 4 \\times 1 = 2$, $\\text{Area}(\\triangle BEC) = \\frac{1}{2} \\times 1 \\times 3 = 1.5$, and $\\text{Area}(\\triangle CDF) = \\frac{1}{2} \\times 5 \\times 2 = 5$.\n• **Step 3 (How to Finish):** Subtract the sum of those three triangles ($2 + 1.5 + 5$) from $15$ to find the area of $\\triangle FEC$, then write the ratio of $15$ to that area as two whole numbers in simplest form (multiply both terms by $2$ to clear the decimal)."
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "E) None of the above"
     ],
     "answer": "B) 2",
-    "explanation": "Divisible by 4 $\\implies Y = 2$ or $6$. If $Y=2$, sum divisible by 9 gives $X=7$. If $Y=6$, sum gives $X=3$. (2 values)."
+    "explanation": "Divisible by 4 $\\implies Y = 2$ or $6$. If $Y=2$, sum divisible by 9 gives $X=7$. If $Y=6$, sum gives $X=3$. (2 values).",
+    "hint": "**Key Strategy:** Divisibility Rules (Coprime Factors $4$ and $9$)\n• **Step 1 (First Move):** Since $36 = 4 \\times 9$ and $\\gcd(4, 9) = 1$, the number $2X475Y$ must be divisible by both $4$ and $9$. For divisibility by $4$, the last two digits $5Y$ must be a multiple of $4$, which allows only $Y = 2$ (since $52 = 4 \\times 13$) or $Y = 6$ (since $56 = 4 \\times 14$).\n• **Step 2 (The Guiding Bridge):** For divisibility by $9$, the digit sum $2 + X + 4 + 7 + 5 + Y = 18 + X + Y$ must be a multiple of $9$. Because $18$ is already divisible by $9$, $X + Y$ itself must be a multiple of $9$ (with $0 \\le X \\le 9$).\n• **Step 3 (How to Finish):** Check each of the two valid values of $Y$ ($2$ and $6$) to find all single-digit values of $X$ that make $X + Y$ a multiple of $9$, then count how many possible values of $X$ exist."
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "E) None of the above"
     ],
     "answer": "E) None of the above",
-    "explanation": "$7a + 8b = 86$ ($a$ packs of 4 roses). Solutions: $a=2 (8 \\text{ roses})$ or $a=10 (40 \\text{ roses})$. Neither is listed in A–D."
+    "explanation": "$7a + 8b = 86$ ($a$ packs of 4 roses). Solutions: $a=2 (8 \\text{ roses})$ or $a=10 (40 \\text{ roses})$. Neither is listed in A–D.",
+    "hint": "**Key Strategy:** Linear Diophantine Equation (Multiples & Modular Reasoning)\n• **Step 1 (First Move):** Let $a$ be the number of packs of $4$ roses and $b$ be the number of packs of $3$ lilies (where $a, b \\ge 0$ are integers). Set up the total cost equation: $7a + 8b = 86$.\n• **Step 2 (The Guiding Bridge):** Rewrite this as $7a = 86 - 8b$. Test whole-number values of $b$ from $0$ to $10$ to see when $86 - 8b$ is divisible by $7$: you will find exactly two solutions, $(a, b) = (2, 9)$ and $(a, b) = (10, 2)$.\n• **Step 3 (How to Finish):** Multiply each valid value of $a$ ($2$ and $10$) by $4$ (the number of roses per pack) to get the possible numbers of roses, and check whether either result appears in the given options."
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "E) None of the above"
     ],
     "answer": "E) None of the above",
-    "explanation": "Listing unordered partitions of 14 into 3 positive integers yields exactly 16 triples."
+    "explanation": "Listing unordered partitions of 14 into 3 positive integers yields exactly 16 triples.",
+    "hint": "**Key Strategy:** Systematic Casework (Unordered Integer Partitions)\n• **Step 1 (First Move):** Because order does not matter, require $1 \\le x \\le y \\le z$ so each triple is counted once. Since $3x \\le x + y + z = 14$, the smallest integer $x$ can only be $1, 2, 3,$ or $4$.\n• **Step 2 (The Guiding Bridge):** Count the valid pairs $(y, z)$ with $x \\le y \\le z$ and $y + z = 14 - x$ for each case:\n  • $x = 1 \\implies y + z = 13$ with $1 \\le y \\le 6$ ($6$ triples)\n  • $x = 2 \\implies y + z = 12$ with $2 \\le y \\le 6$ ($5$ triples)\n  • $x = 3 \\implies y + z = 11$ with $3 \\le y \\le 5$ ($3$ triples)\n  • $x = 4 \\implies y + z = 10$ with $4 \\le y \\le 5$ ($2$ triples)\n• **Step 3 (How to Finish):** Add the counts from all four cases ($6 + 5 + 3 + 2$) and match that total against the options."
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "E) None of the above"
     ],
     "answer": "D) 6",
-    "explanation": "Using binary power representation: $18\\text{g}, 9\\text{g}, 4\\text{g}, 2\\text{g}, 1\\text{g}, 1\\text{g}$ (6 weights)."
+    "explanation": "Using binary power representation: $18\\text{g}, 9\\text{g}, 4\\text{g}, 2\\text{g}, 1\\text{g}, 1\\text{g}$ (6 weights).",
+    "hint": "**Key Strategy:** Binary Decomposition (Powers of 2)\n• **Step 1 (First Move):** Because weights can only sit on one plate, each weight is either used or not used. A set of $k$ weights has $2^k - 1$ non-empty subsets, so it can produce at most $2^k - 1$ distinct positive masses.\n• **Step 2 (The Guiding Bridge):** We need $2^k - 1 \\ge 35$, which means $2^k \\ge 36$. Check the powers of $2$: $2^4 = 16$ and $2^5 = 32$, both of which are smaller than $36$.\n• **Step 3 (How to Finish):** Find the next integer $k$ for which $2^k \\ge 36$, and verify that $k$ weights (such as $1, 1, 2, 4, 9, 18$ or $1, 2, 4, 8, 16, 4$) sum to $35$ and can form every integer from $1$ to $35$."
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "E) None of the above"
     ],
     "answer": "B) 20",
-    "explanation": "Total pentagon-hexagon edges $= 12 \\times 5 = 60$. Hexagons $= 60 / 3 = 20$."
+    "explanation": "Total pentagon-hexagon edges $= 12 \\times 5 = 60$. Hexagons $= 60 / 3 = 20$.",
+    "hint": "**Key Strategy:** Double Counting (Edge Pairing)\n• **Step 1 (First Move):** Count the total number of edges shared between a pentagon and a hexagon from the pentagons' side: $12\\text{ pentagons} \\times 5\\text{ shared edges each} = 60\\text{ shared edges}$.\n• **Step 2 (The Guiding Bridge):** Count those same $60$ shared edges from the hexagons' side. If there are $H$ hexagons and each hexagon touches $3$ pentagons, then the hexagons account for $3 \\times H$ pentagon-hexagon edges.\n• **Step 3 (How to Finish):** Set $3 \\times H = 60$ and divide $60$ by $3$ to find the number of hexagonal faces."
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "E) None of the above"
     ],
     "answer": "A) 1982",
-    "explanation": "Deducing birth order forces Jane to be born in Paris in 1982."
+    "explanation": "Deducing birth order forces Jane to be born in Paris in 1982.",
+    "hint": "**Key Strategy:** Deductive Logic Elimination\n• **Step 1 (First Move):** List the given facts: Victor was born in $1983$ in Singapore, Philip was born in Moscow, and Alice was born in $1985$.\n• **Step 2 (The Guiding Bridge):** Use the clue that the person born in Paris is $1$ year older than the person born in Singapore (Victor, born in $1983$). Being $1$ year older means being born $1$ year earlier, so the Paris-born person was born in $1983 - 1$. Since Philip was born in Moscow, Victor in Singapore, and Alice in $1985$, Jane must be the person born in Paris.\n• **Step 3 (How to Finish):** Subtract $1$ from Victor's birth year ($1983$) to determine Jane's birth year."
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "E) None of the above"
     ],
     "answer": "A) 7",
-    "explanation": "Labeling grid vertices with cumulative path sums yields 7 ways to reach B."
+    "explanation": "Labeling grid vertices with cumulative path sums yields 7 ways to reach B.",
+    "hint": "**Key Strategy:** Dynamic Programming on a Grid (Path Addition)\n• **Step 1 (First Move):** Label the starting point $A$ with $1$. Follow the grid lines moving only right or up along the outer edges directly connected to $A$, labeling each reachable boundary vertex with $1$.\n• **Step 2 (The Guiding Bridge):** Work vertex by vertex toward $B$. At every intersection, add the path counts from the adjacent vertices directly below and directly to the left (only along existing grid lines): $\\text{Ways}(\\text{vertex}) = \\text{Ways}(\\text{below}) + \\text{Ways}(\\text{left})$.\n• **Step 3 (How to Finish):** Continue adding along the existing grid lines until you reach $B$; the sum at $B$ gives the total number of ways."
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "E) None of the above"
     ],
     "answer": "C) 39",
-    "explanation": "Worst case: draw all 25 red balls and all 13 yellow balls (38 balls). The 39th ball guarantees a 3rd color."
+    "explanation": "Worst case: draw all 25 red balls and all 13 yellow balls (38 balls). The 39th ball guarantees a 3rd color.",
+    "hint": "**Key Strategy:** Pigeonhole Principle (Worst-Case Scenario)\n• **Step 1 (First Move):** To guarantee $3$ different colors, imagine the worst-case scenario where you draw as many balls as possible while seeing only $2$ colors. Pick the two largest color groups: $25$ red balls and $13$ yellow balls.\n• **Step 2 (The Guiding Bridge):** Add those two largest counts together to find the maximum number of balls you can draw with at most $2$ colors: $25 + 13 = 38$.\n• **Step 3 (How to Finish):** Add $1$ more ball to that worst-case total ($38 + 1$) so the next draw must introduce a third color (brown or green)."
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "E) None of the above"
     ],
     "answer": "D) 240",
-    "explanation": "Summing cases based on thousands digit choices (thousands = 3: 24; thousands = 5,6,7: 180; thousands = 9: 36) gives 240."
+    "explanation": "Summing cases based on thousands digit choices (thousands = 3: 24; thousands = 5,6,7: 180; thousands = 9: 36) gives 240.",
+    "hint": "**Key Strategy:** Casework by Leading Digits (Counting Principle)\n• **Step 1 (First Move):** Break the range $3700$ to $9600$ into cases based on the thousands digit from $\\{3, 5, 6, 7, 9\\}$ (since $0$ cannot start a 4-digit number). For **Case 1 (thousands = $3$)**, the hundreds digit must be at least $7$ ($\\{7, 9\\}$ — $2$ choices), leaving $4 \\times 3$ choices for the last two digits: $1 \\times 2 \\times 4 \\times 3 = 24$.\n• **Step 2 (The Guiding Bridge):** Count the remaining two cases without repeating digits:\n  • **Case 2 (thousands $\\in \\{5, 6, 7\\}$):** $3$ choices for thousands, then $5 \\times 4 \\times 3 = 60$ ways for the remaining three digits, giving $3 \\times 60 = 180$.\n  • **Case 3 (thousands = $9$):** To stay below $9600$, the hundreds digit must be $< 6$ ($\\{0, 3, 5\\}$ — $3$ choices), leaving $4 \\times 3$ ways for the last two digits: $1 \\times 3 \\times 4 \\times 3 = 36$.\n• **Step 3 (How to Finish):** Add the counts from all three cases ($24 + 180 + 36$) to find the total number of valid 4-digit numbers."
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "E) 80"
     ],
     "answer": "A) 140",
-    "explanation": "Setting graph unit $x$: $14x - 20x = -6x = -120 \\implies x = 20$. Correct students $= 7x = 140$."
+    "explanation": "Setting graph unit $x$: $14x - 20x = -6x = -120 \\implies x = 20$. Correct students $= 7x = 140$.",
+    "hint": "**Key Strategy:** Ratio Scaling from Graph Data\n• **Step 1 (First Move):** Read the relative bar heights from the graph: let $1$ grid unit represent $x$ students, giving $7x$ students with correct answers, $20x$ students with wrong answers, and $0$ points per student for no response.\n• **Step 2 (The Guiding Bridge):** Multiply each group by its point value ($+2$ for correct, $-1$ for wrong) and set the sum equal to the total score: $2(7x) - 1(20x) = -120$, which simplifies to $14x - 20x = -6x = -120$.\n• **Step 3 (How to Finish):** Divide $-120$ by $-6$ to find the number of students per grid unit ($x$), then multiply $x$ by $7$ to get the number of students who answered correctly."
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "E) 20 km"
     ],
     "answer": "A) 30 km",
-    "explanation": "$D - 5 = \\frac{5}{6}D \\implies D = 30\\text{ km}$."
+    "explanation": "$D - 5 = \\frac{5}{6}D \\implies D = 30\\text{ km}$.",
+    "hint": "**Key Strategy:** Speed-Distance Proportionality\n• **Step 1 (First Move):** Traveling $20\\%$ faster means Andrea's speed is $1 + 0.20 = 1.2 = \\frac{6}{5}$ times Claire's speed. Flipping this ratio, Claire's speed is $\\frac{5}{6}$ of Andrea's speed.\n• **Step 2 (The Guiding Bridge):** Because they travel for the same time, their distances have the same ratio as their speeds. When Andrea finishes the total distance $D$, Claire has covered $\\frac{5}{6}D$, leaving a gap of $D - \\frac{5}{6}D = \\frac{1}{6}D$.\n• **Step 3 (How to Finish):** Set that remaining fraction $\\frac{1}{6}D$ equal to $5\\text{ km}$ and multiply $5\\text{ km}$ by $6$ to find the total distance $D$."
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "E) 25"
     ],
     "answer": "A) 75",
-    "explanation": "$\\frac{3993n}{2475} = \\frac{121n}{75}$. For this to be an integer, $n$ must be a multiple of 75. Smallest $n = 75$."
+    "explanation": "$\\frac{3993n}{2475} = \\frac{121n}{75}$. For this to be an integer, $n$ must be a multiple of 75. Smallest $n = 75$.",
+    "hint": "**Key Strategy:** Prime Factorization & Fraction Simplification\n• **Step 1 (First Move):** Factor both numbers into primes: $3993 = 3 \\times 1331 = 3 \\times 11^3$, and $2475 = 9 \\times 275 = 3^2 \\times 5^2 \\times 11$.\n• **Step 2 (The Guiding Bridge):** Write $\\frac{3993n}{2475} = \\frac{3 \\times 11^3 \\times n}{3^2 \\times 5^2 \\times 11}$ and cancel the common factors ($3$ and $11$) from top and bottom, leaving $\\frac{11^2 \\times n}{3 \\times 5^2}$.\n• **Step 3 (How to Finish):** Since $11^2$ shares no prime factors with $3 \\times 5^2$, the numerator factor $n$ must be a multiple of the remaining denominator $3 \\times 5^2$. Multiply $3 \\times 5^2$ to find the smallest positive integer $n$."
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "E) 132 cm²"
     ],
     "answer": "A) 154 cm²",
-    "explanation": "Shaded region area is $\\frac{1}{4}$ of total circle area: $\\frac{1}{4} \\times \\frac{22}{7} \\times 14^2 = 154\\text{ cm}^2$."
+    "explanation": "Shaded region area is $\\frac{1}{4}$ of total circle area: $\\frac{1}{4} \\times \\frac{22}{7} \\times 14^2 = 154\\text{ cm}^2$.",
+    "hint": "**Key Strategy:** Geometric Symmetry & Circle Area Formula\n• **Step 1 (First Move):** Divide the large circle's diameter by $2$ to get its radius $R = \\frac{28}{2} = 14\\text{ cm}$, then compute the area of the entire large circle using $\\pi = \\frac{22}{7}$: $A = \\frac{22}{7} \\times 14 \\times 14 = 616\\text{ cm}^2$.\n• **Step 2 (The Guiding Bridge):** By the symmetry of the $4$ identical inner circles passing through the center, the shaded region covers exactly $\\frac{1}{4}$ of the large circle's total area.\n• **Step 3 (How to Finish):** Divide the large circle's area ($616\\text{ cm}^2$) by $4$ to find the shaded area in $\\text{cm}^2$."
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       "E) 1020"
     ],
     "answer": "A) 1010",
-    "explanation": "$\\frac{m^2}{m} + m = 2020 \\implies 2m = 2020 \\implies m = 1010$."
+    "explanation": "$\\frac{m^2}{m} + m = 2020 \\implies 2m = 2020 \\implies m = 1010$.",
+    "hint": "**Key Strategy:** Direct Formula Substitution\n• **Step 1 (First Move):** Use the given rule $\\{n\\} = n^2$ with $n = m$ to substitute $\\{m\\} = m^2$ into the equation, giving $\\frac{m^2}{m} + m = 2020$.\n• **Step 2 (The Guiding Bridge):** Since $m$ is a positive integer ($m \\neq 0$), simplify $\\frac{m^2}{m}$ to $m$. The equation becomes $m + m = 2020$, or $2m = 2020$.\n• **Step 3 (How to Finish):** Divide $2020$ by $2$ to find $m$."
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
       "E) 20"
     ],
     "answer": "A) 18",
-    "explanation": "Divisors of 18 are 1, 2, 3, 6, 9, 18 (3 odd: 1, 3, 9; 3 even: 2, 6, 18). 18 is the smallest such integer."
+    "explanation": "Divisors of 18 are 1, 2, 3, 6, 9, 18 (3 odd: 1, 3, 9; 3 even: 2, 6, 18). 18 is the smallest such integer.",
+    "hint": "**Key Strategy:** Prime Factorization & Divisor Counting\n• **Step 1 (First Move):** Write the integer as $N = 2^a \\times M$, where $M$ is an odd integer and $a \\ge 1$ (since $N$ has even divisors). Every odd divisor of $N$ is a divisor of $M$, so $M$ must have exactly $3$ divisors.\n• **Step 2 (The Guiding Bridge):** An odd number $M$ has $3$ divisors only when $M = p^2$ for an odd prime $p$ (giving $2 + 1 = 3$ divisors). Choosing the smallest odd prime $p = 3$ gives $M = 3^2 = 9$. Meanwhile, every even divisor is $2^k \\times (\\text{divisor of } M)$ for $1 \\le k \\le a$, producing $3a$ even divisors. Setting $3a = 3$ forces $a = 1$.\n• **Step 3 (How to Finish):** Multiply $2^1$ by the smallest valid odd part $M = 9$ to get the smallest positive integer $N$."
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
       "E) 243"
     ],
     "answer": "A) 263",
-    "explanation": "Pattern: $a \\wedge b = [2(a+b)][3(b-a)]$. For $6 \\wedge 7$: $2(13) = 26$ and $3(1) = 3$, giving $263$."
+    "explanation": "Pattern: $a \\wedge b = [2(a+b)][3(b-a)]$. For $6 \\wedge 7$: $2(13) = 26$ and $3(1) = 3$, giving $263$.",
+    "hint": "**Key Strategy:** Pattern Recognition (Concatenating Two Formulas)\n• **Step 1 (First Move):** Split each result into a front number and a back number: $2412 \\to 24 \\mid 12$, $2812 \\to 28 \\mid 12$, $1618 \\to 16 \\mid 18$, and $103 \\to 10 \\mid 3$. Compare the front numbers ($24, 28, 16, 10$) with $a + b$ ($12, 14, 8, 5$): each front part equals $2(a + b)$.\n• **Step 2 (The Guiding Bridge):** Compare the back numbers ($12, 12, 18, 3$) with $b - a$ ($4, 4, 6, 1$): each back part equals $3(b - a)$. So $a \\wedge b$ concatenates $2(a + b)$ followed by $3(b - a)$.\n• **Step 3 (How to Finish):** For $6 \\wedge 7$, compute the front part $2(6 + 7)$ and the back part $3(7 - 6)$, then place those two numbers side by side in that order."
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
       "E) 60"
     ],
     "answer": "A) 72",
-    "explanation": "Total arrangements $= 5! = 120$. Adjacent Physics and Biology $= 2 \\times 4! = 48$. Valid arrangements $= 120 - 48 = 72$."
+    "explanation": "Total arrangements $= 5! = 120$. Adjacent Physics and Biology $= 2 \\times 4! = 48$. Valid arrangements $= 120 - 48 = 72$.",
+    "hint": "**Key Strategy:** Complementary Counting (Total Minus Forbidden)\n• **Step 1 (First Move):** Find the total number of ways to arrange all $5$ different books with no restrictions: $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$.\n• **Step 2 (The Guiding Bridge):** Count the unwanted arrangements where Physics and Biology are next to each other. Bundle Physics and Biology into $1$ combined block, leaving $4$ items to arrange in $4! = 24$ ways. Since Physics and Biology can swap inside their bundle in $2$ ways, there are $2 \\times 24 = 48$ unwanted arrangements.\n• **Step 3 (How to Finish):** Subtract the $48$ unwanted arrangements from the $120$ total arrangements to find how many keep Physics and Biology separated."
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
       "E) 40 hours"
     ],
     "answer": "A) 45 hours",
-    "explanation": "Combined rate per 9-hour day $= \\frac{21}{104}$ house. Total hours $= 9 / (21/104) = 44.57 \\approx 45$ hours."
+    "explanation": "Combined rate per 9-hour day $= \\frac{21}{104}$ house. Total hours $= 9 / (21/104) = 44.57 \\approx 45$ hours.",
+    "hint": "**Key Strategy:** Work Rate Addition (Combining Pairwise Rates)\n• **Step 1 (First Move):** Convert each pair's time into a daily work rate (fraction of the house built per $9$-hour day): Peter + Frank $= \\frac{1}{12}$, Frank + George $= \\frac{1}{6}$, and Peter + George $= \\frac{1}{6.5} = \\frac{2}{13}$.\n• **Step 2 (The Guiding Bridge):** Add all three pairwise daily rates: $\\frac{1}{12} + \\frac{1}{6} + \\frac{2}{13} = \\frac{1}{4} + \\frac{2}{13} = \\frac{21}{52}$. Because this adds every worker twice ($2(P + F + G)$), divide by $2$ to get their combined daily rate: $\\frac{21}{104}$ of the house per $9$-hour day.\n• **Step 3 (How to Finish):** Take the reciprocal $\\frac{104}{21}$ to find the number of days all three need working together, then multiply by $9$ hours per day (and round to the nearest whole hour to match the integer choices)."
   },
   {
     "id": 25,
@@ -322,6 +346,7 @@
       "E) 30"
     ],
     "answer": "A) 29",
-    "explanation": "Deducing values $S=5$, $A=9$, $M=6$, $O=4$: Sum $= 5 + 9 + 5 + 6 + 4 = 29$."
+    "explanation": "Deducing values $S=5$, $A=9$, $M=6$, $O=4$: Sum $= 5 + 9 + 5 + 6 + 4 = 29$.",
+    "hint": "**Key Strategy:** Cryptarithm Logic (Place-Value Carry Analysis)\n• **Step 1 (First Move):** Set up the vertical addition $SASMO + MEDAL$ and substitute the given digits $M = 6$ and $N = 7$. Examine the leftmost column ($S + M$ plus any carry from the thousands place) to constrain the value of $S$ without reusing $6$ or $7$.\n• **Step 2 (The Guiding Bridge):** Track carries across the columns from right to left and left to right, remembering each distinct letter represents a unique digit from $0$ to $9$: using $M = 6$ and $N = 7$ in the addition narrows down the remaining digits to $S = 5$, $A = 9$, and $O = 4$.\n• **Step 3 (How to Finish):** Plug $S = 5$, $A = 9$, $M = 6$, and $O = 4$ into $S + A + S + M + O$ and add the five terms together."
   }
 ]

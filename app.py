@@ -23,6 +23,14 @@ GOOGLE_SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxv5mU7px4_b
 # --- LOCAL TIMEZONE (Kuala Lumpur, UTC+8) ---
 LOCAL_TZ = timezone(timedelta(hours=8))
 
+# --- OFFICIAL COMPETITION DATES ---
+COMPETITION_SCHEDULE = {
+    "AMC8": "Jan 2027",
+    "SASMO6": "Apr 2027",
+    "SASMO7": "Apr 2027",
+    "Kangaroo": "Apr 2027"
+}
+
 # --- CUSTOM CSS FOR COMPACT & CLEAN LAYOUT ---
 st.markdown(
     """
@@ -77,10 +85,16 @@ st.markdown(
         margin-bottom: 8px !important;
     }
 
-    /* Set multiple choice options to 18px with matching weight */
+    /* Set multiple choice options to 18px with matching weight and comfortable line height */
+    div.stRadio label {
+        align-items: center !important;
+        margin-top: 4px !important;
+        margin-bottom: 6px !important;
+    }
     div.stRadio label p {
         font-size: 18px !important;
         font-weight: 400 !important;
+        line-height: 2.2 !important;
     }
     
     /* Increase math formulas size */
@@ -88,11 +102,19 @@ st.markdown(
         font-size: 1.3em !important;
     }
 
-    /* Display options A, B, C, D, E horizontally */
-    div[role="radiogroup"] {
+    /* Display options A, B, C, D, E horizontally with line wrapping and relaxed gap */
+    section.main div[role="radiogroup"] {
         display: flex;
         flex-direction: row;
-        gap: 25px;
+        flex-wrap: wrap;
+        gap: 16px 28px !important;
+    }
+
+    /* Keep sidebar radio buttons vertically stacked */
+    section[data-testid="stSidebar"] div[role="radiogroup"] {
+        display: flex;
+        flex-direction: column !important;
+        gap: 6px !important;
     }
     </style>
     """,
@@ -100,6 +122,23 @@ st.markdown(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# --- CACHED DATASET LOADER (AUTO-INVALIDATES ON FILE UPDATE) ---
+@st.cache_data
+def _load_dataset_json_cached(file_path, mtime):
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading {file_path}: {e}")
+    return []
+
+def load_dataset_json(file_path):
+    if os.path.exists(file_path):
+        mtime = os.path.getmtime(file_path)
+        return _load_dataset_json_cached(file_path, mtime)
+    return []
 
 # --- HELPER FUNCTION: RELIABLE ANCHOR SCROLL TO TOP ---
 def scroll_to_top():
@@ -122,8 +161,8 @@ def get_image_path(folder_name, q_id):
         return None
     folder_path = os.path.join(BASE_DIR, "images", folder_name)
     if os.path.exists(folder_path):
-        q_str = str(q_id)
-        q_padded = f"{int(q_id):02d}" if q_str.isdigit() else q_str
+        q_str = str(q_id).strip()
+        q_padded = f"{int(q_str):02d}" if q_str.isdigit() else q_str
         candidates = [f"q{q_str}", f"{q_str}", f"q{q_padded}", f"{q_padded}"]
         extensions = [".png", ".jpg", ".jpeg", ".webp"]
         for cand in candidates:
@@ -161,6 +200,7 @@ def get_api_session():
     return session
 
 # --- AUTHENTICATION: READS USERS LOCALLY FROM USERS.JSON ---
+@st.cache_data(ttl=10)
 def get_registered_emails():
     users_file = os.path.join(BASE_DIR, "users.json")
     if os.path.exists(users_file):
@@ -189,26 +229,30 @@ def log_result_to_sheets(test_type, score_str, user_email, duration_str="N/A"):
     if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
         return
     now_local = datetime.now(LOCAL_TZ)
+    # Prefix with single quote to prevent Google Sheets auto-converting "10/25" into a Date
+    safe_score_str = f"'{score_str}" if not score_str.startswith("'") else score_str
     payload = {
         "action": "log_score",
         "date": now_local.strftime("%Y-%m-%d %H:%M:%S"),
         "email": user_email,
         "type": test_type,
-        "results": score_str,
+        "results": safe_score_str,
         "duration": duration_str
     }
     session = get_api_session()
     try:
-        session.post(GOOGLE_SHEET_WEB_APP_URL, json=payload, timeout=30)
+        session.post(GOOGLE_SHEET_WEB_APP_URL, json=payload, timeout=20)
+        fetch_user_history.clear()
     except Exception as e:
         print("Error logging score:", e)
 
+@st.cache_data(ttl=60, show_spinner=False)
 def fetch_user_history(user_email):
     if not GOOGLE_SHEET_WEB_APP_URL or "DÁN_URL" in GOOGLE_SHEET_WEB_APP_URL:
         return []
     session = get_api_session()
     try:
-        response = session.get(f"{GOOGLE_SHEET_WEB_APP_URL}?type=history", timeout=30)
+        response = session.get(f"{GOOGLE_SHEET_WEB_APP_URL}?type=history", timeout=20)
         if response.status_code == 200:
             all_data = response.json()
             if isinstance(all_data, dict):
@@ -233,7 +277,7 @@ def fetch_user_history(user_email):
                             })
             return filtered
     except Exception as e:
-        st.error(f"⚠️ Cloud connection error: {e}")
+        print(f"⚠️ Cloud connection error: {e}")
     return []
 
 # --- SIDEBAR: TOP TIMER PLACEHOLDER ---
@@ -259,7 +303,7 @@ def render_mock_timer():
         
         if time_left == 0:
             st.session_state.submitted = True
-            st.rerun()
+            st.rerun(scope="app")
 
 # --- CONTINUOUS LIVE PRACTICE TIMER FRAGMENT (COUNT UP) ---
 @st.fragment(run_every="1s")
@@ -328,6 +372,17 @@ selected_competition = st.sidebar.selectbox(
     label_visibility="collapsed"
 )
 
+next_exam_date = COMPETITION_SCHEDULE.get(selected_competition, "2027")
+st.sidebar.markdown(
+    f"""
+    <div style='background-color: #fff9db; border: 1px solid #ffe066; padding: 7px 12px; border-radius: 8px; margin-top: 4px; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between;'>
+        <span style='font-size: 14px; color: #495057; font-weight: 600;'>📅 Next Exam:</span>
+        <span style='font-size: 15px; color: #d9480f; font-weight: 700; background-color: #ffffff; padding: 2px 8px; border-radius: 5px; border: 1px solid #ffd43b;'>{next_exam_date}</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.sidebar.markdown("---")
 
 # ==========================================
@@ -344,6 +399,9 @@ num_q_select = 10
 selected_file = None
 
 # RESET PRACTICE SESSION WHEN COMPETITION IS CHANGED
+if "practice_session_id" not in st.session_state:
+    st.session_state.practice_session_id = 1
+
 if "current_comp" not in st.session_state or st.session_state.current_comp != selected_competition:
     st.session_state.current_comp = selected_competition
     st.session_state.practice_questions = []
@@ -352,6 +410,7 @@ if "current_comp" not in st.session_state or st.session_state.current_comp != se
     st.session_state.logged_practice = False
     st.session_state.reshuffle_count = 0
     st.session_state.show_reshuffle_confirm = False
+    st.session_state.practice_session_id = st.session_state.get("practice_session_id", 0) + 1
 
 if app_mode == "🎲 Practice":
     st.sidebar.markdown("**Select number of questions:**")
@@ -375,6 +434,21 @@ elif app_mode == "📝 Mock Test":
 # CLEAR TIMER PLACEHOLDER WHEN NOT ACTIVE
 if app_mode == "📊 My History" or (app_mode == "🎲 Practice" and st.session_state.get("practice_submitted", False)) or (app_mode == "📝 Mock Test" and st.session_state.get("submitted", False)):
     sidebar_timer_placeholder.empty()
+
+# --- SIDEBAR: 2027 COMPETITION CALENDAR CARD ---
+st.sidebar.markdown(
+    """
+    <div style='background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 10px 12px; margin-top: 16px; margin-bottom: 8px;'>
+        <div style='font-size: 13px; font-weight: 700; color: #343a40; margin-bottom: 6px;'>📌 2027 Olympiad Schedule</div>
+        <div style='font-size: 13px; color: #495057; line-height: 1.6;'>
+            • <strong>AMC8:</strong> Jan 2027<br>
+            • <strong>SASMO:</strong> Apr 2027<br>
+            • <strong>Kangaroo:</strong> Apr 2027
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # --- SECURITY GATE: STOP APP IF NOT VALID ---
 if not valid_access:
@@ -411,7 +485,20 @@ st.markdown(
 # PRACTICE MODE
 # ==========================================
 if app_mode == "🎲 Practice":
-    st.title(f"🎲 Practice Session — {selected_competition}")
+    st.markdown(
+        f"""
+        <div style='display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 4px; margin-bottom: 16px;'>
+            <h1 style='font-size: 28px; font-weight: 700; margin: 0; padding: 0; line-height: 1.2; color: inherit;'>
+                🎲 Practice Session — {selected_competition}
+            </h1>
+            <div style='background-color: #e7f5ff; border: 1px solid #a5d8ff; padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; color: #1971c2; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;'>
+                <span>🗓️ Next Exam:</span>
+                <strong style='color: #0c8599; font-size: 15px;'>{next_exam_date}</strong>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
     comp_files = get_comp_files(selected_competition)
 
     if not comp_files:
@@ -434,7 +521,7 @@ if app_mode == "🎲 Practice":
 
         MAX_RESHUFFLES = 2
         remaining_reshuffles = MAX_RESHUFFLES - st.session_state.reshuffle_count
-        reshuffle_disabled = st.session_state.reshuffle_count >= MAX_RESHUFFLES
+        reshuffle_disabled = st.session_state.reshuffle_count >= MAX_RESHUFFLES or st.session_state.get("practice_submitted", False)
 
         if st.sidebar.button(
             f"🔀 Reshuffle Practice Set ({remaining_reshuffles}/{MAX_RESHUFFLES} left)",
@@ -450,6 +537,7 @@ if app_mode == "🎲 Practice":
             with col_conf_yes:
                 if st.button("✅ Yes, Reshuffle", type="primary", key="confirm_reshuffle_yes"):
                     st.session_state.reshuffle_count += 1
+                    st.session_state.practice_session_id = st.session_state.get("practice_session_id", 1) + 1
                     st.session_state.show_reshuffle_confirm = False
                     do_reshuffle = True
             with col_conf_no:
@@ -457,74 +545,123 @@ if app_mode == "🎲 Practice":
                     st.session_state.show_reshuffle_confirm = False
                     st.rerun()
 
-        if do_reshuffle or not st.session_state.practice_questions or len(st.session_state.practice_questions) != num_q_select:
-            pooled_questions = []
-            for file in comp_files:
-                file_path = os.path.join(BASE_DIR, file)
-                try:
-                    with open(file_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-                        for item in data:
-                            item["source_file"] = file
-                            pooled_questions.append(item)
-                except Exception:
-                    pass
+        pooled_questions = []
+        for file in comp_files:
+            file_path = os.path.join(BASE_DIR, file)
+            data = load_dataset_json(file_path)
+            for item in data:
+                item_copy = dict(item)
+                item_copy["source_file"] = file
+                pooled_questions.append(item_copy)
 
-            if pooled_questions:
-                sample_size = min(num_q_select, len(pooled_questions))
-                st.session_state.practice_questions = random.sample(pooled_questions, sample_size)
-                st.session_state.practice_submitted = False
-                st.session_state.practice_answers = {}
-                st.session_state.logged_practice = False
-                st.session_state.practice_start_time = time.time()
-                if do_reshuffle:
-                    st.rerun()
+        target_sample_size = min(num_q_select, len(pooled_questions)) if pooled_questions else 0
+        needs_sampling = (
+            do_reshuffle 
+            or not st.session_state.practice_questions 
+            or (not st.session_state.practice_submitted and len(st.session_state.practice_questions) != target_sample_size)
+        )
+
+        if needs_sampling and pooled_questions:
+            st.session_state.practice_questions = random.sample(pooled_questions, target_sample_size)
+            st.session_state.practice_submitted = False
+            st.session_state.practice_answers = {}
+            st.session_state.logged_practice = False
+            st.session_state.practice_start_time = time.time()
+            if do_reshuffle:
+                st.rerun()
 
         if st.session_state.practice_questions:
+            # Backfill hints for any questions already stored in session_state from an earlier run
+            for q in st.session_state.practice_questions:
+                if not q.get("hint"):
+                    src = q.get("source_file")
+                    if src:
+                        src_data = load_dataset_json(os.path.join(BASE_DIR, src))
+                        for item in src_data:
+                            if str(item.get("id")) == str(q.get("id")) and item.get("hint"):
+                                q["hint"] = item["hint"]
+                                break
+
             questions = st.session_state.practice_questions
+            sess_id = st.session_state.get("practice_session_id", 1)
+
+            if "practice_hints_used" not in st.session_state:
+                st.session_state.practice_hints_used = {}
+
+            def sync_practice_answers():
+                for idx, q in enumerate(questions):
+                    wk = f"practice_{selected_competition}_{idx}_{q['id']}_{sess_id}"
+                    if wk in st.session_state and st.session_state[wk] is not None:
+                        st.session_state.practice_answers[idx] = st.session_state[wk]
+                    hk = f"hint_practice_{selected_competition}_{idx}_{q['id']}_{sess_id}"
+                    if hk in st.session_state:
+                        st.session_state.practice_hints_used[idx] = bool(st.session_state[hk])
 
             if not st.session_state.practice_submitted:
                 col_sub1, _ = st.columns([2, 6])
                 with col_sub1:
                     if st.button("📤 Submit Practice Set (Top)", type="primary", use_container_width=True, key="top_submit_practice"):
+                        sync_practice_answers()
                         st.session_state.practice_submitted = True
                         st.rerun()
                 st.markdown("---")
 
             if st.session_state.practice_submitted:
                 scroll_to_top()
+                sync_practice_answers()
                 
-                score = sum(
-                    1 for idx, q in enumerate(questions)
-                    if st.session_state.practice_answers.get(idx) == q["answer"]
-                )
-                total = len(questions)
+                score = 0.0
+                full_pts_count = 0
+                hint_pts_count = 0
+                wrong_count = 0
 
+                for idx, q in enumerate(questions):
+                    user_ans = st.session_state.practice_answers.get(idx)
+                    correct_ans = q["answer"]
+                    used_hint = st.session_state.practice_hints_used.get(idx, False)
+
+                    if user_ans == correct_ans:
+                        if used_hint:
+                            score += 0.7
+                            hint_pts_count += 1
+                        else:
+                            score += 1.0
+                            full_pts_count += 1
+                    else:
+                        wrong_count += 1
+
+                total = len(questions)
                 pct = (score / total) * 100 if total > 0 else 0.0
                 elapsed_secs = int(time.time() - st.session_state.practice_start_time)
                 m, s = divmod(elapsed_secs, 60)
                 time_str = f"{m} min {s} secs" if m > 0 else f"{s} secs"
+                score_display = f"{score:.1f}" if score % 1 != 0 else f"{int(score)}"
 
                 if not st.session_state.logged_practice:
-                    log_result_to_sheets(f"Practice Mode - {selected_competition}", f"{score}/{total}", user_email, time_str)
+                    log_result_to_sheets(f"Practice Mode - {selected_competition}", f"{score_display}/{total}", user_email, time_str)
                     st.session_state.logged_practice = True
 
                 st.markdown(
                     f"""
-                    <div style='background-color: #d4edda; color: #155724; padding: 12px 16px; border-radius: 8px; border-left: 5px solid #28a745; margin-bottom: 12px; overflow: hidden;'>
+                    <div style='background-color: #d4edda; color: #155724; padding: 14px 18px; border-radius: 8px; border-left: 5px solid #28a745; margin-bottom: 12px; overflow: hidden;'>
                         <h3 style='margin: 0; color: #155724; font-size: 20px; font-weight: 700;'>🎯 Practice Set Submitted Successfully!</h3>
-                        <p style='margin: 4px 0 0 0; font-size: 18px; font-weight: 600;'>
-                            Your Score: <span style='color: #0b2e13; font-size: 19px;'>{score}/{total} ({pct:.1f}%)</span> correct answers in <strong>{time_str}</strong>.
+                        <p style='margin: 6px 0 2px 0; font-size: 18px; font-weight: 600;'>
+                            Your Score: <span style='color: #0b2e13; font-size: 20px;'>{score_display}/{total} ({pct:.1f}%)</span> in <strong>{time_str}</strong>.
                         </p>
+                        <div style='font-size: 14px; color: #155724; margin-top: 4px;'>
+                            🌟 <strong>Breakdown:</strong> {full_pts_count} solved independently (1.0 pt) • {hint_pts_count} solved with hint (0.7 pts, -30%) • {wrong_count} incorrect (0 pts)
+                        </div>
                     </div>
                     """,
                     unsafe_allow_html=True
                 )
 
                 if st.button("🔄 Start New Practice Session"):
+                    st.session_state.practice_session_id = st.session_state.get("practice_session_id", 1) + 1
                     st.session_state.practice_questions = []
                     st.session_state.practice_submitted = False
                     st.session_state.practice_answers = {}
+                    st.session_state.practice_hints_used = {}
                     st.session_state.logged_practice = False
                     st.session_state.practice_start_time = time.time()
                     st.session_state.reshuffle_count = 0
@@ -540,17 +677,22 @@ if app_mode == "🎲 Practice":
                     source_file = q.get("source_file", "")
                     folder_name = source_file.replace(".json", "") if source_file else ""
                     img_w = q.get("image_width", 300)
+                    used_hint = st.session_state.practice_hints_used.get(idx, False)
 
                     if user_ans == correct_ans:
-                        st.markdown(f"✅ **Question {idx + 1}: Correct** (Your choice: {user_ans_str})")
+                        if used_hint:
+                            st.markdown(f"✅ **Question {idx + 1}: Correct with Hint** (Score: **0.7 / 1.0** pts, -30% deduction) — Your choice: {user_ans_str}")
+                        else:
+                            st.markdown(f"✅ **Question {idx + 1}: Correct** (Score: **1.0 / 1.0** pts) — Your choice: {user_ans_str}")
                     else:
-                        st.markdown(f"❌ **Question {idx + 1}: Incorrect** (Your choice: {user_ans_str} | Correct answer: **{correct_ans}**)")
+                        hint_note = " (Hint was viewed)" if used_hint else ""
+                        st.markdown(f"❌ **Question {idx + 1}: Incorrect** (Score: **0.0 / 1.0** pts{hint_note}) — Your choice: {user_ans_str} | Correct answer: **{correct_ans}**")
 
                     with st.expander(f"View Solution for Question {idx + 1}"):
                         img_path = get_image_path(folder_name, q_id)
                         if img_path:
                             st.image(img_path, width=img_w)
-                        st.write(q["explanation"])
+                        st.markdown(q["explanation"], unsafe_allow_html=True)
                     st.markdown("---")
 
             else:
@@ -569,10 +711,39 @@ if app_mode == "🎲 Practice":
                     if img_path:
                         st.image(img_path, width=img_w)
 
+                    # --- HINT OPTION (-30% score penalty if correct) ---
+                    hint_key = f"hint_practice_{selected_competition}_{idx}_{q_id}_{sess_id}"
+                    hint_unlocked = st.session_state.get(hint_key, False)
+                    hint_text = q.get("hint")
+
+                    if not hint_unlocked:
+                        if st.button("💡 Show Hint (-30% points if correct)", key=f"btn_{hint_key}"):
+                            st.session_state[hint_key] = True
+                            st.session_state.practice_hints_used[idx] = True
+                            st.rerun()
+                    else:
+                        st.markdown(
+                            """
+                            <div style='background-color: #fff9db; border: 1px solid #ffd43b; border-left: 5px solid #fcc419; padding: 10px 14px; border-radius: 6px; margin-top: 6px; margin-bottom: 6px;'>
+                                <div style='font-size: 15px; font-weight: 700; color: #7a5800;'>💡 Step-by-Step Guidance:</div>
+                            </div>
+                            """,
+                            unsafe_allow_html=True
+                        )
+                        st.markdown(hint_text if hint_text else "Break down the problem step-by-step and identify what information is given.")
+                        st.markdown(
+                            """
+                            <div style='background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 4px; font-size: 12px; font-weight: 600; display: inline-block; margin-bottom: 12px;'>
+                                ⚠️ Hint viewed: A correct answer will earn 0.70 pts (30% deduction).
+                            </div>
+                            """,
+                            unsafe_allow_html=True
+                        )
+
                     ans = st.radio(
                         f"Choose answer for Q{idx+1}:", 
                         q["options"], 
-                        key=f"practice_{selected_competition}_{idx}_{q_id}", 
+                        key=f"practice_{selected_competition}_{idx}_{q_id}_{sess_id}", 
                         index=None,
                         label_visibility="collapsed"
                     )
@@ -582,6 +753,7 @@ if app_mode == "🎲 Practice":
                 col_bot1, _ = st.columns([2, 6])
                 with col_bot1:
                     if st.button("📤 Submit Practice Set (Bottom)", type="primary", use_container_width=True, key="bot_submit_practice"):
+                        sync_practice_answers()
                         st.session_state.practice_submitted = True
                         st.rerun()
                 st.markdown("---")
@@ -590,11 +762,26 @@ if app_mode == "🎲 Practice":
 # MOCK TEST MODE
 # ==========================================
 elif app_mode == "📝 Mock Test":
-    st.title(f"✍️ Mock Test: {selected_competition}")
+    st.markdown(
+        f"""
+        <div style='display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 4px; margin-bottom: 16px;'>
+            <h1 style='font-size: 28px; font-weight: 700; margin: 0; padding: 0; line-height: 1.2; color: inherit;'>
+                ✍️ Mock Test: {selected_competition}
+            </h1>
+            <div style='background-color: #e7f5ff; border: 1px solid #a5d8ff; padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; color: #1971c2; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;'>
+                <span>🗓️ Next Exam:</span>
+                <strong style='color: #0c8599; font-size: 15px;'>{next_exam_date}</strong>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     if not selected_file:
         st.warning(f"No test papers available for **{selected_competition}**.")
     else:
+        if "mock_attempt_id" not in st.session_state:
+            st.session_state.mock_attempt_id = 1
         if "current_test_file" not in st.session_state:
             st.session_state.current_test_file = None
         if "start_time" not in st.session_state:
@@ -612,18 +799,27 @@ elif app_mode == "📝 Mock Test":
             st.session_state.submitted = False
             st.session_state.user_answers = {}
             st.session_state.logged_mock = False
+            st.session_state.mock_attempt_id = st.session_state.get("mock_attempt_id", 0) + 1
 
         file_path = os.path.join(BASE_DIR, selected_file)
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                questions = json.load(f)
-        except Exception as e:
-            st.error(f"Error loading test file: {e}")
-            questions = []
+        questions = load_dataset_json(file_path)
 
         year_match = re.search(r'\d{4}', selected_file)
         exam_year = year_match.group(0) if year_match else ""
         folder_name = selected_file.replace(".json", "")
+        att_id = st.session_state.get("mock_attempt_id", 1)
+
+        if "user_hints_used" not in st.session_state:
+            st.session_state.user_hints_used = {}
+
+        def sync_mock_answers():
+            for q in questions:
+                wk = f"q_{selected_file}_{q['id']}_{att_id}"
+                if wk in st.session_state and st.session_state[wk] is not None:
+                    st.session_state.user_answers[q['id']] = st.session_state[wk]
+                hk = f"hint_mock_{selected_file}_{q['id']}_{att_id}"
+                if hk in st.session_state:
+                    st.session_state.user_hints_used[q['id']] = bool(st.session_state[hk])
 
         if questions:
             st.markdown("---")
@@ -632,6 +828,7 @@ elif app_mode == "📝 Mock Test":
             with col_submit:
                 if not st.session_state.submitted:
                     if st.button("🔴 Submit Test (Top)", type="primary", use_container_width=True, key="top_submit_mock"):
+                        sync_mock_answers()
                         st.session_state.submitted = True
                         st.rerun()
             
@@ -640,35 +837,58 @@ elif app_mode == "📝 Mock Test":
                     st.session_state.start_time = time.time()
                     st.session_state.submitted = False
                     st.session_state.user_answers = {}
+                    st.session_state.user_hints_used = {}
                     st.session_state.logged_mock = False
+                    st.session_state.mock_attempt_id = st.session_state.get("mock_attempt_id", 0) + 1
                     st.rerun()
             st.markdown("---")
 
             if st.session_state.submitted:
                 scroll_to_top()
+                sync_mock_answers()
 
-                score = sum(
-                    1 for q in questions
-                    if st.session_state.user_answers.get(q['id']) == q["answer"]
-                )
+                score = 0.0
+                full_pts_count = 0
+                hint_pts_count = 0
+                wrong_count = 0
+
+                for q in questions:
+                    q_id = q['id']
+                    user_ans = st.session_state.user_answers.get(q_id)
+                    correct_ans = q["answer"]
+                    used_hint = st.session_state.user_hints_used.get(q_id, False)
+
+                    if user_ans == correct_ans:
+                        if used_hint:
+                            score += 0.7
+                            hint_pts_count += 1
+                        else:
+                            score += 1.0
+                            full_pts_count += 1
+                    else:
+                        wrong_count += 1
+
                 total = len(questions)
-
                 pct = (score / total) * 100 if total > 0 else 0.0
                 elapsed_secs = int(time.time() - st.session_state.start_time)
                 m, s = divmod(elapsed_secs, 60)
                 time_str = f"{m} min {s} secs" if m > 0 else f"{s} secs"
+                score_display = f"{score:.1f}" if score % 1 != 0 else f"{int(score)}"
 
                 if not st.session_state.logged_mock:
-                    log_result_to_sheets(f"Mock Test - {selected_competition} {exam_year}", f"{score}/{total}", user_email, time_str)
+                    log_result_to_sheets(f"Mock Test - {selected_competition} {exam_year}", f"{score_display}/{total}", user_email, time_str)
                     st.session_state.logged_mock = True
 
                 st.markdown(
                     f"""
-                    <div style='background-color: #d4edda; color: #155724; padding: 12px 16px; border-radius: 8px; border-left: 5px solid #28a745; margin-bottom: 12px; overflow: hidden;'>
+                    <div style='background-color: #d4edda; color: #155724; padding: 14px 18px; border-radius: 8px; border-left: 5px solid #28a745; margin-bottom: 12px; overflow: hidden;'>
                         <h3 style='margin: 0; color: #155724; font-size: 20px; font-weight: 700;'>🎉 Test Submitted Successfully!</h3>
-                        <p style='margin: 4px 0 0 0; font-size: 18px; font-weight: 600;'>
-                            Your Score: <span style='color: #0b2e13; font-size: 19px;'>{score}/{total} ({pct:.1f}%)</span> correct answers in <strong>{time_str}</strong>.
+                        <p style='margin: 6px 0 2px 0; font-size: 18px; font-weight: 600;'>
+                            Your Score: <span style='color: #0b2e13; font-size: 20px;'>{score_display}/{total} ({pct:.1f}%)</span> in <strong>{time_str}</strong>.
                         </p>
+                        <div style='font-size: 14px; color: #155724; margin-top: 4px;'>
+                            🌟 <strong>Breakdown:</strong> {full_pts_count} solved independently (1.0 pt) • {hint_pts_count} solved with hint (0.7 pts, -30%) • {wrong_count} incorrect (0 pts)
+                        </div>
                     </div>
                     """,
                     unsafe_allow_html=True
@@ -681,17 +901,22 @@ elif app_mode == "📝 Mock Test":
                     user_ans_str = user_ans if user_ans is not None else "Not answered"
                     correct_ans = q["answer"]
                     img_w = q.get("image_width", 300)
+                    used_hint = st.session_state.user_hints_used.get(q_id, False)
                     
                     if user_ans == correct_ans:
-                        st.markdown(f"✅ **Question {q_id}: Correct** (Your choice: {user_ans_str})")
+                        if used_hint:
+                            st.markdown(f"✅ **Question {q_id}: Correct with Hint** (Score: **0.7 / 1.0** pts, -30% deduction) — Your choice: {user_ans_str}")
+                        else:
+                            st.markdown(f"✅ **Question {q_id}: Correct** (Score: **1.0 / 1.0** pts) — Your choice: {user_ans_str}")
                     else:
-                        st.markdown(f"❌ **Question {q_id}: Incorrect** (Your choice: {user_ans_str} | Correct answer: **{correct_ans}**)")
+                        hint_note = " (Hint was viewed)" if used_hint else ""
+                        st.markdown(f"❌ **Question {q_id}: Incorrect** (Score: **0.0 / 1.0** pts{hint_note}) — Your choice: {user_ans_str} | Correct answer: **{correct_ans}**")
                     
                     with st.expander(f"View Solution for Question {q_id}"):
                         img_path = get_image_path(folder_name, q_id)
                         if img_path:
                             st.image(img_path, width=img_w)
-                        st.write(q["explanation"])
+                        st.markdown(q["explanation"], unsafe_allow_html=True)
                     st.markdown("---")
 
             else:
@@ -707,11 +932,40 @@ elif app_mode == "📝 Mock Test":
                     img_path = get_image_path(folder_name, q_id)
                     if img_path:
                         st.image(img_path, width=img_w)
+
+                    # --- HINT OPTION (-30% score penalty if correct) ---
+                    hint_key = f"hint_mock_{selected_file}_{q_id}_{att_id}"
+                    hint_unlocked = st.session_state.get(hint_key, False)
+                    hint_text = q.get("hint")
+
+                    if not hint_unlocked:
+                        if st.button("💡 Show Hint (-30% points if correct)", key=f"btn_{hint_key}"):
+                            st.session_state[hint_key] = True
+                            st.session_state.user_hints_used[q_id] = True
+                            st.rerun()
+                    else:
+                        st.markdown(
+                            """
+                            <div style='background-color: #fff9db; border: 1px solid #ffd43b; border-left: 5px solid #fcc419; padding: 10px 14px; border-radius: 6px; margin-top: 6px; margin-bottom: 6px;'>
+                                <div style='font-size: 15px; font-weight: 700; color: #7a5800;'>💡 Step-by-Step Guidance:</div>
+                            </div>
+                            """,
+                            unsafe_allow_html=True
+                        )
+                        st.markdown(hint_text if hint_text else "Break down the problem step-by-step and identify what information is given.")
+                        st.markdown(
+                            """
+                            <div style='background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 4px; font-size: 12px; font-weight: 600; display: inline-block; margin-bottom: 12px;'>
+                                ⚠️ Hint viewed: A correct answer will earn 0.70 pts (30% deduction).
+                            </div>
+                            """,
+                            unsafe_allow_html=True
+                        )
                     
                     ans = st.radio(
                         f"Choose your answer for Question {q_id}:", 
                         q["options"], 
-                        key=f"q_{selected_file}_{q_id}", 
+                        key=f"q_{selected_file}_{q_id}_{att_id}", 
                         index=None,
                         label_visibility="collapsed"
                     )
@@ -721,6 +975,7 @@ elif app_mode == "📝 Mock Test":
                 col_bspace, col_bsubmit, col_bspace2 = st.columns([4, 2, 4])
                 with col_bsubmit:
                     if st.button("🔴 Submit Test (Bottom)", type="primary", use_container_width=True, key="bot_submit_mock"):
+                        sync_mock_answers()
                         st.session_state.submitted = True
                         st.rerun()
                 st.markdown("---")
@@ -729,7 +984,14 @@ elif app_mode == "📝 Mock Test":
 # 3. MY HISTORY TAB
 # ==========================================
 elif app_mode == "📊 My History":
-    st.title("📊 Your Performance History")
+    col_htitle, col_hrefresh = st.columns([4, 1])
+    with col_htitle:
+        st.title("📊 Your Performance History")
+    with col_hrefresh:
+        if st.button("🔄 Refresh Data", use_container_width=True):
+            fetch_user_history.clear()
+            st.rerun()
+
     st.write(f"Showing practice and test history for email: **{user_email}**")
     
     with st.spinner("Fetching your history from Google Sheets..."):
@@ -742,7 +1004,7 @@ elif app_mode == "📊 My History":
 
         for h in history:
             raw_date = str(h.get("date") or h.get("Date") or h.get("timestamp") or "").strip()
-            raw_score = str(h.get("results") or h.get("Results") or h.get("score") or "").strip()
+            raw_score = str(h.get("results") or h.get("Results") or h.get("score") or "").strip().lstrip("'")
             raw_type = str(h.get("type") or h.get("Type") or "").strip()
             raw_duration = str(h.get("duration") or h.get("Duration") or h.get("Attempt duration") or "N/A").strip()
             if not raw_duration:
@@ -761,18 +1023,19 @@ elif app_mode == "📊 My History":
             formatted_date = raw_date
             if raw_date:
                 try:
-                    clean_str = raw_date.split(".")[0].replace("Z", "")
-                    if "T" in clean_str:
+                    clean_str = raw_date.split(".")[0]
+                    if "Z" in raw_date or ("T" in raw_date and raw_date.endswith("Z")):
+                        dt = datetime.fromisoformat(clean_str.replace("Z", "")).replace(tzinfo=timezone.utc).astimezone(LOCAL_TZ)
+                    elif "T" in clean_str:
                         dt = datetime.fromisoformat(clean_str)
+                        if dt.tzinfo is not None:
+                            dt = dt.astimezone(LOCAL_TZ)
                     else:
                         dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S")
-                    
-                    if dt.tzinfo is None:
-                        dt = dt.replace(tzinfo=timezone.utc).astimezone(LOCAL_TZ)
-                    else:
-                        dt = dt.astimezone(LOCAL_TZ)
                         
                     formatted_date = dt.strftime("%d-%m-%y %H:%M")
+                except Exception:
+                    formatted_date = raw_date
                 except Exception:
                     formatted_date = raw_date
 

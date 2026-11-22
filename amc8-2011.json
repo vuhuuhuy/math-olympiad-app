@@ -10,7 +10,8 @@
       "(E) \\$3.50"
     ],
     "answer": "(E) \\$3.50",
-    "explanation": "The cost of the apples was $3 \\times \\$0.50 = \\$1.50$. Her change was $\\$5.00 - \\$1.50 = \\$3.50$."
+    "explanation": "The cost of the apples was $3 \\times \\$0.50 = \\$1.50$. Her change was $\\$5.00 - \\$1.50 = \\$3.50$.",
+    "hint": "**Key Strategy:** Unit Rate & Subtraction\n• **Step 1 (First Move):** Convert the cost of one apple into dollars ($50\\text{ cents} = \\$0.50$) and multiply by the number of apples to find the total cost: $3 \\times \\$0.50 = \\$1.50$.\n• **Step 2 (The Guiding Bridge):** Understand that change is the money left over after paying, which means subtracting the total cost of the apples from the $\\$5.00$ bill.\n• **Step 3 (How to Finish):** Subtract $\\$1.50$ from $\\$5.00$ to find how much change Margie received."
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "(E) Makenna's garden is larger by 100 square feet."
     ],
     "answer": "(E) Makenna's garden is larger by 100 square feet.",
-    "explanation": "Karl's garden is $20 \\times 45 = 900$ square feet. Makenna's garden is $25 \\times 40 = 1000$ square feet. Makenna's garden is larger by $1000 - 900 = 100$ square feet."
+    "explanation": "Karl's garden is $20 \\times 45 = 900$ square feet. Makenna's garden is $25 \\times 40 = 1000$ square feet. Makenna's garden is larger by $1000 - 900 = 100$ square feet.",
+    "hint": "**Key Strategy:** Area Comparison\n• **Step 1 (First Move):** Calculate the area of Karl's rectangular garden using $\\text{Area} = \\text{length} \\times \\text{width}$: $20 \\times 45 = 900\\text{ square feet}$.\n• **Step 2 (The Guiding Bridge):** Set up the same area formula for Makenna's garden using her dimensions: $25 \\times 40$.\n• **Step 3 (How to Finish):** Compute Makenna's area, compare it with Karl's $900\\text{ square feet}$ to see whose garden is larger, and subtract the smaller area from the larger area to find the difference."
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "(E) 36:17"
     ],
     "answer": "(D) 32:17",
-    "explanation": "There are 32 black tiles and 17 white tiles in the extended pattern. So the ratio of black tiles to white tiles is 32:17."
+    "explanation": "There are 32 black tiles and 17 white tiles in the extended pattern. So the ratio of black tiles to white tiles is 32:17.",
+    "hint": "**Key Strategy:** Square Dimensions & Border Counting\n• **Step 1 (First Move):** Find the total number of tiles in the original square: $8 + 17 = 25\\text{ tiles}$, which means the original square has side length $5$ ($5 \\times 5$).\n• **Step 2 (The Guiding Bridge):** Attaching a $1$-tile border all the way around increases both the width and height by $2$ tiles (one on each end), creating a $7 \\times 7$ square with $7 \\times 7 = 49\\text{ total tiles}$. Since only black tiles were added, the number of white tiles stays $17$.\n• **Step 3 (How to Finish):** Subtract the $17$ white tiles from the $49$ total tiles to get the new number of black tiles, then write the ratio of black tiles to white tiles."
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "(E) mode < median < mean"
     ],
     "answer": "(C) mean < median < mode",
-    "explanation": "The ordered list is 0, 0, 1, 1, 2, 2, 3, 3, 3. The mean is $\\frac{15}{9} = \\frac{5}{3}$, the median is 2, and the mode is 3. Because $\\frac{5}{3} < 2 < 3$, the correct order is $\\text{mean} < \\text{median} < \\text{mode}$."
+    "explanation": "The ordered list is 0, 0, 1, 1, 2, 2, 3, 3, 3. The mean is $\\frac{15}{9} = \\frac{5}{3}$, the median is 2, and the mode is 3. Because $\\frac{5}{3} < 2 < 3$, the correct order is $\\text{mean} < \\text{median} < \\text{mode}$.",
+    "hint": "**Key Strategy:** Data Ordering & Measures of Center\n• **Step 1 (First Move):** Arrange the $9$ numbers in order from least to greatest: $0, 0, 1, 1, 2, 2, 3, 3, 3$.\n• **Step 2 (The Guiding Bridge):** Find each measure: the **mean** is the sum divided by $9$, which is $\\frac{0+0+1+1+2+2+3+3+3}{9} = \\frac{15}{9}$; the **median** is the exact middle value (the 5th number in your ordered list); and the **mode** is the value that appears most frequently.\n• **Step 3 (How to Finish):** Simplify $\\frac{15}{9}$, identify the median and mode from the sorted list, and order the three terms ($\\text{mean}$, $\\text{median}$, $\\text{mode}$) from least to greatest using $<$ signs."
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "(E) January 2 at 6:01PM"
     ],
     "answer": "(D) January 2 at 9:31AM",
-    "explanation": "Convert 2011 minutes to 33 hours and 31 minutes. January 1 uses 24 hours. January 2 gets the remainder of 9 hours and 31 minutes. The time at the end of 2011 minutes was 9:31 AM on January 2."
+    "explanation": "Convert 2011 minutes to 33 hours and 31 minutes. January 1 uses 24 hours. January 2 gets the remainder of 9 hours and 31 minutes. The time at the end of 2011 minutes was 9:31 AM on January 2.",
+    "hint": "**Key Strategy:** Division with Remainder (Unit Conversion)\n• **Step 1 (First Move):** Convert $2011\\text{ minutes}$ into hours and leftover minutes by dividing by $60$: $2011 = 60 \\times 33 + 31$, which equals $33\\text{ hours}$ and $31\\text{ minutes}$.\n• **Step 2 (The Guiding Bridge):** Since $1\\text{ full day} = 24\\text{ hours}$, the first $24\\text{ hours}$ after the start of January 1 (12:00 AM) bring you to the start of January 2 (12:00 AM). Subtract $24$ from $33$ to find how many hours remain on January 2.\n• **Step 3 (How to Finish):** Add the remaining hours ($33 - 24$) and the $31\\text{ minutes}$ to 12:00 AM on January 2 to find the exact date and time."
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "(E) 351"
     ],
     "answer": "(D) 306",
-    "explanation": "In a population of 351 people, 45 people own a motorcycle. Therefore, there are $351 - 45 = 306$ car owners who do not own a motorcycle."
+    "explanation": "In a population of 351 people, 45 people own a motorcycle. Therefore, there are $351 - 45 = 306$ car owners who do not own a motorcycle.",
+    "hint": "**Key Strategy:** Set Complement (Venn Diagram)\n• **Step 1 (First Move):** Notice that the $351$ adults can be split into two groups: those who own a motorcycle ($45$ adults) and those who do **not** own a motorcycle.\n• **Step 2 (The Guiding Bridge):** Because *every* adult in the town owns a car, a motorcycle, or both, anyone who does not own a motorcycle **must** own a car. Therefore, \"car owners who do not own a motorcycle\" is the exact same group as \"adults who do not own a motorcycle.\"\n• **Step 3 (How to Finish):** Subtract the $45$ motorcycle owners from the $351$ total adults to find how many car owners do not own a motorcycle."
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "(E) 37.5%"
     ],
     "answer": "(C) 25%",
-    "explanation": "The upper left and lower right squares are each one-fourth shaded, for a total of one-half square. The shaded portions of the upper right and lower left squares make up one-half square. So the total shaded area is one full square out of four, which is 25% of the total area."
+    "explanation": "The upper left and lower right squares are each one-fourth shaded, for a total of one-half square. The shaded portions of the upper right and lower left squares make up one-half square. So the total shaded area is one full square out of four, which is 25% of the total area.",
+    "hint": "**Key Strategy:** Area Decomposition & Fraction-to-Percent Conversion\n• **Step 1 (First Move):** Find the shaded fraction of each of the four congruent large squares individually by counting how many equal triangles or rectangles are shaded out of the total equal parts in each square.\n• **Step 2 (The Guiding Bridge):** Pair up squares that combine neatly—for instance, add the shaded fractions of the two squares divided into fourths, and then combine the shaded pieces of the other two squares to see what fraction of a full square they form together.\n• **Step 3 (How to Finish):** Add the shaded amounts from all four squares to get the total number of full shaded squares, divide that total by $4$ (the number of large squares), and multiply by $100\\%$ to express it as a percentage."
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "(E) 9"
     ],
     "answer": "(B) 5",
-    "explanation": "The possible sums are 3, 5, 7, 9, and 11, for a total of 5 distinct possibilities."
+    "explanation": "The possible sums are 3, 5, 7, 9, and 11, for a total of 5 distinct possibilities.",
+    "hint": "**Key Strategy:** Systematic Listing (Casework)\n• **Step 1 (First Move):** List the sums systematically by picking one chip from Bag A ($1, 3, 5$) and adding each chip from Bag B ($2, 4, 6$). Starting with $1$ from Bag A gives $1+2=3$, $1+4=5$, and $1+6=7$.\n• **Step 2 (The Guiding Bridge):** Repeat this for $3$ and $5$ from Bag A. Notice that several sums overlap (for example, $1+6=7$ and $3+4=7$), and the possible sums span consecutive odd integers from the smallest sum ($1+2=3$) to the largest sum ($5+6=11$).\n• **Step 3 (How to Finish):** Write down the list of unique sums without counting duplicates and count how many distinct values there are."
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "(E) 5"
     ],
     "answer": "(E) 5",
-    "explanation": "Carmen covers 35 miles in 7 hours, making her average speed $\\frac{35}{7} = 5$ mph."
+    "explanation": "Carmen covers 35 miles in 7 hours, making her average speed $\\frac{35}{7} = 5$ mph.",
+    "hint": "**Key Strategy:** Average Speed Formula & Graph Reading\n• **Step 1 (First Move):** Set up the average speed formula: $\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}$.\n• **Step 2 (The Guiding Bridge):** Look at the rightmost endpoint of the graph to read the total time of the entire ride ($7\\text{ hours}$) and the total distance covered ($35\\text{ miles}$). You do not need to calculate speeds for each separate hill or flat section.\n• **Step 3 (How to Finish):** Divide the total distance ($35\\text{ miles}$) by the total time ($7\\text{ hours}$) to find Carmen's average speed in miles per hour."
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "(E) 3.75"
     ],
     "answer": "(C) 3.3",
-    "explanation": "Including a \\$2 tip, a 0.5 mile ride would cost \\$4.40. The remaining \\$5.60 would take you an additional $0.1 \\times \\frac{5.60}{0.20} = 2.80$ miles, so the total distance is $0.5 + 2.8 = 3.3$ miles."
+    "explanation": "Including a \\$2 tip, a 0.5 mile ride would cost \\$4.40. The remaining \\$5.60 would take you an additional $0.1 \\times \\frac{5.60}{0.20} = 2.80$ miles, so the total distance is $0.5 + 2.8 = 3.3$ miles.",
+    "hint": "**Key Strategy:** Subtract Fixed Costs, Then Use Unit Rate\n• **Step 1 (First Move):** Subtract the fixed $\\$2.00$ tip and the $\\$2.40$ initial fare from your $\\$10.00$ budget: $\\$10.00 - \\$2.00 - \\$2.40 = \\$5.60$ left for additional distance.\n• **Step 2 (The Guiding Bridge):** Each $\\$0.20$ buys $0.1\\text{ mile}$. Divide the remaining $\\$5.60$ by $\\$0.20$ to find how many $0.1\\text{-mile}$ chunks you can buy ($\\frac{5.60}{0.20} = 28$), then multiply by $0.1$ to get $2.8\\text{ additional miles}$.\n• **Step 3 (How to Finish):** Add the initial distance covered by the $\\$2.40$ base fare ($0.5\\text{ mile}$ in the original AMC 8 wording) to your $2.8\\text{ additional miles}$ to find the total miles you can ride."
   },
   {
     "id": 11,
@@ -141,7 +151,8 @@
       "(E) 12"
     ],
     "answer": "(A) 6",
-    "explanation": "Asha's study time totals $60 + 90 + 100 + 80 + 70 = 400$ minutes (average 80 min/day). Sasha's total is $70 + 80 + 120 + 110 + 50 = 430$ minutes (average 86 min/day). Sasha averages $86 - 80 = 6$ minutes more per day than Asha."
+    "explanation": "Asha's study time totals $60 + 90 + 100 + 80 + 70 = 400$ minutes (average 80 min/day). Sasha's total is $70 + 80 + 120 + 110 + 50 = 430$ minutes (average 86 min/day). Sasha averages $86 - 80 = 6$ minutes more per day than Asha.",
+    "hint": "**Key Strategy:** Totals & Difference of Averages\n• **Step 1 (First Move):** Read the 5 daily bar heights and add them to find each student's weekly total: Asha studied $60 + 90 + 100 + 80 + 70 = 400\\text{ minutes}$, and Sasha studied $70 + 80 + 120 + 110 + 50 = 430\\text{ minutes}$.\n• **Step 2 (The Guiding Bridge):** Use a time-saving shortcut: instead of computing two separate averages first, subtract Asha's weekly total from Sasha's weekly total ($430 - 400$) to find the total extra minutes Sasha studied over the $5$ days.\n• **Step 3 (How to Finish):** Divide that difference in total minutes by $5\\text{ days}$ to find how many more minutes per day Sasha studied on average."
   },
   {
     "id": 12,
@@ -154,7 +165,8 @@
       "(E) 3/4"
     ],
     "answer": "(B) 1/3",
-    "explanation": "If Angie sits down first, there are three equally likely seats remaining for Carlos. Only one of these is directly opposite Angie. Thus, the probability is $\\frac{1}{3}$."
+    "explanation": "If Angie sits down first, there are three equally likely seats remaining for Carlos. Only one of these is directly opposite Angie. Thus, the probability is $\\frac{1}{3}$.",
+    "hint": "**Key Strategy:** Symmetry & Fixing One Position\n• **Step 1 (First Move):** Seat Angie first at any of the $4$ sides of the square table. Because all four sides are identical before anyone sits, it does not matter which seat she takes.\n• **Step 2 (The Guiding Bridge):** Once Angie is seated, count how many empty seats remain for Carlos: there are $3$ equally likely seats left (left, right, and directly opposite Angie).\n• **Step 3 (How to Finish):** Form the probability fraction by dividing the number of seats directly opposite Angie by the $3$ total remaining seats for Carlos."
   },
   {
     "id": 13,
@@ -167,7 +179,8 @@
       "(E) 25"
     ],
     "answer": "(C) 20",
-    "explanation": "The shaded rectangle PBCS has height 15 and length $SC = DC + SR - DR = 15 + 15 - 25 = 5$. The area of PBCS is $15 \\times 5 = 75$, and AQRD is $15 \\times 25 = 375$. The portion shaded is $\\frac{75}{375} = 20\\%$."
+    "explanation": "The shaded rectangle PBCS has height 15 and length $SC = DC + SR - DR = 15 + 15 - 25 = 5$. The area of PBCS is $15 \\times 5 = 75$, and AQRD is $15 \\times 25 = 375$. The portion shaded is $\\frac{75}{375} = 20\\%$.",
+    "hint": "**Key Strategy:** Inclusion-Exclusion (Overlap Length) & Area Ratio\n• **Step 1 (First Move):** Find the area of the combined $15 \\times 25$ rectangle $AQRD$: $15 \\times 25 = 375$.\n• **Step 2 (The Guiding Bridge):** Find the width of the shaded overlap along the horizontal edge: the two squares each have width $15$, giving a sum of $15 + 15 = 30$, while the combined rectangle $AQRD$ has width $25$. Subtract $25$ from $30$ to get the width of the overlap, then multiply that width by the height $15$ to find the shaded area.\n• **Step 3 (How to Finish):** Divide the shaded area by the total area ($375$) and multiply by $100\\%$ to find the shaded percentage."
   },
   {
     "id": 14,
@@ -180,7 +193,8 @@
       "(E) 23/45"
     ],
     "answer": "(C) 22/45",
-    "explanation": "The number of girls at the dance is $\\frac{4}{9}(270) + \\frac{5}{9}(180) = 120 + 100 = 220$. The fraction of total students that are girls is $\\frac{220}{450} = \\frac{22}{45}$."
+    "explanation": "The number of girls at the dance is $\\frac{4}{9}(270) + \\frac{5}{9}(180) = 120 + 100 = 220$. The fraction of total students that are girls is $\\frac{220}{450} = \\frac{22}{45}$.",
+    "hint": "**Key Strategy:** Ratio-to-Fraction Conversion & Combined Total\n• **Step 1 (First Move):** Convert the ratios into girl counts. At Colfax, a $5:4$ ratio of boys to girls has $5 + 4 = 9$ total parts, so $\\frac{4}{9}$ of the $270$ students are girls: $\\frac{4}{9} \\times 270 = 120\\text{ girls}$.\n• **Step 2 (The Guiding Bridge):** At Winthrop, a $4:5$ ratio of boys to girls means $\\frac{5}{9}$ of the $180$ students are girls. Calculate $\\frac{5}{9} \\times 180$ to find the number of girls from Winthrop, and add $270 + 180 = 450$ for the total students at the dance.\n• **Step 3 (How to Finish):** Add the girls from both schools together, place that sum over the $450$ total students, and simplify the fraction to lowest terms."
   },
   {
     "id": 15,
@@ -193,7 +207,8 @@
       "(E) 15"
     ],
     "answer": "(D) 11",
-    "explanation": "The product $4^5 \\cdot 5^{10} = (2^2)^5 \\cdot 5^{10} = 2^{10} \\cdot 5^{10} = 10^{10}$ is a number with a 1 followed by 10 zeros, for a total of 11 digits."
+    "explanation": "The product $4^5 \\cdot 5^{10} = (2^2)^5 \\cdot 5^{10} = 2^{10} \\cdot 5^{10} = 10^{10}$ is a number with a 1 followed by 10 zeros, for a total of 11 digits.",
+    "hint": "**Key Strategy:** Exponent Laws (Making Powers of $10$)\n• **Step 1 (First Move):** Rewrite $4^5$ as a power of $2$ using $4 = 2^2$: $4^5 = (2^2)^5 = 2^{10}$.\n• **Step 2 (The Guiding Bridge):** Combine $2^{10} \\cdot 5^{10}$ using the exponent rule $a^n \\cdot b^n = (a \\cdot b)^n$ to write the product as $(2 \\cdot 5)^{10} = 10^{10}$.\n• **Step 3 (How to Finish):** Recall that $10^n$ is written as a $1$ followed by $n$ zeros, and count the total number of digits in $10^{10}$ (including the leading $1$)."
   },
   {
     "id": 16,
@@ -206,7 +221,8 @@
       "(E) $A = \\frac{16}{9}B$"
     ],
     "answer": "(C) $A = B$",
-    "explanation": "The altitude of triangle A is $\\sqrt{25^2 - 15^2} = 20$, giving area $A = \\frac{1}{2}(30)(20) = 300$. The altitude of triangle B is $\\sqrt{25^2 - 20^2} = 15$, giving area $B = \\frac{1}{2}(40)(15) = 300$. Therefore, $A = B$."
+    "explanation": "The altitude of triangle A is $\\sqrt{25^2 - 15^2} = 20$, giving area $A = \\frac{1}{2}(30)(20) = 300$. The altitude of triangle B is $\\sqrt{25^2 - 20^2} = 15$, giving area $B = \\frac{1}{2}(40)(15) = 300$. Therefore, $A = B$.",
+    "hint": "**Key Strategy:** Isosceles Triangle Altitude & Pythagorean Theorem\n• **Step 1 (First Move):** For triangle $A$, drop an altitude to the base of length $30$. It splits the base into two equal halves of length $15$, creating two right triangles with hypotenuse $25$ and one leg $15$. Use the Pythagorean theorem ($h_A^2 + 15^2 = 25^2$) to find $h_A = 20$, giving area $A = \\frac{1}{2}(30)(20) = 300$.\n• **Step 2 (The Guiding Bridge):** Do the exact same thing for triangle $B$: dropping an altitude to the base of length $40$ splits it into two halves of length $20$. Solve $h_B^2 + 20^2 = 25^2$ to find the height $h_B$.\n• **Step 3 (How to Finish):** Compute area $B = \\frac{1}{2}(40)(h_B)$ and compare $A$ and $B$ to determine their exact relationship."
   },
   {
     "id": 17,
@@ -219,7 +235,8 @@
       "(E) 56"
     ],
     "answer": "(A) 21",
-    "explanation": "Factor 588 into $2^2 \\cdot 3^1 \\cdot 5^0 \\cdot 7^2$. Thus $w=2, x=1, y=0, z=2$, and $2(2) + 3(1) + 5(0) + 7(2) = 21$."
+    "explanation": "Factor 588 into $2^2 \\cdot 3^1 \\cdot 5^0 \\cdot 7^2$. Thus $w=2, x=1, y=0, z=2$, and $2(2) + 3(1) + 5(0) + 7(2) = 21$.",
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Factor $588$ by dividing out small primes step by step: $588 \\div 2 = 294$, and $294 \\div 2 = 147$.\n• **Step 2 (The Guiding Bridge):** Continue factoring $147$: $147 \\div 3 = 49$, and $49 = 7 \\times 7$. Write $588$ in prime-power form $2^w \\cdot 3^x \\cdot 5^y \\cdot 7^z$ to identify $w, x, y,$ and $z$ (since $5$ is not a factor of $588$, note that $y = 0$).\n• **Step 3 (How to Finish):** Plug your values of $w, x, y,$ and $z$ into $2w + 3x + 5y + 7z$ and add the terms together."
   },
   {
     "id": 18,
@@ -232,7 +249,8 @@
       "(E) 5/6"
     ],
     "answer": "(D) 7/12",
-    "explanation": "In 6 of the 36 outcomes, the numbers are equal. The first number is greater than the second in half of the remaining 30 outcomes (15 cases). So $6 + 15 = 21$ outcomes satisfy the condition. The probability is $\\frac{21}{36} = \\frac{7}{12}$."
+    "explanation": "In 6 of the 36 outcomes, the numbers are equal. The first number is greater than the second in half of the remaining 30 outcomes (15 cases). So $6 + 15 = 21$ outcomes satisfy the condition. The probability is $\\frac{21}{36} = \\frac{7}{12}$.",
+    "hint": "**Key Strategy:** Symmetry (Complementary Counting)\n• **Step 1 (First Move):** Count the total number of outcomes from two die rolls: $6 \\times 6 = 36$. Out of these, count the outcomes where both rolls are **equal** ($(1,1), (2,2), \\dots, (6,6)$), which gives $6$ outcomes.\n• **Step 2 (The Guiding Bridge):** Subtract the $6$ ties to get $36 - 6 = 30$ outcomes where the two rolls are different. By symmetry, in exactly half of those $30$ outcomes ($\\frac{30}{2} = 15$), the first number is greater than the second.\n• **Step 3 (How to Finish):** Add the $6$ equal outcomes and the $15$ \"first is greater\" outcomes, divide by the $36$ total outcomes, and simplify the fraction."
   },
   {
     "id": 19,
@@ -245,7 +263,8 @@
       "(E) 12"
     ],
     "answer": "(D) 11",
-    "explanation": "Partitioning the figure into non-overlapping regions gives single rectangles $b, c, d$ (3), two-region combinations $ab, bc, cd, cf, de$ (5), and multi-region combinations $abcd, bcfg, cdef$ (3). Total = $3 + 5 + 3 = 11$ rectangles."
+    "explanation": "Partitioning the figure into non-overlapping regions gives single rectangles $b, c, d$ (3), two-region combinations $ab, bc, cd, cf, de$ (5), and multi-region combinations $abcd, bcfg, cdef$ (3). Total = $3 + 5 + 3 = 11$ rectangles.",
+    "hint": "**Key Strategy:** Systematic Casework by Number of Regions\n• **Step 1 (First Move):** Partition the figure into its smallest individual non-overlapping shapes. First, count all **1-piece rectangles** (skip any triangles or slanted regions that do not have four right angles on their own).\n• **Step 2 (The Guiding Bridge):** Next, carefully check every pair of touching pieces to count all **2-piece rectangles**, including pairs where adjacent regions combine to form a rectangle. Then look for larger **3-piece or 4-piece rectangles** spanning across rows or columns.\n• **Step 3 (How to Finish):** Double-check both horizontal and vertical directions so no multi-piece rectangle is missed or counted twice, then add the counts from each size group together."
   },
   {
     "id": 20,
@@ -258,7 +277,8 @@
       "(E) 800"
     ],
     "answer": "(D) 750",
-    "explanation": "Dropping perpendiculars to DC gives base segments of length $9$ and $16$. The bottom base $DC = 9 + 50 + 16 = 75$. Area = $\\frac{1}{2}(AB + DC) \\times \\text{height} = \\frac{1}{2}(50 + 75)(12) = 750$."
+    "explanation": "Dropping perpendiculars to DC gives base segments of length $9$ and $16$. The bottom base $DC = 9 + 50 + 16 = 75$. Area = $\\frac{1}{2}(AB + DC) \\times \\text{height} = \\frac{1}{2}(50 + 75)(12) = 750$.",
+    "hint": "**Key Strategy:** Drop Altitudes & Pythagorean Theorem\n• **Step 1 (First Move):** Drop two perpendicular heights of length $12$ from vertices $A$ and $B$ down to base $DC$. This divides the trapezoid into a middle rectangle of width $AB = 50$ and two right triangles on the left and right ends.\n• **Step 2 (The Guiding Bridge):** Use the Pythagorean theorem on each side triangle to find its bottom leg: solve $12^2 + x^2 = 15^2$ for the left segment $x$, and $12^2 + y^2 = 20^2$ for the right segment $y$. Then add $x + 50 + y$ to find the total length of base $DC$.\n• **Step 3 (How to Finish):** Substitute $AB = 50$, your length for $DC$, and $\\text{height} = 12$ into the trapezoid area formula $\\text{Area} = \\frac{1}{2}(AB + DC) \\times \\text{height}$ and calculate the result."
   },
   {
     "id": 21,
@@ -271,7 +291,8 @@
       "(E) 48"
     ],
     "answer": "(C) 37",
-    "explanation": "Because at least half guessed too low, Norb is at least 37. Because two are off by one, he must be between 36 and 38, or 47 and 49. Because 37 is prime and 48 is not, Norb is 37."
+    "explanation": "Because at least half guessed too low, Norb is at least 37. Because two are off by one, he must be between 36 and 38, or 47 and 49. Because 37 is prime and 48 is not, Norb is 37.",
+    "hint": "**Key Strategy:** Logical Elimination & Number Properties\n• **Step 1 (First Move):** There are $10$ guesses in order: $24, 28, 30, 32, 36, 38, 41, 44, 47, 49$. \"At least half of you guessed too low\" means at least $5$ guesses are strictly less than Norb's age, so Norb must be older than the 5th guess ($36$).\n• **Step 2 (The Guiding Bridge):** \"Two of you are off by one\" means two guesses are each $1$ year away from Norb's age—so those two guesses must differ by $2$. Look at the guesses from $36$ upward ($36, 38, 41, 44, 47, 49$) and spot the pairs that are $2$ apart: $(36, 38)$ and $(47, 49)$.\n• **Step 3 (How to Finish):** Find the whole number directly between each pair, and apply the final clue (\"my age is a prime number\") to pick the only valid age."
   },
   {
     "id": 22,
@@ -284,7 +305,8 @@
       "(E) 7"
     ],
     "answer": "(D) 4",
-    "explanation": "The pattern for the last two digits of successive powers of 7 is 01, 07, 49, 43, 01, ... repeating every 4 powers. Since $2011 = 4 \\times 502 + 3$, the last two digits of $7^{2011}$ are 43, so the tens digit is 4."
+    "explanation": "The pattern for the last two digits of successive powers of 7 is 01, 07, 49, 43, 01, ... repeating every 4 powers. Since $2011 = 4 \\times 502 + 3$, the last two digits of $7^{2011}$ are 43, so the tens digit is 4.",
+    "hint": "**Key Strategy:** Pattern Finding (Last Two Digits Cycle)\n• **Step 1 (First Move):** Compute the last two digits of the first four powers of $7$ by keeping only the last two digits at each step: $7^1 \\to 07$, $7^2 \\to 49$, then multiply $49 \\times 7$ to get the last two digits of $7^3$, and multiply that result by $7$ to check that $7^4$ ends in $01$.\n• **Step 2 (The Guiding Bridge):** Because $7^4$ ends in $01$, the last two digits repeat in a cycle of length $4$ ($7^5$ returns to $07$, $7^6$ to $49$, and so on). Divide the exponent $2011$ by $4$: $2011 = 4 \\times 502 + 3$, leaving a remainder of $3$.\n• **Step 3 (How to Finish):** Since the remainder is $3$, $7^{2011}$ shares the same last two digits as $7^3$. Take the tens digit of your last-two-digits result for $7^3$."
   },
   {
     "id": 23,
@@ -297,7 +319,8 @@
       "(E) 108"
     ],
     "answer": "(D) 84",
-    "explanation": "If the units digit is 0, there are 36 possible numbers using 5 and two digits from {1, 2, 3, 4}. If the units digit is 5, there are $4 \\times 12 = 48$ possible numbers. In total, $36 + 48 = 84$ numbers."
+    "explanation": "If the units digit is 0, there are 36 possible numbers using 5 and two digits from {1, 2, 3, 4}. If the units digit is 5, there are $4 \\times 12 = 48$ possible numbers. In total, $36 + 48 = 84$ numbers.",
+    "hint": "**Key Strategy:** Casework by Units Digit\n• **Step 1 (First Move):** Because $5$ is the largest digit, all digits must come from $\\{0, 1, 2, 3, 4, 5\\}$. For the $4$-digit number to be a multiple of $5$, its units digit must be either **$0$** or **$5$**, so split the count into two cases.\n• **Step 2 (The Guiding Bridge):**\n  • **Case 1 (units digit is $0$):** The digit $5$ must be placed in one of the first three spots ($3$ choices), and the remaining two spots can be filled with any two different digits from $\\{1, 2, 3, 4\\}$ ($4 \\times 3$ ways). Multiply $3 \\times 4 \\times 3$ for Case 1.\n  • **Case 2 (units digit is $5$):** The leading digit cannot be $0$ or $5$ ($4$ choices from $\\{1, 2, 3, 4\\}$), leaving $4$ choices for the hundreds digit (now including $0$) and $3$ choices for the tens digit. Multiply $4 \\times 4 \\times 3$ for Case 2.\n• **Step 3 (How to Finish):** Calculate the product for each case and add the two case totals together."
   },
   {
     "id": 24,
@@ -310,7 +333,8 @@
       "(E) 4"
     ],
     "answer": "(A) 0",
-    "explanation": "Because 10,001 is odd, one summand must be even. The only even prime is 2, but $10,001 - 2 = 9999$, which is divisible by 9 and not prime. Therefore, there are 0 ways."
+    "explanation": "Because 10,001 is odd, one summand must be even. The only even prime is 2, but $10,001 - 2 = 9999$, which is divisible by 9 and not prime. Therefore, there are 0 ways.",
+    "hint": "**Key Strategy:** Parity (Odd/Even Analysis) & Divisibility Tests\n• **Step 1 (First Move):** Observe that $10{,}001$ is an **odd** integer. If two whole numbers add up to an odd sum, one of them must be **even** and the other must be **odd**.\n• **Step 2 (The Guiding Bridge):** Recall that $2$ is the **only** even prime number. Therefore, one of the two primes would have to be $2$, forcing the other number to be $10{,}001 - 2 = 9{,}999$.\n• **Step 3 (How to Finish):** Test whether $9{,}999$ is prime (for example, check if it is divisible by $3$ or $9$), and state how many valid ways exist to write $10{,}001$ as the sum of two primes."
   },
   {
     "id": 25,
@@ -323,6 +347,7 @@
       "(E) 5/2"
     ],
     "answer": "(A) 1/2",
-    "explanation": "The circle area is $\\pi$. The large square area is 4, and the inner square area is 2. The requested ratio of the two shaded regions is $\\frac{\\pi - 2}{2} \\approx \\frac{3.14 - 2}{2} \\approx 0.57$, which is closest to 1/2."
+    "explanation": "The circle area is $\\pi$. The large square area is 4, and the inner square area is 2. The requested ratio of the two shaded regions is $\\frac{\\pi - 2}{2} \\approx \\frac{3.14 - 2}{2} \\approx 0.57$, which is closest to 1/2.",
+    "hint": "**Key Strategy:** Area of Inscribed/Circumscribed Shapes & Estimation ($\\pi \\approx 3.14$)\n• **Step 1 (First Move):** Calculate the three basic areas using the circle's radius $r = 1$:\n  • Area of the circle: $\\pi r^2 = \\pi(1)^2 = \\pi$.\n  • Area of the outer square: its side length equals the circle's diameter ($2$), so its area is $2 \\times 2 = 4$.\n  • Area of the inner square: its diagonal equals the circle's diameter ($2$), so its area is $\\frac{1}{2} \\times \\text{diagonal}^2 = \\frac{1}{2}(2)^2 = 2$.\n• **Step 2 (The Guiding Bridge):** Subtract to find the two areas in the ratio: the circle's shaded area outside the inner square is $\\pi - 2$, and the shaded area between the two squares is $4 - 2 = 2$. Set up the ratio $\\frac{\\pi - 2}{2}$.\n• **Step 3 (How to Finish):** Substitute $\\pi \\approx 3.14$ into $\\frac{\\pi - 2}{2}$, evaluate the decimal, and match it to the closest fraction among the options."
   }
 ]

@@ -2,201 +2,376 @@
   {
     "id": 1,
     "question": "Theresa's parents have agreed to buy her tickets to see her favorite band if she spends an average of 10 hours per week helping around the house for 6 weeks. For the first 5 weeks she helps around the house for 8, 11, 7, 12 and 10 hours. How many hours must she work during the final week to earn the tickets?",
-    "options": ["(A) 9", "(B) 10", "(C) 11", "(D) 12", "(E) 13"],
+    "options": [
+      "(A) 9",
+      "(B) 10",
+      "(C) 11",
+      "(D) 12",
+      "(E) 13"
+    ],
     "answer": "(D) 12",
     "explanation": "For the first 5 weeks Theresa works a total of 8 + 11 + 7 + 12 + 10 = 48 hours. She has promised to work 6 * 10 = 60 hours in total. Therefore, she must work 60 - 48 = 12 hours during the final week.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Working Backwards from the Average (Total Sum Method)\n• **Step 1 (First Move):** Find the total number of hours Theresa must work over all $6$ weeks to average $10$ hours per week: $6 \\times 10 = 60\\text{ hours}$.\n• **Step 2 (The Guiding Bridge):** Add up the hours she already worked during the first $5$ weeks: $8 + 11 + 7 + 12 + 10 = 48\\text{ hours}$.\n• **Step 3 (How to Finish):** Subtract the hours she has already worked from the $6$-week total needed ($60 - 48$) to find how many hours she must work in the final week."
   },
   {
     "id": 2,
     "question": "Six-hundred fifty students were surveyed about their pasta preferences. The choices were lasagna, manicotti, ravioli and spaghetti. The results of the survey are displayed in the bar graph. What is the ratio of the number of students who preferred spaghetti to the number of students who preferred manicotti?",
-    "options": ["(A) 2/5", "(B) 1/2", "(C) 5/4", "(D) 5/3", "(E) 5/2"],
+    "options": [
+      "(A) 2/5",
+      "(B) 1/2",
+      "(C) 5/4",
+      "(D) 5/3",
+      "(E) 5/2"
+    ],
     "answer": "(E) 5/2",
     "explanation": "The number of students who preferred spaghetti is 250, and the number who preferred manicotti is 100. The ratio is 250 / 100 = 5/2.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Reading Bar Graphs & Simplifying Ratios\n• **Step 1 (First Move):** Read the values from the bar graph for the two pastas asked about: $250$ students preferred spaghetti and $100$ students preferred manicotti.\n• **Step 2 (The Guiding Bridge):** Write the ratio of spaghetti to manicotti as a fraction in the exact order requested: $\\frac{250}{100}$.\n• **Step 3 (How to Finish):** Simplify $\\frac{250}{100}$ to lowest terms by dividing both the numerator and the denominator by their greatest common factor, $50$."
   },
   {
     "id": 3,
     "question": "What is the sum of the two smallest prime factors of 250?",
-    "options": ["(A) 2", "(B) 5", "(C) 7", "(D) 10", "(E) 12"],
+    "options": [
+      "(A) 2",
+      "(B) 5",
+      "(C) 7",
+      "(D) 10",
+      "(E) 12"
+    ],
     "answer": "(C) 7",
     "explanation": "The prime factorization of 250 is 2 * 5 * 5 * 5. The two smallest prime factors are 2 and 5. Their sum is 2 + 5 = 7.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Prime Factorization\n• **Step 1 (First Move):** Break $250$ down into prime factors starting with the smallest prime, $2$: $250 = 2 \\times 125$.\n• **Step 2 (The Guiding Bridge):** Keep factoring $125$ using prime numbers: $125 = 5 \\times 25 = 5 \\times 5 \\times 5$, so $250 = 2 \\times 5^3$. Notice that the distinct prime factors of $250$ are $2$ and $5$.\n• **Step 3 (How to Finish):** Add these two smallest prime factors together ($2 + 5$) to get your final answer."
   },
   {
     "id": 4,
     "question": "A haunted house has six windows. In how many ways can Georgie the Ghost enter the house by one window and leave by a different window?",
-    "options": ["(A) 12", "(B) 15", "(C) 18", "(D) 30", "(E) 36"],
+    "options": [
+      "(A) 12",
+      "(B) 15",
+      "(C) 18",
+      "(D) 30",
+      "(E) 36"
+    ],
     "answer": "(D) 30",
     "explanation": "Georgie has 6 choices for the window to enter. After entering, Georgie has 5 remaining choices for the window to exit. Altogether, there are 6 * 5 = 30 different ways.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Fundamental Counting Principle (Multiplication Principle)\n• **Step 1 (First Move):** Count how many choices Georgie has to enter the house: there are $6$ different windows he can choose from.\n• **Step 2 (The Guiding Bridge):** After choosing an entrance window, he must leave through a *different* window, so subtract $1$ from the total windows to see he has $6 - 1 = 5$ exit choices for each entrance.\n• **Step 3 (How to Finish):** Multiply the number of entrance choices by the number of remaining exit choices ($6 \\times 5$) to find the total number of ways."
   },
   {
     "id": 5,
     "question": "Chandler wants to buy a \\$500 mountain bike. For his birthday, his grandparents send him \\$50, his aunt sends him \\$35 and his cousin gives him \\$15. He earns \\$16 per week for his paper route. He will use all of his birthday money and all of the money he earns from his paper route. In how many weeks will he be able to buy the mountain bike?",
-    "options": ["(A) 24", "(B) 25", "(C) 26", "(D) 27", "(E) 28"],
+    "options": [
+      "(A) 24",
+      "(B) 25",
+      "(C) 26",
+      "(D) 27",
+      "(E) 28"
+    ],
     "answer": "(B) 25",
     "explanation": "Chandler receives 50 + 35 + 15 = \\$100 for his birthday. He needs 500 - 100 = \\$400 more. At \\$16 per week, it will take 400 / 16 = 25 weeks to save enough money.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Multi-Step Arithmetic & Unit Rate\n• **Step 1 (First Move):** Add up all of Chandler's birthday money first: $\\$50 + \\$35 + \\$15 = \\$100$.\n• **Step 2 (The Guiding Bridge):** Subtract his birthday money from the cost of the bike to find how much more money he needs to earn: $\\$500 - \\$100 = \\$400$.\n• **Step 3 (How to Finish):** Divide the remaining amount needed by his weekly earnings ($400 \\div 16$) to find the number of weeks it will take."
   },
   {
     "id": 6,
     "question": "The average cost of a long-distance call in the USA in 1985 was 41 cents per minute, and the average cost of a long-distance call in the USA in 2005 was 7 cents per minute. Find the approximate percent decrease in the cost per minute of a long-distance call.",
-    "options": ["(A) 7", "(B) 17", "(C) 34", "(D) 41", "(E) 80"],
+    "options": [
+      "(A) 7",
+      "(B) 17",
+      "(C) 34",
+      "(D) 41",
+      "(E) 80"
+    ],
     "answer": "(E) 80",
     "explanation": "The difference in cost per minute from 1985 to 2005 was 41 - 7 = 34 cents. The percent decrease is 100 * (34 / 41) ≈ 100 * (32 / 40) = 80%.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Percent Decrease & Estimation\n• **Step 1 (First Move):** Find the amount of decrease in cost per minute by subtracting the $2005$ cost from the $1985$ cost: $41 - 7 = 34\\text{ cents}$.\n• **Step 2 (The Guiding Bridge):** Set up the percent decrease fraction by dividing the decrease by the *original* $1985$ cost: $\\frac{34}{41} \\times 100\\%$.\n• **Step 3 (How to Finish):** Since the problem asks for an *approximate* percent, notice that $34$ is close to $32$ and $41$ is close to $40$; evaluate $\\frac{32}{40} \\times 100\\%$ to find the closest percentage."
   },
   {
     "id": 7,
     "question": "The average age of 5 people in a room is 30 years. An 18-year-old person leaves the room. What is the average age of the four remaining people?",
-    "options": ["(A) 25", "(B) 26", "(C) 29", "(D) 33", "(E) 36"],
+    "options": [
+      "(A) 25",
+      "(B) 26",
+      "(C) 29",
+      "(D) 33",
+      "(E) 36"
+    ],
     "answer": "(D) 33",
     "explanation": "The sum of ages of all 5 people is 5 * 30 = 150. After the 18-year-old leaves, the sum of the remaining 4 people's ages is 150 - 18 = 132. The average age is 132 / 4 = 33 years.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Sum from Average\n• **Step 1 (First Move):** Multiply the number of people by their average age to find the total sum of all $5$ ages: $5 \\times 30 = 150\\text{ years}$.\n• **Step 2 (The Guiding Bridge):** Subtract the $18$-year-old person's age from the total sum to get the combined age of the $4$ remaining people: $150 - 18 = 132\\text{ years}$.\n• **Step 3 (How to Finish):** Divide the new sum of ages by the number of people left in the room ($132 \\div 4$) to calculate the new average age."
   },
   {
     "id": 8,
     "question": "In trapezoid ABCD, AD is perpendicular to DC, AD = AB = 3, and DC = 6. In addition, E is on DC, and BE is parallel to AD. Find the area of triangle BEC.",
-    "options": ["(A) 3", "(B) 4.5", "(C) 6", "(D) 9", "(E) 18"],
+    "options": [
+      "(A) 3",
+      "(B) 4.5",
+      "(C) 6",
+      "(D) 9",
+      "(E) 18"
+    ],
     "answer": "(B) 4.5",
     "explanation": "ABED forms a square with side length 3. Subtracting DE = 3 from DC = 6 leaves EC = 3 for the base of triangle BEC. The area of triangle BEC is (1/2) * 3 * 3 = 4.5.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Area Decomposition (Square and Right Triangle)\n• **Step 1 (First Move):** Look at quadrilateral $ABED$: since $AD \\perp DC$, $BE \\parallel AD$, and $AB \\parallel DC$ in trapezoid $ABCD$, $ABED$ is a rectangle, and because $AD = AB = 3$, it is a $3 \\times 3$ square with $DE = 3$ and $BE = 3$.\n• **Step 2 (The Guiding Bridge):** Find the base $EC$ of $\\triangle BEC$ by subtracting $DE$ from the whole bottom side $DC$: $EC = 6 - 3 = 3$. Since $BE \\perp DC$, $\\triangle BEC$ is a right triangle with base $EC = 3$ and height $BE = 3$.\n• **Step 3 (How to Finish):** Use the triangle area formula $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ to compute $\\frac{1}{2} \\times 3 \\times 3$."
   },
   {
     "id": 9,
     "question": "To complete the grid below, each of the digits 1 through 4 must occur once in each row and once in each column. What number will occupy the lower right-hand square?",
-    "options": ["(A) 1", "(B) 2", "(C) 3", "(D) 4", "(E) cannot be determined"],
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) cannot be determined"
+    ],
     "answer": "(B) 2",
     "explanation": "The number in row 2, column 4 must be 1 because row 2 contains 2 and 3, and column 4 contains 4. Similarly, above 1 must be 3. The lower right-hand square must therefore be 2.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Logic Grid Elimination (Row & Column Constraints)\n• **Step 1 (First Move):** Focus on Column 4 (the rightmost column), where the lower right-hand square sits. Look at Row 2, Column 4: because Row 2 already contains $2$ and $3$ and Column 4 already contains $4$, the only digit left for Row 2, Column 4 is $1$.\n• **Step 2 (The Guiding Bridge):** Move up to Row 1, Column 4 (directly above the $1$ you just placed). Using the digits already in Row 1 and Column 4, eliminate the impossible digits to see that Row 1, Column 4 must be $3$.\n• **Step 3 (How to Finish):** Look at all three digits now placed in Column 4 ($3$ in Row 1, $1$ in Row 2, and $4$ in Row 3) and pick the single missing digit from $\\{1, 2, 3, 4\\}$ for the lower right-hand square."
   },
   {
     "id": 10,
     "question": "For any positive integer n, define [n] to be the sum of the positive factors of n. For example, [6] = 1 + 2 + 3 + 6 = 12. Find [[11]].",
-    "options": ["(A) 13", "(B) 20", "(C) 24", "(D) 28", "(E) 30"],
+    "options": [
+      "(A) 13",
+      "(B) 20",
+      "(C) 24",
+      "(D) 28",
+      "(E) 30"
+    ],
     "answer": "(D) 28",
     "explanation": "First, calculate [11] = 1 + 11 = 12. Next, calculate [[11]] = [12] = 1 + 2 + 3 + 4 + 6 + 12 = 28.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Factor Listing & Nested Function Evaluation\n• **Step 1 (First Move):** Work from the inside out by first finding $[11]$, the sum of all positive factors of $11$. Since $11$ is prime, its only positive factors are $1$ and $11$, giving $[11] = 1 + 11 = 12$.\n• **Step 2 (The Guiding Bridge):** Substitute $12$ into the outer brackets so $[[11]]$ becomes $[12]$. List every positive factor pair of $12$: $1 \\times 12$, $2 \\times 6$, and $3 \\times 4$.\n• **Step 3 (How to Finish):** Add all six positive factors of $12$ together ($1 + 2 + 3 + 4 + 6 + 12$) to find $[[11]]$."
   },
   {
     "id": 11,
     "question": "Tiles I, II, III and IV are translated so one tile coincides with each of the rectangles A, B, C and D. In the final arrangement, the two numbers on any side common to two adjacent tiles must be the same. Which of the tiles is translated to Rectangle C?",
-    "options": ["(A) I", "(B) II", "(C) III", "(D) IV", "(E) cannot be determined"],
+    "options": [
+      "(A) I",
+      "(B) II",
+      "(C) III",
+      "(D) IV",
+      "(E) cannot be determined"
+    ],
     "answer": "(D) IV",
     "explanation": "Tile III has 0 on its bottom edge and 5 on its right edge, so it must be placed on D. Tile III has 1 on its left edge, and only Tile IV has 1 on its right edge. Therefore, Tile IV must be placed on C.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Edge-Matching Logic & Elimination\n• **Step 1 (First Move):** Remember that *translation* slides tiles without rotating or flipping them, so every tile's top, bottom, left, and right edges stay fixed. Start with Rectangle D (bottom-right) and match its outer bottom and right numbers: Tile III has $0$ on its bottom edge and $5$ on its right edge, so Tile III must go into Rectangle D.\n• **Step 2 (The Guiding Bridge):** Check the left edge of Tile III in Rectangle D—it has the number $1$. Because Rectangle C shares a vertical border directly to the left of Rectangle D, the tile placed in Rectangle C must have a $1$ on its *right* edge.\n• **Step 3 (How to Finish):** Inspect the right edges of the remaining tiles (Tiles I, II, and IV) to identify the only tile with a $1$ on its right edge, which belongs in Rectangle C."
   },
   {
     "id": 12,
     "question": "A unit hexagram is composed of a regular hexagon of side length 1 and its 6 equilateral triangular extensions, as shown in the diagram. What is the ratio of the area of the extensions to the area of the original hexagon?",
-    "options": ["(A) 1:1", "(B) 6:5", "(C) 3:2", "(D) 2:1", "(E) 3:1"],
+    "options": [
+      "(A) 1:1",
+      "(B) 6:5",
+      "(C) 3:2",
+      "(D) 2:1",
+      "(E) 3:1"
+    ],
     "answer": "(A) 1:1",
     "explanation": "Cutting the central hexagon into 6 congruent equilateral triangles shows that each exterior extension triangle is congruent to an interior triangle. Thus, the ratio of the area of the extensions to the area of the hexagon is 6:6 = 1:1.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Area Decomposition into Congruent Triangles\n• **Step 1 (First Move):** Draw the three main diagonals through the center of the regular hexagon of side length $1$ to split the inside of the hexagon into $6$ congruent equilateral triangles, each with side length $1$.\n• **Step 2 (The Guiding Bridge):** Compare one of the $6$ triangular extensions outside the hexagon to one of the $6$ triangles inside the hexagon: both are equilateral triangles of side length $1$, so all $12$ triangles have the exact same area.\n• **Step 3 (How to Finish):** Count how many congruent unit equilateral triangles make up the extensions ($6$) and how many make up the original hexagon ($6$), then write and simplify the ratio $6 : 6$."
   },
   {
     "id": 13,
     "question": "Sets A and B, shown in the Venn diagram, have the same number of elements. Their union has 2007 elements and their intersection has 1001 elements. Find the number of elements in A.",
-    "options": ["(A) 503", "(B) 1006", "(C) 1504", "(D) 1507", "(E) 1510"],
+    "options": [
+      "(A) 503",
+      "(B) 1006",
+      "(C) 1504",
+      "(D) 1507",
+      "(E) 1510"
+    ],
     "answer": "(C) 1504",
     "explanation": "Let x be the number of elements in each set. By the inclusion-exclusion principle, |A U B| = 2x - |A ∩ B|. Thus, 2007 = 2x - 1001 -> 2x = 3008 -> x = 1504.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Inclusion-Exclusion Principle\n• **Step 1 (First Move):** Let $x$ be the number of elements in set $A$. Because sets $A$ and $B$ have the same number of elements, set $B$ also has $x$ elements.\n• **Step 2 (The Guiding Bridge):** Use the Inclusion-Exclusion Principle for two sets: $|A \\cup B| = |A| + |B| - |A \\cap B|$. Substitute the given values to set up the equation $2007 = x + x - 1001$, or $2007 = 2x - 1001$.\n• **Step 3 (How to Finish):** Solve for $x$ by first adding $1001$ to $2007$ ($2007 + 1001 = 3008$), and then dividing that sum by $2$."
   },
   {
     "id": 14,
     "question": "The base of isosceles triangle ABC is 24 and its area is 60. What is the length of one of the congruent sides?",
-    "options": ["(A) 5", "(B) 8", "(C) 13", "(D) 14", "(E) 18"],
+    "options": [
+      "(A) 5",
+      "(B) 8",
+      "(C) 13",
+      "(D) 14",
+      "(E) 18"
+    ],
     "answer": "(C) 13",
     "explanation": "Area = (1/2) * base * height -> 60 = (1/2) * 24 * h -> h = 5. The altitude splits the base into two equal segments of 12. Using the Pythagorean theorem, the side length is sqrt(5^2 + 12^2) = 13.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Triangle Area & Pythagorean Theorem\n• **Step 1 (First Move):** Use the triangle area formula $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ to find the height $h$: $60 = \\frac{1}{2} \\times 24 \\times h$, which gives $12h = 60$, so $h = 5$.\n• **Step 2 (The Guiding Bridge):** Draw the altitude to the base of length $24$. In an isosceles triangle, this altitude splits the base into two equal halves of length $24 \\div 2 = 12$, forming two right triangles with legs $5$ and $12$.\n• **Step 3 (How to Finish):** Apply the Pythagorean Theorem ($a^2 + b^2 = c^2$) with legs $a = 5$ and $b = 12$ to calculate $\\sqrt{5^2 + 12^2}$ and find the congruent side length."
   },
   {
     "id": 15,
     "question": "Let a, b and c be numbers with 0 < a < b < c. Which of the following is impossible?",
-    "options": ["(A) a + c < b", "(B) a * b < c", "(C) a + b < c", "(D) a * c < b", "(E) b / c = a"],
+    "options": [
+      "(A) a + c < b",
+      "(B) a * b < c",
+      "(C) a + b < c",
+      "(D) a * c < b",
+      "(E) b / c = a"
+    ],
     "answer": "(A) a + c < b",
     "explanation": "Since 0 < a and b < c, adding the inequalities gives b < a + c. Therefore, a + c < b is impossible.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Inequality Properties & Testing Examples\n• **Step 1 (First Move):** Break $0 < a < b < c$ into separate facts: $a, b, c$ are all positive ($a > 0$), and $c$ is strictly greater than $b$ ($c > b$). Remember that $a, b, c$ do not have to be whole numbers—they can be fractions.\n• **Step 2 (The Guiding Bridge):** Test sample values such as $a = \\frac{1}{4}, b = 2, c = 4$ (and $a = \\frac{1}{2}, b = 2, c = 4$) to see that $ab < c$, $a + b < c$, $ac < b$, and $\\frac{b}{c} = a$ can all be true. Then examine the remaining choice using algebra: since $c > b$ and $a > 0$, adding $a$ to $c$ guarantees that $a + c > b$.\n• **Step 3 (How to Finish):** Compare the guaranteed inequality $a + c > b$ against the options to select the statement that directly contradicts it and is therefore impossible."
   },
   {
     "id": 16,
     "question": "Amanda Reckonwith draws five circles with radii 1, 2, 3, 4 and 5. Then for each circle she plots the point (C, A), where C is its circumference and A is its area. Which of the following could be her graph?",
-    "options": ["(A) Graph A", "(B) Graph B", "(C) Graph C", "(D) Graph D", "(E) Graph E"],
+    "options": [
+      "(A) Graph A",
+      "(B) Graph B",
+      "(C) Graph C",
+      "(D) Graph D",
+      "(E) Graph E"
+    ],
     "answer": "(A) Graph A",
     "explanation": "Circumference C = 2*pi*r and Area A = pi*r^2 = C^2 / (4*pi). This defines an increasing quadratic parabola passing through the origin, which is shown in Graph A.",
-    "image_width": 600
+    "image_width": 600,
+    "hint": "**Key Strategy:** Relating Formulas & Recognizing Quadratic Growth\n• **Step 1 (First Move):** Calculate the circumference $C = 2\\pi r$ and area $A = \\pi r^2$ for the first few radii: for $r = 1$, $(C, A) = (2\\pi, \\pi)$; for $r = 2$, $(C, A) = (4\\pi, 4\\pi)$; for $r = 3$, $(C, A) = (6\\pi, 9\\pi)$.\n• **Step 2 (The Guiding Bridge):** Write $A$ directly in terms of $C$: since $r = \\frac{C}{2\\pi}$, substituting into $A = \\pi r^2$ gives $A = \\pi \\left(\\frac{C}{2\\pi}\\right)^2 = \\frac{C^2}{4\\pi}$. Notice that as $C$ increases by steady steps of $2\\pi$, $A$ increases faster and faster ($\\pi, 4\\pi, 9\\pi, 16\\pi, 25\\pi$), forming an upward-curving parabola starting at $(0, 0)$.\n• **Step 3 (How to Finish):** Match this upward-curving pattern (where the vertical gaps between consecutive points grow larger and larger) to the correct graph among the choices."
   },
   {
     "id": 17,
     "question": "A mixture of 30 liters of paint is 25% red tint, 30% yellow tint and 45% water. Five liters of yellow tint are added to the original mixture. What is the percent of yellow tint in the new mixture?",
-    "options": ["(A) 25", "(B) 35", "(C) 40", "(D) 45", "(E) 50"],
+    "options": [
+      "(A) 25",
+      "(B) 35",
+      "(C) 40",
+      "(D) 45",
+      "(E) 50"
+    ],
     "answer": "(C) 40",
     "explanation": "Original yellow tint = 0.30 * 30 = 9 liters. After adding 5 liters, yellow tint = 14 liters and total mixture = 35 liters. Percentage = 14 / 35 = 2/5 = 40%.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Mixture Concentration (Part-over-Whole)\n• **Step 1 (First Move):** Find the amount of yellow tint in the original $30\\text{-liter}$ mixture: $30\\% \\text{ of } 30 = 0.30 \\times 30 = 9\\text{ liters}$.\n• **Step 2 (The Guiding Bridge):** Update both the yellow tint and the total volume after adding $5\\text{ liters}$ of yellow tint: the new yellow tint is $9 + 5 = 14\\text{ liters}$, and the new total mixture is $30 + 5 = 35\\text{ liters}$.\n• **Step 3 (How to Finish):** Divide the new yellow tint by the new total volume ($\\frac{14}{35}$), simplify the fraction, and multiply by $100\\%$ to express it as a percent."
   },
   {
     "id": 18,
     "question": "The product of the two 99-digit numbers 303,030,303,...,030,303 and 505,050,505,...,050,505 has thousands digit A and units digit B. What is the sum of A and B?",
-    "options": ["(A) 3", "(B) 5", "(C) 6", "(D) 8", "(E) 10"],
+    "options": [
+      "(A) 3",
+      "(B) 5",
+      "(C) 6",
+      "(D) 8",
+      "(E) 10"
+    ],
     "answer": "(D) 8",
     "explanation": "To find A and B, consider the trailing digits: 303 * 505 = 153015. The thousands digit A is 3, and the units digit B is 5. Sum A + B = 3 + 5 = 8.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Place Value Isolation (Trailing Digits)\n• **Step 1 (First Move):** Realize that digits to the left of the ten-thousands place never affect the last four digits (thousands, hundreds, tens, and units) of a product. So you only need to multiply the last four digits of each number: $0303$ ($303$) and $0505$ ($505$).\n• **Step 2 (The Guiding Bridge):** Compute that trailing product carefully: $303 \\times 505 = 303 \\times (500 + 5) = 151{,}500 + 1{,}515 = 153{,}015$.\n• **Step 3 (How to Finish):** Identify the thousands digit $A$ and the units digit $B$ from the end of $153{,}015$, then add $A + B$ together."
   },
   {
     "id": 19,
     "question": "Pick two consecutive positive integers whose sum is less than 100. Square both of those integers and then find the difference of the squares. Which of the following could be the difference?",
-    "options": ["(A) 2", "(B) 64", "(C) 79", "(D) 96", "(E) 131"],
+    "options": [
+      "(A) 2",
+      "(B) 64",
+      "(C) 79",
+      "(D) 96",
+      "(E) 131"
+    ],
     "answer": "(C) 79",
     "explanation": "The difference of the squares of consecutive integers is (n+1)^2 - n^2 = 2n + 1 = n + (n+1), which equals their sum. The sum must be an odd number less than 100. Choice 79 is the only odd number less than 100.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Difference of Squares & Parity\n• **Step 1 (First Move):** Represent the two consecutive positive integers as $n$ and $n + 1$, noting that their sum $n + (n + 1) = 2n + 1$ must be less than $100$.\n• **Step 2 (The Guiding Bridge):** Apply the Difference of Squares identity, $a^2 - b^2 = (a - b)(a + b)$, to $(n + 1)^2 - n^2$: since $(n + 1) - n = 1$, the difference simplifies to $1 \\times ((n + 1) + n) = 2n + 1$. Thus, the difference of their squares equals their sum, which is always an odd integer less than $100$.\n• **Step 3 (How to Finish):** Check the five answer choices and choose the only number that is both odd and less than $100$."
   },
   {
     "id": 20,
     "question": "Before district play, the Unicorns had won 45% of their basketball games. During district play, they won six more games and lost two, to finish the season having won half their games. How many games did the Unicorns play in all?",
-    "options": ["(A) 48", "(B) 50", "(C) 52", "(D) 54", "(E) 60"],
+    "options": [
+      "(A) 48",
+      "(B) 50",
+      "(C) 52",
+      "(D) 54",
+      "(E) 60"
+    ],
     "answer": "(A) 48",
     "explanation": "Let n be the number of games played before district play. 0.45n + 6 = 0.5(n + 8) -> 0.45n + 6 = 0.5n + 4 -> 0.05n = 2 -> n = 40. Total games played = 40 + 8 = 48.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Linear Equation Modeling\n• **Step 1 (First Move):** Let $n$ be the number of games played before district play. Then the Unicorns had won $0.45n$ games before district play and played $6 + 2 = 8$ games during district play, making the final total $n + 8$ games.\n• **Step 2 (The Guiding Bridge):** Set up an equation showing that final wins equal half ($0.5$) of final total games: $0.45n + 6 = 0.5(n + 8)$. Expand the right side to get $0.45n + 6 = 0.5n + 4$, then solve for $n$ ($0.05n = 2$, so $n = 40$).\n• **Step 3 (How to Finish):** Remember the question asks for the total number of games played *in all*, so add the $8$ district games to $n$ ($40 + 8$)."
   },
   {
     "id": 21,
     "question": "Two cards are dealt from a deck of four red cards labeled A, B, C, D and four green cards labeled A, B, C, D. A winning pair is two of the same color or two of the same letter. What is the probability of drawing a winning pair?",
-    "options": ["(A) 2/7", "(B) 3/8", "(C) 1/2", "(D) 4/7", "(E) 5/8"],
+    "options": [
+      "(A) 2/7",
+      "(B) 3/8",
+      "(C) 1/2",
+      "(D) 4/7",
+      "(E) 5/8"
+    ],
     "answer": "(D) 4/7",
     "explanation": "After the first card is drawn, 7 cards remain. Exactly 3 cards have the same color, and 1 card has the same letter but a different color. Thus, 4 of the 7 remaining cards form a winning pair. Probability = 4/7.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Sequential Probability (Conditioning on the First Card)\n• **Step 1 (First Move):** Notice that the deck has $8$ cards total, and by symmetry it does not matter which card is dealt first—suppose the first card is Red A.\n• **Step 2 (The Guiding Bridge):** Count how many of the $8 - 1 = 7$ remaining cards form a winning pair with Red A: there are $3$ other red cards (Red B, Red C, Red D) that match its color, plus $1$ green card with the same letter (Green A) that matches its letter.\n• **Step 3 (How to Finish):** Add the two groups of winning second cards ($3 + 1$) and divide by the $7$ remaining cards to form the probability fraction."
   },
   {
     "id": 22,
     "question": "A lemming sits at a corner of a square with side length 10 meters. The lemming runs 6.2 meters along a diagonal toward the opposite corner. It stops, makes a 90° right turn and runs 2 more meters. A scientist measures the shortest distance between the lemming and each side of the square. What is the average of these four distances in meters?",
-    "options": ["(A) 2", "(B) 4.5", "(C) 5", "(D) 6.2", "(E) 7"],
+    "options": [
+      "(A) 2",
+      "(B) 4.5",
+      "(C) 5",
+      "(D) 6.2",
+      "(E) 7"
+    ],
     "answer": "(C) 5",
     "explanation": "For any point inside a square of side 10, the sum of the horizontal distances to opposite sides is 10 and the sum of the vertical distances is 10. Total sum of all 4 distances = 20 meters. Average = 20 / 4 = 5 meters.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Invariant Sum of Distances\n• **Step 1 (First Move):** Verify that the lemming stays inside the $10\\text{ m} \\times 10\\text{ m}$ square: the diagonal has length $10\\sqrt{2} \\approx 14.14\\text{ m}$, and after walking $6.2\\text{ m}$ along the diagonal, the lemming is about $6.2 / \\sqrt{2} \\approx 4.38\\text{ m}$ from the nearest sides, so turning $90^\\circ$ right and walking $2\\text{ m}$ keeps it strictly inside the square.\n• **Step 2 (The Guiding Bridge):** Use the invariant property of any point inside a $10\\text{ m} \\times 10\\text{ m}$ square: the distance to the left side plus the distance to the right side always equals $10\\text{ m}$, and the distance to the top side plus the distance to the bottom side also equals $10\\text{ m}$. Add those pairs to find the sum of all four distances: $10 + 10 = 20\\text{ m}$.\n• **Step 3 (How to Finish):** Divide the total sum of the four distances by $4$ ($20 \\div 4$) to find the average distance."
   },
   {
     "id": 23,
     "question": "What is the area of the shaded pinwheel shown in the 5x5 grid?",
-    "options": ["(A) 4", "(B) 6", "(C) 8", "(D) 10", "(E) 12"],
+    "options": [
+      "(A) 4",
+      "(B) 6",
+      "(C) 8",
+      "(D) 10",
+      "(E) 12"
+    ],
     "answer": "(B) 6",
     "explanation": "Total grid area = 25. The four unshaded triangles each have a base of 3 and altitude of 2.5, giving a total area of 4 * (1/2 * 3 * 2.5) = 15. The 4 corner squares have area 4. Shaded pinwheel area = 25 - 15 - 4 = 6.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Area Subtraction (Total Grid Minus Unshaded Pieces)\n• **Step 1 (First Move):** Find the total area of the $5 \\times 5$ grid: $5 \\times 5 = 25$ square units.\n• **Step 2 (The Guiding Bridge):** Split the unshaded region around the pinwheel into easy shapes: there are $4$ unshaded $1 \\times 1$ corner squares (total area $4 \\times 1 = 4$) and $4$ congruent unshaded triangles, each with a base of $3$ (between two corner squares) and a height of $2.5$ (reaching the center of the $5 \\times 5$ grid). Calculate the total area of the $4$ unshaded triangles: $4 \\times \\left(\\frac{1}{2} \\times 3 \\times 2.5\\right) = 15$.\n• **Step 3 (How to Finish):** Subtract the area of the $4$ corner squares and the $4$ unshaded triangles from the total grid area ($25 - 4 - 15$) to find the shaded pinwheel's area."
   },
   {
     "id": 24,
     "question": "A bag contains four pieces of paper, each labeled with one of the digits 1, 2, 3 or 4, with no repeats. Three of these pieces are drawn, one at a time without replacement, to construct a three-digit number. What is the probability that the three-digit number is a multiple of 3?",
-    "options": ["(A) 1/4", "(B) 1/3", "(C) 1/2", "(D) 2/3", "(E) 3/4"],
+    "options": [
+      "(A) 1/4",
+      "(B) 1/3",
+      "(C) 1/2",
+      "(D) 2/3",
+      "(E) 3/4"
+    ],
     "answer": "(C) 1/2",
     "explanation": "A number is a multiple of 3 if its digit sum is a multiple of 3. For three drawn digits from {1,2,3,4}, the digit sum is a multiple of 3 when the remaining digit in the bag is 1 or 4. Probability = 2/4 = 1/2.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Divisibility Rule for 3 & Complement Counting\n• **Step 1 (First Move):** Recall the divisibility rule for $3$: a number is a multiple of $3$ if and only if the sum of its digits is a multiple of $3$ (so the order of the three drawn digits does not matter).\n• **Step 2 (The Guiding Bridge):** Focus on which *one* digit from $\\{1, 2, 3, 4\\}$ stays behind in the bag. Since $1 + 2 + 3 + 4 = 10$, the sum of the three drawn digits is $10 - (\\text{leftover digit})$. Check all $4$ cases: leaving $1$ gives $10 - 1 = 9$ (multiple of $3$); leaving $2$ gives $8$; leaving $3$ gives $7$; leaving $4$ gives $6$ (multiple of $3$).\n• **Step 3 (How to Finish):** Count how many of the $4$ equally likely leftover digits give a multiple of $3$ ($2$ out of $4$) and simplify the fraction $\\frac{2}{4}$."
   },
   {
     "id": 25,
     "question": "On the dart board shown in the figure, the outer circle has radius 6 and the inner circle has radius 3. Three radii divide each circle into three congruent regions, with point values shown. The probability that a dart will hit a given region is proportional to the area of the region. When two darts hit this board, the score is the sum of the point values in the regions. What is the probability that the score is odd?",
-    "options": ["(A) 17/36", "(B) 35/72", "(C) 1/2", "(D) 37/72", "(E) 19/36"],
+    "options": [
+      "(A) 17/36",
+      "(B) 35/72",
+      "(C) 1/2",
+      "(D) 37/72",
+      "(E) 19/36"
+    ],
     "answer": "(B) 35/72",
     "explanation": "Total area = 36*pi. Each inner region has area 3*pi (probability 1/12) and each outer region has area 9*pi (probability 1/4). P(1) = 1/4 + 1/4 + 1/12 = 7/12 and P(2) = 5/12. Probability of an odd sum = P(1)*P(2) + P(2)*P(1) = (7/12)*(5/12) + (5/12)*(7/12) = 70/144 = 35/72.",
-    "image_width": 300
+    "image_width": 300,
+    "hint": "**Key Strategy:** Geometric Probability & Parity Casework (Odd Sums)\n• **Step 1 (First Move):** Find the area probabilities of the board's regions. The outer circle has area $\\pi \\cdot 6^2 = 36\\pi$, and the inner circle has area $\\pi \\cdot 3^2 = 9\\pi$ (leaving $36\\pi - 9\\pi = 27\\pi$ for the outer ring). Dividing each into $3$ congruent sectors gives each inner sector area $3\\pi$ (probability $\\frac{3\\pi}{36\\pi} = \\frac{1}{12}$) and each outer sector area $9\\pi$ (probability $\\frac{9\\pi}{36\\pi} = \\frac{1}{4}$).\n• **Step 2 (The Guiding Bridge):** Sum the probabilities of the regions labeled $1$ (two outer sectors and one inner sector): $P(1) = \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{12} = \\frac{7}{12}$, so $P(2) = 1 - \\frac{7}{12} = \\frac{5}{12}$. To get an *odd* sum from two darts, one must hit $1$ and the other must hit $2$, giving two cases: $(1, 2)$ or $(2, 1)$.\n• **Step 3 (How to Finish):** Calculate and add the probabilities of both cases, $\\left(\\frac{7}{12} \\times \\frac{5}{12}\\right) + \\left(\\frac{5}{12} \\times \\frac{7}{12}\\right)$, then simplify the resulting fraction."
   }
 ]

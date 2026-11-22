@@ -1,0 +1,353 @@
+[
+  {
+    "id": "1",
+    "question": "Aunt Anna is $42$ years old. Caitlin is $5$ years younger than Brianna, and Brianna is half as old as Aunt Anna. How old is Caitlin?",
+    "options": [
+      "(A) 15",
+      "(B) 16",
+      "(C) 17",
+      "(D) 21",
+      "(E) 37"
+    ],
+    "answer": "(B) 16",
+    "explanation": "Brianna is half as old as Aunt Anna, so Brianna is $42 / 2 = 21$ years old. Caitlin is $5$ years younger than Brianna, so Caitlin is $21 - 5 = 16$ years old.",
+    "hint": "**Key Strategy:** Working Backwards / Step-by-Step Substitution\n• **Step 1 (First Move):** Start with Aunt Anna's known age ($42$) and calculate Brianna's age, since Brianna is half as old as Aunt Anna: $42 \\div 2 = 21$.\n• **Step 2 (The Guiding Bridge):** Use Caitlin's relationship to Brianna: Caitlin is $5$ years younger than Brianna.\n• **Step 3 (How to Finish):** Subtract $5$ from Brianna's age ($21 - 5$) to find Caitlin's age."
+  },
+  {
+    "id": "2",
+    "question": "Which of these numbers is less than its reciprocal?",
+    "options": [
+      "(A) -2",
+      "(B) -1",
+      "(C) 0",
+      "(D) 1",
+      "(E) 2"
+    ],
+    "answer": "(A) -2",
+    "explanation": "The reciprocal of a non-zero number $x$ is $1/x$. The number $0$ has no reciprocal. The numbers $1$ and $-1$ are equal to their reciprocals: $1/1 = 1$ and $1/(-1) = -1$. For $2$, its reciprocal is $1/2$, and $2 > 1/2$. For $-2$, its reciprocal is $-1/2$. Since $-2 < -1/2$, $-2$ is less than its reciprocal.",
+    "hint": "**Key Strategy:** Definition of Reciprocal & Number Line Comparison\n• **Step 1 (First Move):** Recall that the reciprocal of a number $x$ is $\\frac{1}{x}$. Note that $0$ has no reciprocal, while $1$ and $-1$ equal their own reciprocals.\n• **Step 2 (The Guiding Bridge):** For $2$, its reciprocal is $\\frac{1}{2}$, and $2 > \\frac{1}{2}$. For $-2$, find its reciprocal: $\\frac{1}{-2} = -\\frac{1}{2}$.\n• **Step 3 (How to Finish):** Compare $-2$ and $-\\frac{1}{2}$ on the number line to see which value lies further to the left (is smaller)."
+  },
+  {
+    "id": "3",
+    "question": "How many whole numbers lie in the interval between $\\frac{5}{3}$ and $2\\pi$?",
+    "options": [
+      "(A) 2",
+      "(B) 3",
+      "(C) 4",
+      "(D) 5",
+      "(E) infinitely many"
+    ],
+    "answer": "(D) 5",
+    "explanation": "We approximate the endpoints: $\\frac{5}{3} = 1.\\overline{6}$ and $2\\pi \\approx 2 \\times 3.14159 = 6.28318$. The whole numbers strictly between $1.\\overline{6}$ and $6.28$ are $2, 3, 4, 5,$ and $6$. There are $5$ such whole numbers.",
+    "hint": "**Key Strategy:** Decimal Estimation of Endpoints\n• **Step 1 (First Move):** Convert $\\frac{5}{3}$ to a decimal ($1.666\\dots$) and approximate $2\\pi$ using $\\pi \\approx 3.14$ ($2\\pi \\approx 6.28$).\n• **Step 2 (The Guiding Bridge):** Identify the smallest whole number strictly greater than $1.666\\dots$ and the largest whole number strictly less than $6.28$.\n• **Step 3 (How to Finish):** List and count all integers in that range: $2, 3, 4, 5, 6$."
+  },
+  {
+    "id": "4",
+    "question": "In 1960 only $5\\%$ of the working adults in Carlin City worked at home. By 1970 the \"at-home\" work force had increased to $8\\%$. In 1980 there were approximately $15\\%$ working at home, and in 1990 there were $30\\%$. The graph that best illustrates this is:",
+    "options": [
+      "(A) Graph A",
+      "(B) Graph B",
+      "(C) Graph C",
+      "(D) Graph D",
+      "(E) Graph E"
+    ],
+    "answer": "(E) Graph E",
+    "explanation": "The percentages are $5\\%$ in 1960, $8\\%$ in 1970, $15\\%$ in 1980, and $30\\%$ in 1990. The increases from decade to decade are $8 - 5 = 3\\%$, $15 - 8 = 7\\%$, and $30 - 15 = 15\\%$. Because the increase is growing faster in each decade, the slope of the curve becomes steeper and steeper, bending upward (concave up). Looking at Graph E, the curve starts near $5\\%$, rises gradually to $8\\%$ and $15\\%$, and then climbs steeply to $30\\%$ in 1990.",
+    "hint": "**Key Strategy:** Rate of Change & Curve Slope\n• **Step 1 (First Move):** Calculate the increase in percentage for each consecutive decade: $1960 \\to 1970$ is $+3\\%$, $1970 \\to 1980$ is $+7\\%$, and $1980 \\to 1990$ is $+15\\%$.\n• **Step 2 (The Guiding Bridge):** Because the growth rate is accelerating ($+3\\% < +7\\% < +15\\%$), the graph must curve upward, becoming steeper with each decade.\n• **Step 3 (How to Finish):** Examine the 5 graphs to find which one passes through the points $(1960, 5)$, $(1970, 8)$, $(1980, 15)$, and $(1990, 30)$ with increasing steepness.",
+    "image_width": 900
+  },
+  {
+    "id": "5",
+    "question": "Each principal of Lincoln High School serves exactly one $3$-year term. What is the maximum number of principals this school could have during an $8$-year period?",
+    "options": [
+      "(A) 2",
+      "(B) 3",
+      "(C) 4",
+      "(D) 5",
+      "(E) 8"
+    ],
+    "answer": "(C) 4",
+    "explanation": "To maximize the number of principals who serve during an $8$-year period, we should position the period so that the first principal is serving the final year of their term (Year 1). Then the second principal serves Years 2, 3, and 4 (a full $3$-year term). The third principal serves Years 5, 6, and 7 (another full $3$-year term). The fourth principal serves Year 8 (the first year of their term). This gives $1 + 3 + 3 + 1 = 8$ years, during which $4$ different principals serve.",
+    "hint": "**Key Strategy:** Maximization by Extremal Overlap\n• **Step 1 (First Move):** To maximize the count of distinct individuals serving in an 8-year span, make the window capture as little time as possible from each boundary term (1 year at the start and 1 year at the end).\n• **Step 2 (The Guiding Bridge):** Let Principal 1 serve only the first year (year 1) of the period. Then fit full 3-year terms in the middle for subsequent principals.\n• **Step 3 (How to Finish):** Count the principals: 1 year (Principal 1) + 3 years (Principal 2) + 3 years (Principal 3) + 1 year (Principal 4) = 8 years total."
+  },
+  {
+    "id": "6",
+    "question": "Figure $ABCD$ is a square. Inside this square three smaller squares are drawn with side lengths as labeled. The area of the shaded L-shaped region is",
+    "options": [
+      "(A) 7",
+      "(B) 10",
+      "(C) 12.5",
+      "(D) 14",
+      "(E) 15"
+    ],
+    "answer": "(A) 7",
+    "explanation": "The side of the large square $ABCD$ is $1 + 3 + 1 = 5$, so its area is $5^2 = 25$. The square in the upper left corner has side length $1$, so its area is $1^2 = 1$. The square in the lower right has side length $1$, area $1$. The central square has side length $3$, so its area is $3^2 = 9$. Looking at the labeled diagram, the region of side $3$ and the border of width $1$ forms a square of side $3 + 1 = 4$ in the lower-left corner (area $4^2 = 16$). The shaded L-shaped region is the difference between this $4 \\times 4$ square and the $3 \\times 3$ square: $\\text{Area} = 4^2 - 3^2 = 16 - 9 = 7$.",
+    "hint": "**Key Strategy:** Area of Nested Squares / Subtraction\n• **Step 1 (First Move):** Look at the diagram to find the dimensions of the larger region containing the shaded L-shape: it consists of the $3 \\times 3$ central square plus a strip of width $1$ along two adjacent sides.\n• **Step 2 (The Guiding Bridge):** Together, the $3 \\times 3$ square and the L-shaped region form a square of side length $3 + 1 = 4$, which has an area of $4^2 = 16$.\n• **Step 3 (How to Finish):** Subtract the area of the unshaded $3 \\times 3$ square ($3^2 = 9$) from the total $4 \\times 4$ area ($16$) to find the shaded area."
+  },
+  {
+    "id": "7",
+    "question": "What is the minimum possible product of three different numbers of the set $\\{-8, -6, -4, 0, 3, 5, 7\\}$?",
+    "options": [
+      "(A) -336",
+      "(B) -280",
+      "(C) -210",
+      "(D) -192",
+      "(E) 0"
+    ],
+    "answer": "(B) -280",
+    "explanation": "To make the product as small as possible (most negative), the product must be negative and have the greatest possible absolute value. A negative product requires either one negative and two positive numbers, or three negative numbers. For three negatives: $(-8) \\times (-6) \\times (-4) = -192$. For one negative and two positives, to maximize the magnitude, choose the negative number with the largest absolute value ($-8$) and the two largest positive numbers ($5$ and $7$): $(-8) \\times 5 \\times 7 = -280$. Since $-280 < -192$, the minimum possible product is $-280$.",
+    "hint": "**Key Strategy:** Sign Analysis & Absolute Value Maximization\n• **Step 1 (First Move):** To find the minimum product, you want a negative number with the largest absolute value.\n• **Step 2 (The Guiding Bridge):** A negative product can be formed in two ways: (1) three negative numbers, or (2) one negative number and two positive numbers. Calculate the product of the three negatives: $(-8) \\times (-6) \\times (-4)$.\n• **Step 3 (How to Finish):** Calculate the product of the most negative number and the two largest positive numbers: $(-8) \\times 7 \\times 5$, then compare to see which result is smaller (more negative)."
+  },
+  {
+    "id": "8",
+    "question": "Three dice with faces numbered $1$ through $6$ are stacked as shown. Seven of the eighteen faces are visible, leaving eleven faces hidden (back, bottom, between). The total number of dots NOT visible in this view is",
+    "options": [
+      "(A) 21",
+      "(B) 22",
+      "(C) 31",
+      "(D) 41",
+      "(E) 53"
+    ],
+    "answer": "(D) 41",
+    "explanation": "The sum of the numbers on the faces of a single standard die is $1 + 2 + 3 + 4 + 5 + 6 = 21$. For three dice, the total number of dots on all $18$ faces is $3 \\times 21 = 63$. From the figure, the visible faces show: Top die: $1$ (top), $4$ (front), $3$ (right); Middle die: $4$ (front), $2$ (right); Bottom die: $5$ (front), $3$ (right). The sum of all visible dots is $1 + 4 + 3 + 4 + 2 + 5 + 3 = 22$. Therefore, the number of dots not visible is $63 - 22 = 41$.",
+    "hint": "**Key Strategy:** Complementary Counting (Total Minus Visible)\n• **Step 1 (First Move):** Find the total sum of all dots on one complete die: $1 + 2 + 3 + 4 + 5 + 6 = 21$. For three dice, the grand total is $3 \\times 21 = 63$.\n• **Step 2 (The Guiding Bridge):** Count the dots shown on all visible faces from top to bottom: Top die ($1, 4, 3$), Middle die ($4, 2$), Bottom die ($5, 3$), and add them up.\n• **Step 3 (How to Finish):** Subtract the sum of the visible dots from the total dots on all three dice ($63 - \\text{visible dots}$)."
+  },
+  {
+    "id": "9",
+    "question": "Three-digit powers of $2$ and $5$ are used in this cross-number puzzle. What is the only possible digit for the outlined square?\n\n**Clues:**\n- **ACROSS:** &nbsp; **2.** $2^m$\n- **DOWN:** &nbsp;&nbsp;&nbsp;&nbsp; **1.** $5^n$",
+    "options": [
+      "(A) 0",
+      "(B) 2",
+      "(C) 4",
+      "(D) 6",
+      "(E) 8"
+    ],
+    "answer": "(D) 6",
+    "explanation": "The only three-digit powers of $5$ are $5^3 = 125$ and $5^4 = 625$. Thus, 1-Down is either $125$ or $625$. In either case, the second digit of 1-Down is $2$. This $2$ is the first digit of 2-Across. The three-digit powers of $2$ are $2^7 = 128$, $2^8 = 256$, and $2^9 = 512$. The only one starting with $2$ is $256$. The outlined square is the third digit of 2-Across, which must be $6$.",
+    "hint": "**Key Strategy:** Listing Powers & Cross-Grid Intersection\n• **Step 1 (First Move):** List all 3-digit powers of $5$: $5^3 = 125$ and $5^4 = 625$. Notice that both share the same middle (tens) digit: $2$.\n• **Step 2 (The Guiding Bridge):** The second digit of 1-Down is the first digit of 2-Across, so 2-Across must be a 3-digit power of $2$ starting with $2$. List the 3-digit powers of $2$ ($128, 256, 512$).\n• **Step 3 (How to Finish):** Identify which power of $2$ starts with $2$, and inspect its last digit, which fills the outlined square."
+  },
+  {
+    "id": "10",
+    "question": "Ara and Shea were once the same height. Since then Shea has grown $20\\%$ while Ara has grown half as many inches as Shea. Shea is now $60$ inches tall. How tall, in inches, is Ara now?",
+    "options": [
+      "(A) 48",
+      "(B) 51",
+      "(C) 52",
+      "(D) 54",
+      "(E) 55"
+    ],
+    "answer": "(E) 55",
+    "explanation": "Let $h$ be their original height. Since Shea grew by $20\\%$, her current height is $1.20h = 60$ inches. Solving for $h$, we get $h = 60 / 1.20 = 50$ inches. So Shea grew $60 - 50 = 10$ inches. Ara grew half as many inches as Shea, which is $10 / 2 = 5$ inches. Therefore, Ara is now $50 + 5 = 55$ inches tall.",
+    "hint": "**Key Strategy:** Working Backwards from Percentage Increase\n• **Step 1 (First Move):** Shea is now $60$ inches tall after a $20\\%$ growth, meaning $120\\%$ of her original height is $60$. Set up $1.20 \\times h = 60$ to find their original height.\n• **Step 2 (The Guiding Bridge):** Divide $60$ by $1.20$ to get their starting height ($50$ inches). Then determine how many inches Shea grew ($60 - 50 = 10$ inches).\n• **Step 3 (How to Finish):** Ara grew half as much as Shea ($10 \\div 2 = 5$ inches). Add $5$ inches to the original height ($50 + 5$) to find Ara's current height."
+  },
+  {
+    "id": "11",
+    "question": "The number $64$ has the property that it is divisible by its units digit. How many whole numbers between $10$ and $50$ have this property?",
+    "options": [
+      "(A) 15",
+      "(B) 16",
+      "(C) 17",
+      "(D) 18",
+      "(E) 20"
+    ],
+    "answer": "(C) 17",
+    "explanation": "The numbers strictly between $10$ and $50$ range from $11$ to $49$. A number cannot be divided by $0$, so numbers ending in $0$ are excluded. We check decade by decade:\n• **Teens (11–19):** Every number ending in $1$ ($11$) or $2$ ($12$) is divisible. $15$ is divisible by $5$. Checking: $11, 12, 15$. (3 numbers)\n• **Twenties (21–29):** $21$ (div by 1), $22$ (div by 2), $24$ (div by 4), $25$ (div by 5). (4 numbers)\n• **Thirties (31–39):** $31$ (div by 1), $32$ (div by 2), $33$ (div by 3), $35$ (div by 5), $36$ (div by 6). (5 numbers)\n• **Forties (41–49):** $41$ (div by 1), $42$ (div by 2), $44$ (div by 4), $45$ (div by 5), $48$ (div by 8). (5 numbers)\nTotal = $3 + 4 + 5 + 5 = 17$ numbers.",
+    "hint": "**Key Strategy:** Systematic Casework by Tens Digit\n• **Step 1 (First Move):** Note that whole numbers between $10$ and $50$ are $11$ through $49$. Units digit cannot be $0$ (division by zero is undefined), so exclude $20, 30, 40$.\n• **Step 2 (The Guiding Bridge):** Note that every number ending in $1$ ($11, 21, 31, 41$) works. Every even number whose units digit divides its tens digit works (e.g., $12, 22, 24, 32, 36, 42, 44, 48$). Every number ending in $5$ works ($15, 25, 35, 45$). Also check $33$.\n• **Step 3 (How to Finish):** Systematically count the valid numbers in each decade ($11\\text{--}19$: 3; $21\\text{--}29$: 4; $31\\text{--}39$: 5; $41\\text{--}49$: 5) and sum them up."
+  },
+  {
+    "id": "12",
+    "question": "A block wall $100$ feet long and $7$ feet high will be constructed using blocks that are $1$ foot high and either $2$ feet long or $1$ foot long (no blocks may be cut). The vertical joins in the blocks must be staggered as shown, and the wall must be even on the ends. What is the smallest number of blocks needed to build this wall?",
+    "options": [
+      "(A) 344",
+      "(B) 347",
+      "(C) 350",
+      "(D) 353",
+      "(E) 356"
+    ],
+    "answer": "(D) 353",
+    "explanation": "To minimize the number of blocks, we should use as many $2$-foot blocks as possible in each row. A $100$-foot row can be made of fifty $2$-foot blocks ($50$ blocks). However, for the vertical joins to stagger, adjacent rows cannot have all seams at the same even-foot marks. A row can be made of one $1$-foot block at each end and forty-nine $2$-foot blocks in the middle: $1 + (49 \\times 2) + 1 = 100$ feet, requiring $1 + 49 + 1 = 51$ blocks. By alternating rows of $50$ blocks and $51$ blocks, the joints stagger properly. To minimize blocks, use four rows of $50$ blocks and three rows of $51$ blocks: $(4 \\times 50) + (3 \\times 51) = 200 + 153 = 353$ blocks.",
+    "hint": "**Key Strategy:** Optimization / Minimizing Count via Largest Units\n• **Step 1 (First Move):** To minimize total blocks, maximize the use of $2$-foot blocks. A row made entirely of $2$-foot blocks uses $100 \\div 2 = 50$ blocks.\n• **Step 2 (The Guiding Bridge):** To stagger the vertical joints between adjacent rows, the alternating rows must start and end with a $1$-foot block, using $49$ two-foot blocks in between ($1 + 49 + 1 = 51$ blocks).\n• **Step 3 (How to Finish):** In a $7$-row wall, use four rows of $50$ blocks and three rows of $51$ blocks: calculate $(4 \\times 50) + (3 \\times 51)$."
+  },
+  {
+    "id": "13",
+    "question": "In triangle $CAT$, we have $\\angle ACT = \\angle ATC$ and $\\angle CAT = 36^\\circ$. If $\\overline{TR}$ bisects $\\angle ATC$, then $\\angle CRT =$",
+    "options": [
+      "(A) $16^\\circ$",
+      "(B) $51^\\circ$",
+      "(C) $72^\\circ$",
+      "(D) $90^\\circ$",
+      "(E) $108^\\circ$"
+    ],
+    "answer": "(C) $72^\\circ$",
+    "explanation": "In $\\triangle CAT$, the sum of angles is $180^\\circ$. Since $\\angle ACT = \\angle ATC$, we have $2\\angle ATC + 36^\\circ = 180^\\circ$, so $2\\angle ATC = 144^\\circ$ and $\\angle ACT = \\angle ATC = 72^\\circ$. Since $\\overline{TR}$ bisects $\\angle ATC$, $\\angle CTR = 72^\\circ / 2 = 36^\\circ$. In $\\triangle CRT$, the sum of angles is $180^\\circ$, so $\\angle CRT = 180^\\circ - \\angle ACT - \\angle CTR = 180^\\circ - 72^\\circ - 36^\\circ = 72^\\circ$.",
+    "hint": "**Key Strategy:** Angle Chasing in Isosceles Triangles\n• **Step 1 (First Move):** Find base angle $\\angle ATC$ (and $\\angle ACT$) in isosceles triangle $CAT$: since the vertex angle is $36^\\circ$, $(180^\\circ - 36^\\circ) \\div 2 = 72^\\circ$.\n• **Step 2 (The Guiding Bridge):** Ray $\\overline{TR}$ bisects $\\angle ATC$, so calculate $\\angle CTR = 72^\\circ \\div 2 = 36^\\circ$.\n• **Step 3 (How to Finish):** In $\\triangle CRT$, sum the angles to $180^\\circ$: $\\angle CRT = 180^\\circ - \\angle ACT - \\angle CTR = 180^\\circ - 72^\\circ - 36^\\circ$."
+  },
+  {
+    "id": "14",
+    "question": "What is the units digit of $19^{19} + 99^{99}$?",
+    "options": [
+      "(A) 0",
+      "(B) 1",
+      "(C) 2",
+      "(D) 8",
+      "(E) 9"
+    ],
+    "answer": "(D) 8",
+    "explanation": "Powers of numbers ending in $9$ have a units digit pattern of length 2: $9^1 = 9$, $9^2 = 81$ (ends in 1), $9^3 = 729$ (ends in 9), and so on. For any odd power, a number ending in $9$ has a units digit of $9$. Since $19$ is odd, $19^{19}$ ends in $9$. Since $99$ is odd, $99^{99}$ also ends in $9$. Adding them: $9 + 9 = 18$, so the units digit of the sum is $8$.",
+    "hint": "**Key Strategy:** Units Digit Patterns / Modular Arithmetic\n• **Step 1 (First Move):** Notice the units digit cycle for powers of $9$: $9^1 = 9$, $9^2 = 1$, $9^3 = 9$, $9^4 = 1\\dots$ (odd powers end in $9$, even powers end in $1$).\n• **Step 2 (The Guiding Bridge):** Both exponents ($19$ and $99$) are odd, so both $19^{19}$ and $99^{99}$ end in the digit $9$.\n• **Step 3 (How to Finish):** Add their units digits: $9 + 9 = 18$, and take the resulting units digit."
+  },
+  {
+    "id": "15",
+    "question": "Triangles $ABC$, $ADE$, and $EFG$ are all equilateral. Points $D$ and $G$ are midpoints of $\\overline{AC}$ and $\\overline{AE}$, respectively. If $AB = 4$, what is the perimeter of figure $ABCDEFG$?",
+    "options": [
+      "(A) 12",
+      "(B) 13",
+      "(C) 15",
+      "(D) 18",
+      "(E) 21"
+    ],
+    "answer": "(C) 15",
+    "explanation": "Since $\\triangle ABC$ is equilateral with $AB = 4$, its side length is $4$. Thus $AC = BC = 4$. $D$ is the midpoint of $\\overline{AC}$, so $AD = DC = 2$. Since $\\triangle ADE$ is equilateral with side length $AD = 2$, we have $DE = AE = 2$. $G$ is the midpoint of $\\overline{AE}$, so $AG = GE = 1$. Since $\\triangle EFG$ is equilateral with side length $GE = 1$, we have $EF = FG = 1$. The boundary of figure $ABCDEFG$ consists of: $\\overline{AB}$ ($4$), $\\overline{BC}$ ($4$), $\\overline{CD}$ ($2$), $\\overline{DE}$ ($2$), $\\overline{EF}$ ($1$), $\\overline{FG}$ ($1$), and $\\overline{GA}$ ($1$). The total perimeter is $4 + 4 + 2 + 2 + 1 + 1 + 1 = 15$.",
+    "hint": "**Key Strategy:** Geometric Scaling & Perimeter Tracing\n• **Step 1 (First Move):** Determine the side lengths of each equilateral triangle: $\\triangle ABC$ has side length $4$; since $D$ is the midpoint of $AC$, $\\triangle ADE$ has side length $2$; since $G$ is the midpoint of $AE$, $\\triangle EFG$ has side length $1$.\n• **Step 2 (The Guiding Bridge):** List the outer boundary segments: $AB = 4$, $BC = 4$, $CD = 2$, $DE = 2$, $EF = 1$, $FG = 1$, and $GA = 1$.\n• **Step 3 (How to Finish):** Sum all the exterior segment lengths: $4 + 4 + 2 + 2 + 1 + 1 + 1$."
+  },
+  {
+    "id": "16",
+    "question": "In order for Mateen to walk a kilometer ($1000\\text{ m}$) in his rectangular backyard, he must walk the length $25$ times or walk its perimeter $10$ times. What is the area of Mateen's backyard in square meters?",
+    "options": [
+      "(A) 40",
+      "(B) 200",
+      "(C) 400",
+      "(D) 500",
+      "(E) 1000"
+    ],
+    "answer": "(C) 400",
+    "explanation": "Walking the length $L$ twenty-five times gives $1000\\text{ m}$, so $25L = 1000 \\implies L = 40\\text{ m}$. Walking the perimeter $P$ ten times gives $1000\\text{ m}$, so $10P = 1000 \\implies P = 100\\text{ m}$. Since the perimeter is $2(L + W)$, we have $2(40 + W) = 100 \\implies 40 + W = 50 \\implies W = 10\\text{ m}$. The area of the backyard is $L \\times W = 40 \\times 10 = 400\\text{ m}^2$.",
+    "hint": "**Key Strategy:** Linear Equations from Perimeter & Length\n• **Step 1 (First Move):** Find the length $L$ by dividing the total distance by $25$: $L = 1000 \\div 25 = 40\\text{ m}$.\n• **Step 2 (The Guiding Bridge):** Find the perimeter $P$ by dividing the total distance by $10$: $P = 1000 \\div 10 = 100\\text{ m}$. Since $P = 2(L + W)$, set up $2(40 + W) = 100$ and solve for $W$.\n• **Step 3 (How to Finish):** Multiply length by width ($40 \\times 10$) to find the area in square meters."
+  },
+  {
+    "id": "17",
+    "question": "The operation $\\otimes$ is defined for all nonzero numbers by $a \\otimes b = \\frac{a^2}{b}$. Determine $[(1 \\otimes 2) \\otimes 3] - [1 \\otimes (2 \\otimes 3)]$.",
+    "options": [
+      "(A) $-\\dfrac{2}{3}$",
+      "(B) $-\\dfrac{1}{4}$",
+      "(C) $0$",
+      "(D) $\\dfrac{1}{4}$",
+      "(E) $\\dfrac{2}{3}$"
+    ],
+    "answer": "(A) $-\\dfrac{2}{3}$",
+    "explanation": "First evaluate $(1 \\otimes 2) \\otimes 3$:\n$1 \\otimes 2 = \\frac{1^2}{2} = \\frac{1}{2}$.\nThen $\\left(\\frac{1}{2}\\right) \\otimes 3 = \\frac{(1/2)^2}{3} = \\frac{1/4}{3} = \\frac{1}{12}$.\n\nNext evaluate $1 \\otimes (2 \\otimes 3)$:\n$2 \\otimes 3 = \\frac{2^2}{3} = \\frac{4}{3}$.\nThen $1 \\otimes \\left(\\frac{4}{3}\\right) = \\frac{1^2}{4/3} = \\frac{3}{4} = \\frac{9}{12}$.\n\nSubtracting: $\\frac{1}{12} - \\frac{9}{12} = -\\frac{8}{12} = -\\frac{2}{3}$.",
+    "hint": "**Key Strategy:** Custom Operation Evaluation / Order of Operations\n• **Step 1 (First Move):** Evaluate the first term $[(1 \\otimes 2) \\otimes 3]$: first compute $1 \\otimes 2 = \\frac{1^2}{2} = \\frac{1}{2}$, then $\\frac{1}{2} \\otimes 3 = \\frac{(1/2)^2}{3} = \\frac{1}{12}$.\n• **Step 2 (The Guiding Bridge):** Evaluate the second term $[1 \\otimes (2 \\otimes 3)]$: first compute $2 \\otimes 3 = \\frac{2^2}{3} = \\frac{4}{3}$, then $1 \\otimes \\frac{4}{3} = \\frac{1}{4/3} = \\frac{3}{4}$.\n• **Step 3 (How to Finish):** Subtract the two results: $\\frac{1}{12} - \\frac{3}{4} = \\frac{1}{12} - \\frac{9}{12} = -\\frac{8}{12}$ and simplify."
+  },
+  {
+    "id": "18",
+    "question": "Consider these two geoboard quadrilaterals. Which of the following statements is true?",
+    "options": [
+      "(A) The area of quadrilateral I is more than the area of quadrilateral II.",
+      "(B) The area of quadrilateral I is less than the area of quadrilateral II.",
+      "(C) The quadrilaterals have the same area and the same perimeter.",
+      "(D) The quadrilaterals have the same area, but the perimeter of I is more than the perimeter of II.",
+      "(E) The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II."
+    ],
+    "answer": "(E) The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II.",
+    "explanation": "Quadrilateral I is a parallelogram with a horizontal base of $1$ unit and height of $1$ unit, so $\\text{Area}(I) = 1 \\times 1 = 1$. Its sides are two horizontal segments of length $1$ and two slanted segments of length $\\sqrt{1^2 + 2^2} = \\sqrt{5}$. Thus $\\text{Perimeter}(I) = 2 + 2\\sqrt{5} \\approx 2 + 2(2.236) = 6.47$.\n\nQuadrilateral II can be split into two triangles by a vertical diagonal of length $1$. The horizontal heights of the two triangles sum to $2$, so $\\text{Area}(II) = \\frac{1}{2} \\times 1 \\times 2 = 1$. Its perimeter consists of two segments of length $\\sqrt{1^2 + 1^2} = \\sqrt{2}$ and two segments of length $\\sqrt{1^2 + 2^2} = \\sqrt{5}$. Thus $\\text{Perimeter}(II) = 2\\sqrt{2} + 2\\sqrt{5} \\approx 2(1.414) + 2(2.236) = 7.30$.\n\nBoth quadrilaterals have area $1$, but $\\text{Perimeter}(I) < \\text{Perimeter}(II)$.",
+    "hint": "**Key Strategy:** Pick's Theorem or Base × Height & Pythagorean Distances\n• **Step 1 (First Move):** Calculate the area of both shapes: Quadrilateral I is a parallelogram with base $1$ and height $1$ (Area = $1$). Quadrilateral II splits along a vertical diagonal of length $1$ into two triangles of combined base $2$ (Area = $\\frac{1}{2} \\times 1 \\times 2 = 1$). Both areas are equal!\n• **Step 2 (The Guiding Bridge):** Compare the perimeters: both shapes share two sides of length $\\sqrt{1^2 + 2^2} = \\sqrt{5}$.\n• **Step 3 (How to Finish):** Compare the remaining two sides of each: Quadrilateral I has two straight sides of length $1$ (total $2$), while Quadrilateral II has two diagonal sides of length $\\sqrt{2} \\approx 1.414$ (total $2\\sqrt{2} \\approx 2.83$). Since $2 < 2\\sqrt{2}$, Perimeter(I) < Perimeter(II)."
+  },
+  {
+    "id": "19",
+    "question": "Three circular arcs of radius $5$ units bound the region shown. Arcs $AB$ and $AD$ are quarter-circles, and arc $BCD$ is a semicircle. What is the area, in square units, of the region?",
+    "options": [
+      "(A) $25$",
+      "(B) $10 + 5\\pi$",
+      "(C) $50$",
+      "(D) $50 + 5\\pi$",
+      "(E) $25\\pi$"
+    ],
+    "answer": "(E) $25\\pi$",
+    "explanation": "Let the centers of the quarter circles be $B$ and $D$. Draw square $ABOD$ of side length $5$ where $O$ is the midpoint of $BD$. The distance $BD = 2 \\times 5 = 10$, which is the diameter of semicircle $BCD$.\nThe region is bounded by the semicircle $BCD$ on top and two inward quarter-circles $AB$ and $AD$ below.\nNotice that the top semicircle has radius $5$ and area $\\frac{1}{2}\\pi(5^2) = \\frac{25}{2}\\pi$.\nThe two quarter-circles together also have radius $5$ and combined area $2 \\times \\frac{1}{4}\\pi(5^2) = \\frac{25}{2}\\pi$.\nIf we cut off the top semicircle and rearrange it (or enclose the shape in a rectangle $2r \\times r = 10 \\times 5$), the two white quarter-circle indentations exactly cancel out and match the top semicircle protrusion! Therefore, the area of the figure is simply equal to the area of the $10 \\times 5$ rectangle: $10 \\times 5 = 50$.",
+    "hint": "**Key Strategy:** Decomposition & Cut-and-Paste Symmetry\n• **Step 1 (First Move):** Note that the top half is a semicircle of radius $5$, which has area $\\frac{1}{2}\\pi (5^2) = \\frac{25\\pi}{2}$.\n• **Step 2 (The Guiding Bridge):** The bottom cutout is formed by two quarter-circles, each of radius $5$. Together, they form an area of $2 \\times \\frac{1}{4}\\pi (5^2) = \\frac{25\\pi}{2}$.\n• **Step 3 (How to Finish):** Notice the top semicircular bulge exactly matches the bottom circular cutout. Shifting the bulge into the cutout leaves a simple rectangle of dimensions $10 \\times 5$."
+  },
+  {
+    "id": "20",
+    "question": "You have nine coins: a collection of pennies, nickels, dimes, and quarters having a total value of \\$1.02, with at least one coin of each type. How many dimes must you have?",
+    "options": [
+      "(A) 1",
+      "(B) 2",
+      "(C) 3",
+      "(D) 4",
+      "(E) 5"
+    ],
+    "answer": "(A) 1",
+    "explanation": "Let $p, n, d, q$ be the number of pennies, nickels, dimes, and quarters. We have:\n$p + n + d + q = 9$\n$p + 5n + 10d + 25q = 102$\nwith $p, n, d, q \\ge 1$.\nTo make a total ending in $2$ cents, the pennies must end in $2$ or $7$. Since we only have $9$ coins total, $p = 2$ or $p = 7$.\n• If $p = 7$, then $n + d + q = 2$, which is impossible because each type must have at least one coin (requiring at least 3 coins).\n• Thus $p = 2$. Then $n + d + q = 7$ and $5n + 10d + 25q = 100$. Dividing by $5$: $n + 2d + 5q = 20$.\nSubtracting $n + d + q = 7$ from $n + 2d + 5q = 20$ gives $d + 4q = 13$.\nSince $q$ must be an integer and $q \\ge 1$:\n- If $q = 1$: $d = 9$, but $n + d + q = 7$, impossible.\n- If $q = 2$: $d = 5$, but $n + d + q = n + 5 + 2 = 7 \\implies n = 0$, but $n \\ge 1$.\n- If $q = 3$: $d = 13 - 12 = 1$. Then $n = 7 - 1 - 3 = 3$. This works: $2$ pennies, $3$ nickels, $1$ dime, $3$ quarters = $2 + 15 + 10 + 75 = 102$ cents.\nTherefore, there is exactly $1$ dime.",
+    "hint": "**Key Strategy:** Units Digit Constraint & System of Diophantine Equations\n• **Step 1 (First Move):** The total value is $102$ cents. Since nickels, dimes, and quarters are multiples of $5$, the pennies must account for the units digit: $p$ must be $2$ or $7$. Since there are only $9$ coins total and at least one of each of the other 3 types, $p = 7$ is impossible, so $p = 2$.\n• **Step 2 (The Guiding Bridge):** With $p = 2$, the remaining $7$ coins ($n + d + q = 7$) have a value of $100$ cents ($5n + 10d + 25q = 100 \\implies n + 2d + 5q = 20$).\n• **Step 3 (How to Finish):** Subtract $(n + d + q = 7)$ from $(n + 2d + 5q = 20)$ to get $d + 4q = 13$. Test integer values of $q$: $q=3$ gives $d=1$ and $n=3$, which satisfies all conditions."
+  },
+  {
+    "id": "21",
+    "question": "Keiko tosses one penny and Ephraim tosses two pennies. The probability that Ephraim gets the same number of heads that Keiko gets is",
+    "options": [
+      "(A) $\\dfrac{1}{4}$",
+      "(B) $\\dfrac{3}{8}$",
+      "(C) $\\dfrac{1}{2}$",
+      "(D) $\\dfrac{2}{3}$",
+      "(E) $\\dfrac{3}{4}$"
+    ],
+    "answer": "(B) $\\dfrac{3}{8}$",
+    "explanation": "There are $2 \\times 2^2 = 8$ equally likely outcomes for (Keiko, Ephraim):\n• (H, HH): Keiko has 1, Ephraim has 2 (No)\n• (H, HT): Keiko has 1, Ephraim has 1 (Yes)\n• (H, TH): Keiko has 1, Ephraim has 1 (Yes)\n• (H, TT): Keiko has 1, Ephraim has 0 (No)\n• (T, HH): Keiko has 0, Ephraim has 2 (No)\n• (T, HT): Keiko has 0, Ephraim has 1 (No)\n• (T, TH): Keiko has 0, Ephraim has 1 (No)\n• (T, TT): Keiko has 0, Ephraim has 0 (Yes)\nIn exactly $3$ of the $8$ outcomes, Ephraim gets the same number of heads as Keiko. Thus, the probability is $3/8$.",
+    "hint": "**Key Strategy:** Systematic Sample Space Enumeration\n• **Step 1 (First Move):** List the total number of combined outcomes: Keiko has $2$ possible outcomes ($H, T$) and Ephraim has $4$ possible outcomes ($HH, HT, TH, TT$), giving $2 \\times 4 = 8$ equally likely outcomes.\n• **Step 2 (The Guiding Bridge):** Case 1: Both get $0$ heads. Keiko gets $T$ ($1$ way), Ephraim gets $TT$ ($1$ way) $\\to 1$ outcome. Case 2: Both get $1$ head. Keiko gets $H$ ($1$ way), Ephraim gets $HT$ or $TH$ ($2$ ways) $\\to 2$ outcomes.\n• **Step 3 (How to Finish):** Add the successful outcomes ($1 + 2 = 3$) and divide by the total number of outcomes ($8$)."
+  },
+  {
+    "id": "22",
+    "question": "A cube has edge length $2$. Suppose that we glue a cube of edge length $1$ on top of the big cube so that one of its faces rests entirely on the top face of the larger cube. The percent increase in the surface area (sides, top, and bottom) from the original cube to the new solid formed is closest to:",
+    "options": [
+      "(A) 10",
+      "(B) 15",
+      "(C) 17",
+      "(D) 21",
+      "(E) 25"
+    ],
+    "answer": "(C) 17",
+    "explanation": "The original cube has $6$ faces of area $2^2 = 4$, so its surface area is $6 \\times 4 = 24$.\nWhen the $1 \\times 1 \\times 1$ cube is glued on top:\n- The top face of the big cube loses $1^2 = 1$ of exposed area where it is covered.\n- The small cube exposes its top face (area $1$) and its four side faces (area $4 \\times 1 = 4$).\n- The top face of the small cube exactly compensates for the covered portion of the big cube.\nThus, the net increase in surface area is simply the area of the $4$ vertical sides of the small cube: $4 \\times 1 = 4$.\nThe new surface area is $24 + 4 = 28$.\nThe percent increase is $\\frac{4}{24} = \\frac{1}{6} \\approx 16.67\\%$, which is closest to $17\\%$.",
+    "hint": "**Key Strategy:** Surface Area Compensation & Net Change\n• **Step 1 (First Move):** Calculate the original surface area of the $2 \\times 2 \\times 2$ cube: $6 \\times (2^2) = 24$.\n• **Step 2 (The Guiding Bridge):** When the smaller $1 \\times 1$ cube is glued on, its top face replaces the covered area on the large cube. The net addition to the surface area is just the $4$ side faces of the small cube: $4 \\times (1^2) = 4$.\n• **Step 3 (How to Finish):** Compute the percentage increase: $\\frac{4}{24} = \\frac{1}{6} \\approx 16.67\\%$, and round to the nearest integer."
+  },
+  {
+    "id": "23",
+    "question": "There is a list of seven numbers. The average of the first four numbers is $5$, and the average of the last four numbers is $8$. If the average of all seven numbers is $6\\frac{4}{7}$, then the number common to both sets of four numbers is",
+    "options": [
+      "(A) $5\\dfrac{3}{7}$",
+      "(B) $6$",
+      "(C) $6\\dfrac{4}{7}$",
+      "(D) $7$",
+      "(E) $7\\dfrac{3}{7}$"
+    ],
+    "answer": "(B) $6$",
+    "explanation": "Let the numbers in order be $x_1, x_2, x_3, x_4, x_5, x_6, x_7$. The fourth number $x_4$ is common to both sets.\nThe sum of all seven numbers is $7 \\times 6\\frac{4}{7} = 7 \\times \\frac{46}{7} = 46$.\nThe sum of the first four numbers is $4 \\times 5 = 20$.\nThe sum of the last four numbers is $4 \\times 8 = 32$.\nAdding the two group sums gives $(x_1 + x_2 + x_3 + x_4) + (x_4 + x_5 + x_6 + x_7) = 20 + 32 = 52$.\nNotice that this sum contains all seven numbers plus an extra $x_4$. Therefore, $x_4 = 52 - 46 = 6$.",
+    "hint": "**Key Strategy:** Sum from Average & Overlap Principle\n• **Step 1 (First Move):** Calculate the grand sum of all seven numbers: $7 \\times 6\\frac{4}{7} = 7 \\times \\frac{46}{7} = 46$.\n• **Step 2 (The Guiding Bridge):** Calculate the sum of the first four numbers ($4 \\times 5 = 20$) and the sum of the last four numbers ($4 \\times 8 = 32$).\n• **Step 3 (How to Finish):** Add the two group sums ($20 + 32 = 52$). The common fourth number is counted twice in this sum, so subtract the grand sum: $52 - 46$."
+  },
+  {
+    "id": "24",
+    "question": "If $\\angle A = 20^\\circ$ and $\\angle AFG = \\angle AGF$, then $\\angle B + \\angle D =$",
+    "options": [
+      "(A) $48^\\circ$",
+      "(B) $60^\\circ$",
+      "(C) $72^\\circ$",
+      "(D) $80^\\circ$",
+      "(E) $90^\\circ$"
+    ],
+    "answer": "(D) $80^\\circ$",
+    "explanation": "In $\\triangle AFG$, the sum of angles is $180^\\circ$. Since $\\angle A = 20^\\circ$ and $\\angle AFG = \\angle AGF$, we have $2\\angle AGF = 180^\\circ - 20^\\circ = 160^\\circ \\implies \\angle AGF = 80^\\circ$.\nNotice that $\\angle AGF$ is an exterior angle to $\\triangle BGD$ (formed by intersecting lines $AD$ and $BF$ at $G$). By the Exterior Angle Theorem for $\\triangle BGD$, the exterior angle at vertex $G$ equals the sum of the two opposite interior angles: $\\angle B + \\angle D = \\angle AGF = 80^\\circ$.",
+    "hint": "**Key Strategy:** Isosceles Triangle Angles & Exterior Angle Theorem\n• **Step 1 (First Move):** In $\\triangle AFG$, use the fact that the sum of angles is $180^\\circ$ and $\\angle AFG = \\angle AGF$ to find $\\angle AGF = (180^\\circ - 20^\\circ) \\div 2 = 80^\\circ$.\n• **Step 2 (The Guiding Bridge):** Look at $\\triangle BGD$. Angle $\\angle AGF$ is an exterior angle to $\\triangle BGD$ at vertex $G$.\n• **Step 3 (How to Finish):** Apply the Exterior Angle Theorem: an exterior angle of a triangle equals the sum of the two opposite interior angles, so $\\angle B + \\angle D = \\angle AGF$."
+  },
+  {
+    "id": "25",
+    "question": "The area of rectangle $ABCD$ is $72$. If point $A$ and the midpoints of $\\overline{BC}$ and $\\overline{CD}$ are joined to form a triangle, the area of that triangle is",
+    "options": [
+      "(A) 21",
+      "(B) 27",
+      "(C) 30",
+      "(D) 36",
+      "(E) 40"
+    ],
+    "answer": "(B) 27",
+    "explanation": "Let $AB = CD = b$ and $AD = BC = h$, so the area of the rectangle is $bh = 72$. Let $M$ be the midpoint of $\\overline{BC}$ and $N$ be the midpoint of $\\overline{CD}$. Then $BM = MC = \\frac{1}{2}h$ and $DN = NC = \\frac{1}{2}b$.\nThe triangle $AMN$ is formed by subtracting three right triangles from rectangle $ABCD$:\n1. $\\triangle ABM$: $\\text{Area} = \\frac{1}{2}(AB)(BM) = \\frac{1}{2}(b)\\left(\\frac{1}{2}h\\right) = \\frac{1}{4}bh = \\frac{1}{4}(72) = 18$.\n2. $\\triangle ADN$: $\\text{Area} = \\frac{1}{2}(AD)(DN) = \\frac{1}{2}(h)\\left(\\frac{1}{2}b\\right) = \\frac{1}{4}bh = \\frac{1}{4}(72) = 18$.\n3. $\\triangle MCN$: $\\text{Area} = \\frac{1}{2}(MC)(NC) = \\frac{1}{2}\\left(\\frac{1}{2}h\\right)\\left(\\frac{1}{2}b\\right) = \\frac{1}{8}bh = \\frac{1}{8}(72) = 9$.\nThe total area of the three outside triangles is $18 + 18 + 9 = 45$.\nTherefore, the area of $\\triangle AMN$ is $72 - 45 = 27$.",
+    "hint": "**Key Strategy:** Complementary Area (Box Subtraction)\n• **Step 1 (First Move):** Let the length and width of the rectangle be $b$ and $h$, so $bh = 72$. Triangle $AMN$ is inside the rectangle, with $M$ and $N$ being the midpoints of $BC$ and $CD$.\n• **Step 2 (The Guiding Bridge):** Calculate the areas of the three right triangles surrounding $\\triangle AMN$ in terms of fractions of the rectangle's area: $\\text{Area}(\\triangle ABM) = \\frac{1}{2} \\times b \\times \\frac{h}{2} = \\frac{1}{4}(72) = 18$; $\\text{Area}(\\triangle ADN) = \\frac{1}{2} \\times h \\times \\frac{b}{2} = \\frac{1}{4}(72) = 18$; $\\text{Area}(\\triangle MCN) = \\frac{1}{2} \\times \\frac{h}{2} \\times \\frac{b}{2} = \\frac{1}{8}(72) = 9$.\n• **Step 3 (How to Finish):** Subtract the sum of the three outside right triangles from the total rectangle area: $72 - (18 + 18 + 9)$."
+  }
+]
