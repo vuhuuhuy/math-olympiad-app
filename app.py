@@ -612,9 +612,9 @@ if app_mode == "📊 My History" or (app_mode == "🎲 Practice" and st.session_
 # --- SIDEBAR: 2027 COMPETITION CALENDAR CARD ---
 st.sidebar.markdown(
     """
-    <div style='background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 10px 12px; margin-top: 16px; margin-bottom: 8px;'>
-        <div style='font-size: 13px; font-weight: 700; color: #343a40; margin-bottom: 6px;'>📌 2027 Olympiad Schedule</div>
-        <div style='font-size: 13px; color: #495057; line-height: 1.6;'>
+    <div style='background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 12px 14px; margin-top: 16px; margin-bottom: 8px;'>
+        <div style='font-size: 16px; font-weight: 700; color: #343a40; margin-bottom: 8px;'>📌 2027 Olympiad Schedule</div>
+        <div style='font-size: 16px; color: #495057; line-height: 1.7;'>
             • <strong>AMC8:</strong> Jan 2027<br>
             • <strong>SASMO:</strong> Apr 2027<br>
             • <strong>Kangaroo:</strong> Apr 2027
