@@ -25,7 +25,7 @@ LOCAL_TZ = timezone(timedelta(hours=8))
 
 # --- OFFICIAL COMPETITION DATES ---
 COMPETITION_SCHEDULE = {
-    "AMC8": "Jan 2027",
+    "AMC8": "29 Jan 2027",
     "SASMO6": "Apr 2027",
     "SASMO7": "Apr 2027",
     "Kangaroo": "Apr 2027"
@@ -615,7 +615,7 @@ st.sidebar.markdown(
     <div style='background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 12px 14px; margin-top: 16px; margin-bottom: 8px;'>
         <div style='font-size: 16px; font-weight: 700; color: #343a40; margin-bottom: 8px;'>📌 2027 Olympiad Schedule</div>
         <div style='font-size: 16px; color: #495057; line-height: 1.7;'>
-            • <strong>AMC8:</strong> Jan 2027<br>
+            • <strong>AMC8:</strong> 29 Jan 2027<br>
             • <strong>SASMO:</strong> Apr 2027<br>
             • <strong>Kangaroo:</strong> Apr 2027
         </div>
